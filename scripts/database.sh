@@ -21,7 +21,7 @@ setup_database() {
 		cat "$sql_file" | psql -h $DB_SERVER -d $DB_SERVER -U $DB_USER
 		
 		h2 "Removing SQL dump file now that DB has been restored."
-		rm sql_file
+		rm $sql_file
 		h2 "Removed."
 
 

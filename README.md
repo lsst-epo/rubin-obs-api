@@ -42,11 +42,11 @@ The default.conf can be found in /config, this is copied over to the container s
 
 ## Assets
 
-The /api/assets folder has been added to the .gitignore file for obvious reasons, if you would like you can FTP the assets down from the Digital Ocean hosted site via Cyberduck or your FTP client of preference.
+The /api/assets folder has been added to the .gitignore file for obvious file-size related reasons. If you would like you can FTP the assets down from the Digital Ocean hosted site via Cyberduck or your FTP client of preference.
 
 ## docker-compose explained
 
-A docker-compose.yml file is simply a way to define multiple images/containers that may be dependent on each other, and any environment variables that each image is expecting. When these defined containers and dependencies are brought up with the *docker-compose up* command each container is started as the dependencies dictate.
+A docker-compose.yml file is simply a way to define multiple images/containers that may be dependent on each other, and any environment variables that each image is expecting. When these defined containers and dependencies are brought up with the ```docker-compose up``` command each container is started as the dependencies dictate.
 
 It is likely that this file will be replaced with a Kubernetes kompose file at some point, but that work is forthcoming.
 

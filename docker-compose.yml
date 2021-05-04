@@ -20,7 +20,7 @@ services:
       - postgres
     volumes:
       - ./api/assets:/var/www/html/web/assets:z
-      - ./rubin-docker-poc:/var/www/html/test
+      - ./:/var/www/html/
     environment:
       DEPENDENCIES: >- # additional composer packages
         craftcms/redactor:2.0.1

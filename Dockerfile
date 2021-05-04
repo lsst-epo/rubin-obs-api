@@ -44,7 +44,7 @@ RUN set -ex \
 RUN apk add gnu-libiconv --update-cache --repository http://dl-cdn.alpinelinux.org/alpine/edge/community/ --allow-untrusted
 ENV LD_PRELOAD /usr/lib/preloadable_libiconv.so php
 
-COPY ./php.ini /usr/local/etc/php/
+COPY ./config/php.ini /usr/local/etc/php/
 
 # Comment the below lines out if you do not want to drop/create the DB upon docker run
 COPY ./db/db.sql /var/www/db/
@@ -57,7 +57,7 @@ RUN chown -R www-data:www-data /scripts \
 WORKDIR /var/www/html
 RUN chown -R www-data:www-data .    
 
-RUN chown -R www-data:www-data /var/www/html/test/
+RUN chown -R www-data:www-data /var/www/html/
 USER www-data
 
 VOLUME [ "/var/www/html" ]

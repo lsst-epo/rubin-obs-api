@@ -14,7 +14,7 @@ wait $DEPENDENCIES_PID
 
 wait
 
-h2 "🧶 🐈‍⬛  Go to http://localhost:9000/admin in your browser to start using Craft CMS."
+h2 "🧶 🐈  # Go to http://localhost:9000/admin in your browser to start using Craft CMS."
 
 # Start php-fpm
 exec "$@"
