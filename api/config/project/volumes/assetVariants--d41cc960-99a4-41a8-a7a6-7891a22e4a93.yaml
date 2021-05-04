@@ -1,0 +1,68 @@
+fieldLayouts:
+  d9f18ed7-102c-4169-b9e8-6fb4b8401ebd:
+    tabs:
+      -
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\TitleField
+            warning: null
+            width: 100
+          -
+            fieldUid: 39af5de5-d299-4bc5-965a-af2d128c7f1a
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: ce5de347-f24d-4cc2-b80f-7db689345533
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+handle: assetVariants
+hasUrls: true
+name: 'Asset Variants'
+settings:
+  addSubfolderToRootUrl: '1'
+  autoFocalPoint: ''
+  bucket: $AWS_ASSET_S3_BUCKET
+  bucketSelectionMode: manual
+  cfDistributionId: ''
+  cfPrefix: ''
+  expires: ''
+  keyId: $AWS_ASSET_KEY_ID
+  makeUploadsPublic: '1'
+  region: $AWS_ASSET_S3_REGION
+  secret: $AWS_ASSET_SECRET_KEY
+  storageClass: ''
+  subfolder: $AWS_ASSET_S3_ASSET_VARIANT_SUBFOLDER
+sortOrder: 8
+type: craft\awss3\Volume
+url: '@assetsAssetVariantBaseURL'

@@ -1,0 +1,237 @@
+field: d23a9bfc-61f9-46fa-bfe4-a4ca97a20a61
+fieldLayouts:
+  d4f1bbbd-99bc-4368-8df7-61e6ef202234:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: 1ed94e58-7078-46fb-b590-0692fbdf9c20
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 25
+          -
+            fieldUid: e7913600-c914-4ab1-a9bb-abd2bdcbfb94
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 25
+          -
+            fieldUid: 74319755-d24f-4991-a84a-0c1c031cb21e
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 25
+        name: Content
+        sortOrder: 1
+fields:
+  1ed94e58-7078-46fb-b590-0692fbdf9c20:
+    contentColumnType: string
+    fieldGroup: null
+    handle: commonName
+    instructions: ''
+    name: 'Common Name'
+    searchable: true
+    settings:
+      optgroups: true
+      options:
+        -
+          __assoc__:
+            -
+              - label
+              - 'Custom (type in field)'
+            -
+              - value
+              - custom
+            -
+              - default
+              - '1'
+        -
+          __assoc__:
+            -
+              - label
+              - Original
+            -
+              - value
+              - original
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - 'Extra Large'
+            -
+              - value
+              - extraLarge
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - Large
+            -
+              - value
+              - large
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - Medium
+            -
+              - value
+              - medium
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - Small
+            -
+              - value
+              - small
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - Thumbnail
+            -
+              - value
+              - thumbnail
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - 4k
+            -
+              - value
+              - 4k
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - 1080p
+            -
+              - value
+              - 1080p
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - 720p
+            -
+              - value
+              - 720p
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - 480p
+            -
+              - value
+              - 480p
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - 320p
+            -
+              - value
+              - 320p
+            -
+              - default
+              - ''
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Dropdown
+  74319755-d24f-4991-a84a-0c1c031cb21e:
+    contentColumnType: string
+    fieldGroup: null
+    handle: assetLink
+    instructions: ''
+    name: 'Asset Link'
+    searchable: false
+    settings:
+      allowSelfRelations: false
+      allowUploads: true
+      allowedKinds: null
+      defaultUploadLocationSource: 'volume:d41cc960-99a4-41a8-a7a6-7891a22e4a93'
+      defaultUploadLocationSubpath: ''
+      limit: '1'
+      localizeRelations: false
+      previewMode: full
+      restrictFiles: ''
+      selectionLabel: ''
+      showSiteMenu: true
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+      singleUploadLocationSource: 'volume:8e9ec71e-2cf0-4f6a-b856-8976de0ce100'
+      singleUploadLocationSubpath: ''
+      source: null
+      sources:
+        - 'volume:f944dd79-91a6-443d-b09a-de2597c7557f'
+        - 'volume:d41cc960-99a4-41a8-a7a6-7891a22e4a93'
+      targetSiteId: null
+      useSingleFolder: false
+      validateRelatedElements: false
+      viewMode: large
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Assets
+  e7913600-c914-4ab1-a9bb-abd2bdcbfb94:
+    contentColumnType: text
+    fieldGroup: null
+    handle: assetName
+    instructions: ''
+    name: 'Custom Name'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: ''
+      placeholder: ''
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: language
+    type: craft\fields\PlainText
+handle: asset
+name: Asset
+sortOrder: 2

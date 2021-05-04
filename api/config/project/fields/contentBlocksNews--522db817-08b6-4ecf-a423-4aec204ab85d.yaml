@@ -1,0 +1,15 @@
+contentColumnType: string
+fieldGroup: 824d9ca2-e755-4e41-8f6a-18e573fec8e4
+handle: contentBlocksNews
+instructions: ''
+name: 'Content Blocks - News'
+searchable: true
+settings:
+  maxBlocks: ''
+  maxTopBlocks: ''
+  minBlocks: ''
+  propagationMethod: all
+  wasModified: true
+translationKeyFormat: null
+translationMethod: site
+type: benf\neo\Field

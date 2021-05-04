@@ -1,0 +1,27 @@
+contentColumnType: text
+fieldGroup: 3754ce62-7e5c-46da-8738-2f15f70f00a4
+handle: usageTermsDefault
+instructions: ''
+name: 'Usage Terms'
+searchable: false
+settings:
+  availableTransforms: '*'
+  availableVolumes: ''
+  cleanupHtml: true
+  columnType: text
+  configSelectionMode: manual
+  defaultTransform: ''
+  manualConfig: '{"buttons":["link"]}'
+  purifierConfig: ''
+  purifyHtml: '1'
+  redactorConfig: ''
+  removeEmptyTags: '1'
+  removeInlineStyles: '1'
+  removeNbsp: '1'
+  showHtmlButtonForNonAdmins: ''
+  showUnpermittedFiles: false
+  showUnpermittedVolumes: false
+  uiMode: enlarged
+translationKeyFormat: null
+translationMethod: language
+type: craft\redactor\Field

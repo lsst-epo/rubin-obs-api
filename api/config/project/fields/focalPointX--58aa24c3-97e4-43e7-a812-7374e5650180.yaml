@@ -1,0 +1,17 @@
+contentColumnType: smallint(3)
+fieldGroup: 9940892d-32f4-4399-acac-ab559ce1c82b
+handle: focalPointX
+instructions: ''
+name: 'Focal Point X'
+searchable: false
+settings:
+  decimals: 0
+  defaultValue: '50'
+  max: '100'
+  min: '0'
+  prefix: ''
+  size: null
+  suffix: '%'
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Number

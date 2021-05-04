@@ -1,0 +1,14 @@
+contentColumnType: string
+fieldGroup: 99f4a28a-48c3-49ca-bb4a-7acbb49fde30
+handle: customHero
+instructions: 'For custom homepage'
+name: 'Custom Homepage Hero'
+searchable: false
+settings:
+  contentTable: '{{%matrixcontent_customhero}}'
+  maxBlocks: '1'
+  minBlocks: ''
+  propagationMethod: all
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix

@@ -1,0 +1,23 @@
+contentColumnType: string
+fieldGroup: 3754ce62-7e5c-46da-8738-2f15f70f00a4
+handle: galleryItemCategory
+instructions: ''
+name: 'Gallery Item Type'
+searchable: true
+settings:
+  allowLimit: false
+  allowMultipleSources: false
+  allowSelfRelations: false
+  branchLimit: '1'
+  limit: null
+  localizeRelations: false
+  selectionLabel: 'Select a category'
+  showSiteMenu: true
+  source: 'group:4ead9327-61fc-4b46-810c-5f490c2c45ad'
+  sources: '*'
+  targetSiteId: null
+  validateRelatedElements: false
+  viewMode: null
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Categories

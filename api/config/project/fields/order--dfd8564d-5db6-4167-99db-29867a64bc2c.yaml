@@ -1,0 +1,34 @@
+contentColumnType: string
+fieldGroup: df8c8d8a-c7d1-45bf-b551-ef790a5b59ad
+handle: order
+instructions: 'Defines which order the callout content appears in.'
+name: 'Content Order'
+searchable: false
+settings:
+  optgroups: true
+  options:
+    -
+      __assoc__:
+        -
+          - label
+          - 'Text first'
+        -
+          - value
+          - text
+        -
+          - default
+          - '1'
+    -
+      __assoc__:
+        -
+          - label
+          - 'Image first'
+        -
+          - value
+          - image
+        -
+          - default
+          - ''
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Dropdown

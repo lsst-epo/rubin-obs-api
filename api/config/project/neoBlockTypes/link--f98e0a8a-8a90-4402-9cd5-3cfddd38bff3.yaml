@@ -1,0 +1,25 @@
+childBlocks: ''
+field: 72e5075a-9b06-4674-b040-615f4a6f7b70
+fieldLayouts:
+  5ed91041-488b-4b8e-a7b2-e76f8ccc0fa3:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: d019727b-a6d5-43d9-a688-f10df985a87e
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: 'Tab 1'
+        sortOrder: 1
+handle: link
+maxBlocks: 0
+maxChildBlocks: 0
+maxSiblingBlocks: 0
+name: Link
+sortOrder: 3
+topLevel: true

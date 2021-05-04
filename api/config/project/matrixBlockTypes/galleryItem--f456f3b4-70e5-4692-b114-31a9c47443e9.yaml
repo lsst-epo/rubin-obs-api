@@ -1,0 +1,43 @@
+field: c11d26d4-236a-4b06-99f6-3a8f67821ada
+fieldLayouts:
+  735b7a3e-8f34-47ba-8b65-d9c1571564ca:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: 1e0c12ac-5dd7-4ed2-8cda-3801130b11e1
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+fields:
+  1e0c12ac-5dd7-4ed2-8cda-3801130b11e1:
+    contentColumnType: string
+    fieldGroup: null
+    handle: galleryItem
+    instructions: 'For a thumbnail and link to full gallery item'
+    name: 'Gallery Item'
+    searchable: false
+    settings:
+      allowSelfRelations: false
+      limit: '1'
+      localizeRelations: false
+      selectionLabel: 'Select a gallery item'
+      showSiteMenu: false
+      source: null
+      sources:
+        - 'section:3a8b9653-cdd3-46ce-84b2-d73b5dc4de63'
+      targetSiteId: null
+      validateRelatedElements: false
+      viewMode: null
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Entries
+handle: galleryItem
+name: 'Gallery Item'
+sortOrder: 5

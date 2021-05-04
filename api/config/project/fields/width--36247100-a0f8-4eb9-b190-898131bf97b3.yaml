@@ -1,0 +1,34 @@
+contentColumnType: string
+fieldGroup: df8c8d8a-c7d1-45bf-b551-ef790a5b59ad
+handle: width
+instructions: ''
+name: Width
+searchable: false
+settings:
+  optgroups: true
+  options:
+    -
+      __assoc__:
+        -
+          - label
+          - Full-bleed
+        -
+          - value
+          - full
+        -
+          - default
+          - '1'
+    -
+      __assoc__:
+        -
+          - label
+          - Block
+        -
+          - value
+          - block
+        -
+          - default
+          - ''
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Dropdown

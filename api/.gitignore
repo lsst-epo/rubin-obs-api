@@ -1,0 +1,9 @@
+# Dependencies
+/vendor
+
+# Miscellenious
+/log
+/tmp
+
+# Environment config
+.env

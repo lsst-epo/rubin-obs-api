@@ -1,0 +1,58 @@
+dateModified: 1617907056
+email:
+  fromEmail: $EMAIL_FROM_ADDRESS
+  fromName: $EMAIL_SENDER_NAME
+  replyToEmail: $EMAIL_REPLY_TO_ADDRESS
+  template: $EMAIL_HTML_EMAIL_TEMPLATE
+  transportSettings:
+    encryptionMethod: tls
+    host: $EMAIL_SMTP_HOST_NAME
+    password: $EMAIL_SMTP_PASSWORD
+    port: $EMAIL_SMTP_PORT
+    timeout: '10'
+    useAuthentication: '1'
+    username: $EMAIL_SMTP_USERNAME
+  transportType: craft\mail\transportadapters\Smtp
+plugins:
+  asset-metadata:
+    edition: standard
+    enabled: true
+    schemaVersion: 3.0.0
+  aws-s3:
+    edition: standard
+    enabled: true
+    schemaVersion: '1.2'
+  contact-form:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+    settings:
+      allowAttachments: ''
+      prependSender: 'On behalf of'
+      prependSubject: 'Contact Form Submitted'
+      successFlashMessage: 'Your message has been sent.'
+      toEmail: $CONTACT_FORM_NOTIFY_EMAIL
+  neo:
+    edition: standard
+    enabled: true
+    licenseKey: 3ZVYZYMFBDVZNFFTO4ZHHX88
+    schemaVersion: 2.8.15
+  phone-number:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  redactor:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.3.0
+  typedlinkfield:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.0.0
+system:
+  edition: pro
+  live: true
+  name: 'Rubin Telescope Education and Public Outreach'
+  retryDuration: null
+  schemaVersion: 3.5.13
+  timeZone: America/Los_Angeles

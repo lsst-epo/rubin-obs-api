@@ -1,0 +1,23 @@
+contentColumnType: string
+fieldGroup: 9940892d-32f4-4399-acac-ab559ce1c82b
+handle: subLocation
+instructions: ''
+name: 'Sub Location'
+searchable: true
+settings:
+  allowLimit: false
+  allowMultipleSources: false
+  allowSelfRelations: false
+  branchLimit: '1'
+  limit: null
+  localizeRelations: false
+  selectionLabel: ''
+  showSiteMenu: true
+  source: 'group:df7f4ec2-58b2-4c3a-afff-b07f4764fa4b'
+  sources: '*'
+  targetSiteId: null
+  validateRelatedElements: false
+  viewMode: null
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Categories

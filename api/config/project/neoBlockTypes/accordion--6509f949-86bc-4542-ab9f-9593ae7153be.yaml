@@ -1,0 +1,34 @@
+childBlocks: ''
+field: 72e5075a-9b06-4674-b040-615f4a6f7b70
+fieldLayouts:
+  d12c81d8-7643-44fc-93c0-6b61963076b0:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: b0ce3829-20c1-44ef-a7c7-499800645afc
+            instructions: ''
+            label: Question
+            required: '1'
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 7db205b7-a548-42f1-8c26-416ec51cf3fa
+            instructions: ''
+            label: Answer
+            required: '1'
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+handle: accordion
+maxBlocks: 0
+maxChildBlocks: 0
+maxSiblingBlocks: 0
+name: Accordion
+sortOrder: 6
+topLevel: false

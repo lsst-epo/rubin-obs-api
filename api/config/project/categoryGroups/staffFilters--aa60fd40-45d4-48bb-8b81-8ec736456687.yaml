@@ -1,0 +1,44 @@
+fieldLayouts:
+  9b2d602d-13ea-459b-9437-cda493e4c6b0:
+    tabs:
+      -
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            id: null
+            instructions: 'User-friendly filter name'
+            label: Label
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\TitleField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+handle: staffFilters
+name: 'Staff Filters'
+siteSettings:
+  2c2e1c6a-eb4d-44f1-9a43-8d79b326f354:
+    hasUrls: true
+    template: null
+    uriFormat: 'staff-filters/{slug}'
+  547128fa-4529-4483-9968-66425996b69f:
+    hasUrls: true
+    template: null
+    uriFormat: 'staff-filters/{slug}'
+structure:
+  maxLevels: 1
+  uid: 8b634ea7-ae09-4f56-a3f3-19f21864776a

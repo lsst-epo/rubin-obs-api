@@ -1,0 +1,92 @@
+fieldLayouts:
+  290ef876-62b5-4cf7-94d4-9ecbcc0c5d3e:
+    tabs:
+      -
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\EntryTitleField
+            warning: null
+            width: 100
+          -
+            fieldUid: cd801712-4ba3-4a9c-8fab-0d3e2a58b4eb
+            instructions: ''
+            label: ''
+            required: '1'
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 05eead62-7bf9-43e4-a7e8-bcd8f9f77323
+            instructions: 'Default homepage hero (when no breaking news).'
+            label: ''
+            required: '1'
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 50
+          -
+            fieldUid: c5f150d4-fc85-4a5f-a3a7-4d4a1d655861
+            instructions: 'If news will replace the default home, select the news post here.'
+            label: 'Breaking News'
+            required: ''
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 50
+          -
+            fieldUid: 4229ebb8-c1ab-45b0-b1ef-3f7d6fc43bab
+            instructions: 'For a custom hero area that overrides both the default and the breaking news.'
+            label: 'Custom Hero'
+            required: ''
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 72e5075a-9b06-4674-b040-615f4a6f7b70
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 8b5bcbee-1883-48ca-8c9a-6c506b9abb99
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Pages
+        sortOrder: 1
+handle: homepage
+hasTitleField: true
+name: Homepage
+section: 3e10dcca-4dd1-4578-8add-708cd9740881
+sortOrder: 1
+titleFormat: '{section.name|raw}'
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

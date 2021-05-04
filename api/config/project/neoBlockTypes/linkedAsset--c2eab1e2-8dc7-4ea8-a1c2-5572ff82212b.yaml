@@ -1,0 +1,34 @@
+childBlocks: ''
+field: 522db817-08b6-4ecf-a423-4aec204ab85d
+fieldLayouts:
+  09613661-a838-4f69-a268-d8e9fb11b021:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: b0ce3829-20c1-44ef-a7c7-499800645afc
+            instructions: ''
+            label: 'Link text'
+            required: '1'
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: a71f443d-14a3-402b-90ba-524dcce806d2
+            instructions: ''
+            label: ''
+            required: '1'
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: 'Tab 1'
+        sortOrder: 1
+handle: linkedAsset
+maxBlocks: 0
+maxChildBlocks: 0
+maxSiblingBlocks: 0
+name: 'Linked Asset'
+sortOrder: 3
+topLevel: true

@@ -1,0 +1,11 @@
+contentColumnType: string
+fieldGroup: 9940892d-32f4-4399-acac-ab559ce1c82b
+handle: phoneNumber
+instructions: ''
+name: 'Phone Number'
+searchable: true
+settings:
+  defaultRegion: US
+translationKeyFormat: null
+translationMethod: none
+type: rynpsc\phonenumber\fields\PhoneNumberField

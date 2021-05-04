@@ -1,0 +1,67 @@
+contentColumnType: string
+fieldGroup: df8c8d8a-c7d1-45bf-b551-ef790a5b59ad
+handle: ratio
+instructions: 'Defines the ratio for content column widths.'
+name: 'Content Ratio'
+searchable: false
+settings:
+  optgroups: true
+  options:
+    -
+      __assoc__:
+        -
+          - label
+          - 33/67
+        -
+          - value
+          - '33'
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - 40/60
+        -
+          - value
+          - '40'
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - 50/50
+        -
+          - value
+          - '50'
+        -
+          - default
+          - '1'
+    -
+      __assoc__:
+        -
+          - label
+          - 60/40
+        -
+          - value
+          - '60'
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - 67/33
+        -
+          - value
+          - '67'
+        -
+          - default
+          - ''
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Dropdown

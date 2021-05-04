@@ -1,0 +1,18 @@
+contentColumnType: text
+fieldGroup: 3754ce62-7e5c-46da-8738-2f15f70f00a4
+handle: metadataVersionDefault
+instructions: ''
+name: 'Metadata Version'
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: ''
+  columnType: null
+  initialRows: '4'
+  multiline: ''
+  placeholder: ''
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

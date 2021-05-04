@@ -1,0 +1,177 @@
+contentColumnType: string
+fieldGroup: 99f4a28a-48c3-49ca-bb4a-7acbb49fde30
+handle: dynamicComponent
+instructions: 'For dynamic pages and blocks.'
+name: 'Dynamic Component'
+searchable: true
+settings:
+  optgroups: true
+  options:
+    -
+      __assoc__:
+        -
+          - label
+          - None
+        -
+          - value
+          - none
+        -
+          - default
+          - '1'
+    -
+      __assoc__:
+        -
+          - label
+          - 'All News'
+        -
+          - value
+          - news
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - 'News Posts'
+        -
+          - value
+          - newsPosts
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - 'Press Releases'
+        -
+          - value
+          - pressReleases
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - 'All Staff Profiles'
+        -
+          - value
+          - staffProfiles
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - 'Non-scientific Staff Profiles'
+        -
+          - value
+          - nonScientificStaff
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - 'Scientific Staff Profiles'
+        -
+          - value
+          - scientificStaff
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - 'Gallery Items'
+        -
+          - value
+          - galleryItems
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - Slideshows
+        -
+          - value
+          - slideshows
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - Events
+        -
+          - value
+          - events
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - 'Job Posts'
+        -
+          - value
+          - jobs
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - 'Related Content'
+        -
+          - value
+          - relatedContent
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - Search
+        -
+          - value
+          - search
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - 'Alert Stream'
+        -
+          - value
+          - alertStream
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - 'Telescope Status'
+        -
+          - value
+          - telescopeStatus
+        -
+          - default
+          - ''
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Dropdown

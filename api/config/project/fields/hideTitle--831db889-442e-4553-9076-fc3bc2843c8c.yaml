@@ -1,0 +1,13 @@
+contentColumnType: boolean
+fieldGroup: 99f4a28a-48c3-49ca-bb4a-7acbb49fde30
+handle: hideTitle
+instructions: 'Select to hide the main title on this page.'
+name: 'Hide title'
+searchable: false
+settings:
+  default: false
+  offLabel: show
+  onLabel: hide
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Lightswitch

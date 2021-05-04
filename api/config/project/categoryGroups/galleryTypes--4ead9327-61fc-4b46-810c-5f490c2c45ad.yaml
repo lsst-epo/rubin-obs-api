@@ -1,0 +1,44 @@
+fieldLayouts:
+  9532aabf-f9e0-4533-bf83-e8151ee1690d:
+    tabs:
+      -
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            id: null
+            instructions: ''
+            label: Label
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\TitleField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+handle: galleryTypes
+name: 'Gallery Types'
+siteSettings:
+  2c2e1c6a-eb4d-44f1-9a43-8d79b326f354:
+    hasUrls: true
+    template: null
+    uriFormat: 'gallery-types/{slug}'
+  547128fa-4529-4483-9968-66425996b69f:
+    hasUrls: true
+    template: null
+    uriFormat: 'gallery-types/{slug}'
+structure:
+  maxLevels: 1
+  uid: 9f7ba5c0-a9d9-4da3-9418-4b1effe213a5

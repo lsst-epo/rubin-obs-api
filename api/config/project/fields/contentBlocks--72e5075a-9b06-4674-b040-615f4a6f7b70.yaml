@@ -1,0 +1,15 @@
+contentColumnType: string
+fieldGroup: 99f4a28a-48c3-49ca-bb4a-7acbb49fde30
+handle: contentBlocks
+instructions: ''
+name: 'Content Blocks - Pages'
+searchable: true
+settings:
+  maxBlocks: ''
+  maxTopBlocks: ''
+  minBlocks: ''
+  propagationMethod: all
+  wasModified: true
+translationKeyFormat: null
+translationMethod: site
+type: benf\neo\Field

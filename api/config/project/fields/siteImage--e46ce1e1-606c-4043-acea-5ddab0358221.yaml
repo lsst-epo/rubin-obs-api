@@ -1,0 +1,31 @@
+contentColumnType: string
+fieldGroup: cee5c2f8-2801-42c2-a56c-4fe40c85b6f3
+handle: siteImage
+instructions: 'Default site image used for OpenGraph tags.'
+name: Image
+searchable: false
+settings:
+  allowSelfRelations: false
+  allowedKinds:
+    - image
+  defaultUploadLocationSource: 'volume:18a75c63-648f-4145-9cc3-386e7c8a0106'
+  defaultUploadLocationSubpath: ''
+  limit: '1'
+  localizeRelations: false
+  restrictFiles: '1'
+  selectionLabel: 'Add an image'
+  showSiteMenu: true
+  showUnpermittedFiles: false
+  showUnpermittedVolumes: false
+  singleUploadLocationSource: 'volume:8e9ec71e-2cf0-4f6a-b856-8976de0ce100'
+  singleUploadLocationSubpath: ''
+  source: null
+  sources:
+    - 'volume:18a75c63-648f-4145-9cc3-386e7c8a0106'
+  targetSiteId: null
+  useSingleFolder: false
+  validateRelatedElements: false
+  viewMode: large
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Assets

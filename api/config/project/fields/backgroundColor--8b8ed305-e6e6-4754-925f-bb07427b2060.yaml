@@ -1,0 +1,77 @@
+contentColumnType: string
+fieldGroup: df8c8d8a-c7d1-45bf-b551-ef790a5b59ad
+handle: backgroundColor
+instructions: 'Defines the background color of the callout.'
+name: 'Background Color'
+searchable: true
+settings:
+  options:
+    -
+      __assoc__:
+        -
+          - label
+          - 'Light Gray'
+        -
+          - value
+          - neutral10
+        -
+          - default
+          - '1'
+    -
+      __assoc__:
+        -
+          - label
+          - 'Dark Gray'
+        -
+          - value
+          - neutral15
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - Black
+        -
+          - value
+          - black
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - 'Light Turquoise'
+        -
+          - value
+          - turquoise10
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - Turquoise
+        -
+          - value
+          - turquoise50
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - 'Light Blue'
+        -
+          - value
+          - blue10
+        -
+          - default
+          - ''
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\RadioButtons

@@ -1,0 +1,18 @@
+contentColumnType: text
+fieldGroup: 9940892d-32f4-4399-acac-ab559ce1c82b
+handle: linkText
+instructions: 'Text for optional link at end of block. Will be populated by the page title if left blank and referencing an internal entry.'
+name: 'Link Text'
+searchable: true
+settings:
+  byteLimit: null
+  charLimit: null
+  code: ''
+  columnType: null
+  initialRows: '4'
+  multiline: ''
+  placeholder: ''
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

@@ -1,0 +1,47 @@
+fieldLayouts:
+  8826f9f3-67f3-420e-8a4b-d20ea5fbf1c4:
+    tabs:
+      -
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\TitleField
+            warning: null
+            width: 100
+          -
+            fieldUid: 39af5de5-d299-4bc5-965a-af2d128c7f1a
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+handle: staffProfiles
+hasUrls: true
+name: 'Staff Profiles'
+settings:
+  path: '@webroot/assets/staff'
+sortOrder: 7
+type: craft\volumes\Local
+url: '@assetBaseURL/assets/staff'

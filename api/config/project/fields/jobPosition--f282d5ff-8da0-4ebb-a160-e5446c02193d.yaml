@@ -1,0 +1,23 @@
+contentColumnType: string
+fieldGroup: 8096dc6c-f1bd-4d24-8add-7df7f190a17c
+handle: jobPosition
+instructions: ''
+name: 'Job Position'
+searchable: true
+settings:
+  allowLimit: false
+  allowMultipleSources: false
+  allowSelfRelations: false
+  branchLimit: '1'
+  limit: null
+  localizeRelations: false
+  selectionLabel: 'Add a job type'
+  showSiteMenu: true
+  source: 'group:cc8c47f0-3dec-44db-a47f-7ca6c984864a'
+  sources: '*'
+  targetSiteId: null
+  validateRelatedElements: false
+  viewMode: null
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Categories

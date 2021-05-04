@@ -1,0 +1,14 @@
+contentColumnType: string
+fieldGroup: cee5c2f8-2801-42c2-a56c-4fe40c85b6f3
+handle: contactInfo
+instructions: ''
+name: 'Contact Info'
+searchable: false
+settings:
+  contentTable: '{{%matrixcontent_contactinfo}}'
+  maxBlocks: ''
+  minBlocks: ''
+  propagationMethod: all
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix

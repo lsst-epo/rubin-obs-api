@@ -1,0 +1,18 @@
+fieldLayouts:
+  2504b1ee-ec68-4059-90ea-7ef9aaf7259c:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: 9c34fc8b-8bc3-4f8a-bbc8-ea58a018719a
+            instructions: ''
+            label: ''
+            required: ''
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: 'Custom Breadcrumbs'
+        sortOrder: 1
+handle: rootPageInformation
+name: 'Root Page Information'

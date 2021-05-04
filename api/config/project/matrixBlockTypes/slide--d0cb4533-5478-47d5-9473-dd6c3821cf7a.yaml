@@ -1,0 +1,120 @@
+field: b4139639-fe83-4dd3-acf6-581a798190b5
+fieldLayouts:
+  bbf3925e-2c0c-40c1-ba0e-1a171d19acb0:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: 966a6b65-ca53-48a8-89dc-74983cd624ef
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: ddf8dce2-4fa1-43d1-b306-b34d9d97a91b
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 4294fb85-8029-437c-a2e5-76bcd1a79ef1
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+fields:
+  4294fb85-8029-437c-a2e5-76bcd1a79ef1:
+    contentColumnType: string
+    fieldGroup: null
+    handle: slideAsset
+    instructions: ''
+    name: Asset
+    searchable: false
+    settings:
+      allowSelfRelations: false
+      allowUploads: true
+      allowedKinds:
+        - image
+      defaultUploadLocationSource: 'volume:d41cc960-99a4-41a8-a7a6-7891a22e4a93'
+      defaultUploadLocationSubpath: ''
+      limit: '1'
+      localizeRelations: false
+      previewMode: full
+      restrictFiles: '1'
+      selectionLabel: 'Select image'
+      showSiteMenu: true
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+      singleUploadLocationSource: 'volume:8e9ec71e-2cf0-4f6a-b856-8976de0ce100'
+      singleUploadLocationSubpath: ''
+      source: null
+      sources:
+        - 'volume:d41cc960-99a4-41a8-a7a6-7891a22e4a93'
+      targetSiteId: null
+      useSingleFolder: false
+      validateRelatedElements: false
+      viewMode: large
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Assets
+  966a6b65-ca53-48a8-89dc-74983cd624ef:
+    contentColumnType: text
+    fieldGroup: null
+    handle: slideTitle
+    instructions: ''
+    name: Title
+    searchable: true
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: ''
+      placeholder: ''
+      uiMode: enlarged
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\PlainText
+  ddf8dce2-4fa1-43d1-b306-b34d9d97a91b:
+    contentColumnType: text
+    fieldGroup: null
+    handle: slideContent
+    instructions: ''
+    name: Content
+    searchable: true
+    settings:
+      availableTransforms: '*'
+      availableVolumes: ''
+      cleanupHtml: true
+      columnType: text
+      configSelectionMode: choose
+      defaultTransform: ''
+      manualConfig: ''
+      purifierConfig: ''
+      purifyHtml: '1'
+      redactorConfig: Simple.json
+      removeEmptyTags: '1'
+      removeInlineStyles: '1'
+      removeNbsp: '1'
+      showHtmlButtonForNonAdmins: ''
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+      uiMode: enlarged
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\redactor\Field
+handle: slide
+name: Slide
+sortOrder: 1

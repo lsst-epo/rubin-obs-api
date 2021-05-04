@@ -1,0 +1,18 @@
+contentColumnType: string(20)
+fieldGroup: 9940892d-32f4-4399-acac-ab559ce1c82b
+handle: startTime
+instructions: ''
+name: 'Start Time'
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: 5
+  code: ''
+  columnType: null
+  initialRows: '4'
+  multiline: ''
+  placeholder: '09:00'
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

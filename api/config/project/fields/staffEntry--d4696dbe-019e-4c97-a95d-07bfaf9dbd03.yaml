@@ -1,0 +1,21 @@
+contentColumnType: string
+fieldGroup: 9940892d-32f4-4399-acac-ab559ce1c82b
+handle: staffEntry
+instructions: ''
+name: 'Entry - Staff Profile'
+searchable: true
+settings:
+  allowSelfRelations: false
+  limit: ''
+  localizeRelations: false
+  selectionLabel: 'Select a Staff Profile'
+  showSiteMenu: true
+  source: null
+  sources:
+    - 'section:78410791-6edc-46c9-a17b-4358dcd545ec'
+  targetSiteId: null
+  validateRelatedElements: false
+  viewMode: null
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Entries

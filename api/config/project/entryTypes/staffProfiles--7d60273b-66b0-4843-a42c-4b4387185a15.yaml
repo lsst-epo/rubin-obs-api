@@ -1,0 +1,119 @@
+fieldLayouts:
+  389cec8b-4c52-452f-b228-8e59f42953fd:
+    tabs:
+      -
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            id: null
+            instructions: ''
+            label: Name
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\EntryTitleField
+            warning: null
+            width: 100
+          -
+            fieldUid: 7970cd65-7a96-418a-8581-d6df4e039e6d
+            instructions: ''
+            label: Title
+            required: '1'
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 1d7324d5-d322-4b06-9eb5-52a6c2f856f3
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 40b120c8-203c-4787-b78c-7bfd9c56fe2f
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 7beb32e3-0674-4b9c-9878-022862950868
+            instructions: ''
+            label: ''
+            required: '1'
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 7e3805b7-2117-4d8a-865a-5abd90b6d518
+            instructions: ''
+            label: ''
+            required: '1'
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: b0ce3829-20c1-44ef-a7c7-499800645afc
+            instructions: ''
+            label: 'Pull Quote'
+            required: ''
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: b144a695-58be-4586-81cf-0ae9030280ce
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 67348234-547f-437f-8356-934347dddb5a
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 50
+          -
+            fieldUid: 40ee52fe-bbe1-4b44-97ea-ef987105496b
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 50
+        name: Content
+        sortOrder: 1
+handle: staffProfiles
+hasTitleField: true
+name: 'Staff Profiles'
+section: 78410791-6edc-46c9-a17b-4358dcd545ec
+sortOrder: 1
+titleFormat: '{staffName}'
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

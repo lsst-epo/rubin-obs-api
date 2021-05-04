@@ -1,0 +1,23 @@
+contentColumnType: string
+fieldGroup: b93cb5a6-f862-4912-9d41-4dcb4fd9e105
+handle: staffType
+instructions: ''
+name: Type
+searchable: true
+settings:
+  allowLimit: false
+  allowMultipleSources: false
+  allowSelfRelations: false
+  branchLimit: '1'
+  limit: null
+  localizeRelations: false
+  selectionLabel: 'Add Staff Type'
+  showSiteMenu: true
+  source: 'group:aa60fd40-45d4-48bb-8b81-8ec736456687'
+  sources: '*'
+  targetSiteId: null
+  validateRelatedElements: false
+  viewMode: null
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Categories

@@ -1,0 +1,15 @@
+contentColumnType: string
+fieldGroup: 99f4a28a-48c3-49ca-bb4a-7acbb49fde30
+handle: customBreadcrumbs
+instructions: ''
+name: 'Custom Breadcrumb Sets'
+searchable: false
+settings:
+  maxBlocks: ''
+  maxTopBlocks: ''
+  minBlocks: ''
+  propagationMethod: all
+  wasModified: false
+translationKeyFormat: null
+translationMethod: site
+type: benf\neo\Field
