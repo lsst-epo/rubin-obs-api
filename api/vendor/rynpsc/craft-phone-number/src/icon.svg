@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;">
+    <g transform="matrix(1,0,0,1,-110,-1.42109e-14)">
+        <g id="Phone-Number" serif:id="Phone Number" transform="matrix(1,0,0,1,-15,-15)">
+            <rect x="125" y="15" width="100" height="100" style="fill:none;"/>
+            <clipPath id="_clip1">
+                <rect x="125" y="15" width="100" height="100"/>
+            </clipPath>
+            <g clip-path="url(#_clip1)">
+                <g transform="matrix(1.03093,0,0,1.07527,8.50515,11.7742)">
+                    <path d="M210,49.5C210,23.836 188.268,3 161.5,3C134.732,3 113,23.836 113,49.5C113,75.164 134.732,96 161.5,96C188.268,96 210,75.164 210,49.5Z" style="fill:rgb(145,91,167);"/>
+                </g>
+                <g transform="matrix(0.666029,0,0,0.66599,171.212,39.3679)">
+                    <g id="Phone">
+                        <g>
+                            <g>
+                                <g transform="matrix(1,2.21828e-16,-2.21828e-16,1,-48.0007,-14.6154)">
+                                    <path d="M35.9,24.277L43.629,36.109C44.378,37.3 44.201,39.431 43.855,40.155C43.3,41.316 41.764,44.137 41.165,45.232C40.99,45.554 40.853,45.895 40.755,46.249C40.248,47.991 39.578,49.427 48.385,58.409L41.73,65.539C41.73,65.539 28.841,53.525 24.449,38.067C23.369,34.266 22.213,28.038 29.689,24.487C31.979,23.399 34.504,22.042 35.9,24.277Z" style="fill:white;"/>
+                                </g>
+                                <g transform="matrix(-1.60595e-16,-1,-1,1.60595e-16,58.7881,92.177)">
+                                    <g>
+                                        <path d="M35.9,24.277L43.629,36.109C44.378,37.3 44.201,39.431 43.855,40.155C43.3,41.316 41.764,44.137 41.165,45.232C40.99,45.554 40.853,45.895 40.755,46.249C40.248,47.991 39.578,49.427 48.385,58.409L41.73,65.539C41.73,65.539 28.841,53.525 24.449,38.067C23.369,34.266 22.213,28.038 29.689,24.487C31.979,23.399 34.504,22.042 35.9,24.277Z" style="fill:white;"/>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

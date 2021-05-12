@@ -1,0 +1,40 @@
+{
+  "name": "carlcs/craft-assetmetadata",
+  "description": "Asset Metadata plugin for Craft CMS",
+  "version": "3.0.0",
+  "type": "craft-plugin",
+  "keywords": [
+    "asset",
+    "image",
+    "audio",
+    "metadata",
+    "field",
+    "craftcms"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "carlcs",
+      "homepage": "https://github.com/carlcs"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/carlcs/craft-deleteentryversions/issues?state=open",
+    "source": "https://github.com/carlcs/craft-deleteentryversions",
+    "docs": "https://github.com/carlcs/craft-deleteentryversions"
+  },
+  "require": {
+    "craftcms/cms": "^3.0.0",
+    "carlcs/craft-commons": "^1.0.0",
+    "james-heinrich/getid3": "^1.9.15"
+  },
+  "autoload": {
+    "psr-4": {
+      "carlcs\\assetmetadata\\": "src/"
+    }
+  },
+  "extra": {
+    "handle": "asset-metadata",
+    "name": "Asset Metadata"
+  }
+}
