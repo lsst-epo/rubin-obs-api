@@ -1,6 +1,8 @@
-# Rubin Observatory Operational Website
+# Rubin Observatory Operational Website Backend/API
 
 Headless Craft CMS backend for the Rubin Observatory operational website with Docker support.
+
+This project was created with Docker version 20.10.5.
 
 ## Set up and run the project
 
@@ -47,6 +49,4 @@ The /api/assets folder has been added to the .gitignore file for obvious file-si
 ## docker-compose explained
 
 A docker-compose.yml file is simply a way to define multiple images/containers that may be dependent on each other, and any environment variables that each image is expecting. When these defined containers and dependencies are brought up with the ```docker-compose up``` command each container is started as the dependencies dictate.
-
-It is likely that this file will be replaced with a Kubernetes kompose file at some point, but that work is forthcoming.
 
