@@ -17,7 +17,3 @@ COPY --from=vendor --chown=www-data:www-data /app/vendor /var/www/html/vendor
 RUN [ -d /var/www/html/storage ] || mkdir /var/www/html/storage
 
 USER www-data
-
-ENTRYPOINT ["/docker-entrypoint.sh"]
-
-CMD [ "/usr/bin/supervisord", "-c", "/etc/supervisor/conf.d/supervisord.conf" ]

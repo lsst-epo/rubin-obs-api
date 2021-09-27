@@ -21,7 +21,7 @@ services:
       DB_DRIVER: pgsql
       DB_PORT: 5432
       ENABLE_MEMCACHED: "true"
-      MEMCACHED_IP: memcached
+      MEMCACHED_IP: cache
     ports:
       - "8080:8080"
 
