@@ -1,3 +1,4 @@
+ARG BASE_TAG=latest
 # Composer dependencies
 FROM composer:2 as vendor
 COPY api/composer.json composer.json
@@ -5,7 +6,7 @@ COPY api/composer.lock composer.lock
 # COPY custom-plugins/ ../custom-plugins/
 RUN composer install --ignore-platform-reqs --no-interaction --prefer-dist
 
-FROM gcr.io/skyviewer/craft-base-image:test
+FROM gcr.io/skyviewer/craft-base-image:$BASE_TAG
 
 LABEL maintainer="erosas@lsst.org"
 
