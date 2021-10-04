@@ -86,6 +86,6 @@ jobs:
         project_id: ${{ secrets.SV_PROJ_NAME }}
         export_default_credentials: true
 
-      # Remove the branch tag when the PR is closed
+      # Remove the branch tag when the PR is closed.
     - name: Remove branch tag
       run: gcloud run services update-traffic rubin-obs-api --remove-tags=${{ github.head_ref }} --region=us-central1
