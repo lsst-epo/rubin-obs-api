@@ -11,7 +11,7 @@ FROM gcr.io/skyviewer/craft-base-image:$BASE_TAG
 LABEL maintainer="erosas@lsst.org"
 
 USER root
-# Copy in custom code from the host machine
+# Copy in custom code from the host machine.
 WORKDIR /var/www/html
 COPY --chown=www-data:www-data api/ ./
 COPY --from=vendor --chown=www-data:www-data /app/vendor /var/www/html/vendor
