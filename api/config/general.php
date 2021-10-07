@@ -47,7 +47,7 @@ return [
         'headlessMode' => true,
 
         // Disable CSRF protection for contact form
-        'enableCsrfProtection' => $_SERVER['REQUEST_URI'] !== '/actions/contact-form/send'//,
+        'enableCsrfProtection' => $_SERVER['REQUEST_URI'] !== '/actions/contact-form/send',
 
         // Configured in nginx config for local dev, and needs to be configured in nginx
         // on staging / production, too. It's not easy to get Craft to serve CORS headers
@@ -55,6 +55,9 @@ return [
         // with this approach.
         // Commenting this out as a test to see if the client will build without -erosas
         //'allowedGraphqlOrigins' => false
+
+        // more testing -erosas
+        'enableGraphQlCaching' => false
     ],
 
     // Dev environment settings
