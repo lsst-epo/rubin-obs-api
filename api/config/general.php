@@ -58,6 +58,7 @@ return [
 
         // more testing -erosas
         'enableGraphQlCaching' => false
+        
     ],
 
     // Dev environment settings
