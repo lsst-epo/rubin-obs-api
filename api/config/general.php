@@ -53,7 +53,12 @@ return [
         // on staging / production, too. It's not easy to get Craft to serve CORS headers
         // for both GraphQL and non-Graphql requests (eg, the contact form), so we went
         // with this approach.
-        'allowedGraphqlOrigins' => false
+        // Commenting this out as a test to see if the client will build without -erosas
+        //'allowedGraphqlOrigins' => false
+
+        // more testing -erosas
+        'enableGraphQlCaching' => false
+        
     ],
 
     // Dev environment settings

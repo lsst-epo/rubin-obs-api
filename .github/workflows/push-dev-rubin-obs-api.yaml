@@ -33,12 +33,10 @@ jobs:
       run: |-
         docker build . \
           --tag "gcr.io/${{ secrets.SV_PROJ_NAME }}/rubin-obs-api:${{ github.sha }}"
-
     # Push the Docker image to Google Container Registry
     - name: Publish image to GCR
       run: |-
         docker push "gcr.io/${{ secrets.SV_PROJ_NAME }}/rubin-obs-api:${{ github.sha }}"
-
     # Deploy to Cloud Run.
     - name: Deploy to Cloud Run
       id: deploy
