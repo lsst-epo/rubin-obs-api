@@ -4,6 +4,7 @@
     "craftcms/aws-s3": "^1.2",
     "craftcms/cms": "3.5.16",
     "craftcms/contact-form": "2.2.7",
+    "craftcms/google-cloud": "^1.4",
     "craftcms/redactor": "2.8.5",
     "rynpsc/craft-phone-number": "1.4.1",
     "sebastianlenz/linkfield": "2.0.*@dev",
