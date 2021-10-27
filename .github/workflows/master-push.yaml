@@ -9,7 +9,7 @@ on:
       - 'reopened'
       - 'closed'
     branches:
-      - 'develop'
+      - 'master'
 
 jobs:
   build-push-deploy:
