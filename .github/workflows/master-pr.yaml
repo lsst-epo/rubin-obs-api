@@ -66,7 +66,7 @@ jobs:
     - name: Get the version URL
       id: get_version
       run: echo "version_url={{ steps.deploy.outputs.url }}" >> $GITHUB_ENV
-    
+
     # Create or update a comment with the URL
     - name: Find Comment
       uses: peter-evans/find-comment@v1
@@ -84,7 +84,6 @@ jobs:
         body: |
           A preview of this PR will be available at ${{ env.version_url }} until the request is closed.
         reactions: '+1'
-
 
   remove-tag:
     name: 'Remove branch tag'

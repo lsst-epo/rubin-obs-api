@@ -30,8 +30,8 @@ jobs:
     - name: Login to GCP
       uses: google-github-actions/setup-gcloud@master
       with:
-        service_account_key: ${{ secrets.DEV_SA_KEY }}
-        project_id: ${{ secrets.SV_PROJ_NAME }}
+        service_account_key: ${{ secrets.SKYVIEWER_INT_SERVICE_ACCOUNT }}
+        project_id: epo-integration-0e42
         export_default_credentials: true
 
      # Configure Docker to use the gcloud command-line tool as a credential
@@ -43,12 +43,12 @@ jobs:
     - name: Build Docker image
       run: |-
         docker build \
-          --tag "gcr.io/${{ secrets.SV_PROJ_NAME }}/rubin-obs-api:${{ github.sha }}" .
+          --tag "gcr.io/epo-integration-0e42/rubin-obs-api:${{ github.sha }}" .
 
     # Push the Docker image to Google Container Registry
     - name: Publish image to GCR
       run: |-
-        docker push "gcr.io/${{ secrets.SV_PROJ_NAME }}/rubin-obs-api:${{ github.sha }}"
+        docker push "gcr.io/epo-integration-0e42/rubin-obs-api:${{ github.sha }}"
 
     # Deploy to Cloud Run.
     - name: Deploy a tagged version to Cloud Run without redirecting traffic
@@ -56,34 +56,15 @@ jobs:
       uses: google-github-actions/deploy-cloudrun@main
       with:
         service: rubin-obs-api
-        image: gcr.io/${{ secrets.SV_PROJ_NAME }}/rubin-obs-api:${{ github.sha }}    
-        credentials: ${{ secrets.GCP_SA_KEY }}
+        image: gcr.io/epo-integration-0e42/rubin-obs-api:${{ github.sha }}    
+        credentials: ${{ secrets.SKYVIEWER_INT_SERVICE_ACCOUNT }}
         no_traffic: true
         tag: ${{ github.head_ref }}
         region: us-central1
       
-    # Get the tagged revision URL   
-    - name: Get the version URL
-      id: get_version
-      run: echo "version_url={{ steps.deploy.outputs.url }}" >> $GITHUB_ENV
-    
-    # Create or update a comment with the URL
-    - name: Find Comment
-      uses: peter-evans/find-comment@v1
-      id: fc
-      with:
-        issue-number: ${{ github.event.pull_request.number }}
-        comment-author: 'github-actions[bot]'
-        body-includes: A preview of this PR
-
-    - name: Post the URL to the PR
-      uses: peter-evans/create-or-update-comment@v1
-      with:
-        comment-id: ${{ steps.fc.outputs.comment-id }}
-        issue-number: ${{ github.event.pull_request.number }}
-        body: |
-          A preview of this PR will be available at ${{ env.version_url }} until the request is closed.
-        reactions: '+1'
+    # Echo the tagged revision URL
+    - name: Output URL
+      run: echo "${{ steps.deploy.outputs.url }}"
 
 
   remove-tag:
@@ -96,8 +77,8 @@ jobs:
     - name: Login to GCP
       uses: google-github-actions/setup-gcloud@master
       with:
-        service_account_key: ${{ secrets.DEV_SA_KEY }}
-        project_id: ${{ secrets.SV_PROJ_NAME }}
+        service_account_key: ${{ secrets.SKYVIEWER_INT_SERVICE_ACCOUNT }}
+        project_id: epo-integration-0e42
         export_default_credentials: true
 
       # Remove the branch tag when the PR is closed.
