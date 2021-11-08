@@ -65,7 +65,7 @@ jobs:
     # Get the tagged revision URL   
     - name: Get the version URL
       id: get_version
-      run: echo "version_url={{ steps.deploy.outputs.url }}" >> $GITHUB_ENV
+      run: echo "version_url=${{ steps.deploy.outputs.url }}" >> $GITHUB_ENV
     
     # Create or update a comment with the URL
     - name: Find Comment
