@@ -39,15 +39,18 @@ jobs:
       run: |-
         docker push "gcr.io/epo-integration-0e42/rubin-obs-api:${{ github.sha }}"
 
+    - name: Get VPC connector name
+      run: echo "vpc_connector=$(gcloud compute networks vpc-access connectors list --region=us-central1 --limit=1 --format='value(name)')" >> $GITHUB_ENV
+
     # Deploy to Cloud Run.
     - name: Deploy to Cloud Run
       id: deploy
-      uses: google-github-actions/deploy-cloudrun@main
-      with:
-        service: rubin-obs-api
-        image: gcr.io/epo-integration-0e42/rubin-obs-api:${{ github.sha }}    
-        credentials: ${{ secrets.SKYVIEWER_INT_SERVICE_ACCOUNT }}
-        region: us-central1
+      run: |-
+        gcloud run deploy rubin-obs-api \
+        --image=gcr.io/epo-integration-0e42/rubin-obs-api:${{ github.sha }} \
+        --vpc-connector=${{ env.vpc_connector }} \
+        --set-secrets=/var/secrets/.env=rubin-obs-api-env:latest
+        --region=us-central1
 
     # Ensure that traffic is directed to the latest revision. This is necessary because
     # the deploy-cloudrun action above is not capable of both deploying and redirecting
