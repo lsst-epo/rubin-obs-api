@@ -22,10 +22,6 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v2
 
-    - name: Print GitHub event action
-      run: |
-        echo "${{ github.event.action }}"
-
     # gcloud CLI setup
     - name: Login to GCP
       uses: google-github-actions/setup-gcloud@master
@@ -36,8 +32,7 @@ jobs:
 
      # Configure Docker to use the gcloud command-line tool as a credential
       # helper for authentication
-    - run: |-
-        gcloud --quiet auth configure-docker
+    - run: gcloud --quiet auth configure-docker
 
     # Build the Docker image
     - name: Build Docker image
@@ -47,8 +42,7 @@ jobs:
 
     # Push the Docker image to Google Container Registry
     - name: Publish image to GCR
-      run: |-
-        docker push "gcr.io/epo-integration-0e42/rubin-obs-api:${{ github.sha }}"
+      run: docker push "gcr.io/epo-integration-0e42/rubin-obs-api:${{ github.sha }}"
 
     # Deploy to Cloud Run.
     - name: Deploy a tagged version to Cloud Run without redirecting traffic
