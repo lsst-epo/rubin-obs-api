@@ -44,6 +44,8 @@ return [
             '@webBaseUrl' => App::env('WEB_BASE_URL')
         ],
 
+        'allowedGraphqlOrigins' => false,
+
         'headlessMode' => true //,
 
         // Disable CSRF protection for contact form - unnecessary until we implement certs
