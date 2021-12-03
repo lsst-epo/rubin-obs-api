@@ -30,7 +30,7 @@ services:
         - DB_PORT=5432
         - DB_DATABASE=rubin
         - DB_USER=rubin
-        - DB_PASSWORD=rubin-rocks-2021
+        - DB_PASSWORD
         - DB_SCHEMA=public
         - ENABLE_MEMCACHED=true
         - ENVIRONMENT=dev
