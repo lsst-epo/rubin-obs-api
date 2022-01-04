@@ -44,16 +44,14 @@ return [
             '@webBaseUrl' => App::env('WEB_BASE_URL')
         ],
 
-        'headlessMode' => true,
+        'allowedGraphqlOrigins' => false,
 
-        // Disable CSRF protection for contact form
-        'enableCsrfProtection' => $_SERVER['REQUEST_URI'] !== '/actions/contact-form/send',
+        'headlessMode' => true //,
 
-        // Configured in nginx config for local dev, and needs to be configured in nginx
-        // on staging / production, too. It's not easy to get Craft to serve CORS headers
-        // for both GraphQL and non-Graphql requests (eg, the contact form), so we went
-        // with this approach.
-        'allowedGraphqlOrigins' => false
+        // Disable CSRF protection for contact form - unnecessary until we implement certs
+        //'enableCsrfProtection' => $_SERVER['REQUEST_URI'] !== '/actions/contact-form/send',
+
+
     ],
 
     // Dev environment settings

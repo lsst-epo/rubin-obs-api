@@ -1,50 +1,43 @@
-# docker-compose.yml
-version: '2.2'
+version: "3.9"
 
 services:
-  nginx:
-    image: nginx:alpine
-    ports:
-      - 9000:80
-    depends_on:
-      - craft
-    volumes_from:
-      - craft
-    volumes:
-      - ./config/default.conf:/etc/nginx/conf.d/default.conf # nginx configuration (see below)
-
-  craft:
-    image: epo/rubin_api:latest
-    depends_on:
-      - postgres
-    volumes:
-      - ./api/assets:/var/www/html/web/assets:z
-      - ./:/var/www/html/
-    environment:
-      
-      SECURITY_KEY: 6SkOBU85-5lFdRleCkckUCqquBq6mBIS
-      ENVIRONMENT: dev
-      DB_DSN: pgsql:host=postgres;dbname=craft
-      DB_SERVER: postgres
-      DB_NAME: craft
-      DB_USER: craft
-      DB_PASSWORD: rootroot
-      DB_DATABASE: craft
-      DB_SCHEMA: public
-      DB_DRIVER: pgsql
-      DB_PORT: 5432
-
-  postgres:
-    image: postgres:11-alpine
-    environment:
-      POSTGRES_ROOT_PASSWORD: root
-      POSTGRES_USER: craft
-      POSTGRES_PASSWORD: rootroot
-      POSTGRES_DB: craft
-    volumes:
-      # Persistent data
-      - pgdata:/var/lib/postgresql/data
-
-volumes:
-  pgdata:
-  driver: 
+    cache:
+        image: memcached
+        ports:
+        - "11211:11211"
+    sqlproxy:
+        image: google/cloud-sdk
+        ports:
+        - "5432:5432"
+        command: |
+            gcloud compute ssh db-client-1 --project=skyviewer --zone=us-central1-a -- -t -L 0.0.0.0:5432:10.109.178.3:5432 
+        volumes:
+        - "~/.config/gcloud:/root/.config/gcloud"
+    craft:
+        build: ./
+        depends_on:
+        - cache
+        - sqlproxy
+        ports:
+        - "8080:8080"
+        volumes:
+        - "./api/web:/var/www/html/web"
+        environment:
+        - PORT=8080
+        - CP_TRIGGER=admin
+        - DB_DRIVER=pgsql
+        - DB_SERVER=sqlproxy
+        - DB_PORT=5432
+        - DB_DATABASE=rubin
+        - DB_USER=rubin
+        - DB_PASSWORD
+        - DB_SCHEMA=public
+        - ENABLE_MEMCACHED=true
+        - ENVIRONMENT=dev
+        - GCP_PROJECT_ID=skyviewer
+        - GCS_ASSET_BUCKET=https://storage.googleapis.com/craft-test-erosas
+        - MEMCACHED_IP=cache
+        - MEMCACHED_PORT=11211
+        - PRIMARY_SITE_URL=http://localhost:8080
+        - SECURITY_KEY=6SkOBU85-5lFdRleCkckUCqquBq6mBIS
+        restart: always
