@@ -21,7 +21,7 @@ jobs:
       uses: google-github-actions/setup-gcloud@master
       with:
         service_account_key: ${{ secrets.SKYVIEWER_INT_SERVICE_ACCOUNT }}
-        project_id: epo-integration-0e42
+        project_id: edc-int-6c5e
         export_default_credentials: true
 
      # Configure Docker to use the gcloud command-line tool as a credential
@@ -32,12 +32,12 @@ jobs:
     - name: Build Docker image
       run: |-
         docker build . \
-          --tag "gcr.io/epo-integration-0e42/rubin-obs-api:${{ github.sha }}"
+          --tag "gcr.io/edc-int-6c5e/rubin-obs-api:${{ github.sha }}"
 
     # Push the Docker image to Google Container Registry
     - name: Publish image to GCR
       run: |-
-        docker push "gcr.io/epo-integration-0e42/rubin-obs-api:${{ github.sha }}"
+        docker push "gcr.io/edc-int-6c5e/rubin-obs-api:${{ github.sha }}"
 
     - name: Get VPC connector name
       run: echo "vpc_connector=$(gcloud compute networks vpc-access connectors list --region=us-central1 --limit=1 --format='value(name)')" >> $GITHUB_ENV
@@ -47,7 +47,7 @@ jobs:
       id: deploy
       run: |-
         gcloud run deploy rubin-obs-api \
-        --image=gcr.io/epo-integration-0e42/rubin-obs-api:${{ github.sha }} \
+        --image=gcr.io/edc-int-6c5e/rubin-obs-api:${{ github.sha }} \
         --vpc-connector=${{ env.vpc_connector }} \
         --set-secrets=/var/secrets/.env=rubin-obs-api-env:latest
         --region=us-central1
