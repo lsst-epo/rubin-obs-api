@@ -49,7 +49,7 @@ jobs:
       id: deploy
       uses: google-github-actions/deploy-cloudrun@main
       with:
-        service: rubin-obs-api
+        service: rubin-obs-api-int
         image: gcr.io/edc-int-6c5e/rubin-obs-api:${{ github.sha }}    
         credentials: ${{ secrets.SKYVIEWER_INT_SERVICE_ACCOUNT }}
         no_traffic: true

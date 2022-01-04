@@ -46,7 +46,7 @@ jobs:
     - name: Deploy to Cloud Run
       id: deploy
       run: |-
-        gcloud run deploy rubin-obs-api \
+        gcloud run deploy rubin-obs-api-int \
         --image=gcr.io/edc-int-6c5e/rubin-obs-api:${{ github.sha }} \
         --vpc-connector=${{ env.vpc_connector }} \
         --set-secrets=/var/secrets/.env=rubin-obs-api-env:latest
