@@ -56,4 +56,4 @@ jobs:
     # the deploy-cloudrun action above is not capable of both deploying and redirecting
     # traffic in the same operation
     - name: Redirect traffic to the latest revision
-      run: gcloud run services update-traffic rubin-obs-api --platform managed --region us-central1 --to-revisions LATEST=100
+      run: gcloud run services update-traffic rubin-obs-api-int --platform managed --region us-central1 --to-revisions LATEST=100
