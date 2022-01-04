@@ -49,7 +49,7 @@ jobs:
         gcloud run deploy rubin-obs-api-int \
         --image=gcr.io/edc-int-6c5e/rubin-obs-api:${{ github.sha }} \
         --vpc-connector=${{ env.vpc_connector }} \
-        --set-secrets=/var/secrets/.env=rubin-obs-api-env:latest
+        --set-secrets=/var/secrets/.env=rubin-obs-api-env:latest \
         --region=us-central1
 
     # Ensure that traffic is directed to the latest revision. This is necessary because
