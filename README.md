@@ -8,29 +8,44 @@ This project was created with Docker version 20.10.5.
 
 ### To connect to the dev Cloud SQL DB Instance
 
-0. Install [Docker](https://docs.docker.com/get-docker/) and the [Google Cloud SDK](https://cloud.google.com/sdk/docs/install)
-1. Clone this repository
-2. Bring the Docker compose file up:
+1. Install [Docker](https://docs.docker.com/get-docker/) and the [Google Cloud SDK](https://cloud.google.com/sdk/docs/install)
+2. Clone this repository
+3. Set the database password in the `DB_PASSWORD` environment variable locally, and set the site's security key to the `SECURITY_KEY` env var.
+4. Bring the Docker compose file up:
 
-```
-docker-compose up
-```
+    ```shell
+    docker-compose up
+    ```
 
-4. Go to <http://localhost:8080/admin> to administer the site
+5. Go to <http://localhost:8080/admin> to administer the site
+
+### To connect to the integration Cloud SQL DB Instance
+
+1. Install [Docker](https://docs.docker.com/get-docker/) and the [Google Cloud SDK](https://cloud.google.com/sdk/docs/install)
+2. Clone this repository
+3. Set the database password in the `DB_PASSWORD` environment variable locally, and set the site's security key to the `SECURITY_KEY` env var.
+4. Bring the Docker compose file up:
+
+    ```shell
+    docker-compose -f docker-compose.yml -f integration.yml up
+    ```
+
+5. Go to <http://localhost:8080/admin> to administer the site
 
 ### To use a local db
 
 1. Install [Docker](https://docs.docker.com/get-docker/)
 2. Clone this repository
-3. Bring the Docker compose file up:
+3. Set the database password in the `DB_PASSWORD` environment variable locally, and set the site's security key to the `SECURITY_KEY` env var.
+4. Bring the Docker compose file up:
 
-```
+```shell
 docker-compose -f docker-compose-local-db.yml up
 ```
 
-4. Go to <http://localhost:8080/admin> to administer the site
+5. Go to <http://localhost:8080/admin> to administer the site
 
-##### Local Database notes
+#### Local Database notes
 
 If you completed the above steps you may have noticed some SQL commands in the log output.
 

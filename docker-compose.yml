@@ -39,5 +39,5 @@ services:
         - MEMCACHED_IP=cache
         - MEMCACHED_PORT=11211
         - PRIMARY_SITE_URL=http://localhost:8080
-        - SECURITY_KEY=6SkOBU85-5lFdRleCkckUCqquBq6mBIS
+        - SECURITY_KEY
         restart: always
