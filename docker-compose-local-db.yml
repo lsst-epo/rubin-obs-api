@@ -26,7 +26,7 @@ services:
       - "8080:8080"
 
   postgres:
-    image: postgres:11-alpine
+    build: ./db 
     environment:
       POSTGRES_ROOT_PASSWORD: root
       POSTGRES_USER: craft
