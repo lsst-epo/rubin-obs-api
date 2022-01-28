@@ -6,7 +6,7 @@ COPY api/composer.lock composer.lock
 # COPY custom-plugins/ ../custom-plugins/
 RUN composer install --ignore-platform-reqs --no-interaction --prefer-dist
 
-FROM gcr.io/skyviewer/craft-base-image:$BASE_TAG
+FROM us-central1-docker.pkg.dev/skyviewer/public-images/craft-base-image:$BASE_TAG
 
 LABEL maintainer="erosas@lsst.org"
 
