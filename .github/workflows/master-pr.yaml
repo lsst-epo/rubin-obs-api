@@ -46,6 +46,8 @@ jobs:
 
     # Deploy to Cloud Run.
     - name: Deploy a tagged version to Cloud Run without redirecting traffic
+      env:
+        BRANCH_NAME: ${{ github.head_ref }}
       id: deploy
       uses: google-github-actions/deploy-cloudrun@main
       with:
