@@ -5,6 +5,7 @@ services:
   cache:
     image: memcached
   craft:
+    restart: always
     build: ./
     depends_on:
       - postgres
@@ -27,6 +28,7 @@ services:
       - "8080:8080"
 
   postgres:
+    restart: always
     build: ./db 
     environment:
       POSTGRES_ROOT_PASSWORD: root
