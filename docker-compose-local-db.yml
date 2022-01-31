@@ -22,6 +22,7 @@ services:
       DB_PORT: 5432
       ENABLE_MEMCACHED: "true"
       MEMCACHED_IP: cache
+      PORT: 8080
     ports:
       - "8080:8080"
 
