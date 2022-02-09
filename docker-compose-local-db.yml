@@ -10,6 +10,7 @@ services:
     depends_on:
       - postgres
     volumes:
+      - ./api:/var/www/html
       - .env:/var/secrets/.env
     environment:
       - PORT=8080
