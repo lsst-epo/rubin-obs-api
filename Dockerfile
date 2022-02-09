@@ -14,7 +14,7 @@ USER root
 # Copy in custom code from the host machine.
 WORKDIR /var/www/html
 COPY --chown=www-data:www-data api/ ./
-COPY --from=vendor --chown=www-data:www-data /app/vendor /var/www/html/vendor
-RUN [ -d /var/www/html/storage ] || mkdir /var/www/html/storage
+COPY --from=vendor --chown=www-data:www-data /app/vendor ./vendor
+RUN mkdir /var/secrets && [ -d ./storage ] || mkdir storage
 
 USER www-data
