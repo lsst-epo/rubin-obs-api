@@ -55,6 +55,7 @@ docker-compose -f docker-compose-local-db.yml up
   * and then, for instance, to look at DB `psql -d craft -U craft`
 4. If you change `composer.json` and wanna see your changes applied: `docker build `
 5. To rebuild images and bring up the containers: `docker-compose -f docker-compose-local-db.yml up --build`
+6. When you need to do composer stuff: `docker run -v ${PWD}/api:/app composer install`
 
 #### Local Database notes
 
