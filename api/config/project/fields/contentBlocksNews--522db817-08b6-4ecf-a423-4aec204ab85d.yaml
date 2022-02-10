@@ -1,5 +1,6 @@
+columnSuffix: null
 contentColumnType: string
-fieldGroup: 824d9ca2-e755-4e41-8f6a-18e573fec8e4
+fieldGroup: 824d9ca2-e755-4e41-8f6a-18e573fec8e4 # News Posts
 handle: contentBlocksNews
 instructions: ''
 name: 'Content Blocks - News'
