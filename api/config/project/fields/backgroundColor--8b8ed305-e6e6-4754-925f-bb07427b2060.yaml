@@ -1,5 +1,6 @@
+columnSuffix: null
 contentColumnType: string
-fieldGroup: df8c8d8a-c7d1-45bf-b551-ef790a5b59ad
+fieldGroup: df8c8d8a-c7d1-45bf-b551-ef790a5b59ad # Callouts
 handle: backgroundColor
 instructions: 'Defines the background color of the callout.'
 name: 'Background Color'

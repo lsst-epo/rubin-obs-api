@@ -1,5 +1,6 @@
+columnSuffix: null
 contentColumnType: string
-fieldGroup: bb77d190-487e-45c5-a1d2-0208510a7d88
+fieldGroup: bb77d190-487e-45c5-a1d2-0208510a7d88 # Events
 handle: eventType
 instructions: ''
 name: 'Event Type'
@@ -13,7 +14,7 @@ settings:
   localizeRelations: false
   selectionLabel: 'Add an event type'
   showSiteMenu: true
-  source: 'group:3a3af2ab-b037-455a-ba95-bc3be89efdb0'
+  source: 'group:3a3af2ab-b037-455a-ba95-bc3be89efdb0' # Event Filters
   sources: '*'
   targetSiteId: null
   validateRelatedElements: false

@@ -1,5 +1,6 @@
+columnSuffix: null
 contentColumnType: smallint(3)
-fieldGroup: 9940892d-32f4-4399-acac-ab559ce1c82b
+fieldGroup: 9940892d-32f4-4399-acac-ab559ce1c82b # Common
 handle: focalPointX
 instructions: ''
 name: 'Focal Point X'
@@ -9,7 +10,9 @@ settings:
   defaultValue: '50'
   max: '100'
   min: '0'
-  prefix: ''
+  prefix: null
+  previewCurrency: null
+  previewFormat: decimal
   size: null
   suffix: '%'
 translationKeyFormat: null

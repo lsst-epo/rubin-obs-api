@@ -27,7 +27,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            fieldUid: 39af5de5-d299-4bc5-965a-af2d128c7f1a
+            fieldUid: 39af5de5-d299-4bc5-965a-af2d128c7f1a # Alternative Text
             instructions: null
             label: null
             required: false
@@ -36,7 +36,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            fieldUid: ce5de347-f24d-4cc2-b80f-7db689345533
+            fieldUid: ce5de347-f24d-4cc2-b80f-7db689345533 # metadata
             instructions: null
             label: null
             required: false
@@ -64,5 +64,7 @@ settings:
   storageClass: ''
   subfolder: $AWS_ASSET_S3_ASSET_VARIANT_SUBFOLDER
 sortOrder: 8
+titleTranslationKeyFormat: null
+titleTranslationMethod: site
 type: craft\awss3\Volume
 url: '@assetsAssetVariantBaseURL'

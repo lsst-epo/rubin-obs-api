@@ -1,5 +1,6 @@
+columnSuffix: null
 contentColumnType: string
-fieldGroup: 99f4a28a-48c3-49ca-bb4a-7acbb49fde30
+fieldGroup: 99f4a28a-48c3-49ca-bb4a-7acbb49fde30 # Pages
 handle: customHero
 instructions: 'For custom homepage'
 name: 'Custom Homepage Hero'
@@ -8,6 +9,7 @@ settings:
   contentTable: '{{%matrixcontent_customhero}}'
   maxBlocks: '1'
   minBlocks: ''
+  propagationKeyFormat: null
   propagationMethod: all
 translationKeyFormat: null
 translationMethod: site

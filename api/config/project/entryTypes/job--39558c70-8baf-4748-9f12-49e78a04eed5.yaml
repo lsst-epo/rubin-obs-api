@@ -27,7 +27,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            fieldUid: 40b120c8-203c-4787-b78c-7bfd9c56fe2f
+            fieldUid: 40b120c8-203c-4787-b78c-7bfd9c56fe2f # Sub Location
             instructions: ''
             label: Location
             required: '1'
@@ -36,7 +36,7 @@ fieldLayouts:
             warning: null
             width: 50
           -
-            fieldUid: f282d5ff-8da0-4ebb-a160-e5446c02193d
+            fieldUid: f282d5ff-8da0-4ebb-a160-e5446c02193d # Job Position
             instructions: ''
             label: ''
             required: '1'
@@ -45,7 +45,7 @@ fieldLayouts:
             warning: null
             width: 50
           -
-            fieldUid: 70d00340-3577-4a61-a2be-6e6fd986b5a7
+            fieldUid: 70d00340-3577-4a61-a2be-6e6fd986b5a7 # Open Date
             instructions: ''
             label: ''
             required: '1'
@@ -54,7 +54,7 @@ fieldLayouts:
             warning: null
             width: 50
           -
-            fieldUid: 84116f7d-7a26-41d7-bd7f-79761f9b50a9
+            fieldUid: 84116f7d-7a26-41d7-bd7f-79761f9b50a9 # Close Date
             instructions: ''
             label: ''
             required: '1'
@@ -63,7 +63,7 @@ fieldLayouts:
             warning: null
             width: 50
           -
-            fieldUid: a71f443d-14a3-402b-90ba-524dcce806d2
+            fieldUid: a71f443d-14a3-402b-90ba-524dcce806d2 # External URL
             instructions: ''
             label: ''
             required: '1'
@@ -76,7 +76,7 @@ fieldLayouts:
 handle: job
 hasTitleField: true
 name: Job
-section: 59fb5a9e-74f4-4618-adba-601791f42c92
+section: 59fb5a9e-74f4-4618-adba-601791f42c92 # Jobs
 sortOrder: 1
 titleFormat: null
 titleTranslationKeyFormat: null

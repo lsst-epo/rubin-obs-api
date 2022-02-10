@@ -27,7 +27,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            fieldUid: 39af5de5-d299-4bc5-965a-af2d128c7f1a
+            fieldUid: 39af5de5-d299-4bc5-965a-af2d128c7f1a # Alternative Text
             instructions: null
             label: null
             required: false
@@ -41,7 +41,14 @@ handle: calloutImages
 hasUrls: true
 name: 'Callout Images'
 settings:
-  path: '@webroot/assets/callout'
+  bucket: rubin-obs-api_assets_callouts
+  bucketSelectionMode: choose
+  expires: ''
+  keyFileContents: ''
+  projectId: edc-int-6c5e
+  subfolder: ''
 sortOrder: 5
-type: craft\volumes\Local
-url: '@assetBaseURL/assets/callout'
+titleTranslationKeyFormat: null
+titleTranslationMethod: site
+type: craft\googlecloud\Volume
+url: 'https://storage.googleapis.com/rubin-obs-api_assets_callouts/'

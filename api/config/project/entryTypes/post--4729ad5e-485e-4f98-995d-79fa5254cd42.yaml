@@ -4,7 +4,7 @@ fieldLayouts:
       -
         elements:
           -
-            fieldUid: 05eead62-7bf9-43e4-a7e8-bcd8f9f77323
+            fieldUid: 05eead62-7bf9-43e4-a7e8-bcd8f9f77323 # Hero
             instructions: ''
             label: ''
             required: '1'
@@ -36,7 +36,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            fieldUid: 75f0b770-5006-4359-848f-96415196bfe0
+            fieldUid: 75f0b770-5006-4359-848f-96415196bfe0 # Date
             instructions: null
             label: null
             required: false
@@ -45,7 +45,7 @@ fieldLayouts:
             warning: null
             width: 25
           -
-            fieldUid: 4404d713-d76b-4bb1-a9aa-bd88253b11d3
+            fieldUid: 4404d713-d76b-4bb1-a9aa-bd88253b11d3 # Post Type
             instructions: ''
             label: ''
             required: '1'
@@ -54,7 +54,7 @@ fieldLayouts:
             warning: null
             width: 25
           -
-            fieldUid: d49be42e-1e68-4688-ac3a-d8c7f7181965
+            fieldUid: d49be42e-1e68-4688-ac3a-d8c7f7181965 # Tags
             instructions: null
             label: null
             required: false
@@ -63,7 +63,7 @@ fieldLayouts:
             warning: null
             width: 25
           -
-            fieldUid: 6ed14c66-fec8-4bca-8f29-02cbd1620d12
+            fieldUid: 6ed14c66-fec8-4bca-8f29-02cbd1620d12 # Teaser
             instructions: null
             label: null
             required: false
@@ -72,7 +72,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            fieldUid: c11d26d4-236a-4b06-99f6-3a8f67821ada
+            fieldUid: c11d26d4-236a-4b06-99f6-3a8f67821ada # News Assets
             instructions: null
             label: null
             required: false
@@ -81,7 +81,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            fieldUid: 522db817-08b6-4ecf-a423-4aec204ab85d
+            fieldUid: 522db817-08b6-4ecf-a423-4aec204ab85d # Content Blocks - News
             instructions: null
             label: null
             required: false
@@ -94,7 +94,7 @@ fieldLayouts:
 handle: post
 hasTitleField: true
 name: 'News Post'
-section: 11be7603-f576-4af8-93a6-e285e4ff42c4
+section: 11be7603-f576-4af8-93a6-e285e4ff42c4 # News
 sortOrder: 1
 titleFormat: null
 titleTranslationKeyFormat: null
