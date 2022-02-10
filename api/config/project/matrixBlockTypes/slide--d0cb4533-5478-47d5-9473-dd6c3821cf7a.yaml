@@ -1,11 +1,11 @@
-field: b4139639-fe83-4dd3-acf6-581a798190b5
+field: b4139639-fe83-4dd3-acf6-581a798190b5 # Slideshow Items
 fieldLayouts:
   bbf3925e-2c0c-40c1-ba0e-1a171d19acb0:
     tabs:
       -
         elements:
           -
-            fieldUid: 966a6b65-ca53-48a8-89dc-74983cd624ef
+            fieldUid: 966a6b65-ca53-48a8-89dc-74983cd624ef # Title
             instructions: null
             label: null
             required: true
@@ -14,7 +14,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            fieldUid: ddf8dce2-4fa1-43d1-b306-b34d9d97a91b
+            fieldUid: ddf8dce2-4fa1-43d1-b306-b34d9d97a91b # Content
             instructions: null
             label: null
             required: true
@@ -23,7 +23,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            fieldUid: 4294fb85-8029-437c-a2e5-76bcd1a79ef1
+            fieldUid: 4294fb85-8029-437c-a2e5-76bcd1a79ef1 # Asset
             instructions: null
             label: null
             required: true
@@ -34,41 +34,8 @@ fieldLayouts:
         name: Content
         sortOrder: 1
 fields:
-  4294fb85-8029-437c-a2e5-76bcd1a79ef1:
-    contentColumnType: string
-    fieldGroup: null
-    handle: slideAsset
-    instructions: ''
-    name: Asset
-    searchable: false
-    settings:
-      allowSelfRelations: false
-      allowUploads: true
-      allowedKinds:
-        - image
-      defaultUploadLocationSource: 'volume:d41cc960-99a4-41a8-a7a6-7891a22e4a93'
-      defaultUploadLocationSubpath: ''
-      limit: '1'
-      localizeRelations: false
-      previewMode: full
-      restrictFiles: '1'
-      selectionLabel: 'Select image'
-      showSiteMenu: true
-      showUnpermittedFiles: false
-      showUnpermittedVolumes: false
-      singleUploadLocationSource: 'volume:8e9ec71e-2cf0-4f6a-b856-8976de0ce100'
-      singleUploadLocationSubpath: ''
-      source: null
-      sources:
-        - 'volume:d41cc960-99a4-41a8-a7a6-7891a22e4a93'
-      targetSiteId: null
-      useSingleFolder: false
-      validateRelatedElements: false
-      viewMode: large
-    translationKeyFormat: null
-    translationMethod: site
-    type: craft\fields\Assets
-  966a6b65-ca53-48a8-89dc-74983cd624ef:
+  966a6b65-ca53-48a8-89dc-74983cd624ef: # Title
+    columnSuffix: null
     contentColumnType: text
     fieldGroup: null
     handle: slideTitle
@@ -82,12 +49,48 @@ fields:
       columnType: null
       initialRows: '4'
       multiline: ''
-      placeholder: ''
+      placeholder: null
       uiMode: enlarged
     translationKeyFormat: null
     translationMethod: site
     type: craft\fields\PlainText
-  ddf8dce2-4fa1-43d1-b306-b34d9d97a91b:
+  4294fb85-8029-437c-a2e5-76bcd1a79ef1: # Asset
+    columnSuffix: null
+    contentColumnType: string
+    fieldGroup: null
+    handle: slideAsset
+    instructions: ''
+    name: Asset
+    searchable: false
+    settings:
+      allowSelfRelations: false
+      allowUploads: true
+      allowedKinds:
+        - image
+      defaultUploadLocationSource: 'volume:d41cc960-99a4-41a8-a7a6-7891a22e4a93' # Asset Variants
+      defaultUploadLocationSubpath: ''
+      limit: '1'
+      localizeRelations: false
+      previewMode: full
+      restrictFiles: '1'
+      selectionLabel: 'Select image'
+      showSiteMenu: true
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+      singleUploadLocationSource: 'volume:8e9ec71e-2cf0-4f6a-b856-8976de0ce100' # Heroes
+      singleUploadLocationSubpath: ''
+      source: null
+      sources:
+        - 'volume:d41cc960-99a4-41a8-a7a6-7891a22e4a93' # Asset Variants
+      targetSiteId: null
+      useSingleFolder: false
+      validateRelatedElements: false
+      viewMode: large
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Assets
+  ddf8dce2-4fa1-43d1-b306-b34d9d97a91b: # Content
+    columnSuffix: null
     contentColumnType: text
     fieldGroup: null
     handle: slideContent

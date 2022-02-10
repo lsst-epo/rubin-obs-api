@@ -1,5 +1,6 @@
+columnSuffix: null
 contentColumnType: datetime
-fieldGroup: 9940892d-32f4-4399-acac-ab559ce1c82b
+fieldGroup: 9940892d-32f4-4399-acac-ab559ce1c82b # Common
 handle: customDateCreated
 instructions: ''
 name: 'Date Created'
@@ -10,6 +11,7 @@ settings:
   minuteIncrement: '30'
   showDate: true
   showTime: false
+  showTimeZone: false
 translationKeyFormat: null
 translationMethod: none
 type: craft\fields\Date

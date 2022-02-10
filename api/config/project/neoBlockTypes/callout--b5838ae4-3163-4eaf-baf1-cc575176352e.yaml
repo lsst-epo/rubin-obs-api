@@ -1,12 +1,12 @@
 childBlocks: ''
-field: 72e5075a-9b06-4674-b040-615f4a6f7b70
+field: 72e5075a-9b06-4674-b040-615f4a6f7b70 # Content Blocks - Pages
 fieldLayouts:
   1e2db49e-b024-4fac-bf2c-2cc02ab01005:
     tabs:
       -
         elements:
           -
-            fieldUid: aa649fa7-795e-427b-bb5e-dbbf5668c3b1
+            fieldUid: aa649fa7-795e-427b-bb5e-dbbf5668c3b1 # Callout
             instructions: null
             label: null
             required: false

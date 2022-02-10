@@ -1,5 +1,6 @@
+columnSuffix: null
 contentColumnType: string
-fieldGroup: b93cb5a6-f862-4912-9d41-4dcb4fd9e105
+fieldGroup: b93cb5a6-f862-4912-9d41-4dcb4fd9e105 # Staff Profiles
 handle: staffType
 instructions: ''
 name: Type
@@ -13,7 +14,7 @@ settings:
   localizeRelations: false
   selectionLabel: 'Add Staff Type'
   showSiteMenu: true
-  source: 'group:aa60fd40-45d4-48bb-8b81-8ec736456687'
+  source: 'group:aa60fd40-45d4-48bb-8b81-8ec736456687' # Staff Filters
   sources: '*'
   targetSiteId: null
   validateRelatedElements: false
