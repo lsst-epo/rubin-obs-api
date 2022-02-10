@@ -27,7 +27,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            fieldUid: fa690eba-6d46-4a5e-9dcd-0845f5b56c1b
+            fieldUid: fa690eba-6d46-4a5e-9dcd-0845f5b56c1b # Dynamic Component
             instructions: null
             label: null
             required: false
@@ -40,7 +40,7 @@ fieldLayouts:
 handle: searchResults
 hasTitleField: false
 name: 'Search Results'
-section: 04a48967-eac4-449f-b164-c8ecbb7036d6
+section: 04a48967-eac4-449f-b164-c8ecbb7036d6 # Search Results
 sortOrder: 1
 titleFormat: '{section.name|raw}'
 titleTranslationKeyFormat: null

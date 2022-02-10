@@ -1,5 +1,6 @@
+columnSuffix: null
 contentColumnType: string
-fieldGroup: df8c8d8a-c7d1-45bf-b551-ef790a5b59ad
+fieldGroup: df8c8d8a-c7d1-45bf-b551-ef790a5b59ad # Callouts
 handle: callout
 instructions: ''
 name: Callout
@@ -12,7 +13,7 @@ settings:
   showSiteMenu: true
   source: null
   sources:
-    - 'section:7cad6f4e-cc7b-45cf-ac7b-6f383e77bc1b'
+    - 'section:7cad6f4e-cc7b-45cf-ac7b-6f383e77bc1b' # Callouts
   targetSiteId: null
   validateRelatedElements: false
   viewMode: null

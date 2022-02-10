@@ -1,5 +1,6 @@
+columnSuffix: null
 contentColumnType: string(255)
-fieldGroup: 99f4a28a-48c3-49ca-bb4a-7acbb49fde30
+fieldGroup: 99f4a28a-48c3-49ca-bb4a-7acbb49fde30 # Pages
 handle: externalUrl
 instructions: ''
 name: 'External URL'
@@ -7,6 +8,8 @@ searchable: true
 settings:
   maxLength: '255'
   placeholder: ''
+  types:
+    - url
 translationKeyFormat: null
 translationMethod: none
 type: craft\fields\Url

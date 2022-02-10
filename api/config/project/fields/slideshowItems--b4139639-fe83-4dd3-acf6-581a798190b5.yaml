@@ -1,5 +1,6 @@
+columnSuffix: null
 contentColumnType: string
-fieldGroup: 3754ce62-7e5c-46da-8738-2f15f70f00a4
+fieldGroup: 3754ce62-7e5c-46da-8738-2f15f70f00a4 # Gallery Area
 handle: slideshowItems
 instructions: ''
 name: 'Slideshow Items'
@@ -8,6 +9,7 @@ settings:
   contentTable: '{{%matrixcontent_slideshowitems}}'
   maxBlocks: ''
   minBlocks: ''
+  propagationKeyFormat: null
   propagationMethod: all
 translationKeyFormat: null
 translationMethod: site

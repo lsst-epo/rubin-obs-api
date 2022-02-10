@@ -1,5 +1,6 @@
+columnSuffix: null
 contentColumnType: text
-fieldGroup: 9940892d-32f4-4399-acac-ab559ce1c82b
+fieldGroup: 9940892d-32f4-4399-acac-ab559ce1c82b # Common
 handle: plainText
 instructions: ''
 name: 'Plain Text'

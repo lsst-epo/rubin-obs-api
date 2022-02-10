@@ -1,27 +1,30 @@
+columnSuffix: null
 contentColumnType: string
-fieldGroup: 99f4a28a-48c3-49ca-bb4a-7acbb49fde30
+fieldGroup: 99f4a28a-48c3-49ca-bb4a-7acbb49fde30 # Pages
 handle: hero
 instructions: 'The hero image for this page.'
 name: Hero
 searchable: false
 settings:
   allowSelfRelations: false
+  allowUploads: true
   allowedKinds:
     - image
-  defaultUploadLocationSource: 'volume:8e9ec71e-2cf0-4f6a-b856-8976de0ce100'
+  defaultUploadLocationSource: 'volume:8e9ec71e-2cf0-4f6a-b856-8976de0ce100' # Heroes
   defaultUploadLocationSubpath: ''
   limit: '1'
   localizeRelations: false
+  previewMode: full
   restrictFiles: '1'
   selectionLabel: ''
   showSiteMenu: true
   showUnpermittedFiles: false
   showUnpermittedVolumes: false
-  singleUploadLocationSource: 'volume:8e9ec71e-2cf0-4f6a-b856-8976de0ce100'
+  singleUploadLocationSource: 'volume:8e9ec71e-2cf0-4f6a-b856-8976de0ce100' # Heroes
   singleUploadLocationSubpath: ''
   source: null
   sources:
-    - 'volume:8e9ec71e-2cf0-4f6a-b856-8976de0ce100'
+    - 'volume:8e9ec71e-2cf0-4f6a-b856-8976de0ce100' # Heroes
   targetSiteId: null
   useSingleFolder: false
   validateRelatedElements: false
