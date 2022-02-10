@@ -1,5 +1,6 @@
+columnSuffix: null
 contentColumnType: text
-fieldGroup: 9940892d-32f4-4399-acac-ab559ce1c82b
+fieldGroup: 9940892d-32f4-4399-acac-ab559ce1c82b # Common
 handle: caption
 instructions: 'A plain text field to provide a caption for any type of asset'
 name: Caption
@@ -11,7 +12,7 @@ settings:
   columnType: null
   initialRows: '4'
   multiline: ''
-  placeholder: ''
+  placeholder: null
   uiMode: normal
 translationKeyFormat: null
 translationMethod: language

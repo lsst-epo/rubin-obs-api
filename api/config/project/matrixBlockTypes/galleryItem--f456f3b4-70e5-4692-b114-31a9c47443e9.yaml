@@ -1,11 +1,11 @@
-field: c11d26d4-236a-4b06-99f6-3a8f67821ada
+field: c11d26d4-236a-4b06-99f6-3a8f67821ada # News Assets
 fieldLayouts:
   735b7a3e-8f34-47ba-8b65-d9c1571564ca:
     tabs:
       -
         elements:
           -
-            fieldUid: 1e0c12ac-5dd7-4ed2-8cda-3801130b11e1
+            fieldUid: 1e0c12ac-5dd7-4ed2-8cda-3801130b11e1 # Gallery Item
             instructions: null
             label: null
             required: false
@@ -16,7 +16,8 @@ fieldLayouts:
         name: Content
         sortOrder: 1
 fields:
-  1e0c12ac-5dd7-4ed2-8cda-3801130b11e1:
+  1e0c12ac-5dd7-4ed2-8cda-3801130b11e1: # Gallery Item
+    columnSuffix: null
     contentColumnType: string
     fieldGroup: null
     handle: galleryItem
@@ -31,7 +32,7 @@ fields:
       showSiteMenu: false
       source: null
       sources:
-        - 'section:3a8b9653-cdd3-46ce-84b2-d73b5dc4de63'
+        - 'section:3a8b9653-cdd3-46ce-84b2-d73b5dc4de63' # Gallery
       targetSiteId: null
       validateRelatedElements: false
       viewMode: null

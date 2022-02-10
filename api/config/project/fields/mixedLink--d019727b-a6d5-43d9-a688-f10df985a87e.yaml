@@ -1,5 +1,6 @@
+columnSuffix: null
 contentColumnType: string
-fieldGroup: 9940892d-32f4-4399-acac-ab559ce1c82b
+fieldGroup: 9940892d-32f4-4399-acac-ab559ce1c82b # Common
 handle: mixedLink
 instructions: ''
 name: Link
@@ -8,6 +9,8 @@ settings:
   allowCustomText: true
   allowTarget: true
   autoNoReferrer: true
+  customTextMaxLength: 0
+  customTextRequired: false
   defaultLinkName: entry
   defaultText: ''
   enableAllLinkTypes: false
@@ -15,133 +18,45 @@ settings:
   enableElementCache: false
   enableTitle: false
   typeSettings:
-    __assoc__:
-      -
-        - asset
-        -
-          __assoc__:
-            -
-              - enabled
-              - false
-            -
-              - allowCustomQuery
-              - false
-            -
-              - allowCrossSiteLink
-              - false
-            -
-              - sources
-              - '*'
-      -
-        - category
-        -
-          __assoc__:
-            -
-              - enabled
-              - false
-            -
-              - allowCustomQuery
-              - false
-            -
-              - allowCrossSiteLink
-              - false
-            -
-              - sources
-              - '*'
-      -
-        - entry
-        -
-          __assoc__:
-            -
-              - enabled
-              - true
-            -
-              - allowCustomQuery
-              - false
-            -
-              - allowCrossSiteLink
-              - false
-            -
-              - sources
-              - '*'
-      -
-        - site
-        -
-          __assoc__:
-            -
-              - enabled
-              - false
-            -
-              - sites
-              - '*'
-      -
-        - user
-        -
-          __assoc__:
-            -
-              - enabled
-              - false
-            -
-              - allowCustomQuery
-              - false
-            -
-              - allowCrossSiteLink
-              - false
-            -
-              - sources
-              - '*'
-      -
-        - custom
-        -
-          __assoc__:
-            -
-              - enabled
-              - false
-            -
-              - allowAliases
-              - false
-            -
-              - disableValidation
-              - false
-      -
-        - email
-        -
-          __assoc__:
-            -
-              - enabled
-              - true
-            -
-              - allowAliases
-              - false
-            -
-              - disableValidation
-              - false
-      -
-        - tel
-        -
-          __assoc__:
-            -
-              - enabled
-              - true
-            -
-              - allowAliases
-              - false
-            -
-              - disableValidation
-              - false
-      -
-        - url
-        -
-          __assoc__:
-            -
-              - enabled
-              - true
-            -
-              - allowAliases
-              - false
-            -
-              - disableValidation
-              - false
+    asset:
+      allowCrossSiteLink: false
+      allowCustomQuery: false
+      enabled: false
+      sources: '*'
+    category:
+      allowCrossSiteLink: false
+      allowCustomQuery: false
+      enabled: false
+      sources: '*'
+    custom:
+      allowAliases: false
+      disableValidation: false
+      enabled: false
+    email:
+      allowAliases: false
+      disableValidation: false
+      enabled: true
+    entry:
+      allowCrossSiteLink: false
+      allowCustomQuery: false
+      enabled: true
+      sources: '*'
+    site:
+      enabled: false
+      sites: '*'
+    tel:
+      allowAliases: false
+      disableValidation: false
+      enabled: true
+    url:
+      allowAliases: false
+      disableValidation: false
+      enabled: true
+    user:
+      allowCrossSiteLink: false
+      allowCustomQuery: false
+      enabled: false
+      sources: '*'
 translationKeyFormat: null
 translationMethod: site
 type: lenz\linkfield\fields\LinkField

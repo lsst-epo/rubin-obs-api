@@ -1,5 +1,6 @@
+columnSuffix: null
 contentColumnType: text
-fieldGroup: cee5c2f8-2801-42c2-a56c-4fe40c85b6f3
+fieldGroup: cee5c2f8-2801-42c2-a56c-4fe40c85b6f3 # Site Information
 handle: colophon
 instructions: ''
 name: Colophon
@@ -7,7 +8,7 @@ searchable: true
 settings:
   availableTransforms: '*'
   availableVolumes:
-    - 18a75c63-648f-4145-9cc3-386e7c8a0106
+    - 18a75c63-648f-4145-9cc3-386e7c8a0106 # General
   cleanupHtml: true
   columnType: text
   configSelectionMode: choose

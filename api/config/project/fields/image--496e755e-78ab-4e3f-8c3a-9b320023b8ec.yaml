@@ -1,23 +1,26 @@
+columnSuffix: null
 contentColumnType: string
-fieldGroup: df8c8d8a-c7d1-45bf-b551-ef790a5b59ad
+fieldGroup: df8c8d8a-c7d1-45bf-b551-ef790a5b59ad # Callouts
 handle: image
 instructions: ''
 name: Image
 searchable: true
 settings:
   allowSelfRelations: false
+  allowUploads: true
   allowedKinds:
     - image
-  defaultUploadLocationSource: 'volume:8e9ec71e-2cf0-4f6a-b856-8976de0ce100'
+  defaultUploadLocationSource: 'volume:8e9ec71e-2cf0-4f6a-b856-8976de0ce100' # Heroes
   defaultUploadLocationSubpath: ''
   limit: '1'
   localizeRelations: false
+  previewMode: full
   restrictFiles: '1'
   selectionLabel: ''
   showSiteMenu: true
   showUnpermittedFiles: false
   showUnpermittedVolumes: false
-  singleUploadLocationSource: 'volume:f52f3e9c-434e-43b5-89eb-a5776e6bc4a6'
+  singleUploadLocationSource: 'volume:f52f3e9c-434e-43b5-89eb-a5776e6bc4a6' # Callout Images
   singleUploadLocationSubpath: ''
   source: null
   sources: '*'
