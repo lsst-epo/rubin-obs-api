@@ -1,5 +1,6 @@
+columnSuffix: null
 contentColumnType: string
-fieldGroup: 3754ce62-7e5c-46da-8738-2f15f70f00a4
+fieldGroup: 3754ce62-7e5c-46da-8738-2f15f70f00a4 # Gallery Area
 handle: representativeAssetVariant
 instructions: ''
 name: 'Representative Asset Variant'
@@ -9,7 +10,7 @@ settings:
   allowUploads: true
   allowedKinds:
     - image
-  defaultUploadLocationSource: 'volume:8e9ec71e-2cf0-4f6a-b856-8976de0ce100'
+  defaultUploadLocationSource: 'volume:8e9ec71e-2cf0-4f6a-b856-8976de0ce100' # Heroes
   defaultUploadLocationSubpath: ''
   limit: '1'
   localizeRelations: false
@@ -19,7 +20,7 @@ settings:
   showSiteMenu: true
   showUnpermittedFiles: false
   showUnpermittedVolumes: false
-  singleUploadLocationSource: 'volume:d41cc960-99a4-41a8-a7a6-7891a22e4a93'
+  singleUploadLocationSource: 'volume:d41cc960-99a4-41a8-a7a6-7891a22e4a93' # Asset Variants
   singleUploadLocationSubpath: ''
   source: null
   sources: '*'

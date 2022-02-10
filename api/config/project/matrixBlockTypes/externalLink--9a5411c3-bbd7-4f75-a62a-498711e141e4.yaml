@@ -1,11 +1,11 @@
-field: c11d26d4-236a-4b06-99f6-3a8f67821ada
+field: c11d26d4-236a-4b06-99f6-3a8f67821ada # News Assets
 fieldLayouts:
   908d7981-63ac-461e-81c4-da6c921a1db9:
     tabs:
       -
         elements:
           -
-            fieldUid: c4060079-e438-4c63-8b06-77cdea857fd9
+            fieldUid: c4060079-e438-4c63-8b06-77cdea857fd9 # Text
             instructions: null
             label: null
             required: false
@@ -14,7 +14,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            fieldUid: 95b97a67-eccb-4910-b0e8-77f5860058b4
+            fieldUid: 95b97a67-eccb-4910-b0e8-77f5860058b4 # Link
             instructions: null
             label: null
             required: false
@@ -25,7 +25,8 @@ fieldLayouts:
         name: Content
         sortOrder: 1
 fields:
-  95b97a67-eccb-4910-b0e8-77f5860058b4:
+  95b97a67-eccb-4910-b0e8-77f5860058b4: # Link
+    columnSuffix: null
     contentColumnType: string(255)
     fieldGroup: null
     handle: externalLink
@@ -35,10 +36,13 @@ fields:
     settings:
       maxLength: '255'
       placeholder: ''
+      types:
+        - url
     translationKeyFormat: null
     translationMethod: none
     type: craft\fields\Url
-  c4060079-e438-4c63-8b06-77cdea857fd9:
+  c4060079-e438-4c63-8b06-77cdea857fd9: # Text
+    columnSuffix: null
     contentColumnType: text
     fieldGroup: null
     handle: text
@@ -52,7 +56,7 @@ fields:
       columnType: null
       initialRows: '4'
       multiline: ''
-      placeholder: ''
+      placeholder: null
       uiMode: normal
     translationKeyFormat: null
     translationMethod: none

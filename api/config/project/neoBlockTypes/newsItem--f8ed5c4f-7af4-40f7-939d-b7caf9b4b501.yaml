@@ -1,12 +1,12 @@
 childBlocks: ''
-field: 72e5075a-9b06-4674-b040-615f4a6f7b70
+field: 72e5075a-9b06-4674-b040-615f4a6f7b70 # Content Blocks - Pages
 fieldLayouts:
   4e3c5644-e500-403a-8c9e-f66bf7c4937f:
     tabs:
       -
         elements:
           -
-            fieldUid: c5f150d4-fc85-4a5f-a3a7-4d4a1d655861
+            fieldUid: c5f150d4-fc85-4a5f-a3a7-4d4a1d655861 # Entry - News
             instructions: null
             label: null
             required: false
