@@ -45,10 +45,10 @@ settings:
   bucketSelectionMode: choose
   expires: '5 minutes'
   keyFileContents: ''
-  projectId: edc-int-6c5e
+  projectId: $GCP_PROJECT_ID
   subfolder: ''
 sortOrder: 2
 titleTranslationKeyFormat: null
 titleTranslationMethod: site
 type: craft\googlecloud\Volume
-url: 'https://storage.googleapis.com/rubin-obs-api_assets_content/'
+url: '@assetsContentBaseURL'
