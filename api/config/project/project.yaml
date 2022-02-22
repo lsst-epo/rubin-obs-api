@@ -1,4 +1,4 @@
-dateModified: 1644877273
+dateModified: 1645488823
 email:
   fromEmail: $EMAIL_FROM_ADDRESS
   fromName: $EMAIL_SENDER_NAME
@@ -141,6 +141,7 @@ meta:
     312197d8-1241-4fac-8422-febdf44e5e9a: 'Entry - Slideshow' # Entry - Slideshow
     547128fa-4529-4483-9968-66425996b69f: EN # EN
     660361f1-3ecb-4c5e-9274-76e54f1f291f: 'Number of items' # Number of items
+    960543c0-3ba6-466b-aa9e-9182279dd49a: 'End Date' # End Date
     04000104-ec26-4d82-959a-729454e7f1cc: Country # Country
     7187131b-681b-45de-a1ea-87a8d070c05a: 'Gallery Item' # Gallery Item
     9940892d-32f4-4399-acac-ab559ce1c82b: Common # Common
