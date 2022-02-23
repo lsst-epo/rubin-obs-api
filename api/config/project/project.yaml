@@ -1,4 +1,4 @@
-dateModified: 1645572889
+dateModified: 1645575963
 email:
   fromEmail: $EMAIL_FROM_ADDRESS
   fromName: $EMAIL_SENDER_NAME
@@ -84,6 +84,7 @@ meta:
     46d17af4-896a-4fc5-90bf-ac826090d9bc: Credit # Credit
     56f60368-4386-4395-92b6-31b15c7663cc: Contact # Contact
     58aa24c3-97e4-43e7-a812-7374e5650180: 'Focal Point X' # Focal Point X
+    58efa872-9485-42e3-a1e3-a5435def5392: Teachers # Teachers
     58f1a805-f9c5-46ce-81dd-e17a3ea99353: PublisherId # PublisherId
     59fb5a9e-74f4-4618-adba-601791f42c92: Jobs # Jobs
     61b9d842-7365-4bbf-883c-1b6433dc15f4: 'Caption - rich text' # Caption - rich text
@@ -207,6 +208,7 @@ meta:
     df7f4ec2-58b2-4c3a-afff-b07f4764fa4b: Location # Location
     df8c8d8a-c7d1-45bf-b551-ef790a5b59ad: Callouts # Callouts
     dfd8564d-5db6-4167-99db-29867a64bc2c: 'Content Order' # Content Order
+    e0be58f6-fc1b-4a02-816c-0a37b0fcd602: Students # Students
     e46ce1e1-606c-4043-acea-5ddab0358221: Image # Image
     e48cbecf-107a-43c6-b099-9d6f3d7cadd8: Credit # Credit
     e98e0ffd-73fa-4e57-808c-dcb9873209ca: 'Entry - Gallery' # Entry - Gallery
@@ -258,6 +260,392 @@ plugins:
     enabled: true
     licenseKey: 2O72FZR51K6PB2RMARXXAGU6
     schemaVersion: 1.2.0
+    settings:
+      activationEmailSent: 'You will receive an email if it matches an account in our system'
+      allowRegistration: '1'
+      allowedFacebookDomains: null
+      allowedGoogleDomains: null
+      allowedTwitterDomains: null
+      appleClientId: null
+      appleClientSecret: null
+      appleRedirectUrl: null
+      appleServiceId: null
+      appleServiceSecret: null
+      assetMutations: null
+      assetNotFound: 'We couldn''t find any matching assets'
+      assetQueries: null
+      emailNotInScope: 'No email in scope'
+      entryMutations: null
+      entryNotFound: 'We couldn''t find any matching entries'
+      entryQueries: null
+      facebookAppId: null
+      facebookAppSecret: null
+      facebookEmailMismatch: 'Email address doesn''t match allowed Facebook domains'
+      facebookRedirectUrl: null
+      fieldRestrictions:
+        __assoc__:
+          -
+            - schema-1
+            -
+              __assoc__:
+                -
+                  - address
+                  - queryMutate
+                -
+                  - altText
+                  - queryMutate
+                -
+                  - assetVariants
+                  - queryMutate
+                -
+                  - backgroundColor
+                  - queryMutate
+                -
+                  - staffBio
+                  - queryMutate
+                -
+                  - bold
+                  - queryMutate
+                -
+                  - callout
+                  - queryMutate
+                -
+                  - caption
+                  - queryMutate
+                -
+                  - captionRichText
+                  - queryMutate
+                -
+                  - city
+                  - queryMutate
+                -
+                  - closeDate
+                  - queryMutate
+                -
+                  - colophon
+                  - queryMutate
+                -
+                  - contactInfo
+                  - queryMutate
+                -
+                  - contentBlocksNews
+                  - queryMutate
+                -
+                  - contentBlocks
+                  - queryMutate
+                -
+                  - contentImage
+                  - queryMutate
+                -
+                  - order
+                  - queryMutate
+                -
+                  - ratio
+                  - queryMutate
+                -
+                  - country
+                  - queryMutate
+                -
+                  - credit
+                  - queryMutate
+                -
+                  - creditDefault
+                  - queryMutate
+                -
+                  - customBreadcrumbs
+                  - queryMutate
+                -
+                  - customHero
+                  - queryMutate
+                -
+                  - date
+                  - queryMutate
+                -
+                  - customDateCreated
+                  - queryMutate
+                -
+                  - description
+                  - queryMutate
+                -
+                  - siteDescription
+                  - queryMutate
+                -
+                  - dynamicComponent
+                  - queryMutate
+                -
+                  - email
+                  - queryMutate
+                -
+                  - endDate
+                  - queryMutate
+                -
+                  - endTime
+                  - queryMutate
+                -
+                  - galleryEntry
+                  - queryMutate
+                -
+                  - newsEntry
+                  - queryMutate
+                -
+                  - pageEntry
+                  - queryMutate
+                -
+                  - pagePostEntry
+                  - queryMutate
+                -
+                  - slideshowEntry
+                  - queryMutate
+                -
+                  - staffEntry
+                  - queryMutate
+                -
+                  - eventType
+                  - queryMutate
+                -
+                  - externalUrl
+                  - queryMutate
+                -
+                  - facebook
+                  - queryMutate
+                -
+                  - featuredImage
+                  - queryMutate
+                -
+                  - focalPointX
+                  - queryMutate
+                -
+                  - focalPointY
+                  - queryMutate
+                -
+                  - galleryItemTags
+                  - queryMutate
+                -
+                  - galleryItemCategory
+                  - queryMutate
+                -
+                  - header
+                  - queryMutate
+                -
+                  - hero
+                  - queryMutate
+                -
+                  - hideTitle
+                  - queryMutate
+                -
+                  - image
+                  - queryMutate
+                -
+                  - siteImage
+                  - queryMutate
+                -
+                  - padImage
+                  - queryMutate
+                -
+                  - instagram
+                  - queryMutate
+                -
+                  - jobPosition
+                  - queryMutate
+                -
+                  - mixedLink
+                  - queryMutate
+                -
+                  - linkText
+                  - queryMutate
+                -
+                  - linkedIn
+                  - queryMutate
+                -
+                  - links
+                  - queryMutate
+                -
+                  - staffLocation
+                  - queryMutate
+                -
+                  - metadataDate
+                  - queryMutate
+                -
+                  - metadataVersion
+                  - queryMutate
+                -
+                  - metadataVersionDefault
+                  - queryMutate
+                -
+                  - newsAssets
+                  - queryMutate
+                -
+                  - numberOfItems
+                  - queryMutate
+                -
+                  - openDate
+                  - queryMutate
+                -
+                  - pageType
+                  - queryMutate
+                -
+                  - phoneNumber
+                  - queryMutate
+                -
+                  - plainText
+                  - queryMutate
+                -
+                  - staffPortrait
+                  - queryMutate
+                -
+                  - postType
+                  - queryMutate
+                -
+                  - publisher
+                  - queryMutate
+                -
+                  - publisherDefault
+                  - queryMutate
+                -
+                  - publisherId
+                  - queryMutate
+                -
+                  - publisherIdDefault
+                  - queryMutate
+                -
+                  - registrationCloseDate
+                  - queryMutate
+                -
+                  - registrationOpenDate
+                  - queryMutate
+                -
+                  - representativeAssetVariant
+                  - queryMutate
+                -
+                  - richTextDescription
+                  - queryMutate
+                -
+                  - slideshowItems
+                  - queryMutate
+                -
+                  - startTime
+                  - queryMutate
+                -
+                  - state
+                  - queryMutate
+                -
+                  - subLocation
+                  - queryMutate
+                -
+                  - supportersLogos
+                  - queryMutate
+                -
+                  - postTags
+                  - queryMutate
+                -
+                  - teaser
+                  - queryMutate
+                -
+                  - text
+                  - queryMutate
+                -
+                  - siteTitle
+                  - queryMutate
+                -
+                  - twitter
+                  - queryMutate
+                -
+                  - staffType
+                  - queryMutate
+                -
+                  - usageTerms
+                  - queryMutate
+                -
+                  - usageTermsDefault
+                  - queryMutate
+                -
+                  - width
+                  - queryMutate
+                -
+                  - youTube
+                  - queryMutate
+                -
+                  - metadata
+                  - queryMutate
+      forbiddenField: 'User doesn''t have permission to access requested field(s)'
+      forbiddenMutation: 'User doesn''t have permission to perform this mutation'
+      googleClientId: null
+      googleEmailMismatch: 'Email address doesn''t match allowed Google domains'
+      googleTokenIdInvalid: 'Invalid Google Token ID'
+      granularSchemas:
+        __assoc__:
+          -
+            - group-1
+            -
+              __assoc__:
+                -
+                  - schemaName
+                  - ''
+                -
+                  - allowRegistration
+                  - ''
+                -
+                  - siteId
+                  - ''
+          -
+            - group-2
+            -
+              __assoc__:
+                -
+                  - schemaName
+                  - ''
+                -
+                  - allowRegistration
+                  - '1'
+                -
+                  - siteId
+                  - ''
+          -
+            - group-3
+            -
+              __assoc__:
+                -
+                  - schemaName
+                  - ''
+                -
+                  - allowRegistration
+                  - '1'
+                -
+                  - siteId
+                  - ''
+      invalidEmailAddress: 'Invalid email address'
+      invalidHeader: 'Invalid Authorization Header'
+      invalidJwtSecretKey: 'Invalid JWT Secret Key'
+      invalidLogin: 'We couldn''t log you in with the provided details'
+      invalidOauthToken: 'Invalid OAuth Token'
+      invalidPasswordMatch: 'New passwords do not match'
+      invalidPasswordUpdate: 'We couldn''t update the password with the provided details'
+      invalidRefreshToken: 'Invalid Refresh Token'
+      invalidRequest: 'Cannot validate request'
+      invalidSchema: 'No schema has been set for this user group'
+      invalidUserUpdate: 'We couldn''t update the user with the provided details'
+      jwtExpiration: '30 minutes'
+      jwtRefreshExpiration: '3 months'
+      jwtSecretKey: D7-h5FVM6i4s9Q5V9Z1EEhggbVy4p9qX
+      passwordResetRequired: 'Password reset required; please check your email'
+      passwordResetSent: 'You will receive an email if it matches an account in our system'
+      passwordSaved: 'Successfully saved password'
+      passwordUpdated: 'Successfully updated password'
+      permissionType: multiple
+      sameSitePolicy: strict
+      schemaId: null
+      schemaName: null
+      siteId: ''
+      tokenNotFound: 'We couldn''t find any matching tokens'
+      twitterApiKey: null
+      twitterApiKeySecret: null
+      twitterEmailMismatch: 'Email address doesn''t match allowed Twitter domains'
+      twitterRedirectUrl: null
+      userActivated: 'Successfully activated user'
+      userGroup: null
+      userNotActivated: 'Please activate your account before logging in'
+      userNotFound: 'We couldn''t find any matching users'
+      volumeNotFound: 'We couldn''t find any matching volumes'
   neo:
     edition: standard
     enabled: true
