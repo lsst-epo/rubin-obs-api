@@ -1,4 +1,4 @@
-dateModified: 1645575963
+dateModified: 1646073188
 email:
   fromEmail: $EMAIL_FROM_ADDRESS
   fromName: $EMAIL_SENDER_NAME
@@ -97,6 +97,7 @@ meta:
     72e5075a-9b06-4674-b040-615f4a6f7b70: 'Content Blocks - Pages' # Content Blocks - Pages
     0073b1d1-a221-431d-aab9-bf4e193adf4f: 'Focal Point Y' # Focal Point Y
     75f0b770-5006-4359-848f-96415196bfe0: Date # Date
+    77dc755a-bb96-4422-b00f-c7d74e45d400: 'Teacher Schema' # Teacher Schema
     80e0f53f-96b3-43d4-b166-453ac4ac0147: Header # Header
     95b97a67-eccb-4910-b0e8-77f5860058b4: Link # Link
     99f4a28a-48c3-49ca-bb4a-7acbb49fde30: Pages # Pages
@@ -203,6 +204,7 @@ meta:
     d93d96b1-80fe-486a-9ada-5d52b6e67009: 'Registration Close Date' # Registration Close Date
     d838c93b-46c2-4338-bb73-32cee25ab26f: 'Ancestors and Root' # Ancestors and Root
     d4696dbe-019e-4c97-a95d-07bfaf9dbd03: 'Entry - Staff Profile' # Entry - Staff Profile
+    d6898b26-bfa2-41d3-9e26-0092b2021762: 'Student Schema' # Student Schema
     ddb3efd5-1bce-43e1-9fb9-399ada8a8126: 'Registration Open Date' # Registration Open Date
     ddf8dce2-4fa1-43d1-b306-b34d9d97a91b: Content # Content
     df7f4ec2-58b2-4c3a-afff-b07f4764fa4b: Location # Location
@@ -567,6 +569,572 @@ plugins:
                 -
                   - metadata
                   - queryMutate
+          -
+            - 'schema-Student Schema'
+            -
+              __assoc__:
+                -
+                  - address
+                  - queryMutate
+                -
+                  - altText
+                  - queryMutate
+                -
+                  - assetVariants
+                  - queryMutate
+                -
+                  - backgroundColor
+                  - queryMutate
+                -
+                  - staffBio
+                  - queryMutate
+                -
+                  - bold
+                  - queryMutate
+                -
+                  - callout
+                  - queryMutate
+                -
+                  - caption
+                  - queryMutate
+                -
+                  - captionRichText
+                  - queryMutate
+                -
+                  - city
+                  - queryMutate
+                -
+                  - closeDate
+                  - queryMutate
+                -
+                  - colophon
+                  - queryMutate
+                -
+                  - contactInfo
+                  - queryMutate
+                -
+                  - contentBlocksNews
+                  - queryMutate
+                -
+                  - contentBlocks
+                  - queryMutate
+                -
+                  - contentImage
+                  - queryMutate
+                -
+                  - order
+                  - queryMutate
+                -
+                  - ratio
+                  - queryMutate
+                -
+                  - country
+                  - queryMutate
+                -
+                  - credit
+                  - queryMutate
+                -
+                  - creditDefault
+                  - queryMutate
+                -
+                  - customBreadcrumbs
+                  - queryMutate
+                -
+                  - customHero
+                  - queryMutate
+                -
+                  - date
+                  - queryMutate
+                -
+                  - customDateCreated
+                  - queryMutate
+                -
+                  - description
+                  - queryMutate
+                -
+                  - siteDescription
+                  - queryMutate
+                -
+                  - dynamicComponent
+                  - queryMutate
+                -
+                  - email
+                  - queryMutate
+                -
+                  - endDate
+                  - queryMutate
+                -
+                  - endTime
+                  - queryMutate
+                -
+                  - galleryEntry
+                  - queryMutate
+                -
+                  - newsEntry
+                  - queryMutate
+                -
+                  - pageEntry
+                  - queryMutate
+                -
+                  - pagePostEntry
+                  - queryMutate
+                -
+                  - slideshowEntry
+                  - queryMutate
+                -
+                  - staffEntry
+                  - queryMutate
+                -
+                  - eventType
+                  - queryMutate
+                -
+                  - externalUrl
+                  - queryMutate
+                -
+                  - facebook
+                  - queryMutate
+                -
+                  - featuredImage
+                  - queryMutate
+                -
+                  - focalPointX
+                  - queryMutate
+                -
+                  - focalPointY
+                  - queryMutate
+                -
+                  - galleryItemTags
+                  - queryMutate
+                -
+                  - galleryItemCategory
+                  - queryMutate
+                -
+                  - header
+                  - queryMutate
+                -
+                  - hero
+                  - queryMutate
+                -
+                  - hideTitle
+                  - queryMutate
+                -
+                  - image
+                  - queryMutate
+                -
+                  - siteImage
+                  - queryMutate
+                -
+                  - padImage
+                  - queryMutate
+                -
+                  - instagram
+                  - queryMutate
+                -
+                  - jobPosition
+                  - queryMutate
+                -
+                  - mixedLink
+                  - queryMutate
+                -
+                  - linkText
+                  - queryMutate
+                -
+                  - linkedIn
+                  - queryMutate
+                -
+                  - links
+                  - queryMutate
+                -
+                  - staffLocation
+                  - queryMutate
+                -
+                  - metadataDate
+                  - queryMutate
+                -
+                  - metadataVersion
+                  - queryMutate
+                -
+                  - metadataVersionDefault
+                  - queryMutate
+                -
+                  - newsAssets
+                  - queryMutate
+                -
+                  - numberOfItems
+                  - queryMutate
+                -
+                  - openDate
+                  - queryMutate
+                -
+                  - pageType
+                  - queryMutate
+                -
+                  - phoneNumber
+                  - queryMutate
+                -
+                  - plainText
+                  - queryMutate
+                -
+                  - staffPortrait
+                  - queryMutate
+                -
+                  - postType
+                  - queryMutate
+                -
+                  - publisher
+                  - queryMutate
+                -
+                  - publisherDefault
+                  - queryMutate
+                -
+                  - publisherId
+                  - queryMutate
+                -
+                  - publisherIdDefault
+                  - queryMutate
+                -
+                  - registrationCloseDate
+                  - queryMutate
+                -
+                  - registrationOpenDate
+                  - queryMutate
+                -
+                  - representativeAssetVariant
+                  - queryMutate
+                -
+                  - richTextDescription
+                  - queryMutate
+                -
+                  - slideshowItems
+                  - queryMutate
+                -
+                  - startTime
+                  - queryMutate
+                -
+                  - state
+                  - queryMutate
+                -
+                  - subLocation
+                  - queryMutate
+                -
+                  - supportersLogos
+                  - queryMutate
+                -
+                  - postTags
+                  - queryMutate
+                -
+                  - teaser
+                  - queryMutate
+                -
+                  - text
+                  - queryMutate
+                -
+                  - siteTitle
+                  - queryMutate
+                -
+                  - twitter
+                  - queryMutate
+                -
+                  - staffType
+                  - queryMutate
+                -
+                  - usageTerms
+                  - queryMutate
+                -
+                  - usageTermsDefault
+                  - queryMutate
+                -
+                  - width
+                  - queryMutate
+                -
+                  - youTube
+                  - queryMutate
+                -
+                  - metadata
+                  - queryMutate
+          -
+            - 'schema-Teacher Schema'
+            -
+              __assoc__:
+                -
+                  - address
+                  - queryMutate
+                -
+                  - altText
+                  - queryMutate
+                -
+                  - assetVariants
+                  - queryMutate
+                -
+                  - backgroundColor
+                  - queryMutate
+                -
+                  - staffBio
+                  - queryMutate
+                -
+                  - bold
+                  - queryMutate
+                -
+                  - callout
+                  - queryMutate
+                -
+                  - caption
+                  - queryMutate
+                -
+                  - captionRichText
+                  - queryMutate
+                -
+                  - city
+                  - queryMutate
+                -
+                  - closeDate
+                  - queryMutate
+                -
+                  - colophon
+                  - queryMutate
+                -
+                  - contactInfo
+                  - queryMutate
+                -
+                  - contentBlocksNews
+                  - queryMutate
+                -
+                  - contentBlocks
+                  - queryMutate
+                -
+                  - contentImage
+                  - queryMutate
+                -
+                  - order
+                  - queryMutate
+                -
+                  - ratio
+                  - queryMutate
+                -
+                  - country
+                  - queryMutate
+                -
+                  - credit
+                  - queryMutate
+                -
+                  - creditDefault
+                  - queryMutate
+                -
+                  - customBreadcrumbs
+                  - queryMutate
+                -
+                  - customHero
+                  - queryMutate
+                -
+                  - date
+                  - queryMutate
+                -
+                  - customDateCreated
+                  - queryMutate
+                -
+                  - description
+                  - queryMutate
+                -
+                  - siteDescription
+                  - queryMutate
+                -
+                  - dynamicComponent
+                  - queryMutate
+                -
+                  - email
+                  - queryMutate
+                -
+                  - endDate
+                  - queryMutate
+                -
+                  - endTime
+                  - queryMutate
+                -
+                  - galleryEntry
+                  - queryMutate
+                -
+                  - newsEntry
+                  - queryMutate
+                -
+                  - pageEntry
+                  - queryMutate
+                -
+                  - pagePostEntry
+                  - queryMutate
+                -
+                  - slideshowEntry
+                  - queryMutate
+                -
+                  - staffEntry
+                  - queryMutate
+                -
+                  - eventType
+                  - queryMutate
+                -
+                  - externalUrl
+                  - queryMutate
+                -
+                  - facebook
+                  - queryMutate
+                -
+                  - featuredImage
+                  - queryMutate
+                -
+                  - focalPointX
+                  - queryMutate
+                -
+                  - focalPointY
+                  - queryMutate
+                -
+                  - galleryItemTags
+                  - queryMutate
+                -
+                  - galleryItemCategory
+                  - queryMutate
+                -
+                  - header
+                  - queryMutate
+                -
+                  - hero
+                  - queryMutate
+                -
+                  - hideTitle
+                  - queryMutate
+                -
+                  - image
+                  - queryMutate
+                -
+                  - siteImage
+                  - queryMutate
+                -
+                  - padImage
+                  - queryMutate
+                -
+                  - instagram
+                  - queryMutate
+                -
+                  - jobPosition
+                  - queryMutate
+                -
+                  - mixedLink
+                  - queryMutate
+                -
+                  - linkText
+                  - queryMutate
+                -
+                  - linkedIn
+                  - queryMutate
+                -
+                  - links
+                  - queryMutate
+                -
+                  - staffLocation
+                  - queryMutate
+                -
+                  - metadataDate
+                  - queryMutate
+                -
+                  - metadataVersion
+                  - queryMutate
+                -
+                  - metadataVersionDefault
+                  - queryMutate
+                -
+                  - newsAssets
+                  - queryMutate
+                -
+                  - numberOfItems
+                  - queryMutate
+                -
+                  - openDate
+                  - queryMutate
+                -
+                  - pageType
+                  - queryMutate
+                -
+                  - phoneNumber
+                  - queryMutate
+                -
+                  - plainText
+                  - queryMutate
+                -
+                  - staffPortrait
+                  - queryMutate
+                -
+                  - postType
+                  - queryMutate
+                -
+                  - publisher
+                  - queryMutate
+                -
+                  - publisherDefault
+                  - queryMutate
+                -
+                  - publisherId
+                  - queryMutate
+                -
+                  - publisherIdDefault
+                  - queryMutate
+                -
+                  - registrationCloseDate
+                  - queryMutate
+                -
+                  - registrationOpenDate
+                  - queryMutate
+                -
+                  - representativeAssetVariant
+                  - queryMutate
+                -
+                  - richTextDescription
+                  - queryMutate
+                -
+                  - slideshowItems
+                  - queryMutate
+                -
+                  - startTime
+                  - queryMutate
+                -
+                  - state
+                  - queryMutate
+                -
+                  - subLocation
+                  - queryMutate
+                -
+                  - supportersLogos
+                  - queryMutate
+                -
+                  - postTags
+                  - queryMutate
+                -
+                  - teaser
+                  - queryMutate
+                -
+                  - text
+                  - queryMutate
+                -
+                  - siteTitle
+                  - queryMutate
+                -
+                  - twitter
+                  - queryMutate
+                -
+                  - staffType
+                  - queryMutate
+                -
+                  - usageTerms
+                  - queryMutate
+                -
+                  - usageTermsDefault
+                  - queryMutate
+                -
+                  - width
+                  - queryMutate
+                -
+                  - youTube
+                  - queryMutate
+                -
+                  - metadata
+                  - queryMutate
       forbiddenField: 'User doesn''t have permission to access requested field(s)'
       forbiddenMutation: 'User doesn''t have permission to perform this mutation'
       googleClientId: null
@@ -593,7 +1161,7 @@ plugins:
               __assoc__:
                 -
                   - schemaName
-                  - ''
+                  - 'Student Schema'
                 -
                   - allowRegistration
                   - '1'
@@ -606,7 +1174,7 @@ plugins:
               __assoc__:
                 -
                   - schemaName
-                  - ''
+                  - 'Teacher Schema'
                 -
                   - allowRegistration
                   - '1'

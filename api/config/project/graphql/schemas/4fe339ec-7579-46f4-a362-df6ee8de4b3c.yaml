@@ -32,6 +32,8 @@ scope:
   - 'globalsets.994d5664-f056-4969-b2cc-c62660f069af:read' # Root Page Information
   - 'globalsets.8ccd6c1c-8e9b-44e8-93a9-f62589fb4819:read' # Site Information
   - 'globalsets.1a2ba41a-3949-4982-9cb3-f8b03863bcfd:read' # Footer Content
+  - 'usergroups.everyone:read'
+  - 'usergroups.01b89d98-9aa4-46d5-a9a0-60a0c07fd815:read' # Editors
   - 'usergroups.e0be58f6-fc1b-4a02-816c-0a37b0fcd602:read' # Students
   - 'usergroups.58efa872-9485-42e3-a1e3-a5435def5392:read' # Teachers
   - 'categorygroups.3a3af2ab-b037-455a-ba95-bc3be89efdb0:read' # Event Filters
