@@ -1,4 +1,4 @@
-dateModified: 1646073188
+dateModified: 1646268000
 email:
   fromEmail: $EMAIL_FROM_ADDRESS
   fromName: $EMAIL_SENDER_NAME
@@ -280,8 +280,8 @@ plugins:
       entryMutations: null
       entryNotFound: 'We couldn''t find any matching entries'
       entryQueries: null
-      facebookAppId: null
-      facebookAppSecret: null
+      facebookAppId: $FACEBOOK_APP_ID
+      facebookAppSecret: $FACEBOOK_APP_SECRET
       facebookEmailMismatch: 'Email address doesn''t match allowed Facebook domains'
       facebookRedirectUrl: null
       fieldRestrictions:
@@ -1137,7 +1137,7 @@ plugins:
                   - queryMutate
       forbiddenField: 'User doesn''t have permission to access requested field(s)'
       forbiddenMutation: 'User doesn''t have permission to perform this mutation'
-      googleClientId: null
+      googleClientId: $GOOGLE_APP_ID
       googleEmailMismatch: 'Email address doesn''t match allowed Google domains'
       googleTokenIdInvalid: 'Invalid Google Token ID'
       granularSchemas:
