@@ -1,4 +1,4 @@
-dateModified: 1646268000
+dateModified: 1646430338
 email:
   fromEmail: $EMAIL_FROM_ADDRESS
   fromName: $EMAIL_SENDER_NAME
@@ -283,7 +283,7 @@ plugins:
       facebookAppId: $FACEBOOK_APP_ID
       facebookAppSecret: $FACEBOOK_APP_SECRET
       facebookEmailMismatch: 'Email address doesn''t match allowed Facebook domains'
-      facebookRedirectUrl: null
+      facebookRedirectUrl: $FACEBOOK_APP_REDIRECT_URL
       fieldRestrictions:
         __assoc__:
           -
