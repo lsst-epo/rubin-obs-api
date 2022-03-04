@@ -1,0 +1,35 @@
+columnSuffix: hthpesbi
+contentColumnType: string
+fieldGroup: 9b9ff039-061b-4efd-988e-553f811623b2
+handle: preferredLanguage
+instructions: ''
+name: 'Preferred Language'
+searchable: false
+settings:
+  optgroups: true
+  options:
+    -
+      __assoc__:
+        -
+          - label
+          - English
+        -
+          - value
+          - en
+        -
+          - default
+          - '1'
+    -
+      __assoc__:
+        -
+          - label
+          - Español
+        -
+          - value
+          - es
+        -
+          - default
+          - ''
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Dropdown
