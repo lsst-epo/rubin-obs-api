@@ -1,4 +1,5 @@
-childBlocks: '["scheduleRow"]'
+childBlocks:
+  - scheduleRow
 field: 72e5075a-9b06-4674-b040-615f4a6f7b70 # Content Blocks - Pages
 fieldLayouts:
   21547f51-6313-4ae1-bb0f-fbe1a5857821:

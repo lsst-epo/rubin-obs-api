@@ -1,13 +1,12 @@
-childBlocks:
-  - accordion
+childBlocks: ''
 field: 72e5075a-9b06-4674-b040-615f4a6f7b70 # Content Blocks - Pages
 fieldLayouts:
-  b1c3fdf1-1d88-48ee-a27f-cbec1ec53c1d:
+  a3ad26d8-31e3-47be-8a53-30b10466c167:
     tabs:
       -
         elements:
           -
-            fieldUid: b0ce3829-20c1-44ef-a7c7-499800645afc # Header
+            fieldUid: af3e9835-4926-4399-bda9-7f6882cdce5e # Assets List
             instructions: null
             label: null
             required: false
@@ -17,10 +16,10 @@ fieldLayouts:
             width: 100
         name: Content
         sortOrder: 1
-handle: accordionGroup
+handle: downloadList
 maxBlocks: 0
 maxChildBlocks: 0
 maxSiblingBlocks: 0
-name: 'Accordion Group'
-sortOrder: 5
+name: 'Download List'
+sortOrder: 22
 topLevel: true

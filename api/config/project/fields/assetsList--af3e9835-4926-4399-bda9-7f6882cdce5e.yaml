@@ -1,0 +1,16 @@
+columnSuffix: null
+contentColumnType: string
+fieldGroup: 9940892d-32f4-4399-acac-ab559ce1c82b # Common
+handle: assetsList
+instructions: ''
+name: 'Assets List'
+searchable: false
+settings:
+  contentTable: '{{%matrixcontent_assetslist}}'
+  maxBlocks: ''
+  minBlocks: ''
+  propagationKeyFormat: null
+  propagationMethod: all
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix
