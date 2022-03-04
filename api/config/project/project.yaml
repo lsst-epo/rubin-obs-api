@@ -1,4 +1,4 @@
-dateModified: 1647896446
+dateModified: 1646437519
 email:
   fromEmail: $EMAIL_FROM_ADDRESS
   fromName: $EMAIL_SENDER_NAME
@@ -175,6 +175,7 @@ meta:
     accc0b97-12f3-43ce-941a-068ab8deb620: Video # Video
     adfcd064-b356-4e9d-843d-4b55e5515a41: Phone # Phone
     af1b8590-3d8a-4eb1-90e1-60e3d7407a1a: 'Link text' # Link text
+    af3e9835-4926-4399-bda9-7f6882cdce5e: 'Assets List' # Assets List
     af22f9e9-9bb5-44eb-a94b-d7893d8cb9f5: Video # Video
     afe3ef3c-add3-45cc-b88b-d01559eb7b32: Header # Header
     b0ce3829-20c1-44ef-a7c7-499800645afc: Header # Header
@@ -226,6 +227,7 @@ meta:
     e0be58f6-fc1b-4a02-816c-0a37b0fcd602: Students # Students
     e46ce1e1-606c-4043-acea-5ddab0358221: Image # Image
     e48cbecf-107a-43c6-b099-9d6f3d7cadd8: Credit # Credit
+    e95d3769-cc6d-4366-85a1-a39780d0bc0e: 'List Item' # List Item
     e98e0ffd-73fa-4e57-808c-dcb9873209ca: 'Entry - Gallery' # Entry - Gallery
     e338eebb-6488-4f58-a07e-db43f28ff56b: Image # Image
     e566bfcd-b44b-40b4-9998-5175bcf91df9: 'Related Content' # Related Content
@@ -244,6 +246,7 @@ meta:
     f444667c-6ea1-4e0f-89b2-35b059e27bfc: Link # Link
     fa690eba-6d46-4a5e-9dcd-0845f5b56c1b: 'Dynamic Component' # Dynamic Component
     fb052686-4537-4fe5-9ce2-ff3fd4a341a2: 'Content Image' # Content Image
+    fb3d440b-3313-476c-8ce6-9c91ba637a56: 'Download List' # Download List
     fb3283a6-7286-4b2b-a77a-010783dcee7e: Slideshows # Slideshows
     fba2e6e2-54d4-47e5-94de-b140c01cbed6: LinkedIn # LinkedIn
     fbebfdbb-a4ca-48dd-8627-37fc2ffff0a3: 'Usage Terms' # Usage Terms
