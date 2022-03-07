@@ -1,4 +1,4 @@
-dateModified: 1646437519
+dateModified: 1646692188
 email:
   fromEmail: $EMAIL_FROM_ADDRESS
   fromName: $EMAIL_SENDER_NAME
@@ -112,6 +112,7 @@ meta:
     942c9e60-2760-42ed-b03b-9e5eb133751b: Callout # Callout
     966a6b65-ca53-48a8-89dc-74983cd624ef: Title # Title
     983dcb96-8eb2-4138-9c79-603b779fe2bb: 'Metadata Date' # Metadata Date
+    991c5031-3b97-45d8-8829-c8e0c79537a9: 'Row Title' # Row Title
     994d5664-f056-4969-b2cc-c62660f069af: 'Root Page Information' # Root Page Information
     2755abe1-7dd5-428c-a6bb-30d2bd59a362: Link # Link
     3146b06e-af03-43e7-b278-3a65c81f610e: Address # Address
@@ -126,6 +127,7 @@ meta:
     5548b745-642b-4b15-8f17-4ce7457689a8: Header # Header
     6509f949-86bc-4542-ab9f-9593ae7153be: Accordion # Accordion
     6863d4cb-1c9e-4d09-867f-92b87dd7bd81: News # News
+    6908c928-e76b-4692-ae6f-e3d8c994d0ce: 'Table Row' # Table Row
     7742b942-2b47-4222-9105-40dd3da899ac: 'Related Item' # Related Item
     7970cd65-7a96-418a-8581-d6df4e039e6d: 'Plain Text' # Plain Text
     8096dc6c-f1bd-4d24-8add-7df7f190a17c: Jobs # Jobs
@@ -141,6 +143,7 @@ meta:
     312197d8-1241-4fac-8422-febdf44e5e9a: 'Entry - Slideshow' # Entry - Slideshow
     547128fa-4529-4483-9968-66425996b69f: EN # EN
     660361f1-3ecb-4c5e-9274-76e54f1f291f: 'Number of items' # Number of items
+    838028d1-bb13-49aa-a2ee-b0b2e7e6a4fa: 'Simple Table' # Simple Table
     960543c0-3ba6-466b-aa9e-9182279dd49a: 'End Date' # End Date
     04000104-ec26-4d82-959a-729454e7f1cc: Country # Country
     7187131b-681b-45de-a1ea-87a8d070c05a: 'Gallery Item' # Gallery Item
@@ -160,6 +163,7 @@ meta:
     a61323db-26ac-4898-873c-a6c6b66fcb86: Header # Header
     aa60fd40-45d4-48bb-8b81-8ec736456687: 'Staff Filters' # Staff Filters
     aa649fa7-795e-427b-bb5e-dbbf5668c3b1: Callout # Callout
+    aa678753-53d0-4175-a20c-a8a49f07821b: 'Simple Table' # Simple Table
     acbea415-ee80-409c-90e2-90ac546820a6: Description # Description
     accc0b97-12f3-43ce-941a-068ab8deb620: Video # Video
     adfcd064-b356-4e9d-843d-4b55e5515a41: Phone # Phone
@@ -188,6 +192,7 @@ meta:
     c4060079-e438-4c63-8b06-77cdea857fd9: Text # Text
     cb6a7cee-4f9e-4191-8c6d-33ccdd921fec: Text # Text
     cbded379-b002-491f-8558-81620a1a672c: Image # Image
+    cbf3fbbb-2f2b-4568-a228-f8c63ff4601c: 'Row Color' # Row Color
     cc3b4231-1a7c-42f3-934c-cadeb0076f8c: 'Image Padding' # Image Padding
     cc8c47f0-3dec-44db-a47f-7ca6c984864a: 'Job Types' # Job Types
     cc694df6-ebfe-4e0c-b4fe-713761f100df: Text # Text
@@ -210,6 +215,7 @@ meta:
     df7f4ec2-58b2-4c3a-afff-b07f4764fa4b: Location # Location
     df8c8d8a-c7d1-45bf-b551-ef790a5b59ad: Callouts # Callouts
     dfd8564d-5db6-4167-99db-29867a64bc2c: 'Content Order' # Content Order
+    dff2a767-333e-4c9d-880c-143e1ca2aaa3: 'Row Content' # Row Content
     e46ce1e1-606c-4043-acea-5ddab0358221: Image # Image
     e48cbecf-107a-43c6-b099-9d6f3d7cadd8: Credit # Credit
     e95d3769-cc6d-4366-85a1-a39780d0bc0e: 'List Item' # List Item
