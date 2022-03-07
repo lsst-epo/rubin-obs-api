@@ -1,4 +1,4 @@
-dateModified: 1646437519
+dateModified: 1646692188
 email:
   fromEmail: $EMAIL_FROM_ADDRESS
   fromName: $EMAIL_SENDER_NAME
@@ -137,6 +137,7 @@ meta:
     6509f949-86bc-4542-ab9f-9593ae7153be: Accordion # Accordion
     6863d4cb-1c9e-4d09-867f-92b87dd7bd81: News # News
     7445fb64-f649-42e7-9751-28d742d27a85: 'Email Subscription' # Email Subscription
+    6908c928-e76b-4692-ae6f-e3d8c994d0ce: 'Table Row' # Table Row
     7742b942-2b47-4222-9105-40dd3da899ac: 'Related Item' # Related Item
     7970cd65-7a96-418a-8581-d6df4e039e6d: 'Plain Text' # Plain Text
     8096dc6c-f1bd-4d24-8add-7df7f190a17c: Jobs # Jobs
@@ -152,6 +153,7 @@ meta:
     312197d8-1241-4fac-8422-febdf44e5e9a: 'Entry - Slideshow' # Entry - Slideshow
     547128fa-4529-4483-9968-66425996b69f: EN # EN
     660361f1-3ecb-4c5e-9274-76e54f1f291f: 'Number of items' # Number of items
+    838028d1-bb13-49aa-a2ee-b0b2e7e6a4fa: 'Simple Table' # Simple Table
     960543c0-3ba6-466b-aa9e-9182279dd49a: 'End Date' # End Date
     04000104-ec26-4d82-959a-729454e7f1cc: Country # Country
     7187131b-681b-45de-a1ea-87a8d070c05a: 'Gallery Item' # Gallery Item
@@ -171,6 +173,7 @@ meta:
     a61323db-26ac-4898-873c-a6c6b66fcb86: Header # Header
     aa60fd40-45d4-48bb-8b81-8ec736456687: 'Staff Filters' # Staff Filters
     aa649fa7-795e-427b-bb5e-dbbf5668c3b1: Callout # Callout
+    aa678753-53d0-4175-a20c-a8a49f07821b: 'Simple Table' # Simple Table
     acbea415-ee80-409c-90e2-90ac546820a6: Description # Description
     accc0b97-12f3-43ce-941a-068ab8deb620: Video # Video
     adfcd064-b356-4e9d-843d-4b55e5515a41: Phone # Phone
