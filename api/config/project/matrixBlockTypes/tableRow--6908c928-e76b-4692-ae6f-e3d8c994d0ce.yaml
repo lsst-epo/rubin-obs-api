@@ -151,5 +151,5 @@ fields:
     translationMethod: none
     type: craft\redactor\Field
 handle: tableRow
-name: 'Table Row'
+name: Row
 sortOrder: 1
