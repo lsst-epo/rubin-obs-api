@@ -79,5 +79,5 @@ fields:
     translationMethod: site
     type: craft\fields\Assets
 handle: item
-name: 'List Item'
+name: Item
 sortOrder: 1
