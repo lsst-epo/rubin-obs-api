@@ -1,4 +1,4 @@
-dateModified: 1646697400
+dateModified: 1646700428
 email:
   fromEmail: $EMAIL_FROM_ADDRESS
   fromName: $EMAIL_SENDER_NAME
@@ -39,6 +39,7 @@ meta:
     4c977b75-9ee1-4cdb-9d2a-203639f4af84: Links # Links
     4ead9327-61fc-4b46-810c-5f490c2c45ad: 'Gallery Types' # Gallery Types
     4fe339ec-7579-46f4-a362-df6ee8de4b3c: 'Public Schema' # Public Schema
+    4ffeb743-f02d-42af-8656-a6f9c1363e79: 'Glossary Terms' # Glossary Terms
     5a6d7b10-920d-464d-85ea-fc3881082fd7: 'Date Created' # Date Created
     5b0d5d69-4003-4a56-8940-b9cbc2d691e8: Twitter # Twitter
     5b70de37-9d5f-4c8f-87c7-9f2225761f54: 'Gallery Item Tags' # Gallery Item Tags
@@ -190,6 +191,7 @@ meta:
     b8393df9-fb81-4d70-9ccb-6d030c818580: 'Gallery Item Defaults' # Gallery Item Defaults
     b4139639-fe83-4dd3-acf6-581a798190b5: 'Slideshow Items' # Slideshow Items
     bb77d190-487e-45c5-a1d2-0208510a7d88: Events # Events
+    bbf936fb-1787-437b-8ebd-a6e79409896e: 'Glossary Term' # Glossary Term
     bc12b31b-5681-4d9c-bbc1-80042dca1a82: YouTube # YouTube
     be9edc91-a7d0-4838-9565-20381695cbcb: 'Staff Profiles' # Staff Profiles
     c2eab1e2-8dc7-4ea8-a1c2-5572ff82212b: 'Linked Asset' # Linked Asset
