@@ -1,12 +1,13 @@
-childBlocks: '["accordion"]'
-field: 72e5075a-9b06-4674-b040-615f4a6f7b70 # Content Blocks - Pages
+childBlocks:
+  - accordion
+field: 72e5075a-9b06-4674-b040-615f4a6f7b70
 fieldLayouts:
   b1c3fdf1-1d88-48ee-a27f-cbec1ec53c1d:
     tabs:
       -
         elements:
           -
-            fieldUid: b0ce3829-20c1-44ef-a7c7-499800645afc # Header
+            fieldUid: b0ce3829-20c1-44ef-a7c7-499800645afc
             instructions: null
             label: null
             required: false

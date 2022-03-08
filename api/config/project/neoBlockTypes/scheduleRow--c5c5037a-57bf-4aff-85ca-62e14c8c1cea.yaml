@@ -1,12 +1,12 @@
 childBlocks: ''
-field: 72e5075a-9b06-4674-b040-615f4a6f7b70 # Content Blocks - Pages
+field: 72e5075a-9b06-4674-b040-615f4a6f7b70
 fieldLayouts:
   72820c08-6638-412b-bb2c-97b8150cc0ec:
     tabs:
       -
         elements:
           -
-            fieldUid: 36eb6d5c-23a9-43c9-bf13-4ca926869004 # Start Time
+            fieldUid: 36eb6d5c-23a9-43c9-bf13-4ca926869004
             instructions: ''
             label: ''
             required: '1'
@@ -15,7 +15,7 @@ fieldLayouts:
             warning: null
             width: 25
           -
-            fieldUid: 4a55a5d1-655b-4e30-8466-c84b6d8558dd # End Time
+            fieldUid: 4a55a5d1-655b-4e30-8466-c84b6d8558dd
             instructions: null
             label: null
             required: false
@@ -24,7 +24,7 @@ fieldLayouts:
             warning: null
             width: 25
           -
-            fieldUid: cd801712-4ba3-4a9c-8fab-0d3e2a58b4eb # Description
+            fieldUid: cd801712-4ba3-4a9c-8fab-0d3e2a58b4eb
             instructions: ''
             label: ''
             required: '1'
@@ -33,7 +33,7 @@ fieldLayouts:
             warning: null
             width: 50
           -
-            fieldUid: 6f86b4dc-dab0-46fa-860d-81f6ebe6b541 # Bold
+            fieldUid: 6f86b4dc-dab0-46fa-860d-81f6ebe6b541
             instructions: null
             label: null
             required: false

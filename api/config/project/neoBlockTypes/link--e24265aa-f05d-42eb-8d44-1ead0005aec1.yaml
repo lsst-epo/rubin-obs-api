@@ -1,12 +1,12 @@
 childBlocks: ''
-field: 4c977b75-9ee1-4cdb-9d2a-203639f4af84 # Links
+field: 4c977b75-9ee1-4cdb-9d2a-203639f4af84
 fieldLayouts:
   2652f9f9-85e2-47f9-a54a-74e393426c43:
     tabs:
       -
         elements:
           -
-            fieldUid: d019727b-a6d5-43d9-a688-f10df985a87e # Link
+            fieldUid: d019727b-a6d5-43d9-a688-f10df985a87e
             instructions: null
             label: null
             required: false

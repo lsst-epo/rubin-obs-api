@@ -4,7 +4,7 @@ fieldLayouts:
       -
         elements:
           -
-            fieldUid: 8fff3c50-28ba-4af7-8166-e3d82a23ae26 # Title
+            fieldUid: 8fff3c50-28ba-4af7-8166-e3d82a23ae26
             instructions: null
             label: null
             required: false
@@ -13,7 +13,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            fieldUid: acbea415-ee80-409c-90e2-90ac546820a6 # Description
+            fieldUid: acbea415-ee80-409c-90e2-90ac546820a6
             instructions: null
             label: null
             required: false
@@ -22,7 +22,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            fieldUid: e46ce1e1-606c-4043-acea-5ddab0358221 # Image
+            fieldUid: e46ce1e1-606c-4043-acea-5ddab0358221
             instructions: null
             label: null
             required: false
@@ -35,7 +35,7 @@ fieldLayouts:
       -
         elements:
           -
-            fieldUid: 033c2694-fbf5-48d0-aa4f-7d14e86f0aa8 # Facebook
+            fieldUid: 033c2694-fbf5-48d0-aa4f-7d14e86f0aa8
             instructions: null
             label: null
             required: false
@@ -44,7 +44,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            fieldUid: 5b0d5d69-4003-4a56-8940-b9cbc2d691e8 # Twitter
+            fieldUid: 5b0d5d69-4003-4a56-8940-b9cbc2d691e8
             instructions: null
             label: null
             required: false
@@ -53,7 +53,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            fieldUid: bc12b31b-5681-4d9c-bbc1-80042dca1a82 # YouTube
+            fieldUid: bc12b31b-5681-4d9c-bbc1-80042dca1a82
             instructions: null
             label: null
             required: false
@@ -62,7 +62,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            fieldUid: fba2e6e2-54d4-47e5-94de-b140c01cbed6 # LinkedIn
+            fieldUid: fba2e6e2-54d4-47e5-94de-b140c01cbed6
             instructions: null
             label: null
             required: false
@@ -71,7 +71,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            fieldUid: 31bdcba6-2552-4cc2-8e02-e4a057a0edf0 # Instagram
+            fieldUid: 31bdcba6-2552-4cc2-8e02-e4a057a0edf0
             instructions: null
             label: null
             required: false
@@ -80,7 +80,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            fieldUid: 40ee52fe-bbe1-4b44-97ea-ef987105496b # Email
+            fieldUid: 40ee52fe-bbe1-4b44-97ea-ef987105496b
             instructions: null
             label: null
             required: false
@@ -93,7 +93,7 @@ fieldLayouts:
       -
         elements:
           -
-            fieldUid: d7bdf364-6905-4919-b4b1-08f0010d7a08 # Contact Info
+            fieldUid: d7bdf364-6905-4919-b4b1-08f0010d7a08
             instructions: null
             label: null
             required: false
@@ -105,4 +105,3 @@ fieldLayouts:
         sortOrder: 3
 handle: siteInfo
 name: 'Site Information'
-sortOrder: 0

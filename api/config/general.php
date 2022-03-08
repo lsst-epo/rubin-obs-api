@@ -13,7 +13,6 @@ use craft\helpers\App;
 $dev = App::env('ENVIRONMENT') === 'dev';
 
 $s3BucketPathFormat = 'https://s3.%s.amazonaws.com/%s/';
-$gcsBucketPathFormat = 'https://storage.googleapis.com/%s/';
 
 return [
     // Global settings
@@ -41,26 +40,7 @@ return [
                 App::env('AWS_ASSET_S3_REGION'),
                 App::env('AWS_ASSET_S3_BUCKET')
             ),
-            '@assetsGeneralBaseURL' => sprintf(
-                $gcsBucketPathFormat,
-                App::env('GCS_GENERAL_BUCKET')
-            ),
-            '@assetsHeroesBaseURL' => sprintf(
-                $gcsBucketPathFormat,
-                App::env('GCS_HEROES_BUCKET')
-            ),
-            '@assetsContentBaseURL' => sprintf(
-                $gcsBucketPathFormat,
-                App::env('GCS_CONTENT_BUCKET')
-            ),
-            '@assetsCalloutsBaseURL' => sprintf(
-                $gcsBucketPathFormat,
-                App::env('GCS_CALLOUTS_BUCKET')
-            ),
-            '@assetsStaffBaseURL' => sprintf(
-                $gcsBucketPathFormat,
-                App::env('GCS_STAFF_BUCKET')
-            ),
+            '@assetBaseURL' => App::env('DEFAULT_SITE_URL'),
             '@webBaseUrl' => App::env('WEB_BASE_URL')
         ],
 

@@ -1,20 +1,20 @@
-field: c11d26d4-236a-4b06-99f6-3a8f67821ada
+field: 9c34fc8b-8bc3-4f8a-bbc8-ea58a018719a
 fieldLayouts:
-  908d7981-63ac-461e-81c4-da6c921a1db9:
+  6aec6fb5-5547-4bb3-b801-3417f515d0c1:
     tabs:
       -
         elements:
           -
-            fieldUid: c4060079-e438-4c63-8b06-77cdea857fd9
+            fieldUid: 68ce46bb-bb2f-4e55-8009-fe56a7d4493b
             instructions: null
             label: null
-            required: false
+            required: true
             tip: null
             type: craft\fieldlayoutelements\CustomField
             warning: null
             width: 100
           -
-            fieldUid: 95b97a67-eccb-4910-b0e8-77f5860058b4
+            fieldUid: 3df02181-c6a1-4e72-98fb-f91def384206
             instructions: null
             label: null
             required: false
@@ -25,25 +25,33 @@ fieldLayouts:
         name: Content
         sortOrder: 1
 fields:
-  95b97a67-eccb-4910-b0e8-77f5860058b4:
-    contentColumnType: string(255)
+  3df02181-c6a1-4e72-98fb-f91def384206:
+    contentColumnType: string
     fieldGroup: null
-    handle: externalLink
+    handle: entry
     instructions: ''
-    name: Link
+    name: Entry
     searchable: false
     settings:
-      maxLength: '255'
-      placeholder: ''
+      allowSelfRelations: false
+      limit: '1'
+      localizeRelations: false
+      selectionLabel: ''
+      showSiteMenu: true
+      source: null
+      sources: '*'
+      targetSiteId: null
+      validateRelatedElements: false
+      viewMode: null
     translationKeyFormat: null
-    translationMethod: none
-    type: craft\fields\Url
-  c4060079-e438-4c63-8b06-77cdea857fd9:
+    translationMethod: site
+    type: craft\fields\Entries
+  68ce46bb-bb2f-4e55-8009-fe56a7d4493b:
     contentColumnType: text
     fieldGroup: null
-    handle: text
+    handle: header
     instructions: ''
-    name: Text
+    name: Header
     searchable: false
     settings:
       byteLimit: null
@@ -55,8 +63,8 @@ fields:
       placeholder: ''
       uiMode: normal
     translationKeyFormat: null
-    translationMethod: none
+    translationMethod: site
     type: craft\fields\PlainText
-handle: externalLink
-name: 'External Link'
-sortOrder: 3
+handle: page
+name: Page
+sortOrder: 1

@@ -1,11 +1,11 @@
-field: d7bdf364-6905-4919-b4b1-08f0010d7a08 # Contact Info
+field: d7bdf364-6905-4919-b4b1-08f0010d7a08
 fieldLayouts:
   73eb819a-d08d-483b-9006-bbadd229c2d4:
     tabs:
       -
         elements:
           -
-            fieldUid: cc694df6-ebfe-4e0c-b4fe-713761f100df # Text
+            fieldUid: cc694df6-ebfe-4e0c-b4fe-713761f100df
             instructions: null
             label: null
             required: true
@@ -16,8 +16,7 @@ fieldLayouts:
         name: Content
         sortOrder: 1
 fields:
-  cc694df6-ebfe-4e0c-b4fe-713761f100df: # Text
-    columnSuffix: null
+  cc694df6-ebfe-4e0c-b4fe-713761f100df:
     contentColumnType: text
     fieldGroup: null
     handle: text

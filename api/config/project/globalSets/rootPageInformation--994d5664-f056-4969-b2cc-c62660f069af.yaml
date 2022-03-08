@@ -4,7 +4,7 @@ fieldLayouts:
       -
         elements:
           -
-            fieldUid: 9c34fc8b-8bc3-4f8a-bbc8-ea58a018719a # Custom Breadcrumb Sets
+            fieldUid: 9c34fc8b-8bc3-4f8a-bbc8-ea58a018719a
             instructions: ''
             label: ''
             required: ''
@@ -16,4 +16,3 @@ fieldLayouts:
         sortOrder: 1
 handle: rootPageInformation
 name: 'Root Page Information'
-sortOrder: 0

@@ -1,11 +1,11 @@
-field: 4229ebb8-c1ab-45b0-b1ef-3f7d6fc43bab # Custom Homepage Hero
+field: 4229ebb8-c1ab-45b0-b1ef-3f7d6fc43bab
 fieldLayouts:
   9318c35e-328a-4ee7-b7c4-06e6beb9a5fb:
     tabs:
       -
         elements:
           -
-            fieldUid: 5ca18cb3-5a7b-4764-9e18-fc24b4cecc14 # Flag
+            fieldUid: 5ca18cb3-5a7b-4764-9e18-fc24b4cecc14
             instructions: null
             label: null
             required: false
@@ -14,7 +14,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            fieldUid: 5548b745-642b-4b15-8f17-4ce7457689a8 # Header
+            fieldUid: 5548b745-642b-4b15-8f17-4ce7457689a8
             instructions: null
             label: null
             required: false
@@ -23,7 +23,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            fieldUid: 9c14ac7e-c466-4c2d-a2fd-e19a68fc706d # Teaser
+            fieldUid: 9c14ac7e-c466-4c2d-a2fd-e19a68fc706d
             instructions: null
             label: null
             required: false
@@ -32,7 +32,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            fieldUid: e338eebb-6488-4f58-a07e-db43f28ff56b # Image
+            fieldUid: e338eebb-6488-4f58-a07e-db43f28ff56b
             instructions: null
             label: null
             required: false
@@ -41,7 +41,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            fieldUid: 2755abe1-7dd5-428c-a6bb-30d2bd59a362 # Link
+            fieldUid: 2755abe1-7dd5-428c-a6bb-30d2bd59a362
             instructions: null
             label: null
             required: false
@@ -52,48 +52,7 @@ fieldLayouts:
         name: Content
         sortOrder: 1
 fields:
-  5ca18cb3-5a7b-4764-9e18-fc24b4cecc14: # Flag
-    columnSuffix: null
-    contentColumnType: string(80)
-    fieldGroup: null
-    handle: flag
-    instructions: 'custom text for the top flag'
-    name: Flag
-    searchable: false
-    settings:
-      byteLimit: null
-      charLimit: 20
-      code: ''
-      columnType: null
-      initialRows: '4'
-      multiline: ''
-      placeholder: null
-      uiMode: normal
-    translationKeyFormat: null
-    translationMethod: site
-    type: craft\fields\PlainText
-  9c14ac7e-c466-4c2d-a2fd-e19a68fc706d: # Teaser
-    columnSuffix: null
-    contentColumnType: string(1020)
-    fieldGroup: null
-    handle: teaser
-    instructions: ''
-    name: Teaser
-    searchable: false
-    settings:
-      byteLimit: null
-      charLimit: 255
-      code: ''
-      columnType: null
-      initialRows: '4'
-      multiline: ''
-      placeholder: null
-      uiMode: normal
-    translationKeyFormat: null
-    translationMethod: site
-    type: craft\fields\PlainText
-  2755abe1-7dd5-428c-a6bb-30d2bd59a362: # Link
-    columnSuffix: null
+  2755abe1-7dd5-428c-a6bb-30d2bd59a362:
     contentColumnType: string
     fieldGroup: null
     handle: mixedLink
@@ -104,8 +63,6 @@ fields:
       allowCustomText: true
       allowTarget: false
       autoNoReferrer: false
-      customTextMaxLength: 0
-      customTextRequired: false
       defaultLinkName: entry
       defaultText: ''
       enableAllLinkTypes: false
@@ -113,50 +70,137 @@ fields:
       enableElementCache: false
       enableTitle: false
       typeSettings:
-        asset:
-          allowCrossSiteLink: false
-          allowCustomQuery: false
-          enabled: false
-          sources: '*'
-        category:
-          allowCrossSiteLink: false
-          allowCustomQuery: false
-          enabled: false
-          sources: '*'
-        custom:
-          allowAliases: false
-          disableValidation: false
-          enabled: false
-        email:
-          allowAliases: false
-          disableValidation: false
-          enabled: false
-        entry:
-          allowCrossSiteLink: false
-          allowCustomQuery: false
-          enabled: true
-          sources: '*'
-        site:
-          enabled: false
-          sites: '*'
-        tel:
-          allowAliases: false
-          disableValidation: false
-          enabled: false
-        url:
-          allowAliases: false
-          disableValidation: false
-          enabled: true
-        user:
-          allowCrossSiteLink: false
-          allowCustomQuery: false
-          enabled: false
-          sources: '*'
+        __assoc__:
+          -
+            - asset
+            -
+              __assoc__:
+                -
+                  - enabled
+                  - false
+                -
+                  - allowCustomQuery
+                  - false
+                -
+                  - allowCrossSiteLink
+                  - false
+                -
+                  - sources
+                  - '*'
+          -
+            - category
+            -
+              __assoc__:
+                -
+                  - enabled
+                  - false
+                -
+                  - allowCustomQuery
+                  - false
+                -
+                  - allowCrossSiteLink
+                  - false
+                -
+                  - sources
+                  - '*'
+          -
+            - entry
+            -
+              __assoc__:
+                -
+                  - enabled
+                  - true
+                -
+                  - allowCustomQuery
+                  - false
+                -
+                  - allowCrossSiteLink
+                  - false
+                -
+                  - sources
+                  - '*'
+          -
+            - site
+            -
+              __assoc__:
+                -
+                  - enabled
+                  - false
+                -
+                  - sites
+                  - '*'
+          -
+            - user
+            -
+              __assoc__:
+                -
+                  - enabled
+                  - false
+                -
+                  - allowCustomQuery
+                  - false
+                -
+                  - allowCrossSiteLink
+                  - false
+                -
+                  - sources
+                  - '*'
+          -
+            - custom
+            -
+              __assoc__:
+                -
+                  - enabled
+                  - false
+                -
+                  - allowAliases
+                  - false
+                -
+                  - disableValidation
+                  - false
+          -
+            - email
+            -
+              __assoc__:
+                -
+                  - enabled
+                  - false
+                -
+                  - allowAliases
+                  - false
+                -
+                  - disableValidation
+                  - false
+          -
+            - tel
+            -
+              __assoc__:
+                -
+                  - enabled
+                  - false
+                -
+                  - allowAliases
+                  - false
+                -
+                  - disableValidation
+                  - false
+          -
+            - url
+            -
+              __assoc__:
+                -
+                  - enabled
+                  - true
+                -
+                  - allowAliases
+                  - false
+                -
+                  - disableValidation
+                  - false
     translationKeyFormat: null
     translationMethod: site
     type: lenz\linkfield\fields\LinkField
-  5548b745-642b-4b15-8f17-4ce7457689a8: # Header
-    columnSuffix: null
+  5548b745-642b-4b15-8f17-4ce7457689a8:
     contentColumnType: text
     fieldGroup: null
     handle: header
@@ -170,13 +214,50 @@ fields:
       columnType: null
       initialRows: '4'
       multiline: ''
-      placeholder: null
+      placeholder: ''
       uiMode: normal
     translationKeyFormat: null
     translationMethod: site
     type: craft\fields\PlainText
-  e338eebb-6488-4f58-a07e-db43f28ff56b: # Image
-    columnSuffix: null
+  5ca18cb3-5a7b-4764-9e18-fc24b4cecc14:
+    contentColumnType: string(80)
+    fieldGroup: null
+    handle: flag
+    instructions: 'custom text for the top flag'
+    name: Flag
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: 20
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: ''
+      placeholder: ''
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\PlainText
+  9c14ac7e-c466-4c2d-a2fd-e19a68fc706d:
+    contentColumnType: string(1020)
+    fieldGroup: null
+    handle: teaser
+    instructions: ''
+    name: Teaser
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: 255
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: ''
+      placeholder: ''
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\PlainText
+  e338eebb-6488-4f58-a07e-db43f28ff56b:
     contentColumnType: string
     fieldGroup: null
     handle: image
@@ -188,7 +269,7 @@ fields:
       allowUploads: true
       allowedKinds:
         - image
-      defaultUploadLocationSource: 'volume:8e9ec71e-2cf0-4f6a-b856-8976de0ce100' # Heroes
+      defaultUploadLocationSource: 'volume:8e9ec71e-2cf0-4f6a-b856-8976de0ce100'
       defaultUploadLocationSubpath: ''
       limit: '1'
       localizeRelations: false
@@ -198,11 +279,11 @@ fields:
       showSiteMenu: false
       showUnpermittedFiles: false
       showUnpermittedVolumes: false
-      singleUploadLocationSource: 'volume:8e9ec71e-2cf0-4f6a-b856-8976de0ce100' # Heroes
+      singleUploadLocationSource: 'volume:8e9ec71e-2cf0-4f6a-b856-8976de0ce100'
       singleUploadLocationSubpath: ''
       source: null
       sources:
-        - 'volume:8e9ec71e-2cf0-4f6a-b856-8976de0ce100' # Heroes
+        - 'volume:8e9ec71e-2cf0-4f6a-b856-8976de0ce100'
       targetSiteId: null
       useSingleFolder: false
       validateRelatedElements: false

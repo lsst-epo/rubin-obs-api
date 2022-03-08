@@ -1,6 +1,5 @@
-columnSuffix: null
 contentColumnType: string
-fieldGroup: df8c8d8a-c7d1-45bf-b551-ef790a5b59ad # Callouts
+fieldGroup: df8c8d8a-c7d1-45bf-b551-ef790a5b59ad
 handle: ratio
 instructions: 'Defines the ratio for content column widths.'
 name: 'Content Ratio'

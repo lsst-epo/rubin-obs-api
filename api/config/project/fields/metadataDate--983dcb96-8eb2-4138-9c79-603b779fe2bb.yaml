@@ -1,6 +1,5 @@
-columnSuffix: null
 contentColumnType: datetime
-fieldGroup: 3754ce62-7e5c-46da-8738-2f15f70f00a4 # Gallery Area
+fieldGroup: 3754ce62-7e5c-46da-8738-2f15f70f00a4
 handle: metadataDate
 instructions: ''
 name: 'Metadata Date'
@@ -11,7 +10,6 @@ settings:
   minuteIncrement: '30'
   showDate: true
   showTime: false
-  showTimeZone: false
 translationKeyFormat: null
 translationMethod: none
 type: craft\fields\Date

@@ -1,11 +1,11 @@
-field: d23a9bfc-61f9-46fa-bfe4-a4ca97a20a61 # Asset Variants
+field: d23a9bfc-61f9-46fa-bfe4-a4ca97a20a61
 fieldLayouts:
   d4f1bbbd-99bc-4368-8df7-61e6ef202234:
     tabs:
       -
         elements:
           -
-            fieldUid: 1ed94e58-7078-46fb-b590-0692fbdf9c20 # Common Name
+            fieldUid: 1ed94e58-7078-46fb-b590-0692fbdf9c20
             instructions: null
             label: null
             required: false
@@ -14,7 +14,7 @@ fieldLayouts:
             warning: null
             width: 25
           -
-            fieldUid: e7913600-c914-4ab1-a9bb-abd2bdcbfb94 # Custom Name
+            fieldUid: e7913600-c914-4ab1-a9bb-abd2bdcbfb94
             instructions: null
             label: null
             required: false
@@ -23,7 +23,7 @@ fieldLayouts:
             warning: null
             width: 25
           -
-            fieldUid: 74319755-d24f-4991-a84a-0c1c031cb21e # Asset Link
+            fieldUid: 74319755-d24f-4991-a84a-0c1c031cb21e
             instructions: null
             label: null
             required: false
@@ -34,8 +34,7 @@ fieldLayouts:
         name: Content
         sortOrder: 1
 fields:
-  1ed94e58-7078-46fb-b590-0692fbdf9c20: # Common Name
-    columnSuffix: null
+  1ed94e58-7078-46fb-b590-0692fbdf9c20:
     contentColumnType: string
     fieldGroup: null
     handle: commonName
@@ -180,8 +179,7 @@ fields:
     translationKeyFormat: null
     translationMethod: site
     type: craft\fields\Dropdown
-  74319755-d24f-4991-a84a-0c1c031cb21e: # Asset Link
-    columnSuffix: null
+  74319755-d24f-4991-a84a-0c1c031cb21e:
     contentColumnType: string
     fieldGroup: null
     handle: assetLink
@@ -192,7 +190,7 @@ fields:
       allowSelfRelations: false
       allowUploads: true
       allowedKinds: null
-      defaultUploadLocationSource: 'volume:d41cc960-99a4-41a8-a7a6-7891a22e4a93' # Asset Variants
+      defaultUploadLocationSource: 'volume:d41cc960-99a4-41a8-a7a6-7891a22e4a93'
       defaultUploadLocationSubpath: ''
       limit: '1'
       localizeRelations: false
@@ -202,12 +200,12 @@ fields:
       showSiteMenu: true
       showUnpermittedFiles: false
       showUnpermittedVolumes: false
-      singleUploadLocationSource: 'volume:8e9ec71e-2cf0-4f6a-b856-8976de0ce100' # Heroes
+      singleUploadLocationSource: 'volume:8e9ec71e-2cf0-4f6a-b856-8976de0ce100'
       singleUploadLocationSubpath: ''
       source: null
       sources:
         - 'volume:f944dd79-91a6-443d-b09a-de2597c7557f'
-        - 'volume:d41cc960-99a4-41a8-a7a6-7891a22e4a93' # Asset Variants
+        - 'volume:d41cc960-99a4-41a8-a7a6-7891a22e4a93'
       targetSiteId: null
       useSingleFolder: false
       validateRelatedElements: false
@@ -215,8 +213,7 @@ fields:
     translationKeyFormat: null
     translationMethod: site
     type: craft\fields\Assets
-  e7913600-c914-4ab1-a9bb-abd2bdcbfb94: # Custom Name
-    columnSuffix: null
+  e7913600-c914-4ab1-a9bb-abd2bdcbfb94:
     contentColumnType: text
     fieldGroup: null
     handle: assetName
@@ -230,7 +227,7 @@ fields:
       columnType: null
       initialRows: '4'
       multiline: ''
-      placeholder: null
+      placeholder: ''
       uiMode: normal
     translationKeyFormat: null
     translationMethod: language

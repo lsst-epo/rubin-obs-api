@@ -1,6 +1,5 @@
-columnSuffix: null
 contentColumnType: string
-fieldGroup: 824d9ca2-e755-4e41-8f6a-18e573fec8e4 # News Posts
+fieldGroup: 824d9ca2-e755-4e41-8f6a-18e573fec8e4
 handle: newsAssets
 instructions: 'For display in top right sidebar'
 name: 'News Assets'
@@ -9,7 +8,6 @@ settings:
   contentTable: '{{%matrixcontent_newsassets}}'
   maxBlocks: ''
   minBlocks: ''
-  propagationKeyFormat: null
   propagationMethod: all
 translationKeyFormat: null
 translationMethod: site

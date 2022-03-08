@@ -36,32 +36,14 @@ This project was created with Docker version 20.10.5.
 
 1. Install [Docker](https://docs.docker.com/get-docker/)
 2. Clone this repository
-3. Add a .env file (based on .env.sample) and provide values appropriate to your local dev environment
-4. If running for the first time, and no local database exists, a new one wil be built for you based on `/db/db.sql`.
-5. You'll need to install php packages locally. You may do so with your local composer, but you can also run it all through docker: `docker run -v ${PWD}/api:/app composer install`
-6. Build and bring up containers for the first time:
+3. If running for the first time, and no local database exists, a new one wil be built for you based on `/db/db.sql`. If you already have a local database you will need to update the values for `DB_PASSWORD` and `SECURITY_KEY` in `docker-compose-local-db.yml` to use that database.
+4. Bring the Docker compose file up:
 
-```shell
-docker-compose -f docker-compose-local-db.yml up --build
-```
-
-7. Subsequent bringing up of containers you've already built:
 ```shell
 docker-compose -f docker-compose-local-db.yml up
 ```
-8. Go to <http://localhost:8080/admin> to administer the site
 
-#### Useful docker commands for local development
-
-1. Cleaning house: `docker volume prune` `docker system prune`
-2. Spin stuff down politely: `docker-compose -f docker-compose-local-db.yml down`
-3. Peek inside your running docker containers:
-  * `docker container ls`
-  * `docker exec -it <CONTAINER-ID> /bin/sh`
-  * and then, for instance, to look at DB `psql -d craft -U craft`
-4. If you change `composer.json` and wanna see your changes applied: `docker build `
-5. To rebuild images and bring up the containers: `docker-compose -f docker-compose-local-db.yml up --build`
-6. When you need to do composer stuff: `docker run -v ${PWD}/api:/app composer <blah>`
+5. Go to <http://localhost:8080/admin> to administer the site
 
 #### Useful docker commands for local development
 

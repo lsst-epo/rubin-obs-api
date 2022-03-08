@@ -27,7 +27,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            fieldUid: b0ce3829-20c1-44ef-a7c7-499800645afc # Header
+            fieldUid: b0ce3829-20c1-44ef-a7c7-499800645afc
             instructions: null
             label: null
             required: false
@@ -36,7 +36,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            fieldUid: 7db205b7-a548-42f1-8c26-416ec51cf3fa # Text
+            fieldUid: 7db205b7-a548-42f1-8c26-416ec51cf3fa
             instructions: null
             label: null
             required: false
@@ -45,7 +45,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            fieldUid: 4c977b75-9ee1-4cdb-9d2a-203639f4af84 # Links
+            fieldUid: 4c977b75-9ee1-4cdb-9d2a-203639f4af84
             instructions: null
             label: null
             required: false
@@ -54,7 +54,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            fieldUid: fb052686-4537-4fe5-9ce2-ff3fd4a341a2 # Content Image
+            fieldUid: fb052686-4537-4fe5-9ce2-ff3fd4a341a2
             instructions: null
             label: null
             required: false
@@ -63,7 +63,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            fieldUid: 61b9d842-7365-4bbf-883c-1b6433dc15f4 # Caption - rich text
+            fieldUid: 61b9d842-7365-4bbf-883c-1b6433dc15f4
             instructions: null
             label: null
             required: false
@@ -76,7 +76,7 @@ fieldLayouts:
       -
         elements:
           -
-            fieldUid: 8b8ed305-e6e6-4754-925f-bb07427b2060 # Background Color
+            fieldUid: 8b8ed305-e6e6-4754-925f-bb07427b2060
             instructions: null
             label: null
             required: false
@@ -85,7 +85,7 @@ fieldLayouts:
             warning: null
             width: 50
           -
-            fieldUid: 496e755e-78ab-4e3f-8c3a-9b320023b8ec # Image
+            fieldUid: 496e755e-78ab-4e3f-8c3a-9b320023b8ec
             instructions: ''
             label: 'Background Image'
             required: ''
@@ -98,7 +98,7 @@ fieldLayouts:
 handle: calloutTwoTone
 hasTitleField: true
 name: 'Callout - two-tone'
-section: 7cad6f4e-cc7b-45cf-ac7b-6f383e77bc1b # Callouts
+section: 7cad6f4e-cc7b-45cf-ac7b-6f383e77bc1b
 sortOrder: 2
 titleFormat: null
 titleTranslationKeyFormat: null

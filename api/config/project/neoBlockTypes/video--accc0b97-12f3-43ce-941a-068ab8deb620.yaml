@@ -1,12 +1,12 @@
 childBlocks: ''
-field: 72e5075a-9b06-4674-b040-615f4a6f7b70 # Content Blocks - Pages
+field: 72e5075a-9b06-4674-b040-615f4a6f7b70
 fieldLayouts:
   e41c0041-21b6-4d8f-ba64-e263d7b9d6ae:
     tabs:
       -
         elements:
           -
-            fieldUid: a71f443d-14a3-402b-90ba-524dcce806d2 # External URL
+            fieldUid: a71f443d-14a3-402b-90ba-524dcce806d2
             instructions: ''
             label: 'Video URL'
             required: '1'
@@ -15,7 +15,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            fieldUid: 10118ebf-e3bf-4b1b-bbb8-4b57ab3753c8 # Caption
+            fieldUid: 10118ebf-e3bf-4b1b-bbb8-4b57ab3753c8
             instructions: null
             label: null
             required: false

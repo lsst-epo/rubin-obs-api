@@ -1,5 +1,5 @@
 fieldLayouts:
-  477b93c5-3de7-4381-872f-6d729f123491:
+  69724ef5-2e20-466d-8388-d69d8c147f04:
     tabs:
       -
         elements:
@@ -10,8 +10,8 @@ fieldLayouts:
             class: null
             disabled: false
             id: null
-            instructions: 'User-friendly name'
-            label: Label
+            instructions: null
+            label: null
             max: null
             min: null
             name: null
@@ -23,22 +23,16 @@ fieldLayouts:
             step: null
             tip: null
             title: null
-            type: craft\fieldlayoutelements\TitleField
+            type: craft\fieldlayoutelements\EntryTitleField
             warning: null
             width: 100
         name: Content
         sortOrder: 1
-handle: newsFilters
-name: 'News Filters'
-siteSettings:
-  2c2e1c6a-eb4d-44f1-9a43-8d79b326f354:
-    hasUrls: true
-    template: null
-    uriFormat: 'news-filters/{slug}'
-  547128fa-4529-4483-9968-66425996b69f:
-    hasUrls: true
-    template: null
-    uriFormat: 'news-filters/{slug}'
-structure:
-  maxLevels: 1
-  uid: 24982e68-f795-424d-95df-6f06c375b7d6
+handle: test
+hasTitleField: true
+name: test
+section: 6057d2f3-2637-4b1f-abf1-85a4df474d03
+sortOrder: 1
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

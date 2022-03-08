@@ -1,6 +1,5 @@
-columnSuffix: null
 contentColumnType: string
-fieldGroup: 3754ce62-7e5c-46da-8738-2f15f70f00a4 # Gallery Area
+fieldGroup: 3754ce62-7e5c-46da-8738-2f15f70f00a4
 handle: galleryItemTags
 instructions: ''
 name: 'Gallery Item Tags'
@@ -13,7 +12,7 @@ settings:
   localizeRelations: true
   selectionLabel: ''
   showSiteMenu: true
-  source: 'taggroup:c30bad12-1372-49fe-ab6c-a9c33b2860bb' # Gallery Item Tags
+  source: 'taggroup:c30bad12-1372-49fe-ab6c-a9c33b2860bb'
   sources: '*'
   targetSiteId: null
   validateRelatedElements: false

@@ -1,12 +1,12 @@
 childBlocks: ''
-field: 72e5075a-9b06-4674-b040-615f4a6f7b70 # Content Blocks - Pages
+field: 72e5075a-9b06-4674-b040-615f4a6f7b70
 fieldLayouts:
   756e8454-fa42-4a48-b89b-7b6e4a39b0b7:
     tabs:
       -
         elements:
           -
-            fieldUid: e98e0ffd-73fa-4e57-808c-dcb9873209ca # Entry - Gallery
+            fieldUid: e98e0ffd-73fa-4e57-808c-dcb9873209ca
             instructions: null
             label: null
             required: false
@@ -15,7 +15,7 @@ fieldLayouts:
             warning: null
             width: 50
           -
-            fieldUid: d4696dbe-019e-4c97-a95d-07bfaf9dbd03 # Entry - Staff Profile
+            fieldUid: d4696dbe-019e-4c97-a95d-07bfaf9dbd03
             instructions: null
             label: null
             required: false

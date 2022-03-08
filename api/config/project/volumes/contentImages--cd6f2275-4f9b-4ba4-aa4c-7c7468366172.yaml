@@ -27,7 +27,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            fieldUid: 39af5de5-d299-4bc5-965a-af2d128c7f1a # Alternative Text
+            fieldUid: 39af5de5-d299-4bc5-965a-af2d128c7f1a
             instructions: null
             label: null
             required: false
@@ -41,14 +41,7 @@ handle: contentImages
 hasUrls: true
 name: 'Content Images'
 settings:
-  bucket: rubin-obs-api_assets_content
-  bucketSelectionMode: choose
-  expires: '5 minutes'
-  keyFileContents: ''
-  projectId: $GCP_PROJECT_ID
-  subfolder: ''
+  path: '@webroot/assets/content'
 sortOrder: 2
-titleTranslationKeyFormat: null
-titleTranslationMethod: site
-type: craft\googlecloud\Volume
-url: '@assetsContentBaseURL'
+type: craft\volumes\Local
+url: '@assetBaseURL/assets/content'

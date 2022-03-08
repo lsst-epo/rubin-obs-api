@@ -4,7 +4,7 @@ fieldLayouts:
       -
         elements:
           -
-            fieldUid: e48cbecf-107a-43c6-b099-9d6f3d7cadd8 # Credit
+            fieldUid: e48cbecf-107a-43c6-b099-9d6f3d7cadd8
             instructions: null
             label: null
             required: false
@@ -13,7 +13,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            fieldUid: c9bce017-1c1c-4949-ad3b-a5c0b991a83a # Metadata Version
+            fieldUid: c9bce017-1c1c-4949-ad3b-a5c0b991a83a
             instructions: null
             label: null
             required: false
@@ -22,7 +22,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            fieldUid: 03d7331c-b357-4eed-a6b0-3c5a403cae73 # Publisher
+            fieldUid: 03d7331c-b357-4eed-a6b0-3c5a403cae73
             instructions: null
             label: null
             required: false
@@ -31,7 +31,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            fieldUid: 58f1a805-f9c5-46ce-81dd-e17a3ea99353 # PublisherId
+            fieldUid: 58f1a805-f9c5-46ce-81dd-e17a3ea99353
             instructions: null
             label: null
             required: false
@@ -40,7 +40,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            fieldUid: 61e2311c-55a3-4219-9afe-606f0f422e3f # Usage Terms
+            fieldUid: 61e2311c-55a3-4219-9afe-606f0f422e3f
             instructions: null
             label: null
             required: false
@@ -52,4 +52,3 @@ fieldLayouts:
         sortOrder: 1
 handle: galleryItemDefaults
 name: 'Gallery Item Defaults'
-sortOrder: 0

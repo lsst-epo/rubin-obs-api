@@ -1,11 +1,11 @@
-field: d23a9bfc-61f9-46fa-bfe4-a4ca97a20a61 # Asset Variants
+field: d23a9bfc-61f9-46fa-bfe4-a4ca97a20a61
 fieldLayouts:
   900be27e-c6e3-4ec1-a077-9c5fde0de66a:
     tabs:
       -
         elements:
           -
-            fieldUid: 5075e912-4aa1-4ce4-96b2-8868358b51e3 # Header
+            fieldUid: 5075e912-4aa1-4ce4-96b2-8868358b51e3
             instructions: null
             label: null
             required: false
@@ -16,8 +16,7 @@ fieldLayouts:
         name: Content
         sortOrder: 1
 fields:
-  5075e912-4aa1-4ce4-96b2-8868358b51e3: # Header
-    columnSuffix: null
+  5075e912-4aa1-4ce4-96b2-8868358b51e3:
     contentColumnType: text
     fieldGroup: null
     handle: assetHeader
@@ -31,7 +30,7 @@ fields:
       columnType: null
       initialRows: '4'
       multiline: ''
-      placeholder: null
+      placeholder: ''
       uiMode: normal
     translationKeyFormat: null
     translationMethod: site

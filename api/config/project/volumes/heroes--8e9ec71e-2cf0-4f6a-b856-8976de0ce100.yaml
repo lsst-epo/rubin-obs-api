@@ -27,7 +27,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            fieldUid: 39af5de5-d299-4bc5-965a-af2d128c7f1a # Alternative Text
+            fieldUid: 39af5de5-d299-4bc5-965a-af2d128c7f1a
             instructions: null
             label: null
             required: false
@@ -36,7 +36,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            fieldUid: 58aa24c3-97e4-43e7-a812-7374e5650180 # Focal Point X
+            fieldUid: 58aa24c3-97e4-43e7-a812-7374e5650180
             instructions: null
             label: null
             required: false
@@ -45,7 +45,7 @@ fieldLayouts:
             warning: null
             width: 50
           -
-            fieldUid: 0073b1d1-a221-431d-aab9-bf4e193adf4f # Focal Point Y
+            fieldUid: 0073b1d1-a221-431d-aab9-bf4e193adf4f
             instructions: null
             label: null
             required: false
@@ -59,14 +59,7 @@ handle: heroes
 hasUrls: true
 name: Heroes
 settings:
-  bucket: rubin-obs-api_assets_heroes
-  bucketSelectionMode: choose
-  expires: '5 minutes'
-  keyFileContents: ''
-  projectId: $GCP_PROJECT_ID
-  subfolder: ''
+  path: '@webroot/assets/hero'
 sortOrder: 1
-titleTranslationKeyFormat: null
-titleTranslationMethod: site
-type: craft\googlecloud\Volume
-url: '@assetsHeroesBaseURL'
+type: craft\volumes\Local
+url: '@assetBaseURL/assets/hero'

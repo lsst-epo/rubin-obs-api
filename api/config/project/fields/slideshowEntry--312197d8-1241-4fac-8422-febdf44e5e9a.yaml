@@ -1,6 +1,5 @@
-columnSuffix: null
 contentColumnType: string
-fieldGroup: 9940892d-32f4-4399-acac-ab559ce1c82b # Common
+fieldGroup: 9940892d-32f4-4399-acac-ab559ce1c82b
 handle: slideshowEntry
 instructions: ''
 name: 'Entry - Slideshow'
@@ -13,7 +12,7 @@ settings:
   showSiteMenu: false
   source: null
   sources:
-    - 'section:fb3283a6-7286-4b2b-a77a-010783dcee7e' # Slideshows
+    - 'section:fb3283a6-7286-4b2b-a77a-010783dcee7e'
   targetSiteId: null
   validateRelatedElements: false
   viewMode: null

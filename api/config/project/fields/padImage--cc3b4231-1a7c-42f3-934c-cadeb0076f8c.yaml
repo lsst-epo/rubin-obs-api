@@ -1,6 +1,5 @@
-columnSuffix: null
 contentColumnType: boolean
-fieldGroup: df8c8d8a-c7d1-45bf-b551-ef790a5b59ad # Callouts
+fieldGroup: df8c8d8a-c7d1-45bf-b551-ef790a5b59ad
 handle: padImage
 instructions: 'Increases the padding around the image to make it smaller or space it out further from the text content. Has no effect on mobile layout.'
 name: 'Image Padding'

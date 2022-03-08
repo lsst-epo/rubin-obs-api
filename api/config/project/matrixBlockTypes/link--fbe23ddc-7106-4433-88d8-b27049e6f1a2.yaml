@@ -1,0 +1,95 @@
+field: 4c977b75-9ee1-4cdb-9d2a-203639f4af84
+fieldLayouts:
+  027ee917-6a27-4861-935b-be385441de00:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: 522bc2d7-fcc3-4817-a986-5c860e53351c
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: a5b8e4fe-87da-48fc-8156-2a2a973b29e5
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: c44a71b5-f4c8-4209-8433-9878aece9aa5
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+fields:
+  522bc2d7-fcc3-4817-a986-5c860e53351c:
+    contentColumnType: string
+    fieldGroup: null
+    handle: internalEntry
+    instructions: ''
+    name: 'Internal Entry'
+    searchable: false
+    settings:
+      allowSelfRelations: false
+      limit: '1'
+      localizeRelations: true
+      selectionLabel: 'Select an entry'
+      showSiteMenu: true
+      source: null
+      sources:
+        - 'section:3a8b9653-cdd3-46ce-84b2-d73b5dc4de63'
+        - 'section:f1b8c943-bc12-4001-9e2a-d531379f1aaf'
+        - singles
+      targetSiteId: null
+      validateRelatedElements: false
+      viewMode: null
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Entries
+  a5b8e4fe-87da-48fc-8156-2a2a973b29e5:
+    contentColumnType: string(255)
+    fieldGroup: null
+    handle: externalUrl
+    instructions: ''
+    name: URL
+    searchable: false
+    settings:
+      maxLength: '255'
+      placeholder: ''
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Url
+  c44a71b5-f4c8-4209-8433-9878aece9aa5:
+    contentColumnType: text
+    fieldGroup: null
+    handle: linkText
+    instructions: 'Will be populated by the page title if left blank and referencing an internal entry.'
+    name: Text
+    searchable: true
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: ''
+      placeholder: ''
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\PlainText
+handle: link
+name: Link
+sortOrder: 1

@@ -1,6 +1,5 @@
-columnSuffix: null
 contentColumnType: string
-fieldGroup: 9940892d-32f4-4399-acac-ab559ce1c82b # Common
+fieldGroup: 9940892d-32f4-4399-acac-ab559ce1c82b
 handle: pagePostEntry
 instructions: ''
 name: 'Entry - Page & Post'
@@ -13,8 +12,8 @@ settings:
   showSiteMenu: true
   source: null
   sources:
-    - 'section:11be7603-f576-4af8-93a6-e285e4ff42c4' # News
-    - 'section:f1b8c943-bc12-4001-9e2a-d531379f1aaf' # Pages
+    - 'section:11be7603-f576-4af8-93a6-e285e4ff42c4'
+    - 'section:f1b8c943-bc12-4001-9e2a-d531379f1aaf'
   targetSiteId: null
   validateRelatedElements: false
   viewMode: null

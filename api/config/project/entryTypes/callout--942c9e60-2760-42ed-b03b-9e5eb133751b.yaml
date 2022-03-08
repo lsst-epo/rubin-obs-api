@@ -27,7 +27,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            fieldUid: b0ce3829-20c1-44ef-a7c7-499800645afc # Header
+            fieldUid: b0ce3829-20c1-44ef-a7c7-499800645afc
             instructions: null
             label: null
             required: false
@@ -36,7 +36,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            fieldUid: 7db205b7-a548-42f1-8c26-416ec51cf3fa # Text
+            fieldUid: 7db205b7-a548-42f1-8c26-416ec51cf3fa
             instructions: null
             label: null
             required: false
@@ -45,7 +45,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            fieldUid: 496e755e-78ab-4e3f-8c3a-9b320023b8ec # Image
+            fieldUid: 496e755e-78ab-4e3f-8c3a-9b320023b8ec
             instructions: null
             label: null
             required: false
@@ -54,7 +54,7 @@ fieldLayouts:
             warning: null
             width: 25
           -
-            fieldUid: cc3b4231-1a7c-42f3-934c-cadeb0076f8c # Image Padding
+            fieldUid: cc3b4231-1a7c-42f3-934c-cadeb0076f8c
             instructions: null
             label: null
             required: false
@@ -63,7 +63,7 @@ fieldLayouts:
             warning: null
             width: 25
           -
-            fieldUid: fa690eba-6d46-4a5e-9dcd-0845f5b56c1b # Dynamic Component
+            fieldUid: fa690eba-6d46-4a5e-9dcd-0845f5b56c1b
             instructions: 'In place of an image, a dynamic component can be chosen (currently only for Alert Stream)'
             label: ''
             required: ''
@@ -72,7 +72,7 @@ fieldLayouts:
             warning: null
             width: 25
           -
-            fieldUid: 4c977b75-9ee1-4cdb-9d2a-203639f4af84 # Links
+            fieldUid: 4c977b75-9ee1-4cdb-9d2a-203639f4af84
             instructions: null
             label: null
             required: false
@@ -85,7 +85,7 @@ fieldLayouts:
       -
         elements:
           -
-            fieldUid: 8b8ed305-e6e6-4754-925f-bb07427b2060 # Background Color
+            fieldUid: 8b8ed305-e6e6-4754-925f-bb07427b2060
             instructions: null
             label: null
             required: false
@@ -94,7 +94,7 @@ fieldLayouts:
             warning: null
             width: 25
           -
-            fieldUid: 36247100-a0f8-4eb9-b190-898131bf97b3 # Width
+            fieldUid: 36247100-a0f8-4eb9-b190-898131bf97b3
             instructions: null
             label: null
             required: false
@@ -103,7 +103,7 @@ fieldLayouts:
             warning: null
             width: 25
           -
-            fieldUid: dfd8564d-5db6-4167-99db-29867a64bc2c # Content Order
+            fieldUid: dfd8564d-5db6-4167-99db-29867a64bc2c
             instructions: null
             label: null
             required: false
@@ -112,7 +112,7 @@ fieldLayouts:
             warning: null
             width: 25
           -
-            fieldUid: 753b10b6-e9e6-44f5-a9d9-4a07788733e1 # Content Ratio
+            fieldUid: 753b10b6-e9e6-44f5-a9d9-4a07788733e1
             instructions: null
             label: null
             required: false
@@ -125,7 +125,7 @@ fieldLayouts:
 handle: callout
 hasTitleField: true
 name: Callout
-section: 7cad6f4e-cc7b-45cf-ac7b-6f383e77bc1b # Callouts
+section: 7cad6f4e-cc7b-45cf-ac7b-6f383e77bc1b
 sortOrder: 1
 titleFormat: null
 titleTranslationKeyFormat: null

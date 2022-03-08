@@ -1,6 +1,5 @@
-columnSuffix: null
 contentColumnType: string
-fieldGroup: 99f4a28a-48c3-49ca-bb4a-7acbb49fde30 # Pages
+fieldGroup: 99f4a28a-48c3-49ca-bb4a-7acbb49fde30
 handle: dynamicComponent
 instructions: 'For dynamic pages and blocks.'
 name: 'Dynamic Component'

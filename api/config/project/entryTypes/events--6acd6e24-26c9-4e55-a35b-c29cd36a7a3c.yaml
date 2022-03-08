@@ -27,7 +27,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            fieldUid: 05eead62-7bf9-43e4-a7e8-bcd8f9f77323 # Hero
+            fieldUid: 05eead62-7bf9-43e4-a7e8-bcd8f9f77323
             instructions: ''
             label: ''
             required: '1'
@@ -36,7 +36,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            fieldUid: 3146b06e-af03-43e7-b278-3a65c81f610e # Address
+            fieldUid: 3146b06e-af03-43e7-b278-3a65c81f610e
             instructions: null
             label: null
             required: false
@@ -45,7 +45,7 @@ fieldLayouts:
             warning: null
             width: 25
           -
-            fieldUid: a8ba2de3-ff22-4a96-9a53-00b6dec31def # City
+            fieldUid: a8ba2de3-ff22-4a96-9a53-00b6dec31def
             instructions: ''
             label: ''
             required: ''
@@ -54,7 +54,7 @@ fieldLayouts:
             warning: null
             width: 25
           -
-            fieldUid: 87362cd0-662a-4068-9482-5ff62fe472c4 # State/Province
+            fieldUid: 87362cd0-662a-4068-9482-5ff62fe472c4
             instructions: ''
             label: ''
             required: ''
@@ -63,7 +63,7 @@ fieldLayouts:
             warning: null
             width: 25
           -
-            fieldUid: 04000104-ec26-4d82-959a-729454e7f1cc # Country
+            fieldUid: 04000104-ec26-4d82-959a-729454e7f1cc
             instructions: ''
             label: ''
             required: ''
@@ -72,7 +72,7 @@ fieldLayouts:
             warning: null
             width: 25
           -
-            fieldUid: ddb3efd5-1bce-43e1-9fb9-399ada8a8126 # Registration Open Date
+            fieldUid: ddb3efd5-1bce-43e1-9fb9-399ada8a8126
             instructions: ''
             label: ''
             required: ''
@@ -81,7 +81,7 @@ fieldLayouts:
             warning: null
             width: 25
           -
-            fieldUid: d93d96b1-80fe-486a-9ada-5d52b6e67009 # Registration Close Date
+            fieldUid: d93d96b1-80fe-486a-9ada-5d52b6e67009
             instructions: null
             label: null
             required: false
@@ -90,7 +90,7 @@ fieldLayouts:
             warning: null
             width: 25
           -
-            fieldUid: 75f0b770-5006-4359-848f-96415196bfe0 # Date
+            fieldUid: 72a74d52-7fcc-4c4e-8db1-1528c7ae5ee3
             instructions: ''
             label: ''
             required: '1'
@@ -99,16 +99,7 @@ fieldLayouts:
             warning: null
             width: 25
           -
-            fieldUid: 960543c0-3ba6-466b-aa9e-9182279dd49a # End Date
-            instructions: null
-            label: null
-            required: false
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            warning: null
-            width: 100
-          -
-            fieldUid: 72a74d52-7fcc-4c4e-8db1-1528c7ae5ee3 # Event Type
+            fieldUid: 75f0b770-5006-4359-848f-96415196bfe0
             instructions: ''
             label: ''
             required: '1'
@@ -117,7 +108,7 @@ fieldLayouts:
             warning: null
             width: 25
           -
-            fieldUid: cd801712-4ba3-4a9c-8fab-0d3e2a58b4eb # Description
+            fieldUid: cd801712-4ba3-4a9c-8fab-0d3e2a58b4eb
             instructions: null
             label: null
             required: false
@@ -126,7 +117,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            fieldUid: 72e5075a-9b06-4674-b040-615f4a6f7b70 # Content Blocks - Pages
+            fieldUid: 72e5075a-9b06-4674-b040-615f4a6f7b70
             instructions: null
             label: null
             required: false
@@ -139,7 +130,7 @@ fieldLayouts:
 handle: events
 hasTitleField: true
 name: Events
-section: 4305f2e2-40b8-47b2-8b62-135b8b57be7f # Events
+section: 4305f2e2-40b8-47b2-8b62-135b8b57be7f
 sortOrder: 1
 titleFormat: null
 titleTranslationKeyFormat: null

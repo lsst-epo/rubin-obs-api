@@ -1,6 +1,4 @@
-api/web/assets/
+api/assets/
 .DS_Store
 log/access.log
 log/error.log
-.env
-app.yaml

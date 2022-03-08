@@ -1,44 +1,44 @@
 isPublic: true
 name: 'Public Schema'
 scope:
-  - 'sections.7cad6f4e-cc7b-45cf-ac7b-6f383e77bc1b:read' # Callouts
-  - 'entrytypes.942c9e60-2760-42ed-b03b-9e5eb133751b:read' # Callout
-  - 'entrytypes.34f61e7c-358c-48b8-8439-42bc05ed255c:read' # Callout - two-tone
-  - 'sections.4305f2e2-40b8-47b2-8b62-135b8b57be7f:read' # Events
-  - 'entrytypes.6acd6e24-26c9-4e55-a35b-c29cd36a7a3c:read' # Events
-  - 'sections.3a8b9653-cdd3-46ce-84b2-d73b5dc4de63:read' # Gallery
-  - 'entrytypes.7187131b-681b-45de-a1ea-87a8d070c05a:read' # Gallery Item
-  - 'sections.3e10dcca-4dd1-4578-8add-708cd9740881:read' # Homepage
-  - 'entrytypes.8145b1c9-cb8f-4c86-91ba-34fe5ded34e6:read' # Homepage
-  - 'sections.59fb5a9e-74f4-4618-adba-601791f42c92:read' # Jobs
-  - 'entrytypes.39558c70-8baf-4748-9f12-49e78a04eed5:read' # Job
-  - 'sections.11be7603-f576-4af8-93a6-e285e4ff42c4:read' # News
-  - 'entrytypes.4729ad5e-485e-4f98-995d-79fa5254cd42:read' # News Post
-  - 'sections.f1b8c943-bc12-4001-9e2a-d531379f1aaf:read' # Pages
-  - 'entrytypes.23eda090-7e8e-401d-ab49-ee4becc34935:read' # Pages
-  - 'sections.04a48967-eac4-449f-b164-c8ecbb7036d6:read' # Search Results
-  - 'entrytypes.229f2975-93d3-4c6a-9996-dfa1de3004ef:read' # Search Results
-  - 'sections.fb3283a6-7286-4b2b-a77a-010783dcee7e:read' # Slideshows
-  - 'entrytypes.a77c49d2-2441-459e-bfea-63e571d25a12:read' # Slideshow
-  - 'sections.78410791-6edc-46c9-a17b-4358dcd545ec:read' # Staff Profiles
-  - 'entrytypes.7d60273b-66b0-4843-a42c-4b4387185a15:read' # Staff Profiles
-  - 'volumes.8e9ec71e-2cf0-4f6a-b856-8976de0ce100:read' # Heroes
-  - 'volumes.cd6f2275-4f9b-4ba4-aa4c-7c7468366172:read' # Content Images
-  - 'volumes.f52f3e9c-434e-43b5-89eb-a5776e6bc4a6:read' # Callout Images
-  - 'volumes.18a75c63-648f-4145-9cc3-386e7c8a0106:read' # General
-  - 'volumes.c3d1c243-1703-4117-abc7-88487a1f8f24:read' # Staff Profiles
-  - 'volumes.d41cc960-99a4-41a8-a7a6-7891a22e4a93:read' # Asset Variants
-  - 'globalsets.1a2ba41a-3949-4982-9cb3-f8b03863bcfd:read' # Footer Content
-  - 'globalsets.b8393df9-fb81-4d70-9ccb-6d030c818580:read' # Gallery Item Defaults
-  - 'globalsets.994d5664-f056-4969-b2cc-c62660f069af:read' # Root Page Information
-  - 'globalsets.8ccd6c1c-8e9b-44e8-93a9-f62589fb4819:read' # Site Information
-  - 'categorygroups.3a3af2ab-b037-455a-ba95-bc3be89efdb0:read' # Event Filters
-  - 'categorygroups.4ead9327-61fc-4b46-810c-5f490c2c45ad:read' # Gallery Types
-  - 'categorygroups.cc8c47f0-3dec-44db-a47f-7ca6c984864a:read' # Job Types
-  - 'categorygroups.df7f4ec2-58b2-4c3a-afff-b07f4764fa4b:read' # Location
-  - 'categorygroups.7cb3bc06-c4c4-4017-8c0c-fa6aad7cbd8e:read' # News Filters
-  - 'categorygroups.0928ff1a-513d-41e0-acc1-606d93988618:read' # Search Filters
-  - 'categorygroups.70ff59dd-8280-4bea-bef6-cfdf9ea4f0c2:read' # Sort Options
-  - 'categorygroups.aa60fd40-45d4-48bb-8b81-8ec736456687:read' # Staff Filters
-  - 'taggroups.c30bad12-1372-49fe-ab6c-a9c33b2860bb:read' # Gallery Item Tags
-  - 'taggroups.0d02fdfb-053c-4d46-a5f8-0abf2542a5d2:read' # News Tags
+  - 'sections.7cad6f4e-cc7b-45cf-ac7b-6f383e77bc1b:read'
+  - 'entrytypes.942c9e60-2760-42ed-b03b-9e5eb133751b:read'
+  - 'entrytypes.34f61e7c-358c-48b8-8439-42bc05ed255c:read'
+  - 'sections.4305f2e2-40b8-47b2-8b62-135b8b57be7f:read'
+  - 'entrytypes.6acd6e24-26c9-4e55-a35b-c29cd36a7a3c:read'
+  - 'sections.3a8b9653-cdd3-46ce-84b2-d73b5dc4de63:read'
+  - 'entrytypes.7187131b-681b-45de-a1ea-87a8d070c05a:read'
+  - 'sections.3e10dcca-4dd1-4578-8add-708cd9740881:read'
+  - 'entrytypes.8145b1c9-cb8f-4c86-91ba-34fe5ded34e6:read'
+  - 'sections.59fb5a9e-74f4-4618-adba-601791f42c92:read'
+  - 'entrytypes.39558c70-8baf-4748-9f12-49e78a04eed5:read'
+  - 'sections.11be7603-f576-4af8-93a6-e285e4ff42c4:read'
+  - 'entrytypes.4729ad5e-485e-4f98-995d-79fa5254cd42:read'
+  - 'sections.f1b8c943-bc12-4001-9e2a-d531379f1aaf:read'
+  - 'entrytypes.23eda090-7e8e-401d-ab49-ee4becc34935:read'
+  - 'sections.04a48967-eac4-449f-b164-c8ecbb7036d6:read'
+  - 'entrytypes.229f2975-93d3-4c6a-9996-dfa1de3004ef:read'
+  - 'sections.fb3283a6-7286-4b2b-a77a-010783dcee7e:read'
+  - 'entrytypes.a77c49d2-2441-459e-bfea-63e571d25a12:read'
+  - 'sections.78410791-6edc-46c9-a17b-4358dcd545ec:read'
+  - 'entrytypes.7d60273b-66b0-4843-a42c-4b4387185a15:read'
+  - 'volumes.8e9ec71e-2cf0-4f6a-b856-8976de0ce100:read'
+  - 'volumes.cd6f2275-4f9b-4ba4-aa4c-7c7468366172:read'
+  - 'volumes.f52f3e9c-434e-43b5-89eb-a5776e6bc4a6:read'
+  - 'volumes.18a75c63-648f-4145-9cc3-386e7c8a0106:read'
+  - 'volumes.c3d1c243-1703-4117-abc7-88487a1f8f24:read'
+  - 'volumes.d41cc960-99a4-41a8-a7a6-7891a22e4a93:read'
+  - 'globalsets.1a2ba41a-3949-4982-9cb3-f8b03863bcfd:read'
+  - 'globalsets.b8393df9-fb81-4d70-9ccb-6d030c818580:read'
+  - 'globalsets.994d5664-f056-4969-b2cc-c62660f069af:read'
+  - 'globalsets.8ccd6c1c-8e9b-44e8-93a9-f62589fb4819:read'
+  - 'categorygroups.3a3af2ab-b037-455a-ba95-bc3be89efdb0:read'
+  - 'categorygroups.4ead9327-61fc-4b46-810c-5f490c2c45ad:read'
+  - 'categorygroups.cc8c47f0-3dec-44db-a47f-7ca6c984864a:read'
+  - 'categorygroups.df7f4ec2-58b2-4c3a-afff-b07f4764fa4b:read'
+  - 'categorygroups.7cb3bc06-c4c4-4017-8c0c-fa6aad7cbd8e:read'
+  - 'categorygroups.0928ff1a-513d-41e0-acc1-606d93988618:read'
+  - 'categorygroups.70ff59dd-8280-4bea-bef6-cfdf9ea4f0c2:read'
+  - 'categorygroups.aa60fd40-45d4-48bb-8b81-8ec736456687:read'
+  - 'taggroups.c30bad12-1372-49fe-ab6c-a9c33b2860bb:read'
+  - 'taggroups.0d02fdfb-053c-4d46-a5f8-0abf2542a5d2:read'

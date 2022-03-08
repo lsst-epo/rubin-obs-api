@@ -1,12 +1,12 @@
 childBlocks: '["relatedContentItem"]'
-field: 522db817-08b6-4ecf-a423-4aec204ab85d # Content Blocks - News
+field: 522db817-08b6-4ecf-a423-4aec204ab85d
 fieldLayouts:
   434722a0-17ca-49aa-908b-6a945f4cf383:
     tabs:
       -
         elements:
           -
-            fieldUid: b0ce3829-20c1-44ef-a7c7-499800645afc # Header
+            fieldUid: b0ce3829-20c1-44ef-a7c7-499800645afc
             instructions: ''
             label: Heading
             required: false
@@ -15,7 +15,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            fieldUid: d019727b-a6d5-43d9-a688-f10df985a87e # Link
+            fieldUid: d019727b-a6d5-43d9-a688-f10df985a87e
             instructions: null
             label: null
             required: false
@@ -24,7 +24,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            fieldUid: 660361f1-3ecb-4c5e-9274-76e54f1f291f # Number of items
+            fieldUid: 660361f1-3ecb-4c5e-9274-76e54f1f291f
             instructions: null
             label: null
             required: false

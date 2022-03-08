@@ -1,11 +1,11 @@
-field: c11d26d4-236a-4b06-99f6-3a8f67821ada # News Assets
+field: c11d26d4-236a-4b06-99f6-3a8f67821ada
 fieldLayouts:
   007709ed-b343-4721-9b2a-e6874c493fe6:
     tabs:
       -
         elements:
           -
-            fieldUid: a61323db-26ac-4898-873c-a6c6b66fcb86 # Header
+            fieldUid: a61323db-26ac-4898-873c-a6c6b66fcb86
             instructions: null
             label: null
             required: false
@@ -16,8 +16,7 @@ fieldLayouts:
         name: Content
         sortOrder: 1
 fields:
-  a61323db-26ac-4898-873c-a6c6b66fcb86: # Header
-    columnSuffix: null
+  a61323db-26ac-4898-873c-a6c6b66fcb86:
     contentColumnType: text
     fieldGroup: null
     handle: assetHeader
@@ -31,7 +30,7 @@ fields:
       columnType: null
       initialRows: '4'
       multiline: ''
-      placeholder: null
+      placeholder: ''
       uiMode: normal
     translationKeyFormat: null
     translationMethod: site

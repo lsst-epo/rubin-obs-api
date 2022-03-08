@@ -27,7 +27,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            fieldUid: 657b9edd-b6d3-4b7f-af89-36117c5d98a8 # Rich Text Description
+            fieldUid: 657b9edd-b6d3-4b7f-af89-36117c5d98a8
             instructions: 'Teaser for the slideshow as a whole'
             label: Description
             required: ''
@@ -36,7 +36,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            fieldUid: 8bfcc6b7-ec2f-4759-bce9-c62bc12aecd4 # Representative Asset Variant
+            fieldUid: 8bfcc6b7-ec2f-4759-bce9-c62bc12aecd4
             instructions: null
             label: null
             required: false
@@ -45,7 +45,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            fieldUid: b4139639-fe83-4dd3-acf6-581a798190b5 # Slideshow Items
+            fieldUid: b4139639-fe83-4dd3-acf6-581a798190b5
             instructions: null
             label: null
             required: false
@@ -58,7 +58,7 @@ fieldLayouts:
 handle: slideshow
 hasTitleField: true
 name: Slideshow
-section: fb3283a6-7286-4b2b-a77a-010783dcee7e # Slideshows
+section: fb3283a6-7286-4b2b-a77a-010783dcee7e
 sortOrder: 1
 titleFormat: null
 titleTranslationKeyFormat: null

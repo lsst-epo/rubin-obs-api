@@ -1,30 +1,27 @@
-columnSuffix: null
 contentColumnType: string
-fieldGroup: 99f4a28a-48c3-49ca-bb4a-7acbb49fde30 # Pages
+fieldGroup: 99f4a28a-48c3-49ca-bb4a-7acbb49fde30
 handle: featuredImage
 instructions: 'Featured image for this page. Used for OpenGraph tags.'
 name: 'Featured Image'
 searchable: false
 settings:
   allowSelfRelations: false
-  allowUploads: true
   allowedKinds:
     - image
-  defaultUploadLocationSource: 'volume:cd6f2275-4f9b-4ba4-aa4c-7c7468366172' # Content Images
+  defaultUploadLocationSource: 'volume:cd6f2275-4f9b-4ba4-aa4c-7c7468366172'
   defaultUploadLocationSubpath: ''
   limit: '1'
   localizeRelations: false
-  previewMode: full
   restrictFiles: '1'
   selectionLabel: 'Add an image'
   showSiteMenu: true
   showUnpermittedFiles: false
   showUnpermittedVolumes: false
-  singleUploadLocationSource: 'volume:8e9ec71e-2cf0-4f6a-b856-8976de0ce100' # Heroes
+  singleUploadLocationSource: 'volume:8e9ec71e-2cf0-4f6a-b856-8976de0ce100'
   singleUploadLocationSubpath: ''
   source: null
   sources:
-    - 'volume:cd6f2275-4f9b-4ba4-aa4c-7c7468366172' # Content Images
+    - 'volume:cd6f2275-4f9b-4ba4-aa4c-7c7468366172'
   targetSiteId: null
   useSingleFolder: false
   validateRelatedElements: false

@@ -1,12 +1,12 @@
 childBlocks: ''
-field: 9c34fc8b-8bc3-4f8a-bbc8-ea58a018719a # Custom Breadcrumb Sets
+field: 9c34fc8b-8bc3-4f8a-bbc8-ea58a018719a
 fieldLayouts:
   747dd2e5-0613-44a9-a2c6-433af65f0343:
     tabs:
       -
         elements:
           -
-            fieldUid: b0ce3829-20c1-44ef-a7c7-499800645afc # Header
+            fieldUid: b0ce3829-20c1-44ef-a7c7-499800645afc
             instructions: null
             label: null
             required: false
@@ -15,7 +15,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            fieldUid: 5f0325e0-cdba-4181-a634-bd8ebf451723 # Entry - Page
+            fieldUid: 5f0325e0-cdba-4181-a634-bd8ebf451723
             instructions: null
             label: null
             required: false

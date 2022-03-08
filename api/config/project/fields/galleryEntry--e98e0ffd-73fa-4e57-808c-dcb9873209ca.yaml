@@ -1,6 +1,5 @@
-columnSuffix: null
 contentColumnType: string
-fieldGroup: 9940892d-32f4-4399-acac-ab559ce1c82b # Common
+fieldGroup: 9940892d-32f4-4399-acac-ab559ce1c82b
 handle: galleryEntry
 instructions: ''
 name: 'Entry - Gallery'
@@ -13,7 +12,7 @@ settings:
   showSiteMenu: false
   source: null
   sources:
-    - 'section:3a8b9653-cdd3-46ce-84b2-d73b5dc4de63' # Gallery
+    - 'section:3a8b9653-cdd3-46ce-84b2-d73b5dc4de63'
   targetSiteId: null
   validateRelatedElements: false
   viewMode: null

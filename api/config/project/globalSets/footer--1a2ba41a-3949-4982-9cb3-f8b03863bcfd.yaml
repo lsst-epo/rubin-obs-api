@@ -8,7 +8,7 @@ fieldLayouts:
             tip: 'Select an internal entry (page or gallery asset) or provide a link to an external webpage.'
             type: craft\fieldlayoutelements\Tip
           -
-            fieldUid: 4c977b75-9ee1-4cdb-9d2a-203639f4af84 # Links
+            fieldUid: 4c977b75-9ee1-4cdb-9d2a-203639f4af84
             instructions: null
             label: null
             required: false
@@ -21,7 +21,7 @@ fieldLayouts:
       -
         elements:
           -
-            fieldUid: 20aeb76c-ce1e-47c4-96bd-6ebc1d456ef7 # Colophon
+            fieldUid: 20aeb76c-ce1e-47c4-96bd-6ebc1d456ef7
             instructions: null
             label: null
             required: false
@@ -34,7 +34,7 @@ fieldLayouts:
       -
         elements:
           -
-            fieldUid: 5ca378e1-cfb5-4db9-ad3c-1d6ef36536b7 # Supporters’ Logos
+            fieldUid: 5ca378e1-cfb5-4db9-ad3c-1d6ef36536b7
             instructions: null
             label: null
             required: false
@@ -46,4 +46,3 @@ fieldLayouts:
         sortOrder: 3
 handle: footer
 name: 'Footer Content'
-sortOrder: 0

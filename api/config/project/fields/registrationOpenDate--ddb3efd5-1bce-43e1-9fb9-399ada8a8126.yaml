@@ -1,6 +1,5 @@
-columnSuffix: null
 contentColumnType: datetime
-fieldGroup: bb77d190-487e-45c5-a1d2-0208510a7d88 # Events
+fieldGroup: bb77d190-487e-45c5-a1d2-0208510a7d88
 handle: registrationOpenDate
 instructions: ''
 name: 'Registration Open Date'
@@ -11,7 +10,6 @@ settings:
   minuteIncrement: '30'
   showDate: true
   showTime: false
-  showTimeZone: false
 translationKeyFormat: null
 translationMethod: none
 type: craft\fields\Date

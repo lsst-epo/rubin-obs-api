@@ -1,6 +1,5 @@
-columnSuffix: null
 contentColumnType: datetime
-fieldGroup: 8096dc6c-f1bd-4d24-8add-7df7f190a17c # Jobs
+fieldGroup: 8096dc6c-f1bd-4d24-8add-7df7f190a17c
 handle: openDate
 instructions: ''
 name: 'Open Date'
@@ -11,7 +10,6 @@ settings:
   minuteIncrement: '30'
   showDate: true
   showTime: false
-  showTimeZone: false
 translationKeyFormat: null
 translationMethod: none
 type: craft\fields\Date

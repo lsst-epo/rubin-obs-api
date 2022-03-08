@@ -1,6 +1,5 @@
-columnSuffix: null
 contentColumnType: string
-fieldGroup: 9940892d-32f4-4399-acac-ab559ce1c82b # Common
+fieldGroup: 9940892d-32f4-4399-acac-ab559ce1c82b
 handle: staffEntry
 instructions: ''
 name: 'Entry - Staff Profile'
@@ -13,7 +12,7 @@ settings:
   showSiteMenu: true
   source: null
   sources:
-    - 'section:78410791-6edc-46c9-a17b-4358dcd545ec' # Staff Profiles
+    - 'section:78410791-6edc-46c9-a17b-4358dcd545ec'
   targetSiteId: null
   validateRelatedElements: false
   viewMode: null

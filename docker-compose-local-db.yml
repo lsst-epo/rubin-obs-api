@@ -9,9 +9,6 @@ services:
     build: ./
     depends_on:
       - postgres
-    volumes:
-      - ./api:/var/www/html
-      - .env:/var/secrets/.env
     environment:
       SECURITY_KEY: 6SkOBU85-5lFdRleCkckUCqquBq6mBIS
       ENVIRONMENT: dev
