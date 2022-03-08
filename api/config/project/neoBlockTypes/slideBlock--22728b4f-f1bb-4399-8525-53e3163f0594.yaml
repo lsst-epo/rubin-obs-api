@@ -1,13 +1,12 @@
-childBlocks:
-  - slide
-field: 72e5075a-9b06-4674-b040-615f4a6f7b70
+childBlocks: '["slide"]'
+field: 72e5075a-9b06-4674-b040-615f4a6f7b70 # Content Blocks - Pages
 fieldLayouts:
   51150454-bc59-4d8d-a40b-4bc71f14e149:
     tabs:
       -
         elements:
           -
-            fieldUid: b0ce3829-20c1-44ef-a7c7-499800645afc
+            fieldUid: b0ce3829-20c1-44ef-a7c7-499800645afc # Header
             instructions: ''
             label: Heading
             required: false
@@ -16,7 +15,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            fieldUid: d019727b-a6d5-43d9-a688-f10df985a87e
+            fieldUid: d019727b-a6d5-43d9-a688-f10df985a87e # Link
             instructions: null
             label: null
             required: false
@@ -25,7 +24,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            fieldUid: fa690eba-6d46-4a5e-9dcd-0845f5b56c1b
+            fieldUid: fa690eba-6d46-4a5e-9dcd-0845f5b56c1b # Dynamic Component
             instructions: null
             label: null
             required: false
@@ -34,7 +33,7 @@ fieldLayouts:
             warning: null
             width: 50
           -
-            fieldUid: 660361f1-3ecb-4c5e-9274-76e54f1f291f
+            fieldUid: 660361f1-3ecb-4c5e-9274-76e54f1f291f # Number of items
             instructions: 'Max # dynamic slide items to add to this block.'
             label: 'Slider Items Number'
             required: false

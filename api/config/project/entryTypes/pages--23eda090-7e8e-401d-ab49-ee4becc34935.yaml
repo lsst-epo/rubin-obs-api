@@ -27,7 +27,7 @@ fieldLayouts:
             warning: null
             width: 75
           -
-            fieldUid: 831db889-442e-4553-9076-fc3bc2843c8c
+            fieldUid: 831db889-442e-4553-9076-fc3bc2843c8c # Hide title
             instructions: null
             label: null
             required: false
@@ -36,7 +36,7 @@ fieldLayouts:
             warning: null
             width: 25
           -
-            fieldUid: cd801712-4ba3-4a9c-8fab-0d3e2a58b4eb
+            fieldUid: cd801712-4ba3-4a9c-8fab-0d3e2a58b4eb # Description
             instructions: ''
             label: ''
             required: ''
@@ -45,7 +45,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            fieldUid: 3c9eb8f7-9f84-4c22-84d5-531be77aa6b6
+            fieldUid: 3c9eb8f7-9f84-4c22-84d5-531be77aa6b6 # Featured Image
             instructions: ''
             label: ''
             required: ''
@@ -54,7 +54,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            fieldUid: 05eead62-7bf9-43e4-a7e8-bcd8f9f77323
+            fieldUid: 05eead62-7bf9-43e4-a7e8-bcd8f9f77323 # Hero
             instructions: null
             label: null
             required: false
@@ -63,7 +63,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            fieldUid: 72e5075a-9b06-4674-b040-615f4a6f7b70
+            fieldUid: 72e5075a-9b06-4674-b040-615f4a6f7b70 # Content Blocks - Pages
             instructions: null
             label: null
             required: false
@@ -72,7 +72,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            fieldUid: 8b5bcbee-1883-48ca-8c9a-6c506b9abb99
+            fieldUid: 8b5bcbee-1883-48ca-8c9a-6c506b9abb99 # Page Type
             instructions: null
             label: null
             required: false
@@ -81,7 +81,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            fieldUid: fa690eba-6d46-4a5e-9dcd-0845f5b56c1b
+            fieldUid: fa690eba-6d46-4a5e-9dcd-0845f5b56c1b # Dynamic Component
             instructions: null
             label: null
             required: false
@@ -94,7 +94,7 @@ fieldLayouts:
 handle: pages
 hasTitleField: true
 name: Pages
-section: f1b8c943-bc12-4001-9e2a-d531379f1aaf
+section: f1b8c943-bc12-4001-9e2a-d531379f1aaf # Pages
 sortOrder: 1
 titleFormat: null
 titleTranslationKeyFormat: null

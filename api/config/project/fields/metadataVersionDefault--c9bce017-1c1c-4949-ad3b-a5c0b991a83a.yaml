@@ -1,5 +1,6 @@
+columnSuffix: null
 contentColumnType: text
-fieldGroup: 3754ce62-7e5c-46da-8738-2f15f70f00a4
+fieldGroup: 3754ce62-7e5c-46da-8738-2f15f70f00a4 # Gallery Area
 handle: metadataVersionDefault
 instructions: ''
 name: 'Metadata Version'
@@ -11,7 +12,7 @@ settings:
   columnType: null
   initialRows: '4'
   multiline: ''
-  placeholder: ''
+  placeholder: null
   uiMode: normal
 translationKeyFormat: null
 translationMethod: none

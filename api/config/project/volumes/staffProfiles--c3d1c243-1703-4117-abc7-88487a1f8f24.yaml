@@ -27,7 +27,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            fieldUid: 39af5de5-d299-4bc5-965a-af2d128c7f1a
+            fieldUid: 39af5de5-d299-4bc5-965a-af2d128c7f1a # Alternative Text
             instructions: null
             label: null
             required: false
@@ -41,7 +41,14 @@ handle: staffProfiles
 hasUrls: true
 name: 'Staff Profiles'
 settings:
-  path: '@webroot/assets/staff'
+  bucket: rubin-obs-api_assets_staff_profiles
+  bucketSelectionMode: choose
+  expires: '5 minutes'
+  keyFileContents: ''
+  projectId: $GCP_PROJECT_ID
+  subfolder: ''
 sortOrder: 7
-type: craft\volumes\Local
-url: '@assetBaseURL/assets/staff'
+titleTranslationKeyFormat: null
+titleTranslationMethod: site
+type: craft\googlecloud\Volume
+url: '@assetsStaffBaseURL'

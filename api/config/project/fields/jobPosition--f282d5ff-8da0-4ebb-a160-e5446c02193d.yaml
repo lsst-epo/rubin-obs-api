@@ -1,5 +1,6 @@
+columnSuffix: null
 contentColumnType: string
-fieldGroup: 8096dc6c-f1bd-4d24-8add-7df7f190a17c
+fieldGroup: 8096dc6c-f1bd-4d24-8add-7df7f190a17c # Jobs
 handle: jobPosition
 instructions: ''
 name: 'Job Position'
@@ -13,7 +14,7 @@ settings:
   localizeRelations: false
   selectionLabel: 'Add a job type'
   showSiteMenu: true
-  source: 'group:cc8c47f0-3dec-44db-a47f-7ca6c984864a'
+  source: 'group:cc8c47f0-3dec-44db-a47f-7ca6c984864a' # Job Types
   sources: '*'
   targetSiteId: null
   validateRelatedElements: false

@@ -1,5 +1,6 @@
+columnSuffix: null
 contentColumnType: string
-fieldGroup: 99f4a28a-48c3-49ca-bb4a-7acbb49fde30
+fieldGroup: 99f4a28a-48c3-49ca-bb4a-7acbb49fde30 # Pages
 handle: contentBlocks
 instructions: ''
 name: 'Content Blocks - Pages'
