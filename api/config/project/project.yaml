@@ -1,4 +1,4 @@
-dateModified: 1646692701
+dateModified: 1646697400
 email:
   fromEmail: $EMAIL_FROM_ADDRESS
   fromName: $EMAIL_SENDER_NAME
@@ -86,6 +86,7 @@ meta:
     40ee52fe-bbe1-4b44-97ea-ef987105496b: Email # Email
     41a9c595-2a38-40b5-b87c-ada8076913e1: Share # Share
     46d17af4-896a-4fc5-90bf-ac826090d9bc: Credit # Credit
+    48ba11bd-90a5-4239-a24c-d44d01affbcf: 'Image - quote' # Image - quote
     56f60368-4386-4395-92b6-31b15c7663cc: Contact # Contact
     58aa24c3-97e4-43e7-a812-7374e5650180: 'Focal Point X' # Focal Point X
     58efa872-9485-42e3-a1e3-a5435def5392: Educators # Educators
@@ -150,6 +151,7 @@ meta:
     84116f7d-7a26-41d7-bd7f-79761f9b50a9: 'Close Date' # Close Date
     87362cd0-662a-4068-9482-5ff62fe472c4: State/Province # State/Province
     90295d5c-0b35-40ca-bb95-c7fc81969b14: 'Accordion Group' # Accordion Group
+    271253b0-e9b7-4bf1-be32-ce31d71b48b1: Quote # Quote
     312197d8-1241-4fac-8422-febdf44e5e9a: 'Entry - Slideshow' # Entry - Slideshow
     547128fa-4529-4483-9968-66425996b69f: EN # EN
     660361f1-3ecb-4c5e-9274-76e54f1f291f: 'Number of items' # Number of items
@@ -213,6 +215,7 @@ meta:
     d0cb4533-5478-47d5-9473-dd6c3821cf7a: Slide # Slide
     d019727b-a6d5-43d9-a688-f10df985a87e: Link # Link
     d7bdf364-6905-4919-b4b1-08f0010d7a08: 'Contact Info' # Contact Info
+    d12b2ae4-6d10-41ef-8e22-778f54b2f2d0: Attribution # Attribution
     d23a9bfc-61f9-46fa-bfe4-a4ca97a20a61: 'Asset Variants' # Asset Variants
     d41cc960-99a4-41a8-a7a6-7891a22e4a93: 'Asset Variants' # Asset Variants
     d49be42e-1e68-4688-ac3a-d8c7f7181965: Tags # Tags
@@ -247,6 +250,7 @@ meta:
     f282d5ff-8da0-4ebb-a160-e5446c02193d: 'Job Position' # Job Position
     f456f3b4-70e5-4692-b114-31a9c47443e9: 'Gallery Item' # Gallery Item
     f444667c-6ea1-4e0f-89b2-35b059e27bfc: Link # Link
+    fa15bb4c-adb8-4393-82c3-15c2b830867c: 'Callout - quote' # Callout - quote
     fa690eba-6d46-4a5e-9dcd-0845f5b56c1b: 'Dynamic Component' # Dynamic Component
     fb052686-4537-4fe5-9ce2-ff3fd4a341a2: 'Content Image' # Content Image
     fb3d440b-3313-476c-8ce6-9c91ba637a56: 'Download List' # Download List
