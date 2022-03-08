@@ -1,0 +1,19 @@
+columnSuffix: fqufksyl
+contentColumnType: text
+fieldGroup: df8c8d8a-c7d1-45bf-b551-ef790a5b59ad # Callouts
+handle: attribution
+instructions: ''
+name: Attribution
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: ''
+  columnType: null
+  initialRows: '4'
+  multiline: ''
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\PlainText
