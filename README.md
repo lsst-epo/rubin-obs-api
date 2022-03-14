@@ -84,3 +84,4 @@ The /api/assets folder has been added to the .gitignore file for obvious file-si
 ## docker-compose explained
 
 A docker-compose.yml file is simply a way to define multiple images/containers that may be dependent on each other, and any environment variables that each image is expecting. When these defined containers and dependencies are brought up with the ```docker-compose up``` command each container is started as the dependencies dictate.
+h the ```docker-compose up``` command each container is started as the dependencies dictate.
