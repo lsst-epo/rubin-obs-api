@@ -13,7 +13,20 @@ services:
       - ./api:/var/www/html
       - .env:/var/secrets/.env
     environment:
-      - PORT=8080
+      SECURITY_KEY: 6SkOBU85-5lFdRleCkckUCqquBq6mBIS
+      ENVIRONMENT: dev
+      DB_DSN: pgsql:host=postgres;dbname=craft
+      DB_SERVER: postgres
+      DB_NAME: craft
+      DB_USER: craft
+      DB_PASSWORD: rootroot
+      DB_DATABASE: craft
+      DB_SCHEMA: public
+      DB_DRIVER: pgsql
+      DB_PORT: 5432
+      ENABLE_MEMCACHED: "true"
+      MEMCACHED_IP: cache
+      PORT: 8080
     ports:
       - "8080:8080"
 

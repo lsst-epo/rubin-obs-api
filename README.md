@@ -63,6 +63,17 @@ docker-compose -f docker-compose-local-db.yml up
 5. To rebuild images and bring up the containers: `docker-compose -f docker-compose-local-db.yml up --build`
 6. When you need to do composer stuff: `docker run -v ${PWD}/api:/app composer <blah>`
 
+#### Useful docker commands for local development
+
+1. Cleaning house: `docker volume prune` `docker system prune`
+2. Spin stuff down politely: `docker-compose -f docker-compose-local-db.yml down`
+3. Peek inside your running docker containers:
+  * `docker container ls`
+  * `docker exec -it <CONTAINER-ID> /bin/sh`
+  * and then, for instance, to look at DB `psql -d craft -U craft`
+4. If you change `composer.json` and wanna see your changes applied: `docker build `
+5. To rebuild images and bring up the containers: `docker-compose -f docker-compose-local-db.yml up --build`
+
 #### Local Database notes
 
 If you completed the above steps you may have noticed some SQL commands in the log output.
@@ -84,4 +95,3 @@ The /api/assets folder has been added to the .gitignore file for obvious file-si
 ## docker-compose explained
 
 A docker-compose.yml file is simply a way to define multiple images/containers that may be dependent on each other, and any environment variables that each image is expecting. When these defined containers and dependencies are brought up with the ```docker-compose up``` command each container is started as the dependencies dictate.
-h the ```docker-compose up``` command each container is started as the dependencies dictate.
