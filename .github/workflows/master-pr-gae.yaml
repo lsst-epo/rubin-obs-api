@@ -32,9 +32,13 @@ jobs:
     - name: Get app.yaml
       run: gcloud secrets versions access latest --secret=rubin-obs-api-appyaml > app.yaml
 
+    - name: Format version name
+      id: version_name
+      run: echo "version_name=$(echo \"${{ github.head_ref }}\" | tr -cd '[:alnum:]' | tr '[:upper:]' '[:lower:]')" >> $GITHUB_ENV
+
     - name: Deploy to App Engine
       env:
-        BRANCH_NAME: ${{ github.head_ref }}
+        BRANCH_NAME: ${{ env.version_name }}
       run: |
         gcloud app deploy app.yaml \
         --no-promote \
@@ -80,5 +84,5 @@ jobs:
     # Destruct!
     - name: Destroy version
       env:
-        BRANCH_NAME: ${{ github.head_ref }}
+        BRANCH_NAME: ${{ env.version_name }}
       run: gcloud app versions delete ${BRANCH_NAME,,} --service=rubin-obs-api       
