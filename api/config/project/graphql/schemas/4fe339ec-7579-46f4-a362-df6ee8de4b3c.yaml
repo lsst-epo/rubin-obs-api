@@ -35,7 +35,7 @@ scope:
   - 'usergroups.everyone:read'
   - 'usergroups.01b89d98-9aa4-46d5-a9a0-60a0c07fd815:read' # Editors
   - 'usergroups.e0be58f6-fc1b-4a02-816c-0a37b0fcd602:read' # Students
-  - 'usergroups.58efa872-9485-42e3-a1e3-a5435def5392:read' # Teachers
+  - 'usergroups.58efa872-9485-42e3-a1e3-a5435def5392:read' # Educators
   - 'categorygroups.3a3af2ab-b037-455a-ba95-bc3be89efdb0:read' # Event Filters
   - 'categorygroups.4ead9327-61fc-4b46-810c-5f490c2c45ad:read' # Gallery Types
   - 'categorygroups.cc8c47f0-3dec-44db-a47f-7ca6c984864a:read' # Job Types

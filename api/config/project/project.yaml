@@ -1,4 +1,4 @@
-dateModified: 1646434232
+dateModified: 1647388060
 email:
   fromEmail: $EMAIL_FROM_ADDRESS
   fromName: $EMAIL_SENDER_NAME
@@ -26,7 +26,6 @@ meta:
     1e0c12ac-5dd7-4ed2-8cda-3801130b11e1: 'Gallery Item' # Gallery Item
     1ed94e58-7078-46fb-b590-0692fbdf9c20: 'Common Name' # Common Name
     1ed98018-4e61-4580-bee8-961ceab2bb2c: 'Staff Item' # Staff Item
-    2c2e1c6a-eb4d-44f1-9a43-8d79b326f354: ES # ES
     3a3af2ab-b037-455a-ba95-bc3be89efdb0: 'Event Filters' # Event Filters
     3a8b9653-cdd3-46ce-84b2-d73b5dc4de63: Gallery # Gallery
     3c9eb8f7-9f84-4c22-84d5-531be77aa6b6: 'Featured Image' # Featured Image
@@ -62,6 +61,7 @@ meta:
     8e9ec71e-2cf0-4f6a-b856-8976de0ce100: Heroes # Heroes
     8fff3c50-28ba-4af7-8166-e3d82a23ae26: Title # Title
     9a5411c3-bbd7-4f75-a62a-498711e141e4: 'External Link' # External Link
+    9b9ff039-061b-4efd-988e-553f811623b2: Users # Users
     9b45a4e3-4461-43d1-881a-ef72029ba2ad: Image # Image
     9c14ac7e-c466-4c2d-a2fd-e19a68fc706d: Teaser # Teaser
     9c34fc8b-8bc3-4f8a-bbc8-ea58a018719a: 'Custom Breadcrumb Sets' # Custom Breadcrumb Sets
@@ -84,7 +84,7 @@ meta:
     46d17af4-896a-4fc5-90bf-ac826090d9bc: Credit # Credit
     56f60368-4386-4395-92b6-31b15c7663cc: Contact # Contact
     58aa24c3-97e4-43e7-a812-7374e5650180: 'Focal Point X' # Focal Point X
-    58efa872-9485-42e3-a1e3-a5435def5392: Teachers # Teachers
+    58efa872-9485-42e3-a1e3-a5435def5392: Educators # Educators
     58f1a805-f9c5-46ce-81dd-e17a3ea99353: PublisherId # PublisherId
     59fb5a9e-74f4-4618-adba-601791f42c92: Jobs # Jobs
     61b9d842-7365-4bbf-883c-1b6433dc15f4: 'Caption - rich text' # Caption - rich text
@@ -97,7 +97,7 @@ meta:
     72e5075a-9b06-4674-b040-615f4a6f7b70: 'Content Blocks - Pages' # Content Blocks - Pages
     0073b1d1-a221-431d-aab9-bf4e193adf4f: 'Focal Point Y' # Focal Point Y
     75f0b770-5006-4359-848f-96415196bfe0: Date # Date
-    77dc755a-bb96-4422-b00f-c7d74e45d400: 'Teacher Schema' # Teacher Schema
+    77dc755a-bb96-4422-b00f-c7d74e45d400: 'Educator Schema' # Educator Schema
     80e0f53f-96b3-43d4-b166-453ac4ac0147: Header # Header
     95b97a67-eccb-4910-b0e8-77f5860058b4: Link # Link
     99f4a28a-48c3-49ca-bb4a-7acbb49fde30: Pages # Pages
@@ -116,6 +116,7 @@ meta:
     942c9e60-2760-42ed-b03b-9e5eb133751b: Callout # Callout
     966a6b65-ca53-48a8-89dc-74983cd624ef: Title # Title
     983dcb96-8eb2-4138-9c79-603b779fe2bb: 'Metadata Date' # Metadata Date
+    991c5031-3b97-45d8-8829-c8e0c79537a9: 'Row Title' # Row Title
     994d5664-f056-4969-b2cc-c62660f069af: 'Root Page Information' # Root Page Information
     2755abe1-7dd5-428c-a6bb-30d2bd59a362: Link # Link
     3146b06e-af03-43e7-b278-3a65c81f610e: Address # Address
@@ -144,7 +145,6 @@ meta:
     87362cd0-662a-4068-9482-5ff62fe472c4: State/Province # State/Province
     90295d5c-0b35-40ca-bb95-c7fc81969b14: 'Accordion Group' # Accordion Group
     312197d8-1241-4fac-8422-febdf44e5e9a: 'Entry - Slideshow' # Entry - Slideshow
-    547128fa-4529-4483-9968-66425996b69f: EN # EN
     660361f1-3ecb-4c5e-9274-76e54f1f291f: 'Number of items' # Number of items
     960543c0-3ba6-466b-aa9e-9182279dd49a: 'End Date' # End Date
     04000104-ec26-4d82-959a-729454e7f1cc: Country # Country
@@ -168,6 +168,7 @@ meta:
     acbea415-ee80-409c-90e2-90ac546820a6: Description # Description
     accc0b97-12f3-43ce-941a-068ab8deb620: Video # Video
     adfcd064-b356-4e9d-843d-4b55e5515a41: Phone # Phone
+    af1b8590-3d8a-4eb1-90e1-60e3d7407a1a: 'Link text' # Link text
     af22f9e9-9bb5-44eb-a94b-d7893d8cb9f5: Video # Video
     afe3ef3c-add3-45cc-b88b-d01559eb7b32: Header # Header
     b0ce3829-20c1-44ef-a7c7-499800645afc: Header # Header
@@ -191,6 +192,7 @@ meta:
     c4060079-e438-4c63-8b06-77cdea857fd9: Text # Text
     cb6a7cee-4f9e-4191-8c6d-33ccdd921fec: Text # Text
     cbded379-b002-491f-8558-81620a1a672c: Image # Image
+    cbf3fbbb-2f2b-4568-a228-f8c63ff4601c: 'Row Color' # Row Color
     cc3b4231-1a7c-42f3-934c-cadeb0076f8c: 'Image Padding' # Image Padding
     cc8c47f0-3dec-44db-a47f-7ca6c984864a: 'Job Types' # Job Types
     cc694df6-ebfe-4e0c-b4fe-713761f100df: Text # Text
@@ -208,11 +210,13 @@ meta:
     d838c93b-46c2-4338-bb73-32cee25ab26f: 'Ancestors and Root' # Ancestors and Root
     d4696dbe-019e-4c97-a95d-07bfaf9dbd03: 'Entry - Staff Profile' # Entry - Staff Profile
     d6898b26-bfa2-41d3-9e26-0092b2021762: 'Student Schema' # Student Schema
+    d889713c-632a-4323-bb10-4b2bc53545ad: Asset # Asset
     ddb3efd5-1bce-43e1-9fb9-399ada8a8126: 'Registration Open Date' # Registration Open Date
     ddf8dce2-4fa1-43d1-b306-b34d9d97a91b: Content # Content
     df7f4ec2-58b2-4c3a-afff-b07f4764fa4b: Location # Location
     df8c8d8a-c7d1-45bf-b551-ef790a5b59ad: Callouts # Callouts
     dfd8564d-5db6-4167-99db-29867a64bc2c: 'Content Order' # Content Order
+    dff2a767-333e-4c9d-880c-143e1ca2aaa3: 'Row Content' # Row Content
     e0be58f6-fc1b-4a02-816c-0a37b0fcd602: Students # Students
     e46ce1e1-606c-4043-acea-5ddab0358221: Image # Image
     e48cbecf-107a-43c6-b099-9d6f3d7cadd8: Credit # Credit
