@@ -5,8 +5,8 @@ permissions:
   - accesssitewhensystemisoff
   - accesscpwhensystemisoff
   - accesscp
-  - 'editsite:547128fa-4529-4483-9968-66425996b69f' # EN
-  - 'editsite:2c2e1c6a-eb4d-44f1-9a43-8d79b326f354' # ES
+  - 'editsite:547128fa-4529-4483-9968-66425996b69f'
+  - 'editsite:2c2e1c6a-eb4d-44f1-9a43-8d79b326f354'
   - 'createentries:7cad6f4e-cc7b-45cf-ac7b-6f383e77bc1b' # Callouts
   - 'publishentries:7cad6f4e-cc7b-45cf-ac7b-6f383e77bc1b' # Callouts
   - 'deleteentries:7cad6f4e-cc7b-45cf-ac7b-6f383e77bc1b' # Callouts
