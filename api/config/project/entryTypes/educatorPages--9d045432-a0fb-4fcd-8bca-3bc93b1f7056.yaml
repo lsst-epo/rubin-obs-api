@@ -1,6 +1,5 @@
-defaultPlacement: end
 fieldLayouts:
-  b75f3c94-e912-44f0-aff9-907c7b042bac:
+  b2f278fa-9b21-477c-9134-f052bc39ba23:
     tabs:
       -
         elements:
@@ -24,11 +23,20 @@ fieldLayouts:
             step: null
             tip: null
             title: null
-            type: craft\fieldlayoutelements\TitleField
+            type: craft\fieldlayoutelements\EntryTitleField
             warning: null
-            width: 100
+            width: 75
           -
-            fieldUid: 3146b06e-af03-43e7-b278-3a65c81f610e # Address
+            fieldUid: 831db889-442e-4553-9076-fc3bc2843c8c # Hide title
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 25
+          -
+            fieldUid: cd801712-4ba3-4a9c-8fab-0d3e2a58b4eb # Description
             instructions: null
             label: null
             required: false
@@ -37,7 +45,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            fieldUid: a8ba2de3-ff22-4a96-9a53-00b6dec31def # City
+            fieldUid: 3c9eb8f7-9f84-4c22-84d5-531be77aa6b6 # Featured Image
             instructions: null
             label: null
             required: false
@@ -46,7 +54,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            fieldUid: 87362cd0-662a-4068-9482-5ff62fe472c4 # State/Province
+            fieldUid: 05eead62-7bf9-43e4-a7e8-bcd8f9f77323 # Hero
             instructions: null
             label: null
             required: false
@@ -55,7 +63,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            fieldUid: 04000104-ec26-4d82-959a-729454e7f1cc # Country
+            fieldUid: 72e5075a-9b06-4674-b040-615f4a6f7b70 # Content Blocks - Pages
             instructions: null
             label: null
             required: false
@@ -63,19 +71,31 @@ fieldLayouts:
             type: craft\fieldlayoutelements\CustomField
             warning: null
             width: 100
-        name: Content
+          -
+            fieldUid: 8b5bcbee-1883-48ca-8c9a-6c506b9abb99 # Page Type
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: fa690eba-6d46-4a5e-9dcd-0845f5b56c1b # Dynamic Component
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Pages
         sortOrder: 1
-handle: location
-name: Location
-siteSettings:
-  2c2e1c6a-eb4d-44f1-9a43-8d79b326f354: # ES
-    hasUrls: true
-    template: null
-    uriFormat: 'location/{slug}'
-  547128fa-4529-4483-9968-66425996b69f: # EN
-    hasUrls: true
-    template: null
-    uriFormat: 'location/{slug}'
-structure:
-  maxLevels: null
-  uid: 649d0ae6-df70-418d-8b61-d74777deb5ee
+handle: educatorPages
+hasTitleField: true
+name: 'Educator Pages'
+section: f1b8c943-bc12-4001-9e2a-d531379f1aaf # Pages
+sortOrder: 2
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site
