@@ -1,4 +1,4 @@
-dateModified: 1646700428
+dateModified: 1647628735
 email:
   fromEmail: $EMAIL_FROM_ADDRESS
   fromName: $EMAIL_SENDER_NAME
@@ -217,6 +217,7 @@ meta:
     d0cb4533-5478-47d5-9473-dd6c3821cf7a: Slide # Slide
     d019727b-a6d5-43d9-a688-f10df985a87e: Link # Link
     d7bdf364-6905-4919-b4b1-08f0010d7a08: 'Contact Info' # Contact Info
+    d7fc5f39-2426-421b-bd0b-10aadae80ae3: 'Color Scheme' # Color Scheme
     d12b2ae4-6d10-41ef-8e22-778f54b2f2d0: Attribution # Attribution
     d23a9bfc-61f9-46fa-bfe4-a4ca97a20a61: 'Asset Variants' # Asset Variants
     d41cc960-99a4-41a8-a7a6-7891a22e4a93: 'Asset Variants' # Asset Variants
