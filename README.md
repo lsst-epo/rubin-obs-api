@@ -37,7 +37,7 @@ This project was created with Docker version 20.10.5.
 1. Install [Docker](https://docs.docker.com/get-docker/)
 2. Clone this repository
 3. Add a .env file (based on .env.sample) and provide values appropriate to your local dev environment
-4. If running for the first time, and no local database exists, a new one wil be built for you based on `/db/db.sql`.
+4. If running for the first time, and no local database exists, ask a fellow dev for the Google Cloud Storage location of the `.sql` dump file - download it and put it in the `/db` folder
 5. You'll need to install php packages locally. You may do so with your local composer, but you can also run it all through docker: `docker run -v ${PWD}/api:/app composer install`
 6. Build and bring up containers for the first time:
 
