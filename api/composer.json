@@ -1,4 +1,5 @@
 {
+  "minimum-stability": "dev",
   "require": {
     "carlcs/craft-assetmetadata": "^3.0",
     "craftcms/aws-s3": "^1.2",
@@ -6,11 +7,18 @@
     "craftcms/contact-form": "2.2.7",
     "craftcms/google-cloud": "^1.4",
     "craftcms/redactor": "2.8.5",
+    "rosas/universal-dam-integrator": "dev-main",
     "rynpsc/craft-phone-number": "1.4.1",
     "sebastianlenz/linkfield": "2.0.*@dev",
     "spicyweb/craft-neo": "2.8.15.1",
     "vlucas/phpdotenv": "^3.4.0"
   },
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/lsst-epo/craft3-universal-dam-integrator.git"
+    }
+  ],
   "require-dev": {
     "yiisoft/yii2-shell": "^2.0.3"
   },
