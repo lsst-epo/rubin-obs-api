@@ -1,0 +1,35 @@
+columnSuffix: mncsyhlj
+contentColumnType: string
+fieldGroup: df8c8d8a-c7d1-45bf-b551-ef790a5b59ad # Callouts
+handle: colorScheme
+instructions: ''
+name: 'Color Scheme'
+searchable: false
+settings:
+  optgroups: true
+  options:
+    -
+      __assoc__:
+        -
+          - label
+          - Student
+        -
+          - value
+          - student
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - Educator
+        -
+          - value
+          - educator
+        -
+          - default
+          - ''
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Dropdown
