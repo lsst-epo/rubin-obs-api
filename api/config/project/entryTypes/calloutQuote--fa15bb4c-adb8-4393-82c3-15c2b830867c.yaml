@@ -27,6 +27,15 @@ fieldLayouts:
             warning: null
             width: 100
           -
+            fieldUid: d7fc5f39-2426-421b-bd0b-10aadae80ae3 # Color Scheme
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
             fieldUid: b0ce3829-20c1-44ef-a7c7-499800645afc # Header
             instructions: null
             label: null
@@ -44,33 +53,6 @@ fieldLayouts:
             type: craft\fieldlayoutelements\CustomField
             warning: null
             width: 100
-          -
-            fieldUid: 496e755e-78ab-4e3f-8c3a-9b320023b8ec # Image
-            instructions: null
-            label: null
-            required: false
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            warning: null
-            width: 25
-          -
-            fieldUid: cc3b4231-1a7c-42f3-934c-cadeb0076f8c # Image Padding
-            instructions: null
-            label: null
-            required: false
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            warning: null
-            width: 25
-          -
-            fieldUid: fa690eba-6d46-4a5e-9dcd-0845f5b56c1b # Dynamic Component
-            instructions: null
-            label: null
-            required: false
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            warning: null
-            width: 25
           -
             fieldUid: 4c977b75-9ee1-4cdb-9d2a-203639f4af84 # Links
             instructions: null
@@ -113,46 +95,6 @@ fieldLayouts:
             width: 50
         name: Quote
         sortOrder: 2
-      -
-        elements:
-          -
-            fieldUid: 8b8ed305-e6e6-4754-925f-bb07427b2060 # Background Color
-            instructions: null
-            label: null
-            required: false
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            warning: null
-            width: 25
-          -
-            fieldUid: 36247100-a0f8-4eb9-b190-898131bf97b3 # Width
-            instructions: null
-            label: null
-            required: false
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            warning: null
-            width: 25
-          -
-            fieldUid: dfd8564d-5db6-4167-99db-29867a64bc2c # Content Order
-            instructions: null
-            label: null
-            required: false
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            warning: null
-            width: 25
-          -
-            fieldUid: 753b10b6-e9e6-44f5-a9d9-4a07788733e1 # Content Ratio
-            instructions: null
-            label: null
-            required: false
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            warning: null
-            width: 25
-        name: Appearance
-        sortOrder: 3
 handle: calloutQuote
 hasTitleField: true
 name: 'Callout - quote'
