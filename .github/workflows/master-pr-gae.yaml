@@ -79,7 +79,7 @@ jobs:
       with:
         service_account_key: ${{ secrets.SKYVIEWER_INT_SERVICE_ACCOUNT }}
         project_id: edc-int-6c5e
-        export_default_credentials: true        
+        export_default_credentials: true
 
     # Destruct!
     - name: Destroy version
