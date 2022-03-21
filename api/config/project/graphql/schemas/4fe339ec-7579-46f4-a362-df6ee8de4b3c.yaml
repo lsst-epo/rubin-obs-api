@@ -4,10 +4,13 @@ scope:
   - 'sections.7cad6f4e-cc7b-45cf-ac7b-6f383e77bc1b:read' # Callouts
   - 'entrytypes.942c9e60-2760-42ed-b03b-9e5eb133751b:read' # Callout
   - 'entrytypes.34f61e7c-358c-48b8-8439-42bc05ed255c:read' # Callout - two-tone
+  - 'entrytypes.fa15bb4c-adb8-4393-82c3-15c2b830867c:read' # Callout - quote
   - 'sections.4305f2e2-40b8-47b2-8b62-135b8b57be7f:read' # Events
   - 'entrytypes.6acd6e24-26c9-4e55-a35b-c29cd36a7a3c:read' # Events
   - 'sections.3a8b9653-cdd3-46ce-84b2-d73b5dc4de63:read' # Gallery
   - 'entrytypes.7187131b-681b-45de-a1ea-87a8d070c05a:read' # Gallery Item
+  - 'sections.4ffeb743-f02d-42af-8656-a6f9c1363e79:read' # Glossary Terms
+  - 'entrytypes.bbf936fb-1787-437b-8ebd-a6e79409896e:read' # Glossary Term
   - 'sections.3e10dcca-4dd1-4578-8add-708cd9740881:read' # Homepage
   - 'entrytypes.8145b1c9-cb8f-4c86-91ba-34fe5ded34e6:read' # Homepage
   - 'sections.59fb5a9e-74f4-4618-adba-601791f42c92:read' # Jobs
@@ -28,8 +31,9 @@ scope:
   - 'volumes.18a75c63-648f-4145-9cc3-386e7c8a0106:read' # General
   - 'volumes.c3d1c243-1703-4117-abc7-88487a1f8f24:read' # Staff Profiles
   - 'volumes.d41cc960-99a4-41a8-a7a6-7891a22e4a93:read' # Asset Variants
-  - 'globalsets.b8393df9-fb81-4d70-9ccb-6d030c818580:read' # Gallery Item Defaults
+  - 'globalsets.1a2ba41a-3949-4982-9cb3-f8b03863bcfd:read' # Footer Content
   - 'globalsets.994d5664-f056-4969-b2cc-c62660f069af:read' # Root Page Information
+  - 'globalsets.b8393df9-fb81-4d70-9ccb-6d030c818580:read' # Gallery Item Defaults
   - 'globalsets.8ccd6c1c-8e9b-44e8-93a9-f62589fb4819:read' # Site Information
   - 'globalsets.1a2ba41a-3949-4982-9cb3-f8b03863bcfd:read' # Footer Content
   - 'usergroups.everyone:read'
