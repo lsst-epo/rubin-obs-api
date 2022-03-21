@@ -24,6 +24,8 @@ scope:
   - 'entrytypes.a77c49d2-2441-459e-bfea-63e571d25a12:read' # Slideshow
   - 'sections.78410791-6edc-46c9-a17b-4358dcd545ec:read' # Staff Profiles
   - 'entrytypes.7d60273b-66b0-4843-a42c-4b4387185a15:read' # Staff Profiles
+  - 'sections.1ee32484-2cca-457e-ac23-b3cb13e652d3:read' # User Profile Page
+  - 'entrytypes.534d275e-b6e9-4064-9965-07e804e0fcc1:read' # User Profile Page
   - 'volumes.8e9ec71e-2cf0-4f6a-b856-8976de0ce100:read' # Heroes
   - 'volumes.cd6f2275-4f9b-4ba4-aa4c-7c7468366172:read' # Content Images
   - 'volumes.f52f3e9c-434e-43b5-89eb-a5776e6bc4a6:read' # Callout Images
