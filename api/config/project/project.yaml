@@ -1,4 +1,4 @@
-dateModified: 1647465624
+dateModified: 1647896229
 email:
   fromEmail: $EMAIL_FROM_ADDRESS
   fromName: $EMAIL_SENDER_NAME
@@ -26,6 +26,7 @@ meta:
     1e0c12ac-5dd7-4ed2-8cda-3801130b11e1: 'Gallery Item' # Gallery Item
     1ed94e58-7078-46fb-b590-0692fbdf9c20: 'Common Name' # Common Name
     1ed98018-4e61-4580-bee8-961ceab2bb2c: 'Staff Item' # Staff Item
+    1ee32484-2cca-457e-ac23-b3cb13e652d3: 'User Profile Page' # User Profile Page
     2c2e1c6a-eb4d-44f1-9a43-8d79b326f354: ES # ES
     3a3af2ab-b037-455a-ba95-bc3be89efdb0: 'Event Filters' # Event Filters
     3a8b9653-cdd3-46ce-84b2-d73b5dc4de63: Gallery # Gallery
@@ -109,6 +110,7 @@ meta:
     496e755e-78ab-4e3f-8c3a-9b320023b8ec: Image # Image
     522bc2d7-fcc3-4817-a986-5c860e53351c: 'Internal Entry' # Internal Entry
     522db817-08b6-4ecf-a423-4aec204ab85d: 'Content Blocks - News' # Content Blocks - News
+    534d275e-b6e9-4064-9965-07e804e0fcc1: 'User Profile Page' # User Profile Page
     612eabbe-059a-4916-abcf-c82132da4cfc: Asset # Asset
     657b9edd-b6d3-4b7f-af89-36117c5d98a8: 'Rich Text Description' # Rich Text Description
     753b10b6-e9e6-44f5-a9d9-4a07788733e1: 'Content Ratio' # Content Ratio
