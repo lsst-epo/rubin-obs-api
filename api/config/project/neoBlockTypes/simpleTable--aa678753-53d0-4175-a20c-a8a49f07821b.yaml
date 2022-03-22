@@ -6,7 +6,7 @@ fieldLayouts:
       -
         elements:
           -
-            fieldUid: 838028d1-bb13-49aa-a2ee-b0b2e7e6a4fa # Simple Table
+            fieldUid: 838028d1-bb13-49aa-a2ee-b0b2e7e6a4fa
             instructions: null
             label: null
             required: false

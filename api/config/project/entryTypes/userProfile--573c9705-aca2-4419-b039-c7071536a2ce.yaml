@@ -40,7 +40,7 @@ fieldLayouts:
 handle: userProfile
 hasTitleField: false
 name: 'User Profile'
-section: 89cab4ff-f556-4b7e-bae9-8db545ce38dd # User Profile
+section: 89cab4ff-f556-4b7e-bae9-8db545ce38dd
 sortOrder: 1
 titleFormat: '{section.name|raw}'
 titleTranslationKeyFormat: null
