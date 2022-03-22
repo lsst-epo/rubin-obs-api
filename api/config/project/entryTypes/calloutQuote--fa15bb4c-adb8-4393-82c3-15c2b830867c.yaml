@@ -27,7 +27,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            fieldUid: d7fc5f39-2426-421b-bd0b-10aadae80ae3
+            fieldUid: d7fc5f39-2426-421b-bd0b-10aadae80ae3 # Color Scheme
             instructions: null
             label: null
             required: false
@@ -67,7 +67,7 @@ fieldLayouts:
       -
         elements:
           -
-            fieldUid: 271253b0-e9b7-4bf1-be32-ce31d71b48b1
+            fieldUid: 271253b0-e9b7-4bf1-be32-ce31d71b48b1 # Quote
             instructions: null
             label: null
             required: false
@@ -76,7 +76,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            fieldUid: d12b2ae4-6d10-41ef-8e22-778f54b2f2d0
+            fieldUid: d12b2ae4-6d10-41ef-8e22-778f54b2f2d0 # Attribution
             instructions: null
             label: null
             required: false
@@ -85,7 +85,7 @@ fieldLayouts:
             warning: null
             width: 50
           -
-            fieldUid: 48ba11bd-90a5-4239-a24c-d44d01affbcf
+            fieldUid: 48ba11bd-90a5-4239-a24c-d44d01affbcf # Image - quote
             instructions: null
             label: null
             required: false
