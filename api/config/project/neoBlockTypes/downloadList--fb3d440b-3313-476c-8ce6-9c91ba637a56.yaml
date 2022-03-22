@@ -6,7 +6,7 @@ fieldLayouts:
       -
         elements:
           -
-            fieldUid: af3e9835-4926-4399-bda9-7f6882cdce5e # Assets List
+            fieldUid: af3e9835-4926-4399-bda9-7f6882cdce5e
             instructions: null
             label: null
             required: false
