@@ -173,6 +173,17 @@ settings:
         -
           - default
           - ''
+    -
+      __assoc__:
+        -
+          - label
+          - 'Glossary Terms'
+        -
+          - value
+          - glossaryTerms
+        -
+          - default
+          - ''
 translationKeyFormat: null
 translationMethod: site
 type: craft\fields\Dropdown
