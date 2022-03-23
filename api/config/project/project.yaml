@@ -1,4 +1,4 @@
-dateModified: 1648075922
+dateModified: 1648080328
 email:
   fromEmail: $EMAIL_FROM_ADDRESS
   fromName: $EMAIL_SENDER_NAME
@@ -329,12 +329,6 @@ plugins:
                   - assetVariants
                   - queryMutate
                 -
-                  - assetsList
-                  - queryMutate
-                -
-                  - attribution
-                  - queryMutate
-                -
                   - backgroundColor
                   - queryMutate
                 -
@@ -360,9 +354,6 @@ plugins:
                   - queryMutate
                 -
                   - colophon
-                  - queryMutate
-                -
-                  - colorScheme
                   - queryMutate
                 -
                   - contactInfo
@@ -482,9 +473,6 @@ plugins:
                   - siteImage
                   - queryMutate
                 -
-                  - imageQuote
-                  - queryMutate
-                -
                   - padImage
                   - queryMutate
                 -
@@ -557,9 +545,6 @@ plugins:
                   - publisherIdDefault
                   - queryMutate
                 -
-                  - quote
-                  - queryMutate
-                -
                   - registrationCloseDate
                   - queryMutate
                 -
@@ -575,9 +560,6 @@ plugins:
                   - school
                   - queryMutate
                 -
-                  - simpleTable
-                  - queryMutate
-                -
                   - slideshowItems
                   - queryMutate
                 -
@@ -585,9 +567,6 @@ plugins:
                   - queryMutate
                 -
                   - state
-                  - queryMutate
-                -
-                  - subHeroText
                   - queryMutate
                 -
                   - subLocation
@@ -642,12 +621,6 @@ plugins:
                   - assetVariants
                   - queryMutate
                 -
-                  - assetsList
-                  - queryMutate
-                -
-                  - attribution
-                  - queryMutate
-                -
                   - backgroundColor
                   - queryMutate
                 -
@@ -673,9 +646,6 @@ plugins:
                   - queryMutate
                 -
                   - colophon
-                  - queryMutate
-                -
-                  - colorScheme
                   - queryMutate
                 -
                   - contactInfo
@@ -795,9 +765,6 @@ plugins:
                   - siteImage
                   - queryMutate
                 -
-                  - imageQuote
-                  - queryMutate
-                -
                   - padImage
                   - queryMutate
                 -
@@ -870,9 +837,6 @@ plugins:
                   - publisherIdDefault
                   - queryMutate
                 -
-                  - quote
-                  - queryMutate
-                -
                   - registrationCloseDate
                   - queryMutate
                 -
@@ -888,9 +852,6 @@ plugins:
                   - school
                   - queryMutate
                 -
-                  - simpleTable
-                  - queryMutate
-                -
                   - slideshowItems
                   - queryMutate
                 -
@@ -898,9 +859,6 @@ plugins:
                   - queryMutate
                 -
                   - state
-                  - queryMutate
-                -
-                  - subHeroText
                   - queryMutate
                 -
                   - subLocation
@@ -955,12 +913,6 @@ plugins:
                   - assetVariants
                   - queryMutate
                 -
-                  - assetsList
-                  - queryMutate
-                -
-                  - attribution
-                  - queryMutate
-                -
                   - backgroundColor
                   - queryMutate
                 -
@@ -986,9 +938,6 @@ plugins:
                   - queryMutate
                 -
                   - colophon
-                  - queryMutate
-                -
-                  - colorScheme
                   - queryMutate
                 -
                   - contactInfo
@@ -1108,9 +1057,6 @@ plugins:
                   - siteImage
                   - queryMutate
                 -
-                  - imageQuote
-                  - queryMutate
-                -
                   - padImage
                   - queryMutate
                 -
@@ -1183,9 +1129,6 @@ plugins:
                   - publisherIdDefault
                   - queryMutate
                 -
-                  - quote
-                  - queryMutate
-                -
                   - registrationCloseDate
                   - queryMutate
                 -
@@ -1201,9 +1144,6 @@ plugins:
                   - school
                   - queryMutate
                 -
-                  - simpleTable
-                  - queryMutate
-                -
                   - slideshowItems
                   - queryMutate
                 -
@@ -1211,9 +1151,6 @@ plugins:
                   - queryMutate
                 -
                   - state
-                  - queryMutate
-                -
-                  - subHeroText
                   - queryMutate
                 -
                   - subLocation
@@ -1275,7 +1212,7 @@ plugins:
                   - siteId
                   - ''
           -
-            - group-9
+            - group-7
             -
               __assoc__:
                 -
@@ -1288,7 +1225,7 @@ plugins:
                   - siteId
                   - ''
           -
-            - group-8
+            - group-6
             -
               __assoc__:
                 -
