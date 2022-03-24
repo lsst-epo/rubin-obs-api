@@ -19,6 +19,7 @@ scope:
   - 'entrytypes.4729ad5e-485e-4f98-995d-79fa5254cd42:read' # News Post
   - 'sections.f1b8c943-bc12-4001-9e2a-d531379f1aaf:read' # Pages
   - 'entrytypes.23eda090-7e8e-401d-ab49-ee4becc34935:read' # Pages
+  - 'entrytypes.26ca2777-e4c8-41b4-ac93-aa28d09117dd:read' # Student Pages
   - 'sections.04a48967-eac4-449f-b164-c8ecbb7036d6:read' # Search Results
   - 'entrytypes.229f2975-93d3-4c6a-9996-dfa1de3004ef:read' # Search Results
   - 'sections.fb3283a6-7286-4b2b-a77a-010783dcee7e:read' # Slideshows
@@ -35,11 +36,10 @@ scope:
   - 'globalsets.994d5664-f056-4969-b2cc-c62660f069af:read' # Root Page Information
   - 'globalsets.b8393df9-fb81-4d70-9ccb-6d030c818580:read' # Gallery Item Defaults
   - 'globalsets.8ccd6c1c-8e9b-44e8-93a9-f62589fb4819:read' # Site Information
-  - 'globalsets.1a2ba41a-3949-4982-9cb3-f8b03863bcfd:read' # Footer Content
   - 'usergroups.everyone:read'
   - 'usergroups.01b89d98-9aa4-46d5-a9a0-60a0c07fd815:read' # Editors
-  - 'usergroups.e0be58f6-fc1b-4a02-816c-0a37b0fcd602:read' # Students
   - 'usergroups.58efa872-9485-42e3-a1e3-a5435def5392:read' # Educators
+  - 'usergroups.e0be58f6-fc1b-4a02-816c-0a37b0fcd602:read' # Students
   - 'categorygroups.3a3af2ab-b037-455a-ba95-bc3be89efdb0:read' # Event Filters
   - 'categorygroups.4ead9327-61fc-4b46-810c-5f490c2c45ad:read' # Gallery Types
   - 'categorygroups.cc8c47f0-3dec-44db-a47f-7ca6c984864a:read' # Job Types
