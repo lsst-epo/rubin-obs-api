@@ -23,12 +23,14 @@ meta:
     1a2ba41a-3949-4982-9cb3-f8b03863bcfd: 'Footer Content' # Footer Content
     1a35bfab-6a39-4c03-b273-2d5e3151c335: 'Rubin Telescope Education and Public Outreach' # Rubin Telescope Education and Public Outreach
     01b89d98-9aa4-46d5-a9a0-60a0c07fd815: Editors # Editors
+    1c065033-f41d-4566-9863-d34a4bf24836: 'Table Cell' # Table Cell
     1d7324d5-d322-4b06-9eb5-52a6c2f856f3: Location # Location
     1e0c12ac-5dd7-4ed2-8cda-3801130b11e1: 'Gallery Item' # Gallery Item
     1ed94e58-7078-46fb-b590-0692fbdf9c20: 'Common Name' # Common Name
     1ed98018-4e61-4580-bee8-961ceab2bb2c: 'Staff Item' # Staff Item
     1ee32484-2cca-457e-ac23-b3cb13e652d3: 'User Profile Page' # User Profile Page
     2c2e1c6a-eb4d-44f1-9a43-8d79b326f354: ES # ES
+    2c121c9e-10e1-4a79-a17f-a6c7ef7965f3: 'Table Group' # Table Group
     3a3af2ab-b037-455a-ba95-bc3be89efdb0: 'Event Filters' # Event Filters
     3a8b9653-cdd3-46ce-84b2-d73b5dc4de63: Gallery # Gallery
     3c9eb8f7-9f84-4c22-84d5-531be77aa6b6: 'Featured Image' # Featured Image
@@ -41,6 +43,7 @@ meta:
     4b94ba3d-060c-4a09-b2dc-c519a4c83709: 'Cell Content' # Cell Content
     4c977b75-9ee1-4cdb-9d2a-203639f4af84: Links # Links
     4ead9327-61fc-4b46-810c-5f490c2c45ad: 'Gallery Types' # Gallery Types
+    4f027acf-6672-4fd7-a178-2366dfea422a: 'Complex Table' # Complex Table
     4fe339ec-7579-46f4-a362-df6ee8de4b3c: 'Public Schema' # Public Schema
     4ffeb743-f02d-42af-8656-a6f9c1363e79: 'Glossary Terms' # Glossary Terms
     5a6d7b10-920d-464d-85ea-fc3881082fd7: 'Date Created' # Date Created
@@ -199,6 +202,7 @@ meta:
     b0ce3829-20c1-44ef-a7c7-499800645afc: Header # Header
     b93cb5a6-f862-4912-9d41-4dcb4fd9e105: 'Staff Profiles' # Staff Profiles
     b144a695-58be-4586-81cf-0ae9030280ce: Bio # Bio
+    b882fa04-8a43-4715-a55d-b3344db891bf: 'Table Title' # Table Title
     b5838ae4-3163-4eaf-baf1-cc575176352e: Callout # Callout
     b8393df9-fb81-4d70-9ccb-6d030c818580: 'Gallery Item Defaults' # Gallery Item Defaults
     b4139639-fe83-4dd3-acf6-581a798190b5: 'Slideshow Items' # Slideshow Items
@@ -260,6 +264,7 @@ meta:
     e9726196-f241-49d4-9b6b-9e8d419e6669: 'Link Text' # Link Text
     ec78e400-20a8-42cc-a320-8fc84edd364c: 'Custom Hero' # Custom Hero
     edef3ef4-2dfd-4dc1-92a9-2643d43cef04: Image # Image
+    f0603433-ef74-4883-8aec-03e31f8dc34e: 'Complex Table' # Complex Table
     f1b8c943-bc12-4001-9e2a-d531379f1aaf: Pages # Pages
     f8ed5c4f-7af4-40f7-939d-b7caf9b4b501: 'News Item' # News Item
     f52f3e9c-434e-43b5-89eb-a5776e6bc4a6: 'Callout Images' # Callout Images

@@ -1,0 +1,102 @@
+field: 9ad13bcd-637a-4757-9968-cdcc02cfd478 # Table Row
+fieldLayouts:
+  9b2a8c49-6d16-4855-9829-45ea09202d2b:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: 380c1cbe-884e-421b-9e31-1f0dfc81e15f # Cell Width
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 25
+          -
+            fieldUid: c9e9db12-fcdb-4b82-a8c8-eef21b3543af # Cell Background
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 75
+          -
+            fieldUid: 4b94ba3d-060c-4a09-b2dc-c519a4c83709 # Cell Content
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+fields:
+  4b94ba3d-060c-4a09-b2dc-c519a4c83709: # Cell Content
+    columnSuffix: null
+    contentColumnType: text
+    fieldGroup: null
+    handle: cellContent
+    instructions: ''
+    name: 'Cell Content'
+    searchable: false
+    settings:
+      availableTransforms: '*'
+      availableVolumes: '*'
+      cleanupHtml: true
+      columnType: text
+      configSelectionMode: choose
+      defaultTransform: ''
+      manualConfig: ''
+      purifierConfig: ''
+      purifyHtml: '1'
+      redactorConfig: TableCellContent.json
+      removeEmptyTags: '1'
+      removeInlineStyles: '1'
+      removeNbsp: '1'
+      showHtmlButtonForNonAdmins: ''
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+      uiMode: enlarged
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\redactor\Field
+  380c1cbe-884e-421b-9e31-1f0dfc81e15f: # Cell Width
+    columnSuffix: null
+    contentColumnType: integer(10)
+    fieldGroup: null
+    handle: cellWidth
+    instructions: ''
+    name: 'Cell Width'
+    searchable: false
+    settings:
+      decimals: 0
+      defaultValue: '1'
+      max: null
+      min: '1'
+      prefix: null
+      previewCurrency: ''
+      previewFormat: decimal
+      size: '1'
+      suffix: cell(s)
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Number
+  c9e9db12-fcdb-4b82-a8c8-eef21b3543af: # Cell Background
+    columnSuffix: null
+    contentColumnType: string(7)
+    fieldGroup: null
+    handle: cellBackground
+    instructions: ''
+    name: 'Cell Background'
+    searchable: false
+    settings:
+      defaultColor: ''
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Color
+handle: tableCell
+name: 'Table Cell'
+sortOrder: 1
