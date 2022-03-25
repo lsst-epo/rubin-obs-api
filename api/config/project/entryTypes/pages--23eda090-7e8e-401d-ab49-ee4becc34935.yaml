@@ -91,6 +91,37 @@ fieldLayouts:
             width: 100
         name: Pages
         sortOrder: 1
+      -
+        elements:
+          -
+            fieldUid: 7970cd65-7a96-418a-8581-d6df4e039e6d # Plain Text
+            instructions: ''
+            label: 'Sub Hero Header'
+            required: ''
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 75
+          -
+            fieldUid: d7fc5f39-2426-421b-bd0b-10aadae80ae3 # Color Scheme
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 25
+          -
+            fieldUid: 24f23fec-fc66-46f8-86e1-396d01315ad2 # Sub Hero Text
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: 'Sub Hero Content'
+        sortOrder: 2
 handle: pages
 hasTitleField: true
 name: Pages
