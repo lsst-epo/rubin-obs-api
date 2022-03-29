@@ -15,6 +15,7 @@ email:
   transportType: craft\mail\transportadapters\Smtp
 meta:
   __names__:
+    0b946ecb-12e3-4999-9d02-fc902cb66fdf: Investigation # Investigation
     0b85955a-f0b4-47ae-adef-deb0694891af: 'Related Content' # Related Content
     0d02fdfb-053c-4d46-a5f8-0abf2542a5d2: 'News Tags' # News Tags
     0df27088-950f-4f9e-9115-06e8f780b5ca: 'Entry - Page & Post' # Entry - Page & Post
@@ -36,6 +37,7 @@ meta:
     3e10dcca-4dd1-4578-8add-708cd9740881: Homepage # Homepage
     4a55a5d1-655b-4e30-8466-c84b6d8558dd: 'End Time' # End Time
     04a48967-eac4-449f-b164-c8ecbb7036d6: 'Search Results' # Search Results
+    4b94ba3d-060c-4a09-b2dc-c519a4c83709: 'Cell Content' # Cell Content
     4c977b75-9ee1-4cdb-9d2a-203639f4af84: Links # Links
     4ead9327-61fc-4b46-810c-5f490c2c45ad: 'Gallery Types' # Gallery Types
     4fe339ec-7579-46f4-a362-df6ee8de4b3c: 'Public Schema' # Public Schema
@@ -64,6 +66,7 @@ meta:
     8e9ec71e-2cf0-4f6a-b856-8976de0ce100: Heroes # Heroes
     8fff3c50-28ba-4af7-8166-e3d82a23ae26: Title # Title
     9a5411c3-bbd7-4f75-a62a-498711e141e4: 'External Link' # External Link
+    9ad13bcd-637a-4757-9968-cdcc02cfd478: 'Table Row' # Table Row
     9b9ff039-061b-4efd-988e-553f811623b2: Users # Users
     9b45a4e3-4461-43d1-881a-ef72029ba2ad: Image # Image
     9c14ac7e-c466-4c2d-a2fd-e19a68fc706d: Teaser # Teaser
@@ -111,10 +114,12 @@ meta:
     99f4a28a-48c3-49ca-bb4a-7acbb49fde30: Pages # Pages
     125d214d-7831-4150-b5bc-1a100bc3149d: School # School
     229f2975-93d3-4c6a-9996-dfa1de3004ef: 'Search Results' # Search Results
+    380c1cbe-884e-421b-9e31-1f0dfc81e15f: 'Cell Width' # Cell Width
     496e755e-78ab-4e3f-8c3a-9b320023b8ec: Image # Image
     522bc2d7-fcc3-4817-a986-5c860e53351c: 'Internal Entry' # Internal Entry
     522db817-08b6-4ecf-a423-4aec204ab85d: 'Content Blocks - News' # Content Blocks - News
     534d275e-b6e9-4064-9965-07e804e0fcc1: 'User Profile Page' # User Profile Page
+    546e0c6d-dd32-4997-8487-cc4c2fcc9480: Investigations # Investigations
     573c9705-aca2-4419-b039-c7071536a2ce: 'User Profile' # User Profile
     612eabbe-059a-4916-abcf-c82132da4cfc: Asset # Asset
     657b9edd-b6d3-4b7f-af89-36117c5d98a8: 'Rich Text Description' # Rich Text Description
@@ -203,6 +208,7 @@ meta:
     c5c5037a-57bf-4aff-85ca-62e14c8c1cea: 'Schedule Row' # Schedule Row
     c5f150d4-fc85-4a5f-a3a7-4d4a1d655861: 'Entry - News' # Entry - News
     c9bce017-1c1c-4949-ad3b-a5c0b991a83a: 'Metadata Version' # Metadata Version
+    c9e9db12-fcdb-4b82-a8c8-eef21b3543af: 'Cell Background' # Cell Background
     c11d26d4-236a-4b06-99f6-3a8f67821ada: 'News Assets' # News Assets
     c30bad12-1372-49fe-ab6c-a9c33b2860bb: 'Gallery Item Tags' # Gallery Item Tags
     c41c3f9f-056c-4b0b-8003-2ba5395a615f: Text # Text
