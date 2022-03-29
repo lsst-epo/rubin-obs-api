@@ -1,0 +1,22 @@
+columnSuffix: null
+contentColumnType: string
+fieldGroup: df8c8d8a-c7d1-45bf-b551-ef790a5b59ad # Callouts
+handle: investigationSelect
+instructions: ''
+name: 'Investigation Select'
+searchable: false
+settings:
+  allowSelfRelations: false
+  limit: '1'
+  localizeRelations: false
+  selectionLabel: ''
+  showSiteMenu: false
+  source: null
+  sources:
+    - 'section:546e0c6d-dd32-4997-8487-cc4c2fcc9480' # Investigations
+  targetSiteId: null
+  validateRelatedElements: false
+  viewMode: null
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Entries
