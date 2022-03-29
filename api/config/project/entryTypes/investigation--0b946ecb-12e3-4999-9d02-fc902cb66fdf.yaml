@@ -1,0 +1,65 @@
+fieldLayouts:
+  a71ccdf1-e22b-4223-a3d9-c5cffb283ff2:
+    tabs:
+      -
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\EntryTitleField
+            warning: null
+            width: 100
+          -
+            fieldUid: 7970cd65-7a96-418a-8581-d6df4e039e6d # Plain Text
+            instructions: ''
+            label: 'Approximate Duration'
+            required: ''
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 25
+          -
+            fieldUid: a71f443d-14a3-402b-90ba-524dcce806d2 # External URL
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 75
+          -
+            fieldUid: 496e755e-78ab-4e3f-8c3a-9b320023b8ec # Image
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+handle: investigation
+hasTitleField: true
+name: Investigation
+section: 546e0c6d-dd32-4997-8487-cc4c2fcc9480 # Investigations
+sortOrder: 1
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site
