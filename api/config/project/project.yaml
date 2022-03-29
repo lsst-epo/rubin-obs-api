@@ -35,6 +35,7 @@ meta:
     03d7331c-b357-4eed-a6b0-3c5a403cae73: Publisher # Publisher
     3df02181-c6a1-4e72-98fb-f91def384206: Entry # Entry
     3e10dcca-4dd1-4578-8add-708cd9740881: Homepage # Homepage
+    3eefd793-f1fb-4692-ba0e-ff68f354543b: Investigations # Investigations
     4a55a5d1-655b-4e30-8466-c84b6d8558dd: 'End Time' # End Time
     04a48967-eac4-449f-b164-c8ecbb7036d6: 'Search Results' # Search Results
     4b94ba3d-060c-4a09-b2dc-c519a4c83709: 'Cell Content' # Cell Content
@@ -72,6 +73,7 @@ meta:
     9c14ac7e-c466-4c2d-a2fd-e19a68fc706d: Teaser # Teaser
     9c34fc8b-8bc3-4f8a-bbc8-ea58a018719a: 'Custom Breadcrumb Sets' # Custom Breadcrumb Sets
     9d045432-a0fb-4fcd-8bca-3bc93b1f7056: 'Educator Pages' # Educator Pages
+    10e8304e-93be-4c77-b1e9-7d9058c4aa92: 'Is Active' # Is Active
     11be7603-f576-4af8-93a6-e285e4ff42c4: News # News
     13dd7a03-2223-4831-87bc-a9c717c71bb0: Slide # Slide
     18a75c63-648f-4145-9cc3-386e7c8a0106: General # General
