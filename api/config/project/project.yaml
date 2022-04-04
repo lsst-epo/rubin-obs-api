@@ -1,4 +1,4 @@
-dateModified: 1649091082
+dateModified: 1649108197
 email:
   fromEmail: $EMAIL_FROM_ADDRESS
   fromName: $EMAIL_SENDER_NAME
@@ -144,6 +144,7 @@ meta:
     6908c928-e76b-4692-ae6f-e3d8c994d0ce: Row # Row
     7445fb64-f649-42e7-9751-28d742d27a85: 'Email Subscription' # Email Subscription
     7742b942-2b47-4222-9105-40dd3da899ac: 'Related Item' # Related Item
+    7754bae8-c6eb-4fbe-882b-236621e35f2d: 'Canto DAM' # Canto DAM
     7970cd65-7a96-418a-8581-d6df4e039e6d: 'Plain Text' # Plain Text
     8096dc6c-f1bd-4d24-8add-7df7f190a17c: Jobs # Jobs
     8145b1c9-cb8f-4c86-91ba-34fe5ded34e6: Homepage # Homepage
@@ -1355,6 +1356,12 @@ plugins:
     edition: standard
     enabled: true
     schemaVersion: 1.0.0
+    settings:
+      appId: $CANTO_APP_ID
+      authEndpoint: $CANTO_AUTH_ENDPOINT
+      damVolume: cantoDam
+      retrieveAssetMetadataEndpoint: $CANTO_ASSET_ENDPOINT
+      secretKey: $CANTO_SECRET_KEY
 system:
   edition: pro
   live: true
