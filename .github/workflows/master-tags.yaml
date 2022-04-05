@@ -1,9 +1,7 @@
-name: 'Push to Integration'
+name: 'Push to Production'
 
 on:
-  push:
-    branches:
-      - 'master'
+  create:
     tags:
       - '*'
 
