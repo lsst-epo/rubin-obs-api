@@ -61,7 +61,7 @@ fields:
       showUnpermittedVolumes: false
       uiMode: enlarged
     translationKeyFormat: null
-    translationMethod: none
+    translationMethod: site
     type: craft\redactor\Field
   380c1cbe-884e-421b-9e31-1f0dfc81e15f: # Cell Width
     columnSuffix: null
@@ -86,17 +86,183 @@ fields:
     type: craft\fields\Number
   c9e9db12-fcdb-4b82-a8c8-eef21b3543af: # Cell Background
     columnSuffix: null
-    contentColumnType: string(7)
+    contentColumnType: string
     fieldGroup: null
     handle: cellBackground
     instructions: ''
     name: 'Cell Background'
     searchable: false
     settings:
-      defaultColor: ''
+      optgroups: true
+      options:
+        -
+          __assoc__:
+            -
+              - label
+              - Gray
+            -
+              - value
+              - '#DCE0E3'
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - Blue
+            -
+              - value
+              - '#8CA6CD'
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - 'Dark Turquoise'
+            -
+              - value
+              - '#00BABC '
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - Green
+            -
+              - value
+              - '#8ACE8C'
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - 'Light Blue'
+            -
+              - value
+              - '#C7D4F4'
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - 'Light Green'
+            -
+              - value
+              - '#D7E6CF'
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - 'Light Orange'
+            -
+              - value
+              - '#FFEDD9'
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - 'Light Turquoise'
+            -
+              - value
+              - '#B1F2EF'
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - Orange
+            -
+              - value
+              - '#FAB363'
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - 'Pale Orange'
+            -
+              - value
+              - '#FFF8F0'
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - Pink
+            -
+              - value
+              - '#FF8489'
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - Purple
+            -
+              - value
+              - '#B597C7'
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - Red
+            -
+              - value
+              - '#F17070'
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - Turquoise
+            -
+              - value
+              - '#99E3E4'
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - Yellow
+            -
+              - value
+              - '#FDDA78'
+            -
+              - default
+              - ''
     translationKeyFormat: null
     translationMethod: none
-    type: craft\fields\Color
+    type: craft\fields\Dropdown
 handle: tableCell
 name: 'Table Cell'
 sortOrder: 1
