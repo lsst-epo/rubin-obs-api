@@ -13,7 +13,16 @@ fieldLayouts:
             tip: null
             type: craft\fieldlayoutelements\CustomField
             warning: null
-            width: 100
+            width: 50
+          -
+            fieldUid: 635a4a93-f10b-4d3c-bd44-2ea1474ad4cb # Vertical Alignment
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 50
           -
             fieldUid: f0603433-ef74-4883-8aec-03e31f8dc34e # Complex Table
             instructions: null
