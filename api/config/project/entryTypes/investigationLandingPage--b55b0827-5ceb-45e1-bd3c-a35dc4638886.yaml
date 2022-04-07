@@ -25,7 +25,7 @@ fieldLayouts:
             title: null
             type: craft\fieldlayoutelements\EntryTitleField
             warning: null
-            width: 100
+            width: 75
           -
             fieldUid: 831db889-442e-4553-9076-fc3bc2843c8c # Hide title
             instructions: null
@@ -34,7 +34,7 @@ fieldLayouts:
             tip: null
             type: craft\fieldlayoutelements\CustomField
             warning: null
-            width: 100
+            width: 25
           -
             style: tip
             tip: 'This entry type is intended as the starting point for a section describing an Investigation. Child pages will inherit information from the related Investigation and display it in the header.'
