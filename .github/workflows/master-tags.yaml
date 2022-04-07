@@ -1,9 +1,11 @@
 name: 'Push to Production'
 
 on:
-  create:
+  push:
+    branches:
+      - '!*'
     tags:
-      - '*'
+      - 'v*'
 
 jobs:
   build-push-deploy:
