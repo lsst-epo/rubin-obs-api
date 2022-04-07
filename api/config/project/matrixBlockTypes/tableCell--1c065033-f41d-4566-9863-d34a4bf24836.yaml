@@ -99,13 +99,13 @@ fields:
           __assoc__:
             -
               - label
-              - Gray
+              - None
             -
               - value
-              - '#DCE0E3'
+              - ''
             -
               - default
-              - ''
+              - '1'
         -
           __assoc__:
             -
@@ -125,6 +125,17 @@ fields:
             -
               - value
               - '#00BABC '
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - Gray
+            -
+              - value
+              - '#DCE0E3'
             -
               - default
               - ''
