@@ -13,6 +13,8 @@ scope:
   - 'entrytypes.bbf936fb-1787-437b-8ebd-a6e79409896e:read' # Glossary Term
   - 'sections.3e10dcca-4dd1-4578-8add-708cd9740881:read' # Homepage
   - 'entrytypes.8145b1c9-cb8f-4c86-91ba-34fe5ded34e6:read' # Homepage
+  - 'sections.546e0c6d-dd32-4997-8487-cc4c2fcc9480:read' # Investigations
+  - 'entrytypes.0b946ecb-12e3-4999-9d02-fc902cb66fdf:read' # Investigation
   - 'sections.59fb5a9e-74f4-4618-adba-601791f42c92:read' # Jobs
   - 'entrytypes.39558c70-8baf-4748-9f12-49e78a04eed5:read' # Job
   - 'sections.11be7603-f576-4af8-93a6-e285e4ff42c4:read' # News
