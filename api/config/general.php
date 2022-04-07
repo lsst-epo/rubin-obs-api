@@ -66,7 +66,11 @@ return [
 
         'allowedGraphqlOrigins' => false,
 
-        'headlessMode' => true //,
+        'headlessMode' => true,
+
+        // FE user account management paths. Must be absolute URLs
+        'verifyEmailPath' => App::env('VERIFY_EMAIL_PATH'),
+        'setPasswordPath' => App::env('SET_PASSWORD_PATH')
 
         // Disable CSRF protection for contact form - unnecessary until we implement certs
         //'enableCsrfProtection' => $_SERVER['REQUEST_URI'] !== '/actions/contact-form/send',
