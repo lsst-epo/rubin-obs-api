@@ -1,9 +1,9 @@
 columnSuffix: null
 contentColumnType: string
 fieldGroup: 3eefd793-f1fb-4692-ba0e-ff68f354543b # Investigations
-handle: investigationSelect
+handle: investigation
 instructions: ''
-name: 'Investigation Select'
+name: Investigation
 searchable: false
 settings:
   allowSelfRelations: false

@@ -1,4 +1,4 @@
-dateModified: 1649351756
+dateModified: 1649353424
 email:
   fromEmail: $EMAIL_FROM_ADDRESS
   fromName: $EMAIL_SENDER_NAME
@@ -169,7 +169,7 @@ meta:
     90295d5c-0b35-40ca-bb95-c7fc81969b14: 'Accordion Group' # Accordion Group
     271253b0-e9b7-4bf1-be32-ce31d71b48b1: Quote # Quote
     312197d8-1241-4fac-8422-febdf44e5e9a: 'Entry - Slideshow' # Entry - Slideshow
-    418392d0-2ad4-48a1-8eb3-7cdf5437d498: 'Investigation Select' # Investigation Select
+    418392d0-2ad4-48a1-8eb3-7cdf5437d498: Investigation # Investigation
     547128fa-4529-4483-9968-66425996b69f: EN # EN
     660361f1-3ecb-4c5e-9274-76e54f1f291f: 'Number of items' # Number of items
     838028d1-bb13-49aa-a2ee-b0b2e7e6a4fa: 'Simple Table' # Simple Table
@@ -187,6 +187,7 @@ meta:
     a5b8e4fe-87da-48fc-8156-2a2a973b29e5: URL # URL
     a5bb0742-012f-4683-a471-874944bf3280: Image # Image
     a8ba2de3-ff22-4a96-9a53-00b6dec31def: City # City
+    a8fbf209-7591-40fa-88d4-b5944f4d27d8: 'Landing Page' # Landing Page
     a71f443d-14a3-402b-90ba-524dcce806d2: 'External URL' # External URL
     a77c49d2-2441-459e-bfea-63e571d25a12: Slideshow # Slideshow
     a61323db-26ac-4898-873c-a6c6b66fcb86: Header # Header
