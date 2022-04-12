@@ -3,7 +3,7 @@
   "require": {
     "carlcs/craft-assetmetadata": "^3.0",
     "craftcms/aws-s3": "^1.2",
-    "craftcms/cms": "3.7.17.1",
+    "craftcms/cms": "3.7.29",
     "craftcms/contact-form": "2.2.7",
     "craftcms/google-cloud": "^1.4",
     "craftcms/redactor": "2.8.5",
