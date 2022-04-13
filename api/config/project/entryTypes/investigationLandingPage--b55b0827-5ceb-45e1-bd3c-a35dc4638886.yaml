@@ -59,6 +59,19 @@ fieldLayouts:
             width: 100
         name: Content
         sortOrder: 1
+      -
+        elements:
+          -
+            fieldUid: ecf9a160-a134-43b6-9d4f-8bd547ad101e # Landing Navigation
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Navigation
+        sortOrder: 2
 handle: investigationLandingPage
 hasTitleField: true
 name: 'Investigation Landing Page'
