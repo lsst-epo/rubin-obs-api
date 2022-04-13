@@ -1,4 +1,4 @@
-dateModified: 1650327651
+dateModified: 1650327678
 email:
   fromEmail: $EMAIL_FROM_ADDRESS
   fromName: $EMAIL_SENDER_NAME
@@ -80,6 +80,7 @@ meta:
     10e8304e-93be-4c77-b1e9-7d9058c4aa92: 'Is Active' # Is Active
     11be7603-f576-4af8-93a6-e285e4ff42c4: News # News
     13dd7a03-2223-4831-87bc-a9c717c71bb0: Slide # Slide
+    15ca4b7f-3874-4461-aae9-869c9cdf076b: 'Redirect Page' # Redirect Page
     18a75c63-648f-4145-9cc3-386e7c8a0106: General # General
     20aeb76c-ce1e-47c4-96bd-6ebc1d456ef7: Colophon # Colophon
     23b188bc-f349-445e-9df7-f3a7d1c6fe9e: Schedule # Schedule
@@ -168,6 +169,7 @@ meta:
     84116f7d-7a26-41d7-bd7f-79761f9b50a9: 'Close Date' # Close Date
     87362cd0-662a-4068-9482-5ff62fe472c4: State/Province # State/Province
     90295d5c-0b35-40ca-bb95-c7fc81969b14: 'Accordion Group' # Accordion Group
+    110434a5-98f0-4679-9f3c-20869a785eee: 'Link To' # Link To
     271253b0-e9b7-4bf1-be32-ce31d71b48b1: Quote # Quote
     312197d8-1241-4fac-8422-febdf44e5e9a: 'Entry - Slideshow' # Entry - Slideshow
     418392d0-2ad4-48a1-8eb3-7cdf5437d498: Investigation # Investigation
