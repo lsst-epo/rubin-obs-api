@@ -59,9 +59,10 @@ docker-compose -f docker-compose-local-db.yml up
   * `docker container ls`
   * `docker exec -it <CONTAINER-ID> /bin/sh`
   * and then, for instance, to look at DB `psql -d craft -U craft`
-4. If you change `composer.json` and wanna see your changes applied: `docker build `
-5. To rebuild images and bring up the containers: `docker-compose -f docker-compose-local-db.yml up --build`
-6. When you need to do composer stuff: `docker run -v ${PWD}/api:/app composer <blah>`
+4. To rebuild images and bring up the containers: `docker-compose -f docker-compose-local-db.yml up --build`
+5. When you need to do composer stuff: `docker run -v ${PWD}/api:/app composer <blah>`
+6. After ssh-ing into a live GAE instance, by way of the GCP console interface, you can ssh into a running container: `docker exec -ti gaeapp sh`
+7. When working locally, in order to ensure the latest docker `craft-base-image` is used: `docker pull us-central1-docker.pkg.dev/skyviewer/public-images/craft-base-image`
 
 #### Local Database notes
 
