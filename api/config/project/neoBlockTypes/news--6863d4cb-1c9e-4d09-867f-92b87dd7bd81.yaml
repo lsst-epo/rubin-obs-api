@@ -1,5 +1,4 @@
-childBlocks:
-  - newsItem
+childBlocks: '["newsItem"]'
 field: 72e5075a-9b06-4674-b040-615f4a6f7b70 # Content Blocks - Pages
 fieldLayouts:
   4b6d230e-1301-4912-919c-6c690036b3e6:
