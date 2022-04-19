@@ -1,4 +1,5 @@
-childBlocks: '["complexTable"]'
+childBlocks:
+  - complexTable
 field: 72e5075a-9b06-4674-b040-615f4a6f7b70 # Content Blocks - Pages
 fieldLayouts:
   d606865c-35e5-4458-a367-6579a71decf8:
@@ -16,5 +17,5 @@ maxBlocks: 0
 maxChildBlocks: 0
 maxSiblingBlocks: 0
 name: 'Table Group'
-sortOrder: 25
+sortOrder: 27
 topLevel: true

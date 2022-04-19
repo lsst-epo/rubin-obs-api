@@ -10,5 +10,5 @@ settings:
   offLabel: Inactive
   onLabel: Active
 translationKeyFormat: null
-translationMethod: none
+translationMethod: site
 type: craft\fields\Lightswitch

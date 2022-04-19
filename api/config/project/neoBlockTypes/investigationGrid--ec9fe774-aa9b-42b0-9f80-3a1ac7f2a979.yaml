@@ -1,12 +1,22 @@
-childBlocks: ''
+childBlocks:
+  - investigationCta
 field: 72e5075a-9b06-4674-b040-615f4a6f7b70 # Content Blocks - Pages
 fieldLayouts:
-  d9c9eb2f-9504-4dc2-8371-f61bdf5daa34:
+  5afe725a-0b23-4352-819f-956b31de94f5:
     tabs:
       -
         elements:
           -
             fieldUid: b0ce3829-20c1-44ef-a7c7-499800645afc # Header
+            instructions: ''
+            label: ''
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: d019727b-a6d5-43d9-a688-f10df985a87e # Link
             instructions: null
             label: null
             required: false
@@ -14,30 +24,12 @@ fieldLayouts:
             type: craft\fieldlayoutelements\CustomField
             warning: null
             width: 100
-          -
-            fieldUid: e9726196-f241-49d4-9b6b-9e8d419e6669 # Link Text
-            instructions: ''
-            label: ''
-            required: false
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            warning: null
-            width: 50
-          -
-            fieldUid: 5f0325e0-cdba-4181-a634-bd8ebf451723 # Entry - Page
-            instructions: null
-            label: null
-            required: false
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            warning: null
-            width: 50
-        name: 'Tab 1'
+        name: Content
         sortOrder: 1
-handle: contact
+handle: investigationGrid
 maxBlocks: 0
 maxChildBlocks: 0
 maxSiblingBlocks: 0
-name: Contact
-sortOrder: 13
+name: 'Investigation Grid'
+sortOrder: 9
 topLevel: true

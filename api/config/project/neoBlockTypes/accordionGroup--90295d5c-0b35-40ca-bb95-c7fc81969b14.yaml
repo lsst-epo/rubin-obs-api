@@ -1,4 +1,5 @@
-childBlocks: '["accordion"]'
+childBlocks:
+  - accordion
 field: 72e5075a-9b06-4674-b040-615f4a6f7b70 # Content Blocks - Pages
 fieldLayouts:
   b1c3fdf1-1d88-48ee-a27f-cbec1ec53c1d:

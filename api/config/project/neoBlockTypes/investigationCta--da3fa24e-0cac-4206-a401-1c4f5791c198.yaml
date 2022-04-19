@@ -1,13 +1,12 @@
-childBlocks:
-  - scheduleRow
+childBlocks: ''
 field: 72e5075a-9b06-4674-b040-615f4a6f7b70 # Content Blocks - Pages
 fieldLayouts:
-  21547f51-6313-4ae1-bb0f-fbe1a5857821:
+  11ae9db4-0034-42a4-8d2b-98624ae2d3a8:
     tabs:
       -
         elements:
           -
-            fieldUid: 75f0b770-5006-4359-848f-96415196bfe0 # Date
+            fieldUid: 418392d0-2ad4-48a1-8eb3-7cdf5437d498 # Investigation
             instructions: ''
             label: ''
             required: '1'
@@ -16,20 +15,20 @@ fieldLayouts:
             warning: null
             width: 50
           -
-            fieldUid: cd801712-4ba3-4a9c-8fab-0d3e2a58b4eb # Description
-            instructions: null
-            label: null
-            required: false
+            fieldUid: 545ad3bb-62d3-448e-8a57-5ec434539d05 # Use External Link
+            instructions: ''
+            label: 'Link to external page?'
+            required: ''
             tip: null
             type: craft\fieldlayoutelements\CustomField
             warning: null
-            width: 100
-        name: default
+            width: 50
+        name: Content
         sortOrder: 1
-handle: schedule
+handle: investigationCta
 maxBlocks: 0
 maxChildBlocks: 0
 maxSiblingBlocks: 0
-name: Schedule
-sortOrder: 21
-topLevel: true
+name: 'Investigation CTA'
+sortOrder: 10
+topLevel: false

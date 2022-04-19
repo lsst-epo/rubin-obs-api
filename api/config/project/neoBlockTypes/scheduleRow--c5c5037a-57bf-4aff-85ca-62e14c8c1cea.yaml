@@ -48,5 +48,5 @@ maxBlocks: 0
 maxChildBlocks: 0
 maxSiblingBlocks: 0
 name: 'Schedule Row'
-sortOrder: 20
+sortOrder: 22
 topLevel: false
