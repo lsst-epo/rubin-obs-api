@@ -1,4 +1,4 @@
-dateModified: 1650403687
+dateModified: 1650405202
 email:
   fromEmail: $EMAIL_FROM_ADDRESS
   fromName: $EMAIL_SENDER_NAME
@@ -1378,6 +1378,10 @@ plugins:
     edition: standard
     enabled: true
     schemaVersion: 2.0.0
+  universal-dam-integrator:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
 system:
   edition: pro
   live: true
