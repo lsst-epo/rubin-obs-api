@@ -1,4 +1,4 @@
-dateModified: 1650494706
+dateModified: 1650495690
 email:
   fromEmail: $EMAIL_FROM_ADDRESS
   fromName: $EMAIL_SENDER_NAME
@@ -126,6 +126,7 @@ meta:
     522bc2d7-fcc3-4817-a986-5c860e53351c: 'Internal Entry' # Internal Entry
     522db817-08b6-4ecf-a423-4aec204ab85d: 'Content Blocks - News' # Content Blocks - News
     534d275e-b6e9-4064-9965-07e804e0fcc1: 'User Profile Page' # User Profile Page
+    545ad3bb-62d3-448e-8a57-5ec434539d05: 'Use External Link' # Use External Link
     546e0c6d-dd32-4997-8487-cc4c2fcc9480: Investigations # Investigations
     612eabbe-059a-4916-abcf-c82132da4cfc: Asset # Asset
     635a4a93-f10b-4d3c-bd44-2ea1474ad4cb: 'Vertical Alignment' # Vertical Alignment
@@ -250,6 +251,7 @@ meta:
     d4696dbe-019e-4c97-a95d-07bfaf9dbd03: 'Entry - Staff Profile' # Entry - Staff Profile
     d6898b26-bfa2-41d3-9e26-0092b2021762: 'Student Schema' # Student Schema
     d889713c-632a-4323-bb10-4b2bc53545ad: Asset # Asset
+    da3fa24e-0cac-4206-a401-1c4f5791c198: 'Investigation CTA' # Investigation CTA
     ddb3efd5-1bce-43e1-9fb9-399ada8a8126: 'Registration Open Date' # Registration Open Date
     ddf8dce2-4fa1-43d1-b306-b34d9d97a91b: Content # Content
     df7f4ec2-58b2-4c3a-afff-b07f4764fa4b: Location # Location
@@ -268,6 +270,7 @@ meta:
     e425947f-95b4-443c-ab86-fe521acc1f29: 'Gallery Item Type' # Gallery Item Type
     e7913600-c914-4ab1-a9bb-abd2bdcbfb94: 'Custom Name' # Custom Name
     e9726196-f241-49d4-9b6b-9e8d419e6669: 'Link Text' # Link Text
+    ec9fe774-aa9b-42b0-9f80-3a1ac7f2a979: 'Investigation Grid' # Investigation Grid
     ec78e400-20a8-42cc-a320-8fc84edd364c: 'Custom Hero' # Custom Hero
     ecf9a160-a134-43b6-9d4f-8bd547ad101e: 'Landing Navigation' # Landing Navigation
     edef3ef4-2dfd-4dc1-92a9-2643d43cef04: Image # Image
