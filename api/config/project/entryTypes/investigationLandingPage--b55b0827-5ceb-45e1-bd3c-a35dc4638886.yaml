@@ -71,6 +71,15 @@ fieldLayouts:
       -
         elements:
           -
+            fieldUid: 7db205b7-a548-42f1-8c26-416ec51cf3fa # Text
+            instructions: ''
+            label: 'Navigation Description'
+            required: ''
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
             fieldUid: ecf9a160-a134-43b6-9d4f-8bd547ad101e # Landing Navigation
             instructions: null
             label: null
