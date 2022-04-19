@@ -36,11 +36,7 @@ fieldLayouts:
             warning: null
             width: 25
           -
-            style: tip
-            tip: 'This entry type is intended as the starting point for a section describing an Investigation. Child pages will inherit information from the related Investigation and display it in the header.'
-            type: craft\fieldlayoutelements\Tip
-          -
-            fieldUid: 418392d0-2ad4-48a1-8eb3-7cdf5437d498 # Investigation
+            fieldUid: cd801712-4ba3-4a9c-8fab-0d3e2a58b4eb # Description
             instructions: null
             label: null
             required: false
@@ -48,6 +44,19 @@ fieldLayouts:
             type: craft\fieldlayoutelements\CustomField
             warning: null
             width: 100
+          -
+            fieldUid: 3c9eb8f7-9f84-4c22-84d5-531be77aa6b6 # Featured Image
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            style: tip
+            tip: 'This entry type is intended as the starting point for a section describing an Investigation. Child pages will inherit information from the related Investigation and display it in the header.'
+            type: craft\fieldlayoutelements\Tip
           -
             fieldUid: 72e5075a-9b06-4674-b040-615f4a6f7b70 # Content Blocks - Pages
             instructions: null
