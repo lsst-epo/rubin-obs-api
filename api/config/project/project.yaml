@@ -1,4 +1,4 @@
-dateModified: 1650405327
+dateModified: 1650405418
 email:
   fromEmail: $EMAIL_FROM_ADDRESS
   fromName: $EMAIL_SENDER_NAME
@@ -1383,6 +1383,12 @@ plugins:
     edition: standard
     enabled: true
     schemaVersion: 1.0.0
+    settings:
+      appId: $CANTO_APP_ID
+      authEndpoint: $CANTO_AUTH_ENDPOINT
+      damVolume: cantoDam
+      retrieveAssetMetadataEndpoint: $CANTO_ASSET_ENDPOINT
+      secretKey: $CANTO_SECRET_KEY
 system:
   edition: pro
   live: true
