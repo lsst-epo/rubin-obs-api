@@ -41,7 +41,7 @@ scope:
   - 'volumes.18a75c63-648f-4145-9cc3-386e7c8a0106:read' # General
   - 'volumes.c3d1c243-1703-4117-abc7-88487a1f8f24:read' # Staff Profiles
   - 'volumes.d41cc960-99a4-41a8-a7a6-7891a22e4a93:read' # Asset Variants
-  - 'volumes.7754bae8-c6eb-4fbe-882b-236621e35f2d:read' # Canto DAM
+  - 'volumes.7754bae8-c6eb-4fbe-882b-236621e35f2d:read'
   - 'globalsets.b8393df9-fb81-4d70-9ccb-6d030c818580:read' # Gallery Item Defaults
   - 'globalsets.994d5664-f056-4969-b2cc-c62660f069af:read' # Root Page Information
   - 'globalsets.8ccd6c1c-8e9b-44e8-93a9-f62589fb4819:read' # Site Information
