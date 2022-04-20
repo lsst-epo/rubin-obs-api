@@ -1,4 +1,4 @@
-dateModified: 1650490307
+dateModified: 1650490784
 email:
   fromEmail: $EMAIL_FROM_ADDRESS
   fromName: $EMAIL_SENDER_NAME
@@ -117,7 +117,6 @@ meta:
     75f0b770-5006-4359-848f-96415196bfe0: Date # Date
     77dc755a-bb96-4422-b00f-c7d74e45d400: 'Educator Schema' # Educator Schema
     80e0f53f-96b3-43d4-b166-453ac4ac0147: Header # Header
-    89cab4ff-f556-4b7e-bae9-8db545ce38dd: 'User Profile' # User Profile
     95b97a67-eccb-4910-b0e8-77f5860058b4: Link # Link
     99f4a28a-48c3-49ca-bb4a-7acbb49fde30: Pages # Pages
     125d214d-7831-4150-b5bc-1a100bc3149d: School # School
@@ -128,7 +127,6 @@ meta:
     522db817-08b6-4ecf-a423-4aec204ab85d: 'Content Blocks - News' # Content Blocks - News
     534d275e-b6e9-4064-9965-07e804e0fcc1: 'User Profile Page' # User Profile Page
     546e0c6d-dd32-4997-8487-cc4c2fcc9480: Investigations # Investigations
-    573c9705-aca2-4419-b039-c7071536a2ce: 'User Profile' # User Profile
     612eabbe-059a-4916-abcf-c82132da4cfc: Asset # Asset
     635a4a93-f10b-4d3c-bd44-2ea1474ad4cb: 'Vertical Alignment' # Vertical Alignment
     657b9edd-b6d3-4b7f-af89-36117c5d98a8: 'Rich Text Description' # Rich Text Description
