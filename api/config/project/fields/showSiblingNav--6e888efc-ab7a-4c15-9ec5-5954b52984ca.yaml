@@ -6,7 +6,7 @@ instructions: ''
 name: 'Show Sibling Nav'
 searchable: false
 settings:
-  default: true
+  default: false
   offLabel: Hide
   onLabel: Show
 translationKeyFormat: null
