@@ -71,6 +71,15 @@ fieldLayouts:
       -
         elements:
           -
+            fieldUid: b0ce3829-20c1-44ef-a7c7-499800645afc # Header
+            instructions: ''
+            label: 'Navigation Title'
+            required: ''
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
             fieldUid: 7db205b7-a548-42f1-8c26-416ec51cf3fa # Text
             instructions: ''
             label: 'Navigation Description'
