@@ -1,4 +1,4 @@
-dateModified: 1650399307
+dateModified: 1650490307
 email:
   fromEmail: $EMAIL_FROM_ADDRESS
   fromName: $EMAIL_SENDER_NAME
@@ -55,6 +55,7 @@ meta:
     05eead62-7bf9-43e4-a7e8-bcd8f9f77323: Hero # Hero
     5f0325e0-cdba-4181-a634-bd8ebf451723: 'Entry - Page' # Entry - Page
     6acd6e24-26c9-4e55-a35b-c29cd36a7a3c: Events # Events
+    6e888efc-ab7a-4c15-9ec5-5954b52984ca: 'Show Sibling Nav' # Show Sibling Nav
     6ed14c66-fec8-4bca-8f29-02cbd1620d12: Teaser # Teaser
     6f86b4dc-dab0-46fa-860d-81f6ebe6b541: Bold # Bold
     7beb32e3-0674-4b9c-9878-022862950868: Type # Type

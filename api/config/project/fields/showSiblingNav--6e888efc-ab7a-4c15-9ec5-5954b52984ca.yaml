@@ -1,0 +1,14 @@
+columnSuffix: dkygnqhn
+contentColumnType: boolean
+fieldGroup: 99f4a28a-48c3-49ca-bb4a-7acbb49fde30 # Pages
+handle: showSiblingNav
+instructions: ''
+name: 'Show Sibling Nav'
+searchable: false
+settings:
+  default: true
+  offLabel: Hide
+  onLabel: Show
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Lightswitch
