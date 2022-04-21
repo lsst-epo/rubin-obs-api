@@ -18,7 +18,7 @@ fieldLayouts:
             fieldUid: 545ad3bb-62d3-448e-8a57-5ec434539d05 # Use External Link
             instructions: ''
             label: 'Link to external page?'
-            required: ''
+            required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
             warning: null
