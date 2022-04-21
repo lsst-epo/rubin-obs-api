@@ -1,4 +1,4 @@
-dateModified: 1650500240
+dateModified: 1650560040
 email:
   fromEmail: $EMAIL_FROM_ADDRESS
   fromName: $EMAIL_SENDER_NAME
@@ -18,7 +18,7 @@ meta:
     0b946ecb-12e3-4999-9d02-fc902cb66fdf: Investigation # Investigation
     0b85955a-f0b4-47ae-adef-deb0694891af: 'Related Content' # Related Content
     0d02fdfb-053c-4d46-a5f8-0abf2542a5d2: 'News Tags' # News Tags
-    0df27088-950f-4f9e-9115-06e8f780b5ca: 'Entry - Page & Post' # Entry - Page & Post
+    0df27088-950f-4f9e-9115-06e8f780b5ca: 'Entry - Page, Post & Investigation' # Entry - Page, Post & Investigation
     0f48338c-1c16-4600-9230-68bacb7c21e3: Text # Text
     1a2ba41a-3949-4982-9cb3-f8b03863bcfd: 'Footer Content' # Footer Content
     1a35bfab-6a39-4c03-b273-2d5e3151c335: 'Rubin Telescope Education and Public Outreach' # Rubin Telescope Education and Public Outreach
@@ -121,7 +121,6 @@ meta:
     99f4a28a-48c3-49ca-bb4a-7acbb49fde30: Pages # Pages
     125d214d-7831-4150-b5bc-1a100bc3149d: School # School
     229f2975-93d3-4c6a-9996-dfa1de3004ef: 'Search Results' # Search Results
-    265cdad2-2582-4882-bf78-7e4c8a14c36a: 'Entry - Page, Post & Investigation' # Entry - Page, Post & Investigation
     380c1cbe-884e-421b-9e31-1f0dfc81e15f: 'Cell Width' # Cell Width
     496e755e-78ab-4e3f-8c3a-9b320023b8ec: Image # Image
     522bc2d7-fcc3-4817-a986-5c860e53351c: 'Internal Entry' # Internal Entry
