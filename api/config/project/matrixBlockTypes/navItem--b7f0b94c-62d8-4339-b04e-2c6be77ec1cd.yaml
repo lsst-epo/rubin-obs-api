@@ -23,7 +23,7 @@ fields:
     handle: navLink
     instructions: ''
     name: Link
-    searchable: false
+    searchable: true
     settings:
       allowCustomText: true
       allowTarget: false
