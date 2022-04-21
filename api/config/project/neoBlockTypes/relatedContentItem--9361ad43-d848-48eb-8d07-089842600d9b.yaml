@@ -6,7 +6,7 @@ fieldLayouts:
       -
         elements:
           -
-            fieldUid: 0df27088-950f-4f9e-9115-06e8f780b5ca # Entry - Page & Post
+            fieldUid: 265cdad2-2582-4882-bf78-7e4c8a14c36a # Entry - Page, Post & Investigation
             instructions: null
             label: null
             required: false
