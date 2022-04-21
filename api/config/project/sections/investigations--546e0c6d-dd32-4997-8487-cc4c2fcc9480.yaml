@@ -20,7 +20,7 @@ siteSettings:
     enabledByDefault: true
     hasUrls: true
     template: null
-    uriFormat: 'es/{landingPage.uri}'
+    uriFormat: '{landingPage.uri}'
   547128fa-4529-4483-9968-66425996b69f: # EN
     enabledByDefault: true
     hasUrls: true
