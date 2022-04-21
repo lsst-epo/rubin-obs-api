@@ -1,4 +1,4 @@
-dateModified: 1650567917
+dateModified: 1650570548
 email:
   fromEmail: $EMAIL_FROM_ADDRESS
   fromName: $EMAIL_SENDER_NAME
@@ -130,6 +130,7 @@ meta:
     546e0c6d-dd32-4997-8487-cc4c2fcc9480: Investigations # Investigations
     612eabbe-059a-4916-abcf-c82132da4cfc: Asset # Asset
     635a4a93-f10b-4d3c-bd44-2ea1474ad4cb: 'Vertical Alignment' # Vertical Alignment
+    644c6b87-ac0c-4cdf-88be-744a5ee684bb: Description # Description
     657b9edd-b6d3-4b7f-af89-36117c5d98a8: 'Rich Text Description' # Rich Text Description
     753b10b6-e9e6-44f5-a9d9-4a07788733e1: 'Content Ratio' # Content Ratio
     824d9ca2-e755-4e41-8f6a-18e573fec8e4: 'News Posts' # News Posts

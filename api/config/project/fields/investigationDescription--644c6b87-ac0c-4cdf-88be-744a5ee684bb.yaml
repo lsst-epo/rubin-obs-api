@@ -1,0 +1,19 @@
+columnSuffix: zexrmoux
+contentColumnType: text
+fieldGroup: 3eefd793-f1fb-4692-ba0e-ff68f354543b # Investigations
+handle: investigationDescription
+instructions: 'Brief description for Related Content sections.'
+name: Description
+searchable: true
+settings:
+  byteLimit: null
+  charLimit: null
+  code: ''
+  columnType: null
+  initialRows: '4'
+  multiline: '1'
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\PlainText

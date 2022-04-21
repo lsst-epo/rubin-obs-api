@@ -4,7 +4,7 @@ fieldGroup: 3eefd793-f1fb-4692-ba0e-ff68f354543b # Investigations
 handle: investigation
 instructions: ''
 name: Investigation
-searchable: false
+searchable: true
 settings:
   allowSelfRelations: false
   limit: '1'
