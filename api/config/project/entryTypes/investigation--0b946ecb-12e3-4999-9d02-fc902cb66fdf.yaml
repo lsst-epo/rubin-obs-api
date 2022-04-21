@@ -43,7 +43,7 @@ fieldLayouts:
             tip: null
             type: craft\fieldlayoutelements\CustomField
             warning: null
-            width: 50
+            width: 75
           -
             fieldUid: a8fbf209-7591-40fa-88d4-b5944f4d27d8 # Landing Page
             instructions: ''
@@ -52,9 +52,9 @@ fieldLayouts:
             tip: null
             type: craft\fieldlayoutelements\CustomField
             warning: null
-            width: 50
+            width: 25
           -
-            fieldUid: 496e755e-78ab-4e3f-8c3a-9b320023b8ec # Image
+            fieldUid: 644c6b87-ac0c-4cdf-88be-744a5ee684bb
             instructions: null
             label: null
             required: false
@@ -71,6 +71,15 @@ fieldLayouts:
             type: craft\fieldlayoutelements\CustomField
             warning: null
             width: 25
+          -
+            fieldUid: 496e755e-78ab-4e3f-8c3a-9b320023b8ec # Image
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
         name: Content
         sortOrder: 1
 handle: investigation
