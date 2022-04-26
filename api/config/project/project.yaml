@@ -1,4 +1,4 @@
-dateModified: 1652122743
+dateModified: 1652144811
 email:
   fromEmail: $EMAIL_FROM_ADDRESS
   fromName: $EMAIL_SENDER_NAME
@@ -29,6 +29,7 @@ meta:
     1ed94e58-7078-46fb-b590-0692fbdf9c20: 'Common Name' # Common Name
     1ed98018-4e61-4580-bee8-961ceab2bb2c: 'Staff Item' # Staff Item
     1ee32484-2cca-457e-ac23-b3cb13e652d3: 'User Profile Page' # User Profile Page
+    1f7ad44a-de72-4538-9628-acdbc79e32f6: 'Staff Trading Card' # Staff Trading Card
     2c2e1c6a-eb4d-44f1-9a43-8d79b326f354: ES # ES
     2c121c9e-10e1-4a79-a17f-a6c7ef7965f3: 'Table Group' # Table Group
     3a3af2ab-b037-455a-ba95-bc3be89efdb0: 'Event Filters' # Event Filters
@@ -43,6 +44,7 @@ meta:
     04a48967-eac4-449f-b164-c8ecbb7036d6: 'Search Results' # Search Results
     4b94ba3d-060c-4a09-b2dc-c519a4c83709: 'Cell Content' # Cell Content
     4c977b75-9ee1-4cdb-9d2a-203639f4af84: Links # Links
+    4d3b7f4d-258a-4d7b-b41e-29398e23ae3f: 'Staff Tags' # Staff Tags
     4ead9327-61fc-4b46-810c-5f490c2c45ad: 'Gallery Types' # Gallery Types
     4f027acf-6672-4fd7-a178-2366dfea422a: 'Complex Table' # Complex Table
     4fe339ec-7579-46f4-a362-df6ee8de4b3c: 'Public Schema' # Public Schema
@@ -52,6 +54,7 @@ meta:
     5b70de37-9d5f-4c8f-87c7-9f2225761f54: 'Gallery Item Tags' # Gallery Item Tags
     5ca18cb3-5a7b-4764-9e18-fc24b4cecc14: Flag # Flag
     5ca378e1-cfb5-4db9-ad3c-1d6ef36536b7: 'Supporters’ Logos' # Supporters’ Logos
+    5d162b5e-8723-4b74-a229-f8a52bd30b1c: 'Staff Tags' # Staff Tags
     05eead62-7bf9-43e4-a7e8-bcd8f9f77323: Hero # Hero
     5f0325e0-cdba-4181-a634-bd8ebf451723: 'Entry - Page' # Entry - Page
     6acd6e24-26c9-4e55-a35b-c29cd36a7a3c: Events # Events
@@ -195,6 +198,7 @@ meta:
     a8fbf209-7591-40fa-88d4-b5944f4d27d8: 'Landing Page' # Landing Page
     a71f443d-14a3-402b-90ba-524dcce806d2: 'External URL' # External URL
     a77c49d2-2441-459e-bfea-63e571d25a12: Slideshow # Slideshow
+    a7447c0c-7c32-465a-b00b-36ee15bd028a: 'Pull Quote' # Pull Quote
     a61323db-26ac-4898-873c-a6c6b66fcb86: Header # Header
     aa60fd40-45d4-48bb-8b81-8ec736456687: 'Staff Filters' # Staff Filters
     aa649fa7-795e-427b-bb5e-dbbf5668c3b1: Callout # Callout
