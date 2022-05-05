@@ -1,4 +1,4 @@
-dateModified: 1651549345
+dateModified: 1651168303
 email:
   fromEmail: $EMAIL_FROM_ADDRESS
   fromName: $EMAIL_SENDER_NAME
@@ -100,6 +100,10 @@ meta:
     41a9c595-2a38-40b5-b87c-ada8076913e1: Share # Share
     46d17af4-896a-4fc5-90bf-ac826090d9bc: Credit # Credit
     48ba11bd-90a5-4239-a24c-d44d01affbcf: "Image - quote" # Image - quote
+<<<<<<< HEAD
+=======
+    51d86fa7-e37a-4926-97c8-3112fd6f2fbe: "Canto DAM" # Canto DAM
+>>>>>>> 50628caf ([C] use CantoDAM for callout images)
     56f60368-4386-4395-92b6-31b15c7663cc: Contact # Contact
     58aa24c3-97e4-43e7-a812-7374e5650180: "Focal Point X" # Focal Point X
     58efa872-9485-42e3-a1e3-a5435def5392: Educators # Educators
@@ -228,7 +232,10 @@ meta:
     c30bad12-1372-49fe-ab6c-a9c33b2860bb: "Gallery Item Tags" # Gallery Item Tags
     c41c3f9f-056c-4b0b-8003-2ba5395a615f: Text # Text
     c44a71b5-f4c8-4209-8433-9878aece9aa5: Text # Text
+<<<<<<< HEAD
     c2617270-9a88-4699-a7e0-6f6975b11e5a: "Canto DAM" # Canto DAM
+=======
+>>>>>>> 50628caf ([C] use CantoDAM for callout images)
     c4060079-e438-4c63-8b06-77cdea857fd9: Text # Text
     cb6a7cee-4f9e-4191-8c6d-33ccdd921fec: Text # Text
     cbded379-b002-491f-8558-81620a1a672c: Image # Image

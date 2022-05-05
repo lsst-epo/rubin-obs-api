@@ -21,8 +21,8 @@ scope:
   - 'entrytypes.4729ad5e-485e-4f98-995d-79fa5254cd42:read' # News Post
   - 'sections.f1b8c943-bc12-4001-9e2a-d531379f1aaf:read' # Pages
   - 'entrytypes.23eda090-7e8e-401d-ab49-ee4becc34935:read' # Pages
-  - 'entrytypes.9d045432-a0fb-4fcd-8bca-3bc93b1f7056:read' # Educator Pages
   - 'entrytypes.26ca2777-e4c8-41b4-ac93-aa28d09117dd:read' # Student Pages
+  - 'entrytypes.9d045432-a0fb-4fcd-8bca-3bc93b1f7056:read' # Educator Pages
   - 'entrytypes.b55b0827-5ceb-45e1-bd3c-a35dc4638886:read' # Investigation Landing Page
   - 'entrytypes.15ca4b7f-3874-4461-aae9-869c9cdf076b:read' # Redirect Page
   - 'sections.04a48967-eac4-449f-b164-c8ecbb7036d6:read' # Search Results
@@ -31,8 +31,6 @@ scope:
   - 'entrytypes.a77c49d2-2441-459e-bfea-63e571d25a12:read' # Slideshow
   - 'sections.78410791-6edc-46c9-a17b-4358dcd545ec:read' # Staff Profiles
   - 'entrytypes.7d60273b-66b0-4843-a42c-4b4387185a15:read' # Staff Profiles
-  - 'sections.89cab4ff-f556-4b7e-bae9-8db545ce38dd:read'
-  - 'entrytypes.573c9705-aca2-4419-b039-c7071536a2ce:read'
   - 'sections.1ee32484-2cca-457e-ac23-b3cb13e652d3:read' # User Profile Page
   - 'entrytypes.534d275e-b6e9-4064-9965-07e804e0fcc1:read' # User Profile Page
   - 'volumes.8e9ec71e-2cf0-4f6a-b856-8976de0ce100:read' # Heroes
@@ -41,10 +39,10 @@ scope:
   - 'volumes.18a75c63-648f-4145-9cc3-386e7c8a0106:read' # General
   - 'volumes.c3d1c243-1703-4117-abc7-88487a1f8f24:read' # Staff Profiles
   - 'volumes.d41cc960-99a4-41a8-a7a6-7891a22e4a93:read' # Asset Variants
-  - 'volumes.7754bae8-c6eb-4fbe-882b-236621e35f2d:read'
-  - 'globalsets.b8393df9-fb81-4d70-9ccb-6d030c818580:read' # Gallery Item Defaults
+  - 'volumes.51d86fa7-e37a-4926-97c8-3112fd6f2fbe:read' # Canto DAM
   - 'globalsets.994d5664-f056-4969-b2cc-c62660f069af:read' # Root Page Information
   - 'globalsets.8ccd6c1c-8e9b-44e8-93a9-f62589fb4819:read' # Site Information
+  - 'globalsets.b8393df9-fb81-4d70-9ccb-6d030c818580:read' # Gallery Item Defaults
   - 'globalsets.1a2ba41a-3949-4982-9cb3-f8b03863bcfd:read' # Footer Content
   - 'usergroups.everyone:read'
   - 'usergroups.01b89d98-9aa4-46d5-a9a0-60a0c07fd815:read' # Editors
