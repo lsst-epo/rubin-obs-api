@@ -52,15 +52,6 @@ fieldLayouts:
             tip: null
             type: craft\fieldlayoutelements\CustomField
             warning: null
-            width: 100
-          -
-            fieldUid: 7beb32e3-0674-4b9c-9878-022862950868 # Type
-            instructions: ''
-            label: ''
-            required: '1'
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            warning: null
             width: 50
           -
             fieldUid: 4d3b7f4d-258a-4d7b-b41e-29398e23ae3f # Staff Tags
