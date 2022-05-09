@@ -8,26 +8,26 @@ searchable: true
 settings:
   allowSelfRelations: false
   allowUploads: true
-  allowedKinds:
-    - image
-  defaultUploadLocationSource: 'volume:8e9ec71e-2cf0-4f6a-b856-8976de0ce100' # Heroes
+  allowedKinds: null
+  defaultUploadLocationSource: 'volume:51d86fa7-e37a-4926-97c8-3112fd6f2fbe' # Canto DAM
   defaultUploadLocationSubpath: ''
   limit: '1'
   localizeRelations: false
   previewMode: full
-  restrictFiles: '1'
+  restrictFiles: ''
   selectionLabel: ''
-  showSiteMenu: true
+  showSiteMenu: false
   showUnpermittedFiles: false
   showUnpermittedVolumes: false
-  singleUploadLocationSource: 'volume:f52f3e9c-434e-43b5-89eb-a5776e6bc4a6' # Callout Images
+  singleUploadLocationSource: 'volume:8e9ec71e-2cf0-4f6a-b856-8976de0ce100' # Heroes
   singleUploadLocationSubpath: ''
   source: null
-  sources: '*'
+  sources:
+    - 'volume:51d86fa7-e37a-4926-97c8-3112fd6f2fbe' # Canto DAM
   targetSiteId: null
-  useSingleFolder: true
+  useSingleFolder: false
   validateRelatedElements: false
-  viewMode: large
+  viewMode: list
 translationKeyFormat: null
 translationMethod: site
 type: craft\fields\Assets
