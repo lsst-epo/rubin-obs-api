@@ -1,4 +1,4 @@
-dateModified: 1652127357
+dateModified: 1652133921
 email:
   fromEmail: $EMAIL_FROM_ADDRESS
   fromName: $EMAIL_SENDER_NAME
@@ -1061,12 +1061,15 @@ plugins:
     edition: standard
     enabled: true
     schemaVersion: 1.0.0
+<<<<<<< HEAD
     settings:
       appId: 52ff8ed9d6874d48a3bef9621bc1af26
       authEndpoint: "https://oauth.canto.com/oauth/api/oauth2/token?app_id={appId}&app_secret={secretKey}&grant_type=client_credentials&refresh_token="
       damVolume: cantoDam
       retrieveAssetMetadataEndpoint: "https://rubin.canto.com/api/v1/image/"
       secretKey: 1d12371b7dee4a7d87c6886d777056095642d672cacf4138b848b7b01173f019
+=======
+>>>>>>> f577e6d2 ([C] update DAM plugin)
 system:
   edition: pro
   live: true
