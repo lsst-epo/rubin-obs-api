@@ -23,6 +23,7 @@ return [
     'id' => App::env('APP_ID') ?: 'CraftCMS',
     'modules' => [
         'my-module' => \modules\Module::class,
+	    'user-registration-module' => \modules\userregistrationmodule\UserRegistrationModule::class,
     ],
     'components' => [
         'cache' => [
@@ -43,5 +44,5 @@ return [
             'keyPrefix' => App::env('APP_ID') ?: 'CraftCMS',
         ],
     ],
-    //'bootstrap' => ['my-module'],
+    'bootstrap' => ['user-registration-module'],
 ];
