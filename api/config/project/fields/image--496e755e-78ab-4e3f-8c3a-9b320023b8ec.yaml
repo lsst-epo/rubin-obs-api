@@ -5,6 +5,29 @@ handle: image
 instructions: ''
 name: Image
 searchable: true
+settings:
+  allowSelfRelations: false
+  allowUploads: true
+  allowedKinds: null
+  defaultUploadLocationSource: 'volume:51d86fa7-e37a-4926-97c8-3112fd6f2fbe' # Canto DAM
+  defaultUploadLocationSubpath: ''
+  limit: '1'
+  localizeRelations: false
+  previewMode: full
+  restrictFiles: ''
+  selectionLabel: ''
+  showSiteMenu: false
+  showUnpermittedFiles: false
+  showUnpermittedVolumes: false
+  singleUploadLocationSource: 'volume:8e9ec71e-2cf0-4f6a-b856-8976de0ce100' # Heroes
+  singleUploadLocationSubpath: ''
+  source: null
+  sources:
+    - 'volume:51d86fa7-e37a-4926-97c8-3112fd6f2fbe' # Canto DAM
+  targetSiteId: null
+  useSingleFolder: false
+  validateRelatedElements: false
+  viewMode: list
 translationKeyFormat: null
-translationMethod: none
-type: rosas\dam\fields\DAMAsset
+translationMethod: site
+type: craft\fields\Assets
