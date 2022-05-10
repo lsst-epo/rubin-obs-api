@@ -8,13 +8,14 @@ searchable: true
 settings:
   allowSelfRelations: false
   allowUploads: true
-  allowedKinds: null
+  allowedKinds:
+    - image
   defaultUploadLocationSource: 'volume:51d86fa7-e37a-4926-97c8-3112fd6f2fbe' # Canto DAM
   defaultUploadLocationSubpath: ''
   limit: '1'
   localizeRelations: false
   previewMode: full
-  restrictFiles: ''
+  restrictFiles: '1'
   selectionLabel: ''
   showSiteMenu: false
   showUnpermittedFiles: false
