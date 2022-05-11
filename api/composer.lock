@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "7dbec59c84a5f9c1bddaf9ed84ac8965",
+    "content-hash": "f4cc1f3cd73eaa2381480d1addd6614b",
     "packages": [
         {
             "name": "abraham/twitteroauth",
@@ -4751,12 +4751,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/lsst-epo/craft3-universal-dam-integrator.git",
-                "reference": "7024aa2678006e3b74d1fb4cdc2c015248a08eba"
+                "reference": "be4490e35d823b378345ac2feb49dfc090871591"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/lsst-epo/craft3-universal-dam-integrator/zipball/7024aa2678006e3b74d1fb4cdc2c015248a08eba",
-                "reference": "7024aa2678006e3b74d1fb4cdc2c015248a08eba",
+                "url": "https://api.github.com/repos/lsst-epo/craft3-universal-dam-integrator/zipball/be4490e35d823b378345ac2feb49dfc090871591",
+                "reference": "be4490e35d823b378345ac2feb49dfc090871591",
                 "shasum": ""
             },
             "require": {
@@ -4795,7 +4795,7 @@
                 "source": "https://github.com/lsst-epo/craft3-universal-dam-integrator",
                 "docs": "https://github.com/lsst-epo/craft3-universal-dam-integrator/blob/main/README.md"
             },
-            "time": "2022-05-09T21:40:06+00:00"
+            "time": "2022-05-11T18:26:00+00:00"
         },
         {
             "name": "rynpsc/craft-phone-number",
@@ -8550,5 +8550,5 @@
     "platform-overrides": {
         "php": "7.4.24"
     },
-    "plugin-api-version": "2.3.0"
+    "plugin-api-version": "2.1.0"
 }
