@@ -1,5 +1,4 @@
 {
-  "minimum-stability": "dev",
   "require": {
     "carlcs/craft-assetmetadata": "^3.0",
     "craftcms/aws-s3": "^1.2",
