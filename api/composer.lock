@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e939cddc921f33b431eab17c35e08522",
+    "content-hash": "d6369026a18b9a9e0dcf790b66a1c264",
     "packages": [
         {
             "name": "abraham/twitteroauth",
@@ -3942,6 +3942,58 @@
             "time": "2021-10-09T06:30:16+00:00"
         },
         {
+            "name": "rosas/universal-dam-integrator",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/lsst-epo/craft3-universal-dam-integrator.git",
+                "reference": "a2489bb0e39303e0655b88156404416c3882ea5f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/lsst-epo/craft3-universal-dam-integrator/zipball/a2489bb0e39303e0655b88156404416c3882ea5f",
+                "reference": "a2489bb0e39303e0655b88156404416c3882ea5f",
+                "shasum": ""
+            },
+            "require": {
+                "craftcms/cms": "^3.1.5"
+            },
+            "default-branch": true,
+            "type": "craft-plugin",
+            "extra": {
+                "name": "Universal DAM Integrator",
+                "handle": "universal-dam-integrator"
+            },
+            "autoload": {
+                "psr-4": {
+                    "rosas\\dam\\": "src/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Eric Rosas",
+                    "homepage": "https://github.com/lsst-epo/craft3-universal-dam-integrator"
+                }
+            ],
+            "description": "This plugin is intended to be vendor agnostic, but with enough customizability to work across a broad range of vendors.",
+            "keywords": [
+                "asset",
+                "dam",
+                "digital",
+                "manager"
+            ],
+            "support": {
+                "email": "erosas@lsst.org",
+                "issues": "https://github.com/lsst-epo/craft3-universal-dam-integrator/issues",
+                "source": "https://github.com/lsst-epo/craft3-universal-dam-integrator",
+                "docs": "https://github.com/lsst-epo/craft3-universal-dam-integrator/blob/main/README.md"
+            },
+            "time": "2022-05-16T22:55:15+00:00"
+        },
+        {
             "name": "rynpsc/craft-phone-number",
             "version": "1.4.1",
             "source": {
@@ -6667,6 +6719,7 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
+        "rosas/universal-dam-integrator": 20,
         "sebastianlenz/linkfield": 20
     },
     "prefer-stable": false,
