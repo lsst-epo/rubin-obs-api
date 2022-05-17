@@ -37,11 +37,31 @@ permissions:
   - 'deletepeerentrydrafts:3a8b9653-cdd3-46ce-84b2-d73b5dc4de63' # Gallery
   - 'editpeerentrydrafts:3a8b9653-cdd3-46ce-84b2-d73b5dc4de63' # Gallery
   - 'editentries:3a8b9653-cdd3-46ce-84b2-d73b5dc4de63' # Gallery
+  - 'createentries:4ffeb743-f02d-42af-8656-a6f9c1363e79' # Glossary Terms
+  - 'publishentries:4ffeb743-f02d-42af-8656-a6f9c1363e79' # Glossary Terms
+  - 'deleteentries:4ffeb743-f02d-42af-8656-a6f9c1363e79' # Glossary Terms
+  - 'publishpeerentries:4ffeb743-f02d-42af-8656-a6f9c1363e79' # Glossary Terms
+  - 'deletepeerentries:4ffeb743-f02d-42af-8656-a6f9c1363e79' # Glossary Terms
+  - 'editpeerentries:4ffeb743-f02d-42af-8656-a6f9c1363e79' # Glossary Terms
+  - 'publishpeerentrydrafts:4ffeb743-f02d-42af-8656-a6f9c1363e79' # Glossary Terms
+  - 'deletepeerentrydrafts:4ffeb743-f02d-42af-8656-a6f9c1363e79' # Glossary Terms
+  - 'editpeerentrydrafts:4ffeb743-f02d-42af-8656-a6f9c1363e79' # Glossary Terms
+  - 'editentries:4ffeb743-f02d-42af-8656-a6f9c1363e79' # Glossary Terms
   - 'publishentries:3e10dcca-4dd1-4578-8add-708cd9740881' # Homepage
   - 'publishpeerentrydrafts:3e10dcca-4dd1-4578-8add-708cd9740881' # Homepage
   - 'deletepeerentrydrafts:3e10dcca-4dd1-4578-8add-708cd9740881' # Homepage
   - 'editpeerentrydrafts:3e10dcca-4dd1-4578-8add-708cd9740881' # Homepage
   - 'editentries:3e10dcca-4dd1-4578-8add-708cd9740881' # Homepage
+  - 'createentries:546e0c6d-dd32-4997-8487-cc4c2fcc9480' # Investigations
+  - 'publishentries:546e0c6d-dd32-4997-8487-cc4c2fcc9480' # Investigations
+  - 'deleteentries:546e0c6d-dd32-4997-8487-cc4c2fcc9480' # Investigations
+  - 'publishpeerentries:546e0c6d-dd32-4997-8487-cc4c2fcc9480' # Investigations
+  - 'deletepeerentries:546e0c6d-dd32-4997-8487-cc4c2fcc9480' # Investigations
+  - 'editpeerentries:546e0c6d-dd32-4997-8487-cc4c2fcc9480' # Investigations
+  - 'publishpeerentrydrafts:546e0c6d-dd32-4997-8487-cc4c2fcc9480' # Investigations
+  - 'deletepeerentrydrafts:546e0c6d-dd32-4997-8487-cc4c2fcc9480' # Investigations
+  - 'editpeerentrydrafts:546e0c6d-dd32-4997-8487-cc4c2fcc9480' # Investigations
+  - 'editentries:546e0c6d-dd32-4997-8487-cc4c2fcc9480' # Investigations
   - 'createentries:59fb5a9e-74f4-4618-adba-601791f42c92' # Jobs
   - 'publishentries:59fb5a9e-74f4-4618-adba-601791f42c92' # Jobs
   - 'deleteentries:59fb5a9e-74f4-4618-adba-601791f42c92' # Jobs
@@ -82,10 +102,10 @@ permissions:
   - 'deletepeerentrydrafts:78410791-6edc-46c9-a17b-4358dcd545ec' # Staff Profiles
   - 'editpeerentrydrafts:78410791-6edc-46c9-a17b-4358dcd545ec' # Staff Profiles
   - 'editentries:78410791-6edc-46c9-a17b-4358dcd545ec' # Staff Profiles
-  - 'editglobalset:1a2ba41a-3949-4982-9cb3-f8b03863bcfd' # Footer Content
   - 'editglobalset:b8393df9-fb81-4d70-9ccb-6d030c818580' # Gallery Item Defaults
   - 'editglobalset:994d5664-f056-4969-b2cc-c62660f069af' # Root Page Information
   - 'editglobalset:8ccd6c1c-8e9b-44e8-93a9-f62589fb4819' # Site Information
+  - 'editglobalset:1a2ba41a-3949-4982-9cb3-f8b03863bcfd' # Footer Content
   - 'editcategories:3a3af2ab-b037-455a-ba95-bc3be89efdb0' # Event Filters
   - 'editcategories:cc8c47f0-3dec-44db-a47f-7ca6c984864a' # Job Types
   - 'editcategories:df7f4ec2-58b2-4c3a-afff-b07f4764fa4b' # Location
@@ -114,17 +134,6 @@ permissions:
   - 'editpeerimagesinvolume:cd6f2275-4f9b-4ba4-aa4c-7c7468366172' # Content Images
   - 'viewpeerfilesinvolume:cd6f2275-4f9b-4ba4-aa4c-7c7468366172' # Content Images
   - 'viewvolume:cd6f2275-4f9b-4ba4-aa4c-7c7468366172' # Content Images
-  - 'saveassetinvolume:f944dd79-91a6-443d-b09a-de2597c7557f'
-  - 'createfoldersinvolume:f944dd79-91a6-443d-b09a-de2597c7557f'
-  - 'deletefilesandfoldersinvolume:f944dd79-91a6-443d-b09a-de2597c7557f'
-  - 'replacefilesinvolume:f944dd79-91a6-443d-b09a-de2597c7557f'
-  - 'editimagesinvolume:f944dd79-91a6-443d-b09a-de2597c7557f'
-  - 'editpeerfilesinvolume:f944dd79-91a6-443d-b09a-de2597c7557f'
-  - 'replacepeerfilesinvolume:f944dd79-91a6-443d-b09a-de2597c7557f'
-  - 'deletepeerfilesinvolume:f944dd79-91a6-443d-b09a-de2597c7557f'
-  - 'editpeerimagesinvolume:f944dd79-91a6-443d-b09a-de2597c7557f'
-  - 'viewpeerfilesinvolume:f944dd79-91a6-443d-b09a-de2597c7557f'
-  - 'viewvolume:f944dd79-91a6-443d-b09a-de2597c7557f'
   - 'saveassetinvolume:f52f3e9c-434e-43b5-89eb-a5776e6bc4a6' # Callout Images
   - 'createfoldersinvolume:f52f3e9c-434e-43b5-89eb-a5776e6bc4a6' # Callout Images
   - 'deletefilesandfoldersinvolume:f52f3e9c-434e-43b5-89eb-a5776e6bc4a6' # Callout Images
