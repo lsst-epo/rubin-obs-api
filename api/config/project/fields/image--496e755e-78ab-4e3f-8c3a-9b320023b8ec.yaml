@@ -5,29 +5,6 @@ handle: image
 instructions: ''
 name: Image
 searchable: true
-settings:
-  allowSelfRelations: false
-  allowUploads: true
-  allowedKinds:
-    - image
-  defaultUploadLocationSource: 'volume:8e9ec71e-2cf0-4f6a-b856-8976de0ce100' # Heroes
-  defaultUploadLocationSubpath: ''
-  limit: '1'
-  localizeRelations: false
-  previewMode: full
-  restrictFiles: '1'
-  selectionLabel: ''
-  showSiteMenu: true
-  showUnpermittedFiles: false
-  showUnpermittedVolumes: false
-  singleUploadLocationSource: 'volume:f52f3e9c-434e-43b5-89eb-a5776e6bc4a6' # Callout Images
-  singleUploadLocationSubpath: ''
-  source: null
-  sources: '*'
-  targetSiteId: null
-  useSingleFolder: true
-  validateRelatedElements: false
-  viewMode: large
 translationKeyFormat: null
-translationMethod: site
-type: craft\fields\Assets
+translationMethod: none
+type: rosas\dam\fields\DAMAsset
