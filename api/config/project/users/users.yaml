@@ -1,5 +1,7 @@
-allowPublicRegistration: false
-defaultGroup: null
-photoSubpath: ''
-photoVolumeUid: null
+allowPublicRegistration: true
+defaultGroup: ''
+photoSubpath: null
+photoVolumeUid: 8e9ec71e-2cf0-4f6a-b856-8976de0ce100 # Heroes
 requireEmailVerification: true
+suspendByDefault: false
+validateOnPublicRegistration: false
