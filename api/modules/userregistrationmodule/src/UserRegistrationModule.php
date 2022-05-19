@@ -10,9 +10,7 @@
 
 namespace modules\userregistrationmodule;
 
-use craft\elements\User;
 use craft\events\UserEvent;
-use craft\events\UserGroupsAssignEvent;
 use craft\services\Users;
 use modules\userregistrationmodule\assetbundles\userregistrationmodule\UserRegistrationModuleAsset;
 use modules\userregistrationmodule\services\NotificationService;
@@ -131,16 +129,13 @@ class UserRegistrationModule extends Module
 		// Send special notifications during some User events
 		Event::on(
 			Users::class,
-			Users::EVENT_AFTER_ASSIGN_USER_TO_GROUPS,
-			function (UserGroupsAssignEvent $event) {
+			Users::EVENT_AFTER_ACTIVATE_USER,
+			function (UserEvent $event) {
+				$user = $event->user;
+				$groups = Craft::$app->userGroups->getGroupsByUserId($user->getId());
 
-				$newGroups = [];
-				foreach($event->newGroupIds as $id) {
-					$newGroups[] = Craft::$app->userGroups->getGroupById($id);
-				}
-
-				if($this->hasEducatorsGroup($newGroups)) {
-					$user = User::find()->id($event->userId)->one();
+				if($this->hasEducatorsGroup($groups)) {
+					$event->isValid = false;
 
 					$usersService = Craft::$app->getUsers();
 					$usersService->suspendUser($user);
