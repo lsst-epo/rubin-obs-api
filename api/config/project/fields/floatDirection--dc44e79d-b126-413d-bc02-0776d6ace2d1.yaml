@@ -1,0 +1,46 @@
+columnSuffix: ehvbejkc
+contentColumnType: string
+fieldGroup: 9940892d-32f4-4399-acac-ab559ce1c82b # Common
+handle: floatDirection
+instructions: ''
+name: 'Float Direction'
+searchable: false
+settings:
+  optgroups: true
+  options:
+    -
+      __assoc__:
+        -
+          - label
+          - None
+        -
+          - value
+          - none
+        -
+          - default
+          - '1'
+    -
+      __assoc__:
+        -
+          - label
+          - Left
+        -
+          - value
+          - left
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - Right
+        -
+          - value
+          - right
+        -
+          - default
+          - ''
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Dropdown
