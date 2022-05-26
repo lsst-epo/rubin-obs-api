@@ -1,4 +1,4 @@
-dateModified: 1652824453
+dateModified: 1653595500
 email:
   fromEmail: $EMAIL_FROM_ADDRESS
   fromName: $EMAIL_SENDER_NAME
@@ -259,6 +259,7 @@ meta:
     d6898b26-bfa2-41d3-9e26-0092b2021762: 'Student Schema' # Student Schema
     d889713c-632a-4323-bb10-4b2bc53545ad: Asset # Asset
     da3fa24e-0cac-4206-a401-1c4f5791c198: 'Investigation CTA' # Investigation CTA
+    dc44e79d-b126-413d-bc02-0776d6ace2d1: 'Float Direction' # Float Direction
     ddb3efd5-1bce-43e1-9fb9-399ada8a8126: 'Registration Open Date' # Registration Open Date
     ddf8dce2-4fa1-43d1-b306-b34d9d97a91b: Content # Content
     df7f4ec2-58b2-4c3a-afff-b07f4764fa4b: Location # Location

@@ -9,7 +9,7 @@ fieldLayouts:
             fieldUid: 0df27088-950f-4f9e-9115-06e8f780b5ca # Entry - Page, Post & Investigation
             instructions: ''
             label: 'Entry - Page, Post & Investigation'
-            required: ''
+            required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
             warning: null
