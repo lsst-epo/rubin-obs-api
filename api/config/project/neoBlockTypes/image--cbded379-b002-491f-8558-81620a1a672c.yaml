@@ -23,6 +23,15 @@ fieldLayouts:
             type: craft\fieldlayoutelements\CustomField
             warning: null
             width: 100
+          -
+            fieldUid: dc44e79d-b126-413d-bc02-0776d6ace2d1 # Float Direction
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
         name: 'Tab 1'
         sortOrder: 1
 handle: image
