@@ -1,0 +1,34 @@
+columnSuffix: null
+contentColumnType: string
+fieldGroup: df8c8d8a-c7d1-45bf-b551-ef790a5b59ad # Callouts
+handle: damAsset
+instructions: ''
+name: Image
+searchable: true
+settings:
+  allowSelfRelations: false
+  allowUploads: true
+  allowedKinds: null
+  defaultUploadLocationSource: ''
+  defaultUploadLocationSubpath: null
+  limit: '1'
+  localizeRelations: false
+  previewMode: full
+  restrictFiles: null
+  selectionLabel: ''
+  showSiteMenu: true
+  showUnpermittedFiles: false
+  showUnpermittedVolumes: true
+  singleUploadLocationSource: ''
+  singleUploadLocationSubpath: null
+  source: null
+  sources:
+    - 'volume:f52f3e9c-434e-43b5-89eb-a5776e6bc4a6' # Callout Images
+    - 'volume:a1c01fd6-d4ce-417d-8fdf-deb6a0633812' # Canto DAM
+  targetSiteId: null
+  useSingleFolder: false
+  validateRelatedElements: false
+  viewMode: list
+translationKeyFormat: null
+translationMethod: site
+type: rosas\dam\fields\DAMAsset
