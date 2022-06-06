@@ -14,7 +14,7 @@ jobs:
   build-push-deploy:
     name: 'Deploy Preview Version'
     runs-on: ubuntu-latest
-    if: ${{ github.event.action != 'closed'}}
+    if: ${{ (github.event.action != 'closed') && (startsWith(github.head_ref, 'preview') == true) }}
 
     # Checkout the repository to the GitHub Actions runner
     steps:
@@ -34,7 +34,7 @@ jobs:
 
     - name: Format version name
       id: version_name
-      run: echo "version_name=$(echo \"${{ github.head_ref }}\" | tr -cd '[:alnum:]' | tr '[:upper:]' '[:lower:]')" >> $GITHUB_ENV
+      run: echo "version_name=$(echo \"${{ github.head_ref }}\" | tr -cd '[:alnum:]' | tr '[:upper:]' '[:lower:]' | tr -d 'preview')" >> $GITHUB_ENV
 
     - name: Deploy to App Engine
       env:
@@ -66,7 +66,7 @@ jobs:
   cleanup:
     name: 'Cleanup PR Preview'
     runs-on: ubuntu-latest
-    if: ${{ github.event.action == 'closed'}}
+    if: ${{ (github.event.action == 'closed') && (startsWith(github.head_ref, 'preview') == true) }}
 
     # Checkout the repository to the GitHub Actions runner
     steps:
