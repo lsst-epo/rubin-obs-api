@@ -14,7 +14,7 @@ jobs:
   build-push-deploy:
     name: 'Deploy Preview Version'
     runs-on: ubuntu-latest
-    if: ${{ github.event.action != 'closed'}}
+    if: ${{ (github.event.action != 'closed') && (startsWith(github.head_ref, 'preview') == true) }}
 
     # Checkout the repository to the GitHub Actions runner
     steps:
@@ -66,7 +66,7 @@ jobs:
   cleanup:
     name: 'Cleanup PR Preview'
     runs-on: ubuntu-latest
-    if: ${{ github.event.action == 'closed'}}
+    if: ${{ (github.event.action == 'closed') && (startsWith(github.head_ref, 'preview') == true) }}
 
     # Checkout the repository to the GitHub Actions runner
     steps:
