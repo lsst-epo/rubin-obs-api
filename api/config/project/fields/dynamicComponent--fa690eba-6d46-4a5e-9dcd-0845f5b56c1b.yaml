@@ -78,6 +78,28 @@ settings:
       __assoc__:
         -
           - label
+          - 'Image Gallery Items'
+        -
+          - value
+          - imageGalleryItems
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - 'Video Gallery Items'
+        -
+          - value
+          - videoGalleryItems
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
           - Slideshows
         -
           - value
