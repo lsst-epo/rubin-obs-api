@@ -1,4 +1,4 @@
-dateModified: 1654712797
+dateModified: 1654711664
 email:
   fromEmail: $EMAIL_FROM_ADDRESS
   fromName: $EMAIL_SENDER_NAME
@@ -19,6 +19,7 @@ meta:
     0b85955a-f0b4-47ae-adef-deb0694891af: 'Related Content' # Related Content
     0d02fdfb-053c-4d46-a5f8-0abf2542a5d2: 'News Tags' # News Tags
     0df27088-950f-4f9e-9115-06e8f780b5ca: 'Entry - Page, Post & Investigation' # Entry - Page, Post & Investigation
+    00f1f9f6-c710-431d-bf34-22e3a62d5172: 'Overlap Hero' # Overlap Hero
     0f48338c-1c16-4600-9230-68bacb7c21e3: Text # Text
     1a2ba41a-3949-4982-9cb3-f8b03863bcfd: 'Footer Content' # Footer Content
     1a35bfab-6a39-4c03-b273-2d5e3151c335: 'Rubin Telescope Education and Public Outreach' # Rubin Telescope Education and Public Outreach
