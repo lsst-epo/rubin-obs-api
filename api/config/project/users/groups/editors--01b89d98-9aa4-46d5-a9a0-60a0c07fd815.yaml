@@ -134,17 +134,17 @@ permissions:
   - 'editpeerimagesinvolume:cd6f2275-4f9b-4ba4-aa4c-7c7468366172' # Content Images
   - 'viewpeerfilesinvolume:cd6f2275-4f9b-4ba4-aa4c-7c7468366172' # Content Images
   - 'viewvolume:cd6f2275-4f9b-4ba4-aa4c-7c7468366172' # Content Images
-  - 'saveassetinvolume:f52f3e9c-434e-43b5-89eb-a5776e6bc4a6' # Callout Images
-  - 'createfoldersinvolume:f52f3e9c-434e-43b5-89eb-a5776e6bc4a6' # Callout Images
-  - 'deletefilesandfoldersinvolume:f52f3e9c-434e-43b5-89eb-a5776e6bc4a6' # Callout Images
-  - 'replacefilesinvolume:f52f3e9c-434e-43b5-89eb-a5776e6bc4a6' # Callout Images
-  - 'editimagesinvolume:f52f3e9c-434e-43b5-89eb-a5776e6bc4a6' # Callout Images
-  - 'editpeerfilesinvolume:f52f3e9c-434e-43b5-89eb-a5776e6bc4a6' # Callout Images
-  - 'replacepeerfilesinvolume:f52f3e9c-434e-43b5-89eb-a5776e6bc4a6' # Callout Images
-  - 'deletepeerfilesinvolume:f52f3e9c-434e-43b5-89eb-a5776e6bc4a6' # Callout Images
-  - 'editpeerimagesinvolume:f52f3e9c-434e-43b5-89eb-a5776e6bc4a6' # Callout Images
-  - 'viewpeerfilesinvolume:f52f3e9c-434e-43b5-89eb-a5776e6bc4a6' # Callout Images
-  - 'viewvolume:f52f3e9c-434e-43b5-89eb-a5776e6bc4a6' # Callout Images
+  - 'saveassetinvolume:f52f3e9c-434e-43b5-89eb-a5776e6bc4a6'
+  - 'createfoldersinvolume:f52f3e9c-434e-43b5-89eb-a5776e6bc4a6'
+  - 'deletefilesandfoldersinvolume:f52f3e9c-434e-43b5-89eb-a5776e6bc4a6'
+  - 'replacefilesinvolume:f52f3e9c-434e-43b5-89eb-a5776e6bc4a6'
+  - 'editimagesinvolume:f52f3e9c-434e-43b5-89eb-a5776e6bc4a6'
+  - 'editpeerfilesinvolume:f52f3e9c-434e-43b5-89eb-a5776e6bc4a6'
+  - 'replacepeerfilesinvolume:f52f3e9c-434e-43b5-89eb-a5776e6bc4a6'
+  - 'deletepeerfilesinvolume:f52f3e9c-434e-43b5-89eb-a5776e6bc4a6'
+  - 'editpeerimagesinvolume:f52f3e9c-434e-43b5-89eb-a5776e6bc4a6'
+  - 'viewpeerfilesinvolume:f52f3e9c-434e-43b5-89eb-a5776e6bc4a6'
+  - 'viewvolume:f52f3e9c-434e-43b5-89eb-a5776e6bc4a6'
   - 'saveassetinvolume:18a75c63-648f-4145-9cc3-386e7c8a0106' # General
   - 'createfoldersinvolume:18a75c63-648f-4145-9cc3-386e7c8a0106' # General
   - 'deletefilesandfoldersinvolume:18a75c63-648f-4145-9cc3-386e7c8a0106' # General

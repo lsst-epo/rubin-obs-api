@@ -23,8 +23,8 @@ settings:
   singleUploadLocationSubpath: null
   source: null
   sources:
-    - 'volume:f52f3e9c-434e-43b5-89eb-a5776e6bc4a6' # Callout Images
-    - 'volume:a1c01fd6-d4ce-417d-8fdf-deb6a0633812' # Canto DAM
+    - 'volume:f52f3e9c-434e-43b5-89eb-a5776e6bc4a6'
+    - 'volume:a1c01fd6-d4ce-417d-8fdf-deb6a0633812'
   targetSiteId: null
   useSingleFolder: false
   validateRelatedElements: false
