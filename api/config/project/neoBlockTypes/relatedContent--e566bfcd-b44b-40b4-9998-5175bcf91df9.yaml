@@ -1,5 +1,4 @@
-childBlocks:
-  - relatedContentItem
+childBlocks: '["relatedContentItem"]'
 field: 72e5075a-9b06-4674-b040-615f4a6f7b70 # Content Blocks - Pages
 fieldLayouts:
   6258b6b1-bf13-44d9-87b7-640daf507005:
@@ -40,5 +39,5 @@ maxBlocks: 0
 maxChildBlocks: 0
 maxSiblingBlocks: 0
 name: 'Related Content'
-sortOrder: 19
+sortOrder: 17
 topLevel: true
