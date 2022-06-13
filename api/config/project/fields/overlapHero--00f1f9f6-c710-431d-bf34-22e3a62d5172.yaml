@@ -1,0 +1,14 @@
+columnSuffix: uncsuhtd
+contentColumnType: boolean
+fieldGroup: 99f4a28a-48c3-49ca-bb4a-7acbb49fde30 # Pages
+handle: overlapHero
+instructions: 'Page content overlaps the hero.'
+name: 'Overlap Hero'
+searchable: false
+settings:
+  default: true
+  offLabel: 'OFF'
+  onLabel: 'ON'
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Lightswitch
