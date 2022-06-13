@@ -17,7 +17,7 @@ jobs:
   int-build-push-deploy:
     name: 'Build and Deploy App Version'
     runs-on: ubuntu-latest
-    if: (github.event_name == 'push') || (startsWith(github.head_ref, 'preview'))
+    if: ${{ github.event_name == 'push' || startsWith(github.head_ref, 'preview') }}
 
     # Checkout the repository to the GitHub Actions runner
     steps:
