@@ -14,10 +14,10 @@ on:
       - 'master'
 
 jobs:
-  build-push-deploy:
+  int-build-push-deploy:
     name: 'Build and Deploy App Version'
     runs-on: ubuntu-latest
-    if: ${{ (github.event.action != 'closed') && (git) }}
+    if: github.event_name == 'push' || startsWith(github.head_ref, 'preview')
 
     # Checkout the repository to the GitHub Actions runner
     steps:
@@ -79,8 +79,8 @@ jobs:
       run: gcloud app services set-traffic rubin-obs-api --splits=${VERSION_NAME}=1
 
 
-  cleanup:
-    name: 'Cleanup Preview Version "${VERSION_NAME}"'
+  int-pr-cleanup:
+    name: 'Cleanup Preview Version'
     runs-on: ubuntu-latest
     if: ${{ (github.event.action == 'closed') && (startsWith(github.head_ref, 'preview') == true) }}
 

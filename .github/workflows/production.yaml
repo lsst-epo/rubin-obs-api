@@ -8,10 +8,9 @@ on:
       - 'v*'
 
 jobs:
-  build-push-deploy:
-    name: 'Deploy Integration Version'
+  prod-build-push-deploy:
+    name: 'Build and deploy'
     runs-on: ubuntu-latest
-    if: ${{ github.event.action != 'closed'}}
 
     # Checkout the repository to the GitHub Actions runner
     steps:
