@@ -17,7 +17,7 @@ jobs:
   int-build-push-deploy:
     name: 'Build and Deploy App Version'
     runs-on: ubuntu-latest
-    if: ${{ github.event_name == 'push' || startsWith(github.head_ref, 'preview') }}
+    if: github.event_name == 'push' || startsWith(github.head_ref, 'preview')
 
     # Checkout the repository to the GitHub Actions runner
     steps:
@@ -55,7 +55,7 @@ jobs:
      # Create or update a comment with the URL
     - name: Find Comment
       uses: peter-evans/find-comment@v1
-      if: ${{ github.event.pull_request }}
+      if: github.event_name == 'pull_request'
       id: fc
       with:
         issue-number: ${{ github.event.pull_request.number }}
@@ -64,7 +64,7 @@ jobs:
 
     - name: Create or update a comment with the URL to the PR
       uses: peter-evans/create-or-update-comment@v1
-      if: ${{ github.event.pull_request }}
+      if: github.event_name == 'pull_request'
       with:
         comment-id: ${{ steps.fc.outputs.comment-id }}
         issue-number: ${{ github.event.pull_request.number }}
@@ -74,6 +74,7 @@ jobs:
         edit-mode: replace
 
     - name: 'Redirect traffic'
+      if: github.event_name == 'push'
       env:
         VERSION_NAME: ${{ env.version_name }}
       run: gcloud app services set-traffic rubin-obs-api --splits=${VERSION_NAME}=1

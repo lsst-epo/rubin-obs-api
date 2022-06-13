@@ -17,7 +17,7 @@ jobs:
   dev-build-push-deploy:
     name: 'Build and Deploy App Version'
     runs-on: ubuntu-latest
-    if: ${{ github.event_name == 'push' || startsWith(github.head_ref, 'preview') }}
+    if: github.event_name == 'push' || startsWith(github.head_ref, 'preview')
 
     # Checkout the repository to the GitHub Actions runner
     steps:
@@ -34,12 +34,12 @@ jobs:
         fi
 
     # gcloud CLI setup
-    # - name: Login to GCP
-    #   uses: google-github-actions/setup-gcloud@v0
-    #   with:
-    #     service_account_key: ${{ secrets.DEV_SA_KEY }}
-    #     project_id: skyviewer
-    #     export_default_credentials: true
+    - name: Login to GCP
+      uses: google-github-actions/setup-gcloud@v0
+      with:
+        service_account_key: ${{ secrets.DEV_SA_KEY }}
+        project_id: skyviewer
+        export_default_credentials: true
     
     - name: Get app.yaml
       run: gcloud secrets versions access latest --secret=rubin-obs-api-appyaml > app.yaml
@@ -74,7 +74,7 @@ jobs:
         edit-mode: replace
 
     - name: 'Promote'
-      if: github.event_name == "push"
+      if: github.event_name == 'push'
       run: gcloud app services set-traffic rubin-obs-api --splits=${VERSION_NAME}=1
 
 
