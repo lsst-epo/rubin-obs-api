@@ -69,7 +69,7 @@ jobs:
         comment-id: ${{ steps.fc.outputs.comment-id }}
         issue-number: ${{ github.event.pull_request.number }}
         body: |
-          A preview of this PR will be available at $(gcloud app versions browse ${{ env.version_name }} --no-launch-browser --format="value(url)") until the request is closed. :sparkles:
+          A preview of this PR will be available at <https://${{ env.version_name }}-dot-rubin-obs-api-dot-edc-int-6c5e.uc.r.appspot.com> until the request is closed. :sparkles:
         reactions: '+1'
         edit-mode: replace
 
