@@ -1,0 +1,70 @@
+field: f69fbef5-6f67-486f-9e62-7be537bea803 # Contact Form Topics
+fieldLayouts:
+  4c59fdf8-5e5b-4cef-8c7a-44686d935f5f:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: a50ca6cb-f8ed-41c0-9ea1-b3a5c1ed721e # Label
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 7765d04f-ce45-4e80-9484-21a76389e6f3 # Name
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+fields:
+  7765d04f-ce45-4e80-9484-21a76389e6f3: # Name
+    columnSuffix: null
+    contentColumnType: text
+    fieldGroup: null
+    handle: topicName
+    instructions: ''
+    name: Name
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: ''
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\PlainText
+  a50ca6cb-f8ed-41c0-9ea1-b3a5c1ed721e: # Label
+    columnSuffix: null
+    contentColumnType: text
+    fieldGroup: null
+    handle: topicLabel
+    instructions: ''
+    name: Label
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: '1'
+      columnType: null
+      initialRows: '4'
+      multiline: ''
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\PlainText
+handle: topic
+name: Topic
+sortOrder: 1
