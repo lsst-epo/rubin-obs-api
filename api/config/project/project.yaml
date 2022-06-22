@@ -1,4 +1,4 @@
-dateModified: 1655944128
+dateModified: 1656008678
 email:
   fromEmail: $EMAIL_FROM_ADDRESS
   fromName: $EMAIL_SENDER_NAME
@@ -317,6 +317,12 @@ plugins:
       prependSubject: 'Contact Form Submitted'
       successFlashMessage: 'Your message has been sent.'
       toEmail: $CONTACT_FORM_NOTIFY_EMAIL
+  contact-form-honeypot:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+    settings:
+      honeypotParam: honeypot
   google-cloud:
     edition: standard
     enabled: true
