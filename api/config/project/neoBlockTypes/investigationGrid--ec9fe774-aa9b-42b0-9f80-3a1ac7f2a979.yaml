@@ -1,5 +1,4 @@
-childBlocks:
-  - investigationCta
+childBlocks: '["investigationCta"]'
 field: 72e5075a-9b06-4674-b040-615f4a6f7b70 # Content Blocks - Pages
 fieldLayouts:
   5afe725a-0b23-4352-819f-956b31de94f5:

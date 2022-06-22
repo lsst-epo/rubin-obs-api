@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "9354948260839355dc6fcffce1a60b8a",
+    "content-hash": "0dd47b50fc960da307ffa6d88e835999",
     "packages": [
         {
             "name": "abraham/twitteroauth",
@@ -1138,6 +1138,67 @@
                 "source": "https://github.com/craftcms/contact-form"
             },
             "time": "2020-08-12T12:54:10+00:00"
+        },
+        {
+            "name": "craftcms/contact-form-honeypot",
+            "version": "1.0.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/craftcms/contact-form-honeypot.git",
+                "reference": "b09df34e860b9c0ffd9f95a80ca01d4dbdaeecf8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/craftcms/contact-form-honeypot/zipball/b09df34e860b9c0ffd9f95a80ca01d4dbdaeecf8",
+                "reference": "b09df34e860b9c0ffd9f95a80ca01d4dbdaeecf8",
+                "shasum": ""
+            },
+            "require": {
+                "craftcms/cms": "^3.0.0-beta.20"
+            },
+            "require-dev": {
+                "craftcms/contact-form": "*",
+                "craftcms/ecs": "dev-main",
+                "craftcms/phpstan": "dev-main"
+            },
+            "type": "craft-plugin",
+            "extra": {
+                "name": "Contact Form Honeypot",
+                "handle": "contact-form-honeypot",
+                "documentationUrl": "https://github.com/craftcms/contact-form-honeypot/blob/main/README.md"
+            },
+            "autoload": {
+                "psr-4": {
+                    "craft\\contactform\\honeypot\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Pixel & Tonic",
+                    "homepage": "https://pixelandtonic.com/"
+                }
+            ],
+            "description": "Add a honeypot captcha to your Craft CMS contact form",
+            "keywords": [
+                "Honeypot",
+                "cms",
+                "contact",
+                "craftcms",
+                "form",
+                "yii2"
+            ],
+            "support": {
+                "docs": "https://github.com/craftcms/contact-form-honeypot/blob/main/README.md",
+                "email": "support@craftcms.com",
+                "issues": "https://github.com/craftcms/contact-form-honeypot/issues?state=open",
+                "rss": "https://github.com/craftcms/contact-form-honeypot/commits/main.atom",
+                "source": "https://github.com/craftcms/contact-form-honeypot"
+            },
+            "time": "2022-05-03T23:30:06+00:00"
         },
         {
             "name": "craftcms/google-cloud",
@@ -8496,5 +8557,5 @@
     "platform-overrides": {
         "php": "7.4.24"
     },
-    "plugin-api-version": "2.1.0"
+    "plugin-api-version": "2.2.0"
 }
