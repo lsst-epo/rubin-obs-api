@@ -4,6 +4,7 @@
     "craftcms/aws-s3": "^1.2",
     "craftcms/cms": "3.7.17.1",
     "craftcms/contact-form": "2.2.7",
+    "craftcms/contact-form-honeypot": "1.0.3",
     "craftcms/google-cloud": "^1.4",
     "craftcms/redactor": "2.8.5",
     "jamesedmonston/graphql-authentication": "^1.12",
