@@ -1,0 +1,16 @@
+columnSuffix: null
+contentColumnType: string
+fieldGroup: cee5c2f8-2801-42c2-a56c-4fe40c85b6f3 # Site Information
+handle: contactFormTopics
+instructions: ''
+name: 'Contact Form Topics'
+searchable: false
+settings:
+  contentTable: '{{%matrixcontent_contactformtopics}}'
+  maxBlocks: ''
+  minBlocks: ''
+  propagationKeyFormat: null
+  propagationMethod: all
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix
