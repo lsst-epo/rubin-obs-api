@@ -30,5 +30,5 @@ maxBlocks: 0
 maxChildBlocks: 0
 maxSiblingBlocks: 0
 name: 'Investigation CTA'
-sortOrder: 10
+sortOrder: 12
 topLevel: false

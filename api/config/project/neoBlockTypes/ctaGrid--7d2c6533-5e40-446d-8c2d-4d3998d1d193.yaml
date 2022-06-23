@@ -1,4 +1,5 @@
-childBlocks: '["cta"]'
+childBlocks:
+  - cta
 field: 72e5075a-9b06-4674-b040-615f4a6f7b70 # Content Blocks - Pages
 fieldLayouts:
   42368af2-9545-4c5c-95a7-b4049101ef09:
