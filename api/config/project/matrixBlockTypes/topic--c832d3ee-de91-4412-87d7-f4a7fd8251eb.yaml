@@ -14,7 +14,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            fieldUid: 7765d04f-ce45-4e80-9484-21a76389e6f3 # Name
+            fieldUid: 7765d04f-ce45-4e80-9484-21a76389e6f3 # Value
             instructions: null
             label: null
             required: false
@@ -25,18 +25,18 @@ fieldLayouts:
         name: Content
         sortOrder: 1
 fields:
-  7765d04f-ce45-4e80-9484-21a76389e6f3: # Name
+  7765d04f-ce45-4e80-9484-21a76389e6f3: # Value
     columnSuffix: null
     contentColumnType: text
     fieldGroup: null
-    handle: topicName
-    instructions: ''
-    name: Name
+    handle: topicValue
+    instructions: 'The topic as a field value on the contact form. For example, "siteVisit"'
+    name: Value
     searchable: false
     settings:
       byteLimit: null
       charLimit: null
-      code: ''
+      code: '1'
       columnType: null
       initialRows: '4'
       multiline: ''
@@ -50,7 +50,7 @@ fields:
     contentColumnType: text
     fieldGroup: null
     handle: topicLabel
-    instructions: ''
+    instructions: 'The topic as it is presented to the user. For example, "Site visit"'
     name: Label
     searchable: false
     settings:
