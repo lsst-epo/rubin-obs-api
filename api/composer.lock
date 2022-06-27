@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "989f133c8ae8d8000896246a637d4580",
+    "content-hash": "bb5d3122d9f6410f65b95f4c6497f940",
     "packages": [
         {
             "name": "abraham/twitteroauth",
@@ -975,16 +975,16 @@
         },
         {
             "name": "craftcms/cms",
-            "version": "3.7.45.1",
+            "version": "3.7.45.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/craftcms/cms.git",
-                "reference": "628489e482bacd890ac07128d0837b32b5ac4d8f"
+                "reference": "b4fe5c883047927efc1e89e9d433eaa40a9c5681"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/craftcms/cms/zipball/628489e482bacd890ac07128d0837b32b5ac4d8f",
-                "reference": "628489e482bacd890ac07128d0837b32b5ac4d8f",
+                "url": "https://api.github.com/repos/craftcms/cms/zipball/b4fe5c883047927efc1e89e9d433eaa40a9c5681",
+                "reference": "b4fe5c883047927efc1e89e9d433eaa40a9c5681",
                 "shasum": ""
             },
             "require": {
@@ -1080,7 +1080,7 @@
                 "rss": "https://github.com/craftcms/cms/releases.atom",
                 "source": "https://github.com/craftcms/cms"
             },
-            "time": "2022-06-22T18:10:15+00:00"
+            "time": "2022-06-24T15:13:13+00:00"
         },
         {
             "name": "craftcms/contact-form",
