@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "0fd14b403c66e5bb77bda329ae61d6c8",
+    "content-hash": "989f133c8ae8d8000896246a637d4580",
     "packages": [
         {
             "name": "abraham/twitteroauth",
@@ -1084,20 +1084,24 @@
         },
         {
             "name": "craftcms/contact-form",
-            "version": "2.2.7",
+            "version": "2.5.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/craftcms/contact-form.git",
-                "reference": "eea67de8fad2507770fdc25fe76bba32924e9e87"
+                "reference": "93a31d4c95aba5109fb1cb2461d450bf1771ae51"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/craftcms/contact-form/zipball/eea67de8fad2507770fdc25fe76bba32924e9e87",
-                "reference": "eea67de8fad2507770fdc25fe76bba32924e9e87",
+                "url": "https://api.github.com/repos/craftcms/contact-form/zipball/93a31d4c95aba5109fb1cb2461d450bf1771ae51",
+                "reference": "93a31d4c95aba5109fb1cb2461d450bf1771ae51",
                 "shasum": ""
             },
             "require": {
-                "craftcms/cms": "^3.1.0"
+                "craftcms/cms": "^3.4.0"
+            },
+            "require-dev": {
+                "craftcms/ecs": "dev-main",
+                "craftcms/phpstan": "dev-main"
             },
             "type": "craft-plugin",
             "extra": {
@@ -1138,7 +1142,7 @@
                 "rss": "https://github.com/craftcms/contact-form/commits/v2.atom",
                 "source": "https://github.com/craftcms/contact-form"
             },
-            "time": "2020-08-12T12:54:10+00:00"
+            "time": "2022-05-02T22:23:57+00:00"
         },
         {
             "name": "craftcms/contact-form-honeypot",
@@ -1260,6 +1264,53 @@
             "time": "2021-07-13T12:33:42+00:00"
         },
         {
+            "name": "craftcms/html-field",
+            "version": "1.0.8",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/craftcms/html-field.git",
+                "reference": "d78adb8babb66290250773de6f135d6cdfa3f5bf"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/craftcms/html-field/zipball/d78adb8babb66290250773de6f135d6cdfa3f5bf",
+                "reference": "d78adb8babb66290250773de6f135d6cdfa3f5bf",
+                "shasum": ""
+            },
+            "require": {
+                "craftcms/cms": "^3.6.0"
+            },
+            "require-dev": {
+                "craftcms/ecs": "dev-main",
+                "craftcms/phpstan": "dev-main"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "craft\\htmlfield\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Pixel & Tonic",
+                    "homepage": "https://pixelandtonic.com/"
+                }
+            ],
+            "description": "Base class for Craft CMS field types with HTML values.",
+            "support": {
+                "docs": "https://github.com/craftcms/html-field/blob/main/README.md",
+                "email": "support@craftcms.com",
+                "issues": "https://github.com/craftcms/html-field/issues?state=open",
+                "rss": "https://github.com/craftcms/html-field/commits/main.atom",
+                "source": "https://github.com/craftcms/html-field"
+            },
+            "time": "2022-06-22T03:58:37+00:00"
+        },
+        {
             "name": "craftcms/oauth2-craftid",
             "version": "1.0.0.1",
             "source": {
@@ -1369,20 +1420,25 @@
         },
         {
             "name": "craftcms/redactor",
-            "version": "2.8.5",
+            "version": "2.10.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/craftcms/redactor.git",
-                "reference": "baa05090b17b9b631ed3eb9f0687f48947d7dbc2"
+                "reference": "cc31c0a64a0a733337218d7ffd08b0424dbd8763"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/craftcms/redactor/zipball/baa05090b17b9b631ed3eb9f0687f48947d7dbc2",
-                "reference": "baa05090b17b9b631ed3eb9f0687f48947d7dbc2",
+                "url": "https://api.github.com/repos/craftcms/redactor/zipball/cc31c0a64a0a733337218d7ffd08b0424dbd8763",
+                "reference": "cc31c0a64a0a733337218d7ffd08b0424dbd8763",
                 "shasum": ""
             },
             "require": {
-                "craftcms/cms": "^3.5.0"
+                "craftcms/cms": "^3.6.0",
+                "craftcms/html-field": "^1.0.5"
+            },
+            "require-dev": {
+                "craftcms/ecs": "dev-main",
+                "craftcms/phpstan": "dev-main"
             },
             "type": "craft-plugin",
             "extra": {
@@ -1420,7 +1476,7 @@
                 "rss": "https://github.com/craftcms/redactor/commits/v2.atom",
                 "source": "https://github.com/craftcms/redactor"
             },
-            "time": "2020-12-08T12:55:30+00:00"
+            "time": "2022-05-04T19:01:46+00:00"
         },
         {
             "name": "craftcms/server-check",
@@ -1915,16 +1971,16 @@
         },
         {
             "name": "giggsey/libphonenumber-for-php",
-            "version": "8.12.48",
+            "version": "8.12.50",
             "source": {
                 "type": "git",
                 "url": "https://github.com/giggsey/libphonenumber-for-php.git",
-                "reference": "52c0142b39e4eec7f56e3fa8993a47aa84c3ee1f"
+                "reference": "526c4b7f6d5e173770d8645e76340d7eb25dc348"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/giggsey/libphonenumber-for-php/zipball/52c0142b39e4eec7f56e3fa8993a47aa84c3ee1f",
-                "reference": "52c0142b39e4eec7f56e3fa8993a47aa84c3ee1f",
+                "url": "https://api.github.com/repos/giggsey/libphonenumber-for-php/zipball/526c4b7f6d5e173770d8645e76340d7eb25dc348",
+                "reference": "526c4b7f6d5e173770d8645e76340d7eb25dc348",
                 "shasum": ""
             },
             "require": {
@@ -1984,7 +2040,7 @@
                 "issues": "https://github.com/giggsey/libphonenumber-for-php/issues",
                 "source": "https://github.com/giggsey/libphonenumber-for-php"
             },
-            "time": "2022-05-06T11:44:08+00:00"
+            "time": "2022-06-09T14:55:00+00:00"
         },
         {
             "name": "giggsey/locale",
@@ -4829,20 +4885,20 @@
         },
         {
             "name": "rynpsc/craft-phone-number",
-            "version": "1.4.1",
+            "version": "1.5.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/rynpsc/craft-phone-number.git",
-                "reference": "085f8e71a1b7ad817c76a231b2d18a61996f2f85"
+                "reference": "b69908b3de561981c6c3a7d3a6b4e56978b8f9ef"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/rynpsc/craft-phone-number/zipball/085f8e71a1b7ad817c76a231b2d18a61996f2f85",
-                "reference": "085f8e71a1b7ad817c76a231b2d18a61996f2f85",
+                "url": "https://api.github.com/repos/rynpsc/craft-phone-number/zipball/b69908b3de561981c6c3a7d3a6b4e56978b8f9ef",
+                "reference": "b69908b3de561981c6c3a7d3a6b4e56978b8f9ef",
                 "shasum": ""
             },
             "require": {
-                "craftcms/cms": "^3.4.0-RC1",
+                "craftcms/cms": "^3.6.12",
                 "giggsey/libphonenumber-for-php": "^8.9"
             },
             "type": "craft-plugin",
@@ -4865,7 +4921,7 @@
             "authors": [
                 {
                     "name": "Ryan Pascoe",
-                    "homepage": "https://www.ryanpascoe.co"
+                    "homepage": "https://github.com/rynpsc"
                 }
             ],
             "description": "International phone number field.",
@@ -4882,7 +4938,7 @@
                 "issues": "https://github.com/rynpsc/craft-phone-number/issues?state=open",
                 "source": "https://github.com/rynpsc/craft-phone-number"
             },
-            "time": "2020-12-13T14:13:05+00:00"
+            "time": "2021-05-01T11:23:50+00:00"
         },
         {
             "name": "sebastianlenz/craft-utils",
@@ -5137,26 +5193,26 @@
         },
         {
             "name": "spicyweb/craft-neo",
-            "version": "2.8.15.1",
+            "version": "2.13.11",
             "source": {
                 "type": "git",
                 "url": "https://github.com/spicywebau/craft-neo.git",
-                "reference": "52d728326fca5fbcc7a44dcfe04a73572b6f74c4"
+                "reference": "fc2e1334f76e0f2564af16abb31b8dd0b00ae383"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/spicywebau/craft-neo/zipball/52d728326fca5fbcc7a44dcfe04a73572b6f74c4",
-                "reference": "52d728326fca5fbcc7a44dcfe04a73572b6f74c4",
+                "url": "https://api.github.com/repos/spicywebau/craft-neo/zipball/fc2e1334f76e0f2564af16abb31b8dd0b00ae383",
+                "reference": "fc2e1334f76e0f2564af16abb31b8dd0b00ae383",
                 "shasum": ""
             },
             "require": {
-                "craftcms/cms": "^3.5.8"
+                "craftcms/cms": "^3.7.12"
             },
             "type": "craft-plugin",
             "extra": {
                 "handle": "neo",
                 "name": "Neo",
-                "schemaVersion": "2.8.15",
+                "schemaVersion": "2.13.0",
                 "class": "benf\\neo\\Plugin",
                 "changelogUrl": "https://github.com/spicywebau/craft-neo/blob/master/CHANGELOG.md",
                 "downloadUrl": "https://github.com/spicywebau/craft-neo/archive/master.zip"
@@ -5186,12 +5242,12 @@
                 "plugin"
             ],
             "support": {
-                "docs": "https://github.com/spicywebau/craft-neo/wiki",
+                "docs": "https://github.com/spicywebau/craft-neo/blob/2.13.11/README.md",
                 "issues": "https://github.com/spicywebau/craft-neo/issues",
                 "rss": "https://github.com/spicywebau/craft-neo/commits/master.atom",
                 "source": "https://github.com/spicywebau/craft-neo"
             },
-            "time": "2020-12-10T07:20:15+00:00"
+            "time": "2022-06-04T13:27:39+00:00"
         },
         {
             "name": "superbalist/flysystem-google-storage",
@@ -6832,16 +6888,16 @@
         },
         {
             "name": "verbb/super-table",
-            "version": "2.7.1",
+            "version": "2.7.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/verbb/super-table.git",
-                "reference": "aeb50ce534e2a5200c50e69a3d591c12d182a572"
+                "reference": "41d420675bcc04e8db08eacc69b10c5bbff6cf54"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/verbb/super-table/zipball/aeb50ce534e2a5200c50e69a3d591c12d182a572",
-                "reference": "aeb50ce534e2a5200c50e69a3d591c12d182a572",
+                "url": "https://api.github.com/repos/verbb/super-table/zipball/41d420675bcc04e8db08eacc69b10c5bbff6cf54",
+                "reference": "41d420675bcc04e8db08eacc69b10c5bbff6cf54",
                 "shasum": ""
             },
             "require": {
@@ -6893,7 +6949,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2021-12-30T23:52:31+00:00"
+            "time": "2022-05-15T00:47:23+00:00"
         },
         {
             "name": "vlucas/phpdotenv",
