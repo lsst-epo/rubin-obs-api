@@ -1,4 +1,4 @@
-dateModified: 1656369069
+dateModified: 1656373026
 email:
   fromEmail: $EMAIL_FROM_ADDRESS
   fromName: $EMAIL_SENDER_NAME
@@ -1382,8 +1382,8 @@ plugins:
   neo:
     edition: standard
     enabled: true
-    licenseKey: 3ZVYZYMFBDVZNFFTO4ZHHX88
-    schemaVersion: 2.8.15
+    licenseKey: ZKF1B0S7W0NR4OSH4WIXAK30
+    schemaVersion: 2.13.0
   phone-number:
     edition: standard
     enabled: true
@@ -1415,5 +1415,5 @@ system:
   live: true
   name: 'Rubin Telescope Education and Public Outreach'
   retryDuration: null
-  schemaVersion: 3.7.8
+  schemaVersion: 3.7.33
   timeZone: America/Los_Angeles
