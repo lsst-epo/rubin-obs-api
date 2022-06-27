@@ -1,4 +1,4 @@
-dateModified: 1656373026
+dateModified: 1656373217
 email:
   fromEmail: $EMAIL_FROM_ADDRESS
   fromName: $EMAIL_SENDER_NAME
@@ -411,6 +411,12 @@ plugins:
                   - colorScheme
                   - queryMutate
                 -
+                  - complexTable
+                  - queryMutate
+                -
+                  - contactFormTopics
+                  - queryMutate
+                -
                   - contactInfo
                   - queryMutate
                 -
@@ -451,6 +457,9 @@ plugins:
                   - queryMutate
                 -
                   - description
+                  - queryMutate
+                -
+                  - investigationDescription
                   - queryMutate
                 -
                   - siteDescription
@@ -501,6 +510,9 @@ plugins:
                   - featuredImage
                   - queryMutate
                 -
+                  - floatDirection
+                  - queryMutate
+                -
                   - focalPointX
                   - queryMutate
                 -
@@ -522,7 +534,7 @@ plugins:
                   - hideTitle
                   - queryMutate
                 -
-                  - image
+                  - damAsset
                   - queryMutate
                 -
                   - siteImage
@@ -537,13 +549,28 @@ plugins:
                   - instagram
                   - queryMutate
                 -
+                  - investigation
+                  - queryMutate
+                -
+                  - isActive
+                  - queryMutate
+                -
                   - jobPosition
+                  - queryMutate
+                -
+                  - landingNavigation
+                  - queryMutate
+                -
+                  - landingPage
                   - queryMutate
                 -
                   - mixedLink
                   - queryMutate
                 -
                   - linkText
+                  - queryMutate
+                -
+                  - linkTo
                   - queryMutate
                 -
                   - linkedIn
@@ -571,6 +598,9 @@ plugins:
                   - queryMutate
                 -
                   - openDate
+                  - queryMutate
+                -
+                  - overlapHero
                   - queryMutate
                 -
                   - pageType
@@ -603,6 +633,9 @@ plugins:
                   - publisherIdDefault
                   - queryMutate
                 -
+                  - pullQuote
+                  - queryMutate
+                -
                   - quote
                   - queryMutate
                 -
@@ -615,16 +648,28 @@ plugins:
                   - representativeAssetVariant
                   - queryMutate
                 -
+                  - requestDeletion
+                  - queryMutate
+                -
                   - richTextDescription
                   - queryMutate
                 -
                   - school
                   - queryMutate
                 -
+                  - showSiblingNav
+                  - queryMutate
+                -
                   - simpleTable
                   - queryMutate
                 -
                   - slideshowItems
+                  - queryMutate
+                -
+                  - staffTags
+                  - queryMutate
+                -
+                  - staffTradingCard
                   - queryMutate
                 -
                   - startTime
@@ -637,6 +682,9 @@ plugins:
                   - queryMutate
                 -
                   - subLocation
+                  - queryMutate
+                -
+                  - supportersLogosAlt
                   - queryMutate
                 -
                   - supportersLogos
@@ -664,6 +712,12 @@ plugins:
                   - queryMutate
                 -
                   - usageTermsDefault
+                  - queryMutate
+                -
+                  - useExternalLink
+                  - queryMutate
+                -
+                  - verticalAlignment
                   - queryMutate
                 -
                   - width
@@ -724,6 +778,12 @@ plugins:
                   - colorScheme
                   - queryMutate
                 -
+                  - complexTable
+                  - queryMutate
+                -
+                  - contactFormTopics
+                  - queryMutate
+                -
                   - contactInfo
                   - queryMutate
                 -
@@ -764,6 +824,9 @@ plugins:
                   - queryMutate
                 -
                   - description
+                  - queryMutate
+                -
+                  - investigationDescription
                   - queryMutate
                 -
                   - siteDescription
@@ -814,6 +877,9 @@ plugins:
                   - featuredImage
                   - queryMutate
                 -
+                  - floatDirection
+                  - queryMutate
+                -
                   - focalPointX
                   - queryMutate
                 -
@@ -835,7 +901,7 @@ plugins:
                   - hideTitle
                   - queryMutate
                 -
-                  - image
+                  - damAsset
                   - queryMutate
                 -
                   - siteImage
@@ -850,13 +916,28 @@ plugins:
                   - instagram
                   - queryMutate
                 -
+                  - investigation
+                  - queryMutate
+                -
+                  - isActive
+                  - queryMutate
+                -
                   - jobPosition
+                  - queryMutate
+                -
+                  - landingNavigation
+                  - queryMutate
+                -
+                  - landingPage
                   - queryMutate
                 -
                   - mixedLink
                   - queryMutate
                 -
                   - linkText
+                  - queryMutate
+                -
+                  - linkTo
                   - queryMutate
                 -
                   - linkedIn
@@ -884,6 +965,9 @@ plugins:
                   - queryMutate
                 -
                   - openDate
+                  - queryMutate
+                -
+                  - overlapHero
                   - queryMutate
                 -
                   - pageType
@@ -916,6 +1000,9 @@ plugins:
                   - publisherIdDefault
                   - queryMutate
                 -
+                  - pullQuote
+                  - queryMutate
+                -
                   - quote
                   - queryMutate
                 -
@@ -928,16 +1015,28 @@ plugins:
                   - representativeAssetVariant
                   - queryMutate
                 -
+                  - requestDeletion
+                  - queryMutate
+                -
                   - richTextDescription
                   - queryMutate
                 -
                   - school
                   - queryMutate
                 -
+                  - showSiblingNav
+                  - queryMutate
+                -
                   - simpleTable
                   - queryMutate
                 -
                   - slideshowItems
+                  - queryMutate
+                -
+                  - staffTags
+                  - queryMutate
+                -
+                  - staffTradingCard
                   - queryMutate
                 -
                   - startTime
@@ -950,6 +1049,9 @@ plugins:
                   - queryMutate
                 -
                   - subLocation
+                  - queryMutate
+                -
+                  - supportersLogosAlt
                   - queryMutate
                 -
                   - supportersLogos
@@ -977,6 +1079,12 @@ plugins:
                   - queryMutate
                 -
                   - usageTermsDefault
+                  - queryMutate
+                -
+                  - useExternalLink
+                  - queryMutate
+                -
+                  - verticalAlignment
                   - queryMutate
                 -
                   - width
@@ -1037,6 +1145,12 @@ plugins:
                   - colorScheme
                   - queryMutate
                 -
+                  - complexTable
+                  - queryMutate
+                -
+                  - contactFormTopics
+                  - queryMutate
+                -
                   - contactInfo
                   - queryMutate
                 -
@@ -1077,6 +1191,9 @@ plugins:
                   - queryMutate
                 -
                   - description
+                  - queryMutate
+                -
+                  - investigationDescription
                   - queryMutate
                 -
                   - siteDescription
@@ -1127,6 +1244,9 @@ plugins:
                   - featuredImage
                   - queryMutate
                 -
+                  - floatDirection
+                  - queryMutate
+                -
                   - focalPointX
                   - queryMutate
                 -
@@ -1148,7 +1268,7 @@ plugins:
                   - hideTitle
                   - queryMutate
                 -
-                  - image
+                  - damAsset
                   - queryMutate
                 -
                   - siteImage
@@ -1163,13 +1283,28 @@ plugins:
                   - instagram
                   - queryMutate
                 -
+                  - investigation
+                  - queryMutate
+                -
+                  - isActive
+                  - queryMutate
+                -
                   - jobPosition
+                  - queryMutate
+                -
+                  - landingNavigation
+                  - queryMutate
+                -
+                  - landingPage
                   - queryMutate
                 -
                   - mixedLink
                   - queryMutate
                 -
                   - linkText
+                  - queryMutate
+                -
+                  - linkTo
                   - queryMutate
                 -
                   - linkedIn
@@ -1197,6 +1332,9 @@ plugins:
                   - queryMutate
                 -
                   - openDate
+                  - queryMutate
+                -
+                  - overlapHero
                   - queryMutate
                 -
                   - pageType
@@ -1229,6 +1367,9 @@ plugins:
                   - publisherIdDefault
                   - queryMutate
                 -
+                  - pullQuote
+                  - queryMutate
+                -
                   - quote
                   - queryMutate
                 -
@@ -1241,16 +1382,28 @@ plugins:
                   - representativeAssetVariant
                   - queryMutate
                 -
+                  - requestDeletion
+                  - queryMutate
+                -
                   - richTextDescription
                   - queryMutate
                 -
                   - school
                   - queryMutate
                 -
+                  - showSiblingNav
+                  - queryMutate
+                -
                   - simpleTable
                   - queryMutate
                 -
                   - slideshowItems
+                  - queryMutate
+                -
+                  - staffTags
+                  - queryMutate
+                -
+                  - staffTradingCard
                   - queryMutate
                 -
                   - startTime
@@ -1263,6 +1416,9 @@ plugins:
                   - queryMutate
                 -
                   - subLocation
+                  - queryMutate
+                -
+                  - supportersLogosAlt
                   - queryMutate
                 -
                   - supportersLogos
@@ -1290,6 +1446,12 @@ plugins:
                   - queryMutate
                 -
                   - usageTermsDefault
+                  - queryMutate
+                -
+                  - useExternalLink
+                  - queryMutate
+                -
+                  - verticalAlignment
                   - queryMutate
                 -
                   - width
@@ -1321,7 +1483,7 @@ plugins:
                   - siteId
                   - ''
           -
-            - group-9
+            - group-10
             -
               __assoc__:
                 -
@@ -1334,7 +1496,7 @@ plugins:
                   - siteId
                   - ''
           -
-            - group-8
+            - group-11
             -
               __assoc__:
                 -
