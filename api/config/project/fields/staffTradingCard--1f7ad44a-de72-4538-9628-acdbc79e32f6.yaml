@@ -12,7 +12,7 @@ settings:
   defaultUploadLocationSource: 'volume:c3d1c243-1703-4117-abc7-88487a1f8f24' # Staff Profiles
   defaultUploadLocationSubpath: ''
   limit: ''
-  localizeRelations: false
+  localizeRelations: true
   previewMode: full
   restrictFiles: ''
   selectionLabel: ''
