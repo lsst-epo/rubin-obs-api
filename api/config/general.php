@@ -64,18 +64,20 @@ return [
             '@webBaseUrl' => App::env('WEB_BASE_URL')
         ],
 
-        'allowedGraphqlOrigins' => false,
-
         'headlessMode' => true,
 
         // FE user account management paths. Must be absolute URLs
         'verifyEmailPath' => App::env('VERIFY_EMAIL_PATH'),
-        'setPasswordPath' => App::env('SET_PASSWORD_PATH')
+        'setPasswordPath' => App::env('SET_PASSWORD_PATH'),
 
-        // Disable CSRF protection for contact form - unnecessary until we implement certs
-        //'enableCsrfProtection' => $_SERVER['REQUEST_URI'] !== '/actions/contact-form/send',
+        // Disable CSRF protection for contact form
+        'enableCsrfProtection' => $_SERVER['REQUEST_URI'] !== '/actions/contact-form/send',
 
-
+        // Configured in apache conf. It's not easy to get Craft
+        // to serve CORS headers for both GraphQL and non-Graphql 
+        // requests (eg, the contact form), so we went with this 
+        // approach.
+        'allowedGraphqlOrigins' => false,
     ],
 
     // Dev environment settings
