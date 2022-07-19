@@ -1,4 +1,4 @@
-childBlocks: ''
+childBlocks: null
 field: 72e5075a-9b06-4674-b040-615f4a6f7b70 # Content Blocks - Pages
 fieldLayouts:
   a3ad26d8-31e3-47be-8a53-30b10466c167:
@@ -16,6 +16,7 @@ fieldLayouts:
             width: 100
         name: Content
         sortOrder: 1
+group: null
 handle: downloadList
 maxBlocks: 0
 maxChildBlocks: 0
