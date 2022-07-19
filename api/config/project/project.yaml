@@ -1,4 +1,4 @@
-dateModified: 1657232531
+dateModified: 1658273486
 email:
   fromEmail: $EMAIL_FROM_ADDRESS
   fromName: $EMAIL_SENDER_NAME
@@ -80,6 +80,7 @@ meta:
     9ad13bcd-637a-4757-9968-cdcc02cfd478: 'Table Row' # Table Row
     9b9ff039-061b-4efd-988e-553f811623b2: Users # Users
     9b45a4e3-4461-43d1-881a-ef72029ba2ad: Image # Image
+    9c6d529b-4199-4be2-8284-fafc8063250c: 'Embed url' # Embed url
     9c14ac7e-c466-4c2d-a2fd-e19a68fc706d: Teaser # Teaser
     9c34fc8b-8bc3-4f8a-bbc8-ea58a018719a: 'Custom Breadcrumb Sets' # Custom Breadcrumb Sets
     9d045432-a0fb-4fcd-8bca-3bc93b1f7056: 'Educator Pages' # Educator Pages
@@ -169,10 +170,12 @@ meta:
     8096dc6c-f1bd-4d24-8add-7df7f190a17c: Jobs # Jobs
     8145b1c9-cb8f-4c86-91ba-34fe5ded34e6: Homepage # Homepage
     9361ad43-d848-48eb-8d07-089842600d9b: 'Related Item' # Related Item
+    9655a59a-0418-465e-993c-3d1586d59ef9: iFrame # iFrame
     10118ebf-e3bf-4b1b-bbb8-4b57ab3753c8: Caption # Caption
     22728b4f-f1bb-4399-8525-53e3163f0594: 'Slide Block' # Slide Block
     39558c70-8baf-4748-9f12-49e78a04eed5: Job # Job
     51414e74-22c3-4134-9ccb-34f524920c2c: 'Metadata Version' # Metadata Version
+    83885be8-333d-42b1-964f-fd89666907ff: 'Embed Title' # Embed Title
     84116f7d-7a26-41d7-bd7f-79761f9b50a9: 'Close Date' # Close Date
     87362cd0-662a-4068-9482-5ff62fe472c4: State/Province # State/Province
     90295d5c-0b35-40ca-bb95-c7fc81969b14: 'Accordion Group' # Accordion Group
@@ -287,6 +290,7 @@ meta:
     ec78e400-20a8-42cc-a320-8fc84edd364c: 'Custom Hero' # Custom Hero
     ecf9a160-a134-43b6-9d4f-8bd547ad101e: 'Landing Navigation' # Landing Navigation
     edef3ef4-2dfd-4dc1-92a9-2643d43cef04: Image # Image
+    ef5793ab-b4f7-45c7-be68-338184b3d385: 'Full Width' # Full Width
     f0603433-ef74-4883-8aec-03e31f8dc34e: 'Complex Table' # Complex Table
     f1b8c943-bc12-4001-9e2a-d531379f1aaf: Pages # Pages
     f8ed5c4f-7af4-40f7-939d-b7caf9b4b501: 'News Item' # News Item
@@ -1546,6 +1550,17 @@ plugins:
     enabled: true
     licenseKey: ZKF1B0S7W0NR4OSH4WIXAK30
     schemaVersion: 2.13.0
+  oembed:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.1
+    settings:
+      enableCache: '1'
+      enableGdpr: ''
+      enableNotifications: ''
+      facebookKey: ''
+      notificationEmail: ''
+      previewHidden: ''
   phone-number:
     edition: standard
     enabled: true

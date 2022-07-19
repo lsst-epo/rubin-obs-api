@@ -1,4 +1,5 @@
-childBlocks: '["complexTable"]'
+childBlocks:
+  - complexTable
 field: 72e5075a-9b06-4674-b040-615f4a6f7b70 # Content Blocks - Pages
 fieldLayouts:
   d606865c-35e5-4458-a367-6579a71decf8:
@@ -11,6 +12,7 @@ fieldLayouts:
             type: craft\fieldlayoutelements\Tip
         name: Content
         sortOrder: 1
+group: null
 handle: tableGroup
 maxBlocks: 0
 maxChildBlocks: 0

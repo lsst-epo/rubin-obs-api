@@ -1,4 +1,4 @@
-childBlocks: ''
+childBlocks: null
 field: 72e5075a-9b06-4674-b040-615f4a6f7b70 # Content Blocks - Pages
 fieldLayouts:
   2c3aebef-93a3-4cb1-beda-4d47a13a0b8e:
@@ -25,6 +25,7 @@ fieldLayouts:
             width: 100
         name: Content
         sortOrder: 1
+group: null
 handle: cta
 maxBlocks: 0
 maxChildBlocks: 0
