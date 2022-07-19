@@ -26,6 +26,7 @@ fieldLayouts:
             width: 100
         name: default
         sortOrder: 1
+group: null
 handle: schedule
 maxBlocks: 0
 maxChildBlocks: 0
