@@ -1,5 +1,7 @@
 {
-  "buttons": ["bold", "italic", "link"],
-  "toolbarFixed": true,
-  "plugins": ["alignment"]
+  "buttons": ["bold", "italic", "lists", "link"],
+  "plugins": ["alignment", "textcolor"],
+  "enforceButtonOrder": ["alignment", "fontcolor", "bold", "italic", "lists", "link"],
+  "fontcolors": ["#2B8000", "#A85A00", "#1C55E6"],
+  "toolbarFixed": true
 }
