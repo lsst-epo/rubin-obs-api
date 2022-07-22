@@ -45,16 +45,15 @@ fields:
     settings:
       availableTransforms: '*'
       availableVolumes: '*'
-      cleanupHtml: true
       columnType: text
       configSelectionMode: choose
       defaultTransform: ''
       manualConfig: ''
       purifierConfig: ''
       purifyHtml: '1'
-      redactorConfig: Basic.json
+      redactorConfig: TableCellContent.json
       removeEmptyTags: '1'
-      removeInlineStyles: '1'
+      removeInlineStyles: ''
       removeNbsp: '1'
       showHtmlButtonForNonAdmins: ''
       showUnpermittedFiles: false
@@ -74,6 +73,17 @@ fields:
     settings:
       optgroups: true
       options:
+        -
+          __assoc__:
+            -
+              - label
+              - None
+            -
+              - value
+              - none
+            -
+              - default
+              - '1'
         -
           __assoc__:
             -
@@ -132,16 +142,15 @@ fields:
     settings:
       availableTransforms: '*'
       availableVolumes: '*'
-      cleanupHtml: true
       columnType: text
       configSelectionMode: choose
       defaultTransform: ''
       manualConfig: ''
       purifierConfig: ''
       purifyHtml: '1'
-      redactorConfig: Basic.json
+      redactorConfig: TableCellContent.json
       removeEmptyTags: '1'
-      removeInlineStyles: '1'
+      removeInlineStyles: ''
       removeNbsp: '1'
       showHtmlButtonForNonAdmins: ''
       showUnpermittedFiles: false
