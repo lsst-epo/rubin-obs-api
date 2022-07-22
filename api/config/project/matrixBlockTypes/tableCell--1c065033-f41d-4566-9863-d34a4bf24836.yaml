@@ -45,7 +45,6 @@ fields:
     settings:
       availableTransforms: '*'
       availableVolumes: '*'
-      cleanupHtml: true
       columnType: text
       configSelectionMode: choose
       defaultTransform: ''
@@ -54,7 +53,7 @@ fields:
       purifyHtml: '1'
       redactorConfig: TableCellContent.json
       removeEmptyTags: '1'
-      removeInlineStyles: '1'
+      removeInlineStyles: ''
       removeNbsp: '1'
       showHtmlButtonForNonAdmins: ''
       showUnpermittedFiles: false
@@ -73,9 +72,9 @@ fields:
     searchable: false
     settings:
       decimals: 0
-      defaultValue: '1'
+      defaultValue: 1
       max: null
-      min: '1'
+      min: 1
       prefix: null
       previewCurrency: ''
       previewFormat: decimal
