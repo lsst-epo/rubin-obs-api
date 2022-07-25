@@ -1,12 +1,12 @@
 childBlocks: null
-field: 522db817-08b6-4ecf-a423-4aec204ab85d # Content Blocks - News
+field: 72e5075a-9b06-4674-b040-615f4a6f7b70 # Content Blocks - Pages
 fieldLayouts:
-  987cc3e9-191e-4f9e-bc39-12a738e462f7:
+  a07adda8-f2f5-4452-909c-0691962df1de:
     tabs:
       -
         elements:
           -
-            fieldUid: 7db205b7-a548-42f1-8c26-416ec51cf3fa # Text
+            fieldUid: 0e0c24d9-900c-4e44-9087-756675a01096 # Game
             instructions: null
             label: null
             required: false
@@ -14,13 +14,13 @@ fieldLayouts:
             type: craft\fieldlayoutelements\CustomField
             warning: null
             width: 100
-        name: 'Tab 1'
+        name: 'Select a Game'
         sortOrder: 1
 group: null
-handle: text
+handle: game
 maxBlocks: 0
 maxChildBlocks: 0
 maxSiblingBlocks: 0
-name: Text
-sortOrder: 1
+name: Game
+sortOrder: 29
 topLevel: true
