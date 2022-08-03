@@ -1,4 +1,4 @@
-name: 'Preview Dev PR'
+name: 'PR Preview to Dev'
 
 on:
   pull_request:
@@ -12,7 +12,7 @@ on:
 
 jobs:
   build-push-deploy:
-    name: 'Deploy Preview Version'
+    name: 'Build and Deploy PR Preview to Development'
     runs-on: ubuntu-latest
     if: ${{ (github.event.action != 'closed') && (startsWith(github.head_ref, 'preview') == true) }}
 
