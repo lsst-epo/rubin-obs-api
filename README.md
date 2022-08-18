@@ -1,5 +1,12 @@
 # Rubin Observatory Operational Website Backend/API
 
+[![Deployed to Production](https://github.com/lsst-epo/rubin-obs-api/actions/workflows/master-tags.yaml/badge.svg)](https://github.com/lsst-epo/rubin-obs-api/actions/workflows/master-tags.yaml)
+
+[![Deployed to Integration](https://github.com/lsst-epo/rubin-obs-api/actions/workflows/master-push-gae.yaml/badge.svg)](https://github.com/lsst-epo/rubin-obs-api/actions/workflows/master-push-gae.yaml)
+
+[![Deployed to Development](https://github.com/lsst-epo/rubin-obs-api/actions/workflows/develop-push-gae.yaml/badge.svg)](https://github.com/lsst-epo/rubin-obs-api/actions/workflows/develop-push-gae.yaml)
+
+
 Headless Craft CMS backend for the Rubin Observatory operational website with Docker support.
 
 This project was created with Docker version 20.10.5.
