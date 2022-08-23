@@ -2,7 +2,7 @@
     "require": {
         "carlcs/craft-assetmetadata": "^3.0",
         "craftcms/aws-s3": "^1.2",
-        "craftcms/cms": "3.7.46",
+        "craftcms/cms": "3.7.52",
         "craftcms/contact-form": "2.5.1",
         "craftcms/contact-form-honeypot": "1.0.3",
         "craftcms/google-cloud": "^1.4",
@@ -11,7 +11,7 @@
         "rosas/universal-dam-integrator": "dev-main#v0.2.0-alpha",
         "rynpsc/craft-phone-number": "1.5.0",
         "sebastianlenz/linkfield": "2.0.*@dev",
-        "spicyweb/craft-neo": "2.13.12",
+        "spicyweb/craft-neo": "2.13.15",
         "verbb/super-table": "2.7.2",
         "vlucas/phpdotenv": "^3.4.0",
         "wrav/oembed": "1.3.18"
