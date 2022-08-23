@@ -6,3 +6,4 @@ log/error.log
 app.yaml
 db
 !db/Dockerfile
+google-app-credentials.json
