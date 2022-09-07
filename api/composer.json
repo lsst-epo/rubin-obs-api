@@ -2,7 +2,7 @@
     "require": {
         "carlcs/craft-assetmetadata": "^3.0",
         "craftcms/aws-s3": "^1.2",
-        "craftcms/cms": "3.7.52",
+        "craftcms/cms": "3.7.53.1",
         "craftcms/contact-form": "2.5.1",
         "craftcms/contact-form-honeypot": "1.0.3",
         "craftcms/google-cloud": "^1.4",
@@ -35,7 +35,7 @@
         "sort-packages": true,
         "optimize-autoloader": true,
         "platform": {
-            "php": "7.4.24"
+            "php": "8.1.10"
         },
         "allow-plugins": {
             "yiisoft/yii2-composer": true,
