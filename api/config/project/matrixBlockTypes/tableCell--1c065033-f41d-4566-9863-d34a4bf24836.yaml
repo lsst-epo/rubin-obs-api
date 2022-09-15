@@ -14,7 +14,7 @@ fieldLayouts:
             warning: null
             width: 25
           -
-            fieldUid: c9e9db12-fcdb-4b82-a8c8-eef21b3543af # Cell Background
+            fieldUid: cac693b8-f2db-41f9-84e5-a6f16ee8dcbb # Flexible Cell Width
             instructions: null
             label: null
             required: false
@@ -22,6 +22,15 @@ fieldLayouts:
             type: craft\fieldlayoutelements\CustomField
             warning: null
             width: 75
+          -
+            fieldUid: c9e9db12-fcdb-4b82-a8c8-eef21b3543af # Cell Background
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 50
           -
             fieldUid: 4b94ba3d-060c-4a09-b2dc-c519a4c83709 # Cell Content
             instructions: null
@@ -273,6 +282,21 @@ fields:
     translationKeyFormat: null
     translationMethod: none
     type: craft\fields\Dropdown
+  cac693b8-f2db-41f9-84e5-a6f16ee8dcbb: # Flexible Cell Width
+    columnSuffix: cqiqaohz
+    contentColumnType: boolean
+    fieldGroup: null
+    handle: hasFlexibleCellWidth
+    instructions: 'If set to ON, cell width will expand to fit its content.'
+    name: 'Flexible Cell Width'
+    searchable: false
+    settings:
+      default: false
+      offLabel: null
+      onLabel: null
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Lightswitch
 handle: tableCell
 name: 'Table Cell'
 sortOrder: 1
