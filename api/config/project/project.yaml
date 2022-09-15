@@ -1,4 +1,4 @@
-dateModified: 1661297389
+dateModified: 1663280241
 email:
   fromEmail: $EMAIL_FROM_ADDRESS
   fromName: $EMAIL_SENDER_NAME
@@ -246,6 +246,7 @@ meta:
     c832d3ee-de91-4412-87d7-f4a7fd8251eb: Topic # Topic
     c2617270-9a88-4699-a7e0-6f6975b11e5a: 'Canto DAM' # Canto DAM
     c4060079-e438-4c63-8b06-77cdea857fd9: Text # Text
+    cac693b8-f2db-41f9-84e5-a6f16ee8dcbb: 'Flexible Cell Width' # Flexible Cell Width
     cb6a7cee-4f9e-4191-8c6d-33ccdd921fec: Text # Text
     cbded379-b002-491f-8558-81620a1a672c: Image # Image
     cbf3fbbb-2f2b-4568-a228-f8c63ff4601c: 'Row Color' # Row Color
