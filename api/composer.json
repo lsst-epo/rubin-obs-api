@@ -1,6 +1,7 @@
 {
     "require": {
         "carlcs/craft-assetmetadata": "^3.0",
+        "castiron/next-builds": "^1.0",
         "craftcms/aws-s3": "^1.2",
         "craftcms/cms": "3.7.59",
         "craftcms/contact-form": "2.5.1",
@@ -20,6 +21,10 @@
         {
             "type": "vcs",
             "url": "https://github.com/lsst-epo/craft3-universal-dam-integrator.git"
+        },
+        {
+            "type": "path",
+            "url": "plugins/nextbuilds"
         }
     ],
     "require-dev": {
