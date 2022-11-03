@@ -60,7 +60,7 @@ fields:
       showUnpermittedVolumes: false
       uiMode: enlarged
     translationKeyFormat: null
-    translationMethod: none
+    translationMethod: site
     type: craft\redactor\Field
   cbf3fbbb-2f2b-4568-a228-f8c63ff4601c: # Row Color
     columnSuffix: null
@@ -157,7 +157,7 @@ fields:
       showUnpermittedVolumes: false
       uiMode: enlarged
     translationKeyFormat: null
-    translationMethod: none
+    translationMethod: site
     type: craft\redactor\Field
 handle: tableRow
 name: Row
