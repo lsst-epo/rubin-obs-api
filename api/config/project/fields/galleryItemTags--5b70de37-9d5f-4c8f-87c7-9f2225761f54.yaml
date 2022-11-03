@@ -13,7 +13,7 @@ settings:
   localizeRelations: true
   selectionLabel: ''
   showSiteMenu: true
-  source: 'taggroup:c30bad12-1372-49fe-ab6c-a9c33b2860bb' # Gallery Item Tags
+  source: 'taggroup:c30bad12-1372-49fe-ab6c-a9c33b2860bb'
   sources: '*'
   targetSiteId: null
   validateRelatedElements: false

@@ -14,7 +14,7 @@ settings:
   localizeRelations: false
   selectionLabel: 'Select a category'
   showSiteMenu: true
-  source: 'group:4ead9327-61fc-4b46-810c-5f490c2c45ad' # Gallery Types
+  source: 'group:4ead9327-61fc-4b46-810c-5f490c2c45ad'
   sources: '*'
   targetSiteId: null
   validateRelatedElements: false

@@ -1,4 +1,4 @@
-dateModified: 1667497377
+dateModified: 1667518388
 email:
   fromEmail: $EMAIL_FROM_ADDRESS
   fromName: $EMAIL_SENDER_NAME
@@ -35,7 +35,6 @@ meta:
     2c2e1c6a-eb4d-44f1-9a43-8d79b326f354: ES # ES
     2c121c9e-10e1-4a79-a17f-a6c7ef7965f3: 'Table Group' # Table Group
     3a3af2ab-b037-455a-ba95-bc3be89efdb0: 'Event Filters' # Event Filters
-    3a8b9653-cdd3-46ce-84b2-d73b5dc4de63: Gallery # Gallery
     003be281-0e3f-49e2-a932-359cebdf07f9: Link # Link
     3c9eb8f7-9f84-4c22-84d5-531be77aa6b6: 'Featured Image' # Featured Image
     03d7331c-b357-4eed-a6b0-3c5a403cae73: Publisher # Publisher
@@ -47,7 +46,6 @@ meta:
     4b94ba3d-060c-4a09-b2dc-c519a4c83709: 'Cell Content' # Cell Content
     4c977b75-9ee1-4cdb-9d2a-203639f4af84: Links # Links
     4d3b7f4d-258a-4d7b-b41e-29398e23ae3f: 'Staff Tags' # Staff Tags
-    4ead9327-61fc-4b46-810c-5f490c2c45ad: 'Gallery Types' # Gallery Types
     4f027acf-6672-4fd7-a178-2366dfea422a: 'Complex Table' # Complex Table
     4fe339ec-7579-46f4-a362-df6ee8de4b3c: 'Public Schema' # Public Schema
     4ffeb743-f02d-42af-8656-a6f9c1363e79: 'Glossary Terms' # Glossary Terms
@@ -191,7 +189,6 @@ meta:
     838028d1-bb13-49aa-a2ee-b0b2e7e6a4fa: 'Simple Table' # Simple Table
     960543c0-3ba6-466b-aa9e-9182279dd49a: 'End Date' # End Date
     04000104-ec26-4d82-959a-729454e7f1cc: Country # Country
-    7187131b-681b-45de-a1ea-87a8d070c05a: 'Gallery Item' # Gallery Item
     9940892d-32f4-4399-acac-ab559ce1c82b: Common # Common
     30885296-ea6f-4481-8e0f-e9d17e37c7c5: PublisherId # PublisherId
     36247100-a0f8-4eb9-b190-898131bf97b3: Width # Width
@@ -227,7 +224,6 @@ meta:
     b144a695-58be-4586-81cf-0ae9030280ce: Bio # Bio
     b882fa04-8a43-4715-a55d-b3344db891bf: 'Table Title' # Table Title
     b5838ae4-3163-4eaf-baf1-cc575176352e: Callout # Callout
-    b8393df9-fb81-4d70-9ccb-6d030c818580: 'Gallery Item Defaults' # Gallery Item Defaults
     b4139639-fe83-4dd3-acf6-581a798190b5: 'Slideshow Items' # Slideshow Items
     bb77d190-487e-45c5-a1d2-0208510a7d88: Events # Events
     bbf936fb-1787-437b-8ebd-a6e79409896e: 'Glossary Term' # Glossary Term
@@ -240,7 +236,6 @@ meta:
     c9bce017-1c1c-4949-ad3b-a5c0b991a83a: 'Metadata Version' # Metadata Version
     c9e9db12-fcdb-4b82-a8c8-eef21b3543af: 'Cell Background' # Cell Background
     c11d26d4-236a-4b06-99f6-3a8f67821ada: 'News Assets' # News Assets
-    c30bad12-1372-49fe-ab6c-a9c33b2860bb: 'Gallery Item Tags' # Gallery Item Tags
     c41c3f9f-056c-4b0b-8003-2ba5395a615f: Text # Text
     c44a71b5-f4c8-4209-8433-9878aece9aa5: Text # Text
     c832d3ee-de91-4412-87d7-f4a7fd8251eb: Topic # Topic

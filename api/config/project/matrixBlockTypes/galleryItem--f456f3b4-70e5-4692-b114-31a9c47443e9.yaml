@@ -32,7 +32,7 @@ fields:
       showSiteMenu: false
       source: null
       sources:
-        - 'section:3a8b9653-cdd3-46ce-84b2-d73b5dc4de63' # Gallery
+        - 'section:3a8b9653-cdd3-46ce-84b2-d73b5dc4de63'
       targetSiteId: null
       validateRelatedElements: false
       viewMode: null
