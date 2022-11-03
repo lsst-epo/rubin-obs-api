@@ -27,7 +27,6 @@ fields:
     settings:
       availableTransforms: '*'
       availableVolumes: ''
-      cleanupHtml: true
       columnType: text
       configSelectionMode: choose
       defaultTransform: ''
@@ -43,7 +42,7 @@ fields:
       showUnpermittedVolumes: false
       uiMode: normal
     translationKeyFormat: null
-    translationMethod: none
+    translationMethod: site
     type: craft\redactor\Field
 handle: mail
 name: Mail
