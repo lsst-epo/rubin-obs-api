@@ -47,9 +47,9 @@ class Request extends Component
 		$requestUrl = $endpoint . '?' . http_build_query($params);
 
 		try {
-			$response = $client->request('GET', $requestUrl, []);
+			$client->request('GET', $requestUrl, []);
 		} catch (\Exception $exception) {
-			Craft::$app->session->setError('There was a problem with the incremental page rebuild.');
+			Craft::$app->session->setError('Incremental rebuild failed. Frontend will update after next revalidation interval.');
 		}
 	}
 
