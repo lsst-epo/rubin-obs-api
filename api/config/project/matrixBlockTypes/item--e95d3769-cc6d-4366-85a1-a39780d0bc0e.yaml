@@ -60,7 +60,7 @@ fields:
       defaultUploadLocationSource: 'volume:18a75c63-648f-4145-9cc3-386e7c8a0106' # General
       defaultUploadLocationSubpath: ''
       limit: '1'
-      localizeRelations: false
+      localizeRelations: true
       previewMode: full
       restrictFiles: ''
       selectionLabel: ''
