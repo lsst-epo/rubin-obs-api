@@ -43,7 +43,7 @@ fields:
       placeholder: null
       uiMode: normal
     translationKeyFormat: null
-    translationMethod: none
+    translationMethod: site
     type: craft\fields\PlainText
   f444667c-6ea1-4e0f-89b2-35b059e27bfc: # Link
     columnSuffix: null
