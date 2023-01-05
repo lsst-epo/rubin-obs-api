@@ -1,4 +1,4 @@
-dateModified: 1672436129
+dateModified: 1672950572
 email:
   fromEmail: $EMAIL_FROM_ADDRESS
   fromName: $EMAIL_SENDER_NAME
@@ -1566,16 +1566,16 @@ plugins:
             - ''
           -
             - events
-            - ''
+            - '1'
           -
             - galleryItems
             - ''
           -
             - glossaryTerms
-            - ''
+            - '1'
           -
             - homepage
-            - ''
+            - '1'
           -
             - investigations
             - ''
@@ -1584,22 +1584,22 @@ plugins:
             - ''
           -
             - news
-            - ''
+            - '1'
           -
             - pages
             - '1'
           -
             - searchResults
-            - ''
+            - '1'
           -
             - slideshows
-            - ''
+            - '1'
           -
             - staffProfiles
-            - ''
+            - '1'
           -
             - userProfilePage
-            - ''
+            - '1'
       nextApiBaseUrl: $NEXT_API_BASE_URL
       nextSecretToken: $NEXT_REVALIDATE_SECRET_TOKEN
   oembed:
