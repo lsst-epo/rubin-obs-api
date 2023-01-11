@@ -1,5 +1,4 @@
-childBlocks:
-  - relatedContentItem
+childBlocks: '["relatedContentItem"]'
 field: 522db817-08b6-4ecf-a423-4aec204ab85d # Content Blocks - News
 fieldLayouts:
   434722a0-17ca-49aa-908b-6a945f4cf383:
@@ -35,7 +34,6 @@ fieldLayouts:
             width: 100
         name: Content
         sortOrder: 1
-group: null
 handle: relatedContent
 maxBlocks: 0
 maxChildBlocks: 0

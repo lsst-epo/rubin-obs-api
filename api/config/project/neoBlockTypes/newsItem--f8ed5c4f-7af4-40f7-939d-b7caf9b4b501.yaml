@@ -1,4 +1,4 @@
-childBlocks: null
+childBlocks: ''
 field: 72e5075a-9b06-4674-b040-615f4a6f7b70 # Content Blocks - Pages
 fieldLayouts:
   4e3c5644-e500-403a-8c9e-f66bf7c4937f:
@@ -16,11 +16,10 @@ fieldLayouts:
             width: 100
         name: Content
         sortOrder: 1
-group: null
 handle: newsItem
 maxBlocks: 0
 maxChildBlocks: 0
 maxSiblingBlocks: 0
 name: 'News Item'
-sortOrder: 16
+sortOrder: 14
 topLevel: false

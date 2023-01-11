@@ -1,4 +1,4 @@
-childBlocks: null
+childBlocks: ''
 field: 522db817-08b6-4ecf-a423-4aec204ab85d # Content Blocks - News
 fieldLayouts:
   987cc3e9-191e-4f9e-bc39-12a738e462f7:
@@ -16,7 +16,6 @@ fieldLayouts:
             width: 100
         name: 'Tab 1'
         sortOrder: 1
-group: null
 handle: text
 maxBlocks: 0
 maxChildBlocks: 0

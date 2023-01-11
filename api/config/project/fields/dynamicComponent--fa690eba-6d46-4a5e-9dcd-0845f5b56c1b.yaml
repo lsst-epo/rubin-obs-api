@@ -56,10 +56,32 @@ settings:
       __assoc__:
         -
           - label
-          - 'Staff Profiles'
+          - 'All Staff Profiles'
         -
           - value
           - staffProfiles
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - 'Non-scientific Staff Profiles'
+        -
+          - value
+          - nonScientificStaff
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - 'Scientific Staff Profiles'
+        -
+          - value
+          - scientificStaff
         -
           - default
           - ''
@@ -71,28 +93,6 @@ settings:
         -
           - value
           - galleryItems
-        -
-          - default
-          - ''
-    -
-      __assoc__:
-        -
-          - label
-          - 'Image Gallery Items'
-        -
-          - value
-          - imageGalleryItems
-        -
-          - default
-          - ''
-    -
-      __assoc__:
-        -
-          - label
-          - 'Video Gallery Items'
-        -
-          - value
-          - videoGalleryItems
         -
           - default
           - ''
@@ -170,17 +170,6 @@ settings:
         -
           - value
           - telescopeStatus
-        -
-          - default
-          - ''
-    -
-      __assoc__:
-        -
-          - label
-          - 'Glossary Terms'
-        -
-          - value
-          - glossaryTerms
         -
           - default
           - ''

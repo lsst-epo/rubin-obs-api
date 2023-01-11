@@ -1,4 +1,4 @@
-childBlocks: null
+childBlocks: ''
 field: 72e5075a-9b06-4674-b040-615f4a6f7b70 # Content Blocks - Pages
 fieldLayouts:
   5ed91041-488b-4b8e-a7b2-e76f8ccc0fa3:
@@ -16,7 +16,6 @@ fieldLayouts:
             width: 100
         name: 'Tab 1'
         sortOrder: 1
-group: null
 handle: link
 maxBlocks: 0
 maxChildBlocks: 0

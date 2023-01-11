@@ -32,7 +32,7 @@ return [
 
         // Whether to save the project config out to config/project.yaml
         // (see https://docs.craftcms.com/v3/project-config.html)
-        'useProjectConfigFile' => true,
+        // 'useProjectConfigFile' => true, # Automatically set to true in Craft v4
 
         'aliases' => [
             '@previewUrlFormat' => App::env('ALIAS_PREVIEW_URL_FORMAT'),

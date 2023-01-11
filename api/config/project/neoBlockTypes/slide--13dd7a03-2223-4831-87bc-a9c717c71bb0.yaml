@@ -1,4 +1,4 @@
-childBlocks: null
+childBlocks: ''
 field: 72e5075a-9b06-4674-b040-615f4a6f7b70 # Content Blocks - Pages
 fieldLayouts:
   756e8454-fa42-4a48-b89b-7b6e4a39b0b7:
@@ -25,11 +25,10 @@ fieldLayouts:
             width: 50
         name: Content
         sortOrder: 1
-group: null
 handle: slide
 maxBlocks: 0
 maxChildBlocks: 0
 maxSiblingBlocks: 0
 name: Slide
-sortOrder: 11
+sortOrder: 10
 topLevel: false

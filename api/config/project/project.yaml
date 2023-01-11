@@ -1,4 +1,4 @@
-dateModified: 1661297389
+dateModified: 1673376661
 email:
   fromEmail: $EMAIL_FROM_ADDRESS
   fromName: $EMAIL_SENDER_NAME
@@ -13,55 +13,126 @@ email:
     useAuthentication: '1'
     username: $EMAIL_SMTP_USERNAME
   transportType: craft\mail\transportadapters\Smtp
+fs:
+  assetVariants:
+    hasUrls: true
+    name: 'Asset Variants'
+    settings:
+      addSubfolderToRootUrl: '1'
+      autoFocalPoint: ''
+      bucket: $AWS_ASSET_S3_BUCKET
+      bucketSelectionMode: manual
+      cfDistributionId: ''
+      cfPrefix: ''
+      expires: ''
+      keyId: $AWS_ASSET_KEY_ID
+      makeUploadsPublic: '1'
+      region: $AWS_ASSET_S3_REGION
+      secret: $AWS_ASSET_SECRET_KEY
+      subfolder: $AWS_ASSET_S3_ASSET_VARIANT_SUBFOLDER
+    type: craft\awss3\Fs
+    url: '@assetsAssetVariantBaseURL'
+  calloutImages:
+    hasUrls: true
+    name: 'Callout Images'
+    settings:
+      bucket: rubin-obs-api_assets_callouts
+      bucketSelectionMode: choose
+      expires: ''
+      keyFileContents: ''
+      projectId: $GCP_PROJECT_ID
+      subfolder: ''
+    type: craft\googlecloud\Volume
+    url: 'https://storage.googleapis.com/rubin-obs-api_assets_callouts/'
+  cantoDam:
+    hasUrls: true
+    name: 'Canto DAM'
+    settings:
+      dummySetting: ''
+    type: rosas\dam\volumes\DAMVolume
+    url: 'https://rubin.canto.com/direct/'
+  contentImages:
+    hasUrls: true
+    name: 'Content Images'
+    settings:
+      bucket: rubin-obs-api_assets_content
+      bucketSelectionMode: choose
+      expires: '5 minutes'
+      keyFileContents: ''
+      projectId: $GCP_PROJECT_ID
+      subfolder: ''
+    type: craft\googlecloud\Volume
+    url: '@assetsContentBaseURL'
+  generalImages:
+    hasUrls: true
+    name: General
+    settings:
+      bucket: rubin-obs-api_assets_general
+      bucketSelectionMode: choose
+      expires: '5 minutes'
+      keyFileContents: ''
+      projectId: $GCP_PROJECT_ID
+      subfolder: ''
+    type: craft\googlecloud\Volume
+    url: '@assetsGeneralBaseURL'
+  heroes:
+    hasUrls: true
+    name: Heroes
+    settings:
+      bucket: rubin-obs-api_assets_heroes
+      bucketSelectionMode: choose
+      expires: '5 minutes'
+      keyFileContents: ''
+      projectId: $GCP_PROJECT_ID
+      subfolder: ''
+    type: craft\googlecloud\Volume
+    url: '@assetsHeroesBaseURL'
+  staffProfiles:
+    hasUrls: true
+    name: 'Staff Profiles'
+    settings:
+      bucket: rubin-obs-api_assets_staff_profiles
+      bucketSelectionMode: choose
+      expires: '5 minutes'
+      keyFileContents: ''
+      projectId: $GCP_PROJECT_ID
+      subfolder: ''
+    type: craft\googlecloud\Volume
+    url: '@assetsStaffBaseURL'
 meta:
   __names__:
-    0b946ecb-12e3-4999-9d02-fc902cb66fdf: Investigation # Investigation
     0b85955a-f0b4-47ae-adef-deb0694891af: 'Related Content' # Related Content
     0d02fdfb-053c-4d46-a5f8-0abf2542a5d2: 'News Tags' # News Tags
-    0df27088-950f-4f9e-9115-06e8f780b5ca: 'Entry - Page, Post & Investigation' # Entry - Page, Post & Investigation
-    0e0c24d9-900c-4e44-9087-756675a01096: Game # Game
-    00f1f9f6-c710-431d-bf34-22e3a62d5172: 'Overlap Hero' # Overlap Hero
+    0df27088-950f-4f9e-9115-06e8f780b5ca: 'Entry - Page & Post' # Entry - Page & Post
     0f48338c-1c16-4600-9230-68bacb7c21e3: Text # Text
     1a2ba41a-3949-4982-9cb3-f8b03863bcfd: 'Footer Content' # Footer Content
     1a35bfab-6a39-4c03-b273-2d5e3151c335: 'Rubin Telescope Education and Public Outreach' # Rubin Telescope Education and Public Outreach
     01b89d98-9aa4-46d5-a9a0-60a0c07fd815: Editors # Editors
-    1c065033-f41d-4566-9863-d34a4bf24836: 'Table Cell' # Table Cell
     1d7324d5-d322-4b06-9eb5-52a6c2f856f3: Location # Location
     1e0c12ac-5dd7-4ed2-8cda-3801130b11e1: 'Gallery Item' # Gallery Item
     1ed94e58-7078-46fb-b590-0692fbdf9c20: 'Common Name' # Common Name
     1ed98018-4e61-4580-bee8-961ceab2bb2c: 'Staff Item' # Staff Item
-    1ee32484-2cca-457e-ac23-b3cb13e652d3: 'User Profile Page' # User Profile Page
-    1f7ad44a-de72-4538-9628-acdbc79e32f6: 'Staff Trading Card' # Staff Trading Card
     2c2e1c6a-eb4d-44f1-9a43-8d79b326f354: ES # ES
-    2c121c9e-10e1-4a79-a17f-a6c7ef7965f3: 'Table Group' # Table Group
     3a3af2ab-b037-455a-ba95-bc3be89efdb0: 'Event Filters' # Event Filters
     3a8b9653-cdd3-46ce-84b2-d73b5dc4de63: Gallery # Gallery
-    003be281-0e3f-49e2-a932-359cebdf07f9: Link # Link
     3c9eb8f7-9f84-4c22-84d5-531be77aa6b6: 'Featured Image' # Featured Image
     03d7331c-b357-4eed-a6b0-3c5a403cae73: Publisher # Publisher
     3df02181-c6a1-4e72-98fb-f91def384206: Entry # Entry
     3e10dcca-4dd1-4578-8add-708cd9740881: Homepage # Homepage
-    3eefd793-f1fb-4692-ba0e-ff68f354543b: Investigations # Investigations
     4a55a5d1-655b-4e30-8466-c84b6d8558dd: 'End Time' # End Time
     04a48967-eac4-449f-b164-c8ecbb7036d6: 'Search Results' # Search Results
-    4b94ba3d-060c-4a09-b2dc-c519a4c83709: 'Cell Content' # Cell Content
     4c977b75-9ee1-4cdb-9d2a-203639f4af84: Links # Links
-    4d3b7f4d-258a-4d7b-b41e-29398e23ae3f: 'Staff Tags' # Staff Tags
     4ead9327-61fc-4b46-810c-5f490c2c45ad: 'Gallery Types' # Gallery Types
-    4f027acf-6672-4fd7-a178-2366dfea422a: 'Complex Table' # Complex Table
     4fe339ec-7579-46f4-a362-df6ee8de4b3c: 'Public Schema' # Public Schema
-    4ffeb743-f02d-42af-8656-a6f9c1363e79: 'Glossary Terms' # Glossary Terms
     5a6d7b10-920d-464d-85ea-fc3881082fd7: 'Date Created' # Date Created
     5b0d5d69-4003-4a56-8940-b9cbc2d691e8: Twitter # Twitter
     5b70de37-9d5f-4c8f-87c7-9f2225761f54: 'Gallery Item Tags' # Gallery Item Tags
     5ca18cb3-5a7b-4764-9e18-fc24b4cecc14: Flag # Flag
     5ca378e1-cfb5-4db9-ad3c-1d6ef36536b7: 'Supporters’ Logos' # Supporters’ Logos
-    5cf3400b-e67c-4fe1-8f5c-d07510de42a8: 'Contact Form' # Contact Form
-    5d162b5e-8723-4b74-a229-f8a52bd30b1c: 'Staff Tags' # Staff Tags
+    5cc18ed4-43c2-41c7-9541-ccf7081acafe: 'Canto DAM' # Canto DAM
     05eead62-7bf9-43e4-a7e8-bcd8f9f77323: Hero # Hero
     5f0325e0-cdba-4181-a634-bd8ebf451723: 'Entry - Page' # Entry - Page
     6acd6e24-26c9-4e55-a35b-c29cd36a7a3c: Events # Events
-    6e888efc-ab7a-4c15-9ec5-5954b52984ca: 'Show Sibling Nav' # Show Sibling Nav
     6ed14c66-fec8-4bca-8f29-02cbd1620d12: Teaser # Teaser
     6f86b4dc-dab0-46fa-860d-81f6ebe6b541: Bold # Bold
     7beb32e3-0674-4b9c-9878-022862950868: Type # Type
@@ -78,24 +149,15 @@ meta:
     8e9ec71e-2cf0-4f6a-b856-8976de0ce100: Heroes # Heroes
     8fff3c50-28ba-4af7-8166-e3d82a23ae26: Title # Title
     9a5411c3-bbd7-4f75-a62a-498711e141e4: 'External Link' # External Link
-    9ad13bcd-637a-4757-9968-cdcc02cfd478: 'Table Row' # Table Row
-    9b9ff039-061b-4efd-988e-553f811623b2: Users # Users
     9b45a4e3-4461-43d1-881a-ef72029ba2ad: Image # Image
-    9c6d529b-4199-4be2-8284-fafc8063250c: 'Embed url' # Embed url
     9c14ac7e-c466-4c2d-a2fd-e19a68fc706d: Teaser # Teaser
     9c34fc8b-8bc3-4f8a-bbc8-ea58a018719a: 'Custom Breadcrumb Sets' # Custom Breadcrumb Sets
-    9d045432-a0fb-4fcd-8bca-3bc93b1f7056: 'Educator Pages' # Educator Pages
-    9f05163b-ea00-46ad-bed5-b3c6b5e5a365: Game # Game
-    10e8304e-93be-4c77-b1e9-7d9058c4aa92: 'Is Active' # Is Active
     11be7603-f576-4af8-93a6-e285e4ff42c4: News # News
     13dd7a03-2223-4831-87bc-a9c717c71bb0: Slide # Slide
-    15ca4b7f-3874-4461-aae9-869c9cdf076b: 'Redirect Page' # Redirect Page
     18a75c63-648f-4145-9cc3-386e7c8a0106: General # General
     20aeb76c-ce1e-47c4-96bd-6ebc1d456ef7: Colophon # Colophon
     23b188bc-f349-445e-9df7-f3a7d1c6fe9e: Schedule # Schedule
     23eda090-7e8e-401d-ab49-ee4becc34935: Pages # Pages
-    24f23fec-fc66-46f8-86e1-396d01315ad2: 'Sub Hero Text' # Sub Hero Text
-    26ca2777-e4c8-41b4-ac93-aa28d09117dd: 'Student Pages' # Student Pages
     31b350fb-6fbd-4533-b006-4c287f689ed3: 'Text Link' # Text Link
     31bdcba6-2552-4cc2-8e02-e4a057a0edf0: Instagram # Instagram
     033c2694-fbf5-48d0-aa4f-7d14e86f0aa8: Facebook # Facebook
@@ -107,11 +169,8 @@ meta:
     40ee52fe-bbe1-4b44-97ea-ef987105496b: Email # Email
     41a9c595-2a38-40b5-b87c-ada8076913e1: Share # Share
     46d17af4-896a-4fc5-90bf-ac826090d9bc: Credit # Credit
-    48ba11bd-90a5-4239-a24c-d44d01affbcf: 'Image - quote' # Image - quote
-    51d86fa7-e37a-4926-97c8-3112fd6f2fbe: 'Canto DAM' # Canto DAM
     56f60368-4386-4395-92b6-31b15c7663cc: Contact # Contact
     58aa24c3-97e4-43e7-a812-7374e5650180: 'Focal Point X' # Focal Point X
-    58efa872-9485-42e3-a1e3-a5435def5392: Educators # Educators
     58f1a805-f9c5-46ce-81dd-e17a3ea99353: PublisherId # PublisherId
     59fb5a9e-74f4-4618-adba-601791f42c92: Jobs # Jobs
     61b9d842-7365-4bbf-883c-1b6433dc15f4: 'Caption - rich text' # Caption - rich text
@@ -124,32 +183,22 @@ meta:
     72e5075a-9b06-4674-b040-615f4a6f7b70: 'Content Blocks - Pages' # Content Blocks - Pages
     0073b1d1-a221-431d-aab9-bf4e193adf4f: 'Focal Point Y' # Focal Point Y
     75f0b770-5006-4359-848f-96415196bfe0: Date # Date
-    77dc755a-bb96-4422-b00f-c7d74e45d400: 'Educator Schema' # Educator Schema
     80e0f53f-96b3-43d4-b166-453ac4ac0147: Header # Header
     95b97a67-eccb-4910-b0e8-77f5860058b4: Link # Link
     99f4a28a-48c3-49ca-bb4a-7acbb49fde30: Pages # Pages
-    125d214d-7831-4150-b5bc-1a100bc3149d: School # School
     229f2975-93d3-4c6a-9996-dfa1de3004ef: 'Search Results' # Search Results
-    380c1cbe-884e-421b-9e31-1f0dfc81e15f: 'Cell Width' # Cell Width
     496e755e-78ab-4e3f-8c3a-9b320023b8ec: Image # Image
     522bc2d7-fcc3-4817-a986-5c860e53351c: 'Internal Entry' # Internal Entry
     522db817-08b6-4ecf-a423-4aec204ab85d: 'Content Blocks - News' # Content Blocks - News
-    534d275e-b6e9-4064-9965-07e804e0fcc1: 'User Profile Page' # User Profile Page
-    545ad3bb-62d3-448e-8a57-5ec434539d05: 'Use External Link' # Use External Link
-    546e0c6d-dd32-4997-8487-cc4c2fcc9480: Investigations # Investigations
     612eabbe-059a-4916-abcf-c82132da4cfc: Asset # Asset
-    635a4a93-f10b-4d3c-bd44-2ea1474ad4cb: 'Vertical Alignment' # Vertical Alignment
-    644c6b87-ac0c-4cdf-88be-744a5ee684bb: Description # Description
     657b9edd-b6d3-4b7f-af89-36117c5d98a8: 'Rich Text Description' # Rich Text Description
     753b10b6-e9e6-44f5-a9d9-4a07788733e1: 'Content Ratio' # Content Ratio
     824d9ca2-e755-4e41-8f6a-18e573fec8e4: 'News Posts' # News Posts
     831db889-442e-4553-9076-fc3bc2843c8c: 'Hide title' # Hide title
-    922a7383-2cc6-4a2a-b347-3a41389d7119: 'Preferred Language' # Preferred Language
     0928ff1a-513d-41e0-acc1-606d93988618: 'Search Filters' # Search Filters
     942c9e60-2760-42ed-b03b-9e5eb133751b: Callout # Callout
     966a6b65-ca53-48a8-89dc-74983cd624ef: Title # Title
     983dcb96-8eb2-4138-9c79-603b779fe2bb: 'Metadata Date' # Metadata Date
-    991c5031-3b97-45d8-8829-c8e0c79537a9: 'Row Title' # Row Title
     994d5664-f056-4969-b2cc-c62660f069af: 'Root Page Information' # Root Page Information
     2755abe1-7dd5-428c-a6bb-30d2bd59a362: Link # Link
     3146b06e-af03-43e7-b278-3a65c81f610e: Address # Address
@@ -164,31 +213,21 @@ meta:
     5548b745-642b-4b15-8f17-4ce7457689a8: Header # Header
     6509f949-86bc-4542-ab9f-9593ae7153be: Accordion # Accordion
     6863d4cb-1c9e-4d09-867f-92b87dd7bd81: News # News
-    6908c928-e76b-4692-ae6f-e3d8c994d0ce: Row # Row
-    7445fb64-f649-42e7-9751-28d742d27a85: 'Email Subscription' # Email Subscription
     7742b942-2b47-4222-9105-40dd3da899ac: 'Related Item' # Related Item
-    7765d04f-ce45-4e80-9484-21a76389e6f3: Value # Value
     7970cd65-7a96-418a-8581-d6df4e039e6d: 'Plain Text' # Plain Text
     8096dc6c-f1bd-4d24-8add-7df7f190a17c: Jobs # Jobs
     8145b1c9-cb8f-4c86-91ba-34fe5ded34e6: Homepage # Homepage
     9361ad43-d848-48eb-8d07-089842600d9b: 'Related Item' # Related Item
-    9655a59a-0418-465e-993c-3d1586d59ef9: iFrame # iFrame
     10118ebf-e3bf-4b1b-bbb8-4b57ab3753c8: Caption # Caption
     22728b4f-f1bb-4399-8525-53e3163f0594: 'Slide Block' # Slide Block
     39558c70-8baf-4748-9f12-49e78a04eed5: Job # Job
     51414e74-22c3-4134-9ccb-34f524920c2c: 'Metadata Version' # Metadata Version
-    83885be8-333d-42b1-964f-fd89666907ff: 'Embed Title' # Embed Title
     84116f7d-7a26-41d7-bd7f-79761f9b50a9: 'Close Date' # Close Date
     87362cd0-662a-4068-9482-5ff62fe472c4: State/Province # State/Province
     90295d5c-0b35-40ca-bb95-c7fc81969b14: 'Accordion Group' # Accordion Group
-    110434a5-98f0-4679-9f3c-20869a785eee: 'Link To' # Link To
-    271253b0-e9b7-4bf1-be32-ce31d71b48b1: Quote # Quote
     312197d8-1241-4fac-8422-febdf44e5e9a: 'Entry - Slideshow' # Entry - Slideshow
-    418392d0-2ad4-48a1-8eb3-7cdf5437d498: Investigation # Investigation
     547128fa-4529-4483-9968-66425996b69f: EN # EN
-    562703bc-5129-4417-b268-c7f1188eb161: Link # Link
     660361f1-3ecb-4c5e-9274-76e54f1f291f: 'Number of items' # Number of items
-    838028d1-bb13-49aa-a2ee-b0b2e7e6a4fa: 'Simple Table' # Simple Table
     960543c0-3ba6-466b-aa9e-9182279dd49a: 'End Date' # End Date
     04000104-ec26-4d82-959a-729454e7f1cc: Country # Country
     7187131b-681b-45de-a1ea-87a8d070c05a: 'Gallery Item' # Gallery Item
@@ -203,34 +242,23 @@ meta:
     a5b8e4fe-87da-48fc-8156-2a2a973b29e5: URL # URL
     a5bb0742-012f-4683-a471-874944bf3280: Image # Image
     a8ba2de3-ff22-4a96-9a53-00b6dec31def: City # City
-    a8fbf209-7591-40fa-88d4-b5944f4d27d8: 'Landing Page' # Landing Page
-    a50ca6cb-f8ed-41c0-9ea1-b3a5c1ed721e: Label # Label
     a71f443d-14a3-402b-90ba-524dcce806d2: 'External URL' # External URL
     a77c49d2-2441-459e-bfea-63e571d25a12: Slideshow # Slideshow
-    a7447c0c-7c32-465a-b00b-36ee15bd028a: 'Pull Quote' # Pull Quote
     a61323db-26ac-4898-873c-a6c6b66fcb86: Header # Header
     aa60fd40-45d4-48bb-8b81-8ec736456687: 'Staff Filters' # Staff Filters
     aa649fa7-795e-427b-bb5e-dbbf5668c3b1: Callout # Callout
-    aa678753-53d0-4175-a20c-a8a49f07821b: 'Simple Table' # Simple Table
     acbea415-ee80-409c-90e2-90ac546820a6: Description # Description
     accc0b97-12f3-43ce-941a-068ab8deb620: Video # Video
     adfcd064-b356-4e9d-843d-4b55e5515a41: Phone # Phone
-    ae600481-08ff-4746-915e-4ba49a4c8337: Game # Game
-    af1b8590-3d8a-4eb1-90e1-60e3d7407a1a: 'Link text' # Link text
-    af3e9835-4926-4399-bda9-7f6882cdce5e: 'Assets List' # Assets List
     af22f9e9-9bb5-44eb-a94b-d7893d8cb9f5: Video # Video
     afe3ef3c-add3-45cc-b88b-d01559eb7b32: Header # Header
     b0ce3829-20c1-44ef-a7c7-499800645afc: Header # Header
-    b7f0b94c-62d8-4339-b04e-2c6be77ec1cd: 'Nav Item' # Nav Item
-    b55b0827-5ceb-45e1-bd3c-a35dc4638886: 'Investigation Landing Page' # Investigation Landing Page
     b93cb5a6-f862-4912-9d41-4dcb4fd9e105: 'Staff Profiles' # Staff Profiles
     b144a695-58be-4586-81cf-0ae9030280ce: Bio # Bio
-    b882fa04-8a43-4715-a55d-b3344db891bf: 'Table Title' # Table Title
     b5838ae4-3163-4eaf-baf1-cc575176352e: Callout # Callout
     b8393df9-fb81-4d70-9ccb-6d030c818580: 'Gallery Item Defaults' # Gallery Item Defaults
     b4139639-fe83-4dd3-acf6-581a798190b5: 'Slideshow Items' # Slideshow Items
     bb77d190-487e-45c5-a1d2-0208510a7d88: Events # Events
-    bbf936fb-1787-437b-8ebd-a6e79409896e: 'Glossary Term' # Glossary Term
     bc12b31b-5681-4d9c-bbc1-80042dca1a82: YouTube # YouTube
     be9edc91-a7d0-4838-9565-20381695cbcb: 'Staff Profiles' # Staff Profiles
     c2eab1e2-8dc7-4ea8-a1c2-5572ff82212b: 'Linked Asset' # Linked Asset
@@ -238,17 +266,13 @@ meta:
     c5c5037a-57bf-4aff-85ca-62e14c8c1cea: 'Schedule Row' # Schedule Row
     c5f150d4-fc85-4a5f-a3a7-4d4a1d655861: 'Entry - News' # Entry - News
     c9bce017-1c1c-4949-ad3b-a5c0b991a83a: 'Metadata Version' # Metadata Version
-    c9e9db12-fcdb-4b82-a8c8-eef21b3543af: 'Cell Background' # Cell Background
     c11d26d4-236a-4b06-99f6-3a8f67821ada: 'News Assets' # News Assets
     c30bad12-1372-49fe-ab6c-a9c33b2860bb: 'Gallery Item Tags' # Gallery Item Tags
     c41c3f9f-056c-4b0b-8003-2ba5395a615f: Text # Text
     c44a71b5-f4c8-4209-8433-9878aece9aa5: Text # Text
-    c832d3ee-de91-4412-87d7-f4a7fd8251eb: Topic # Topic
-    c2617270-9a88-4699-a7e0-6f6975b11e5a: 'Canto DAM' # Canto DAM
     c4060079-e438-4c63-8b06-77cdea857fd9: Text # Text
     cb6a7cee-4f9e-4191-8c6d-33ccdd921fec: Text # Text
     cbded379-b002-491f-8558-81620a1a672c: Image # Image
-    cbf3fbbb-2f2b-4568-a228-f8c63ff4601c: 'Row Color' # Row Color
     cc3b4231-1a7c-42f3-934c-cadeb0076f8c: 'Image Padding' # Image Padding
     cc8c47f0-3dec-44db-a47f-7ca6c984864a: 'Job Types' # Job Types
     cc694df6-ebfe-4e0c-b4fe-713761f100df: Text # Text
@@ -259,29 +283,19 @@ meta:
     d0cb4533-5478-47d5-9473-dd6c3821cf7a: Slide # Slide
     d019727b-a6d5-43d9-a688-f10df985a87e: Link # Link
     d7bdf364-6905-4919-b4b1-08f0010d7a08: 'Contact Info' # Contact Info
-    d7fc5f39-2426-421b-bd0b-10aadae80ae3: 'Color Scheme' # Color Scheme
-    d12b2ae4-6d10-41ef-8e22-778f54b2f2d0: Attribution # Attribution
     d23a9bfc-61f9-46fa-bfe4-a4ca97a20a61: 'Asset Variants' # Asset Variants
     d41cc960-99a4-41a8-a7a6-7891a22e4a93: 'Asset Variants' # Asset Variants
     d49be42e-1e68-4688-ac3a-d8c7f7181965: Tags # Tags
     d93d96b1-80fe-486a-9ada-5d52b6e67009: 'Registration Close Date' # Registration Close Date
     d838c93b-46c2-4338-bb73-32cee25ab26f: 'Ancestors and Root' # Ancestors and Root
     d4696dbe-019e-4c97-a95d-07bfaf9dbd03: 'Entry - Staff Profile' # Entry - Staff Profile
-    d6898b26-bfa2-41d3-9e26-0092b2021762: 'Student Schema' # Student Schema
-    d889713c-632a-4323-bb10-4b2bc53545ad: Asset # Asset
-    da3fa24e-0cac-4206-a401-1c4f5791c198: 'Investigation CTA' # Investigation CTA
-    dc44e79d-b126-413d-bc02-0776d6ace2d1: 'Float Direction' # Float Direction
     ddb3efd5-1bce-43e1-9fb9-399ada8a8126: 'Registration Open Date' # Registration Open Date
     ddf8dce2-4fa1-43d1-b306-b34d9d97a91b: Content # Content
     df7f4ec2-58b2-4c3a-afff-b07f4764fa4b: Location # Location
     df8c8d8a-c7d1-45bf-b551-ef790a5b59ad: Callouts # Callouts
     dfd8564d-5db6-4167-99db-29867a64bc2c: 'Content Order' # Content Order
-    dff2a767-333e-4c9d-880c-143e1ca2aaa3: 'Row Content' # Row Content
-    e0be58f6-fc1b-4a02-816c-0a37b0fcd602: Students # Students
-    e6f15692-eb5b-4a33-ad48-7f2b05a7c527: 'Request Deletion' # Request Deletion
     e46ce1e1-606c-4043-acea-5ddab0358221: Image # Image
     e48cbecf-107a-43c6-b099-9d6f3d7cadd8: Credit # Credit
-    e95d3769-cc6d-4366-85a1-a39780d0bc0e: Item # Item
     e98e0ffd-73fa-4e57-808c-dcb9873209ca: 'Entry - Gallery' # Entry - Gallery
     e338eebb-6488-4f58-a07e-db43f28ff56b: Image # Image
     e566bfcd-b44b-40b4-9998-5175bcf91df9: 'Related Content' # Related Content
@@ -289,27 +303,20 @@ meta:
     e425947f-95b4-443c-ab86-fe521acc1f29: 'Gallery Item Type' # Gallery Item Type
     e7913600-c914-4ab1-a9bb-abd2bdcbfb94: 'Custom Name' # Custom Name
     e9726196-f241-49d4-9b6b-9e8d419e6669: 'Link Text' # Link Text
-    ec9fe774-aa9b-42b0-9f80-3a1ac7f2a979: 'Investigation Grid' # Investigation Grid
     ec78e400-20a8-42cc-a320-8fc84edd364c: 'Custom Hero' # Custom Hero
-    ecf9a160-a134-43b6-9d4f-8bd547ad101e: 'Landing Navigation' # Landing Navigation
     edef3ef4-2dfd-4dc1-92a9-2643d43cef04: Image # Image
-    ef5793ab-b4f7-45c7-be68-338184b3d385: 'Full Width' # Full Width
-    f0603433-ef74-4883-8aec-03e31f8dc34e: 'Complex Table' # Complex Table
     f1b8c943-bc12-4001-9e2a-d531379f1aaf: Pages # Pages
     f8ed5c4f-7af4-40f7-939d-b7caf9b4b501: 'News Item' # News Item
-    f69fbef5-6f67-486f-9e62-7be537bea803: 'Contact Form Topics' # Contact Form Topics
+    f52f3e9c-434e-43b5-89eb-a5776e6bc4a6: 'Callout Images' # Callout Images
     f98e0a8a-8a90-4402-9cd5-3cfddd38bff3: Link # Link
     f282d5ff-8da0-4ebb-a160-e5446c02193d: 'Job Position' # Job Position
     f456f3b4-70e5-4692-b114-31a9c47443e9: 'Gallery Item' # Gallery Item
     f444667c-6ea1-4e0f-89b2-35b059e27bfc: Link # Link
-    fa15bb4c-adb8-4393-82c3-15c2b830867c: 'Callout - quote' # Callout - quote
     fa690eba-6d46-4a5e-9dcd-0845f5b56c1b: 'Dynamic Component' # Dynamic Component
     fb052686-4537-4fe5-9ce2-ff3fd4a341a2: 'Content Image' # Content Image
-    fb3d440b-3313-476c-8ce6-9c91ba637a56: 'Download List' # Download List
     fb3283a6-7286-4b2b-a77a-010783dcee7e: Slideshows # Slideshows
     fba2e6e2-54d4-47e5-94de-b140c01cbed6: LinkedIn # LinkedIn
     fbebfdbb-a4ca-48dd-8627-37fc2ffff0a3: 'Usage Terms' # Usage Terms
-    fea30fc7-fc92-4268-961f-d514c1b903b8: 'Supporters'' Logos Alt' # Supporters' Logos Alt
 plugins:
   asset-metadata:
     edition: standard
@@ -318,7 +325,7 @@ plugins:
   aws-s3:
     edition: standard
     enabled: true
-    schemaVersion: '1.2'
+    schemaVersion: '2.0'
   contact-form:
     edition: standard
     enabled: true
@@ -329,1241 +336,15 @@ plugins:
       prependSubject: 'Contact Form Submitted'
       successFlashMessage: 'Your message has been sent.'
       toEmail: $CONTACT_FORM_NOTIFY_EMAIL
-  contact-form-honeypot:
-    edition: standard
-    enabled: true
-    schemaVersion: 1.0.0
-    settings:
-      honeypotParam: honeypot
   google-cloud:
     edition: standard
-    enabled: true
+    enabled: false
     schemaVersion: '1.1'
-  graphql-authentication:
-    edition: standard
-    enabled: true
-    licenseKey: 2O72FZR51K6PB2RMARXXAGU6
-    schemaVersion: 1.2.0
-    settings:
-      activationEmailSent: 'You will receive an email if it matches an account in our system'
-      allowRegistration: '1'
-      allowedFacebookDomains: null
-      allowedGoogleDomains: null
-      allowedTwitterDomains: null
-      appleClientId: null
-      appleClientSecret: null
-      appleRedirectUrl: null
-      appleServiceId: null
-      appleServiceSecret: null
-      assetMutations: null
-      assetNotFound: 'We couldn''t find any matching assets'
-      assetQueries: null
-      emailNotInScope: 'No email in scope'
-      entryMutations: null
-      entryNotFound: 'We couldn''t find any matching entries'
-      entryQueries: null
-      facebookAppId: $FACEBOOK_APP_ID
-      facebookAppSecret: $FACEBOOK_APP_SECRET
-      facebookEmailMismatch: 'Email address doesn''t match allowed Facebook domains'
-      facebookRedirectUrl: $FACEBOOK_APP_REDIRECT_URL
-      fieldRestrictions:
-        __assoc__:
-          -
-            - schema-1
-            -
-              __assoc__:
-                -
-                  - address
-                  - queryMutate
-                -
-                  - altText
-                  - queryMutate
-                -
-                  - assetVariants
-                  - queryMutate
-                -
-                  - assetsList
-                  - queryMutate
-                -
-                  - attribution
-                  - queryMutate
-                -
-                  - backgroundColor
-                  - queryMutate
-                -
-                  - staffBio
-                  - queryMutate
-                -
-                  - bold
-                  - queryMutate
-                -
-                  - callout
-                  - queryMutate
-                -
-                  - caption
-                  - queryMutate
-                -
-                  - captionRichText
-                  - queryMutate
-                -
-                  - city
-                  - queryMutate
-                -
-                  - closeDate
-                  - queryMutate
-                -
-                  - colophon
-                  - queryMutate
-                -
-                  - colorScheme
-                  - queryMutate
-                -
-                  - complexTable
-                  - queryMutate
-                -
-                  - contactFormTopics
-                  - queryMutate
-                -
-                  - contactInfo
-                  - queryMutate
-                -
-                  - contentBlocksNews
-                  - queryMutate
-                -
-                  - contentBlocks
-                  - queryMutate
-                -
-                  - contentImage
-                  - queryMutate
-                -
-                  - order
-                  - queryMutate
-                -
-                  - ratio
-                  - queryMutate
-                -
-                  - country
-                  - queryMutate
-                -
-                  - credit
-                  - queryMutate
-                -
-                  - creditDefault
-                  - queryMutate
-                -
-                  - customBreadcrumbs
-                  - queryMutate
-                -
-                  - customHero
-                  - queryMutate
-                -
-                  - date
-                  - queryMutate
-                -
-                  - customDateCreated
-                  - queryMutate
-                -
-                  - description
-                  - queryMutate
-                -
-                  - investigationDescription
-                  - queryMutate
-                -
-                  - siteDescription
-                  - queryMutate
-                -
-                  - dynamicComponent
-                  - queryMutate
-                -
-                  - email
-                  - queryMutate
-                -
-                  - emailSubscription
-                  - queryMutate
-                -
-                  - endDate
-                  - queryMutate
-                -
-                  - endTime
-                  - queryMutate
-                -
-                  - galleryEntry
-                  - queryMutate
-                -
-                  - newsEntry
-                  - queryMutate
-                -
-                  - pageEntry
-                  - queryMutate
-                -
-                  - pagePostEntry
-                  - queryMutate
-                -
-                  - slideshowEntry
-                  - queryMutate
-                -
-                  - staffEntry
-                  - queryMutate
-                -
-                  - eventType
-                  - queryMutate
-                -
-                  - externalUrl
-                  - queryMutate
-                -
-                  - facebook
-                  - queryMutate
-                -
-                  - featuredImage
-                  - queryMutate
-                -
-                  - floatDirection
-                  - queryMutate
-                -
-                  - focalPointX
-                  - queryMutate
-                -
-                  - focalPointY
-                  - queryMutate
-                -
-                  - galleryItemTags
-                  - queryMutate
-                -
-                  - galleryItemCategory
-                  - queryMutate
-                -
-                  - header
-                  - queryMutate
-                -
-                  - hero
-                  - queryMutate
-                -
-                  - hideTitle
-                  - queryMutate
-                -
-                  - damAsset
-                  - queryMutate
-                -
-                  - siteImage
-                  - queryMutate
-                -
-                  - imageQuote
-                  - queryMutate
-                -
-                  - padImage
-                  - queryMutate
-                -
-                  - instagram
-                  - queryMutate
-                -
-                  - investigation
-                  - queryMutate
-                -
-                  - isActive
-                  - queryMutate
-                -
-                  - jobPosition
-                  - queryMutate
-                -
-                  - landingNavigation
-                  - queryMutate
-                -
-                  - landingPage
-                  - queryMutate
-                -
-                  - mixedLink
-                  - queryMutate
-                -
-                  - linkText
-                  - queryMutate
-                -
-                  - linkTo
-                  - queryMutate
-                -
-                  - linkedIn
-                  - queryMutate
-                -
-                  - links
-                  - queryMutate
-                -
-                  - staffLocation
-                  - queryMutate
-                -
-                  - metadataDate
-                  - queryMutate
-                -
-                  - metadataVersion
-                  - queryMutate
-                -
-                  - metadataVersionDefault
-                  - queryMutate
-                -
-                  - newsAssets
-                  - queryMutate
-                -
-                  - numberOfItems
-                  - queryMutate
-                -
-                  - openDate
-                  - queryMutate
-                -
-                  - overlapHero
-                  - queryMutate
-                -
-                  - pageType
-                  - queryMutate
-                -
-                  - phoneNumber
-                  - queryMutate
-                -
-                  - plainText
-                  - queryMutate
-                -
-                  - staffPortrait
-                  - queryMutate
-                -
-                  - postType
-                  - queryMutate
-                -
-                  - preferredLanguage
-                  - queryMutate
-                -
-                  - publisher
-                  - queryMutate
-                -
-                  - publisherDefault
-                  - queryMutate
-                -
-                  - publisherId
-                  - queryMutate
-                -
-                  - publisherIdDefault
-                  - queryMutate
-                -
-                  - pullQuote
-                  - queryMutate
-                -
-                  - quote
-                  - queryMutate
-                -
-                  - registrationCloseDate
-                  - queryMutate
-                -
-                  - registrationOpenDate
-                  - queryMutate
-                -
-                  - representativeAssetVariant
-                  - queryMutate
-                -
-                  - requestDeletion
-                  - queryMutate
-                -
-                  - richTextDescription
-                  - queryMutate
-                -
-                  - school
-                  - queryMutate
-                -
-                  - showSiblingNav
-                  - queryMutate
-                -
-                  - simpleTable
-                  - queryMutate
-                -
-                  - slideshowItems
-                  - queryMutate
-                -
-                  - staffTags
-                  - queryMutate
-                -
-                  - staffTradingCard
-                  - queryMutate
-                -
-                  - startTime
-                  - queryMutate
-                -
-                  - state
-                  - queryMutate
-                -
-                  - subHeroText
-                  - queryMutate
-                -
-                  - subLocation
-                  - queryMutate
-                -
-                  - supportersLogosAlt
-                  - queryMutate
-                -
-                  - supportersLogos
-                  - queryMutate
-                -
-                  - postTags
-                  - queryMutate
-                -
-                  - teaser
-                  - queryMutate
-                -
-                  - text
-                  - queryMutate
-                -
-                  - siteTitle
-                  - queryMutate
-                -
-                  - twitter
-                  - queryMutate
-                -
-                  - staffType
-                  - queryMutate
-                -
-                  - usageTerms
-                  - queryMutate
-                -
-                  - usageTermsDefault
-                  - queryMutate
-                -
-                  - useExternalLink
-                  - queryMutate
-                -
-                  - verticalAlignment
-                  - queryMutate
-                -
-                  - width
-                  - queryMutate
-                -
-                  - youTube
-                  - queryMutate
-                -
-                  - metadata
-                  - queryMutate
-          -
-            - 'schema-Educator Schema'
-            -
-              __assoc__:
-                -
-                  - address
-                  - queryMutate
-                -
-                  - altText
-                  - queryMutate
-                -
-                  - assetVariants
-                  - queryMutate
-                -
-                  - assetsList
-                  - queryMutate
-                -
-                  - attribution
-                  - queryMutate
-                -
-                  - backgroundColor
-                  - queryMutate
-                -
-                  - staffBio
-                  - queryMutate
-                -
-                  - bold
-                  - queryMutate
-                -
-                  - callout
-                  - queryMutate
-                -
-                  - caption
-                  - queryMutate
-                -
-                  - captionRichText
-                  - queryMutate
-                -
-                  - city
-                  - queryMutate
-                -
-                  - closeDate
-                  - queryMutate
-                -
-                  - colophon
-                  - queryMutate
-                -
-                  - colorScheme
-                  - queryMutate
-                -
-                  - complexTable
-                  - queryMutate
-                -
-                  - contactFormTopics
-                  - queryMutate
-                -
-                  - contactInfo
-                  - queryMutate
-                -
-                  - contentBlocksNews
-                  - queryMutate
-                -
-                  - contentBlocks
-                  - queryMutate
-                -
-                  - contentImage
-                  - queryMutate
-                -
-                  - order
-                  - queryMutate
-                -
-                  - ratio
-                  - queryMutate
-                -
-                  - country
-                  - queryMutate
-                -
-                  - credit
-                  - queryMutate
-                -
-                  - creditDefault
-                  - queryMutate
-                -
-                  - customBreadcrumbs
-                  - queryMutate
-                -
-                  - customHero
-                  - queryMutate
-                -
-                  - date
-                  - queryMutate
-                -
-                  - customDateCreated
-                  - queryMutate
-                -
-                  - description
-                  - queryMutate
-                -
-                  - investigationDescription
-                  - queryMutate
-                -
-                  - siteDescription
-                  - queryMutate
-                -
-                  - dynamicComponent
-                  - queryMutate
-                -
-                  - email
-                  - queryMutate
-                -
-                  - emailSubscription
-                  - queryMutate
-                -
-                  - endDate
-                  - queryMutate
-                -
-                  - endTime
-                  - queryMutate
-                -
-                  - galleryEntry
-                  - queryMutate
-                -
-                  - newsEntry
-                  - queryMutate
-                -
-                  - pageEntry
-                  - queryMutate
-                -
-                  - pagePostEntry
-                  - queryMutate
-                -
-                  - slideshowEntry
-                  - queryMutate
-                -
-                  - staffEntry
-                  - queryMutate
-                -
-                  - eventType
-                  - queryMutate
-                -
-                  - externalUrl
-                  - queryMutate
-                -
-                  - facebook
-                  - queryMutate
-                -
-                  - featuredImage
-                  - queryMutate
-                -
-                  - floatDirection
-                  - queryMutate
-                -
-                  - focalPointX
-                  - queryMutate
-                -
-                  - focalPointY
-                  - queryMutate
-                -
-                  - galleryItemTags
-                  - queryMutate
-                -
-                  - galleryItemCategory
-                  - queryMutate
-                -
-                  - header
-                  - queryMutate
-                -
-                  - hero
-                  - queryMutate
-                -
-                  - hideTitle
-                  - queryMutate
-                -
-                  - damAsset
-                  - queryMutate
-                -
-                  - siteImage
-                  - queryMutate
-                -
-                  - imageQuote
-                  - queryMutate
-                -
-                  - padImage
-                  - queryMutate
-                -
-                  - instagram
-                  - queryMutate
-                -
-                  - investigation
-                  - queryMutate
-                -
-                  - isActive
-                  - queryMutate
-                -
-                  - jobPosition
-                  - queryMutate
-                -
-                  - landingNavigation
-                  - queryMutate
-                -
-                  - landingPage
-                  - queryMutate
-                -
-                  - mixedLink
-                  - queryMutate
-                -
-                  - linkText
-                  - queryMutate
-                -
-                  - linkTo
-                  - queryMutate
-                -
-                  - linkedIn
-                  - queryMutate
-                -
-                  - links
-                  - queryMutate
-                -
-                  - staffLocation
-                  - queryMutate
-                -
-                  - metadataDate
-                  - queryMutate
-                -
-                  - metadataVersion
-                  - queryMutate
-                -
-                  - metadataVersionDefault
-                  - queryMutate
-                -
-                  - newsAssets
-                  - queryMutate
-                -
-                  - numberOfItems
-                  - queryMutate
-                -
-                  - openDate
-                  - queryMutate
-                -
-                  - overlapHero
-                  - queryMutate
-                -
-                  - pageType
-                  - queryMutate
-                -
-                  - phoneNumber
-                  - queryMutate
-                -
-                  - plainText
-                  - queryMutate
-                -
-                  - staffPortrait
-                  - queryMutate
-                -
-                  - postType
-                  - queryMutate
-                -
-                  - preferredLanguage
-                  - queryMutate
-                -
-                  - publisher
-                  - queryMutate
-                -
-                  - publisherDefault
-                  - queryMutate
-                -
-                  - publisherId
-                  - queryMutate
-                -
-                  - publisherIdDefault
-                  - queryMutate
-                -
-                  - pullQuote
-                  - queryMutate
-                -
-                  - quote
-                  - queryMutate
-                -
-                  - registrationCloseDate
-                  - queryMutate
-                -
-                  - registrationOpenDate
-                  - queryMutate
-                -
-                  - representativeAssetVariant
-                  - queryMutate
-                -
-                  - requestDeletion
-                  - queryMutate
-                -
-                  - richTextDescription
-                  - queryMutate
-                -
-                  - school
-                  - queryMutate
-                -
-                  - showSiblingNav
-                  - queryMutate
-                -
-                  - simpleTable
-                  - queryMutate
-                -
-                  - slideshowItems
-                  - queryMutate
-                -
-                  - staffTags
-                  - queryMutate
-                -
-                  - staffTradingCard
-                  - queryMutate
-                -
-                  - startTime
-                  - queryMutate
-                -
-                  - state
-                  - queryMutate
-                -
-                  - subHeroText
-                  - queryMutate
-                -
-                  - subLocation
-                  - queryMutate
-                -
-                  - supportersLogosAlt
-                  - queryMutate
-                -
-                  - supportersLogos
-                  - queryMutate
-                -
-                  - postTags
-                  - queryMutate
-                -
-                  - teaser
-                  - queryMutate
-                -
-                  - text
-                  - queryMutate
-                -
-                  - siteTitle
-                  - queryMutate
-                -
-                  - twitter
-                  - queryMutate
-                -
-                  - staffType
-                  - queryMutate
-                -
-                  - usageTerms
-                  - queryMutate
-                -
-                  - usageTermsDefault
-                  - queryMutate
-                -
-                  - useExternalLink
-                  - queryMutate
-                -
-                  - verticalAlignment
-                  - queryMutate
-                -
-                  - width
-                  - queryMutate
-                -
-                  - youTube
-                  - queryMutate
-                -
-                  - metadata
-                  - queryMutate
-          -
-            - 'schema-Student Schema'
-            -
-              __assoc__:
-                -
-                  - address
-                  - queryMutate
-                -
-                  - altText
-                  - queryMutate
-                -
-                  - assetVariants
-                  - queryMutate
-                -
-                  - assetsList
-                  - queryMutate
-                -
-                  - attribution
-                  - queryMutate
-                -
-                  - backgroundColor
-                  - queryMutate
-                -
-                  - staffBio
-                  - queryMutate
-                -
-                  - bold
-                  - queryMutate
-                -
-                  - callout
-                  - queryMutate
-                -
-                  - caption
-                  - queryMutate
-                -
-                  - captionRichText
-                  - queryMutate
-                -
-                  - city
-                  - queryMutate
-                -
-                  - closeDate
-                  - queryMutate
-                -
-                  - colophon
-                  - queryMutate
-                -
-                  - colorScheme
-                  - queryMutate
-                -
-                  - complexTable
-                  - queryMutate
-                -
-                  - contactFormTopics
-                  - queryMutate
-                -
-                  - contactInfo
-                  - queryMutate
-                -
-                  - contentBlocksNews
-                  - queryMutate
-                -
-                  - contentBlocks
-                  - queryMutate
-                -
-                  - contentImage
-                  - queryMutate
-                -
-                  - order
-                  - queryMutate
-                -
-                  - ratio
-                  - queryMutate
-                -
-                  - country
-                  - queryMutate
-                -
-                  - credit
-                  - queryMutate
-                -
-                  - creditDefault
-                  - queryMutate
-                -
-                  - customBreadcrumbs
-                  - queryMutate
-                -
-                  - customHero
-                  - queryMutate
-                -
-                  - date
-                  - queryMutate
-                -
-                  - customDateCreated
-                  - queryMutate
-                -
-                  - description
-                  - queryMutate
-                -
-                  - investigationDescription
-                  - queryMutate
-                -
-                  - siteDescription
-                  - queryMutate
-                -
-                  - dynamicComponent
-                  - queryMutate
-                -
-                  - email
-                  - queryMutate
-                -
-                  - emailSubscription
-                  - queryMutate
-                -
-                  - endDate
-                  - queryMutate
-                -
-                  - endTime
-                  - queryMutate
-                -
-                  - galleryEntry
-                  - queryMutate
-                -
-                  - newsEntry
-                  - queryMutate
-                -
-                  - pageEntry
-                  - queryMutate
-                -
-                  - pagePostEntry
-                  - queryMutate
-                -
-                  - slideshowEntry
-                  - queryMutate
-                -
-                  - staffEntry
-                  - queryMutate
-                -
-                  - eventType
-                  - queryMutate
-                -
-                  - externalUrl
-                  - queryMutate
-                -
-                  - facebook
-                  - queryMutate
-                -
-                  - featuredImage
-                  - queryMutate
-                -
-                  - floatDirection
-                  - queryMutate
-                -
-                  - focalPointX
-                  - queryMutate
-                -
-                  - focalPointY
-                  - queryMutate
-                -
-                  - galleryItemTags
-                  - queryMutate
-                -
-                  - galleryItemCategory
-                  - queryMutate
-                -
-                  - header
-                  - queryMutate
-                -
-                  - hero
-                  - queryMutate
-                -
-                  - hideTitle
-                  - queryMutate
-                -
-                  - damAsset
-                  - queryMutate
-                -
-                  - siteImage
-                  - queryMutate
-                -
-                  - imageQuote
-                  - queryMutate
-                -
-                  - padImage
-                  - queryMutate
-                -
-                  - instagram
-                  - queryMutate
-                -
-                  - investigation
-                  - queryMutate
-                -
-                  - isActive
-                  - queryMutate
-                -
-                  - jobPosition
-                  - queryMutate
-                -
-                  - landingNavigation
-                  - queryMutate
-                -
-                  - landingPage
-                  - queryMutate
-                -
-                  - mixedLink
-                  - queryMutate
-                -
-                  - linkText
-                  - queryMutate
-                -
-                  - linkTo
-                  - queryMutate
-                -
-                  - linkedIn
-                  - queryMutate
-                -
-                  - links
-                  - queryMutate
-                -
-                  - staffLocation
-                  - queryMutate
-                -
-                  - metadataDate
-                  - queryMutate
-                -
-                  - metadataVersion
-                  - queryMutate
-                -
-                  - metadataVersionDefault
-                  - queryMutate
-                -
-                  - newsAssets
-                  - queryMutate
-                -
-                  - numberOfItems
-                  - queryMutate
-                -
-                  - openDate
-                  - queryMutate
-                -
-                  - overlapHero
-                  - queryMutate
-                -
-                  - pageType
-                  - queryMutate
-                -
-                  - phoneNumber
-                  - queryMutate
-                -
-                  - plainText
-                  - queryMutate
-                -
-                  - staffPortrait
-                  - queryMutate
-                -
-                  - postType
-                  - queryMutate
-                -
-                  - preferredLanguage
-                  - queryMutate
-                -
-                  - publisher
-                  - queryMutate
-                -
-                  - publisherDefault
-                  - queryMutate
-                -
-                  - publisherId
-                  - queryMutate
-                -
-                  - publisherIdDefault
-                  - queryMutate
-                -
-                  - pullQuote
-                  - queryMutate
-                -
-                  - quote
-                  - queryMutate
-                -
-                  - registrationCloseDate
-                  - queryMutate
-                -
-                  - registrationOpenDate
-                  - queryMutate
-                -
-                  - representativeAssetVariant
-                  - queryMutate
-                -
-                  - requestDeletion
-                  - queryMutate
-                -
-                  - richTextDescription
-                  - queryMutate
-                -
-                  - school
-                  - queryMutate
-                -
-                  - showSiblingNav
-                  - queryMutate
-                -
-                  - simpleTable
-                  - queryMutate
-                -
-                  - slideshowItems
-                  - queryMutate
-                -
-                  - staffTags
-                  - queryMutate
-                -
-                  - staffTradingCard
-                  - queryMutate
-                -
-                  - startTime
-                  - queryMutate
-                -
-                  - state
-                  - queryMutate
-                -
-                  - subHeroText
-                  - queryMutate
-                -
-                  - subLocation
-                  - queryMutate
-                -
-                  - supportersLogosAlt
-                  - queryMutate
-                -
-                  - supportersLogos
-                  - queryMutate
-                -
-                  - postTags
-                  - queryMutate
-                -
-                  - teaser
-                  - queryMutate
-                -
-                  - text
-                  - queryMutate
-                -
-                  - siteTitle
-                  - queryMutate
-                -
-                  - twitter
-                  - queryMutate
-                -
-                  - staffType
-                  - queryMutate
-                -
-                  - usageTerms
-                  - queryMutate
-                -
-                  - usageTermsDefault
-                  - queryMutate
-                -
-                  - useExternalLink
-                  - queryMutate
-                -
-                  - verticalAlignment
-                  - queryMutate
-                -
-                  - width
-                  - queryMutate
-                -
-                  - youTube
-                  - queryMutate
-                -
-                  - metadata
-                  - queryMutate
-      forbiddenField: 'User doesn''t have permission to access requested field(s)'
-      forbiddenMutation: 'User doesn''t have permission to perform this mutation'
-      googleClientId: $GOOGLE_APP_ID
-      googleEmailMismatch: 'Email address doesn''t match allowed Google domains'
-      googleTokenIdInvalid: 'Invalid Google Token ID'
-      granularSchemas:
-        __assoc__:
-          -
-            - group-1
-            -
-              __assoc__:
-                -
-                  - schemaName
-                  - ''
-                -
-                  - allowRegistration
-                  - ''
-                -
-                  - siteId
-                  - ''
-          -
-            - group-10
-            -
-              __assoc__:
-                -
-                  - schemaName
-                  - 'Educator Schema'
-                -
-                  - allowRegistration
-                  - '1'
-                -
-                  - siteId
-                  - ''
-          -
-            - group-11
-            -
-              __assoc__:
-                -
-                  - schemaName
-                  - 'Student Schema'
-                -
-                  - allowRegistration
-                  - '1'
-                -
-                  - siteId
-                  - ''
-      invalidEmailAddress: 'Invalid email address'
-      invalidHeader: 'Invalid Authorization Header'
-      invalidJwtSecretKey: 'Invalid JWT Secret Key'
-      invalidLogin: 'We couldn''t log you in with the provided details'
-      invalidOauthToken: 'Invalid OAuth Token'
-      invalidPasswordMatch: 'New passwords do not match'
-      invalidPasswordUpdate: 'We couldn''t update the password with the provided details'
-      invalidRefreshToken: 'Invalid Refresh Token'
-      invalidRequest: 'Cannot validate request'
-      invalidSchema: 'No schema has been set for this user group'
-      invalidUserUpdate: 'We couldn''t update the user with the provided details'
-      jwtExpiration: '30 minutes'
-      jwtRefreshExpiration: '3 months'
-      jwtSecretKey: D7-h5FVM6i4s9Q5V9Z1EEhggbVy4p9qX
-      passwordResetRequired: 'Password reset required; please check your email'
-      passwordResetSent: 'You will receive an email if it matches an account in our system'
-      passwordSaved: 'Successfully saved password'
-      passwordUpdated: 'Successfully updated password'
-      permissionType: multiple
-      sameSitePolicy: strict
-      schemaId: null
-      schemaName: null
-      siteId: ''
-      tokenNotFound: 'We couldn''t find any matching tokens'
-      twitterApiKey: null
-      twitterApiKeySecret: null
-      twitterEmailMismatch: 'Email address doesn''t match allowed Twitter domains'
-      twitterRedirectUrl: null
-      userActivated: 'Successfully activated user'
-      userGroup: null
-      userNotActivated: 'Please activate your account before logging in'
-      userNotFound: 'We couldn''t find any matching users'
-      volumeNotFound: 'We couldn''t find any matching volumes'
   neo:
     edition: standard
     enabled: true
-    licenseKey: ZKF1B0S7W0NR4OSH4WIXAK30
-    schemaVersion: 2.13.0
-  oembed:
-    edition: standard
-    enabled: true
-    schemaVersion: 1.0.1
-    settings:
-      enableCache: '1'
-      enableGdpr: ''
-      enableNotifications: ''
-      facebookKey: ''
-      notificationEmail: ''
-      previewHidden: ''
+    licenseKey: 3ZVYZYMFBDVZNFFTO4ZHHX88
+    schemaVersion: 3.3.0
   phone-number:
     edition: standard
     enabled: true
@@ -1572,28 +353,22 @@ plugins:
     edition: standard
     enabled: true
     schemaVersion: 2.3.0
-  super-table:
-    edition: standard
-    enabled: true
-    schemaVersion: 2.2.1
   typedlinkfield:
     edition: standard
     enabled: true
     schemaVersion: 2.0.0
   universal-dam-integrator:
-    edition: standard
     enabled: true
-    schemaVersion: 1.0.0
     settings:
-      appId: $CANTO_APP_ID
-      authEndpoint: $CANTO_AUTH_ENDPOINT
+      appId: 52ff8ed9d6874d48a3bef9621bc1af26
+      authEndpoint: 'https://oauth.canto.com/oauth/api/oauth2/token?app_id={appId}&app_secret={secretKey}&grant_type=client_credentials&refresh_token='
       damVolume: cantoDam
-      retrieveAssetMetadataEndpoint: $CANTO_ASSET_ENDPOINT
-      secretKey: $CANTO_SECRET_KEY
+      retrieveAssetMetadataEndpoint: 'https://rubin.canto.com/api/v1/image/'
+      secretKey: 1d12371b7dee4a7d87c6886d777056095642d672cacf4138b848b7b01173f019
 system:
   edition: pro
   live: true
   name: 'Rubin Telescope Education and Public Outreach'
   retryDuration: null
-  schemaVersion: 3.7.33
+  schemaVersion: 4.0.0.9
   timeZone: America/Los_Angeles

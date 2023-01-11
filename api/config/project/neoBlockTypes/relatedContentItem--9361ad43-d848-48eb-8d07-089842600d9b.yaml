@@ -1,4 +1,4 @@
-childBlocks: null
+childBlocks: ''
 field: 72e5075a-9b06-4674-b040-615f4a6f7b70 # Content Blocks - Pages
 fieldLayouts:
   24eed9a2-1842-4d0b-96f0-485dfe1c7c35:
@@ -6,7 +6,7 @@ fieldLayouts:
       -
         elements:
           -
-            fieldUid: 0df27088-950f-4f9e-9115-06e8f780b5ca # Entry - Page, Post & Investigation
+            fieldUid: 0df27088-950f-4f9e-9115-06e8f780b5ca # Entry - Page & Post
             instructions: null
             label: null
             required: false
@@ -16,11 +16,10 @@ fieldLayouts:
             width: 100
         name: Content
         sortOrder: 1
-group: null
 handle: relatedContentItem
 maxBlocks: 0
 maxChildBlocks: 0
 maxSiblingBlocks: 0
 name: 'Related Item'
-sortOrder: 20
+sortOrder: 18
 topLevel: false

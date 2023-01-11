@@ -13,7 +13,7 @@ settings:
   defaultUploadLocationSource: 'volume:8e9ec71e-2cf0-4f6a-b856-8976de0ce100' # Heroes
   defaultUploadLocationSubpath: ''
   limit: '1'
-  localizeRelations: true
+  localizeRelations: false
   previewMode: full
   restrictFiles: '1'
   selectionLabel: 'Add an image'

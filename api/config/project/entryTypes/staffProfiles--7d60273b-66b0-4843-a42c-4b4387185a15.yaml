@@ -23,7 +23,7 @@ fieldLayouts:
             step: null
             tip: null
             title: null
-            type: craft\fieldlayoutelements\EntryTitleField
+            type: craft\fieldlayoutelements\entries\EntryTitleField
             warning: null
             width: 100
           -
@@ -52,16 +52,16 @@ fieldLayouts:
             tip: null
             type: craft\fieldlayoutelements\CustomField
             warning: null
-            width: 50
+            width: 100
           -
-            fieldUid: 4d3b7f4d-258a-4d7b-b41e-29398e23ae3f # Staff Tags
-            instructions: null
-            label: null
-            required: false
+            fieldUid: 7beb32e3-0674-4b9c-9878-022862950868 # Type
+            instructions: ''
+            label: ''
+            required: '1'
             tip: null
             type: craft\fieldlayoutelements\CustomField
             warning: null
-            width: 50
+            width: 100
           -
             fieldUid: 7e3805b7-2117-4d8a-865a-5abd90b6d518 # Portrait
             instructions: ''
@@ -70,27 +70,18 @@ fieldLayouts:
             tip: null
             type: craft\fieldlayoutelements\CustomField
             warning: null
-            width: 50
-          -
-            fieldUid: 1f7ad44a-de72-4538-9628-acdbc79e32f6 # Staff Trading Card
-            instructions: null
-            label: null
-            required: false
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            warning: null
-            width: 50
+            width: 100
           -
             fieldUid: b0ce3829-20c1-44ef-a7c7-499800645afc # Header
-            instructions: 'NOTE: Content from this field should be moved into the rich text  field below.'
-            label: 'Pull Quote (old)'
+            instructions: ''
+            label: 'Pull Quote'
             required: ''
             tip: null
             type: craft\fieldlayoutelements\CustomField
             warning: null
             width: 100
           -
-            fieldUid: a7447c0c-7c32-465a-b00b-36ee15bd028a # Pull Quote
+            fieldUid: b144a695-58be-4586-81cf-0ae9030280ce # Bio
             instructions: null
             label: null
             required: false
@@ -116,24 +107,6 @@ fieldLayouts:
             type: craft\fieldlayoutelements\CustomField
             warning: null
             width: 50
-          -
-            fieldUid: b144a695-58be-4586-81cf-0ae9030280ce # Bio
-            instructions: null
-            label: null
-            required: false
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            warning: null
-            width: 100
-          -
-            fieldUid: 522db817-08b6-4ecf-a423-4aec204ab85d # Content Blocks - News
-            instructions: ''
-            label: 'Content Blocks'
-            required: ''
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            warning: null
-            width: 100
         name: Content
         sortOrder: 1
 handle: staffProfiles

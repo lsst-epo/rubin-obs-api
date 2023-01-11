@@ -11,12 +11,12 @@ settings:
   allowedKinds: null
   defaultUploadLocationSource: ''
   defaultUploadLocationSubpath: null
-  limit: '1'
-  localizeRelations: true
+  limit: ''
+  localizeRelations: false
   previewMode: full
   restrictFiles: null
   selectionLabel: ''
-  showSiteMenu: true
+  showSiteMenu: false
   showUnpermittedFiles: false
   showUnpermittedVolumes: true
   singleUploadLocationSource: ''

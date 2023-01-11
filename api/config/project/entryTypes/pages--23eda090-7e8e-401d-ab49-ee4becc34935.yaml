@@ -23,7 +23,7 @@ fieldLayouts:
             step: null
             tip: null
             title: null
-            type: craft\fieldlayoutelements\EntryTitleField
+            type: craft\fieldlayoutelements\entries\EntryTitleField
             warning: null
             width: 75
           -
@@ -61,16 +61,7 @@ fieldLayouts:
             tip: null
             type: craft\fieldlayoutelements\CustomField
             warning: null
-            width: 75
-          -
-            fieldUid: 00f1f9f6-c710-431d-bf34-22e3a62d5172 # Overlap Hero
-            instructions: null
-            label: null
-            required: false
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            warning: null
-            width: 25
+            width: 100
           -
             fieldUid: 72e5075a-9b06-4674-b040-615f4a6f7b70 # Content Blocks - Pages
             instructions: null
@@ -100,46 +91,6 @@ fieldLayouts:
             width: 100
         name: Pages
         sortOrder: 1
-      -
-        elements:
-          -
-            fieldUid: 7970cd65-7a96-418a-8581-d6df4e039e6d # Plain Text
-            instructions: ''
-            label: 'Sub Hero Header'
-            required: ''
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            warning: null
-            width: 75
-          -
-            fieldUid: d7fc5f39-2426-421b-bd0b-10aadae80ae3 # Color Scheme
-            instructions: null
-            label: null
-            required: false
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            warning: null
-            width: 25
-          -
-            fieldUid: 24f23fec-fc66-46f8-86e1-396d01315ad2 # Sub Hero Text
-            instructions: null
-            label: null
-            required: false
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            warning: null
-            width: 100
-          -
-            fieldUid: 6e888efc-ab7a-4c15-9ec5-5954b52984ca # Show Sibling Nav
-            instructions: null
-            label: null
-            required: false
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            warning: null
-            width: 100
-        name: 'Sub Hero Content'
-        sortOrder: 2
 handle: pages
 hasTitleField: true
 name: Pages

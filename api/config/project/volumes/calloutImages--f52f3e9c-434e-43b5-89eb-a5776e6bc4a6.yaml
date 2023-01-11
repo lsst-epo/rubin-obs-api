@@ -1,5 +1,5 @@
 fieldLayouts:
-  0bb6c604-c476-48b5-aaa7-1a297fd47a97:
+  693d6c3c-68a1-4095-af9e-0b2d893972a6:
     tabs:
       -
         elements:
@@ -23,16 +23,25 @@ fieldLayouts:
             step: null
             tip: null
             title: null
-            type: craft\fieldlayoutelements\EntryTitleField
+            type: craft\fieldlayoutelements\TitleField
+            warning: null
+            width: 100
+          -
+            fieldUid: 39af5de5-d299-4bc5-965a-af2d128c7f1a # Alternative Text
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
             warning: null
             width: 100
         name: Content
         sortOrder: 1
-handle: userProfilePage
-hasTitleField: true
-name: 'User Profile Page'
-section: 1ee32484-2cca-457e-ac23-b3cb13e652d3 # User Profile Page
-sortOrder: 1
-titleFormat: '{section.name|raw}'
+fs: calloutImages
+handle: calloutImages
+hasUrls: true
+name: 'Callout Images'
+sortOrder: 5
 titleTranslationKeyFormat: null
 titleTranslationMethod: site
+url: 'https://storage.googleapis.com/rubin-obs-api_assets_callouts/'

@@ -7,12 +7,10 @@ name: 'Content Blocks - News'
 searchable: true
 settings:
   maxBlocks: ''
-  maxLevels: ''
   maxTopBlocks: ''
   minBlocks: ''
-  propagationKeyFormat: null
   propagationMethod: all
-  wasModified: false
+  wasModified: true
 translationKeyFormat: null
 translationMethod: site
 type: benf\neo\Field

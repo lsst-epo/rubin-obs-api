@@ -1,4 +1,4 @@
-childBlocks: null
+childBlocks: ''
 field: 72e5075a-9b06-4674-b040-615f4a6f7b70 # Content Blocks - Pages
 fieldLayouts:
   72820c08-6638-412b-bb2c-97b8150cc0ec:
@@ -43,11 +43,10 @@ fieldLayouts:
             width: 100
         name: default
         sortOrder: 1
-group: null
 handle: scheduleRow
 maxBlocks: 0
 maxChildBlocks: 0
 maxSiblingBlocks: 0
 name: 'Schedule Row'
-sortOrder: 22
+sortOrder: 20
 topLevel: false

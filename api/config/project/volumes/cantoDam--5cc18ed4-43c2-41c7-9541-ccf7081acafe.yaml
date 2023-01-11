@@ -1,5 +1,5 @@
 fieldLayouts:
-  c330b999-9256-47db-ad3c-475f72d25356:
+  a8b15beb-1731-49ae-8194-c02e3b837250:
     tabs:
       -
         elements:
@@ -23,10 +23,16 @@ fieldLayouts:
             step: null
             tip: null
             title: null
-            type: craft\fieldlayoutelements\TitleField
+            type: craft\fieldlayoutelements\assets\AssetTitleField
             warning: null
             width: 100
         name: Content
         sortOrder: 1
-handle: staffTags
-name: 'Staff Tags'
+fs: cantoDam
+handle: cantoDam
+hasUrls: true
+name: 'Canto DAM'
+sortOrder: 9
+titleTranslationKeyFormat: null
+titleTranslationMethod: site
+url: 'https://rubin.canto.com/direct/'
