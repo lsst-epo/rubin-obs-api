@@ -30,7 +30,7 @@ fieldLayouts:
             fieldUid: 05eead62-7bf9-43e4-a7e8-bcd8f9f77323 # Hero
             instructions: ''
             label: ''
-            required: '1'
+            required: ''
             tip: null
             type: craft\fieldlayoutelements\CustomField
             warning: null
