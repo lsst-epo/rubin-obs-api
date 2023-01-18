@@ -1,4 +1,4 @@
-ARG BASE_TAG=latest
+ARG BASE_TAG=php-8
 # Composer dependencies
 FROM composer:2 as vendor
 COPY api/composer.json composer.json
