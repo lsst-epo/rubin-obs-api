@@ -2,66 +2,57 @@ description: 'Editors can edit content on both EN and ES sites. This includes al
 handle: editors
 name: Editors
 permissions:
-  - accesssitewhensystemisoff
-  - accesscpwhensystemisoff
   - accesscp
-  - 'editsite:547128fa-4529-4483-9968-66425996b69f' # EN
-  - 'editsite:2c2e1c6a-eb4d-44f1-9a43-8d79b326f354' # ES
-  - 'createentries:7cad6f4e-cc7b-45cf-ac7b-6f383e77bc1b' # Callouts
-  - 'deleteentries:7cad6f4e-cc7b-45cf-ac7b-6f383e77bc1b' # Callouts
-  - 'deletepeerentries:7cad6f4e-cc7b-45cf-ac7b-6f383e77bc1b' # Callouts
-  - 'deletepeerentrydrafts:7cad6f4e-cc7b-45cf-ac7b-6f383e77bc1b' # Callouts
-  - 'createentries:4305f2e2-40b8-47b2-8b62-135b8b57be7f' # Events
-  - 'deleteentries:4305f2e2-40b8-47b2-8b62-135b8b57be7f' # Events
-  - 'deletepeerentries:4305f2e2-40b8-47b2-8b62-135b8b57be7f' # Events
-  - 'deletepeerentrydrafts:4305f2e2-40b8-47b2-8b62-135b8b57be7f' # Events
+  - accesscpwhensystemisoff
+  - accesssitewhensystemisoff
+  - 'createentries:11be7603-f576-4af8-93a6-e285e4ff42c4' # News
   - 'createentries:3a8b9653-cdd3-46ce-84b2-d73b5dc4de63' # Gallery
+  - 'createentries:4305f2e2-40b8-47b2-8b62-135b8b57be7f' # Events
+  - 'createentries:4ffeb743-f02d-42af-8656-a6f9c1363e79' # Glossary Terms
+  - 'createentries:546e0c6d-dd32-4997-8487-cc4c2fcc9480' # Investigations
+  - 'createentries:59fb5a9e-74f4-4618-adba-601791f42c92' # Jobs
+  - 'createentries:78410791-6edc-46c9-a17b-4358dcd545ec' # Staff Profiles
+  - 'createentries:7cad6f4e-cc7b-45cf-ac7b-6f383e77bc1b' # Callouts
+  - 'createentries:f1b8c943-bc12-4001-9e2a-d531379f1aaf' # Pages
+  - 'createentries:fb3283a6-7286-4b2b-a77a-010783dcee7e' # Slideshows
+  - 'deleteentries:11be7603-f576-4af8-93a6-e285e4ff42c4' # News
   - 'deleteentries:3a8b9653-cdd3-46ce-84b2-d73b5dc4de63' # Gallery
+  - 'deleteentries:4305f2e2-40b8-47b2-8b62-135b8b57be7f' # Events
+  - 'deleteentries:4ffeb743-f02d-42af-8656-a6f9c1363e79' # Glossary Terms
+  - 'deleteentries:546e0c6d-dd32-4997-8487-cc4c2fcc9480' # Investigations
+  - 'deleteentries:59fb5a9e-74f4-4618-adba-601791f42c92' # Jobs
+  - 'deleteentries:78410791-6edc-46c9-a17b-4358dcd545ec' # Staff Profiles
+  - 'deleteentries:7cad6f4e-cc7b-45cf-ac7b-6f383e77bc1b' # Callouts
+  - 'deleteentries:f1b8c943-bc12-4001-9e2a-d531379f1aaf' # Pages
+  - 'deleteentries:fb3283a6-7286-4b2b-a77a-010783dcee7e' # Slideshows
+  - 'deletepeerentries:11be7603-f576-4af8-93a6-e285e4ff42c4' # News
   - 'deletepeerentries:3a8b9653-cdd3-46ce-84b2-d73b5dc4de63' # Gallery
+  - 'deletepeerentries:4305f2e2-40b8-47b2-8b62-135b8b57be7f' # Events
+  - 'deletepeerentries:4ffeb743-f02d-42af-8656-a6f9c1363e79' # Glossary Terms
+  - 'deletepeerentries:546e0c6d-dd32-4997-8487-cc4c2fcc9480' # Investigations
+  - 'deletepeerentries:59fb5a9e-74f4-4618-adba-601791f42c92' # Jobs
+  - 'deletepeerentries:78410791-6edc-46c9-a17b-4358dcd545ec' # Staff Profiles
+  - 'deletepeerentries:7cad6f4e-cc7b-45cf-ac7b-6f383e77bc1b' # Callouts
+  - 'deletepeerentries:f1b8c943-bc12-4001-9e2a-d531379f1aaf' # Pages
+  - 'deletepeerentries:fb3283a6-7286-4b2b-a77a-010783dcee7e' # Slideshows
+  - 'deletepeerentrydrafts:11be7603-f576-4af8-93a6-e285e4ff42c4' # News
   - 'deletepeerentrydrafts:3a8b9653-cdd3-46ce-84b2-d73b5dc4de63' # Gallery
   - 'deletepeerentrydrafts:3e10dcca-4dd1-4578-8add-708cd9740881' # Homepage
-  - 'createentries:59fb5a9e-74f4-4618-adba-601791f42c92' # Jobs
-  - 'deleteentries:59fb5a9e-74f4-4618-adba-601791f42c92' # Jobs
-  - 'deletepeerentries:59fb5a9e-74f4-4618-adba-601791f42c92' # Jobs
+  - 'deletepeerentrydrafts:4305f2e2-40b8-47b2-8b62-135b8b57be7f' # Events
+  - 'deletepeerentrydrafts:4ffeb743-f02d-42af-8656-a6f9c1363e79' # Glossary Terms
+  - 'deletepeerentrydrafts:546e0c6d-dd32-4997-8487-cc4c2fcc9480' # Investigations
   - 'deletepeerentrydrafts:59fb5a9e-74f4-4618-adba-601791f42c92' # Jobs
-  - 'createentries:11be7603-f576-4af8-93a6-e285e4ff42c4' # News
-  - 'deleteentries:11be7603-f576-4af8-93a6-e285e4ff42c4' # News
-  - 'deletepeerentries:11be7603-f576-4af8-93a6-e285e4ff42c4' # News
-  - 'deletepeerentrydrafts:11be7603-f576-4af8-93a6-e285e4ff42c4' # News
-  - 'createentries:f1b8c943-bc12-4001-9e2a-d531379f1aaf' # Pages
-  - 'deleteentries:f1b8c943-bc12-4001-9e2a-d531379f1aaf' # Pages
-  - 'deletepeerentries:f1b8c943-bc12-4001-9e2a-d531379f1aaf' # Pages
-  - 'deletepeerentrydrafts:f1b8c943-bc12-4001-9e2a-d531379f1aaf' # Pages
-  - 'createentries:78410791-6edc-46c9-a17b-4358dcd545ec' # Staff Profiles
-  - 'deleteentries:78410791-6edc-46c9-a17b-4358dcd545ec' # Staff Profiles
-  - 'deletepeerentries:78410791-6edc-46c9-a17b-4358dcd545ec' # Staff Profiles
   - 'deletepeerentrydrafts:78410791-6edc-46c9-a17b-4358dcd545ec' # Staff Profiles
+  - 'deletepeerentrydrafts:7cad6f4e-cc7b-45cf-ac7b-6f383e77bc1b' # Callouts
+  - 'deletepeerentrydrafts:f1b8c943-bc12-4001-9e2a-d531379f1aaf' # Pages
+  - 'deletepeerentrydrafts:fb3283a6-7286-4b2b-a77a-010783dcee7e' # Slideshows
   - 'editglobalset:1a2ba41a-3949-4982-9cb3-f8b03863bcfd' # Footer Content
-  - 'editglobalset:b8393df9-fb81-4d70-9ccb-6d030c818580' # Gallery Item Defaults
-  - 'editglobalset:994d5664-f056-4969-b2cc-c62660f069af' # Root Page Information
+  - 'editglobalset:5cf3400b-e67c-4fe1-8f5c-d07510de42a8' # Contact Form
   - 'editglobalset:8ccd6c1c-8e9b-44e8-93a9-f62589fb4819' # Site Information
-  - 'saveassetinvolume:f944dd79-91a6-443d-b09a-de2597c7557f'
-  - 'createfoldersinvolume:f944dd79-91a6-443d-b09a-de2597c7557f'
-  - 'deletefilesandfoldersinvolume:f944dd79-91a6-443d-b09a-de2597c7557f'
-  - 'replacefilesinvolume:f944dd79-91a6-443d-b09a-de2597c7557f'
-  - 'editimagesinvolume:f944dd79-91a6-443d-b09a-de2597c7557f'
-  - 'editpeerfilesinvolume:f944dd79-91a6-443d-b09a-de2597c7557f'
-  - 'replacepeerfilesinvolume:f944dd79-91a6-443d-b09a-de2597c7557f'
-  - 'deletepeerfilesinvolume:f944dd79-91a6-443d-b09a-de2597c7557f'
-  - 'editpeerimagesinvolume:f944dd79-91a6-443d-b09a-de2597c7557f'
-  - 'viewpeerfilesinvolume:f944dd79-91a6-443d-b09a-de2597c7557f'
-  - 'viewvolume:f944dd79-91a6-443d-b09a-de2597c7557f'
-  - 'saveassetinvolume:f52f3e9c-434e-43b5-89eb-a5776e6bc4a6' # Callout Images
-  - 'createfoldersinvolume:f52f3e9c-434e-43b5-89eb-a5776e6bc4a6' # Callout Images
-  - 'deletefilesandfoldersinvolume:f52f3e9c-434e-43b5-89eb-a5776e6bc4a6' # Callout Images
-  - 'replacefilesinvolume:f52f3e9c-434e-43b5-89eb-a5776e6bc4a6' # Callout Images
-  - 'editimagesinvolume:f52f3e9c-434e-43b5-89eb-a5776e6bc4a6' # Callout Images
-  - 'editpeerfilesinvolume:f52f3e9c-434e-43b5-89eb-a5776e6bc4a6' # Callout Images
-  - 'replacepeerfilesinvolume:f52f3e9c-434e-43b5-89eb-a5776e6bc4a6' # Callout Images
-  - 'deletepeerfilesinvolume:f52f3e9c-434e-43b5-89eb-a5776e6bc4a6' # Callout Images
-  - 'editpeerimagesinvolume:f52f3e9c-434e-43b5-89eb-a5776e6bc4a6' # Callout Images
-  - 'viewpeerfilesinvolume:f52f3e9c-434e-43b5-89eb-a5776e6bc4a6' # Callout Images
-  - 'viewvolume:f52f3e9c-434e-43b5-89eb-a5776e6bc4a6' # Callout Images
+  - 'editglobalset:994d5664-f056-4969-b2cc-c62660f069af' # Root Page Information
+  - 'editglobalset:b8393df9-fb81-4d70-9ccb-6d030c818580' # Gallery Item Defaults
+  - 'editsite:2c2e1c6a-eb4d-44f1-9a43-8d79b326f354' # ES
+  - 'editsite:547128fa-4529-4483-9968-66425996b69f' # EN
   - 'viewassets:d41cc960-99a4-41a8-a7a6-7891a22e4a93' # Asset Variants
   - 'saveassets:d41cc960-99a4-41a8-a7a6-7891a22e4a93' # Asset Variants
   - 'deleteassets:d41cc960-99a4-41a8-a7a6-7891a22e4a93' # Asset Variants
@@ -123,6 +114,12 @@ permissions:
   - 'viewpeercategorydrafts:3a3af2ab-b037-455a-ba95-bc3be89efdb0' # Event Filters
   - 'savepeercategorydrafts:3a3af2ab-b037-455a-ba95-bc3be89efdb0' # Event Filters
   - 'deletepeercategorydrafts:3a3af2ab-b037-455a-ba95-bc3be89efdb0' # Event Filters
+  - 'viewcategories:4ead9327-61fc-4b46-810c-5f490c2c45ad' # Gallery Types
+  - 'savecategories:4ead9327-61fc-4b46-810c-5f490c2c45ad' # Gallery Types
+  - 'deletecategories:4ead9327-61fc-4b46-810c-5f490c2c45ad' # Gallery Types
+  - 'viewpeercategorydrafts:4ead9327-61fc-4b46-810c-5f490c2c45ad' # Gallery Types
+  - 'savepeercategorydrafts:4ead9327-61fc-4b46-810c-5f490c2c45ad' # Gallery Types
+  - 'deletepeercategorydrafts:4ead9327-61fc-4b46-810c-5f490c2c45ad' # Gallery Types
   - 'viewcategories:cc8c47f0-3dec-44db-a47f-7ca6c984864a' # Job Types
   - 'savecategories:cc8c47f0-3dec-44db-a47f-7ca6c984864a' # Job Types
   - 'deletecategories:cc8c47f0-3dec-44db-a47f-7ca6c984864a' # Job Types
@@ -141,6 +138,12 @@ permissions:
   - 'viewpeercategorydrafts:7cb3bc06-c4c4-4017-8c0c-fa6aad7cbd8e' # News Filters
   - 'savepeercategorydrafts:7cb3bc06-c4c4-4017-8c0c-fa6aad7cbd8e' # News Filters
   - 'deletepeercategorydrafts:7cb3bc06-c4c4-4017-8c0c-fa6aad7cbd8e' # News Filters
+  - 'viewcategories:0928ff1a-513d-41e0-acc1-606d93988618' # Search Filters
+  - 'savecategories:0928ff1a-513d-41e0-acc1-606d93988618' # Search Filters
+  - 'deletecategories:0928ff1a-513d-41e0-acc1-606d93988618' # Search Filters
+  - 'viewpeercategorydrafts:0928ff1a-513d-41e0-acc1-606d93988618' # Search Filters
+  - 'savepeercategorydrafts:0928ff1a-513d-41e0-acc1-606d93988618' # Search Filters
+  - 'deletepeercategorydrafts:0928ff1a-513d-41e0-acc1-606d93988618' # Search Filters
   - 'viewcategories:70ff59dd-8280-4bea-bef6-cfdf9ea4f0c2' # Sort Options
   - 'savecategories:70ff59dd-8280-4bea-bef6-cfdf9ea4f0c2' # Sort Options
   - 'deletecategories:70ff59dd-8280-4bea-bef6-cfdf9ea4f0c2' # Sort Options
@@ -171,10 +174,22 @@ permissions:
   - 'savepeerentrydrafts:3a8b9653-cdd3-46ce-84b2-d73b5dc4de63' # Gallery
   - 'viewpeerentries:3a8b9653-cdd3-46ce-84b2-d73b5dc4de63' # Gallery
   - 'savepeerentries:3a8b9653-cdd3-46ce-84b2-d73b5dc4de63' # Gallery
+  - 'viewentries:4ffeb743-f02d-42af-8656-a6f9c1363e79' # Glossary Terms
+  - 'saveentries:4ffeb743-f02d-42af-8656-a6f9c1363e79' # Glossary Terms
+  - 'viewpeerentrydrafts:4ffeb743-f02d-42af-8656-a6f9c1363e79' # Glossary Terms
+  - 'savepeerentrydrafts:4ffeb743-f02d-42af-8656-a6f9c1363e79' # Glossary Terms
+  - 'viewpeerentries:4ffeb743-f02d-42af-8656-a6f9c1363e79' # Glossary Terms
+  - 'savepeerentries:4ffeb743-f02d-42af-8656-a6f9c1363e79' # Glossary Terms
   - 'viewentries:3e10dcca-4dd1-4578-8add-708cd9740881' # Homepage
   - 'saveentries:3e10dcca-4dd1-4578-8add-708cd9740881' # Homepage
   - 'viewpeerentrydrafts:3e10dcca-4dd1-4578-8add-708cd9740881' # Homepage
   - 'savepeerentrydrafts:3e10dcca-4dd1-4578-8add-708cd9740881' # Homepage
+  - 'viewentries:546e0c6d-dd32-4997-8487-cc4c2fcc9480' # Investigations
+  - 'saveentries:546e0c6d-dd32-4997-8487-cc4c2fcc9480' # Investigations
+  - 'viewpeerentrydrafts:546e0c6d-dd32-4997-8487-cc4c2fcc9480' # Investigations
+  - 'savepeerentrydrafts:546e0c6d-dd32-4997-8487-cc4c2fcc9480' # Investigations
+  - 'viewpeerentries:546e0c6d-dd32-4997-8487-cc4c2fcc9480' # Investigations
+  - 'savepeerentries:546e0c6d-dd32-4997-8487-cc4c2fcc9480' # Investigations
   - 'viewentries:59fb5a9e-74f4-4618-adba-601791f42c92' # Jobs
   - 'saveentries:59fb5a9e-74f4-4618-adba-601791f42c92' # Jobs
   - 'viewpeerentrydrafts:59fb5a9e-74f4-4618-adba-601791f42c92' # Jobs
@@ -193,6 +208,12 @@ permissions:
   - 'savepeerentrydrafts:f1b8c943-bc12-4001-9e2a-d531379f1aaf' # Pages
   - 'viewpeerentries:f1b8c943-bc12-4001-9e2a-d531379f1aaf' # Pages
   - 'savepeerentries:f1b8c943-bc12-4001-9e2a-d531379f1aaf' # Pages
+  - 'viewentries:fb3283a6-7286-4b2b-a77a-010783dcee7e' # Slideshows
+  - 'saveentries:fb3283a6-7286-4b2b-a77a-010783dcee7e' # Slideshows
+  - 'viewpeerentrydrafts:fb3283a6-7286-4b2b-a77a-010783dcee7e' # Slideshows
+  - 'savepeerentrydrafts:fb3283a6-7286-4b2b-a77a-010783dcee7e' # Slideshows
+  - 'viewpeerentries:fb3283a6-7286-4b2b-a77a-010783dcee7e' # Slideshows
+  - 'savepeerentries:fb3283a6-7286-4b2b-a77a-010783dcee7e' # Slideshows
   - 'viewentries:78410791-6edc-46c9-a17b-4358dcd545ec' # Staff Profiles
   - 'saveentries:78410791-6edc-46c9-a17b-4358dcd545ec' # Staff Profiles
   - 'viewpeerentrydrafts:78410791-6edc-46c9-a17b-4358dcd545ec' # Staff Profiles

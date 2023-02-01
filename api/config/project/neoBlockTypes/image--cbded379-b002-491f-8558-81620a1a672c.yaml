@@ -1,4 +1,4 @@
-childBlocks: ''
+childBlocks: null
 field: 522db817-08b6-4ecf-a423-4aec204ab85d # Content Blocks - News
 fieldLayouts:
   ec992cc9-cc3c-4e35-846c-4c5f7b2c5bcc:
@@ -23,8 +23,18 @@ fieldLayouts:
             type: craft\fieldlayoutelements\CustomField
             warning: null
             width: 100
+          -
+            fieldUid: dc44e79d-b126-413d-bc02-0776d6ace2d1 # Float Direction
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
         name: 'Tab 1'
         sortOrder: 1
+group: null
 handle: image
 maxBlocks: 0
 maxChildBlocks: 0

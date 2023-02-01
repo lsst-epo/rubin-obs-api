@@ -1,0 +1,26 @@
+childBlocks: null
+field: 72e5075a-9b06-4674-b040-615f4a6f7b70 # Content Blocks - Pages
+fieldLayouts:
+  a07adda8-f2f5-4452-909c-0691962df1de:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: 0e0c24d9-900c-4e44-9087-756675a01096 # Game
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: 'Select a Game'
+        sortOrder: 1
+group: null
+handle: game
+maxBlocks: 0
+maxChildBlocks: 0
+maxSiblingBlocks: 0
+name: Game
+sortOrder: 29
+topLevel: true

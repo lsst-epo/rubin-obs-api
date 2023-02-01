@@ -1,0 +1,5 @@
+description: ''
+handle: educators
+name: Educators
+permissions:
+  - 'assignusergroup:58efa872-9485-42e3-a1e3-a5435def5392' # Educators

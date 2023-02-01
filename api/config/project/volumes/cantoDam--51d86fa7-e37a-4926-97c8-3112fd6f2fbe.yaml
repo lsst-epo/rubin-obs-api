@@ -1,5 +1,5 @@
 fieldLayouts:
-  693d6c3c-68a1-4095-af9e-0b2d893972a6:
+  811f8151-b4a8-450f-96b3-8baaee51ba1e:
     tabs:
       -
         elements:
@@ -23,25 +23,16 @@ fieldLayouts:
             step: null
             tip: null
             title: null
-            type: craft\fieldlayoutelements\TitleField
-            warning: null
-            width: 100
-          -
-            fieldUid: 39af5de5-d299-4bc5-965a-af2d128c7f1a # Alternative Text
-            instructions: null
-            label: null
-            required: false
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
+            type: craft\fieldlayoutelements\assets\AssetTitleField
             warning: null
             width: 100
         name: Content
         sortOrder: 1
-fs: calloutImages
-handle: calloutImages
+fs: cantoDam
+handle: cantoDam
 hasUrls: true
-name: 'Callout Images'
-sortOrder: 5
+name: 'Canto DAM'
+sortOrder: 11
 titleTranslationKeyFormat: null
 titleTranslationMethod: site
-url: 'https://storage.googleapis.com/rubin-obs-api_assets_callouts/'
+url: 'https://rubin.canto.com/direct/'

@@ -1,0 +1,164 @@
+field: 838028d1-bb13-49aa-a2ee-b0b2e7e6a4fa # Simple Table
+fieldLayouts:
+  0a6fe3d4-aab8-496a-bfb7-db947e8f8ab1:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: 991c5031-3b97-45d8-8829-c8e0c79537a9 # Row Title
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: dff2a767-333e-4c9d-880c-143e1ca2aaa3 # Row Content
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: cbf3fbbb-2f2b-4568-a228-f8c63ff4601c # Row Color
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+fields:
+  991c5031-3b97-45d8-8829-c8e0c79537a9: # Row Title
+    columnSuffix: null
+    contentColumnType: text
+    fieldGroup: null
+    handle: rowTitle
+    instructions: ''
+    name: 'Row Title'
+    searchable: false
+    settings:
+      availableTransforms: '*'
+      availableVolumes: '*'
+      columnType: text
+      configSelectionMode: choose
+      defaultTransform: ''
+      manualConfig: ''
+      purifierConfig: ''
+      purifyHtml: '1'
+      redactorConfig: TableCellContent.json
+      removeEmptyTags: '1'
+      removeInlineStyles: ''
+      removeNbsp: '1'
+      showHtmlButtonForNonAdmins: ''
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+      uiMode: enlarged
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\redactor\Field
+  cbf3fbbb-2f2b-4568-a228-f8c63ff4601c: # Row Color
+    columnSuffix: null
+    contentColumnType: string
+    fieldGroup: null
+    handle: rowColor
+    instructions: ''
+    name: 'Row Color'
+    searchable: false
+    settings:
+      optgroups: true
+      options:
+        -
+          __assoc__:
+            -
+              - label
+              - None
+            -
+              - value
+              - none
+            -
+              - default
+              - '1'
+        -
+          __assoc__:
+            -
+              - label
+              - Blue
+            -
+              - value
+              - blue
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - Green
+            -
+              - value
+              - green
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - Orange
+            -
+              - value
+              - orange
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - 'Pale Orange'
+            -
+              - value
+              - paleOrange
+            -
+              - default
+              - ''
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Dropdown
+  dff2a767-333e-4c9d-880c-143e1ca2aaa3: # Row Content
+    columnSuffix: null
+    contentColumnType: text
+    fieldGroup: null
+    handle: rowContent
+    instructions: ''
+    name: 'Row Content'
+    searchable: false
+    settings:
+      availableTransforms: '*'
+      availableVolumes: '*'
+      columnType: text
+      configSelectionMode: choose
+      defaultTransform: ''
+      manualConfig: ''
+      purifierConfig: ''
+      purifyHtml: '1'
+      redactorConfig: TableCellContent.json
+      removeEmptyTags: '1'
+      removeInlineStyles: ''
+      removeNbsp: '1'
+      showHtmlButtonForNonAdmins: ''
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+      uiMode: enlarged
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\redactor\Field
+handle: tableRow
+name: Row
+sortOrder: 1
