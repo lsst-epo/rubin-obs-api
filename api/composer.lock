@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a5e87a5d305c1c457d35849e89a1ae2e",
+    "content-hash": "a392cf28465431480cd4537826a15c99",
     "packages": [
         {
             "name": "abraham/twitteroauth",
@@ -4189,20 +4189,27 @@
         },
         {
             "name": "rosas/universal-dam-integrator",
-            "version": "dev-main",
+            "version": "3.7.62.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/lsst-epo/craft3-universal-dam-integrator.git",
-                "reference": "3a8242c56050d32c636c47c467619a4a29f88e5c"
+                "reference": "4c33a32255e6266e9a908fc720ccf912aa90b959"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/lsst-epo/craft3-universal-dam-integrator/zipball/3a8242c56050d32c636c47c467619a4a29f88e5c",
-                "reference": "3a8242c56050d32c636c47c467619a4a29f88e5c",
+                "url": "https://api.github.com/repos/lsst-epo/craft3-universal-dam-integrator/zipball/4c33a32255e6266e9a908fc720ccf912aa90b959",
+                "reference": "4c33a32255e6266e9a908fc720ccf912aa90b959",
                 "shasum": ""
             },
             "require": {
-                "craftcms/cms": "^3.1.5"
+                "craftcms/cms": "3.7.62"
+            },
+            "require-dev": {
+                "codeception/codeception": "^4.2.2",
+                "codeception/module-asserts": "^2.0",
+                "codeception/module-yii2": "^1.1",
+                "ext-zip": "^1.15",
+                "vlucas/phpdotenv": "^3.0"
             },
             "type": "craft-plugin",
             "extra": {
@@ -4236,7 +4243,7 @@
                 "source": "https://github.com/lsst-epo/craft3-universal-dam-integrator",
                 "docs": "https://github.com/lsst-epo/craft3-universal-dam-integrator/blob/main/README.md"
             },
-            "time": "2022-06-09T23:52:53+00:00"
+            "time": "2023-02-07T00:08:28+00:00"
         },
         {
             "name": "rynpsc/craft-phone-number",
@@ -6999,5 +7006,5 @@
     "platform-overrides": {
         "php": "7.4.24"
     },
-    "plugin-api-version": "2.2.0"
+    "plugin-api-version": "2.3.0"
 }
