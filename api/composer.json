@@ -27,8 +27,7 @@
         }
     ],
     "require-dev": {
-        "craftcms/rector": "dev-main",
-        "yiisoft/yii2-shell": "^2.0.3"
+        "yiisoft/yii2-shell": "^2.0.5"
     },
     "autoload": {
         "psr-4": {
