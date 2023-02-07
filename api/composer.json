@@ -1,21 +1,20 @@
 {
     "require": {
-        "carlcs/craft-assetmetadata": "^3.0",
         "castiron/next-builds": "^1.0",
-        "craftcms/aws-s3": "^1.2",
-        "craftcms/cms": "3.7.62",
-        "craftcms/contact-form": "2.5.1",
-        "craftcms/contact-form-honeypot": "1.0.3",
-        "craftcms/google-cloud": "^1.4",
-        "craftcms/redactor": "2.10.10",
-        "jamesedmonston/graphql-authentication": "^1.12",
-        "rosas/universal-dam-integrator": "3.7.62.x-dev",
-        "rynpsc/craft-phone-number": "1.5.0",
-        "sebastianlenz/linkfield": "2.0.*@dev",
-        "spicyweb/craft-neo": "2.13.15",
-        "verbb/super-table": "2.7.4",
+        "craftcms/aws-s3": "^2.0.1",
+        "craftcms/cms": "^4.0.0",
+        "craftcms/contact-form": "^3.0.0",
+        "craftcms/contact-form-honeypot": "^2.0.0",
+        "craftcms/google-cloud": "^2.0.0",
+        "craftcms/redactor": "^3.0.2",
+        "jamesedmonston/graphql-authentication": "^2.0.0",
+        "rosas/universal-dam-integrator": "dev-EPO-7560",
+        "rynpsc/craft-phone-number": "^2.1.0",
+        "sebastianlenz/linkfield": "^2.1.4",
+        "spicyweb/craft-neo": "^3.3.6",
+        "verbb/super-table": "^3.0.0",
         "vlucas/phpdotenv": "^3.4.0",
-        "wrav/oembed": "1.13.19"
+        "wrav/oembed": "^2.2.2"
     },
     "repositories": [
         {
