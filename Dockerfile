@@ -1,4 +1,4 @@
-ARG BASE_TAG=php-8
+ARG BASE_TAG=latest
 # Composer dependencies
 FROM composer:2 as vendor
 COPY api/composer.json composer.json
@@ -6,7 +6,7 @@ COPY api/composer.lock composer.lock
 COPY api/plugins ./plugins
 RUN composer install --ignore-platform-reqs --no-interaction --prefer-dist
 
-FROM us-central1-docker.pkg.dev/skyviewer/public-images/craft-base-image:$BASE_TAG
+FROM us-central1-docker.pkg.dev/skyviewer/public-images/craft-base-image:php-8
 
 LABEL maintainer="erosas@lsst.org"
 
