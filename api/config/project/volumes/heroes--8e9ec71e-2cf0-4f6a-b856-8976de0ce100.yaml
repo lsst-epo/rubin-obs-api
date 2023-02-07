@@ -2,6 +2,7 @@ fieldLayouts:
   eb8fe352-25cf-40ad-8936-2c2da39d8451:
     tabs:
       -
+        elementCondition: null
         elements:
           -
             autocapitalize: true
@@ -9,6 +10,7 @@ fieldLayouts:
             autocorrect: true
             class: null
             disabled: false
+            elementCondition: null
             id: null
             instructions: null
             label: null
@@ -24,42 +26,54 @@ fieldLayouts:
             tip: null
             title: null
             type: craft\fieldlayoutelements\TitleField
+            uid: 377b98a2-659f-4236-8f3e-df97d038711e
+            userCondition: null
             warning: null
             width: 100
           -
+            elementCondition: null
             fieldUid: 39af5de5-d299-4bc5-965a-af2d128c7f1a # Alternative Text
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: 4e57fe3d-8b3b-4c6e-ab7a-dbf79f6a6539
+            userCondition: null
             warning: null
             width: 100
           -
+            elementCondition: null
             fieldUid: 58aa24c3-97e4-43e7-a812-7374e5650180 # Focal Point X
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: 8835971f-9da1-4f72-be4f-2bf68340412e
+            userCondition: null
             warning: null
             width: 50
           -
+            elementCondition: null
             fieldUid: 0073b1d1-a221-431d-aab9-bf4e193adf4f # Focal Point Y
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: de6cb747-1a15-4e9d-aa7a-7e29b9d43cf5
+            userCondition: null
             warning: null
             width: 50
         name: Content
-        sortOrder: 1
+        uid: c7782e32-d216-40b1-a32c-53e384cb7a85
+        userCondition: null
 fs: heroes
 handle: heroes
-hasUrls: true
 name: Heroes
 sortOrder: 1
 titleTranslationKeyFormat: null
 titleTranslationMethod: site
-url: '@assetsHeroesBaseURL'
+transformFs: ''
+transformSubpath: ''

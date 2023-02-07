@@ -10,5 +10,5 @@ settings:
   offLabel: 'Internal landing page'
   onLabel: 'External URL'
 translationKeyFormat: null
-translationMethod: none
+translationMethod: site
 type: craft\fields\Lightswitch
