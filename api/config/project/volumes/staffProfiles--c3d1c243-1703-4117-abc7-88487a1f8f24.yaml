@@ -37,18 +37,11 @@ fieldLayouts:
             width: 100
         name: Content
         sortOrder: 1
+fs: staffProfiles
 handle: staffProfiles
 hasUrls: true
 name: 'Staff Profiles'
-settings:
-  bucket: rubin-obs-api_assets_staff_profiles
-  bucketSelectionMode: choose
-  expires: '5 minutes'
-  keyFileContents: ''
-  projectId: $GCP_PROJECT_ID
-  subfolder: ''
 sortOrder: 7
 titleTranslationKeyFormat: null
 titleTranslationMethod: site
-type: craft\googlecloud\Volume
 url: '@assetsStaffBaseURL'
