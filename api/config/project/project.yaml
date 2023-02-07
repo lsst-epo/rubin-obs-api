@@ -1,4 +1,4 @@
-dateModified: 1674600786
+dateModified: 1675730916
 email:
   fromEmail: $EMAIL_FROM_ADDRESS
   fromName: $EMAIL_SENDER_NAME
@@ -13,6 +13,80 @@ email:
     useAuthentication: '1'
     username: $EMAIL_SMTP_USERNAME
   transportType: craft\mail\transportadapters\Smtp
+fs:
+  assetVariants:
+    hasUrls: true
+    name: 'Asset Variants'
+    settings:
+      addSubfolderToRootUrl: '1'
+      autoFocalPoint: ''
+      bucket: $AWS_ASSET_S3_BUCKET
+      bucketSelectionMode: manual
+      cfDistributionId: ''
+      cfPrefix: ''
+      expires: ''
+      keyId: $AWS_ASSET_KEY_ID
+      makeUploadsPublic: '1'
+      region: $AWS_ASSET_S3_REGION
+      secret: $AWS_ASSET_SECRET_KEY
+      subfolder: $AWS_ASSET_S3_ASSET_VARIANT_SUBFOLDER
+    type: craft\awss3\Fs
+    url: '@assetsAssetVariantBaseURL'
+  cantoDam:
+    hasUrls: true
+    name: 'Canto DAM'
+    settings:
+      dummySetting: ''
+    type: rosas\dam\volumes\DAMVolume
+    url: 'https://rubin.canto.com/direct/'
+  contentImages:
+    hasUrls: true
+    name: 'Content Images'
+    settings:
+      bucket: rubin-obs-api_assets_content
+      bucketSelectionMode: choose
+      expires: '5 minutes'
+      keyFileContents: ''
+      projectId: $GCP_PROJECT_ID
+      subfolder: ''
+    type: craft\googlecloud\Fs
+    url: '@assetsContentBaseURL'
+  generalImages:
+    hasUrls: true
+    name: General
+    settings:
+      bucket: rubin-obs-api_assets_general
+      bucketSelectionMode: choose
+      expires: '5 minutes'
+      keyFileContents: ''
+      projectId: $GCP_PROJECT_ID
+      subfolder: ''
+    type: craft\googlecloud\Fs
+    url: '@assetsGeneralBaseURL'
+  heroes:
+    hasUrls: true
+    name: Heroes
+    settings:
+      bucket: rubin-obs-api_assets_heroes
+      bucketSelectionMode: choose
+      expires: '5 minutes'
+      keyFileContents: ''
+      projectId: $GCP_PROJECT_ID
+      subfolder: ''
+    type: craft\googlecloud\Fs
+    url: '@assetsHeroesBaseURL'
+  staffProfiles:
+    hasUrls: true
+    name: 'Staff Profiles'
+    settings:
+      bucket: rubin-obs-api_assets_staff_profiles
+      bucketSelectionMode: choose
+      expires: '5 minutes'
+      keyFileContents: ''
+      projectId: $GCP_PROJECT_ID
+      subfolder: ''
+    type: craft\googlecloud\Fs
+    url: '@assetsStaffBaseURL'
 meta:
   __names__:
     0b946ecb-12e3-4999-9d02-fc902cb66fdf: Investigation # Investigation
@@ -25,7 +99,6 @@ meta:
     1a2ba41a-3949-4982-9cb3-f8b03863bcfd: 'Footer Content' # Footer Content
     1a35bfab-6a39-4c03-b273-2d5e3151c335: 'Rubin Telescope Education and Public Outreach' # Rubin Telescope Education and Public Outreach
     01b89d98-9aa4-46d5-a9a0-60a0c07fd815: Editors # Editors
-    1c0e3777-36ee-449d-948e-01f6fbde3ee6: Sites # Sites
     1c065033-f41d-4566-9863-d34a4bf24836: 'Table Cell' # Table Cell
     1d7324d5-d322-4b06-9eb5-52a6c2f856f3: Location # Location
     1e0c12ac-5dd7-4ed2-8cda-3801130b11e1: 'Gallery Item' # Gallery Item
@@ -190,7 +263,7 @@ meta:
     562703bc-5129-4417-b268-c7f1188eb161: Link # Link
     660361f1-3ecb-4c5e-9274-76e54f1f291f: 'Number of items' # Number of items
     838028d1-bb13-49aa-a2ee-b0b2e7e6a4fa: 'Simple Table' # Simple Table
-    960543c0-3ba6-466b-aa9e-9182279dd49a: 'Start Date' # Start Date
+    960543c0-3ba6-466b-aa9e-9182279dd49a: 'End Date' # End Date
     04000104-ec26-4d82-959a-729454e7f1cc: Country # Country
     7187131b-681b-45de-a1ea-87a8d070c05a: 'Gallery Item' # Gallery Item
     9940892d-32f4-4399-acac-ab559ce1c82b: Common # Common
@@ -320,7 +393,7 @@ plugins:
   aws-s3:
     edition: standard
     enabled: true
-    schemaVersion: '1.2'
+    schemaVersion: '2.0'
   contact-form:
     edition: standard
     enabled: true
@@ -340,12 +413,12 @@ plugins:
   google-cloud:
     edition: standard
     enabled: true
-    schemaVersion: '1.1'
+    schemaVersion: '2.0'
   graphql-authentication:
     edition: standard
     enabled: true
     licenseKey: 2O72FZR51K6PB2RMARXXAGU6
-    schemaVersion: 1.2.0
+    schemaVersion: 1.3.0
     settings:
       activationEmailSent: 'You will receive an email if it matches an account in our system'
       allowRegistration: '1'
@@ -1554,7 +1627,7 @@ plugins:
     edition: standard
     enabled: true
     licenseKey: ZKF1B0S7W0NR4OSH4WIXAK30
-    schemaVersion: 2.13.0
+    schemaVersion: 3.6.2
   next-builds:
     edition: standard
     enabled: true
@@ -1567,16 +1640,16 @@ plugins:
             - ''
           -
             - events
-            - '1'
+            - ''
           -
             - galleryItems
             - ''
           -
             - glossaryTerms
-            - '1'
+            - ''
           -
             - homepage
-            - '1'
+            - ''
           -
             - investigations
             - ''
@@ -1585,22 +1658,22 @@ plugins:
             - ''
           -
             - news
-            - '1'
+            - ''
           -
             - pages
             - '1'
           -
             - searchResults
-            - '1'
+            - ''
           -
             - slideshows
-            - '1'
+            - ''
           -
             - staffProfiles
-            - '1'
+            - ''
           -
             - userProfilePage
-            - '1'
+            - ''
       nextApiBaseUrl: $NEXT_API_BASE_URL
       nextSecretToken: $NEXT_REVALIDATE_SECRET_TOKEN
   oembed:
@@ -1625,7 +1698,7 @@ plugins:
   super-table:
     edition: standard
     enabled: true
-    schemaVersion: 2.2.1
+    schemaVersion: 3.0.0
   typedlinkfield:
     edition: standard
     enabled: true
@@ -1645,5 +1718,5 @@ system:
   live: true
   name: 'Rubin Telescope Education and Public Outreach'
   retryDuration: null
-  schemaVersion: 3.7.33
+  schemaVersion: 4.0.0.9
   timeZone: America/Los_Angeles

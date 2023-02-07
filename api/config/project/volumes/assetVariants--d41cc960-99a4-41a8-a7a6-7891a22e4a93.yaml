@@ -46,25 +46,11 @@ fieldLayouts:
             width: 100
         name: Content
         sortOrder: 1
+fs: assetVariants
 handle: assetVariants
 hasUrls: true
 name: 'Asset Variants'
-settings:
-  addSubfolderToRootUrl: '1'
-  autoFocalPoint: ''
-  bucket: $AWS_ASSET_S3_BUCKET
-  bucketSelectionMode: manual
-  cfDistributionId: ''
-  cfPrefix: ''
-  expires: ''
-  keyId: $AWS_ASSET_KEY_ID
-  makeUploadsPublic: '1'
-  region: $AWS_ASSET_S3_REGION
-  secret: $AWS_ASSET_SECRET_KEY
-  storageClass: ''
-  subfolder: $AWS_ASSET_S3_ASSET_VARIANT_SUBFOLDER
 sortOrder: 8
 titleTranslationKeyFormat: null
 titleTranslationMethod: site
-type: craft\awss3\Volume
 url: '@assetsAssetVariantBaseURL'

@@ -37,18 +37,11 @@ fieldLayouts:
             width: 100
         name: Content
         sortOrder: 1
+fs: generalImages
 handle: generalImages
 hasUrls: true
 name: General
-settings:
-  bucket: rubin-obs-api_assets_general
-  bucketSelectionMode: choose
-  expires: '5 minutes'
-  keyFileContents: ''
-  projectId: $GCP_PROJECT_ID
-  subfolder: ''
 sortOrder: 6
 titleTranslationKeyFormat: null
 titleTranslationMethod: site
-type: craft\googlecloud\Volume
 url: '@assetsGeneralBaseURL'

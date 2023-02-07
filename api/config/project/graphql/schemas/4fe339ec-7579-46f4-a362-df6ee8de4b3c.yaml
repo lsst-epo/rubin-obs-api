@@ -59,3 +59,5 @@ scope:
   - 'taggroups.c30bad12-1372-49fe-ab6c-a9c33b2860bb:read' # Gallery Item Tags
   - 'taggroups.0d02fdfb-053c-4d46-a5f8-0abf2542a5d2:read' # News Tags
   - 'taggroups.5d162b5e-8723-4b74-a229-f8a52bd30b1c:read' # Staff Tags
+  - 'sites.2c2e1c6a-eb4d-44f1-9a43-8d79b326f354:read' # ES
+  - 'sites.547128fa-4529-4483-9968-66425996b69f:read' # EN
