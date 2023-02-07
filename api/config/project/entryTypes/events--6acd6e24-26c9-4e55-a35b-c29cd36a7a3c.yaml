@@ -30,7 +30,7 @@ fieldLayouts:
             fieldUid: 05eead62-7bf9-43e4-a7e8-bcd8f9f77323 # Hero
             instructions: ''
             label: ''
-            required: ''
+            required: '1'
             tip: null
             type: craft\fieldlayoutelements\CustomField
             warning: null
@@ -79,7 +79,7 @@ fieldLayouts:
             tip: null
             type: craft\fieldlayoutelements\CustomField
             warning: null
-            width: 50
+            width: 25
           -
             fieldUid: d93d96b1-80fe-486a-9ada-5d52b6e67009 # Registration Close Date
             instructions: null
@@ -88,21 +88,21 @@ fieldLayouts:
             tip: null
             type: craft\fieldlayoutelements\CustomField
             warning: null
-            width: 50
-          -
-            fieldUid: 960543c0-3ba6-466b-aa9e-9182279dd49a # Start Date
-            instructions: 'Optional for single day events'
-            label: 'Start Date'
-            required: ''
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            warning: null
-            width: 100
+            width: 25
           -
             fieldUid: 75f0b770-5006-4359-848f-96415196bfe0 # Date
             instructions: ''
-            label: 'End Date'
+            label: ''
             required: '1'
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 25
+          -
+            fieldUid: 960543c0-3ba6-466b-aa9e-9182279dd49a # End Date
+            instructions: null
+            label: null
+            required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
             warning: null
