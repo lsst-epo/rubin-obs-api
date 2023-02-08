@@ -1,35 +1,52 @@
 childBlocks: null
+conditions: null
+description: ''
+enabled: true
 field: 72e5075a-9b06-4674-b040-615f4a6f7b70 # Content Blocks - Pages
 fieldLayouts:
   756e8454-fa42-4a48-b89b-7b6e4a39b0b7:
     tabs:
       -
+        elementCondition: null
         elements:
           -
+            elementCondition: null
             fieldUid: e98e0ffd-73fa-4e57-808c-dcb9873209ca # Entry - Gallery
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: edb8898e-b2b7-4076-99f9-ba72fee2f9ea
+            userCondition: null
             warning: null
             width: 50
           -
+            elementCondition: null
             fieldUid: d4696dbe-019e-4c97-a95d-07bfaf9dbd03 # Entry - Staff Profile
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: 1b75046e-5bd1-4e45-9813-0ba6ca3b593a
+            userCondition: null
             warning: null
             width: 50
         name: Content
-        sortOrder: 1
+        uid: cba9d213-028b-45ec-b89f-5efeb9a9499b
+        userCondition: null
 group: null
+groupChildBlockTypes: true
 handle: slide
+icon: null
+ignorePermissions: true
 maxBlocks: 0
 maxChildBlocks: 0
 maxSiblingBlocks: 0
+minBlocks: 0
+minChildBlocks: 0
+minSiblingBlocks: 0
 name: Slide
 sortOrder: 11
 topLevel: false

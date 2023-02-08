@@ -1,26 +1,40 @@
 childBlocks: null
+conditions: null
+description: ''
+enabled: true
 field: 72e5075a-9b06-4674-b040-615f4a6f7b70 # Content Blocks - Pages
 fieldLayouts:
   6ff970b8-a87f-48f0-8424-563eaae86027:
     tabs:
       -
+        elementCondition: null
         elements:
           -
+            elementCondition: null
             fieldUid: d4696dbe-019e-4c97-a95d-07bfaf9dbd03 # Entry - Staff Profile
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: 4dd7961c-2701-49b6-a314-b30713899dc9
+            userCondition: null
             warning: null
             width: 100
         name: Content
-        sortOrder: 1
+        uid: 208364d5-553b-4444-8899-45b5f2381345
+        userCondition: null
 group: null
+groupChildBlockTypes: true
 handle: staffGridItem
+icon: null
+ignorePermissions: true
 maxBlocks: 0
 maxChildBlocks: 0
 maxSiblingBlocks: 0
+minBlocks: 0
+minChildBlocks: 0
+minSiblingBlocks: 0
 name: 'Staff Item'
 sortOrder: 18
 topLevel: false

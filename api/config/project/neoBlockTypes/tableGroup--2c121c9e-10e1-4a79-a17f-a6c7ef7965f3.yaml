@@ -1,31 +1,48 @@
 childBlocks:
   - complexTable
+conditions: null
+description: ''
+enabled: true
 field: 72e5075a-9b06-4674-b040-615f4a6f7b70 # Content Blocks - Pages
 fieldLayouts:
   d606865c-35e5-4458-a367-6579a71decf8:
     tabs:
       -
+        elementCondition: null
         elements:
           -
+            elementCondition: null
             fieldUid: 1c0e3777-36ee-449d-948e-01f6fbde3ee6 # Sites
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: 73e4ae3e-a1ab-45bf-a141-23888e311358
+            userCondition: null
             warning: null
             width: 100
           -
+            elementCondition: null
             style: tip
             tip: 'Complex Tables nested inside this container will use a tabbed presentation with each Complex Table having its own tab.'
             type: craft\fieldlayoutelements\Tip
+            uid: f29641da-583c-47bf-85f8-02ef28e10112
+            userCondition: null
         name: Content
-        sortOrder: 1
+        uid: a28e4a7c-fb5f-4fec-8c4f-4ebd5793a426
+        userCondition: null
 group: null
+groupChildBlockTypes: true
 handle: tableGroup
+icon: null
+ignorePermissions: true
 maxBlocks: 0
 maxChildBlocks: 0
 maxSiblingBlocks: 0
+minBlocks: 0
+minChildBlocks: 0
+minSiblingBlocks: 0
 name: 'Table Group'
 sortOrder: 27
 topLevel: true

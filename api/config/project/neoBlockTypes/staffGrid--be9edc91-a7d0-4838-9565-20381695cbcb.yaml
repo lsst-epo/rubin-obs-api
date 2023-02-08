@@ -1,54 +1,77 @@
 childBlocks:
   - staffGridItem
+conditions: null
+description: ''
+enabled: true
 field: 72e5075a-9b06-4674-b040-615f4a6f7b70 # Content Blocks - Pages
 fieldLayouts:
   2755516f-02bd-49aa-9f6e-32e5ad8cbb79:
     tabs:
       -
+        elementCondition: null
         elements:
           -
+            elementCondition: null
             fieldUid: b0ce3829-20c1-44ef-a7c7-499800645afc # Header
-            instructions: ''
+            instructions: null
             label: Heading
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: bd4509b7-6f73-498e-8061-01cce9189df9
+            userCondition: null
             warning: null
             width: 100
           -
+            elementCondition: null
             fieldUid: d019727b-a6d5-43d9-a688-f10df985a87e # Link
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: 3d8690bb-3590-4c28-a678-dc80f43944b3
+            userCondition: null
             warning: null
             width: 100
           -
+            elementCondition: null
             fieldUid: 7beb32e3-0674-4b9c-9878-022862950868 # Type
             instructions: 'Leave blank for all profiles'
             label: 'Staff Type'
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: 7fb28621-34bd-4bce-bef3-9c585e994a79
+            userCondition: null
             warning: null
             width: 100
           -
+            elementCondition: null
             fieldUid: 660361f1-3ecb-4c5e-9274-76e54f1f291f # Number of items
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: 87a23e20-a39b-41e0-bbf8-b4d9b6f42346
+            userCondition: null
             warning: null
             width: 100
         name: Content
-        sortOrder: 1
+        uid: 6ef24b54-e3fc-4238-8370-1295b13e1577
+        userCondition: null
 group: null
+groupChildBlockTypes: true
 handle: staffGrid
+icon: null
+ignorePermissions: true
 maxBlocks: 0
 maxChildBlocks: 0
 maxSiblingBlocks: 0
+minBlocks: 0
+minChildBlocks: 0
+minSiblingBlocks: 0
 name: 'Staff Profiles'
 sortOrder: 17
 topLevel: true

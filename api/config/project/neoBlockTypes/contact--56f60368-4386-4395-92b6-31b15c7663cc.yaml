@@ -1,44 +1,64 @@
 childBlocks: null
+conditions: null
+description: ''
+enabled: true
 field: 72e5075a-9b06-4674-b040-615f4a6f7b70 # Content Blocks - Pages
 fieldLayouts:
   d9c9eb2f-9504-4dc2-8371-f61bdf5daa34:
     tabs:
       -
+        elementCondition: null
         elements:
           -
+            elementCondition: null
             fieldUid: b0ce3829-20c1-44ef-a7c7-499800645afc # Header
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: d514c31b-43bb-4ec2-970e-ac4af7c620f1
+            userCondition: null
             warning: null
             width: 100
           -
+            elementCondition: null
             fieldUid: e9726196-f241-49d4-9b6b-9e8d419e6669 # Link Text
-            instructions: ''
-            label: ''
+            instructions: null
+            label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: 0166f020-4721-4895-8077-fa11d4d8ac4c
+            userCondition: null
             warning: null
             width: 50
           -
+            elementCondition: null
             fieldUid: 5f0325e0-cdba-4181-a634-bd8ebf451723 # Entry - Page
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: dd72a92e-e073-4580-84e7-2d1974f27005
+            userCondition: null
             warning: null
             width: 50
         name: 'Tab 1'
-        sortOrder: 1
+        uid: b22470c7-a432-4315-85ba-8b9faf6185af
+        userCondition: null
 group: null
+groupChildBlockTypes: true
 handle: contact
+icon: null
+ignorePermissions: true
 maxBlocks: 0
 maxChildBlocks: 0
 maxSiblingBlocks: 0
+minBlocks: 0
+minChildBlocks: 0
+minSiblingBlocks: 0
 name: Contact
 sortOrder: 13
 topLevel: true
