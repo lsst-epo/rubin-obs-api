@@ -32,3 +32,4 @@ settings:
 translationKeyFormat: null
 translationMethod: none
 type: craft\fields\Checkboxes
+ 

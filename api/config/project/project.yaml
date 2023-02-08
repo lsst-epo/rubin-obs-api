@@ -99,7 +99,6 @@ meta:
     1a2ba41a-3949-4982-9cb3-f8b03863bcfd: 'Footer Content' # Footer Content
     1a35bfab-6a39-4c03-b273-2d5e3151c335: 'Rubin Telescope Education and Public Outreach' # Rubin Telescope Education and Public Outreach
     01b89d98-9aa4-46d5-a9a0-60a0c07fd815: Editors # Editors
-    1c0e3777-36ee-449d-948e-01f6fbde3ee6: Sites # Sites
     1c065033-f41d-4566-9863-d34a4bf24836: 'Table Cell' # Table Cell
     1d7324d5-d322-4b06-9eb5-52a6c2f856f3: Location # Location
     1e0c12ac-5dd7-4ed2-8cda-3801130b11e1: 'Gallery Item' # Gallery Item
@@ -264,7 +263,7 @@ meta:
     562703bc-5129-4417-b268-c7f1188eb161: Link # Link
     660361f1-3ecb-4c5e-9274-76e54f1f291f: 'Number of items' # Number of items
     838028d1-bb13-49aa-a2ee-b0b2e7e6a4fa: 'Simple Table' # Simple Table
-    960543c0-3ba6-466b-aa9e-9182279dd49a: 'Start Date' # Start Date
+    960543c0-3ba6-466b-aa9e-9182279dd49a: 'End Date' # End Date
     04000104-ec26-4d82-959a-729454e7f1cc: Country # Country
     7187131b-681b-45de-a1ea-87a8d070c05a: 'Gallery Item' # Gallery Item
     9940892d-32f4-4399-acac-ab559ce1c82b: Common # Common
