@@ -7,3 +7,4 @@ app.yaml
 db
 !db/Dockerfile
 google-app-credentials.json
+api/auth.json

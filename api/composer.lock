@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "448bd4eec614c25ec2a1a68af0865f46",
+    "content-hash": "504adf89c810d0c769d5bf307ce77883",
     "packages": [
         {
             "name": "abraham/twitteroauth",
@@ -119,16 +119,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.258.4",
+            "version": "3.258.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "c20d674f502ed96ed0de63e9da087eb5f0e95590"
+                "reference": "c29a1db83373f8a5c4735acfdd3470e1bc594fee"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/c20d674f502ed96ed0de63e9da087eb5f0e95590",
-                "reference": "c20d674f502ed96ed0de63e9da087eb5f0e95590",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/c29a1db83373f8a5c4735acfdd3470e1bc594fee",
+                "reference": "c29a1db83373f8a5c4735acfdd3470e1bc594fee",
                 "shasum": ""
             },
             "require": {
@@ -207,9 +207,9 @@
             "support": {
                 "forum": "https://forums.aws.amazon.com/forum.jspa?forumID=80",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.258.4"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.258.5"
             },
-            "time": "2023-02-06T19:28:40+00:00"
+            "time": "2023-02-07T19:22:14+00:00"
         },
         {
             "name": "carlcs/craft-assetmetadata",
@@ -525,16 +525,16 @@
         },
         {
             "name": "composer/composer",
-            "version": "2.2.15",
+            "version": "2.2.19",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/composer.git",
-                "reference": "509dcbd4f8d459e0ef2ef223a231b8c31bceed78"
+                "reference": "30ff21a9af9a10845436abaeeb0bb7276e996d24"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/composer/zipball/509dcbd4f8d459e0ef2ef223a231b8c31bceed78",
-                "reference": "509dcbd4f8d459e0ef2ef223a231b8c31bceed78",
+                "url": "https://api.github.com/repos/composer/composer/zipball/30ff21a9af9a10845436abaeeb0bb7276e996d24",
+                "reference": "30ff21a9af9a10845436abaeeb0bb7276e996d24",
                 "shasum": ""
             },
             "require": {
@@ -604,7 +604,7 @@
             "support": {
                 "irc": "ircs://irc.libera.chat:6697/composer",
                 "issues": "https://github.com/composer/composer/issues",
-                "source": "https://github.com/composer/composer/tree/2.2.15"
+                "source": "https://github.com/composer/composer/tree/2.2.19"
             },
             "funding": [
                 {
@@ -620,7 +620,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-07-01T10:01:26+00:00"
+            "time": "2023-02-04T13:54:48+00:00"
         },
         {
             "name": "composer/metadata-minifier",
@@ -1055,21 +1055,21 @@
         },
         {
             "name": "craftcms/cms",
-            "version": "4.3.7.1",
+            "version": "4.3.8.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/craftcms/cms.git",
-                "reference": "750fe591748cf79e06ab08f6c82cb80611d53c30"
+                "reference": "c121d8026a19f431776f9410ebfc65adcdd8231b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/craftcms/cms/zipball/750fe591748cf79e06ab08f6c82cb80611d53c30",
-                "reference": "750fe591748cf79e06ab08f6c82cb80611d53c30",
+                "url": "https://api.github.com/repos/craftcms/cms/zipball/c121d8026a19f431776f9410ebfc65adcdd8231b",
+                "reference": "c121d8026a19f431776f9410ebfc65adcdd8231b",
                 "shasum": ""
             },
             "require": {
                 "commerceguys/addressing": "^1.2",
-                "composer/composer": "2.2.15",
+                "composer/composer": "2.2.19",
                 "craftcms/oauth2-craftid": "~1.0.0",
                 "craftcms/plugin-installer": "~1.5.6",
                 "craftcms/server-check": "~2.1.2",
@@ -1169,7 +1169,7 @@
                 "rss": "https://github.com/craftcms/cms/releases.atom",
                 "source": "https://github.com/craftcms/cms"
             },
-            "time": "2023-02-06T04:32:24+00:00"
+            "time": "2023-02-08T12:19:14+00:00"
         },
         {
             "name": "craftcms/contact-form",
@@ -5542,16 +5542,16 @@
         },
         {
             "name": "rosas/universal-dam-integrator",
-            "version": "dev-EPO-7560",
+            "version": "dev-main",
             "source": {
                 "type": "git",
                 "url": "https://github.com/lsst-epo/craft3-universal-dam-integrator.git",
-                "reference": "4f973b4dd83b111b44ac48398a0a43638be9d51e"
+                "reference": "6b7cfed743127cdee5f94fabda076f6398d0abcd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/lsst-epo/craft3-universal-dam-integrator/zipball/4f973b4dd83b111b44ac48398a0a43638be9d51e",
-                "reference": "4f973b4dd83b111b44ac48398a0a43638be9d51e",
+                "url": "https://api.github.com/repos/lsst-epo/craft3-universal-dam-integrator/zipball/6b7cfed743127cdee5f94fabda076f6398d0abcd",
+                "reference": "6b7cfed743127cdee5f94fabda076f6398d0abcd",
                 "shasum": ""
             },
             "require": {
@@ -5565,6 +5565,7 @@
                 "ext-zip": "^1.15",
                 "vlucas/phpdotenv": "^3.0"
             },
+            "default-branch": true,
             "type": "craft-plugin",
             "extra": {
                 "name": "Universal DAM Integrator",
@@ -5597,7 +5598,7 @@
                 "source": "https://github.com/lsst-epo/craft3-universal-dam-integrator",
                 "docs": "https://github.com/lsst-epo/craft3-universal-dam-integrator/blob/main/README.md"
             },
-            "time": "2023-02-01T18:47:04+00:00"
+            "time": "2023-02-08T00:32:28+00:00"
         },
         {
             "name": "rynpsc/craft-phone-number",
@@ -5982,16 +5983,16 @@
         },
         {
             "name": "spicyweb/craft-neo",
-            "version": "3.6.2",
+            "version": "3.6.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/spicywebau/craft-neo.git",
-                "reference": "b541bdcfa1186435588f055de889af0d120a8629"
+                "reference": "e8018866d71b3d55f96e89a4a3c2bd0068eadd0d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/spicywebau/craft-neo/zipball/b541bdcfa1186435588f055de889af0d120a8629",
-                "reference": "b541bdcfa1186435588f055de889af0d120a8629",
+                "url": "https://api.github.com/repos/spicywebau/craft-neo/zipball/e8018866d71b3d55f96e89a4a3c2bd0068eadd0d",
+                "reference": "e8018866d71b3d55f96e89a4a3c2bd0068eadd0d",
                 "shasum": ""
             },
             "require": {
@@ -6014,7 +6015,7 @@
                 "schemaVersion": "3.6.2",
                 "class": "benf\\neo\\Plugin",
                 "changelogUrl": "https://github.com/spicywebau/craft-neo/blob/3.x/CHANGELOG.md",
-                "downloadUrl": "https://github.com/spicywebau/craft-neo/archive/refs/tags/3.6.2.zip"
+                "downloadUrl": "https://github.com/spicywebau/craft-neo/archive/refs/tags/3.6.3.zip"
             },
             "autoload": {
                 "psr-4": {
@@ -6041,12 +6042,12 @@
                 "plugin"
             ],
             "support": {
-                "docs": "https://github.com/spicywebau/craft-neo/blob/3.6.2/README.md",
+                "docs": "https://github.com/spicywebau/craft-neo/blob/3.6.3/README.md",
                 "issues": "https://github.com/spicywebau/craft-neo/issues",
                 "rss": "https://github.com/spicywebau/craft-neo/commits/3.x.atom",
                 "source": "https://github.com/spicywebau/craft-neo"
             },
-            "time": "2023-02-02T05:56:29+00:00"
+            "time": "2023-02-08T03:33:38+00:00"
         },
         {
             "name": "symfony/console",
@@ -9851,5 +9852,5 @@
     "platform-overrides": {
         "php": "8.1.10"
     },
-    "plugin-api-version": "2.3.0"
+    "plugin-api-version": "2.2.0"
 }

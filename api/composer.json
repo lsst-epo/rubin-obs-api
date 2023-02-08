@@ -9,7 +9,7 @@
         "craftcms/google-cloud": "^2.0.0",
         "craftcms/redactor": "^3.0.2",
         "jamesedmonston/graphql-authentication": "^2.0.0",
-        "rosas/universal-dam-integrator": "dev-EPO-7560",
+        "rosas/universal-dam-integrator": "dev-main#v0.3-alpha",
         "rynpsc/craft-phone-number": "^2.1.0",
         "sebastianlenz/linkfield": "^2.1.4",
         "spicyweb/craft-neo": "^3.3.6",
