@@ -5,7 +5,6 @@ services:
   cache:
     image: memcached
   craft:
-    restart: always
     build: ./
     depends_on:
       - postgres
@@ -16,9 +15,10 @@ services:
       - PORT=8080
     ports:
       - "8080:8080"
-
+    depends_on:
+      postgres:
+        condition: service_healthy
   postgres:
-    restart: always
     build: ./db 
     environment:
       POSTGRES_ROOT_PASSWORD: root
@@ -28,6 +28,12 @@ services:
     volumes:
       # Persistent data
       - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: [ "CMD-SHELL", "export PGPASSWORD=$${POSTGRES_PASSWORD}; pg_isready -d $${POSTGRES_DB} -U $${POSTGRES_USER}"]
+      interval: 30s
+      timeout: 60s
+      retries: 5
+      start_period: 80s
 
 volumes:
   pgdata:
