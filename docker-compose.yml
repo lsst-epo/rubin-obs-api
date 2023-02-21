@@ -33,7 +33,7 @@ services:
         - DB_PASSWORD
         - DB_SCHEMA=public
         - ENABLE_MEMCACHED=true
-        - ENVIRONMENT=dev
+        - CRAFT_ENVIRONMENT=dev
         - GCP_PROJECT_ID=skyviewer
         - GCS_ASSET_BUCKET=https://storage.googleapis.com/craft-test-erosas
         - MEMCACHED_IP=cache
