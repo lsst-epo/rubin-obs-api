@@ -117,7 +117,7 @@ fieldLayouts:
           -
             elementCondition: null
             fieldUid: 960543c0-3ba6-466b-aa9e-9182279dd49a # Start Date
-            instructions: null
+            instructions: 'Optional for single day events'
             label: 'Start Date'
             required: false
             tip: null
