@@ -35,11 +35,11 @@ fields:
     searchable: false
     settings:
       maxLength: '255'
-      placeholder: null
+      placeholder: ''
       types:
         - url
     translationKeyFormat: null
-    translationMethod: site
+    translationMethod: none
     type: craft\fields\Url
   c4060079-e438-4c63-8b06-77cdea857fd9: # Text
     columnSuffix: null
@@ -59,7 +59,7 @@ fields:
       placeholder: null
       uiMode: normal
     translationKeyFormat: null
-    translationMethod: site
+    translationMethod: none
     type: craft\fields\PlainText
 handle: externalLink
 name: 'External Link'
