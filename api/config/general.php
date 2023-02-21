@@ -10,8 +10,6 @@
 
 use craft\helpers\App;
 
-$dev = App::env('ENVIRONMENT') === 'dev';
-
 $s3BucketPathFormat = 'https://s3.%s.amazonaws.com/%s/';
 $gcsBucketPathFormat = 'https://storage.googleapis.com/%s/';
 
@@ -31,6 +29,7 @@ return [
         'securityKey' => App::env('SECURITY_KEY'),
 
         'aliases' => [
+            '@webroot' => dirname(__DIR__) . '/web',
             '@previewUrlFormat' => App::env('ALIAS_PREVIEW_URL_FORMAT'),
             '@assetsAssetVariantBaseURL' => sprintf(
                 $s3BucketPathFormat,
@@ -79,7 +78,7 @@ return [
     // Dev environment settings
     'dev' => [
         // Dev Mode (see https://craftcms.com/guides/what-dev-mode-does)
-        'devMode' => App::env('ENVIRONMENT') === 'dev',
+        'devMode' => App::env('CRAFT_ENVIRONMENT') === 'dev',
     ],
 
     // Staging environment settings
