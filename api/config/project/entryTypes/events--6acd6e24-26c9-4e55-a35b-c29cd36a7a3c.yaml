@@ -2,6 +2,7 @@ fieldLayouts:
   3f368182-1b28-45f6-8acc-ce602279d8ce:
     tabs:
       -
+        elementCondition: null
         elements:
           -
             autocapitalize: true
@@ -9,6 +10,7 @@ fieldLayouts:
             autocorrect: true
             class: null
             disabled: false
+            elementCondition: null
             id: null
             instructions: null
             label: null
@@ -23,119 +25,158 @@ fieldLayouts:
             step: null
             tip: null
             title: null
-            type: craft\fieldlayoutelements\EntryTitleField
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 95d68382-3e35-4668-a3ef-7eec6ad6312b
+            userCondition: null
             warning: null
             width: 100
           -
+            elementCondition: null
             fieldUid: 05eead62-7bf9-43e4-a7e8-bcd8f9f77323 # Hero
-            instructions: ''
-            label: ''
-            required: ''
+            instructions: null
+            label: null
+            required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: f695fd1f-55a0-4d97-aedb-e6a5fa421b29
+            userCondition: null
             warning: null
             width: 100
           -
+            elementCondition: null
             fieldUid: 3146b06e-af03-43e7-b278-3a65c81f610e # Address
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: a2924464-d3d0-4ecb-806b-24937d329a05
+            userCondition: null
             warning: null
             width: 25
           -
+            elementCondition: null
             fieldUid: a8ba2de3-ff22-4a96-9a53-00b6dec31def # City
-            instructions: ''
-            label: ''
-            required: ''
+            instructions: null
+            label: null
+            required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: 9f72266f-3bd8-4959-ba6f-57388cf27f23
+            userCondition: null
             warning: null
             width: 25
           -
+            elementCondition: null
             fieldUid: 87362cd0-662a-4068-9482-5ff62fe472c4 # State/Province
-            instructions: ''
-            label: ''
-            required: ''
+            instructions: null
+            label: null
+            required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: f4a8b11d-cb33-4f44-be36-d81ba8118014
+            userCondition: null
             warning: null
             width: 25
           -
+            elementCondition: null
             fieldUid: 04000104-ec26-4d82-959a-729454e7f1cc # Country
-            instructions: ''
-            label: ''
-            required: ''
+            instructions: null
+            label: null
+            required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: 3ce85b7f-9dba-45e8-98d1-1199d0b1c43b
+            userCondition: null
             warning: null
             width: 25
           -
+            elementCondition: null
             fieldUid: ddb3efd5-1bce-43e1-9fb9-399ada8a8126 # Registration Open Date
-            instructions: ''
-            label: ''
-            required: ''
+            instructions: null
+            label: null
+            required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: 30bbbd99-1535-4f1f-b3c7-e537013ab64f
+            userCondition: null
             warning: null
             width: 50
           -
+            elementCondition: null
             fieldUid: d93d96b1-80fe-486a-9ada-5d52b6e67009 # Registration Close Date
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: ed38cbea-ccd4-4d25-a969-833abf2e79da
+            userCondition: null
             warning: null
             width: 50
           -
+            elementCondition: null
             fieldUid: 960543c0-3ba6-466b-aa9e-9182279dd49a # Start Date
-            instructions: 'Optional for single day events'
+            instructions: null
             label: 'Start Date'
-            required: ''
+            required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: 21423944-151f-431f-9d35-a37e588a5c40
+            userCondition: null
             warning: null
             width: 100
           -
+            elementCondition: null
             fieldUid: 75f0b770-5006-4359-848f-96415196bfe0 # Date
-            instructions: ''
+            instructions: null
             label: 'End Date'
-            required: '1'
+            required: true
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: 797e4618-c904-4fa1-945f-c4210c6f2d0a
+            userCondition: null
             warning: null
             width: 100
           -
+            elementCondition: null
             fieldUid: 72a74d52-7fcc-4c4e-8db1-1528c7ae5ee3 # Event Type
-            instructions: ''
-            label: ''
-            required: '1'
+            instructions: null
+            label: null
+            required: true
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: 064ae806-e12e-4da9-acdd-64808646aae3
+            userCondition: null
             warning: null
             width: 25
           -
+            elementCondition: null
             fieldUid: cd801712-4ba3-4a9c-8fab-0d3e2a58b4eb # Description
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: 2adfd4ef-8ed4-4ae5-b477-a3c653849553
+            userCondition: null
             warning: null
             width: 100
           -
+            elementCondition: null
             fieldUid: 72e5075a-9b06-4674-b040-615f4a6f7b70 # Content Blocks - Pages
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: 32dcaf25-84f4-4c75-8ec4-d2ec568f76bf
+            userCondition: null
             warning: null
             width: 100
         name: Content
-        sortOrder: 1
+        uid: 6e518395-4c5e-4e81-84cd-2cb5acaa31b2
+        userCondition: null
 handle: events
 hasTitleField: true
 name: Events

@@ -2,16 +2,16 @@ columnSuffix: null
 contentColumnType: text
 fieldGroup: 9940892d-32f4-4399-acac-ab559ce1c82b # Common
 handle: address
-instructions: ''
+instructions: null
 name: Address
 searchable: true
 settings:
   byteLimit: null
   charLimit: null
-  code: ''
+  code: false
   columnType: null
-  initialRows: '4'
-  multiline: ''
+  initialRows: 4
+  multiline: false
   placeholder: null
   uiMode: normal
 translationKeyFormat: null

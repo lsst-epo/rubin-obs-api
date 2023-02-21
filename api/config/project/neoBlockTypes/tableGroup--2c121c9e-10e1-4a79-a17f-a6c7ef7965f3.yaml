@@ -7,15 +7,6 @@ fieldLayouts:
       -
         elements:
           -
-            fieldUid: 1c0e3777-36ee-449d-948e-01f6fbde3ee6 # Sites
-            instructions: null
-            label: null
-            required: false
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            warning: null
-            width: 100
-          -
             style: tip
             tip: 'Complex Tables nested inside this container will use a tabbed presentation with each Complex Table having its own tab.'
             type: craft\fieldlayoutelements\Tip

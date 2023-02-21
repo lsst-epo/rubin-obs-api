@@ -2,7 +2,7 @@ columnSuffix: bguhjypq
 contentColumnType: boolean
 fieldGroup: 3eefd793-f1fb-4692-ba0e-ff68f354543b # Investigations
 handle: useExternalLink
-instructions: ''
+instructions: null
 name: 'Use External Link'
 searchable: false
 settings:

@@ -1,3 +1,5 @@
 description: ''
 handle: students
 name: Students
+permissions:
+  - 'assignusergroup:e0be58f6-fc1b-4a02-816c-0a37b0fcd602' # Students

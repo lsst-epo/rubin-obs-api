@@ -1,12 +1,11 @@
-columnSuffix: wsrolexj
+columnSuffix: zfkthlcs
 contentColumnType: text
 fieldGroup: 99f4a28a-48c3-49ca-bb4a-7acbb49fde30 # Pages
 handle: sites
-instructions: 'What sites should this content block be visible in?'
+instructions: null
 name: Sites
 searchable: false
 settings:
-  multi: true
   options:
     -
       __assoc__:
@@ -29,7 +28,7 @@ settings:
           - es
         -
           - default
-          - '1'
+          - ''
 translationKeyFormat: null
 translationMethod: none
 type: craft\fields\Checkboxes
