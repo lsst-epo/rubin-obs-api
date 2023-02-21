@@ -55,18 +55,11 @@ fieldLayouts:
             width: 50
         name: Content
         sortOrder: 1
+fs: heroes
 handle: heroes
 hasUrls: true
 name: Heroes
-settings:
-  bucket: rubin-obs-api_assets_heroes
-  bucketSelectionMode: choose
-  expires: '5 minutes'
-  keyFileContents: ''
-  projectId: $GCP_PROJECT_ID
-  subfolder: ''
 sortOrder: 1
 titleTranslationKeyFormat: null
 titleTranslationMethod: site
-type: craft\googlecloud\Volume
 url: '@assetsHeroesBaseURL'
