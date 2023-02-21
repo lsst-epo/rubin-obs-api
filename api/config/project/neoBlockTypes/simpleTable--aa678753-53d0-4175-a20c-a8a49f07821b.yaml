@@ -6,6 +6,15 @@ fieldLayouts:
       -
         elements:
           -
+            fieldUid: 1c0e3777-36ee-449d-948e-01f6fbde3ee6 # Sites
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
             fieldUid: 838028d1-bb13-49aa-a2ee-b0b2e7e6a4fa # Simple Table
             instructions: null
             label: null
