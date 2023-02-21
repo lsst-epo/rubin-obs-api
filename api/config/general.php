@@ -30,10 +30,6 @@ return [
         // The secure key Craft will use for hashing and encrypting data
         'securityKey' => App::env('SECURITY_KEY'),
 
-        // Whether to save the project config out to config/project.yaml
-        // (see https://docs.craftcms.com/v3/project-config.html)
-        'useProjectConfigFile' => true,
-
         'aliases' => [
             '@previewUrlFormat' => App::env('ALIAS_PREVIEW_URL_FORMAT'),
             '@assetsAssetVariantBaseURL' => sprintf(
