@@ -1,0 +1,90 @@
+# docker-compose.yml
+version: '2.2'
+
+services:
+  cache:
+    image: memcached
+  craft:
+    build: ./
+    depends_on:
+      - postgres
+    volumes:
+      - ./api:/var/www/html
+    environment:
+      ENVIRONMENT: dev
+      SECURITY_KEY: <CRAFT SECURITY KEY>
+      DB_DSN: pgsql:host=<CRAFT DB HOSTNAME>;dbname=<CRAFT DB NAME>
+      DB_SERVER: <CRAFT DB SERVER>
+      DB_NAME: <CRAFT DB NAME>
+      DB_USER: <CRAFT DB USER>
+      DB_PASSWORD: <CRAFT DB PASSWORD>
+      DB_DATABASE: <CRAFT DB>
+      DB_SCHEMA: <CRAFT SCHEMA>
+      DB_DRIVER: pgsql
+      DB_PORT: 5432
+      PRIMARY_SITE_URL: <CRAFT CMS URL>
+      WEB_BASE_URL: <CLIENT URL>
+      ALIAS_PREVIEW_URL_FORMAT: <CLIENT URL>/api/preview?site={site}&entryUid={sourceUid}
+      VERIFY_EMAIL_PATH: <CLIENT URL>/?activate=true
+      SET_PASSWORD_PATH: <CLIENT URL>/?set_password=true
+      ENABLE_MEMCACHED: "true"
+      MEMCACHED_IP: cache
+      MEMCACHED_PORT: 11211
+      PORT: 8080
+      NEXT_API_BASE_URL: gateway.docker.internal:<LOCALHOST CLIENT PORT>/api
+      NEXT_REVALIDATE_SECRET_TOKEN: <ISR TOKEN>
+      GCP_PROJECT_ID: <GCP PROJECT ID>
+      GCS_GENERAL_BUCKET: <GCP BUCKET>
+      GCS_HEROES_BUCKET: <GCP BUCKET>
+      GCS_CONTENT_BUCKET: <GCP BUCKET>
+      GCS_CALLOUTS_BUCKET: <GCP BUCKET>
+      GCS_STAFF_BUCKET: <GCP BUCKET>
+      GOOGLE_APPLICATION_CREDENTIALS: <PATH TO GOOGLE APP CREDENTIALS>
+      GOOGLE_APP_ID: <GOOGLE APP ID>
+      GOOGLE_APP_SECRET: <GOOGLE APP SECRET>
+      CANTO_APP_ID: <CANTO APP ID>
+      CANTO_SECRET_KEY: <CANTO APP SECRET>
+      CANTO_AUTH_ENDPOINT: https://oauth.canto.com/oauth/api/oauth2/token?app_id={appId}&app_secret={secretKey}&grant_type=client_credentials&refresh_token=
+      CANTO_ASSET_ENDPOINT: <RUBIN CANTO API ENTRYPOINT>
+      CANTO_ASSET_BASEURL: <RUBIN CANTO ASSET BASE URL>
+      AWS_ASSET_KEY_ID: <AWS APP ID>
+      AWS_ASSET_SECRET_KEY: <AWS APP SECRET>
+      AWS_ASSET_S3_BUCKET: <AWS S3 BUCKET>
+      AWS_ASSET_S3_REGION: <AWS S3 REGION>
+      AWS_ASSET_S3_ASSET_VARIANT_SUBFOLDER: <AWS S3 BUCKET SUBFOLDER>
+      FACEBOOK_APP_ID: <FACEBOOK APP ID>
+      FACEBOOK_APP_SECRET: <FACEBOOK APP SECRET>
+      FACEBOOK_APP_REDIRECT_URL: <CLIENT URL>/sso-redirect?sso=true&facebook=true
+      EMAIL_FROM_ADDRESS: do-not-reply@mail.lsst.org
+      EMAIL_REPLY_TO_ADDRESS: do-not-reply@mail.lsst.org
+      EMAIL_SENDER_NAME: "Rubin Observatory Education and Public Outreach"
+      EMAIL_HTML_EMAIL_TEMPLATE: ""
+      EMAIL_SMTP_HOST_NAME: <SMTP HOSTNAME>
+      EMAIL_SMTP_PORT: <SMTP PORT>
+      EMAIL_SMTP_USERNAME: <SMTP USERNAME>
+      EMAIL_SMTP_PASSWORD: <SMTP PASSWORD>
+      CONTACT_FORM_NOTIFY_EMAIL: <CONTACT EMAIL>
+    ports:
+      - "8080:8080"
+    depends_on:
+      postgres:
+        condition: service_healthy
+  postgres:
+    build: ./db 
+    environment:
+      POSTGRES_ROOT_PASSWORD: <POSTRES ROOT PASSWORD>
+      POSTGRES_USER: <POSTRES USER>
+      POSTGRES_PASSWORD: <POSTRES PASSWORD>
+      POSTGRES_DB: <POSTRES DB>
+    volumes:
+      # Persistent data
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: [ "CMD-SHELL", "export PGPASSWORD=$${POSTGRES_PASSWORD}; pg_isready -d $${POSTGRES_DB} -U $${POSTGRES_USER}"]
+      interval: 30s
+      timeout: 60s
+      retries: 5
+      start_period: 80s
+
+volumes:
+  pgdata:
