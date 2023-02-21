@@ -11,7 +11,7 @@ services:
     volumes:
       - ./api:/var/www/html
     environment:
-      ENVIRONMENT: dev
+      CRAFT_ENVIRONMENT: dev
       SECURITY_KEY: <CRAFT SECURITY KEY>
       DB_DSN: pgsql:host=<CRAFT DB HOSTNAME>;dbname=<CRAFT DB NAME>
       DB_SERVER: <CRAFT DB SERVER>
