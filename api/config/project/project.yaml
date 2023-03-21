@@ -1,4 +1,4 @@
-dateModified: 1677018482
+dateModified: 1679421374
 email:
   fromEmail: $EMAIL_FROM_ADDRESS
   fromName: $EMAIL_SENDER_NAME
@@ -99,6 +99,7 @@ meta:
     1a2ba41a-3949-4982-9cb3-f8b03863bcfd: 'Footer Content' # Footer Content
     1a35bfab-6a39-4c03-b273-2d5e3151c335: 'Rubin Telescope Education and Public Outreach' # Rubin Telescope Education and Public Outreach
     01b89d98-9aa4-46d5-a9a0-60a0c07fd815: Editors # Editors
+    1c0e3777-36ee-449d-948e-01f6fbde3ee6: Sites # Sites
     1c065033-f41d-4566-9863-d34a4bf24836: 'Table Cell' # Table Cell
     1d7324d5-d322-4b06-9eb5-52a6c2f856f3: Location # Location
     1e0c12ac-5dd7-4ed2-8cda-3801130b11e1: 'Gallery Item' # Gallery Item
@@ -218,7 +219,6 @@ meta:
     753b10b6-e9e6-44f5-a9d9-4a07788733e1: 'Content Ratio' # Content Ratio
     824d9ca2-e755-4e41-8f6a-18e573fec8e4: 'News Posts' # News Posts
     831db889-442e-4553-9076-fc3bc2843c8c: 'Hide title' # Hide title
-    1c0e3777-36ee-449d-948e-01f6fbde3ee6: Sites # Sites
     922a7383-2cc6-4a2a-b347-3a41389d7119: 'Preferred Language' # Preferred Language
     0928ff1a-513d-41e0-acc1-606d93988618: 'Search Filters' # Search Filters
     942c9e60-2760-42ed-b03b-9e5eb133751b: Callout # Callout
@@ -1719,5 +1719,5 @@ system:
   live: true
   name: 'Rubin Telescope Education and Public Outreach'
   retryDuration: null
-  schemaVersion: 4.0.0.9
+  schemaVersion: 4.4.0.4
   timeZone: America/Los_Angeles
