@@ -49,7 +49,10 @@ class Request extends Component
 		try {
 			$client->request('GET', $requestUrl, []);
 		} catch (\Exception $exception) {
-			Craft::$app->session->setError('Incremental rebuild failed. Frontend will update after next revalidation interval.');
+			$isConsoleRequest = Craft::$app->getRequest()->getIsConsoleRequest();
+			if (!$isConsoleRequest) {
+				Craft::$app->session->setError('Incremental rebuild failed. Frontend will update after next revalidation interval.');
+			}
 		}
 	}
 
