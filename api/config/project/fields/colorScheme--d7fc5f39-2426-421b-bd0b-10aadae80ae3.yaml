@@ -2,12 +2,22 @@ columnSuffix: mncsyhlj
 contentColumnType: string
 fieldGroup: df8c8d8a-c7d1-45bf-b551-ef790a5b59ad # Callouts
 handle: colorScheme
-instructions: ''
+instructions: null
 name: 'Color Scheme'
 searchable: false
 settings:
-  optgroups: true
   options:
+    -
+      __assoc__:
+        -
+          - label
+          - Default
+        -
+          - value
+          - default
+        -
+          - default
+          - '1'
     -
       __assoc__:
         -
