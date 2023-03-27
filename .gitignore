@@ -9,3 +9,4 @@ db
 google-app-credentials.json
 docker-compose-local-db.*
 api/auth.json
+.idea
