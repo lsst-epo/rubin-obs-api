@@ -59,7 +59,7 @@ jobs:
         comment-id: ${{ steps.fc.outputs.comment-id }}
         issue-number: ${{ github.event.pull_request.number }}
         body: |
-          A preview of this PR will be available at https://${{ github.head_ref }}-dot-skyviewer-api-dot-skyviewer.uw.r.appspot.com until the request is closed. :sparkles:
+          A preview of this PR will be available at https://${{ github.head_ref }}-dot-rubin-obs-api-dot-skyviewer.uw.r.appspot.com until the request is closed. :sparkles:
         reactions: '+1'
         edit-mode: replace
 
