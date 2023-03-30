@@ -17,6 +17,7 @@ use Craft;
 use craft\base\Plugin;
 use craft\elements\Entry;
 use craft\events\ModelEvent;
+use craft\events\ElementStructureEvent;
 use craft\helpers\ElementHelper;
 use craft\services\Plugins;
 use craft\events\PluginEvent;
@@ -102,22 +103,72 @@ class NextBuilds extends Plugin
 	    // Event Listeners
 	    Event::on(
 		    Entry::class,
-		    Entry::EVENT_AFTER_SAVE,
+		    Entry::EVENT_AFTER_PROPAGATE,
 		    function (ModelEvent $event) {
 			    $entry = $event->sender;
-			    if (
-				    $this->settings->activeSections[$entry->section->handle] &&
-				    !ElementHelper::isDraft($entry) &&
-				    !($entry->duplicateOf && $entry->getIsCanonical() && !$entry->updatingFromDerivative) &&
-				    ($entry->enabled && $entry->getEnabledForSite()) &&
-				    !ElementHelper::rootElement($entry)->isProvisionalDraft &&
-				    !$entry->resaving &&
-				    !ElementHelper::isRevision($entry)
-			    ) {
-				    $this->request->buildPagesFromEntry($entry);
-			    }
+                if (
+                    $this->settings->activeSections[$entry->section->handle] &&
+                    !ElementHelper::isDraft($entry) &&
+                    !($entry->duplicateOf && $entry->getIsCanonical() && !$entry->updatingFromDerivative) &&
+                    ($entry->enabled && $entry->getEnabledForSite()) &&
+                    !ElementHelper::rootElement($entry)->isProvisionalDraft &&
+                    !$entry->resaving &&
+                    !ElementHelper::isRevision($entry)
+                ) {
+                    $this->request->buildPagesFromEntry($entry);
+                }
 		    }
 	    );
+
+        Event::on(
+            Entry::class,
+            Entry::EVENT_AFTER_DELETE,
+            function (Event $event) {
+                $entry = $event->sender;
+                if (
+                    $this->settings->activeSections[$entry->section->handle] &&
+                    !ElementHelper::isDraft($entry) &&
+                    !($entry->duplicateOf && $entry->getIsCanonical() && !$entry->updatingFromDerivative) &&
+                    !ElementHelper::rootElement($entry)->isProvisionalDraft &&
+                    !ElementHelper::isRevision($entry)
+                ) {
+                    $this->request->buildPagesFromEntry($entry);
+                }
+            }
+        );
+
+        Event::on(
+            Entry::class,
+            Entry::EVENT_AFTER_MOVE_IN_STRUCTURE,
+            function (ElementStructureEvent $event) {
+                $entry = $event->sender;
+                if (
+                    $this->settings->activeSections[$entry->section->handle] &&
+                    !ElementHelper::isDraft($entry) &&
+                    !($entry->duplicateOf && $entry->getIsCanonical() && !$entry->updatingFromDerivative) &&
+                    !ElementHelper::rootElement($entry)->isProvisionalDraft &&
+                    !ElementHelper::isRevision($entry)
+                ) {
+                    $this->request->buildPagesFromEntry($entry);
+                }
+            }
+        );
+
+        Event::on(
+            Entry::class,
+            Entry::EVENT_AFTER_RESTORE,
+            function (Event $event) {
+                if (
+                    $this->settings->activeSections[$entry->section->handle] &&
+                    !ElementHelper::isDraft($entry) &&
+                    !($entry->duplicateOf && $entry->getIsCanonical() && !$entry->updatingFromDerivative) &&
+                    !ElementHelper::rootElement($entry)->isProvisionalDraft &&
+                    !ElementHelper::isRevision($entry)
+                ) {
+                    $this->request->buildPagesFromEntry($entry);
+                }
+            }
+        );
     }
 
     // Protected Methods
