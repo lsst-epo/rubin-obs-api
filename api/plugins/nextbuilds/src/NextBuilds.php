@@ -103,17 +103,16 @@ class NextBuilds extends Plugin
 	    // Event Listeners
 	    Event::on(
 		    Entry::class,
-		    Entry::EVENT_AFTER_PROPAGATE,
+		    Entry::EVENT_AFTER_SAVE,
 		    function (ModelEvent $event) {
 			    $entry = $event->sender;
                 if (
                     $this->settings->activeSections[$entry->section->handle] &&
-                    !ElementHelper::isDraft($entry) &&
+                    !ElementHelper::isDraftOrRevision($entry) &&
                     !($entry->duplicateOf && $entry->getIsCanonical() && !$entry->updatingFromDerivative) &&
                     ($entry->enabled && $entry->getEnabledForSite()) &&
                     !ElementHelper::rootElement($entry)->isProvisionalDraft &&
-                    !$entry->resaving &&
-                    !ElementHelper::isRevision($entry)
+                    !$entry->resaving
                 ) {
                     $this->request->buildPagesFromEntry($entry);
                 }
@@ -127,10 +126,9 @@ class NextBuilds extends Plugin
                 $entry = $event->sender;
                 if (
                     $this->settings->activeSections[$entry->section->handle] &&
-                    !ElementHelper::isDraft($entry) &&
+                    !ElementHelper::isDraftOrRevision($entry) &&
                     !($entry->duplicateOf && $entry->getIsCanonical() && !$entry->updatingFromDerivative) &&
-                    !ElementHelper::rootElement($entry)->isProvisionalDraft &&
-                    !ElementHelper::isRevision($entry)
+                    !ElementHelper::rootElement($entry)->isProvisionalDraft
                 ) {
                     $this->request->buildPagesFromEntry($entry);
                 }
@@ -144,10 +142,9 @@ class NextBuilds extends Plugin
                 $entry = $event->sender;
                 if (
                     $this->settings->activeSections[$entry->section->handle] &&
-                    !ElementHelper::isDraft($entry) &&
+                    !ElementHelper::isDraftOrRevision($entry) &&
                     !($entry->duplicateOf && $entry->getIsCanonical() && !$entry->updatingFromDerivative) &&
-                    !ElementHelper::rootElement($entry)->isProvisionalDraft &&
-                    !ElementHelper::isRevision($entry)
+                    !ElementHelper::rootElement($entry)->isProvisionalDraft
                 ) {
                     $this->request->buildPagesFromEntry($entry);
                 }
@@ -160,10 +157,9 @@ class NextBuilds extends Plugin
             function (Event $event) {
                 if (
                     $this->settings->activeSections[$entry->section->handle] &&
-                    !ElementHelper::isDraft($entry) &&
+                    !ElementHelper::isDraftOrRevision($entry) &&
                     !($entry->duplicateOf && $entry->getIsCanonical() && !$entry->updatingFromDerivative) &&
-                    !ElementHelper::rootElement($entry)->isProvisionalDraft &&
-                    !ElementHelper::isRevision($entry)
+                    !ElementHelper::rootElement($entry)->isProvisionalDraft
                 ) {
                     $this->request->buildPagesFromEntry($entry);
                 }

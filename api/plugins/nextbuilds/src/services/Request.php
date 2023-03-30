@@ -48,6 +48,10 @@ class Request extends Component
 
 		try {
 			$client->request('GET', $requestUrl, []);
+			$isConsoleRequest = Craft::$app->getRequest()->getIsConsoleRequest();
+			if (!$isConsoleRequest) {
+				Craft::$app->session->setNotice('Requesting revalidation: ' . $entry->uri);
+			}
 		} catch (\Exception $exception) {
 			$isConsoleRequest = Craft::$app->getRequest()->getIsConsoleRequest();
 			if (!$isConsoleRequest) {
