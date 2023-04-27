@@ -2,13 +2,13 @@ columnSuffix: null
 contentColumnType: string
 fieldGroup: 3eefd793-f1fb-4692-ba0e-ff68f354543b # Investigations
 handle: landingNavigation
-instructions: ''
+instructions: null
 name: 'Landing Navigation'
 searchable: true
 settings:
   contentTable: '{{%matrixcontent_landingnavigation}}'
-  maxBlocks: ''
-  minBlocks: ''
+  maxBlocks: null
+  minBlocks: null
   propagationKeyFormat: null
   propagationMethod: all
 translationKeyFormat: null

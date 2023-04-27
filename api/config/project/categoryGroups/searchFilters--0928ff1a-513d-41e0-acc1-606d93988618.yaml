@@ -3,6 +3,7 @@ fieldLayouts:
   f8bd46cf-4a8b-49dc-8ef0-6c7840257051:
     tabs:
       -
+        elementCondition: null
         elements:
           -
             autocapitalize: true
@@ -10,8 +11,9 @@ fieldLayouts:
             autocorrect: true
             class: null
             disabled: false
+            elementCondition: null
             id: null
-            instructions: ''
+            instructions: null
             label: Label
             max: null
             min: null
@@ -25,10 +27,13 @@ fieldLayouts:
             tip: null
             title: null
             type: craft\fieldlayoutelements\TitleField
+            uid: e04b34e9-12de-4376-87d5-70e422f5fd55
+            userCondition: null
             warning: null
             width: 100
         name: Content
-        sortOrder: 1
+        uid: b1f75622-30b3-4a03-9cf5-93c182733a93
+        userCondition: null
 handle: searchFilters
 name: 'Search Filters'
 siteSettings:

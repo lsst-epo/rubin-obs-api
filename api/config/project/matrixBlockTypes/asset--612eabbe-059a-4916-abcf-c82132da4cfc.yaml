@@ -3,47 +3,57 @@ fieldLayouts:
   d4f1bbbd-99bc-4368-8df7-61e6ef202234:
     tabs:
       -
+        elementCondition: null
         elements:
           -
+            elementCondition: null
             fieldUid: 1ed94e58-7078-46fb-b590-0692fbdf9c20 # Common Name
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: fa744bb7-8d4b-4509-bac6-780a76ced406
+            userCondition: null
             warning: null
             width: 25
           -
+            elementCondition: null
             fieldUid: e7913600-c914-4ab1-a9bb-abd2bdcbfb94 # Custom Name
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: 03a2e0ac-5115-4f76-8e75-bd8bfd8fe246
+            userCondition: null
             warning: null
             width: 25
           -
+            elementCondition: null
             fieldUid: 74319755-d24f-4991-a84a-0c1c031cb21e # Asset Link
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: 95c163df-d990-4b38-9246-8b116e6fe8f6
+            userCondition: null
             warning: null
             width: 25
         name: Content
-        sortOrder: 1
+        uid: 118ac460-9d21-4cc8-9bbb-bfb3190f2cf1
+        userCondition: null
 fields:
   1ed94e58-7078-46fb-b590-0692fbdf9c20: # Common Name
     columnSuffix: null
     contentColumnType: string
     fieldGroup: null
     handle: commonName
-    instructions: ''
+    instructions: null
     name: 'Common Name'
     searchable: true
     settings:
-      optgroups: true
       options:
         -
           __assoc__:
@@ -185,31 +195,35 @@ fields:
     contentColumnType: string
     fieldGroup: null
     handle: assetLink
-    instructions: ''
+    instructions: null
     name: 'Asset Link'
     searchable: false
     settings:
       allowSelfRelations: false
+      allowSubfolders: false
       allowUploads: true
       allowedKinds: null
+      branchLimit: null
       defaultUploadLocationSource: 'volume:d41cc960-99a4-41a8-a7a6-7891a22e4a93' # Asset Variants
-      defaultUploadLocationSubpath: ''
-      limit: '1'
+      defaultUploadLocationSubpath: null
       localizeRelations: false
+      maintainHierarchy: false
+      maxRelations: 1
+      minRelations: null
       previewMode: full
-      restrictFiles: ''
-      selectionLabel: ''
+      restrictFiles: false
+      restrictLocation: false
+      restrictedDefaultUploadSubpath: null
+      restrictedLocationSource: 'volume:8e9ec71e-2cf0-4f6a-b856-8976de0ce100' # Heroes
+      restrictedLocationSubpath: null
+      selectionLabel: null
       showSiteMenu: true
       showUnpermittedFiles: false
       showUnpermittedVolumes: false
-      singleUploadLocationSource: 'volume:8e9ec71e-2cf0-4f6a-b856-8976de0ce100' # Heroes
-      singleUploadLocationSubpath: ''
-      source: null
       sources:
         - 'volume:f944dd79-91a6-443d-b09a-de2597c7557f'
         - 'volume:d41cc960-99a4-41a8-a7a6-7891a22e4a93' # Asset Variants
       targetSiteId: null
-      useSingleFolder: false
       validateRelatedElements: false
       viewMode: large
     translationKeyFormat: null
@@ -220,16 +234,16 @@ fields:
     contentColumnType: text
     fieldGroup: null
     handle: assetName
-    instructions: ''
+    instructions: null
     name: 'Custom Name'
     searchable: false
     settings:
       byteLimit: null
       charLimit: null
-      code: ''
+      code: false
       columnType: null
-      initialRows: '4'
-      multiline: ''
+      initialRows: 4
+      multiline: false
       placeholder: null
       uiMode: normal
     translationKeyFormat: null

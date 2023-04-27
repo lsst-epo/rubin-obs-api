@@ -2,57 +2,79 @@ fieldLayouts:
   5b083a00-8eea-4a2e-9aae-1aa4400e850c:
     tabs:
       -
+        elementCondition: null
         elements:
           -
+            dismissible: false
+            elementCondition: null
             style: tip
             tip: 'Select an internal entry (page or gallery asset) or provide a link to an external webpage.'
             type: craft\fieldlayoutelements\Tip
+            uid: ce08fcaf-dbe3-473d-963a-6d3f5de553af
+            userCondition: null
           -
+            elementCondition: null
             fieldUid: 4c977b75-9ee1-4cdb-9d2a-203639f4af84 # Links
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: e5c9fd59-8ec7-460e-b8c3-9563c47f6d70
+            userCondition: null
             warning: null
             width: 100
         name: Links
-        sortOrder: 1
+        uid: 2ea54319-68a7-41e2-9a4c-8fff06b821f0
+        userCondition: null
       -
+        elementCondition: null
         elements:
           -
+            elementCondition: null
             fieldUid: 20aeb76c-ce1e-47c4-96bd-6ebc1d456ef7 # Colophon
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: 87ca7926-bf67-43d0-b191-d0a349bc8269
+            userCondition: null
             warning: null
             width: 100
         name: Colophon
-        sortOrder: 2
+        uid: 38e59699-acf8-4246-b68d-6386ce75a78d
+        userCondition: null
       -
+        elementCondition: null
         elements:
           -
+            elementCondition: null
             fieldUid: 5ca378e1-cfb5-4db9-ad3c-1d6ef36536b7 # Supporters’ Logos
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: 410846fc-fac8-41b8-89b5-7a57ca590aaf
+            userCondition: null
             warning: null
             width: 100
           -
+            elementCondition: null
             fieldUid: fea30fc7-fc92-4268-961f-d514c1b903b8 # Supporters' Logos Alt
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: 32bed10a-c88b-4fa6-aaf0-59082d70f201
+            userCondition: null
             warning: null
             width: 100
         name: 'Financial Supporters'
-        sortOrder: 3
+        uid: b9b4987a-6469-4157-b678-1e63de38bc01
+        userCondition: null
 handle: footer
 name: 'Footer Content'
 sortOrder: 0

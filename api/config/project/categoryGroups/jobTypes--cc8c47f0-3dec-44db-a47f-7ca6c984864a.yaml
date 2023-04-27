@@ -3,6 +3,7 @@ fieldLayouts:
   274b1396-94aa-4b4a-867f-ece69df4061f:
     tabs:
       -
+        elementCondition: null
         elements:
           -
             autocapitalize: true
@@ -10,6 +11,7 @@ fieldLayouts:
             autocorrect: true
             class: null
             disabled: false
+            elementCondition: null
             id: null
             instructions: 'User-friendly job type'
             label: Label
@@ -25,10 +27,13 @@ fieldLayouts:
             tip: null
             title: null
             type: craft\fieldlayoutelements\TitleField
+            uid: 2ec007e3-4c57-4ddb-ad44-ce3538777a12
+            userCondition: null
             warning: null
             width: 100
         name: Content
-        sortOrder: 1
+        uid: 13b84004-e464-496b-91fb-79acd147d4b0
+        userCondition: null
 handle: jobTypes
 name: 'Job Types'
 siteSettings:

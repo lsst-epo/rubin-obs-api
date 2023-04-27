@@ -7,8 +7,8 @@ name: 'Custom Homepage Hero'
 searchable: false
 settings:
   contentTable: '{{%matrixcontent_customhero}}'
-  maxBlocks: '1'
-  minBlocks: ''
+  maxBlocks: 1
+  minBlocks: null
   propagationKeyFormat: null
   propagationMethod: all
 translationKeyFormat: null

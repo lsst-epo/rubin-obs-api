@@ -1,26 +1,40 @@
 childBlocks: null
+conditions: null
+description: null
+enabled: true
 field: 522db817-08b6-4ecf-a423-4aec204ab85d # Content Blocks - News
 fieldLayouts:
   95e7850b-f4bf-4df5-b00b-77e65e52d6c3:
     tabs:
       -
+        elementCondition: null
         elements:
           -
+            elementCondition: null
             fieldUid: 0e0c24d9-900c-4e44-9087-756675a01096 # Game
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: 9c07f84e-0d17-44dc-aceb-0ebd86bf9add
+            userCondition: null
             warning: null
             width: 100
         name: 'Select a Game'
-        sortOrder: 1
+        uid: bd7ce404-757c-4856-9e2a-0a37a379e336
+        userCondition: null
 group: null
+groupChildBlockTypes: true
 handle: game
+icon: null
+ignorePermissions: true
 maxBlocks: 0
 maxChildBlocks: 0
 maxSiblingBlocks: 0
+minBlocks: 0
+minChildBlocks: 0
+minSiblingBlocks: 0
 name: Game
 sortOrder: 8
 topLevel: true

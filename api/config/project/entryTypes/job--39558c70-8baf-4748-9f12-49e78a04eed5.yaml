@@ -2,6 +2,7 @@ fieldLayouts:
   eabbd9fa-466c-4447-949f-c961d410b273:
     tabs:
       -
+        elementCondition: null
         elements:
           -
             autocapitalize: true
@@ -9,6 +10,7 @@ fieldLayouts:
             autocorrect: true
             class: null
             disabled: false
+            elementCondition: null
             id: null
             instructions: null
             label: null
@@ -24,55 +26,73 @@ fieldLayouts:
             tip: null
             title: null
             type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 80d3c70f-81f7-4052-8095-95c62864ddf0
+            userCondition: null
             warning: null
             width: 100
           -
+            elementCondition: null
             fieldUid: 40b120c8-203c-4787-b78c-7bfd9c56fe2f # Sub Location
-            instructions: ''
+            instructions: null
             label: Location
-            required: '1'
+            required: true
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: 3ed7d554-bf88-42a7-b6e7-88de99465d30
+            userCondition: null
             warning: null
             width: 50
           -
+            elementCondition: null
             fieldUid: f282d5ff-8da0-4ebb-a160-e5446c02193d # Job Position
-            instructions: ''
-            label: ''
-            required: '1'
+            instructions: null
+            label: null
+            required: true
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: 393dcff6-c6a7-4162-9855-6fb2cca91dec
+            userCondition: null
             warning: null
             width: 50
           -
+            elementCondition: null
             fieldUid: 70d00340-3577-4a61-a2be-6e6fd986b5a7 # Open Date
-            instructions: ''
-            label: ''
-            required: '1'
+            instructions: null
+            label: null
+            required: true
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: dae38db9-64b8-488e-8283-db3a0e7a63fc
+            userCondition: null
             warning: null
             width: 50
           -
+            elementCondition: null
             fieldUid: 84116f7d-7a26-41d7-bd7f-79761f9b50a9 # Close Date
-            instructions: ''
-            label: ''
-            required: '1'
+            instructions: null
+            label: null
+            required: true
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: fac25088-4442-4d15-8775-ab5848ddd440
+            userCondition: null
             warning: null
             width: 50
           -
+            elementCondition: null
             fieldUid: a71f443d-14a3-402b-90ba-524dcce806d2 # External URL
-            instructions: ''
-            label: ''
-            required: '1'
+            instructions: null
+            label: null
+            required: true
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: 1337cbfe-7da6-48bb-9a2c-3f3815d01796
+            userCondition: null
             warning: null
             width: 100
         name: Content
-        sortOrder: 1
+        uid: 60346292-d1b7-46cf-a29c-9209111df474
+        userCondition: null
 handle: job
 hasTitleField: true
 name: Job

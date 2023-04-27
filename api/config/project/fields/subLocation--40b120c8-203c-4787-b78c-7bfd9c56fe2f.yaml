@@ -2,20 +2,19 @@ columnSuffix: null
 contentColumnType: string
 fieldGroup: 9940892d-32f4-4399-acac-ab559ce1c82b # Common
 handle: subLocation
-instructions: ''
+instructions: null
 name: 'Sub Location'
 searchable: true
 settings:
-  allowLimit: false
-  allowMultipleSources: false
   allowSelfRelations: false
-  branchLimit: '1'
-  limit: null
+  branchLimit: 1
   localizeRelations: false
-  selectionLabel: ''
+  maintainHierarchy: true
+  maxRelations: null
+  minRelations: null
+  selectionLabel: null
   showSiteMenu: true
   source: 'group:df7f4ec2-58b2-4c3a-afff-b07f4764fa4b' # Location
-  sources: '*'
   targetSiteId: null
   validateRelatedElements: false
   viewMode: null

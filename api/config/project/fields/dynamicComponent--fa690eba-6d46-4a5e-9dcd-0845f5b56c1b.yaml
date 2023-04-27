@@ -6,7 +6,6 @@ instructions: 'For dynamic pages and blocks.'
 name: 'Dynamic Component'
 searchable: true
 settings:
-  optgroups: true
   options:
     -
       __assoc__:

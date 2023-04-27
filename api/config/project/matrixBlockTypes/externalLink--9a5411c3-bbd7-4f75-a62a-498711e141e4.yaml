@@ -3,39 +3,46 @@ fieldLayouts:
   908d7981-63ac-461e-81c4-da6c921a1db9:
     tabs:
       -
+        elementCondition: null
         elements:
           -
+            elementCondition: null
             fieldUid: c4060079-e438-4c63-8b06-77cdea857fd9 # Text
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: e11ae0fc-93f0-4dd2-82df-a230676807d1
+            userCondition: null
             warning: null
             width: 100
           -
+            elementCondition: null
             fieldUid: 95b97a67-eccb-4910-b0e8-77f5860058b4 # Link
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: 543732ee-1f52-41a9-8d2c-217a3d6fe15a
+            userCondition: null
             warning: null
             width: 100
         name: Content
-        sortOrder: 1
+        uid: 47390618-6f25-4c11-baa5-d2d6d355a433
+        userCondition: null
 fields:
   95b97a67-eccb-4910-b0e8-77f5860058b4: # Link
     columnSuffix: null
     contentColumnType: string(255)
     fieldGroup: null
     handle: externalLink
-    instructions: ''
+    instructions: null
     name: Link
     searchable: false
     settings:
-      maxLength: '255'
-      placeholder: ''
+      maxLength: 255
       types:
         - url
     translationKeyFormat: null
@@ -46,16 +53,16 @@ fields:
     contentColumnType: text
     fieldGroup: null
     handle: text
-    instructions: ''
+    instructions: null
     name: Text
     searchable: false
     settings:
       byteLimit: null
       charLimit: null
-      code: ''
+      code: false
       columnType: null
-      initialRows: '4'
-      multiline: ''
+      initialRows: 4
+      multiline: false
       placeholder: null
       uiMode: normal
     translationKeyFormat: null

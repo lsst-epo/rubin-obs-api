@@ -2,18 +2,23 @@ fieldLayouts:
   2504b1ee-ec68-4059-90ea-7ef9aaf7259c:
     tabs:
       -
+        elementCondition: null
         elements:
           -
+            elementCondition: null
             fieldUid: 9c34fc8b-8bc3-4f8a-bbc8-ea58a018719a # Custom Breadcrumb Sets
-            instructions: ''
-            label: ''
-            required: ''
+            instructions: null
+            label: null
+            required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: b4fb89d1-dd7c-422e-a36a-b9454b451b71
+            userCondition: null
             warning: null
             width: 100
         name: 'Custom Breadcrumbs'
-        sortOrder: 1
+        uid: 7168f216-262f-429e-9fb7-ccb3689bef85
+        userCondition: null
 handle: rootPageInformation
 name: 'Root Page Information'
 sortOrder: 0

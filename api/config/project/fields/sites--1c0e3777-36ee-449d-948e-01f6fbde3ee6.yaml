@@ -6,7 +6,6 @@ instructions: 'What sites should this content block be visible in?'
 name: Sites
 searchable: false
 settings:
-  multi: true
   options:
     -
       __assoc__:

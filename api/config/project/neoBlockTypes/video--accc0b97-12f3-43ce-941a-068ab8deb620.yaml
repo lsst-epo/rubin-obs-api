@@ -1,35 +1,52 @@
 childBlocks: null
+conditions: null
+description: null
+enabled: true
 field: 72e5075a-9b06-4674-b040-615f4a6f7b70 # Content Blocks - Pages
 fieldLayouts:
   e41c0041-21b6-4d8f-ba64-e263d7b9d6ae:
     tabs:
       -
+        elementCondition: null
         elements:
           -
+            elementCondition: null
             fieldUid: a71f443d-14a3-402b-90ba-524dcce806d2 # External URL
-            instructions: ''
+            instructions: null
             label: 'Video URL'
-            required: '1'
+            required: true
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: 27bc5050-7060-49e8-9013-e83209184ee7
+            userCondition: null
             warning: null
             width: 100
           -
+            elementCondition: null
             fieldUid: 10118ebf-e3bf-4b1b-bbb8-4b57ab3753c8 # Caption
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: b49b6c44-c4e1-4fed-a76f-7329274fc037
+            userCondition: null
             warning: null
             width: 100
         name: 'Tab 1'
-        sortOrder: 1
+        uid: a3af8509-4900-43da-b458-937a01a9b129
+        userCondition: null
 group: null
+groupChildBlockTypes: true
 handle: video
+icon: null
+ignorePermissions: true
 maxBlocks: 0
 maxChildBlocks: 0
 maxSiblingBlocks: 0
+minBlocks: 0
+minChildBlocks: 0
+minSiblingBlocks: 0
 name: Video
 sortOrder: 23
 topLevel: true

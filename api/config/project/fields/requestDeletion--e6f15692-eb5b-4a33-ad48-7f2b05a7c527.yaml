@@ -2,11 +2,10 @@ columnSuffix: vjyfrcal
 contentColumnType: text
 fieldGroup: 9b9ff039-061b-4efd-988e-553f811623b2 # Users
 handle: requestDeletion
-instructions: ''
+instructions: null
 name: 'Request Deletion'
 searchable: false
 settings:
-  multi: true
   options:
     -
       __assoc__:

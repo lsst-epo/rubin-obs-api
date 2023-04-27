@@ -1,33 +1,39 @@
+changedFieldIndicator: null
 field: f0603433-ef74-4883-8aec-03e31f8dc34e # Complex Table
 fieldLayouts:
   6d7de242-d6d1-42a1-907a-cad7e9ba769f:
     tabs:
       -
+        elementCondition: null
         elements:
           -
+            elementCondition: null
             fieldUid: 9ad13bcd-637a-4757-9968-cdcc02cfd478 # Table Row
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: d49a3e6a-1899-4ece-846a-22f65438e4eb
+            userCondition: null
             warning: null
             width: 100
         name: Content
-        sortOrder: 1
+        uid: f4bb8238-53c6-40df-b670-0194a8aa58c3
+        userCondition: null
 fields:
   9ad13bcd-637a-4757-9968-cdcc02cfd478: # Table Row
     columnSuffix: null
     contentColumnType: string
     fieldGroup: null
     handle: tableRow
-    instructions: ''
+    instructions: null
     name: 'Table Row'
     searchable: false
     settings:
       contentTable: '{{%matrixcontent_tablerow}}'
-      maxBlocks: ''
-      minBlocks: ''
+      maxBlocks: null
+      minBlocks: null
       propagationKeyFormat: null
       propagationMethod: all
     translationKeyFormat: null

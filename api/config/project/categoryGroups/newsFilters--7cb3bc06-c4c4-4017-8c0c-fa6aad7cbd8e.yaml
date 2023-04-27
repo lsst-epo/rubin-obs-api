@@ -3,6 +3,7 @@ fieldLayouts:
   477b93c5-3de7-4381-872f-6d729f123491:
     tabs:
       -
+        elementCondition: null
         elements:
           -
             autocapitalize: true
@@ -10,6 +11,7 @@ fieldLayouts:
             autocorrect: true
             class: null
             disabled: false
+            elementCondition: null
             id: null
             instructions: 'User-friendly name'
             label: Label
@@ -25,10 +27,13 @@ fieldLayouts:
             tip: null
             title: null
             type: craft\fieldlayoutelements\TitleField
+            uid: 21896847-aada-41ba-b04c-4119918d887e
+            userCondition: null
             warning: null
             width: 100
         name: Content
-        sortOrder: 1
+        uid: 8f508eba-2894-4b65-a894-26a4f3ef86b4
+        userCondition: null
 handle: newsFilters
 name: 'News Filters'
 siteSettings:

@@ -1,35 +1,52 @@
 childBlocks: null
+conditions: null
+description: null
+enabled: true
 field: 522db817-08b6-4ecf-a423-4aec204ab85d # Content Blocks - News
 fieldLayouts:
   4cd78446-0a20-4a25-87ab-8e4e36551c55:
     tabs:
       -
+        elementCondition: null
         elements:
           -
+            elementCondition: null
             fieldUid: b0ce3829-20c1-44ef-a7c7-499800645afc # Header
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: bf177b4e-89bd-4c8d-ba01-336735d3c3f0
+            userCondition: null
             warning: null
             width: 100
           -
+            elementCondition: null
             fieldUid: d4696dbe-019e-4c97-a95d-07bfaf9dbd03 # Entry - Staff Profile
-            instructions: ''
+            instructions: null
             label: 'Staff Profile'
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: d89ce801-e1d3-4ba6-b388-c61658db8d36
+            userCondition: null
             warning: null
             width: 100
         name: 'Tab 1'
-        sortOrder: 1
+        uid: 49ffe255-41e3-4103-908d-935038d5c5d8
+        userCondition: null
 group: null
+groupChildBlockTypes: true
 handle: contactStaff
+icon: null
+ignorePermissions: true
 maxBlocks: 0
 maxChildBlocks: 0
 maxSiblingBlocks: 0
+minBlocks: 0
+minChildBlocks: 0
+minSiblingBlocks: 0
 name: 'Staff Contact'
 sortOrder: 4
 topLevel: true

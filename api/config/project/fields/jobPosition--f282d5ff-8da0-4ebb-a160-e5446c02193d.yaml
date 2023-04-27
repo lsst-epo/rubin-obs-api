@@ -2,20 +2,19 @@ columnSuffix: null
 contentColumnType: string
 fieldGroup: 8096dc6c-f1bd-4d24-8add-7df7f190a17c # Jobs
 handle: jobPosition
-instructions: ''
+instructions: null
 name: 'Job Position'
 searchable: true
 settings:
-  allowLimit: false
-  allowMultipleSources: false
   allowSelfRelations: false
-  branchLimit: '1'
-  limit: null
+  branchLimit: 1
   localizeRelations: false
+  maintainHierarchy: true
+  maxRelations: null
+  minRelations: null
   selectionLabel: 'Add a job type'
   showSiteMenu: true
   source: 'group:cc8c47f0-3dec-44db-a47f-7ca6c984864a' # Job Types
-  sources: '*'
   targetSiteId: null
   validateRelatedElements: false
   viewMode: null

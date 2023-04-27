@@ -2,24 +2,23 @@ columnSuffix: wuvwouct
 contentColumnType: text
 fieldGroup: b93cb5a6-f862-4912-9d41-4dcb4fd9e105 # Staff Profiles
 handle: pullQuote
-instructions: ''
+instructions: null
 name: 'Pull Quote'
 searchable: false
 settings:
   availableTransforms: '*'
   availableVolumes: '*'
-  cleanupHtml: true
   columnType: text
   configSelectionMode: choose
   defaultTransform: ''
   manualConfig: ''
-  purifierConfig: ''
-  purifyHtml: '1'
+  purifierConfig: null
+  purifyHtml: true
   redactorConfig: Simple.json
-  removeEmptyTags: '1'
-  removeInlineStyles: '1'
-  removeNbsp: '1'
-  showHtmlButtonForNonAdmins: ''
+  removeEmptyTags: true
+  removeInlineStyles: true
+  removeNbsp: true
+  showHtmlButtonForNonAdmins: false
   showUnpermittedFiles: false
   showUnpermittedVolumes: false
   uiMode: normal

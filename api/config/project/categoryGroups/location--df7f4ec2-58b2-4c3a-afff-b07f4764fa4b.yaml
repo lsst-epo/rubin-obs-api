@@ -3,6 +3,7 @@ fieldLayouts:
   b75f3c94-e912-44f0-aff9-907c7b042bac:
     tabs:
       -
+        elementCondition: null
         elements:
           -
             autocapitalize: true
@@ -10,6 +11,7 @@ fieldLayouts:
             autocorrect: true
             class: null
             disabled: false
+            elementCondition: null
             id: null
             instructions: null
             label: null
@@ -25,46 +27,61 @@ fieldLayouts:
             tip: null
             title: null
             type: craft\fieldlayoutelements\TitleField
+            uid: f8202ba5-b825-4370-b521-34a2563e3c24
+            userCondition: null
             warning: null
             width: 100
           -
+            elementCondition: null
             fieldUid: 3146b06e-af03-43e7-b278-3a65c81f610e # Address
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: d9e03a55-cfb8-438c-bd24-45400636c301
+            userCondition: null
             warning: null
             width: 100
           -
+            elementCondition: null
             fieldUid: a8ba2de3-ff22-4a96-9a53-00b6dec31def # City
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: 8f6481b0-f907-489d-be8d-095d1825982b
+            userCondition: null
             warning: null
             width: 100
           -
+            elementCondition: null
             fieldUid: 87362cd0-662a-4068-9482-5ff62fe472c4 # State/Province
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: 1638df7e-141d-45c4-8acf-6531b99c758e
+            userCondition: null
             warning: null
             width: 100
           -
+            elementCondition: null
             fieldUid: 04000104-ec26-4d82-959a-729454e7f1cc # Country
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: 89e4ecee-6ea4-4d14-99ee-f6644632187a
+            userCondition: null
             warning: null
             width: 100
         name: Content
-        sortOrder: 1
+        uid: 323dfe22-1c91-423d-80f1-55315d32dd3f
+        userCondition: null
 handle: location
 name: Location
 siteSettings:

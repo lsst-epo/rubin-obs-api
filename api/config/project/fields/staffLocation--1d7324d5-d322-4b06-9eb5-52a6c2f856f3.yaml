@@ -2,16 +2,16 @@ columnSuffix: null
 contentColumnType: text
 fieldGroup: b93cb5a6-f862-4912-9d41-4dcb4fd9e105 # Staff Profiles
 handle: staffLocation
-instructions: ''
+instructions: null
 name: Location
 searchable: false
 settings:
   byteLimit: null
   charLimit: null
-  code: ''
+  code: false
   columnType: null
-  initialRows: '4'
-  multiline: ''
+  initialRows: 4
+  multiline: false
   placeholder: Location
   uiMode: normal
 translationKeyFormat: null

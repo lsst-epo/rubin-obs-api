@@ -1,44 +1,64 @@
 childBlocks: null
+conditions: null
+description: null
+enabled: true
 field: 522db817-08b6-4ecf-a423-4aec204ab85d # Content Blocks - News
 fieldLayouts:
   ec992cc9-cc3c-4e35-846c-4c5f7b2c5bcc:
     tabs:
       -
+        elementCondition: null
         elements:
           -
+            elementCondition: null
             fieldUid: fb052686-4537-4fe5-9ce2-ff3fd4a341a2 # Content Image
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: 253403a5-4181-4417-af3f-3372820f4cc5
+            userCondition: null
             warning: null
             width: 100
           -
+            elementCondition: null
             fieldUid: 10118ebf-e3bf-4b1b-bbb8-4b57ab3753c8 # Caption
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: 6546b68c-54d8-4776-95fa-7e5f2c0f1a49
+            userCondition: null
             warning: null
             width: 100
           -
+            elementCondition: null
             fieldUid: dc44e79d-b126-413d-bc02-0776d6ace2d1 # Float Direction
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: 3ed2b845-c99b-4d52-8d8d-81e72a619de8
+            userCondition: null
             warning: null
             width: 100
         name: 'Tab 1'
-        sortOrder: 1
+        uid: 31e17d79-d096-482e-860e-209ae9b99e97
+        userCondition: null
 group: null
+groupChildBlockTypes: true
 handle: image
+icon: null
+ignorePermissions: true
 maxBlocks: 0
 maxChildBlocks: 0
 maxSiblingBlocks: 0
+minBlocks: 0
+minChildBlocks: 0
+minSiblingBlocks: 0
 name: Image
 sortOrder: 2
 topLevel: true

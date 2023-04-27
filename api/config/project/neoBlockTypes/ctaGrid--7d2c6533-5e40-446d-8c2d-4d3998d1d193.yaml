@@ -1,36 +1,53 @@
 childBlocks:
   - cta
+conditions: null
+description: null
+enabled: true
 field: 72e5075a-9b06-4674-b040-615f4a6f7b70 # Content Blocks - Pages
 fieldLayouts:
   42368af2-9545-4c5c-95a7-b4049101ef09:
     tabs:
       -
+        elementCondition: null
         elements:
           -
+            elementCondition: null
             fieldUid: b0ce3829-20c1-44ef-a7c7-499800645afc # Header
             instructions: ' '
             label: Heading
-            required: '1'
+            required: true
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: 20eddf43-f8c2-49f3-95a6-8d9b8cd60bc5
+            userCondition: null
             warning: null
             width: 100
           -
+            elementCondition: null
             fieldUid: d019727b-a6d5-43d9-a688-f10df985a87e # Link
             instructions: 'Optional link that appears at the bottom of the grid.'
-            label: ''
+            label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: e2a43d52-baea-4797-a73a-6d5b8d328d29
+            userCondition: null
             warning: null
             width: 100
         name: Content
-        sortOrder: 1
+        uid: bf59ddff-42f7-42ed-b6e0-a61e69d44f75
+        userCondition: null
 group: null
+groupChildBlockTypes: true
 handle: ctaGrid
+icon: null
+ignorePermissions: true
 maxBlocks: 0
 maxChildBlocks: 0
 maxSiblingBlocks: 0
+minBlocks: 0
+minChildBlocks: 0
+minSiblingBlocks: 0
 name: 'CTA Grid'
 sortOrder: 7
 topLevel: true

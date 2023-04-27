@@ -2,16 +2,16 @@ columnSuffix: null
 contentColumnType: string(20)
 fieldGroup: 9940892d-32f4-4399-acac-ab559ce1c82b # Common
 handle: startTime
-instructions: ''
+instructions: null
 name: 'Start Time'
 searchable: false
 settings:
   byteLimit: null
   charLimit: 5
-  code: ''
+  code: false
   columnType: null
-  initialRows: '4'
-  multiline: ''
+  initialRows: 4
+  multiline: false
   placeholder: '09:00'
   uiMode: normal
 translationKeyFormat: null

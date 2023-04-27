@@ -2,7 +2,7 @@ columnSuffix: zpjeouxg
 contentColumnType: boolean
 fieldGroup: 99f4a28a-48c3-49ca-bb4a-7acbb49fde30 # Pages
 handle: fullWidth
-instructions: ''
+instructions: null
 name: 'Full Width'
 searchable: false
 settings:

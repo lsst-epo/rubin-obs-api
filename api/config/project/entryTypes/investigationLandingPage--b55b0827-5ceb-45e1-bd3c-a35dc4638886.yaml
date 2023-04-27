@@ -2,6 +2,7 @@ fieldLayouts:
   afc4f64d-d634-46ba-a323-b5a3b1240b03:
     tabs:
       -
+        elementCondition: null
         elements:
           -
             autocapitalize: true
@@ -9,6 +10,7 @@ fieldLayouts:
             autocorrect: true
             class: null
             disabled: false
+            elementCondition: null
             id: null
             instructions: null
             label: null
@@ -24,81 +26,111 @@ fieldLayouts:
             tip: null
             title: null
             type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 549b6188-4763-494a-9353-8beb8e6a0245
+            userCondition: null
             warning: null
             width: 75
           -
+            elementCondition: null
             fieldUid: 831db889-442e-4553-9076-fc3bc2843c8c # Hide title
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: 29fc23d1-418c-48f9-b970-e0e83da638b9
+            userCondition: null
             warning: null
             width: 25
           -
+            elementCondition: null
             fieldUid: cd801712-4ba3-4a9c-8fab-0d3e2a58b4eb # Description
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: 7cd0d25e-93b3-4cd7-ad34-67b08ac52845
+            userCondition: null
             warning: null
             width: 100
           -
+            elementCondition: null
             fieldUid: 3c9eb8f7-9f84-4c22-84d5-531be77aa6b6 # Featured Image
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: 49bb4037-7a14-4aad-af11-3e7a43b4610b
+            userCondition: null
             warning: null
             width: 100
           -
+            dismissible: false
+            elementCondition: null
             style: tip
             tip: 'This entry type is intended as the starting point for a section describing an Investigation. Child pages will inherit information from the related Investigation and display it in the header.'
             type: craft\fieldlayoutelements\Tip
+            uid: fe6ff87c-f13f-453f-b635-3e80a2fb7062
+            userCondition: null
           -
+            elementCondition: null
             fieldUid: 72e5075a-9b06-4674-b040-615f4a6f7b70 # Content Blocks - Pages
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: 0b17d768-cbeb-44bd-be6a-db9e8419760c
+            userCondition: null
             warning: null
             width: 100
         name: Content
-        sortOrder: 1
+        uid: 28eb275a-ce2c-40c3-952e-59d0af3d0fab
+        userCondition: null
       -
+        elementCondition: null
         elements:
           -
+            elementCondition: null
             fieldUid: b0ce3829-20c1-44ef-a7c7-499800645afc # Header
-            instructions: ''
+            instructions: null
             label: 'Navigation Title'
-            required: ''
+            required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: db8ecf64-6e03-4d4d-8a63-841d06fb9b78
+            userCondition: null
             warning: null
             width: 100
           -
+            elementCondition: null
             fieldUid: 7db205b7-a548-42f1-8c26-416ec51cf3fa # Text
-            instructions: ''
+            instructions: null
             label: 'Navigation Description'
-            required: ''
+            required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: f2bd3f15-8ce9-45d0-a06b-1059663dabfa
+            userCondition: null
             warning: null
             width: 100
           -
+            elementCondition: null
             fieldUid: ecf9a160-a134-43b6-9d4f-8bd547ad101e # Landing Navigation
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: b3cb0ba7-3659-4184-b02b-1a82f9fb4ab4
+            userCondition: null
             warning: null
             width: 100
         name: Navigation
-        sortOrder: 2
+        uid: fea05eb4-3a8e-4076-b622-2866b836e4b1
+        userCondition: null
 handle: investigationLandingPage
 hasTitleField: true
 name: 'Investigation Landing Page'

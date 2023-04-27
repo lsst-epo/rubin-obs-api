@@ -2,7 +2,7 @@ columnSuffix: pkujmllw
 contentColumnType: text
 fieldGroup: 9940892d-32f4-4399-acac-ab559ce1c82b # Common
 handle: embed
-instructions: ''
+instructions: null
 name: 'Embed url'
 searchable: false
 settings:

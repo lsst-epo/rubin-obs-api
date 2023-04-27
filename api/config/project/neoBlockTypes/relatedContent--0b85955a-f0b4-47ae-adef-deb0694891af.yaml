@@ -1,45 +1,65 @@
 childBlocks:
   - relatedContentItem
+conditions: null
+description: null
+enabled: true
 field: 522db817-08b6-4ecf-a423-4aec204ab85d # Content Blocks - News
 fieldLayouts:
   434722a0-17ca-49aa-908b-6a945f4cf383:
     tabs:
       -
+        elementCondition: null
         elements:
           -
+            elementCondition: null
             fieldUid: b0ce3829-20c1-44ef-a7c7-499800645afc # Header
-            instructions: ''
+            instructions: null
             label: Heading
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: ae5005e4-c27b-4bf7-bd4e-ccb867f717dd
+            userCondition: null
             warning: null
             width: 100
           -
+            elementCondition: null
             fieldUid: d019727b-a6d5-43d9-a688-f10df985a87e # Link
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: 2ceb5af0-f4ff-4748-b37e-56610f3ec758
+            userCondition: null
             warning: null
             width: 100
           -
+            elementCondition: null
             fieldUid: 660361f1-3ecb-4c5e-9274-76e54f1f291f # Number of items
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: 914ed6a9-6885-466a-b847-db1fc33dce63
+            userCondition: null
             warning: null
             width: 100
         name: Content
-        sortOrder: 1
+        uid: 9e6348e7-8c83-49b5-a7b3-cfe180987a1d
+        userCondition: null
 group: null
+groupChildBlockTypes: true
 handle: relatedContent
+icon: null
+ignorePermissions: true
 maxBlocks: 0
 maxChildBlocks: 0
 maxSiblingBlocks: 0
+minBlocks: 0
+minChildBlocks: 0
+minSiblingBlocks: 0
 name: 'Related Content'
 sortOrder: 5
 topLevel: true

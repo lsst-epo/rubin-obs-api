@@ -1,4 +1,4 @@
-dateModified: 1680149834
+dateModified: 1682635905
 email:
   fromEmail: $EMAIL_FROM_ADDRESS
   fromName: $EMAIL_SENDER_NAME
@@ -18,17 +18,18 @@ fs:
     hasUrls: true
     name: 'Asset Variants'
     settings:
-      addSubfolderToRootUrl: '1'
-      autoFocalPoint: ''
+      addSubfolderToRootUrl: true
+      autoFocalPoint: false
       bucket: $AWS_ASSET_S3_BUCKET
       bucketSelectionMode: manual
       cfDistributionId: ''
       cfPrefix: ''
       expires: ''
       keyId: $AWS_ASSET_KEY_ID
-      makeUploadsPublic: '1'
+      makeUploadsPublic: true
       region: $AWS_ASSET_S3_REGION
       secret: $AWS_ASSET_SECRET_KEY
+      storageClass: ''
       subfolder: $AWS_ASSET_S3_ASSET_VARIANT_SUBFOLDER
     type: craft\awss3\Fs
     url: '@assetsAssetVariantBaseURL'
@@ -36,8 +37,14 @@ fs:
     hasUrls: true
     name: 'Canto DAM'
     settings:
-      dummySetting: ''
-    type: rosas\dam\volumes\DAMVolume
+      errorMessage: 'Unable to find component class ''rosas\dam\volumes\DAMVolume''.'
+      expectedType: rosas\dam\volumes\DAMVolume
+      settings:
+        __assoc__:
+          -
+            - dummySetting
+            - ''
+    type: craft\fs\MissingFs
     url: 'https://rubin.canto.com/direct/'
   contentImages:
     hasUrls: true
@@ -395,6 +402,10 @@ plugins:
     edition: standard
     enabled: true
     schemaVersion: '2.0'
+  canto-dam-integrator:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.0.2
   contact-form:
     edition: standard
     enabled: true

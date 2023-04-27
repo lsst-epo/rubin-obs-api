@@ -2,6 +2,7 @@ fieldLayouts:
   b0e00f53-dc6a-41b2-94dd-ab9c862eb8ad:
     tabs:
       -
+        elementCondition: null
         elements:
           -
             autocapitalize: true
@@ -9,6 +10,7 @@ fieldLayouts:
             autocorrect: true
             class: null
             disabled: false
+            elementCondition: null
             id: null
             instructions: null
             label: null
@@ -24,9 +26,12 @@ fieldLayouts:
             tip: null
             title: null
             type: craft\fieldlayoutelements\TitleField
+            uid: 9480f33a-71e4-4490-84ba-f560d613a26a
+            userCondition: null
             warning: null
             width: 100
         name: Content
-        sortOrder: 1
+        uid: 14448342-2f2a-49cc-b876-4091fb0a00c5
+        userCondition: null
 handle: newsTags
 name: 'News Tags'

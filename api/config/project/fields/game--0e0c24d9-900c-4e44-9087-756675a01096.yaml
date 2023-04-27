@@ -2,11 +2,10 @@ columnSuffix: bqqfennb
 contentColumnType: string
 fieldGroup: 9940892d-32f4-4399-acac-ab559ce1c82b # Common
 handle: game
-instructions: ''
+instructions: null
 name: Game
 searchable: false
 settings:
-  optgroups: true
   options:
     -
       __assoc__:

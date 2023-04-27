@@ -1,26 +1,40 @@
 childBlocks: null
+conditions: null
+description: null
+enabled: true
 field: 522db817-08b6-4ecf-a423-4aec204ab85d # Content Blocks - News
 fieldLayouts:
   96e80ddc-8155-4f7e-99db-4292a90623d3:
     tabs:
       -
+        elementCondition: null
         elements:
           -
+            elementCondition: null
             fieldUid: 0df27088-950f-4f9e-9115-06e8f780b5ca # Entry - Page, Post & Investigation
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: 2f129dcc-8bd1-46f1-a3e9-6e983c7ee015
+            userCondition: null
             warning: null
             width: 100
         name: 'Tab 1'
-        sortOrder: 1
+        uid: fa523e65-f470-4615-86d6-11db45edb6dd
+        userCondition: null
 group: null
+groupChildBlockTypes: true
 handle: relatedContentItem
+icon: null
+ignorePermissions: true
 maxBlocks: 0
 maxChildBlocks: 0
 maxSiblingBlocks: 0
+minBlocks: 0
+minChildBlocks: 0
+minSiblingBlocks: 0
 name: 'Related Item'
 sortOrder: 6
 topLevel: false

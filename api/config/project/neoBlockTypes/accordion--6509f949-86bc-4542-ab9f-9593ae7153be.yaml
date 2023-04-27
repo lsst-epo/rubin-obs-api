@@ -1,35 +1,52 @@
 childBlocks: null
+conditions: null
+description: null
+enabled: true
 field: 72e5075a-9b06-4674-b040-615f4a6f7b70 # Content Blocks - Pages
 fieldLayouts:
   d12c81d8-7643-44fc-93c0-6b61963076b0:
     tabs:
       -
+        elementCondition: null
         elements:
           -
+            elementCondition: null
             fieldUid: b0ce3829-20c1-44ef-a7c7-499800645afc # Header
-            instructions: ''
+            instructions: null
             label: Question
-            required: '1'
+            required: true
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: df6be7b0-67ca-4a0f-ab3e-b88a6386ba52
+            userCondition: null
             warning: null
             width: 100
           -
+            elementCondition: null
             fieldUid: 7db205b7-a548-42f1-8c26-416ec51cf3fa # Text
-            instructions: ''
+            instructions: null
             label: Answer
-            required: '1'
+            required: true
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: ae2b20e3-aa82-4c5a-a1bc-ee1864e48aca
+            userCondition: null
             warning: null
             width: 100
         name: Content
-        sortOrder: 1
+        uid: 26326360-ccc8-46e3-a00b-d6f167c7c999
+        userCondition: null
 group: null
+groupChildBlockTypes: true
 handle: accordion
+icon: null
+ignorePermissions: true
 maxBlocks: 0
 maxChildBlocks: 0
 maxSiblingBlocks: 0
+minBlocks: 0
+minChildBlocks: 0
+minSiblingBlocks: 0
 name: Accordion
 sortOrder: 6
 topLevel: false

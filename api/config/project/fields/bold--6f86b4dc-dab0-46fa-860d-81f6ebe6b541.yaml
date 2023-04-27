@@ -2,7 +2,7 @@ columnSuffix: null
 contentColumnType: boolean
 fieldGroup: bb77d190-487e-45c5-a1d2-0208510a7d88 # Events
 handle: bold
-instructions: ''
+instructions: null
 name: Bold
 searchable: false
 settings:

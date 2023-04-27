@@ -2,6 +2,7 @@ fieldLayouts:
   4cb617a1-f4f9-4f4f-ae58-c44be48749b8:
     tabs:
       -
+        elementCondition: null
         elements:
           -
             autocapitalize: true
@@ -9,6 +10,7 @@ fieldLayouts:
             autocorrect: true
             class: null
             disabled: false
+            elementCondition: null
             id: null
             instructions: null
             label: Title
@@ -24,122 +26,163 @@ fieldLayouts:
             tip: null
             title: null
             type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: a556bc9f-087f-4233-85cb-aeea59d7eddb
+            userCondition: null
             warning: null
             width: 75
           -
+            elementCondition: null
             fieldUid: 831db889-442e-4553-9076-fc3bc2843c8c # Hide title
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: 3b1a43ea-b671-4852-a34f-1878021873b1
+            userCondition: null
             warning: null
             width: 25
           -
+            elementCondition: null
             fieldUid: cd801712-4ba3-4a9c-8fab-0d3e2a58b4eb # Description
-            instructions: ''
-            label: ''
-            required: ''
+            instructions: null
+            label: null
+            required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: c08e72dd-7c16-4f0b-977b-11f340f57b23
+            userCondition: null
             warning: null
             width: 100
           -
+            elementCondition: null
             fieldUid: 3c9eb8f7-9f84-4c22-84d5-531be77aa6b6 # Featured Image
-            instructions: ''
-            label: ''
-            required: ''
+            instructions: null
+            label: null
+            required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: d6e455e5-31ad-422f-b3f1-d145a65e0213
+            userCondition: null
             warning: null
             width: 100
           -
+            elementCondition: null
             fieldUid: 05eead62-7bf9-43e4-a7e8-bcd8f9f77323 # Hero
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: ed980fba-00a4-4c60-b7d3-a9c7552ba95d
+            userCondition: null
             warning: null
             width: 75
           -
+            elementCondition: null
             fieldUid: 00f1f9f6-c710-431d-bf34-22e3a62d5172 # Overlap Hero
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: f30ff1dd-2de6-4546-8b46-d2b93222801f
+            userCondition: null
             warning: null
             width: 25
           -
+            elementCondition: null
             fieldUid: 72e5075a-9b06-4674-b040-615f4a6f7b70 # Content Blocks - Pages
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: 767cc1c1-29e8-4eb3-8987-7f4ad0862b3e
+            userCondition: null
             warning: null
             width: 100
           -
+            elementCondition: null
             fieldUid: 8b5bcbee-1883-48ca-8c9a-6c506b9abb99 # Page Type
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: 593fc089-b337-4bf6-8ea5-e2728adef25a
+            userCondition: null
             warning: null
             width: 100
           -
+            elementCondition: null
             fieldUid: fa690eba-6d46-4a5e-9dcd-0845f5b56c1b # Dynamic Component
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: 956543de-30f5-4a45-b0f9-e713f9f48a11
+            userCondition: null
             warning: null
             width: 100
         name: Pages
-        sortOrder: 1
+        uid: aa73fe88-c238-44af-85f4-7f1aba11b76b
+        userCondition: null
       -
+        elementCondition: null
         elements:
           -
+            elementCondition: null
             fieldUid: 7970cd65-7a96-418a-8581-d6df4e039e6d # Plain Text
-            instructions: ''
+            instructions: null
             label: 'Sub Hero Header'
-            required: ''
+            required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: 0836e40f-9dd4-4857-b484-9ddca927418d
+            userCondition: null
             warning: null
             width: 75
           -
+            elementCondition: null
             fieldUid: d7fc5f39-2426-421b-bd0b-10aadae80ae3 # Color Scheme
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: 584fe3a2-d1c8-4c6c-b818-0f222a9176ed
+            userCondition: null
             warning: null
             width: 25
           -
+            elementCondition: null
             fieldUid: 24f23fec-fc66-46f8-86e1-396d01315ad2 # Sub Hero Text
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: d00836a2-542e-4dbb-9636-552398216df1
+            userCondition: null
             warning: null
             width: 100
           -
+            elementCondition: null
             fieldUid: 6e888efc-ab7a-4c15-9ec5-5954b52984ca # Show Sibling Nav
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: 54c4e307-ef46-4b03-ac51-2eb79c80aa4d
+            userCondition: null
             warning: null
             width: 100
         name: 'Sub Hero Content'
-        sortOrder: 2
+        uid: 2d609c67-c7d7-4060-87d1-1effd5c1a664
+        userCondition: null
 handle: pages
 hasTitleField: true
 name: Pages

@@ -2,20 +2,19 @@ columnSuffix: null
 contentColumnType: string
 fieldGroup: 824d9ca2-e755-4e41-8f6a-18e573fec8e4 # News Posts
 handle: postType
-instructions: ''
+instructions: null
 name: 'Post Type'
 searchable: false
 settings:
-  allowLimit: false
-  allowMultipleSources: false
   allowSelfRelations: false
-  branchLimit: '1'
-  limit: null
+  branchLimit: 1
   localizeRelations: false
+  maintainHierarchy: true
+  maxRelations: null
+  minRelations: null
   selectionLabel: 'Add post type'
   showSiteMenu: true
   source: 'group:7cb3bc06-c4c4-4017-8c0c-fa6aad7cbd8e' # News Filters
-  sources: '*'
   targetSiteId: null
   validateRelatedElements: false
   viewMode: null

@@ -1,54 +1,77 @@
 childBlocks:
   - slide
+conditions: null
+description: null
+enabled: true
 field: 72e5075a-9b06-4674-b040-615f4a6f7b70 # Content Blocks - Pages
 fieldLayouts:
   51150454-bc59-4d8d-a40b-4bc71f14e149:
     tabs:
       -
+        elementCondition: null
         elements:
           -
+            elementCondition: null
             fieldUid: b0ce3829-20c1-44ef-a7c7-499800645afc # Header
-            instructions: ''
+            instructions: null
             label: Heading
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: 281edc76-fc74-40a0-9d76-3a217934369a
+            userCondition: null
             warning: null
             width: 100
           -
+            elementCondition: null
             fieldUid: d019727b-a6d5-43d9-a688-f10df985a87e # Link
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: f3f32152-da61-4bba-9e8b-8ea16435b7f8
+            userCondition: null
             warning: null
             width: 100
           -
+            elementCondition: null
             fieldUid: fa690eba-6d46-4a5e-9dcd-0845f5b56c1b # Dynamic Component
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: eb67b5f7-5c6b-4680-81a7-4403fe3ef662
+            userCondition: null
             warning: null
             width: 50
           -
+            elementCondition: null
             fieldUid: 660361f1-3ecb-4c5e-9274-76e54f1f291f # Number of items
             instructions: 'Max # dynamic slide items to add to this block.'
             label: 'Slider Items Number'
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: c85b4661-237e-4fe6-bcd1-7988c09c4b9c
+            userCondition: null
             warning: null
             width: 50
         name: Content
-        sortOrder: 1
+        uid: 6b55d8bb-2d1c-4963-99ef-0ea432c847da
+        userCondition: null
 group: null
+groupChildBlockTypes: true
 handle: slideBlock
+icon: null
+ignorePermissions: true
 maxBlocks: 0
 maxChildBlocks: 0
 maxSiblingBlocks: 0
+minBlocks: 0
+minChildBlocks: 0
+minSiblingBlocks: 0
 name: 'Slide Block'
 sortOrder: 9
 topLevel: true

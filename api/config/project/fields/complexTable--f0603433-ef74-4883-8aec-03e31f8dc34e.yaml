@@ -2,10 +2,12 @@ columnSuffix: null
 contentColumnType: string
 fieldGroup: 9940892d-32f4-4399-acac-ab559ce1c82b # Common
 handle: complexTable
-instructions: ''
+instructions: null
 name: 'Complex Table'
 searchable: false
 settings:
+  blockTypeFields: 0
+  changedFieldIndicator: null
   columns:
     __assoc__:
       -
@@ -17,13 +19,12 @@ settings:
               - ''
   contentTable: '{{%stc_complextable}}'
   fieldLayout: row
-  maxRows: ''
-  minRows: ''
-  placeholderKey: null
+  maxRows: null
+  minRows: null
   propagationKeyFormat: null
   propagationMethod: all
-  selectionLabel: ''
-  staticField: ''
+  selectionLabel: null
+  staticField: null
 translationKeyFormat: null
 translationMethod: site
 type: verbb\supertable\fields\SuperTableField

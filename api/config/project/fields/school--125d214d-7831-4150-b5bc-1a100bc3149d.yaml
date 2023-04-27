@@ -2,16 +2,16 @@ columnSuffix: pbwzdtgd
 contentColumnType: text
 fieldGroup: 9b9ff039-061b-4efd-988e-553f811623b2 # Users
 handle: school
-instructions: ''
+instructions: null
 name: School
 searchable: false
 settings:
   byteLimit: null
   charLimit: null
-  code: ''
+  code: false
   columnType: null
-  initialRows: '4'
-  multiline: ''
+  initialRows: 4
+  multiline: false
   placeholder: null
   uiMode: normal
 translationKeyFormat: null

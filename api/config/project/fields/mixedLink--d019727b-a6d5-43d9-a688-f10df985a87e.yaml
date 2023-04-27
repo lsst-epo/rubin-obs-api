@@ -2,7 +2,7 @@ columnSuffix: null
 contentColumnType: string
 fieldGroup: 9940892d-32f4-4399-acac-ab559ce1c82b # Common
 handle: mixedLink
-instructions: ''
+instructions: null
 name: Link
 searchable: true
 settings:

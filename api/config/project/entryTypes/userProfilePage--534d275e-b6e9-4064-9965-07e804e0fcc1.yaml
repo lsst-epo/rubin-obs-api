@@ -2,6 +2,7 @@ fieldLayouts:
   0bb6c604-c476-48b5-aaa7-1a297fd47a97:
     tabs:
       -
+        elementCondition: null
         elements:
           -
             autocapitalize: true
@@ -9,6 +10,7 @@ fieldLayouts:
             autocorrect: true
             class: null
             disabled: false
+            elementCondition: null
             id: null
             instructions: null
             label: null
@@ -24,10 +26,13 @@ fieldLayouts:
             tip: null
             title: null
             type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 1bfc8d4e-ffa3-4d0e-95d3-d98befc1b7bf
+            userCondition: null
             warning: null
             width: 100
         name: Content
-        sortOrder: 1
+        uid: ff5de349-ebf7-4868-b671-848c27193138
+        userCondition: null
 handle: userProfilePage
 hasTitleField: true
 name: 'User Profile Page'

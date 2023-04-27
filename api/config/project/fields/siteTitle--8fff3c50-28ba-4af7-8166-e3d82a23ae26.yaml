@@ -2,16 +2,16 @@ columnSuffix: null
 contentColumnType: text
 fieldGroup: cee5c2f8-2801-42c2-a56c-4fe40c85b6f3 # Site Information
 handle: siteTitle
-instructions: ''
+instructions: null
 name: Title
 searchable: false
 settings:
   byteLimit: null
   charLimit: null
-  code: ''
+  code: false
   columnType: null
-  initialRows: '4'
-  multiline: ''
+  initialRows: 4
+  multiline: false
   placeholder: null
   uiMode: normal
 translationKeyFormat: null

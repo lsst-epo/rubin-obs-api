@@ -2,16 +2,16 @@ columnSuffix: jvgbccyl
 contentColumnType: text
 fieldGroup: df8c8d8a-c7d1-45bf-b551-ef790a5b59ad # Callouts
 handle: quote
-instructions: ''
+instructions: null
 name: Quote
 searchable: false
 settings:
   byteLimit: null
   charLimit: null
-  code: ''
+  code: false
   columnType: null
-  initialRows: '4'
-  multiline: ''
+  initialRows: 4
+  multiline: false
   placeholder: null
   uiMode: normal
 translationKeyFormat: null

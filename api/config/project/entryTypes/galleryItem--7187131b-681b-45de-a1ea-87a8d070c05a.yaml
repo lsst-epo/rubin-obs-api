@@ -2,6 +2,7 @@ fieldLayouts:
   a1e7507c-8f05-496a-bcf1-7f0c660a18b3:
     tabs:
       -
+        elementCondition: null
         elements:
           -
             autocapitalize: true
@@ -9,6 +10,7 @@ fieldLayouts:
             autocorrect: true
             class: null
             disabled: false
+            elementCondition: null
             id: null
             instructions: null
             label: Title
@@ -24,136 +26,181 @@ fieldLayouts:
             tip: null
             title: null
             type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 49b5b224-f2b7-4238-9c4e-4e02317f6b8a
+            userCondition: null
             warning: null
             width: 50
           -
+            elementCondition: null
             fieldUid: e425947f-95b4-443c-ab86-fe521acc1f29 # Gallery Item Type
-            instructions: ''
-            label: ''
-            required: '1'
+            instructions: null
+            label: null
+            required: true
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: 537fcd15-4b12-465a-8e62-b1f4bc3fcc8b
+            userCondition: null
             warning: null
             width: 50
           -
+            elementCondition: null
             fieldUid: 8bfcc6b7-ec2f-4759-bce9-c62bc12aecd4 # Representative Asset Variant
-            instructions: ''
-            label: ''
-            required: '1'
+            instructions: null
+            label: null
+            required: true
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: da830182-1fb4-47aa-a4ed-ac63618e226f
+            userCondition: null
             warning: null
             width: 100
           -
+            elementCondition: null
             fieldUid: a71f443d-14a3-402b-90ba-524dcce806d2 # External URL
             instructions: 'If a video is the main asset, link to it here.'
             label: 'Video URL'
-            required: ''
+            required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: bb77b552-4669-46ba-863f-339352fd7262
+            userCondition: null
             warning: null
             width: 100
           -
+            elementCondition: null
             fieldUid: 657b9edd-b6d3-4b7f-af89-36117c5d98a8 # Rich Text Description
             instructions: 'Teaser for the gallery item'
             label: Description
-            required: ''
+            required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: 1492489c-7b98-454d-9218-13b5d9093e9e
+            userCondition: null
             warning: null
             width: 100
           -
+            elementCondition: null
             fieldUid: 46d17af4-896a-4fc5-90bf-ac826090d9bc # Credit
-            instructions: ''
-            label: ''
-            required: ''
+            instructions: null
+            label: null
+            required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: 35db6448-3458-4897-8561-4f73052945bb
+            userCondition: null
             warning: null
             width: 50
           -
+            elementCondition: null
             fieldUid: 983dcb96-8eb2-4138-9c79-603b779fe2bb # Metadata Date
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: c0858aa6-6980-45ad-95b1-e19a05a9bde3
+            userCondition: null
             warning: null
             width: 50
           -
+            elementCondition: null
             fieldUid: 51414e74-22c3-4134-9ccb-34f524920c2c # Metadata Version
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: 531dd980-ef75-47e4-9fb9-ef82a3132706
+            userCondition: null
             warning: null
             width: 50
           -
+            elementCondition: null
             fieldUid: 5a6d7b10-920d-464d-85ea-fc3881082fd7 # Date Created
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: d9a4b5ba-ab25-4b85-9548-ed9b036590d3
+            userCondition: null
             warning: null
             width: 50
           -
+            elementCondition: null
             fieldUid: 39e18ee6-2a14-4d32-94b9-867cbba8380b # Publisher
-            instructions: ''
-            label: ''
-            required: ''
+            instructions: null
+            label: null
+            required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: a5fa95f9-ebdc-45bb-b7a3-517f88ffaf8a
+            userCondition: null
             warning: null
             width: 50
           -
+            elementCondition: null
             fieldUid: 30885296-ea6f-4481-8e0f-e9d17e37c7c5 # PublisherId
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: a850cb57-5169-4d0f-8870-b2b9e46be5e0
+            userCondition: null
             warning: null
             width: 50
           -
+            elementCondition: null
             fieldUid: fbebfdbb-a4ca-48dd-8627-37fc2ffff0a3 # Usage Terms
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: 3c03385d-9825-4657-8cc5-371cb5ad5b12
+            userCondition: null
             warning: null
             width: 100
           -
+            elementCondition: null
             fieldUid: 40b120c8-203c-4787-b78c-7bfd9c56fe2f # Sub Location
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: a5dff795-067e-4bfb-bfff-f1e19a69258e
+            userCondition: null
             warning: null
             width: 100
           -
+            elementCondition: null
             fieldUid: 5b70de37-9d5f-4c8f-87c7-9f2225761f54 # Gallery Item Tags
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: f45fea08-30d6-47df-aeaf-f7483999c582
+            userCondition: null
             warning: null
             width: 100
           -
+            elementCondition: null
             fieldUid: d23a9bfc-61f9-46fa-bfe4-a4ca97a20a61 # Asset Variants
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: 32b12bfe-3623-441f-92df-b694fdfc0b40
+            userCondition: null
             warning: null
             width: 100
         name: 'Gallery Assets'
-        sortOrder: 1
+        uid: 1384931d-502c-4701-91cd-bf40660720c6
+        userCondition: null
 handle: galleryItem
 hasTitleField: true
 name: 'Gallery Item'

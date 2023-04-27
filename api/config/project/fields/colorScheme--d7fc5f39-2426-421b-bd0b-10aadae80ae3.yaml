@@ -11,17 +11,6 @@ settings:
       __assoc__:
         -
           - label
-          - Default
-        -
-          - value
-          - default
-        -
-          - default
-          - '1'
-    -
-      __assoc__:
-        -
-          - label
           - Student
         -
           - value

@@ -3,6 +3,7 @@ fieldLayouts:
   3a7f2ebe-5ee7-42c5-bd24-e50a1e333fe8:
     tabs:
       -
+        elementCondition: null
         elements:
           -
             autocapitalize: true
@@ -10,6 +11,7 @@ fieldLayouts:
             autocorrect: true
             class: null
             disabled: false
+            elementCondition: null
             id: null
             instructions: 'User-friendly name'
             label: Label
@@ -25,10 +27,13 @@ fieldLayouts:
             tip: null
             title: null
             type: craft\fieldlayoutelements\TitleField
+            uid: b7f226a1-0743-4c64-95e0-56a075e7fb4d
+            userCondition: null
             warning: null
             width: 100
         name: Content
-        sortOrder: 1
+        uid: 51a0124c-ce37-4f58-809c-80a192d10df5
+        userCondition: null
 handle: eventFilters
 name: 'Event Filters'
 siteSettings:

@@ -3,6 +3,7 @@ fieldLayouts:
   9532aabf-f9e0-4533-bf83-e8151ee1690d:
     tabs:
       -
+        elementCondition: null
         elements:
           -
             autocapitalize: true
@@ -10,8 +11,9 @@ fieldLayouts:
             autocorrect: true
             class: null
             disabled: false
+            elementCondition: null
             id: null
-            instructions: ''
+            instructions: null
             label: Label
             max: null
             min: null
@@ -25,10 +27,13 @@ fieldLayouts:
             tip: null
             title: null
             type: craft\fieldlayoutelements\TitleField
+            uid: 8a3de487-b028-4326-b4c9-e52918af98f9
+            userCondition: null
             warning: null
             width: 100
         name: Content
-        sortOrder: 1
+        uid: 1ee5ead3-cd85-456c-a9e9-3259f0869eaa
+        userCondition: null
 handle: galleryTypes
 name: 'Gallery Types'
 siteSettings:

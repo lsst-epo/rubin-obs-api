@@ -3,6 +3,7 @@ fieldLayouts:
   9b2d602d-13ea-459b-9437-cda493e4c6b0:
     tabs:
       -
+        elementCondition: null
         elements:
           -
             autocapitalize: true
@@ -10,6 +11,7 @@ fieldLayouts:
             autocorrect: true
             class: null
             disabled: false
+            elementCondition: null
             id: null
             instructions: 'User-friendly filter name'
             label: Label
@@ -25,10 +27,13 @@ fieldLayouts:
             tip: null
             title: null
             type: craft\fieldlayoutelements\TitleField
+            uid: 432756e5-5293-4abf-9b31-aa02d4471037
+            userCondition: null
             warning: null
             width: 100
         name: Content
-        sortOrder: 1
+        uid: b725903b-3628-4a40-bdb3-9b8e85ef1287
+        userCondition: null
 handle: staffFilters
 name: 'Staff Filters'
 siteSettings:

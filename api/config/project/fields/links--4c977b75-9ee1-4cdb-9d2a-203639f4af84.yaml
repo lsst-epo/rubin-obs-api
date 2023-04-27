@@ -2,15 +2,18 @@ columnSuffix: null
 contentColumnType: string
 fieldGroup: 9940892d-32f4-4399-acac-ab559ce1c82b # Common
 handle: links
-instructions: ''
+instructions: null
 name: Links
 searchable: true
 settings:
-  maxBlocks: ''
-  maxTopBlocks: ''
-  minBlocks: ''
+  maxBlocks: null
+  maxLevels: null
+  maxTopBlocks: null
+  minBlocks: null
+  minLevels: null
+  minTopBlocks: null
+  propagationKeyFormat: null
   propagationMethod: all
-  wasModified: false
 translationKeyFormat: null
 translationMethod: site
 type: benf\neo\Field

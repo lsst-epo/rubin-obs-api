@@ -2,6 +2,7 @@ fieldLayouts:
   8826f9f3-67f3-420e-8a4b-d20ea5fbf1c4:
     tabs:
       -
+        elementCondition: null
         elements:
           -
             autocapitalize: true
@@ -9,6 +10,7 @@ fieldLayouts:
             autocorrect: true
             class: null
             disabled: false
+            elementCondition: null
             id: null
             instructions: null
             label: null
@@ -24,24 +26,30 @@ fieldLayouts:
             tip: null
             title: null
             type: craft\fieldlayoutelements\TitleField
+            uid: 9e2d3ade-6f1b-4681-9dd6-1c238483675f
+            userCondition: null
             warning: null
             width: 100
           -
+            elementCondition: null
             fieldUid: 39af5de5-d299-4bc5-965a-af2d128c7f1a # Alternative Text
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: fc2f4f78-6fc3-4c44-9bc6-73036db9319c
+            userCondition: null
             warning: null
             width: 100
         name: Content
-        sortOrder: 1
+        uid: 94cd6ab9-dda1-4f9a-ba7b-17f4f9eae355
+        userCondition: null
 fs: staffProfiles
 handle: staffProfiles
-hasUrls: true
 name: 'Staff Profiles'
 sortOrder: 7
 titleTranslationKeyFormat: null
 titleTranslationMethod: site
-url: '@assetsStaffBaseURL'
+transformFs: null
+transformSubpath: ''

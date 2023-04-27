@@ -1,27 +1,41 @@
 childBlocks:
   - accordion
+conditions: null
+description: null
+enabled: true
 field: 72e5075a-9b06-4674-b040-615f4a6f7b70 # Content Blocks - Pages
 fieldLayouts:
   b1c3fdf1-1d88-48ee-a27f-cbec1ec53c1d:
     tabs:
       -
+        elementCondition: null
         elements:
           -
+            elementCondition: null
             fieldUid: b0ce3829-20c1-44ef-a7c7-499800645afc # Header
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: c745d8a3-74bd-4eae-bf68-49c1d2708c3b
+            userCondition: null
             warning: null
             width: 100
         name: Content
-        sortOrder: 1
+        uid: 8f3effd3-da19-4576-a4ae-90dbab0d2775
+        userCondition: null
 group: null
+groupChildBlockTypes: true
 handle: accordionGroup
+icon: null
+ignorePermissions: true
 maxBlocks: 0
 maxChildBlocks: 0
 maxSiblingBlocks: 0
+minBlocks: 0
+minChildBlocks: 0
+minSiblingBlocks: 0
 name: 'Accordion Group'
 sortOrder: 5
 topLevel: true

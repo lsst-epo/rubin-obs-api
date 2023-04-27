@@ -2,18 +2,23 @@ fieldLayouts:
   87108627-195f-461a-a9b4-5ce76eac2528:
     tabs:
       -
+        elementCondition: null
         elements:
           -
+            elementCondition: null
             fieldUid: f69fbef5-6f67-486f-9e62-7be537bea803 # Contact Form Topics
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: d16029cf-514c-4ffe-8c88-eda9a0aa8b04
+            userCondition: null
             warning: null
             width: 100
         name: Topics
-        sortOrder: 1
+        uid: f40ef426-e36d-4934-bf66-c0b196c2442a
+        userCondition: null
 handle: contactForm
 name: 'Contact Form'
 sortOrder: 1

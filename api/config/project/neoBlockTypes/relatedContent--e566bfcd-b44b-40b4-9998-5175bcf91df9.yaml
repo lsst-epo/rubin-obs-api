@@ -1,45 +1,65 @@
 childBlocks:
   - relatedContentItem
+conditions: null
+description: null
+enabled: true
 field: 72e5075a-9b06-4674-b040-615f4a6f7b70 # Content Blocks - Pages
 fieldLayouts:
   6258b6b1-bf13-44d9-87b7-640daf507005:
     tabs:
       -
+        elementCondition: null
         elements:
           -
+            elementCondition: null
             fieldUid: b0ce3829-20c1-44ef-a7c7-499800645afc # Header
-            instructions: ''
+            instructions: null
             label: Heading
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: 3c376c77-e151-49e1-8120-2ec6799f57f5
+            userCondition: null
             warning: null
             width: 100
           -
+            elementCondition: null
             fieldUid: d019727b-a6d5-43d9-a688-f10df985a87e # Link
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: 3cbe22fc-1a32-41ca-bfe1-b440e154df18
+            userCondition: null
             warning: null
             width: 100
           -
+            elementCondition: null
             fieldUid: 660361f1-3ecb-4c5e-9274-76e54f1f291f # Number of items
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: ddf0fb4b-be6d-42d4-92d0-1a01cc060ffd
+            userCondition: null
             warning: null
             width: 100
         name: Content
-        sortOrder: 1
+        uid: b7507c0b-5004-4b32-873f-af082c09203b
+        userCondition: null
 group: null
+groupChildBlockTypes: true
 handle: relatedContent
+icon: null
+ignorePermissions: true
 maxBlocks: 0
 maxChildBlocks: 0
 maxSiblingBlocks: 0
+minBlocks: 0
+minChildBlocks: 0
+minSiblingBlocks: 0
 name: 'Related Content'
 sortOrder: 19
 topLevel: true

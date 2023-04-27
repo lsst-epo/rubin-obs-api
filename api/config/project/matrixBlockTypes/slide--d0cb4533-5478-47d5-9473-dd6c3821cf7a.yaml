@@ -3,52 +3,63 @@ fieldLayouts:
   bbf3925e-2c0c-40c1-ba0e-1a171d19acb0:
     tabs:
       -
+        elementCondition: null
         elements:
           -
+            elementCondition: null
             fieldUid: 966a6b65-ca53-48a8-89dc-74983cd624ef # Title
             instructions: null
             label: null
             required: true
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: 57855550-ae93-4074-8eb3-bf5f5a3b8d82
+            userCondition: null
             warning: null
             width: 100
           -
+            elementCondition: null
             fieldUid: ddf8dce2-4fa1-43d1-b306-b34d9d97a91b # Content
             instructions: null
             label: null
             required: true
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: f2669af3-4231-432c-96e0-3aefb798e56d
+            userCondition: null
             warning: null
             width: 100
           -
+            elementCondition: null
             fieldUid: 4294fb85-8029-437c-a2e5-76bcd1a79ef1 # Asset
             instructions: null
             label: null
             required: true
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: 7fa1e3d6-0092-49c8-885f-8d0b8e6b0c77
+            userCondition: null
             warning: null
             width: 100
         name: Content
-        sortOrder: 1
+        uid: 3012e935-6f44-4f20-888e-9456cda61ac2
+        userCondition: null
 fields:
   966a6b65-ca53-48a8-89dc-74983cd624ef: # Title
     columnSuffix: null
     contentColumnType: text
     fieldGroup: null
     handle: slideTitle
-    instructions: ''
+    instructions: null
     name: Title
     searchable: true
     settings:
       byteLimit: null
       charLimit: null
-      code: ''
+      code: false
       columnType: null
-      initialRows: '4'
-      multiline: ''
+      initialRows: 4
+      multiline: false
       placeholder: null
       uiMode: enlarged
     translationKeyFormat: null
@@ -59,31 +70,35 @@ fields:
     contentColumnType: string
     fieldGroup: null
     handle: slideAsset
-    instructions: ''
+    instructions: null
     name: Asset
     searchable: false
     settings:
       allowSelfRelations: false
+      allowSubfolders: false
       allowUploads: true
       allowedKinds:
         - image
+      branchLimit: null
       defaultUploadLocationSource: 'volume:d41cc960-99a4-41a8-a7a6-7891a22e4a93' # Asset Variants
-      defaultUploadLocationSubpath: ''
-      limit: '1'
+      defaultUploadLocationSubpath: null
       localizeRelations: true
+      maintainHierarchy: false
+      maxRelations: 1
+      minRelations: null
       previewMode: full
-      restrictFiles: '1'
+      restrictFiles: true
+      restrictLocation: false
+      restrictedDefaultUploadSubpath: null
+      restrictedLocationSource: 'volume:8e9ec71e-2cf0-4f6a-b856-8976de0ce100' # Heroes
+      restrictedLocationSubpath: null
       selectionLabel: 'Select image'
       showSiteMenu: true
       showUnpermittedFiles: false
       showUnpermittedVolumes: false
-      singleUploadLocationSource: 'volume:8e9ec71e-2cf0-4f6a-b856-8976de0ce100' # Heroes
-      singleUploadLocationSubpath: ''
-      source: null
       sources:
         - 'volume:d41cc960-99a4-41a8-a7a6-7891a22e4a93' # Asset Variants
       targetSiteId: null
-      useSingleFolder: false
       validateRelatedElements: false
       viewMode: large
     translationKeyFormat: null
@@ -94,7 +109,7 @@ fields:
     contentColumnType: text
     fieldGroup: null
     handle: slideContent
-    instructions: ''
+    instructions: null
     name: Content
     searchable: true
     settings:
@@ -104,13 +119,13 @@ fields:
       configSelectionMode: choose
       defaultTransform: ''
       manualConfig: ''
-      purifierConfig: ''
-      purifyHtml: '1'
+      purifierConfig: null
+      purifyHtml: true
       redactorConfig: Simple.json
-      removeEmptyTags: '1'
-      removeInlineStyles: '1'
-      removeNbsp: '1'
-      showHtmlButtonForNonAdmins: ''
+      removeEmptyTags: true
+      removeInlineStyles: true
+      removeNbsp: true
+      showHtmlButtonForNonAdmins: false
       showUnpermittedFiles: false
       showUnpermittedVolumes: false
       uiMode: enlarged

@@ -3,52 +3,66 @@ fieldLayouts:
   9b2a8c49-6d16-4855-9829-45ea09202d2b:
     tabs:
       -
+        elementCondition: null
         elements:
           -
+            elementCondition: null
             fieldUid: 380c1cbe-884e-421b-9e31-1f0dfc81e15f # Cell Width
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: 433d0d67-4ed7-4ec0-ad3d-7838f6b9b878
+            userCondition: null
             warning: null
             width: 25
           -
+            elementCondition: null
             fieldUid: cac693b8-f2db-41f9-84e5-a6f16ee8dcbb # Flexible Cell Width
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: 27cc8abf-3903-4a8e-a172-ca0248eea97b
+            userCondition: null
             warning: null
             width: 75
           -
+            elementCondition: null
             fieldUid: c9e9db12-fcdb-4b82-a8c8-eef21b3543af # Cell Background
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: a10497da-14d4-4da3-99ad-4a2fa300d507
+            userCondition: null
             warning: null
             width: 50
           -
+            elementCondition: null
             fieldUid: 4b94ba3d-060c-4a09-b2dc-c519a4c83709 # Cell Content
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: 804f8269-22ac-449f-84c4-6391c3c669a0
+            userCondition: null
             warning: null
             width: 100
         name: Content
-        sortOrder: 1
+        uid: 5fa6cd11-f78b-4273-bfb4-8952aec08415
+        userCondition: null
 fields:
   4b94ba3d-060c-4a09-b2dc-c519a4c83709: # Cell Content
     columnSuffix: null
     contentColumnType: text
     fieldGroup: null
     handle: cellContent
-    instructions: ''
+    instructions: null
     name: 'Cell Content'
     searchable: false
     settings:
@@ -58,13 +72,13 @@ fields:
       configSelectionMode: choose
       defaultTransform: ''
       manualConfig: ''
-      purifierConfig: ''
-      purifyHtml: '1'
+      purifierConfig: null
+      purifyHtml: true
       redactorConfig: TableCellContent.json
-      removeEmptyTags: '1'
-      removeInlineStyles: ''
-      removeNbsp: '1'
-      showHtmlButtonForNonAdmins: ''
+      removeEmptyTags: true
+      removeInlineStyles: false
+      removeNbsp: true
+      showHtmlButtonForNonAdmins: false
       showUnpermittedFiles: false
       showUnpermittedVolumes: false
       uiMode: enlarged
@@ -76,7 +90,7 @@ fields:
     contentColumnType: integer(10)
     fieldGroup: null
     handle: cellWidth
-    instructions: ''
+    instructions: null
     name: 'Cell Width'
     searchable: false
     settings:
@@ -85,9 +99,9 @@ fields:
       max: null
       min: 1
       prefix: null
-      previewCurrency: ''
+      previewCurrency: null
       previewFormat: decimal
-      size: '1'
+      size: 1
       suffix: cell(s)
     translationKeyFormat: null
     translationMethod: none
@@ -97,11 +111,10 @@ fields:
     contentColumnType: string
     fieldGroup: null
     handle: cellBackground
-    instructions: ''
+    instructions: null
     name: 'Cell Background'
     searchable: false
     settings:
-      optgroups: true
       options:
         -
           __assoc__:

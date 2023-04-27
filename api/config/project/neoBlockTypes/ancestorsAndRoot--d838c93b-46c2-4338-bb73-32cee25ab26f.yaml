@@ -1,34 +1,52 @@
-childBlocks: ''
+childBlocks: null
+conditions: null
+description: null
+enabled: true
 field: 9c34fc8b-8bc3-4f8a-bbc8-ea58a018719a # Custom Breadcrumb Sets
 fieldLayouts:
   747dd2e5-0613-44a9-a2c6-433af65f0343:
     tabs:
       -
+        elementCondition: null
         elements:
           -
+            elementCondition: null
             fieldUid: b0ce3829-20c1-44ef-a7c7-499800645afc # Header
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: 80ec598c-bc43-4cbf-8c87-53b34e79e82f
+            userCondition: null
             warning: null
             width: 100
           -
+            elementCondition: null
             fieldUid: 5f0325e0-cdba-4181-a634-bd8ebf451723 # Entry - Page
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: 37365804-c8f2-480c-802d-70bd0d87ae94
+            userCondition: null
             warning: null
             width: 100
         name: Content
-        sortOrder: 1
+        uid: 2a7beea4-1d69-4781-839a-84feedff0ad1
+        userCondition: null
+group: null
+groupChildBlockTypes: true
 handle: ancestorsAndRoot
+icon: null
+ignorePermissions: true
 maxBlocks: 0
 maxChildBlocks: 0
 maxSiblingBlocks: 0
+minBlocks: 0
+minChildBlocks: 0
+minSiblingBlocks: 0
 name: 'Ancestors and Root'
 sortOrder: 1
 topLevel: true

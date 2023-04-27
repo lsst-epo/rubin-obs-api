@@ -2,19 +2,19 @@ columnSuffix: null
 contentColumnType: string
 fieldGroup: b93cb5a6-f862-4912-9d41-4dcb4fd9e105 # Staff Profiles
 handle: staffTags
-instructions: ''
+instructions: null
 name: 'Staff Tags'
 searchable: false
 settings:
-  allowLimit: false
-  allowMultipleSources: false
   allowSelfRelations: false
-  limit: null
+  branchLimit: null
   localizeRelations: false
-  selectionLabel: ''
+  maintainHierarchy: false
+  maxRelations: null
+  minRelations: null
+  selectionLabel: null
   showSiteMenu: true
   source: 'taggroup:5d162b5e-8723-4b74-a229-f8a52bd30b1c' # Staff Tags
-  sources: '*'
   targetSiteId: null
   validateRelatedElements: false
   viewMode: null

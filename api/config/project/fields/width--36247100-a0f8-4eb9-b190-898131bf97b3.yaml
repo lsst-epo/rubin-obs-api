@@ -2,11 +2,10 @@ columnSuffix: null
 contentColumnType: string
 fieldGroup: df8c8d8a-c7d1-45bf-b551-ef790a5b59ad # Callouts
 handle: width
-instructions: ''
+instructions: null
 name: Width
 searchable: false
 settings:
-  optgroups: true
   options:
     -
       __assoc__:

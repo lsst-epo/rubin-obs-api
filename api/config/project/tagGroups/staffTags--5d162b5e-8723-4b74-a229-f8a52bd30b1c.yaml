@@ -2,6 +2,7 @@ fieldLayouts:
   c330b999-9256-47db-ad3c-475f72d25356:
     tabs:
       -
+        elementCondition: null
         elements:
           -
             autocapitalize: true
@@ -9,6 +10,7 @@ fieldLayouts:
             autocorrect: true
             class: null
             disabled: false
+            elementCondition: null
             id: null
             instructions: null
             label: null
@@ -24,9 +26,12 @@ fieldLayouts:
             tip: null
             title: null
             type: craft\fieldlayoutelements\TitleField
+            uid: 675f5bbe-4faf-409f-a9e1-3afd0725e83c
+            userCondition: null
             warning: null
             width: 100
         name: Content
-        sortOrder: 1
+        uid: fcb2ecc3-1fe2-4da2-808f-e8427cb56924
+        userCondition: null
 handle: staffTags
 name: 'Staff Tags'

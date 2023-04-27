@@ -3,43 +3,54 @@ fieldLayouts:
   0a6fe3d4-aab8-496a-bfb7-db947e8f8ab1:
     tabs:
       -
+        elementCondition: null
         elements:
           -
+            elementCondition: null
             fieldUid: 991c5031-3b97-45d8-8829-c8e0c79537a9 # Row Title
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: 184cdb6f-72ba-4ec8-8c96-4896db63465f
+            userCondition: null
             warning: null
             width: 100
           -
+            elementCondition: null
             fieldUid: dff2a767-333e-4c9d-880c-143e1ca2aaa3 # Row Content
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: 51fd59a6-ec49-4e63-86bf-8740d781db6e
+            userCondition: null
             warning: null
             width: 100
           -
+            elementCondition: null
             fieldUid: cbf3fbbb-2f2b-4568-a228-f8c63ff4601c # Row Color
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: 0fc312d9-7a30-4022-9f71-c76e0eff636b
+            userCondition: null
             warning: null
             width: 100
         name: Content
-        sortOrder: 1
+        uid: 99384cb5-1f61-4465-b365-318630efb29d
+        userCondition: null
 fields:
   991c5031-3b97-45d8-8829-c8e0c79537a9: # Row Title
     columnSuffix: null
     contentColumnType: text
     fieldGroup: null
     handle: rowTitle
-    instructions: ''
+    instructions: null
     name: 'Row Title'
     searchable: false
     settings:
@@ -49,13 +60,13 @@ fields:
       configSelectionMode: choose
       defaultTransform: ''
       manualConfig: ''
-      purifierConfig: ''
-      purifyHtml: '1'
+      purifierConfig: null
+      purifyHtml: true
       redactorConfig: TableCellContent.json
-      removeEmptyTags: '1'
-      removeInlineStyles: ''
-      removeNbsp: '1'
-      showHtmlButtonForNonAdmins: ''
+      removeEmptyTags: true
+      removeInlineStyles: false
+      removeNbsp: true
+      showHtmlButtonForNonAdmins: false
       showUnpermittedFiles: false
       showUnpermittedVolumes: false
       uiMode: enlarged
@@ -67,11 +78,10 @@ fields:
     contentColumnType: string
     fieldGroup: null
     handle: rowColor
-    instructions: ''
+    instructions: null
     name: 'Row Color'
     searchable: false
     settings:
-      optgroups: true
       options:
         -
           __assoc__:
@@ -136,7 +146,7 @@ fields:
     contentColumnType: text
     fieldGroup: null
     handle: rowContent
-    instructions: ''
+    instructions: null
     name: 'Row Content'
     searchable: false
     settings:
@@ -146,13 +156,13 @@ fields:
       configSelectionMode: choose
       defaultTransform: ''
       manualConfig: ''
-      purifierConfig: ''
-      purifyHtml: '1'
+      purifierConfig: null
+      purifyHtml: true
       redactorConfig: TableCellContent.json
-      removeEmptyTags: '1'
-      removeInlineStyles: ''
-      removeNbsp: '1'
-      showHtmlButtonForNonAdmins: ''
+      removeEmptyTags: true
+      removeInlineStyles: false
+      removeNbsp: true
+      showHtmlButtonForNonAdmins: false
       showUnpermittedFiles: false
       showUnpermittedVolumes: false
       uiMode: enlarged

@@ -3,54 +3,71 @@ fieldLayouts:
   9318c35e-328a-4ee7-b7c4-06e6beb9a5fb:
     tabs:
       -
+        elementCondition: null
         elements:
           -
+            elementCondition: null
             fieldUid: 5ca18cb3-5a7b-4764-9e18-fc24b4cecc14 # Flag
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: b4131abf-8b70-440c-b374-8039db386dfb
+            userCondition: null
             warning: null
             width: 100
           -
+            elementCondition: null
             fieldUid: 5548b745-642b-4b15-8f17-4ce7457689a8 # Header
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: d3ac5c3a-dca1-4941-ac2d-6e8560407944
+            userCondition: null
             warning: null
             width: 100
           -
+            elementCondition: null
             fieldUid: 9c14ac7e-c466-4c2d-a2fd-e19a68fc706d # Teaser
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: 6d4db327-89b8-444a-a905-9cedea025e73
+            userCondition: null
             warning: null
             width: 100
           -
+            elementCondition: null
             fieldUid: e338eebb-6488-4f58-a07e-db43f28ff56b # Image
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: 39aafbd4-be10-4c68-b076-c265b5611af8
+            userCondition: null
             warning: null
             width: 100
           -
+            elementCondition: null
             fieldUid: 2755abe1-7dd5-428c-a6bb-30d2bd59a362 # Link
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: aadecc3e-e3ac-4faa-8ca5-e5ebdabf6b84
+            userCondition: null
             warning: null
             width: 100
         name: Content
-        sortOrder: 1
+        uid: 5ae49299-e7fa-46a9-b817-b80045167a67
+        userCondition: null
 fields:
   5ca18cb3-5a7b-4764-9e18-fc24b4cecc14: # Flag
     columnSuffix: null
@@ -63,10 +80,10 @@ fields:
     settings:
       byteLimit: null
       charLimit: 20
-      code: ''
+      code: false
       columnType: null
-      initialRows: '4'
-      multiline: ''
+      initialRows: 4
+      multiline: false
       placeholder: null
       uiMode: normal
     translationKeyFormat: null
@@ -77,16 +94,16 @@ fields:
     contentColumnType: string(1020)
     fieldGroup: null
     handle: teaser
-    instructions: ''
+    instructions: null
     name: Teaser
     searchable: false
     settings:
       byteLimit: null
       charLimit: 255
-      code: ''
+      code: false
       columnType: null
-      initialRows: '4'
-      multiline: ''
+      initialRows: 4
+      multiline: false
       placeholder: null
       uiMode: normal
     translationKeyFormat: null
@@ -97,7 +114,7 @@ fields:
     contentColumnType: string
     fieldGroup: null
     handle: mixedLink
-    instructions: ''
+    instructions: null
     name: Link
     searchable: false
     settings:
@@ -160,16 +177,16 @@ fields:
     contentColumnType: text
     fieldGroup: null
     handle: header
-    instructions: ''
+    instructions: null
     name: Header
     searchable: false
     settings:
       byteLimit: null
       charLimit: null
-      code: ''
+      code: false
       columnType: null
-      initialRows: '4'
-      multiline: ''
+      initialRows: 4
+      multiline: false
       placeholder: null
       uiMode: normal
     translationKeyFormat: null
@@ -180,31 +197,35 @@ fields:
     contentColumnType: string
     fieldGroup: null
     handle: image
-    instructions: ''
+    instructions: null
     name: Image
     searchable: false
     settings:
       allowSelfRelations: false
+      allowSubfolders: false
       allowUploads: true
       allowedKinds:
         - image
+      branchLimit: null
       defaultUploadLocationSource: 'volume:8e9ec71e-2cf0-4f6a-b856-8976de0ce100' # Heroes
-      defaultUploadLocationSubpath: ''
-      limit: '1'
+      defaultUploadLocationSubpath: null
       localizeRelations: false
+      maintainHierarchy: false
+      maxRelations: 1
+      minRelations: null
       previewMode: full
-      restrictFiles: '1'
+      restrictFiles: true
+      restrictLocation: false
+      restrictedDefaultUploadSubpath: null
+      restrictedLocationSource: 'volume:8e9ec71e-2cf0-4f6a-b856-8976de0ce100' # Heroes
+      restrictedLocationSubpath: null
       selectionLabel: 'Add hero image'
       showSiteMenu: false
       showUnpermittedFiles: false
       showUnpermittedVolumes: false
-      singleUploadLocationSource: 'volume:8e9ec71e-2cf0-4f6a-b856-8976de0ce100' # Heroes
-      singleUploadLocationSubpath: ''
-      source: null
       sources:
         - 'volume:8e9ec71e-2cf0-4f6a-b856-8976de0ce100' # Heroes
       targetSiteId: null
-      useSingleFolder: false
       validateRelatedElements: false
       viewMode: large
     translationKeyFormat: null

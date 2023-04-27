@@ -6,7 +6,6 @@ instructions: 'Defines which order the callout content appears in.'
 name: 'Content Order'
 searchable: false
 settings:
-  optgroups: true
   options:
     -
       __assoc__:

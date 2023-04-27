@@ -1,26 +1,40 @@
 childBlocks: null
+conditions: null
+description: null
+enabled: true
 field: 72e5075a-9b06-4674-b040-615f4a6f7b70 # Content Blocks - Pages
 fieldLayouts:
   a07adda8-f2f5-4452-909c-0691962df1de:
     tabs:
       -
+        elementCondition: null
         elements:
           -
+            elementCondition: null
             fieldUid: 0e0c24d9-900c-4e44-9087-756675a01096 # Game
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: 39a6305a-4b7e-4129-b657-ebd6bd3b3fb2
+            userCondition: null
             warning: null
             width: 100
         name: 'Select a Game'
-        sortOrder: 1
+        uid: 36660576-f901-49f8-881a-c012d4ffa69d
+        userCondition: null
 group: null
+groupChildBlockTypes: true
 handle: game
+icon: null
+ignorePermissions: true
 maxBlocks: 0
 maxChildBlocks: 0
 maxSiblingBlocks: 0
+minBlocks: 0
+minChildBlocks: 0
+minSiblingBlocks: 0
 name: Game
 sortOrder: 29
 topLevel: true

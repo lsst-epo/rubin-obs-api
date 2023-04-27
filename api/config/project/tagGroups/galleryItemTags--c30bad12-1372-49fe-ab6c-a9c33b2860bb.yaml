@@ -2,6 +2,7 @@ fieldLayouts:
   b8dd71e1-4eb2-415d-bed8-53a366de6934:
     tabs:
       -
+        elementCondition: null
         elements:
           -
             autocapitalize: true
@@ -9,6 +10,7 @@ fieldLayouts:
             autocorrect: true
             class: null
             disabled: false
+            elementCondition: null
             id: null
             instructions: null
             label: null
@@ -24,9 +26,12 @@ fieldLayouts:
             tip: null
             title: null
             type: craft\fieldlayoutelements\TitleField
+            uid: 89f32f05-9ec8-421b-b8c1-6f5cb4a465c2
+            userCondition: null
             warning: null
             width: 100
         name: Content
-        sortOrder: 1
+        uid: 4cdcfbcf-f208-439b-a2cd-6cd7a05b2c30
+        userCondition: null
 handle: galleryItemTags
 name: 'Gallery Item Tags'

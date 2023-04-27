@@ -2,16 +2,18 @@ columnSuffix: null
 contentColumnType: string
 fieldGroup: 9940892d-32f4-4399-acac-ab559ce1c82b # Common
 handle: staffEntry
-instructions: ''
+instructions: null
 name: 'Entry - Staff Profile'
 searchable: true
 settings:
   allowSelfRelations: false
-  limit: ''
+  branchLimit: null
   localizeRelations: false
+  maintainHierarchy: false
+  maxRelations: null
+  minRelations: null
   selectionLabel: 'Select a Staff Profile'
   showSiteMenu: true
-  source: null
   sources:
     - 'section:78410791-6edc-46c9-a17b-4358dcd545ec' # Staff Profiles
   targetSiteId: null

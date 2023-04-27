@@ -6,7 +6,6 @@ instructions: 'Defines the ratio for content column widths.'
 name: 'Content Ratio'
 searchable: false
 settings:
-  optgroups: true
   options:
     -
       __assoc__:

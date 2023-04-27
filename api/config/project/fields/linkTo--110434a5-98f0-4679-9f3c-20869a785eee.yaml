@@ -2,7 +2,7 @@ columnSuffix: null
 contentColumnType: string
 fieldGroup: 99f4a28a-48c3-49ca-bb4a-7acbb49fde30 # Pages
 handle: linkTo
-instructions: ''
+instructions: null
 name: 'Link To'
 searchable: false
 settings:

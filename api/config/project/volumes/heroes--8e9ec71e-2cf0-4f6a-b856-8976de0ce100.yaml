@@ -2,6 +2,7 @@ fieldLayouts:
   eb8fe352-25cf-40ad-8936-2c2da39d8451:
     tabs:
       -
+        elementCondition: null
         elements:
           -
             autocapitalize: true
@@ -9,6 +10,7 @@ fieldLayouts:
             autocorrect: true
             class: null
             disabled: false
+            elementCondition: null
             id: null
             instructions: null
             label: null
@@ -24,42 +26,54 @@ fieldLayouts:
             tip: null
             title: null
             type: craft\fieldlayoutelements\TitleField
+            uid: 1f2faf1d-9cd0-4ae3-8dd9-8d011c80c99c
+            userCondition: null
             warning: null
             width: 100
           -
+            elementCondition: null
             fieldUid: 39af5de5-d299-4bc5-965a-af2d128c7f1a # Alternative Text
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: 944a4168-b99a-4aaa-8a6c-01ff349f4118
+            userCondition: null
             warning: null
             width: 100
           -
+            elementCondition: null
             fieldUid: 58aa24c3-97e4-43e7-a812-7374e5650180 # Focal Point X
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: b6111a26-ed7e-4ec1-b410-a95bff1e24f0
+            userCondition: null
             warning: null
             width: 50
           -
+            elementCondition: null
             fieldUid: 0073b1d1-a221-431d-aab9-bf4e193adf4f # Focal Point Y
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: e7efd33e-6971-4f79-95c0-4cea8abf4213
+            userCondition: null
             warning: null
             width: 50
         name: Content
-        sortOrder: 1
+        uid: 0ddbc4ec-063c-4097-b7fc-8c67d365eb16
+        userCondition: null
 fs: heroes
 handle: heroes
-hasUrls: true
 name: Heroes
 sortOrder: 1
 titleTranslationKeyFormat: null
 titleTranslationMethod: site
-url: '@assetsHeroesBaseURL'
+transformFs: null
+transformSubpath: ''

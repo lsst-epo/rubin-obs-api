@@ -2,16 +2,18 @@ columnSuffix: null
 contentColumnType: string
 fieldGroup: 9940892d-32f4-4399-acac-ab559ce1c82b # Common
 handle: pageEntry
-instructions: ''
+instructions: null
 name: 'Entry - Page'
 searchable: true
 settings:
   allowSelfRelations: false
-  limit: ''
+  branchLimit: null
   localizeRelations: false
+  maintainHierarchy: false
+  maxRelations: null
+  minRelations: null
   selectionLabel: 'Add a Page'
   showSiteMenu: true
-  source: null
   sources:
     - 'section:f1b8c943-bc12-4001-9e2a-d531379f1aaf' # Pages
   targetSiteId: null

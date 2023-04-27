@@ -2,12 +2,11 @@ columnSuffix: null
 contentColumnType: string(255)
 fieldGroup: cee5c2f8-2801-42c2-a56c-4fe40c85b6f3 # Site Information
 handle: youTube
-instructions: ''
+instructions: null
 name: YouTube
 searchable: true
 settings:
-  maxLength: '255'
-  placeholder: ''
+  maxLength: 255
   types:
     - url
 translationKeyFormat: null

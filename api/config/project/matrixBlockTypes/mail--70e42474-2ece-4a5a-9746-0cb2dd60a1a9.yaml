@@ -3,25 +3,30 @@ fieldLayouts:
   73eb819a-d08d-483b-9006-bbadd229c2d4:
     tabs:
       -
+        elementCondition: null
         elements:
           -
+            elementCondition: null
             fieldUid: cc694df6-ebfe-4e0c-b4fe-713761f100df # Text
             instructions: null
             label: null
             required: true
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: e2996626-f28e-495a-bc89-ac350aee7355
+            userCondition: null
             warning: null
             width: 100
         name: Content
-        sortOrder: 1
+        uid: 2ce98369-14ed-4ab2-983e-2e0a03fa3e15
+        userCondition: null
 fields:
   cc694df6-ebfe-4e0c-b4fe-713761f100df: # Text
     columnSuffix: null
     contentColumnType: text
     fieldGroup: null
     handle: text
-    instructions: ''
+    instructions: null
     name: Text
     searchable: true
     settings:
@@ -31,13 +36,13 @@ fields:
       configSelectionMode: choose
       defaultTransform: ''
       manualConfig: ''
-      purifierConfig: ''
-      purifyHtml: '1'
-      redactorConfig: ''
-      removeEmptyTags: '1'
-      removeInlineStyles: '1'
-      removeNbsp: '1'
-      showHtmlButtonForNonAdmins: ''
+      purifierConfig: null
+      purifyHtml: true
+      redactorConfig: null
+      removeEmptyTags: true
+      removeInlineStyles: true
+      removeNbsp: true
+      showHtmlButtonForNonAdmins: false
       showUnpermittedFiles: false
       showUnpermittedVolumes: false
       uiMode: normal

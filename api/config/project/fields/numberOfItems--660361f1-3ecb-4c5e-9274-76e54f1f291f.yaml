@@ -6,7 +6,6 @@ instructions: 'Max # dynamic grid items to show in this block.'
 name: 'Number of items'
 searchable: false
 settings:
-  optgroups: true
   options:
     -
       __assoc__:

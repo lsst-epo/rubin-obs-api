@@ -2,20 +2,19 @@ columnSuffix: null
 contentColumnType: string
 fieldGroup: b93cb5a6-f862-4912-9d41-4dcb4fd9e105 # Staff Profiles
 handle: staffType
-instructions: ''
+instructions: null
 name: Type
 searchable: true
 settings:
-  allowLimit: false
-  allowMultipleSources: false
   allowSelfRelations: false
-  branchLimit: '1'
-  limit: null
+  branchLimit: 1
   localizeRelations: false
+  maintainHierarchy: true
+  maxRelations: null
+  minRelations: null
   selectionLabel: 'Add Staff Type'
   showSiteMenu: true
   source: 'group:aa60fd40-45d4-48bb-8b81-8ec736456687' # Staff Filters
-  sources: '*'
   targetSiteId: null
   validateRelatedElements: false
   viewMode: null

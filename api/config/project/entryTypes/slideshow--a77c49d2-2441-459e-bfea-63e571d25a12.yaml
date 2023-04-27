@@ -2,6 +2,7 @@ fieldLayouts:
   7173d363-4be4-4b08-b42c-f8d184b33399:
     tabs:
       -
+        elementCondition: null
         elements:
           -
             autocapitalize: true
@@ -9,6 +10,7 @@ fieldLayouts:
             autocorrect: true
             class: null
             disabled: false
+            elementCondition: null
             id: null
             instructions: null
             label: null
@@ -24,37 +26,49 @@ fieldLayouts:
             tip: null
             title: null
             type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 45543f26-907f-4f08-8f07-7eae953abcd6
+            userCondition: null
             warning: null
             width: 100
           -
+            elementCondition: null
             fieldUid: 657b9edd-b6d3-4b7f-af89-36117c5d98a8 # Rich Text Description
             instructions: 'Teaser for the slideshow as a whole'
             label: Description
-            required: ''
+            required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: aff8b863-2c84-4b8a-a78d-d956e221a929
+            userCondition: null
             warning: null
             width: 100
           -
+            elementCondition: null
             fieldUid: 8bfcc6b7-ec2f-4759-bce9-c62bc12aecd4 # Representative Asset Variant
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: fdec313b-849d-4766-ae92-d1089dd16a1b
+            userCondition: null
             warning: null
             width: 100
           -
+            elementCondition: null
             fieldUid: b4139639-fe83-4dd3-acf6-581a798190b5 # Slideshow Items
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: 10ccca93-c52c-495e-8e96-4d09aa6720b4
+            userCondition: null
             warning: null
             width: 100
         name: Content
-        sortOrder: 1
+        uid: 2ede0131-7360-42eb-a59f-9b2067cb9513
+        userCondition: null
 handle: slideshow
 hasTitleField: true
 name: Slideshow

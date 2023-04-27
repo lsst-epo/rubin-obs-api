@@ -7,25 +7,29 @@ name: 'Supporters’ Logos'
 searchable: false
 settings:
   allowSelfRelations: false
+  allowSubfolders: false
   allowUploads: true
   allowedKinds:
     - image
+  branchLimit: null
   defaultUploadLocationSource: 'volume:8e9ec71e-2cf0-4f6a-b856-8976de0ce100' # Heroes
-  defaultUploadLocationSubpath: ''
-  limit: '1'
+  defaultUploadLocationSubpath: null
   localizeRelations: false
+  maintainHierarchy: false
+  maxRelations: 1
+  minRelations: null
   previewMode: full
-  restrictFiles: '1'
-  selectionLabel: ''
+  restrictFiles: true
+  restrictLocation: true
+  restrictedDefaultUploadSubpath: null
+  restrictedLocationSource: 'volume:18a75c63-648f-4145-9cc3-386e7c8a0106' # General
+  restrictedLocationSubpath: null
+  selectionLabel: null
   showSiteMenu: true
   showUnpermittedFiles: false
   showUnpermittedVolumes: false
-  singleUploadLocationSource: 'volume:18a75c63-648f-4145-9cc3-386e7c8a0106' # General
-  singleUploadLocationSubpath: ''
-  source: null
   sources: '*'
   targetSiteId: null
-  useSingleFolder: true
   validateRelatedElements: false
   viewMode: list
 translationKeyFormat: null

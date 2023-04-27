@@ -2,16 +2,18 @@ columnSuffix: null
 contentColumnType: string
 fieldGroup: 3eefd793-f1fb-4692-ba0e-ff68f354543b # Investigations
 handle: investigation
-instructions: ''
+instructions: null
 name: Investigation
 searchable: true
 settings:
   allowSelfRelations: false
-  limit: '1'
+  branchLimit: null
   localizeRelations: false
-  selectionLabel: ''
+  maintainHierarchy: false
+  maxRelations: 1
+  minRelations: null
+  selectionLabel: null
   showSiteMenu: false
-  source: null
   sources:
     - 'section:546e0c6d-dd32-4997-8487-cc4c2fcc9480' # Investigations
   targetSiteId: null

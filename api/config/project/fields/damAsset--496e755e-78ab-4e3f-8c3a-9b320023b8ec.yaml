@@ -2,31 +2,35 @@ columnSuffix: null
 contentColumnType: string
 fieldGroup: df8c8d8a-c7d1-45bf-b551-ef790a5b59ad # Callouts
 handle: damAsset
-instructions: ''
+instructions: null
 name: Image
 searchable: true
 settings:
   allowSelfRelations: false
+  allowSubfolders: false
   allowUploads: true
   allowedKinds: null
-  defaultUploadLocationSource: ''
+  branchLimit: null
+  defaultUploadLocationSource: null
   defaultUploadLocationSubpath: null
-  limit: '1'
   localizeRelations: true
+  maintainHierarchy: false
+  maxRelations: 1
+  minRelations: null
   previewMode: full
-  restrictFiles: null
-  selectionLabel: ''
+  restrictFiles: false
+  restrictLocation: false
+  restrictedDefaultUploadSubpath: null
+  restrictedLocationSource: null
+  restrictedLocationSubpath: null
+  selectionLabel: null
   showSiteMenu: true
   showUnpermittedFiles: false
   showUnpermittedVolumes: true
-  singleUploadLocationSource: ''
-  singleUploadLocationSubpath: null
-  source: null
   sources: '*'
   targetSiteId: null
-  useSingleFolder: false
   validateRelatedElements: false
   viewMode: list
 translationKeyFormat: null
 translationMethod: site
-type: rosas\dam\fields\DAMAsset
+type: lsst\dam\fields\DAMAsset

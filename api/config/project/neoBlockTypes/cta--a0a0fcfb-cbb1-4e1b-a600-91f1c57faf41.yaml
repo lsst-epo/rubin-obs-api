@@ -1,35 +1,52 @@
 childBlocks: null
+conditions: null
+description: null
+enabled: true
 field: 72e5075a-9b06-4674-b040-615f4a6f7b70 # Content Blocks - Pages
 fieldLayouts:
   2c3aebef-93a3-4cb1-beda-4d47a13a0b8e:
     tabs:
       -
+        elementCondition: null
         elements:
           -
+            elementCondition: null
             fieldUid: fb052686-4537-4fe5-9ce2-ff3fd4a341a2 # Content Image
-            instructions: ''
+            instructions: null
             label: Image
-            required: '1'
+            required: true
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: cb8bf947-d580-4cfc-9899-98ad30e44c5c
+            userCondition: null
             warning: null
             width: 100
           -
+            elementCondition: null
             fieldUid: d019727b-a6d5-43d9-a688-f10df985a87e # Link
-            instructions: ''
-            label: ''
-            required: '1'
+            instructions: null
+            label: null
+            required: true
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: 33148150-03c7-4c1b-bb4b-79f8a1a6dbc4
+            userCondition: null
             warning: null
             width: 100
         name: Content
-        sortOrder: 1
+        uid: 5a7c7ceb-b82a-4d60-a50a-d7aa83cbecbd
+        userCondition: null
 group: null
+groupChildBlockTypes: true
 handle: cta
+icon: null
+ignorePermissions: true
 maxBlocks: 0
 maxChildBlocks: 0
 maxSiblingBlocks: 0
+minBlocks: 0
+minChildBlocks: 0
+minSiblingBlocks: 0
 name: CTA
 sortOrder: 8
 topLevel: false

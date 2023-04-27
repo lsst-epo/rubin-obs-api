@@ -1,41 +1,55 @@
 tabs:
   -
+    elementCondition: null
     elements:
       -
+        elementCondition: null
         fieldUid: 125d214d-7831-4150-b5bc-1a100bc3149d # School
         instructions: null
         label: null
         required: false
         tip: null
         type: craft\fieldlayoutelements\CustomField
+        uid: aa378bfd-b61a-4c0a-9c08-d652714e8874
+        userCondition: null
         warning: null
         width: 100
       -
+        elementCondition: null
         fieldUid: 922a7383-2cc6-4a2a-b347-3a41389d7119 # Preferred Language
         instructions: null
         label: null
         required: false
         tip: null
         type: craft\fieldlayoutelements\CustomField
+        uid: e74bfd31-26ec-44ec-baa6-8952c0cce3b1
+        userCondition: null
         warning: null
         width: 100
       -
+        elementCondition: null
         fieldUid: 7445fb64-f649-42e7-9751-28d742d27a85 # Email Subscription
         instructions: null
         label: null
         required: false
         tip: null
         type: craft\fieldlayoutelements\CustomField
+        uid: c64d5027-1e32-47ef-a9b1-70b03646d75d
+        userCondition: null
         warning: null
         width: 100
       -
+        elementCondition: null
         fieldUid: e6f15692-eb5b-4a33-ad48-7f2b05a7c527 # Request Deletion
         instructions: null
         label: null
         required: false
         tip: null
         type: craft\fieldlayoutelements\CustomField
+        uid: 8dd25e5f-e360-40c9-8e5b-abf6b63e00e9
+        userCondition: null
         warning: null
         width: 100
     name: Info
-    sortOrder: 1
+    uid: d9591675-5f6e-4ffa-ad5f-1ab4c201c40b
+    userCondition: null

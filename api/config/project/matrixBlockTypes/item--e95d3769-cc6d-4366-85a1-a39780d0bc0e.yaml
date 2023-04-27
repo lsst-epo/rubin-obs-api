@@ -66,9 +66,11 @@ fields:
       allowSubfolders: false
       allowUploads: true
       allowedKinds: null
+      branchLimit: null
       defaultUploadLocationSource: 'volume:18a75c63-648f-4145-9cc3-386e7c8a0106' # General
       defaultUploadLocationSubpath: null
       localizeRelations: true
+      maintainHierarchy: false
       maxRelations: 1
       minRelations: null
       previewMode: full
@@ -92,7 +94,6 @@ fields:
       showSiteMenu: false
       showUnpermittedFiles: false
       showUnpermittedVolumes: false
-      source: null
       sources: '*'
       targetSiteId: null
       validateRelatedElements: false

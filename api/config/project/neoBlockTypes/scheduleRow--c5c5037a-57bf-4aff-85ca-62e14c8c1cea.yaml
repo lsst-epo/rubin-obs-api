@@ -1,53 +1,76 @@
 childBlocks: null
+conditions: null
+description: null
+enabled: true
 field: 72e5075a-9b06-4674-b040-615f4a6f7b70 # Content Blocks - Pages
 fieldLayouts:
   72820c08-6638-412b-bb2c-97b8150cc0ec:
     tabs:
       -
+        elementCondition: null
         elements:
           -
+            elementCondition: null
             fieldUid: 36eb6d5c-23a9-43c9-bf13-4ca926869004 # Start Time
-            instructions: ''
-            label: ''
-            required: '1'
+            instructions: null
+            label: null
+            required: true
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: 53b0be43-4a11-4f98-8832-0e58e3e246d8
+            userCondition: null
             warning: null
             width: 25
           -
+            elementCondition: null
             fieldUid: 4a55a5d1-655b-4e30-8466-c84b6d8558dd # End Time
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: 5d43a677-c285-4b38-8570-eab7ccf1357d
+            userCondition: null
             warning: null
             width: 25
           -
+            elementCondition: null
             fieldUid: cd801712-4ba3-4a9c-8fab-0d3e2a58b4eb # Description
-            instructions: ''
-            label: ''
-            required: '1'
+            instructions: null
+            label: null
+            required: true
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: f7357468-5d6e-482c-bdf4-63aa9174cba2
+            userCondition: null
             warning: null
             width: 50
           -
+            elementCondition: null
             fieldUid: 6f86b4dc-dab0-46fa-860d-81f6ebe6b541 # Bold
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: 33fc7ad3-a726-4ae9-8012-eb7399dc76d0
+            userCondition: null
             warning: null
             width: 100
         name: default
-        sortOrder: 1
+        uid: 7e1b12fc-68b4-449d-b467-0143bbc5e8bc
+        userCondition: null
 group: null
+groupChildBlockTypes: true
 handle: scheduleRow
+icon: null
+ignorePermissions: true
 maxBlocks: 0
 maxChildBlocks: 0
 maxSiblingBlocks: 0
+minBlocks: 0
+minChildBlocks: 0
+minSiblingBlocks: 0
 name: 'Schedule Row'
 sortOrder: 22
 topLevel: false

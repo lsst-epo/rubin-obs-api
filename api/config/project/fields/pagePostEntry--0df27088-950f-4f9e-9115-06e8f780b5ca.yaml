@@ -2,16 +2,18 @@ columnSuffix: null
 contentColumnType: string
 fieldGroup: 9940892d-32f4-4399-acac-ab559ce1c82b # Common
 handle: pagePostEntry
-instructions: ''
+instructions: null
 name: 'Entry - Page, Post & Investigation'
 searchable: true
 settings:
   allowSelfRelations: false
-  limit: '1'
+  branchLimit: null
   localizeRelations: false
+  maintainHierarchy: false
+  maxRelations: 1
+  minRelations: null
   selectionLabel: 'Select an entry'
   showSiteMenu: true
-  source: null
   sources:
     - 'section:546e0c6d-dd32-4997-8487-cc4c2fcc9480' # Investigations
     - 'section:11be7603-f576-4af8-93a6-e285e4ff42c4' # News

@@ -2,24 +2,23 @@ columnSuffix: null
 contentColumnType: text
 fieldGroup: b93cb5a6-f862-4912-9d41-4dcb4fd9e105 # Staff Profiles
 handle: staffBio
-instructions: ''
+instructions: null
 name: Bio
 searchable: false
 settings:
   availableTransforms: '*'
   availableVolumes: ''
-  cleanupHtml: true
   columnType: text
   configSelectionMode: choose
   defaultTransform: ''
   manualConfig: ''
-  purifierConfig: ''
-  purifyHtml: '1'
-  redactorConfig: ''
-  removeEmptyTags: '1'
-  removeInlineStyles: '1'
-  removeNbsp: '1'
-  showHtmlButtonForNonAdmins: ''
+  purifierConfig: null
+  purifyHtml: true
+  redactorConfig: null
+  removeEmptyTags: true
+  removeInlineStyles: true
+  removeNbsp: true
+  showHtmlButtonForNonAdmins: false
   showUnpermittedFiles: false
   showUnpermittedVolumes: false
   uiMode: normal

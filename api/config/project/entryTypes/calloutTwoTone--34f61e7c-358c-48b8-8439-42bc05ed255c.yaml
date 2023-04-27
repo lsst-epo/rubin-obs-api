@@ -2,6 +2,7 @@ fieldLayouts:
   d4231f44-575b-44ed-8325-65698b21ee70:
     tabs:
       -
+        elementCondition: null
         elements:
           -
             autocapitalize: true
@@ -9,6 +10,7 @@ fieldLayouts:
             autocorrect: true
             class: null
             disabled: false
+            elementCondition: null
             id: null
             instructions: null
             label: null
@@ -24,77 +26,103 @@ fieldLayouts:
             tip: null
             title: null
             type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: a8591b60-06fa-4c7a-a74f-5e870e1257a8
+            userCondition: null
             warning: null
             width: 100
           -
+            elementCondition: null
             fieldUid: b0ce3829-20c1-44ef-a7c7-499800645afc # Header
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: 3bfc0ff4-df1a-425d-99c7-8087303b13dd
+            userCondition: null
             warning: null
             width: 100
           -
+            elementCondition: null
             fieldUid: 7db205b7-a548-42f1-8c26-416ec51cf3fa # Text
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: f0e71b34-9011-40cc-b3d9-49acd03270b4
+            userCondition: null
             warning: null
             width: 100
           -
+            elementCondition: null
             fieldUid: 4c977b75-9ee1-4cdb-9d2a-203639f4af84 # Links
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: fb4c30fd-1d06-497e-b68a-63332b087b91
+            userCondition: null
             warning: null
             width: 100
           -
+            elementCondition: null
             fieldUid: fb052686-4537-4fe5-9ce2-ff3fd4a341a2 # Content Image
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: ad16f530-0fc0-4ad5-94d6-2500c4ca5a3e
+            userCondition: null
             warning: null
             width: 100
           -
+            elementCondition: null
             fieldUid: 61b9d842-7365-4bbf-883c-1b6433dc15f4 # Caption - rich text
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: b72dcbb5-fee6-4a83-8a1b-670c51603251
+            userCondition: null
             warning: null
             width: 100
         name: Content
-        sortOrder: 1
+        uid: f73a21f5-0b5d-4d3f-8723-0c0182b0b70c
+        userCondition: null
       -
+        elementCondition: null
         elements:
           -
+            elementCondition: null
             fieldUid: 8b8ed305-e6e6-4754-925f-bb07427b2060 # Background Color
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: 4f45ed2f-bf89-494b-b18f-b68e57f0069f
+            userCondition: null
             warning: null
             width: 50
           -
+            elementCondition: null
             fieldUid: 496e755e-78ab-4e3f-8c3a-9b320023b8ec # Image
-            instructions: ''
+            instructions: null
             label: 'Background Image'
-            required: ''
+            required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: 6c30ca57-eacf-420e-974f-12fae1ab2601
+            userCondition: null
             warning: null
             width: 50
         name: Appearance
-        sortOrder: 2
+        uid: b9953074-0fe3-4e2d-a4a7-c7d0f9f4c6ee
+        userCondition: null
 handle: calloutTwoTone
 hasTitleField: true
 name: 'Callout - two-tone'

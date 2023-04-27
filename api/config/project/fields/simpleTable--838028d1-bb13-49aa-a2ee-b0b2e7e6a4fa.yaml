@@ -2,13 +2,13 @@ columnSuffix: null
 contentColumnType: string
 fieldGroup: 9940892d-32f4-4399-acac-ab559ce1c82b # Common
 handle: simpleTable
-instructions: ''
+instructions: null
 name: 'Simple Table'
 searchable: false
 settings:
   contentTable: '{{%matrixcontent_simpletable}}'
-  maxBlocks: ''
-  minBlocks: ''
+  maxBlocks: null
+  minBlocks: null
   propagationKeyFormat: null
   propagationMethod: all
 translationKeyFormat: null
