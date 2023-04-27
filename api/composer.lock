@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a8ee1ecff0b0941eda2ae13f0f7db93b",
+    "content-hash": "aab6a5a06717dca85e72711032bc37f0",
     "packages": [
         {
             "name": "abraham/twitteroauth",
@@ -4092,20 +4092,20 @@
         },
         {
             "name": "lsst/canto-dam-integrator",
-            "version": "dev-EPO-7854",
+            "version": "dev-main",
             "source": {
                 "type": "git",
-                "url": "https://github.com/lsst-epo/craft3-universal-dam-integrator.git",
-                "reference": "4714d8aaaa6112e69ecfc39e7efc3c1eeee72243"
+                "url": "https://github.com/lsst-epo/craft-canto-dam-integrator.git",
+                "reference": "59113530325e603f62de0c6393d2e0e045371f82"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/lsst-epo/craft3-universal-dam-integrator/zipball/4714d8aaaa6112e69ecfc39e7efc3c1eeee72243",
-                "reference": "4714d8aaaa6112e69ecfc39e7efc3c1eeee72243",
+                "url": "https://api.github.com/repos/lsst-epo/craft-canto-dam-integrator/zipball/59113530325e603f62de0c6393d2e0e045371f82",
+                "reference": "59113530325e603f62de0c6393d2e0e045371f82",
                 "shasum": ""
             },
             "require": {
-                "craftcms/cms": "^4.0.0"
+                "craftcms/cms": "^4.4.1"
             },
             "require-dev": {
                 "codeception/codeception": "^4.2.2",
@@ -4115,14 +4115,16 @@
                 "ext-zip": "^1.15",
                 "vlucas/phpdotenv": "^3.0"
             },
+            "default-branch": true,
             "type": "craft-plugin",
             "extra": {
-                "name": "Universal DAM Integrator",
-                "handle": "universal-dam-integrator"
+                "name": "Canto DAM Integrator",
+                "handle": "canto-dam-integrator",
+                "class": "lsst\\dam\\DamPlugin"
             },
             "autoload": {
                 "psr-4": {
-                    "rosas\\dam\\": "src/"
+                    "lsst\\dam\\": "src/"
                 }
             },
             "license": [
@@ -4131,10 +4133,10 @@
             "authors": [
                 {
                     "name": "Eric Rosas",
-                    "homepage": "https://github.com/lsst-epo/craft3-universal-dam-integrator"
+                    "homepage": "https://github.com/lsst-epo/craft-canto-dam-integrator"
                 }
             ],
-            "description": "This plugin is intended to be vendor agnostic, but with enough customizability to work across a broad range of vendors.",
+            "description": "This plugin is intended to be used with the Canto Digital Asset Management (DAM) web system.",
             "keywords": [
                 "asset",
                 "dam",
@@ -4143,11 +4145,11 @@
             ],
             "support": {
                 "email": "erosas@lsst.org",
-                "issues": "https://github.com/lsst-epo/craft3-universal-dam-integrator/issues",
-                "source": "https://github.com/lsst-epo/craft3-universal-dam-integrator",
-                "docs": "https://github.com/lsst-epo/craft3-universal-dam-integrator/blob/main/README.md"
+                "issues": "https://github.com/lsst-epo/craft-canto-dam-integrator/issues",
+                "source": "https://github.com/lsst-epo/craft-canto-dam-integrator",
+                "docs": "https://github.com/lsst-epo/craft-canto-dam-integrator/blob/main/README.md"
             },
-            "time": "2023-03-30T21:03:03+00:00"
+            "time": "2023-04-25T18:33:53+00:00"
         },
         {
             "name": "mikehaertl/php-shellcommand",
@@ -9921,5 +9923,5 @@
     "platform-overrides": {
         "php": "8.1.10"
     },
-    "plugin-api-version": "2.3.0"
+    "plugin-api-version": "2.1.0"
 }
