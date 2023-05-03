@@ -1,4 +1,4 @@
-dateModified: 1680149834
+dateModified: 1683156627
 email:
   fromEmail: $EMAIL_FROM_ADDRESS
   fromName: $EMAIL_SENDER_NAME
@@ -182,6 +182,7 @@ meta:
     40ee52fe-bbe1-4b44-97ea-ef987105496b: Email # Email
     41a9c595-2a38-40b5-b87c-ada8076913e1: Share # Share
     46d17af4-896a-4fc5-90bf-ac826090d9bc: Credit # Credit
+    46db7366-f372-41c2-9f6a-dc30bcd7a946: 'Callout - News' # Callout - News
     48ba11bd-90a5-4239-a24c-d44d01affbcf: 'Image - quote' # Image - quote
     51d86fa7-e37a-4926-97c8-3112fd6f2fbe: 'Canto DAM' # Canto DAM
     56f60368-4386-4395-92b6-31b15c7663cc: Contact # Contact
@@ -267,6 +268,7 @@ meta:
     960543c0-3ba6-466b-aa9e-9182279dd49a: 'Start Date' # Start Date
     04000104-ec26-4d82-959a-729454e7f1cc: Country # Country
     7187131b-681b-45de-a1ea-87a8d070c05a: 'Gallery Item' # Gallery Item
+    7619020e-9b6f-4526-9359-d6cfb47b33a5: 'Entry - Event' # Entry - Event
     9940892d-32f4-4399-acac-ab559ce1c82b: Common # Common
     30885296-ea6f-4481-8e0f-e9d17e37c7c5: PublisherId # PublisherId
     36247100-a0f8-4eb9-b190-898131bf97b3: Width # Width
@@ -362,6 +364,7 @@ meta:
     e338eebb-6488-4f58-a07e-db43f28ff56b: Image # Image
     e566bfcd-b44b-40b4-9998-5175bcf91df9: 'Related Content' # Related Content
     e24265aa-f05d-42eb-8d44-1ead0005aec1: Link # Link
+    e74470ea-c559-482e-9e3d-2241517a95a7: 'Callout - Event' # Callout - Event
     e425947f-95b4-443c-ab86-fe521acc1f29: 'Gallery Item Type' # Gallery Item Type
     e7913600-c914-4ab1-a9bb-abd2bdcbfb94: 'Custom Name' # Custom Name
     e9726196-f241-49d4-9b6b-9e8d419e6669: 'Link Text' # Link Text
