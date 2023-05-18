@@ -73,6 +73,11 @@ jobs:
     steps:
     - name: Checkout
       uses: actions/checkout@v2
+
+    - name: Install Node.js/NPM
+    - uses: actions/setup-node@v3
+      with:
+        node-version: 16
     
     # Install test suite
     - name: Install Cypress dependencies
