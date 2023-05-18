@@ -108,3 +108,4 @@ jobs:
       env:
         BRANCH_NAME: ${{ env.version_name }}
       run: gcloud app versions delete ${BRANCH_NAME,,} --service=rubin-obs-api       
+      
