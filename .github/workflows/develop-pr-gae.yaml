@@ -81,7 +81,7 @@ jobs:
     
     # Install test suite
     - name: Install Cypress dependencies
-      run: ls -l && cd tests && npm i
+      run: ls -l && pwd && cd tests && npm i
 
     - name: Run Cypress tests
       env:
