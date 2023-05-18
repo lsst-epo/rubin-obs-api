@@ -14,7 +14,6 @@ jobs:
   build-push-deploy:
     name: 'Build and Deploy PR Preview to Development'
     runs-on: ubuntu-latest
-    id: build
     if: ${{ (github.event.action != 'closed') && (startsWith(github.head_ref, 'preview') == true) }}
 
     # Checkout the repository to the GitHub Actions runner
@@ -66,6 +65,7 @@ jobs:
 
   run-e2e-tests:
     name: 'Run End-to-End Tests on Preview Instance'
+    needs: build-push-deploy
     if: (steps.build.outcome == 'success') && (${{ (github.event.action != 'closed') && (startsWith(github.head_ref, 'preview') == true) }})
     
     # Checkout the repository to the GitHub Actions runner
@@ -108,4 +108,3 @@ jobs:
       env:
         BRANCH_NAME: ${{ env.version_name }}
       run: gcloud app versions delete ${BRANCH_NAME,,} --service=rubin-obs-api       
-      
