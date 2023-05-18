@@ -14,6 +14,7 @@ jobs:
   build-push-deploy:
     name: 'Build and Deploy PR Preview to Development'
     runs-on: ubuntu-latest
+    id: build
     if: ${{ (github.event.action != 'closed') && (startsWith(github.head_ref, 'preview') == true) }}
 
     # Checkout the repository to the GitHub Actions runner
@@ -62,6 +63,27 @@ jobs:
           A preview of this PR will be available at https://${{ github.head_ref }}-dot-rubin-obs-api-dot-skyviewer.uw.r.appspot.com until the request is closed. :sparkles:
         reactions: '+1'
         edit-mode: replace
+
+  run-e2e-tests:
+    name: 'Run End-to-End Tests on Preview Instance'
+    if: (steps.build.outcome == 'success') && (${{ (github.event.action != 'closed') && (startsWith(github.head_ref, 'preview') == true) }})
+    
+    # Checkout the repository to the GitHub Actions runner
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v2
+    
+    # Install test suite
+    - name: Install Cypress dependencies
+      run: ./test/npm run i
+
+    - name: Run Cypress tests
+      env:
+        CRAFT_DASHBOARD_URL: https://${{ github.head_ref }}-dot-rubin-obs-api-dot-skyviewer.uw.r.appspot.com
+        TEST_USERNAME: temp_test
+        TEST_PASSWORD: testertester
+      run: npx cypress run --record --spec "./tests/cypress/e2e/spec.cy.js"
+
 
   cleanup:
     name: 'Cleanup PR Preview'
