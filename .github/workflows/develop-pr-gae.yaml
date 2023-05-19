@@ -85,7 +85,7 @@ jobs:
 
     - name: Run Cypress tests
       env:
-        CRAFT_DASHBOARD_URL: https://${{ github.head_ref }}-dot-rubin-obs-api-dot-skyviewer.uw.r.appspot.com
+        CRAFT_DASHBOARD_URL: https://${{ github.head_ref }}-dot-rubin-obs-api-dot-skyviewer.uw.r.appspot.com/admin/login
         TEST_USERNAME: temp_test
         TEST_PASSWORD: testertester
       run: cd tests && npx cypress run --spec "./cypress/e2e/spec.cy.js"

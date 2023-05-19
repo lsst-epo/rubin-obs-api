@@ -10,6 +10,8 @@ Cypress.Commands.add('login', (username, password, loginUrl) => {
 
 describe("Testing Craft Dashboard", () => {
   beforeEach(() => {
+    console.log("Logging process.env:");
+    console.log(process.env);
     cy.login(process.env.TEST_USERNAME, process.env.TEST_PASSWORD, process.env.CRAFT_DASHBOARD_URL)
   });
 
