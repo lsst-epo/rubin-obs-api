@@ -74,21 +74,28 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v2
 
-    - name: Install Node.js/NPM
-      uses: actions/setup-node@v3
-      with:
-        node-version: 16
+    # - name: Install Node.js/NPM
+    #   uses: actions/setup-node@v3
+    #   with:
+    #     node-version: 16
     
     # Install test suite
     - name: Install Cypress dependencies
       run: ls -l && pwd && cd tests && npm i
 
-    - name: Run Cypress tests
-      env:
-        CRAFT_DASHBOARD_URL: https://${{ github.head_ref }}-dot-rubin-obs-api-dot-skyviewer.uw.r.appspot.com/admin/login
-        TEST_USERNAME: temp_test
-        TEST_PASSWORD: testertester
-      run: cd tests && npx cypress run --spec "./cypress/e2e/spec.cy.js"
+    # - name: Run Cypress tests
+    #   env:
+    #     CRAFT_DASHBOARD_URL: https://${{ github.head_ref }}-dot-rubin-obs-api-dot-skyviewer.uw.r.appspot.com/admin/login
+    #     TEST_USERNAME: temp_test
+    #     TEST_PASSWORD: testertester
+    #   run: cd tests && npx cypress run --spec "./cypress/e2e/spec.cy.js"
+
+    - name: Cypress run
+      uses: cypress-io/github-action@v5
+      with:
+        spec: tests/cypress/e2e/spec.cy.js
+        config-file: tests/cypress.config.js
+        working-directory: tests
 
 
   cleanup:
