@@ -16,7 +16,7 @@ describe("Testing Craft Dashboard", () => {
     console.log("Logging process.env within beforeEach():");
     console.log(process.env);
 
-    cy.login(process.env.TEST_USERNAME, process.env.TEST_PASSWORD, process.env.CRAFT_DASHBOARD_URL)
+    cy.login("temp_test", "testertester", "https://preview_epo-7941-dot-rubin-obs-api-dot-skyviewer.uw.r.appspot.com/")
   });
 
   it("should navigate to navbar links 1x1", () => {
