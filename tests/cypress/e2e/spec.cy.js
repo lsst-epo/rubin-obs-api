@@ -1,4 +1,6 @@
 require('dotenv').config();
+console.log("Logging process.env globally:");
+console.log(process.env);
 
 Cypress.Commands.add('login', (username, password, loginUrl) => {
   cy.visit(loginUrl)
@@ -10,8 +12,10 @@ Cypress.Commands.add('login', (username, password, loginUrl) => {
 
 describe("Testing Craft Dashboard", () => {
   beforeEach(() => {
-    console.log("Logging process.env:");
+    require('dotenv').config();
+    console.log("Logging process.env within beforeEach():");
     console.log(process.env);
+
     cy.login(process.env.TEST_USERNAME, process.env.TEST_PASSWORD, process.env.CRAFT_DASHBOARD_URL)
   });
 
