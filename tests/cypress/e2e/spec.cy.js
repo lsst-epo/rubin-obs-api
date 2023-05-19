@@ -1,7 +1,7 @@
 require('dotenv').config();
 
-Cypress.Commands.add('login', (username, password) => {
-  cy.visit('http://localhost:8080/admin/login')
+Cypress.Commands.add('login', (username, password, loginUrl) => {
+  cy.visit(loginUrl)
   cy.get('#loginName').type(username)
   cy.get('#password').type(password)
   cy.get('#submit').click()
@@ -10,7 +10,7 @@ Cypress.Commands.add('login', (username, password) => {
 
 describe("Testing Craft Dashboard", () => {
   beforeEach(() => {
-    cy.login(process.env.TEST_USERNAME, process.env.TEST_PASSWORD)
+    cy.login(process.env.TEST_USERNAME, process.env.TEST_PASSWORD, process.env.CRAFT_DASHBOARD_URL)
   });
 
   it("should navigate to navbar links 1x1", () => {
