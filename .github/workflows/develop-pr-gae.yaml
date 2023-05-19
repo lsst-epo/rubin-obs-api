@@ -94,7 +94,7 @@ jobs:
       uses: cypress-io/github-action@v5
       with:
         spec: tests/cypress/e2e/spec.cy.js
-        config-file: tests/cypress.config.js
+        config-file: cypress.config.js
         working-directory: tests
 
 
