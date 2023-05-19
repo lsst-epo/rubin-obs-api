@@ -16,7 +16,7 @@ describe("Testing Craft Dashboard", () => {
     console.log("Logging process.env within beforeEach():");
     console.log(process.env);
 
-    cy.login("temp_test", "testertester", "https://preview_epo-7941-dot-rubin-obs-api-dot-skyviewer.uw.r.appspot.com/")
+    cy.login("temp_test", "testertester", "https://preview_epo-7941-dot-rubin-obs-api-dot-skyviewer.uw.r.appspot.com/admin/login")
   });
 
   it("should navigate to navbar links 1x1", () => {
