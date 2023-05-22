@@ -1,4 +1,4 @@
-dateModified: 1683156627
+dateModified: 1684780017
 email:
   fromEmail: $EMAIL_FROM_ADDRESS
   fromName: $EMAIL_SENDER_NAME
@@ -161,7 +161,7 @@ meta:
     9c34fc8b-8bc3-4f8a-bbc8-ea58a018719a: 'Custom Breadcrumb Sets' # Custom Breadcrumb Sets
     9d045432-a0fb-4fcd-8bca-3bc93b1f7056: 'Educator Pages' # Educator Pages
     9f05163b-ea00-46ad-bed5-b3c6b5e5a365: Game # Game
-    10e8304e-93be-4c77-b1e9-7d9058c4aa92: 'Is Active' # Is Active
+    10e8304e-93be-4c77-b1e9-7d9058c4aa92: Status # Status
     11be7603-f576-4af8-93a6-e285e4ff42c4: News # News
     13dd7a03-2223-4831-87bc-a9c717c71bb0: Slide # Slide
     15ca4b7f-3874-4461-aae9-869c9cdf076b: 'Redirect Page' # Redirect Page
