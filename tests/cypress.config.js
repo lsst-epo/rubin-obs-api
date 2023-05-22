@@ -6,4 +6,9 @@ module.exports = defineConfig({
       // implement node event listeners here
     },
   },
+  env: {
+    TEST_USERNAME: process.env.TEST_USERNAME,
+    TEST_PASSWORD: process.env.TEST_PASSWORD,
+    CRAFT_DASHBOARD_URL: process.env.CRAFT_DASHBOARD_URL
+  }
 });

@@ -20,7 +20,7 @@ describe("Testing Craft Dashboard", () => {
     console.log("Logging process.env within beforeEach():");
     console.log(process.env);
 
-    cy.login(process.env.TEST_USERNAME, process.env.TEST_PASSWORD, process.env.CRAFT_DASHBOARD_URL)
+    cy.login(Cypress.env("TEST_USERNAME"), Cypress.env("TEST_PASSWORD"), Cypress.env("CRAFT_DASHBOARD_URL"))
   });
 
   it("should navigate to navbar links 1x1", () => {
