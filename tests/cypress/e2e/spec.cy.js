@@ -12,7 +12,11 @@ Cypress.Commands.add('login', (username, password, loginUrl) => {
 
 describe("Testing Craft Dashboard", () => {
   beforeEach(() => {
-    require('dotenv').config();
+    require('dotenv').config({ path: './.env' });
+    Cypress.log({
+      name: "test",
+      message: "hello hello!"
+    });
     console.log("Logging process.env within beforeEach():");
     console.log(process.env);
 
