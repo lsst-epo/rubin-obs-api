@@ -1,0 +1,40 @@
+childBlocks: null
+conditions: null
+description: ''
+enabled: true
+field: 72e5075a-9b06-4674-b040-615f4a6f7b70 # Content Blocks - Pages
+fieldLayouts:
+  9f574263-31b0-4a30-9876-215fadf35208:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 8ea5a0da-b111-4714-a1c6-2af9cf0a7070 # Summit Status Layout
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 34b252de-466b-424b-adbf-394f1c0d1280
+            userCondition: null
+            warning: null
+            width: 100
+        name: Config
+        uid: 8b1f6d83-f795-4c03-ac91-d3c01e2224af
+        userCondition: null
+group: null
+groupChildBlockTypes: true
+handle: summitStatus
+icon: null
+ignorePermissions: true
+maxBlocks: 0
+maxChildBlocks: 0
+maxSiblingBlocks: 0
+minBlocks: 0
+minChildBlocks: 0
+minSiblingBlocks: 0
+name: 'Summit Status'
+sortOrder: 30
+topLevel: true

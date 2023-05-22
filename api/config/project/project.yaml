@@ -1,4 +1,4 @@
-dateModified: 1684780017
+dateModified: 1685466800
 email:
   fromEmail: $EMAIL_FROM_ADDRESS
   fromName: $EMAIL_SENDER_NAME
@@ -151,6 +151,7 @@ meta:
     8bfcc6b7-ec2f-4759-bce9-c62bc12aecd4: 'Representative Asset Variant' # Representative Asset Variant
     8ccd6c1c-8e9b-44e8-93a9-f62589fb4819: 'Site Information' # Site Information
     8e9ec71e-2cf0-4f6a-b856-8976de0ce100: Heroes # Heroes
+    8ea5a0da-b111-4714-a1c6-2af9cf0a7070: 'Summit Status Layout' # Summit Status Layout
     8fff3c50-28ba-4af7-8166-e3d82a23ae26: Title # Title
     9a5411c3-bbd7-4f75-a62a-498711e141e4: 'External Link' # External Link
     9ad13bcd-637a-4757-9968-cdcc02cfd478: 'Table Row' # Table Row
@@ -220,6 +221,7 @@ meta:
     753b10b6-e9e6-44f5-a9d9-4a07788733e1: 'Content Ratio' # Content Ratio
     824d9ca2-e755-4e41-8f6a-18e573fec8e4: 'News Posts' # News Posts
     831db889-442e-4553-9076-fc3bc2843c8c: 'Hide title' # Hide title
+    832b4964-87a5-45f0-940d-9f01b6bae4fe: 'Summit Status' # Summit Status
     922a7383-2cc6-4a2a-b347-3a41389d7119: 'Preferred Language' # Preferred Language
     0928ff1a-513d-41e0-acc1-606d93988618: 'Search Filters' # Search Filters
     942c9e60-2760-42ed-b03b-9e5eb133751b: Callout # Callout
