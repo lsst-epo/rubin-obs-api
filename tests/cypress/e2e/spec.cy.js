@@ -23,42 +23,42 @@ describe("Testing Craft Dashboard", () => {
       cy.get("#primary-nav-toggle").should("be.visible").click();
       cy.get("#nav-entries a").click();
       cy.url().should("include", "entries");
-      cy.go("back");
+      cy.go("back").end();
 
       cy.get("#primary-nav-toggle").should("be.visible").click();
       cy.get("#nav-globals a").click();
       cy.url().should("include", "globals");
-      cy.go("back");
+      cy.go("back").end();
 
       cy.get("#primary-nav-toggle").should("be.visible").click();
       cy.get("#nav-categories a").click();
       cy.url().should("include", "categories");
-      cy.go("back");
+      cy.go("back").end();
 
       cy.get("#primary-nav-toggle").should("be.visible").click();
       cy.get("#nav-assets a").click();
       cy.url().should("include", "assets");
-      cy.go("back");
+      cy.go("back").end();
 
       cy.get("#primary-nav-toggle").should("be.visible").click();
       cy.get("#nav-users a").click();
       cy.url().should("include", "user");
-      cy.go("back");
+      cy.go("back").end();
 
       cy.get("#primary-nav-toggle").should("be.visible").click();
       cy.get("#nav-graphql a").click();
       cy.url().should("include", "graphql");
-      cy.go("back");
+      cy.go("back").end();
 
       cy.get("#primary-nav-toggle").should("be.visible").click();
       cy.get("#nav-utilities a").click();
       cy.url().should("include", "utilities");
-      cy.go("back");
+      cy.go("back").end();
 
       cy.get("#primary-nav-toggle").should("be.visible").click();
       cy.get("#nav-settings a").click();
       cy.url().should("include", "settings");
-      cy.go("back");
+      cy.go("back").end();
   });
 
   it("should create user", () => {
@@ -75,7 +75,7 @@ describe("Testing Craft Dashboard", () => {
     cy.get("#email").type(`fake-${guid}@email.adr`);
 
     cy.get("#action-buttons .formsubmit").click();
-    cy.url().should("include", "/users/all");
+    cy.url().should("include", "/users/all").end();
   });
   
 });
