@@ -1,6 +1,6 @@
-require('dotenv').config({ path: './.env' });
-console.log("Logging process.env globally:");
-console.log(process.env);
+// require('dotenv').config({ path: './.env' });
+// console.log("Logging process.env globally:");
+// console.log(process.env);
 
 Cypress.Commands.add('login', (username, password, loginUrl) => {
   cy.visit(loginUrl)
@@ -12,7 +12,7 @@ Cypress.Commands.add('login', (username, password, loginUrl) => {
 
 describe("Testing Craft Dashboard", () => {
   beforeEach(() => {
-    require('dotenv').config({ path: './.env' });
+    // require('dotenv').config({ path: './.env' });
     Cypress.log({
       name: "test",
       message: "hello hello!"
