@@ -1,4 +1,4 @@
-require('dotenv').config();
+require('dotenv').config({ path: './.env' });
 console.log("Logging process.env globally:");
 console.log(process.env);
 
@@ -16,7 +16,7 @@ describe("Testing Craft Dashboard", () => {
     console.log("Logging process.env within beforeEach():");
     console.log(process.env);
 
-    cy.login("temp_test", "testertester", "http://preview_epo-7941-dot-rubin-obs-api-dot-skyviewer.uw.r.appspot.com/admin/login")
+    cy.login(process.env.TEST_USERNAME, process.env.TEST_PASSWORD, process.env.CRAFT_DASHBOARD_URL)
   });
 
   it("should navigate to navbar links 1x1", () => {
