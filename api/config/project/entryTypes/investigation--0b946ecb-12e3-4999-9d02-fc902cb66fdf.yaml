@@ -27,7 +27,7 @@ fieldLayouts:
             warning: null
             width: 75
           -
-            fieldUid: 10e8304e-93be-4c77-b1e9-7d9058c4aa92 # Is Active
+            fieldUid: 10e8304e-93be-4c77-b1e9-7d9058c4aa92 # Status
             instructions: null
             label: null
             required: false

@@ -1,0 +1,45 @@
+columnSuffix: vcdswklf
+contentColumnType: string
+fieldGroup: 3eefd793-f1fb-4692-ba0e-ff68f354543b # Investigations
+handle: investigationStatus
+instructions: 'Determines whether content links to this content should be disabled and what visual styles to apply'
+name: Status
+searchable: false
+settings:
+  options:
+    -
+      __assoc__:
+        -
+          - label
+          - Inactive
+        -
+          - value
+          - inactive
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - 'Early Access'
+        -
+          - value
+          - earlyAccess
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - Active
+        -
+          - value
+          - active
+        -
+          - default
+          - '1'
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\RadioButtons
