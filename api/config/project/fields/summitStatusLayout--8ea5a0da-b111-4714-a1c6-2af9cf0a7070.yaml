@@ -1,0 +1,34 @@
+columnSuffix: uhgmnnxi
+contentColumnType: string
+fieldGroup: 99f4a28a-48c3-49ca-bb4a-7acbb49fde30 # Pages
+handle: summitStatusLayout
+instructions: null
+name: 'Summit Status Layout'
+searchable: false
+settings:
+  options:
+    -
+      __assoc__:
+        -
+          - label
+          - Compact
+        -
+          - value
+          - compact
+        -
+          - default
+          - '1'
+    -
+      __assoc__:
+        -
+          - label
+          - Full
+        -
+          - value
+          - full
+        -
+          - default
+          - ''
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\RadioButtons
