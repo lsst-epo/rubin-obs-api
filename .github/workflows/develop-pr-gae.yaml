@@ -90,12 +90,15 @@ jobs:
     #     TEST_PASSWORD: testertester
     #   run: cd tests && npx cypress run --spec "./cypress/e2e/spec.cy.js"
 
+    - name: Create .env file
+      run: cd tests && echo "TEST_USERNAME=testy_mctesterson" >> .env && echo "TEST_PASSWORD=testtest123" >> .env && echo "CRAFT_DASHBOARD_URL=https://${{ github.head_ref }}-dot-rubin-obs-api-dot-skyviewer.uw.r.appspot.com/admin/login" >> .env && cat .env
+
     - name: Cypress run
       uses: cypress-io/github-action@v5
-      env:
-        CRAFT_DASHBOARD_URL: http://${{ github.head_ref }}-dot-rubin-obs-api-dot-skyviewer.uw.r.appspot.com/admin/login
-        TEST_USERNAME: temp_test
-        TEST_PASSWORD: testertester
+      # env:
+        # CRAFT_DASHBOARD_URL: http://${{ github.head_ref }}-dot-rubin-obs-api-dot-skyviewer.uw.r.appspot.com/admin/login
+        # TEST_USERNAME: temp_test
+        # TEST_PASSWORD: testertester
       with:
         spec: cypress/e2e/spec.cy.js
         config-file: cypress.config.js
