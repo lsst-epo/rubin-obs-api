@@ -2,14 +2,13 @@ columnSuffix: null
 contentColumnType: string(255)
 fieldGroup: 99f4a28a-48c3-49ca-bb4a-7acbb49fde30 # Pages
 handle: externalUrl
-instructions: ''
+instructions: null
 name: 'External URL'
 searchable: true
 settings:
-  maxLength: '255'
-  placeholder: ''
+  maxLength: 255
   types:
     - url
 translationKeyFormat: null
-translationMethod: none
+translationMethod: site
 type: craft\fields\Url
