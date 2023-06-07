@@ -1,44 +1,64 @@
 childBlocks: null
+conditions: null
+description: ''
+enabled: true
 field: 72e5075a-9b06-4674-b040-615f4a6f7b70 # Content Blocks - Pages
 fieldLayouts:
   7ea8d42a-0d28-422c-ada3-fdafdfe9ce8c:
     tabs:
       -
+        elementCondition: null
         elements:
           -
+            elementCondition: null
             fieldUid: fb052686-4537-4fe5-9ce2-ff3fd4a341a2 # Content Image
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: a59bf8ea-2084-48f0-8357-5faacc3d5ad4
+            userCondition: null
             warning: null
             width: 100
           -
+            elementCondition: null
             fieldUid: 10118ebf-e3bf-4b1b-bbb8-4b57ab3753c8 # Caption
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: 760f62c7-ede6-4816-aca4-87b2710f62e4
+            userCondition: null
             warning: null
             width: 100
           -
+            elementCondition: null
             fieldUid: dc44e79d-b126-413d-bc02-0776d6ace2d1 # Float Direction
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: fcba0a8c-8d3d-48e7-a909-373c1a5b5591
+            userCondition: null
             warning: null
             width: 100
         name: 'Tab 1'
-        sortOrder: 1
+        uid: 33f24b42-817c-4588-979c-20ebfe22bbe5
+        userCondition: null
 group: null
+groupChildBlockTypes: true
 handle: image
+icon: null
+ignorePermissions: true
 maxBlocks: 0
 maxChildBlocks: 0
 maxSiblingBlocks: 0
+minBlocks: 0
+minChildBlocks: 0
+minSiblingBlocks: 0
 name: Image
 sortOrder: 2
 topLevel: true

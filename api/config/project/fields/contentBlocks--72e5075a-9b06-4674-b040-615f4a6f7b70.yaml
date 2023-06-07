@@ -2,17 +2,18 @@ columnSuffix: null
 contentColumnType: string
 fieldGroup: 99f4a28a-48c3-49ca-bb4a-7acbb49fde30 # Pages
 handle: contentBlocks
-instructions: ''
+instructions: null
 name: 'Content Blocks - Pages'
 searchable: true
 settings:
-  maxBlocks: ''
-  maxLevels: ''
-  maxTopBlocks: ''
-  minBlocks: ''
+  maxBlocks: null
+  maxLevels: null
+  maxTopBlocks: null
+  minBlocks: null
+  minLevels: null
+  minTopBlocks: null
   propagationKeyFormat: null
   propagationMethod: all
-  wasModified: false
 translationKeyFormat: null
 translationMethod: site
 type: benf\neo\Field

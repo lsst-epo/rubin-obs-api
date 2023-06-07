@@ -2,17 +2,18 @@ columnSuffix: null
 contentColumnType: string
 fieldGroup: 824d9ca2-e755-4e41-8f6a-18e573fec8e4 # News Posts
 handle: contentBlocksNews
-instructions: ''
+instructions: null
 name: 'Content Blocks - News'
 searchable: true
 settings:
-  maxBlocks: ''
-  maxLevels: ''
-  maxTopBlocks: ''
-  minBlocks: ''
+  maxBlocks: null
+  maxLevels: null
+  maxTopBlocks: null
+  minBlocks: null
+  minLevels: null
+  minTopBlocks: null
   propagationKeyFormat: null
   propagationMethod: all
-  wasModified: false
 translationKeyFormat: null
 translationMethod: site
 type: benf\neo\Field

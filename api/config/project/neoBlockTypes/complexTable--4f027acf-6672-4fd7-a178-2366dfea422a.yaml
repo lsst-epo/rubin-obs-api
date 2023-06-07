@@ -1,53 +1,76 @@
 childBlocks: null
+conditions: null
+description: ''
+enabled: true
 field: 72e5075a-9b06-4674-b040-615f4a6f7b70 # Content Blocks - Pages
 fieldLayouts:
   c102e484-6dbd-4935-a91b-9673b3f53d97:
     tabs:
       -
+        elementCondition: null
         elements:
           -
+            elementCondition: null
             fieldUid: 7970cd65-7a96-418a-8581-d6df4e039e6d # Plain Text
-            instructions: ''
+            instructions: null
             label: 'Table Title'
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: 9f3311b9-0e39-45fb-8157-d1283ab156bd
+            userCondition: null
             warning: null
             width: 50
           -
+            elementCondition: null
             fieldUid: 1c0e3777-36ee-449d-948e-01f6fbde3ee6 # Sites
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: bc483c65-3708-49a1-8b2b-51e77bcd2003
+            userCondition: null
             warning: null
             width: 50
           -
+            elementCondition: null
             fieldUid: 635a4a93-f10b-4d3c-bd44-2ea1474ad4cb # Vertical Alignment
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: 8854f176-311d-4d07-a809-29d443734190
+            userCondition: null
             warning: null
             width: 50
           -
+            elementCondition: null
             fieldUid: f0603433-ef74-4883-8aec-03e31f8dc34e # Complex Table
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: 5c6edc34-6311-4ef2-a6af-21dbc5a41a3a
+            userCondition: null
             warning: null
             width: 100
         name: Content
-        sortOrder: 1
+        uid: 3a85c741-af27-4962-a304-3bc64bca1c13
+        userCondition: null
 group: null
+groupChildBlockTypes: true
 handle: complexTable
+icon: null
+ignorePermissions: true
 maxBlocks: 0
 maxChildBlocks: 0
 maxSiblingBlocks: 0
+minBlocks: 0
+minChildBlocks: 0
+minSiblingBlocks: 0
 name: 'Complex Table'
 sortOrder: 26
 topLevel: true
