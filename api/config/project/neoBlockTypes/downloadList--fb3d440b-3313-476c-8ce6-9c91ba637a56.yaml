@@ -1,26 +1,40 @@
 childBlocks: null
+conditions: null
+description: ''
+enabled: true
 field: 72e5075a-9b06-4674-b040-615f4a6f7b70 # Content Blocks - Pages
 fieldLayouts:
   a3ad26d8-31e3-47be-8a53-30b10466c167:
     tabs:
       -
+        elementCondition: null
         elements:
           -
+            elementCondition: null
             fieldUid: af3e9835-4926-4399-bda9-7f6882cdce5e # Assets List
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: bccc5a81-9c0e-4c7c-a572-213c6d991dfb
+            userCondition: null
             warning: null
             width: 100
         name: Content
-        sortOrder: 1
+        uid: 75fc6832-b42f-48e7-ae26-c4afb38ca265
+        userCondition: null
 group: null
+groupChildBlockTypes: true
 handle: downloadList
+icon: null
+ignorePermissions: true
 maxBlocks: 0
 maxChildBlocks: 0
 maxSiblingBlocks: 0
+minBlocks: 0
+minChildBlocks: 0
+minSiblingBlocks: 0
 name: 'Download List'
 sortOrder: 24
 topLevel: true

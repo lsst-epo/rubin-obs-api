@@ -1,44 +1,64 @@
 childBlocks: null
+conditions: null
+description: ''
+enabled: true
 field: 72e5075a-9b06-4674-b040-615f4a6f7b70 # Content Blocks - Pages
 fieldLayouts:
   15b4e9f5-024c-42b7-91cd-a365142923aa:
     tabs:
       -
+        elementCondition: null
         elements:
           -
+            elementCondition: null
             fieldUid: 83885be8-333d-42b1-964f-fd89666907ff # Embed Title
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: 4241793a-3d7f-4841-ba74-b37d306ca3ca
+            userCondition: null
             warning: null
             width: 100
           -
+            elementCondition: null
             fieldUid: ef5793ab-b4f7-45c7-be68-338184b3d385 # Full Width
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: 447fc355-486d-4ff1-a2e8-e838d39fa048
+            userCondition: null
             warning: null
             width: 100
           -
+            elementCondition: null
             fieldUid: 9c6d529b-4199-4be2-8284-fafc8063250c # Embed url
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: 2b81d882-85b1-4e29-919e-0b258dd19f91
+            userCondition: null
             warning: null
             width: 100
         name: Options
-        sortOrder: 1
+        uid: b3b9db32-2bf1-4a8d-9cd7-3cfd811742d4
+        userCondition: null
 group: null
+groupChildBlockTypes: true
 handle: iframe
+icon: null
+ignorePermissions: true
 maxBlocks: 0
 maxChildBlocks: 0
 maxSiblingBlocks: 0
+minBlocks: 0
+minChildBlocks: 0
+minSiblingBlocks: 0
 name: iFrame
 sortOrder: 28
 topLevel: true

@@ -1,0 +1,14 @@
+columnSuffix: sbwcself
+contentColumnType: string(255)
+fieldGroup: 99f4a28a-48c3-49ca-bb4a-7acbb49fde30 # Pages
+handle: externalUrlTranslatable
+instructions: null
+name: 'External Url (Translatable)'
+searchable: false
+settings:
+  maxLength: 255
+  types:
+    - url
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Url

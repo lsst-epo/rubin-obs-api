@@ -2,6 +2,7 @@ fieldLayouts:
   a71ccdf1-e22b-4223-a3d9-c5cffb283ff2:
     tabs:
       -
+        elementCondition: null
         elements:
           -
             autocapitalize: true
@@ -9,6 +10,7 @@ fieldLayouts:
             autocorrect: true
             class: null
             disabled: false
+            elementCondition: null
             id: null
             instructions: null
             label: null
@@ -24,64 +26,85 @@ fieldLayouts:
             tip: null
             title: null
             type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 4b460436-051d-4e6a-8aed-02e33b872696
+            userCondition: null
             warning: null
             width: 75
           -
+            elementCondition: null
             fieldUid: 10e8304e-93be-4c77-b1e9-7d9058c4aa92 # Status
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: 4d8f9f9e-adef-45a7-8901-aff581f989cc
+            userCondition: null
             warning: null
             width: 25
           -
-            fieldUid: a71f443d-14a3-402b-90ba-524dcce806d2 # External URL
+            elementCondition: null
+            fieldUid: 1ba9911b-93b6-43f2-b9be-ba99c3461865 # External Url (Translatable)
             instructions: null
-            label: null
+            label: 'External URL'
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: be01aa24-67a0-47fd-90c4-1a680dbc1f42
+            userCondition: null
             warning: null
             width: 75
           -
+            elementCondition: null
             fieldUid: a8fbf209-7591-40fa-88d4-b5944f4d27d8 # Landing Page
-            instructions: ''
+            instructions: null
             label: 'Internal Landing Page'
-            required: ''
+            required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: e465c446-fe3f-4676-84bf-56d444b333f8
+            userCondition: null
             warning: null
             width: 25
           -
+            elementCondition: null
             fieldUid: 644c6b87-ac0c-4cdf-88be-744a5ee684bb # Description
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: bdd17a93-3fd9-48a2-8969-0b2d2303a486
+            userCondition: null
             warning: null
             width: 75
           -
+            elementCondition: null
             fieldUid: 7970cd65-7a96-418a-8581-d6df4e039e6d # Plain Text
-            instructions: ''
+            instructions: null
             label: 'Approximate Duration'
-            required: ''
+            required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: c843bb38-f151-43e8-b974-31aa06a3199c
+            userCondition: null
             warning: null
             width: 25
           -
+            elementCondition: null
             fieldUid: 496e755e-78ab-4e3f-8c3a-9b320023b8ec # Image
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: 990498d5-4a5b-4fdc-834a-1604b6532ab5
+            userCondition: null
             warning: null
             width: 100
         name: Content
-        sortOrder: 1
+        uid: d1f0ac3e-ffd0-4036-9eb4-274aa9444daf
+        userCondition: null
 handle: investigation
 hasTitleField: true
 name: Investigation

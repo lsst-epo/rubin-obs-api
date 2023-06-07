@@ -1,4 +1,4 @@
-dateModified: 1685466800
+dateModified: 1686181076
 email:
   fromEmail: $EMAIL_FROM_ADDRESS
   fromName: $EMAIL_SENDER_NAME
@@ -99,6 +99,7 @@ meta:
     1a2ba41a-3949-4982-9cb3-f8b03863bcfd: 'Footer Content' # Footer Content
     1a35bfab-6a39-4c03-b273-2d5e3151c335: 'Rubin Telescope Education and Public Outreach' # Rubin Telescope Education and Public Outreach
     01b89d98-9aa4-46d5-a9a0-60a0c07fd815: Editors # Editors
+    1ba9911b-93b6-43f2-b9be-ba99c3461865: 'External Url (Translatable)' # External Url (Translatable)
     1c0e3777-36ee-449d-948e-01f6fbde3ee6: Sites # Sites
     1c065033-f41d-4566-9863-d34a4bf24836: 'Table Cell' # Table Cell
     1d7324d5-d322-4b06-9eb5-52a6c2f856f3: Location # Location
