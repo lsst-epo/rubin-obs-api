@@ -1,54 +1,77 @@
 childBlocks:
   - newsItem
+conditions: null
+description: ''
+enabled: true
 field: 72e5075a-9b06-4674-b040-615f4a6f7b70 # Content Blocks - Pages
 fieldLayouts:
   4b6d230e-1301-4912-919c-6c690036b3e6:
     tabs:
       -
+        elementCondition: null
         elements:
           -
+            elementCondition: null
             fieldUid: b0ce3829-20c1-44ef-a7c7-499800645afc # Header
-            instructions: ''
+            instructions: null
             label: Heading
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: 7112739c-dbbe-43cb-b259-d15f2b93080c
+            userCondition: null
             warning: null
             width: 100
           -
+            elementCondition: null
             fieldUid: d019727b-a6d5-43d9-a688-f10df985a87e # Link
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: 2159dd2e-a093-4f8b-a04a-9d9ba5daedf4
+            userCondition: null
             warning: null
             width: 100
           -
+            elementCondition: null
             fieldUid: 4404d713-d76b-4bb1-a9aa-bd88253b11d3 # Post Type
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: ce9077e7-a22f-4271-aa1b-91434a14af9c
+            userCondition: null
             warning: null
             width: 100
           -
+            elementCondition: null
             fieldUid: 660361f1-3ecb-4c5e-9274-76e54f1f291f # Number of items
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: 1d97cf0d-3088-4b99-b660-7d34d9c42a6e
+            userCondition: null
             warning: null
             width: 100
         name: Content
-        sortOrder: 1
+        uid: cc8aa6fe-b53b-4432-aaa8-751e15438d18
+        userCondition: null
 group: null
+groupChildBlockTypes: true
 handle: news
+icon: null
+ignorePermissions: true
 maxBlocks: 0
 maxChildBlocks: 0
 maxSiblingBlocks: 0
+minBlocks: 0
+minChildBlocks: 0
+minSiblingBlocks: 0
 name: News
 sortOrder: 15
 topLevel: true
