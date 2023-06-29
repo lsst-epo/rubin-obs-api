@@ -13,6 +13,7 @@
         "rynpsc/craft-phone-number": "^2.1.0",
         "sebastianlenz/linkfield": "^2.1.4",
         "spicyweb/craft-neo": "3.7.9",
+        "venveo/craft-bulkedit": "4.0.1",
         "verbb/super-table": "3.0.9",
         "vlucas/phpdotenv": "^3.4.0",
         "wrav/oembed": "^2.2.2"
