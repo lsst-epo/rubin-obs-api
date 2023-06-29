@@ -1,4 +1,4 @@
-dateModified: 1688059065
+dateModified: 1688073777
 email:
   fromEmail: $EMAIL_FROM_ADDRESS
   fromName: $EMAIL_SENDER_NAME
@@ -1722,7 +1722,7 @@ plugins:
       secretKey: $CANTO_SECRET_KEY
   venveo-bulk-edit:
     edition: standard
-    enabled: true
+    enabled: false
     schemaVersion: 4.0.0
 system:
   edition: pro
