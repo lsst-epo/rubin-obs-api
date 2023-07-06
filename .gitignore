@@ -10,3 +10,11 @@ google-app-credentials.json
 docker-compose-local-db.*
 api/auth.json
 .idea
+
+node_modules
+.env
+cypress.env.json
+cypress/videos/
+cypress/downloads/
+cypress/screenshots/
+yarn-error.log
