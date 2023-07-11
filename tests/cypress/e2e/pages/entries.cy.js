@@ -6,5 +6,15 @@ describe("Entries pages", () => {
   });
 
   // Visits Entry type landing page + first entry page in the list of entries: expects 200s from each request
-  checkPages("entries", ["callouts", "events", "galleryItems", "investigations", "jobs", "news", "slideshows", "staffProfiles", "pages"]);
+  checkPages("entries", [
+    "callouts",
+    "events",
+    "galleryItems",
+    "investigations",
+    "jobs",
+    "news",
+    "slideshows",
+    "staffProfiles",
+    "pages",
+  ]);
 });

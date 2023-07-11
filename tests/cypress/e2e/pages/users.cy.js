@@ -6,5 +6,11 @@ describe("User pages", () => {
   });
 
   // Visits each Users landing page + first user page in the list: expects 200s from each request
-  checkPages("users", ["admins", "credentialed", "editors", "educators", "students"])
+  checkPages("users", [
+    "admins",
+    "credentialed",
+    "editors",
+    "educators",
+    "students",
+  ]);
 });

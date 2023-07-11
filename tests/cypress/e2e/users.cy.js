@@ -7,7 +7,7 @@ describe("Users", () => {
   const email = `fake-${guid}@email.adr`;
 
   beforeEach(() => {
-    cy.login(Cypress.env("TEST_USERNAME"), Cypress.env("TEST_PASSWORD"), true)
+    cy.login(Cypress.env("TEST_USERNAME"), Cypress.env("TEST_PASSWORD"), true);
   });
 
   it("should create and then delete user", () => {
@@ -23,7 +23,9 @@ describe("Users", () => {
     cy.visit("/users/all?site=default&source=*&sort=dateCreated-desc");
 
     cy.get(`table[data-name="Users"]`).contains(guid);
-    cy.get(`table[data-name="Users"] > tbody > tr:first-child > td:first-child > .checkbox`).click();
+    cy.get(
+      `table[data-name="Users"] > tbody > tr:first-child > td:first-child > .checkbox`
+    ).click();
     cy.get("form > .btn").click();
     cy.get("#craft-elements-actions-DeleteUsers-actiontrigger").click();
     cy.get(`.deleteusermodal input[value="delete"]`).click();
