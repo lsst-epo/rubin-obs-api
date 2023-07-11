@@ -4,9 +4,22 @@
     "clean": "docker system prune -f && docker volume prune -f",
     "clean-images": "docker images prune -f",
     "test": "CYPRESS_BASE_URL=http://localhost:8080/admin cypress run --e2e --headless",
-    "cypress": "CYPRESS_BASE_URL=http://localhost:8080/admin cypress open"
+    "cypress": "CYPRESS_BASE_URL=http://localhost:8080/admin cypress open",
+    "lint": "prettier --check \"**/*.{js,jsx,ts,tsx}\" & eslint -c .eslintrc.js \"**/*.{js,jsx,ts,tsx}\"",
+    "fix": "prettier --write \"**/*.{js,jsx,ts,tsx}\" && eslint -c .eslintrc.js \"**/*.{js,jsx,ts,tsx}\" --fix"
   },
   "devDependencies": {
-    "cypress": "^12.10.0"
+    "cypress": "^12.10.0",
+    "eslint": "^8.26.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-cypress": "^2.13.3",
+    "eslint-plugin-n": "^16.0.1",
+    "eslint-plugin-promise": "^6.0.0",
+    "eslint-plugin-unused-imports": "^2.0.0",
+    "prettier": "^2.7.1"
+  },
+  "dependencies": {
+    "eslint-plugin-import": "^2.27.5"
   }
 }
