@@ -1,0 +1,5 @@
+node_modules
+api/vendor/*
+api/modules/*
+api/web/*
+api/config/*

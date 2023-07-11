@@ -6,5 +6,13 @@ describe("Category pages", () => {
   });
 
   // Visits each Category landing page + first category page in the list: expects 200s from each request
-  checkPages("categories", ["eventFilters", "galleryTypes", "jobTypes", "location", "newsFilters", "sortOptions", "staffFilters"]);
+  checkPages("categories", [
+    "eventFilters",
+    "galleryTypes",
+    "jobTypes",
+    "location",
+    "newsFilters",
+    "sortOptions",
+    "staffFilters",
+  ]);
 });
