@@ -60,6 +60,7 @@ scope:
   - 'categorygroups.0928ff1a-513d-41e0-acc1-606d93988618:read' # Search Filters
   - 'categorygroups.70ff59dd-8280-4bea-bef6-cfdf9ea4f0c2:read' # Sort Options
   - 'categorygroups.aa60fd40-45d4-48bb-8b81-8ec736456687:read' # Staff Filters
+  - 'categorygroups.df8cc931-900d-4a16-95d4-ec4d084e42f3:read'
   - 'taggroups.c30bad12-1372-49fe-ab6c-a9c33b2860bb:read' # Gallery Item Tags
   - 'taggroups.0d02fdfb-053c-4d46-a5f8-0abf2542a5d2:read' # News Tags
   - 'taggroups.5d162b5e-8723-4b74-a229-f8a52bd30b1c:read' # Staff Tags
