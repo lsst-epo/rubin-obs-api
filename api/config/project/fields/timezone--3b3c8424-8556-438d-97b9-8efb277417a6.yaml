@@ -1,0 +1,1383 @@
+columnSuffix: null
+contentColumnType: string
+fieldGroup: bb77d190-487e-45c5-a1d2-0208510a7d88 # Events
+handle: timezone
+instructions: null
+name: Timezone
+searchable: false
+settings:
+  options:
+    -
+      __assoc__:
+        -
+          - optgroup
+          - Africa
+    -
+      __assoc__:
+        -
+          - label
+          - Africa/Abidjan
+        -
+          - value
+          - Africa/Abidjan
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - Africa/Algiers
+        -
+          - value
+          - Africa/Algiers
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - Africa/Bissau
+        -
+          - value
+          - Africa/Bissau
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - Africa/Cairo
+        -
+          - value
+          - Africa/Cairo
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - Africa/Casablanca
+        -
+          - value
+          - Africa/Casablancaa
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - Africa/Johannesburg
+        -
+          - value
+          - Africa/Johannesburg
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - Africa/Khartoum
+        -
+          - value
+          - Africa/Khartoum
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - Africa/Lagos
+        -
+          - value
+          - Africa/Lagos
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - Africa/Maputo
+        -
+          - value
+          - Africa/Maputo
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - Africa/Monrovia
+        -
+          - value
+          - Africa/Monrovia
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - Africa/Nairobi
+        -
+          - value
+          - Africa/Nairobi
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - Africa/Tripoli
+        -
+          - value
+          - Africa/Tripoli
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - Africa/Tunis
+        -
+          - value
+          - Africa/Tunis
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - Africa/Windhoek
+        -
+          - value
+          - Africa/Windhoek
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - optgroup
+          - Americas
+    -
+      __assoc__:
+        -
+          - label
+          - America/Anchorage
+        -
+          - value
+          - America/Anchorage
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - America/Argentina/Buenos_Aires
+        -
+          - value
+          - America/Argentina/Buenos_Aires
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - America/Boise
+        -
+          - value
+          - America/Boise
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - America/Cancun
+        -
+          - value
+          - America/Cancun
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - America/Caracas
+        -
+          - value
+          - America/Caracas
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - America/Chicago
+        -
+          - value
+          - America/Chicago
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - America/Costa_Rica
+        -
+          - value
+          - America/Costa_Rica
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - America/Denver
+        -
+          - value
+          - America/Denver
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - America/Detroit
+        -
+          - value
+          - America/Detroit
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - America/El_Salvador
+        -
+          - value
+          - America/El_Salvador
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - America/Guatemala
+        -
+          - value
+          - America/Guatemala
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - America/Halifax
+        -
+          - value
+          - America/Halifax
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - America/Lima
+        -
+          - value
+          - America/Lima
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - America/Los_Angeles
+        -
+          - value
+          - America/Los_Angeles
+        -
+          - default
+          - '1'
+    -
+      __assoc__:
+        -
+          - label
+          - America/Mazatlan
+        -
+          - value
+          - America/Mazatlan
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - America/Mexico_City
+        -
+          - value
+          - America/Mexico_City
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - America/Monterrey
+        -
+          - value
+          - America/Monterrey
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - America/Montevideo
+        -
+          - value
+          - America/Montevideo
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - America/New_York
+        -
+          - value
+          - America/New_York
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - America/Panama
+        -
+          - value
+          - America/Panama
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - America/Phoenix
+        -
+          - value
+          - America/Phoenix
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - America/Puerto_Rico
+        -
+          - value
+          - America/Puerto_Rico
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - America/Regina
+        -
+          - value
+          - America/Regina
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - America/Santiago
+        -
+          - value
+          - America/Santiago
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - America/Santo_Domingo
+        -
+          - value
+          - America/Santo_Domingo
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - America/Sao_Paulo
+        -
+          - value
+          - America/Sao_Paulo
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - America/Tijuana
+        -
+          - value
+          - America/Tijuana
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - America/Toronto
+        -
+          - value
+          - America/Toronto
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - America/Vancouver
+        -
+          - value
+          - America/Vancouver
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - America/Winnipeg
+        -
+          - value
+          - America/Winnipeg
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - optgroup
+          - Asia
+    -
+      __assoc__:
+        -
+          - label
+          - Asia/Baghdad
+        -
+          - value
+          - Asia/Baghdad
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - Asia/Bangkok
+        -
+          - value
+          - Asia/Bangkok
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - Asia/Beirut
+        -
+          - value
+          - Asia/Beirut
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - Asia/Colombo
+        -
+          - value
+          - Asia/Colombo
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - Asia/Damascus
+        -
+          - value
+          - Asia/Damascus
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - Asia/Dubai
+        -
+          - value
+          - Asia/Dubai
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - Asia/Gaza
+        -
+          - value
+          - Asia/Gaza
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - Asia/Hong_Kong
+        -
+          - value
+          - Asia/Hong_Kong
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - Asia/Hovd
+        -
+          - value
+          - Asia/Hovd
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - Asia/Irkutsk
+        -
+          - value
+          - Asia/Irkutsk
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - Asia/Jakarta
+        -
+          - value
+          - Asia/Jakarta
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - Asia/Jayapura
+        -
+          - value
+          - Asia/Jayapura
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - Asia/Jerusalem
+        -
+          - value
+          - Asia/Jerusalem
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - Asia/Kabul
+        -
+          - value
+          - Asia/Kabul
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - Asia/Kamchatka
+        -
+          - value
+          - Asia/Kamchatka
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - Asia/Karachi
+        -
+          - value
+          - Asia/Karachi
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - Asia/Kathmandu
+        -
+          - value
+          - Asia/Kathmandu
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - Asia/Khandyga
+        -
+          - value
+          - Asia/Khandyga
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - Asia/Manila
+        -
+          - value
+          - Asia/Manila
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - Asia/Qatar
+        -
+          - value
+          - Asia/Qatar
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - Asia/Seoul
+        -
+          - value
+          - Asia/Seoul
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - Asia/Shanghai
+        -
+          - value
+          - Asia/Shanghai
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - Asia/Singapore
+        -
+          - value
+          - Asia/Singapore
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - Asia/Taipei
+        -
+          - value
+          - Asia/Taipei
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - Asia/Tehran
+        -
+          - value
+          - Asia/Tehran
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - Asia/Tokyo
+        -
+          - value
+          - Asia/Tokyo
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - Asia/Yakutsk
+        -
+          - value
+          - Asia/Yakutsk
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - optgroup
+          - Atlantic
+    -
+      __assoc__:
+        -
+          - label
+          - Atlantic/Bermuda
+        -
+          - value
+          - Atlantic/Bermuda
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - Atlantic/Canary
+        -
+          - value
+          - Atlantic/Canary
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - Atlantic/South_Georgia
+        -
+          - value
+          - Atlantic/South_Georgia
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - Atlantic/Madeira
+        -
+          - value
+          - Atlantic/Madeira
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - optgroup
+          - Australia
+    -
+      __assoc__:
+        -
+          - label
+          - Australia/Adelaide
+        -
+          - value
+          - Australia/Adelaide
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - Australia/Brisbane
+        -
+          - value
+          - Australia/Brisbane
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - Australia/Darwin
+        -
+          - value
+          - Australia/Darwin
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - Australia/Hobart
+        -
+          - value
+          - Australia/Hobart
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - Australia/Melbourne
+        -
+          - value
+          - Australia/Melbourne
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - Australia/Perth
+        -
+          - value
+          - Australia/Perth
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - Australia/Sydney
+        -
+          - value
+          - Australia/Sydney
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - optgroup
+          - Europe
+    -
+      __assoc__:
+        -
+          - label
+          - Europe/Athens
+        -
+          - value
+          - Europe/Athens
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - Europe/Belgrade
+        -
+          - value
+          - Europe/Belgrade
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - Europe/Berlin
+        -
+          - value
+          - Europe/Berlin
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - Europe/Brussels
+        -
+          - value
+          - Europe/Brussels
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - Europe/Bucharest
+        -
+          - value
+          - Europe/Bucharest
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - Europe/Budapest
+        -
+          - value
+          - Europe/Budapest
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - Europe/Dublin
+        -
+          - value
+          - Europe/Dublin
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - Europe/Gibraltar
+        -
+          - value
+          - Europe/Gibraltar
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - Europe/Helsinki
+        -
+          - value
+          - Europe/Helsinki
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - Europe/Istanbul
+        -
+          - value
+          - Europe/Istanbul
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - Europe/Kaliningrad
+        -
+          - value
+          - Europe/Kaliningrad
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - Europe/Kirov
+        -
+          - value
+          - Europe/Kirov
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - Europe/Kyiv
+        -
+          - value
+          - Europe/Kyiv
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - Europe/Lisbon
+        -
+          - value
+          - Europe/Lisbon
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - Europe/London
+        -
+          - value
+          - Europe/London
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - Europe/Madrid
+        -
+          - value
+          - Europe/Madrid
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - Europe/Malta
+        -
+          - value
+          - Europe/Malta
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - Europe/Minsk
+        -
+          - value
+          - Europe/Minsk
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - Europe/Moscow
+        -
+          - value
+          - Europe/Moscow
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - Europe/Paris
+        -
+          - value
+          - Europe/Paris
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - Europe/Prague
+        -
+          - value
+          - Europe/Prague
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - Europe/Rome
+        -
+          - value
+          - Europe/Rome
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - Europe/Tirane
+        -
+          - value
+          - Europe/Tirane
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - Europe/Vienna
+        -
+          - value
+          - Europe/Vienna
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - Europe/Warsaw
+        -
+          - value
+          - Europe/Warsaw
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - Europe/Zurich
+        -
+          - value
+          - Europe/Zurich
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - optgroup
+          - Indian
+    -
+      __assoc__:
+        -
+          - label
+          - Indian/Chagos
+        -
+          - value
+          - Indian/Chagos
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - Indian/Maldives
+        -
+          - value
+          - Indian/Maldives
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - Indian/Mauritius
+        -
+          - value
+          - Indian/Mauritius
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - optgroup
+          - Pacific
+    -
+      __assoc__:
+        -
+          - label
+          - Pacific/Apia
+        -
+          - value
+          - Pacific/Apia
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - Pacific/Auckland
+        -
+          - value
+          - Pacific/Auckland
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - Pacific/Easter
+        -
+          - value
+          - Pacific/Easter
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - Pacific/Fiji
+        -
+          - value
+          - Pacific/Fiji
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - Pacific/Galapagos
+        -
+          - value
+          - Pacific/Galapagos
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - Pacific/Guam
+        -
+          - value
+          - Pacific/Guam
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - Pacific/Honolulu
+        -
+          - value
+          - Pacific/Honolulu
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - Pacific/Norfolk
+        -
+          - value
+          - Pacific/Norfolk
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - Pacific/Pago_Pago
+        -
+          - value
+          - Pacific/Pago_Pago
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - Pacific/Tahiti
+        -
+          - value
+          - Pacific/Tahiti
+        -
+          - default
+          - ''
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Dropdown

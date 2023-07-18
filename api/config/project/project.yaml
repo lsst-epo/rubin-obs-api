@@ -1,4 +1,4 @@
-dateModified: 1688076792
+dateModified: 1689719855
 email:
   fromEmail: $EMAIL_FROM_ADDRESS
   fromName: $EMAIL_SENDER_NAME
@@ -112,6 +112,7 @@ meta:
     2c121c9e-10e1-4a79-a17f-a6c7ef7965f3: 'Table Group' # Table Group
     3a3af2ab-b037-455a-ba95-bc3be89efdb0: 'Event Filters' # Event Filters
     3a8b9653-cdd3-46ce-84b2-d73b5dc4de63: Gallery # Gallery
+    3b3c8424-8556-438d-97b9-8efb277417a6: Timezone # Timezone
     003be281-0e3f-49e2-a932-359cebdf07f9: Link # Link
     3c9eb8f7-9f84-4c22-84d5-531be77aa6b6: 'Featured Image' # Featured Image
     03d7331c-b357-4eed-a6b0-3c5a403cae73: Publisher # Publisher
@@ -240,6 +241,7 @@ meta:
     4404d713-d76b-4bb1-a9aa-bd88253b11d3: 'Post Type' # Post Type
     4729ad5e-485e-4f98-995d-79fa5254cd42: 'News Post' # News Post
     5075e912-4aa1-4ce4-96b2-8868358b51e3: Header # Header
+    5205b271-dfd8-4938-84bb-61d9d6ab4889: 'End Time' # End Time
     5548b745-642b-4b15-8f17-4ce7457689a8: Header # Header
     6509f949-86bc-4542-ab9f-9593ae7153be: Accordion # Accordion
     6863d4cb-1c9e-4d09-867f-92b87dd7bd81: News # News
@@ -256,6 +258,7 @@ meta:
     22728b4f-f1bb-4399-8525-53e3163f0594: 'Slide Block' # Slide Block
     39558c70-8baf-4748-9f12-49e78a04eed5: Job # Job
     51414e74-22c3-4134-9ccb-34f524920c2c: 'Metadata Version' # Metadata Version
+    0059967d-f567-4066-a676-02f7c932b843: 'Start Time' # Start Time
     83885be8-333d-42b1-964f-fd89666907ff: 'Embed Title' # Embed Title
     84116f7d-7a26-41d7-bd7f-79761f9b50a9: 'Close Date' # Close Date
     87362cd0-662a-4068-9482-5ff62fe472c4: State/Province # State/Province
@@ -391,6 +394,7 @@ meta:
     fb3283a6-7286-4b2b-a77a-010783dcee7e: Slideshows # Slideshows
     fba2e6e2-54d4-47e5-94de-b140c01cbed6: LinkedIn # LinkedIn
     fbebfdbb-a4ca-48dd-8627-37fc2ffff0a3: 'Usage Terms' # Usage Terms
+    fcfd6cca-d4db-49ea-a864-b6582b85fbcf: 'End Date' # End Date
     fea30fc7-fc92-4268-961f-d514c1b903b8: 'Supporters'' Logos Alt' # Supporters' Logos Alt
 plugins:
   asset-metadata:

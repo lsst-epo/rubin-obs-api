@@ -1,0 +1,14 @@
+columnSuffix: pnenzdoq
+contentColumnType: time
+fieldGroup: bb77d190-487e-45c5-a1d2-0208510a7d88 # Events
+handle: eventEndTime
+instructions: null
+name: 'End Time'
+searchable: false
+settings:
+  max: null
+  min: null
+  minuteIncrement: 30
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Time

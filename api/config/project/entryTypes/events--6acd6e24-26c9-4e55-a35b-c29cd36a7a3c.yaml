@@ -92,6 +92,11 @@ fieldLayouts:
             width: 25
           -
             elementCondition: null
+            type: craft\fieldlayoutelements\HorizontalRule
+            uid: 9fcbaae8-d0b1-437d-8a60-612c9e75782c
+            userCondition: null
+          -
+            elementCondition: null
             fieldUid: ddb3efd5-1bce-43e1-9fb9-399ada8a8126 # Registration Open Date
             instructions: null
             label: null
@@ -116,16 +121,33 @@ fieldLayouts:
             width: 50
           -
             elementCondition: null
-            fieldUid: 960543c0-3ba6-466b-aa9e-9182279dd49a # Start Date
-            instructions: 'Optional for single day events'
-            label: 'Start Date'
+            type: craft\fieldlayoutelements\HorizontalRule
+            uid: 6933c05b-d44b-4c10-9d85-f98f6ca1e99d
+            userCondition: null
+          -
+            elementCondition: null
+            fieldUid: 3b3c8424-8556-438d-97b9-8efb277417a6 # Timezone
+            instructions: null
+            label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 21423944-151f-431f-9d35-a37e588a5c40
+            uid: 3a267e02-6aa9-4780-9738-f599ff725903
             userCondition: null
             warning: null
             width: 100
+          -
+            elementCondition: null
+            fieldUid: 960543c0-3ba6-466b-aa9e-9182279dd49a # Start Date
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: b497177b-be84-429f-bd99-18fee6d3cfd4
+            userCondition: null
+            warning: null
+            width: 25
           -
             elementCondition: null
             fieldUid: 75f0b770-5006-4359-848f-96415196bfe0 # Date
@@ -137,7 +159,41 @@ fieldLayouts:
             uid: 797e4618-c904-4fa1-945f-c4210c6f2d0a
             userCondition: null
             warning: null
-            width: 100
+            width: 25
+          -
+            elementCondition: null
+            type: craft\fieldlayoutelements\LineBreak
+            uid: d99ea8d2-fa82-4142-b4c2-13e554e70047
+            userCondition: null
+          -
+            elementCondition: null
+            fieldUid: 0059967d-f567-4066-a676-02f7c932b843 # Start Time
+            instructions: null
+            label: 'Start Time'
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: eb6831df-d422-42fa-9e56-56fab6a4b52b
+            userCondition: null
+            warning: null
+            width: 25
+          -
+            elementCondition: null
+            fieldUid: 5205b271-dfd8-4938-84bb-61d9d6ab4889 # End Time
+            instructions: null
+            label: 'End Time'
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 36b3f09a-3eab-4fe3-a759-cae0a2ac058e
+            userCondition: null
+            warning: null
+            width: 25
+          -
+            elementCondition: null
+            type: craft\fieldlayoutelements\HorizontalRule
+            uid: 5992917e-45e0-4fca-9d4b-6549727b234e
+            userCondition: null
           -
             elementCondition: null
             fieldUid: 72a74d52-7fcc-4c4e-8db1-1528c7ae5ee3 # Event Type
@@ -149,7 +205,7 @@ fieldLayouts:
             uid: 064ae806-e12e-4da9-acdd-64808646aae3
             userCondition: null
             warning: null
-            width: 25
+            width: 100
           -
             elementCondition: null
             fieldUid: cd801712-4ba3-4a9c-8fab-0d3e2a58b4eb # Description
