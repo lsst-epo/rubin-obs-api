@@ -1,4 +1,4 @@
-dateModified: 1689719855
+dateModified: 1691014771
 email:
   fromEmail: $EMAIL_FROM_ADDRESS
   fromName: $EMAIL_SENDER_NAME
@@ -291,6 +291,7 @@ meta:
     a71f443d-14a3-402b-90ba-524dcce806d2: 'External URL' # External URL
     a77c49d2-2441-459e-bfea-63e571d25a12: Slideshow # Slideshow
     a7447c0c-7c32-465a-b00b-36ee15bd028a: 'Pull Quote' # Pull Quote
+    a8908d20-3e88-452c-86ec-f98a0017bce2: 'Press Release ID' # Press Release ID
     a61323db-26ac-4898-873c-a6c6b66fcb86: Header # Header
     aa60fd40-45d4-48bb-8b81-8ec736456687: 'Staff Filters' # Staff Filters
     aa649fa7-795e-427b-bb5e-dbbf5668c3b1: Callout # Callout
@@ -431,10 +432,15 @@ plugins:
     licenseKey: 2O72FZR51K6PB2RMARXXAGU6
     schemaVersion: 1.3.0
     settings:
+      accountCooldown: 'Too many log in attempts; please try again shortly'
+      accountDeleted: 'Successfully deleted account'
+      accountLocked: 'Sorry, your account is currently locked'
       activationEmailSent: 'You will receive an email if it matches an account in our system'
+      allowMagicAuthentication: null
       allowRegistration: '1'
       allowedFacebookDomains: null
       allowedGoogleDomains: null
+      allowedMicrosoftDomains: null
       allowedTwitterDomains: null
       appleClientId: null
       appleClientSecret: null
@@ -567,10 +573,22 @@ plugins:
                   - emailSubscription
                   - queryMutate
                 -
+                  - embedTitle
+                  - queryMutate
+                -
+                  - embed
+                  - queryMutate
+                -
                   - endDate
                   - queryMutate
                 -
                   - endTime
+                  - queryMutate
+                -
+                  - eventEndTime
+                  - queryMutate
+                -
+                  - eventEntry
                   - queryMutate
                 -
                   - galleryEntry
@@ -597,6 +615,9 @@ plugins:
                   - externalUrl
                   - queryMutate
                 -
+                  - externalUrlTranslatable
+                  - queryMutate
+                -
                   - facebook
                   - queryMutate
                 -
@@ -612,10 +633,16 @@ plugins:
                   - focalPointY
                   - queryMutate
                 -
+                  - fullWidth
+                  - queryMutate
+                -
                   - galleryItemTags
                   - queryMutate
                 -
                   - galleryItemCategory
+                  - queryMutate
+                -
+                  - game
                   - queryMutate
                 -
                   - header
@@ -643,9 +670,6 @@ plugins:
                   - queryMutate
                 -
                   - investigation
-                  - queryMutate
-                -
-                  - isActive
                   - queryMutate
                 -
                   - jobPosition
@@ -714,6 +738,9 @@ plugins:
                   - preferredLanguage
                   - queryMutate
                 -
+                  - pressReleaseId
+                  - queryMutate
+                -
                   - publisher
                   - queryMutate
                 -
@@ -756,6 +783,9 @@ plugins:
                   - simpleTable
                   - queryMutate
                 -
+                  - sites
+                  - queryMutate
+                -
                   - slideshowItems
                   - queryMutate
                 -
@@ -765,16 +795,28 @@ plugins:
                   - staffTradingCard
                   - queryMutate
                 -
+                  - startDate
+                  - queryMutate
+                -
+                  - eventStartTime
+                  - queryMutate
+                -
                   - startTime
                   - queryMutate
                 -
                   - state
                   - queryMutate
                 -
+                  - investigationStatus
+                  - queryMutate
+                -
                   - subHeroText
                   - queryMutate
                 -
                   - subLocation
+                  - queryMutate
+                -
+                  - summitStatusLayout
                   - queryMutate
                 -
                   - supportersLogosAlt
@@ -790,6 +832,9 @@ plugins:
                   - queryMutate
                 -
                   - text
+                  - queryMutate
+                -
+                  - timezone
                   - queryMutate
                 -
                   - siteTitle
@@ -934,10 +979,22 @@ plugins:
                   - emailSubscription
                   - queryMutate
                 -
+                  - embedTitle
+                  - queryMutate
+                -
+                  - embed
+                  - queryMutate
+                -
                   - endDate
                   - queryMutate
                 -
                   - endTime
+                  - queryMutate
+                -
+                  - eventEndTime
+                  - queryMutate
+                -
+                  - eventEntry
                   - queryMutate
                 -
                   - galleryEntry
@@ -964,6 +1021,9 @@ plugins:
                   - externalUrl
                   - queryMutate
                 -
+                  - externalUrlTranslatable
+                  - queryMutate
+                -
                   - facebook
                   - queryMutate
                 -
@@ -979,10 +1039,16 @@ plugins:
                   - focalPointY
                   - queryMutate
                 -
+                  - fullWidth
+                  - queryMutate
+                -
                   - galleryItemTags
                   - queryMutate
                 -
                   - galleryItemCategory
+                  - queryMutate
+                -
+                  - game
                   - queryMutate
                 -
                   - header
@@ -1010,9 +1076,6 @@ plugins:
                   - queryMutate
                 -
                   - investigation
-                  - queryMutate
-                -
-                  - isActive
                   - queryMutate
                 -
                   - jobPosition
@@ -1081,6 +1144,9 @@ plugins:
                   - preferredLanguage
                   - queryMutate
                 -
+                  - pressReleaseId
+                  - queryMutate
+                -
                   - publisher
                   - queryMutate
                 -
@@ -1123,6 +1189,9 @@ plugins:
                   - simpleTable
                   - queryMutate
                 -
+                  - sites
+                  - queryMutate
+                -
                   - slideshowItems
                   - queryMutate
                 -
@@ -1132,16 +1201,28 @@ plugins:
                   - staffTradingCard
                   - queryMutate
                 -
+                  - startDate
+                  - queryMutate
+                -
+                  - eventStartTime
+                  - queryMutate
+                -
                   - startTime
                   - queryMutate
                 -
                   - state
                   - queryMutate
                 -
+                  - investigationStatus
+                  - queryMutate
+                -
                   - subHeroText
                   - queryMutate
                 -
                   - subLocation
+                  - queryMutate
+                -
+                  - summitStatusLayout
                   - queryMutate
                 -
                   - supportersLogosAlt
@@ -1157,6 +1238,415 @@ plugins:
                   - queryMutate
                 -
                   - text
+                  - queryMutate
+                -
+                  - timezone
+                  - queryMutate
+                -
+                  - siteTitle
+                  - queryMutate
+                -
+                  - twitter
+                  - queryMutate
+                -
+                  - staffType
+                  - queryMutate
+                -
+                  - usageTerms
+                  - queryMutate
+                -
+                  - usageTermsDefault
+                  - queryMutate
+                -
+                  - useExternalLink
+                  - queryMutate
+                -
+                  - verticalAlignment
+                  - queryMutate
+                -
+                  - width
+                  - queryMutate
+                -
+                  - youTube
+                  - queryMutate
+                -
+                  - metadata
+                  - queryMutate
+          -
+            - 'schema-Public Schema'
+            -
+              __assoc__:
+                -
+                  - address
+                  - queryMutate
+                -
+                  - altText
+                  - queryMutate
+                -
+                  - assetVariants
+                  - queryMutate
+                -
+                  - assetsList
+                  - queryMutate
+                -
+                  - attribution
+                  - queryMutate
+                -
+                  - backgroundColor
+                  - queryMutate
+                -
+                  - staffBio
+                  - queryMutate
+                -
+                  - bold
+                  - queryMutate
+                -
+                  - callout
+                  - queryMutate
+                -
+                  - caption
+                  - queryMutate
+                -
+                  - captionRichText
+                  - queryMutate
+                -
+                  - city
+                  - queryMutate
+                -
+                  - closeDate
+                  - queryMutate
+                -
+                  - colophon
+                  - queryMutate
+                -
+                  - colorScheme
+                  - queryMutate
+                -
+                  - complexTable
+                  - queryMutate
+                -
+                  - contactFormTopics
+                  - queryMutate
+                -
+                  - contactInfo
+                  - queryMutate
+                -
+                  - contentBlocksNews
+                  - queryMutate
+                -
+                  - contentBlocks
+                  - queryMutate
+                -
+                  - contentImage
+                  - queryMutate
+                -
+                  - order
+                  - queryMutate
+                -
+                  - ratio
+                  - queryMutate
+                -
+                  - country
+                  - queryMutate
+                -
+                  - credit
+                  - queryMutate
+                -
+                  - creditDefault
+                  - queryMutate
+                -
+                  - customBreadcrumbs
+                  - queryMutate
+                -
+                  - customHero
+                  - queryMutate
+                -
+                  - date
+                  - queryMutate
+                -
+                  - customDateCreated
+                  - queryMutate
+                -
+                  - description
+                  - queryMutate
+                -
+                  - investigationDescription
+                  - queryMutate
+                -
+                  - siteDescription
+                  - queryMutate
+                -
+                  - dynamicComponent
+                  - queryMutate
+                -
+                  - email
+                  - queryMutate
+                -
+                  - emailSubscription
+                  - queryMutate
+                -
+                  - embedTitle
+                  - queryMutate
+                -
+                  - embed
+                  - queryMutate
+                -
+                  - endDate
+                  - queryMutate
+                -
+                  - endTime
+                  - queryMutate
+                -
+                  - eventEndTime
+                  - queryMutate
+                -
+                  - eventEntry
+                  - queryMutate
+                -
+                  - galleryEntry
+                  - queryMutate
+                -
+                  - newsEntry
+                  - queryMutate
+                -
+                  - pageEntry
+                  - queryMutate
+                -
+                  - pagePostEntry
+                  - queryMutate
+                -
+                  - slideshowEntry
+                  - queryMutate
+                -
+                  - staffEntry
+                  - queryMutate
+                -
+                  - eventType
+                  - queryMutate
+                -
+                  - externalUrl
+                  - queryMutate
+                -
+                  - externalUrlTranslatable
+                  - queryMutate
+                -
+                  - facebook
+                  - queryMutate
+                -
+                  - featuredImage
+                  - queryMutate
+                -
+                  - floatDirection
+                  - queryMutate
+                -
+                  - focalPointX
+                  - queryMutate
+                -
+                  - focalPointY
+                  - queryMutate
+                -
+                  - fullWidth
+                  - queryMutate
+                -
+                  - galleryItemTags
+                  - queryMutate
+                -
+                  - galleryItemCategory
+                  - queryMutate
+                -
+                  - game
+                  - queryMutate
+                -
+                  - header
+                  - queryMutate
+                -
+                  - hero
+                  - queryMutate
+                -
+                  - hideTitle
+                  - queryMutate
+                -
+                  - damAsset
+                  - queryMutate
+                -
+                  - siteImage
+                  - queryMutate
+                -
+                  - imageQuote
+                  - queryMutate
+                -
+                  - padImage
+                  - queryMutate
+                -
+                  - instagram
+                  - queryMutate
+                -
+                  - investigation
+                  - queryMutate
+                -
+                  - jobPosition
+                  - queryMutate
+                -
+                  - landingNavigation
+                  - queryMutate
+                -
+                  - landingPage
+                  - queryMutate
+                -
+                  - mixedLink
+                  - queryMutate
+                -
+                  - linkText
+                  - queryMutate
+                -
+                  - linkTo
+                  - queryMutate
+                -
+                  - linkedIn
+                  - queryMutate
+                -
+                  - links
+                  - queryMutate
+                -
+                  - staffLocation
+                  - queryMutate
+                -
+                  - metadataDate
+                  - queryMutate
+                -
+                  - metadataVersion
+                  - queryMutate
+                -
+                  - metadataVersionDefault
+                  - queryMutate
+                -
+                  - newsAssets
+                  - queryMutate
+                -
+                  - numberOfItems
+                  - queryMutate
+                -
+                  - openDate
+                  - queryMutate
+                -
+                  - overlapHero
+                  - queryMutate
+                -
+                  - pageType
+                  - queryMutate
+                -
+                  - phoneNumber
+                  - queryMutate
+                -
+                  - plainText
+                  - queryMutate
+                -
+                  - staffPortrait
+                  - queryMutate
+                -
+                  - postType
+                  - queryMutate
+                -
+                  - preferredLanguage
+                  - queryMutate
+                -
+                  - pressReleaseId
+                  - queryMutate
+                -
+                  - publisher
+                  - queryMutate
+                -
+                  - publisherDefault
+                  - queryMutate
+                -
+                  - publisherId
+                  - queryMutate
+                -
+                  - publisherIdDefault
+                  - queryMutate
+                -
+                  - pullQuote
+                  - queryMutate
+                -
+                  - quote
+                  - queryMutate
+                -
+                  - registrationCloseDate
+                  - queryMutate
+                -
+                  - registrationOpenDate
+                  - queryMutate
+                -
+                  - representativeAssetVariant
+                  - queryMutate
+                -
+                  - requestDeletion
+                  - queryMutate
+                -
+                  - richTextDescription
+                  - queryMutate
+                -
+                  - school
+                  - queryMutate
+                -
+                  - showSiblingNav
+                  - queryMutate
+                -
+                  - simpleTable
+                  - queryMutate
+                -
+                  - sites
+                  - queryMutate
+                -
+                  - slideshowItems
+                  - queryMutate
+                -
+                  - staffTags
+                  - queryMutate
+                -
+                  - staffTradingCard
+                  - queryMutate
+                -
+                  - startDate
+                  - queryMutate
+                -
+                  - eventStartTime
+                  - queryMutate
+                -
+                  - startTime
+                  - queryMutate
+                -
+                  - state
+                  - queryMutate
+                -
+                  - investigationStatus
+                  - queryMutate
+                -
+                  - subHeroText
+                  - queryMutate
+                -
+                  - subLocation
+                  - queryMutate
+                -
+                  - summitStatusLayout
+                  - queryMutate
+                -
+                  - supportersLogosAlt
+                  - queryMutate
+                -
+                  - supportersLogos
+                  - queryMutate
+                -
+                  - postTags
+                  - queryMutate
+                -
+                  - teaser
+                  - queryMutate
+                -
+                  - text
+                  - queryMutate
+                -
+                  - timezone
                   - queryMutate
                 -
                   - siteTitle
@@ -1301,10 +1791,22 @@ plugins:
                   - emailSubscription
                   - queryMutate
                 -
+                  - embedTitle
+                  - queryMutate
+                -
+                  - embed
+                  - queryMutate
+                -
                   - endDate
                   - queryMutate
                 -
                   - endTime
+                  - queryMutate
+                -
+                  - eventEndTime
+                  - queryMutate
+                -
+                  - eventEntry
                   - queryMutate
                 -
                   - galleryEntry
@@ -1331,6 +1833,9 @@ plugins:
                   - externalUrl
                   - queryMutate
                 -
+                  - externalUrlTranslatable
+                  - queryMutate
+                -
                   - facebook
                   - queryMutate
                 -
@@ -1346,10 +1851,16 @@ plugins:
                   - focalPointY
                   - queryMutate
                 -
+                  - fullWidth
+                  - queryMutate
+                -
                   - galleryItemTags
                   - queryMutate
                 -
                   - galleryItemCategory
+                  - queryMutate
+                -
+                  - game
                   - queryMutate
                 -
                   - header
@@ -1377,9 +1888,6 @@ plugins:
                   - queryMutate
                 -
                   - investigation
-                  - queryMutate
-                -
-                  - isActive
                   - queryMutate
                 -
                   - jobPosition
@@ -1448,6 +1956,9 @@ plugins:
                   - preferredLanguage
                   - queryMutate
                 -
+                  - pressReleaseId
+                  - queryMutate
+                -
                   - publisher
                   - queryMutate
                 -
@@ -1490,6 +2001,9 @@ plugins:
                   - simpleTable
                   - queryMutate
                 -
+                  - sites
+                  - queryMutate
+                -
                   - slideshowItems
                   - queryMutate
                 -
@@ -1499,16 +2013,28 @@ plugins:
                   - staffTradingCard
                   - queryMutate
                 -
+                  - startDate
+                  - queryMutate
+                -
+                  - eventStartTime
+                  - queryMutate
+                -
                   - startTime
                   - queryMutate
                 -
                   - state
                   - queryMutate
                 -
+                  - investigationStatus
+                  - queryMutate
+                -
                   - subHeroText
                   - queryMutate
                 -
                   - subLocation
+                  - queryMutate
+                -
+                  - summitStatusLayout
                   - queryMutate
                 -
                   - supportersLogosAlt
@@ -1524,6 +2050,9 @@ plugins:
                   - queryMutate
                 -
                   - text
+                  - queryMutate
+                -
+                  - timezone
                   - queryMutate
                 -
                   - siteTitle
@@ -1588,6 +2117,62 @@ plugins:
                 -
                   - siteId
                   - ''
+                -
+                  - entryQueries
+                  -
+                    __assoc__:
+                      -
+                        - callouts
+                        - ''
+                      -
+                        - events
+                        - ''
+                      -
+                        - galleryItems
+                        - ''
+                      -
+                        - glossaryTerms
+                        - ''
+                      -
+                        - investigations
+                        - ''
+                      -
+                        - jobs
+                        - ''
+                      -
+                        - news
+                        - ''
+                      -
+                        - pages
+                        - ''
+                      -
+                        - slideshows
+                        - ''
+                      -
+                        - staffProfiles
+                        - ''
+                -
+                  - assetQueries
+                  -
+                    __assoc__:
+                      -
+                        - heroes
+                        - ''
+                      -
+                        - contentImages
+                        - ''
+                      -
+                        - generalImages
+                        - ''
+                      -
+                        - staffProfiles
+                        - ''
+                      -
+                        - assetVariants
+                        - ''
+                      -
+                        - cantoDam
+                        - ''
           -
             - group-11
             -
@@ -1601,10 +2186,67 @@ plugins:
                 -
                   - siteId
                   - ''
+                -
+                  - entryQueries
+                  -
+                    __assoc__:
+                      -
+                        - callouts
+                        - ''
+                      -
+                        - events
+                        - ''
+                      -
+                        - galleryItems
+                        - ''
+                      -
+                        - glossaryTerms
+                        - ''
+                      -
+                        - investigations
+                        - ''
+                      -
+                        - jobs
+                        - ''
+                      -
+                        - news
+                        - ''
+                      -
+                        - pages
+                        - ''
+                      -
+                        - slideshows
+                        - ''
+                      -
+                        - staffProfiles
+                        - ''
+                -
+                  - assetQueries
+                  -
+                    __assoc__:
+                      -
+                        - heroes
+                        - ''
+                      -
+                        - contentImages
+                        - ''
+                      -
+                        - generalImages
+                        - ''
+                      -
+                        - staffProfiles
+                        - ''
+                      -
+                        - assetVariants
+                        - ''
+                      -
+                        - cantoDam
+                        - ''
       invalidEmailAddress: 'Invalid email address'
       invalidHeader: 'Invalid Authorization Header'
       invalidJwtSecretKey: 'Invalid JWT Secret Key'
       invalidLogin: 'We couldn''t log you in with the provided details'
+      invalidMagicCode: 'Invalid magic code'
       invalidOauthToken: 'Invalid OAuth Token'
       invalidPasswordMatch: 'New passwords do not match'
       invalidPasswordUpdate: 'We couldn''t update the password with the provided details'
@@ -1615,6 +2257,11 @@ plugins:
       jwtExpiration: '30 minutes'
       jwtRefreshExpiration: '3 months'
       jwtSecretKey: D7-h5FVM6i4s9Q5V9Z1EEhggbVy4p9qX
+      magicLinkSent: 'You will receive an email if it matches an account in our system'
+      microsoftAppId: null
+      microsoftAppSecret: null
+      microsoftEmailMismatch: 'Email address doesn''t match allowed Microsoft domains'
+      microsoftRedirectUrl: null
       passwordResetRequired: 'Password reset required; please check your email'
       passwordResetSent: 'You will receive an email if it matches an account in our system'
       passwordSaved: 'Successfully saved password'
@@ -1623,7 +2270,9 @@ plugins:
       sameSitePolicy: strict
       schemaId: null
       schemaName: null
-      siteId: ''
+      siteId: null
+      skipActivatedCheck: ''
+      skipSocialActivation: null
       tokenNotFound: 'We couldn''t find any matching tokens'
       twitterApiKey: null
       twitterApiKeySecret: null
@@ -1631,6 +2280,7 @@ plugins:
       twitterRedirectUrl: null
       userActivated: 'Successfully activated user'
       userGroup: null
+      userHasPassword: 'User not password-less'
       userNotActivated: 'Please activate your account before logging in'
       userNotFound: 'We couldn''t find any matching users'
       volumeNotFound: 'We couldn''t find any matching volumes'
