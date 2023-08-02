@@ -32,6 +32,30 @@ fieldLayouts:
             width: 100
           -
             elementCondition: null
+            fieldUid: 4404d713-d76b-4bb1-a9aa-bd88253b11d3 # Post Type
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 2388aa3c-c38b-4dc1-9edc-2b24df9e01e1
+            userCondition: null
+            warning: null
+            width: 25
+          -
+            elementCondition: null
+            fieldUid: a8908d20-3e88-452c-86ec-f98a0017bce2 # Press Release ID
+            instructions: null
+            label: 'NOIRLab Release Number'
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 47161763-862c-4fb4-a777-ec41c7d427d6
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
             fieldUid: 05eead62-7bf9-43e4-a7e8-bcd8f9f77323 # Hero
             instructions: null
             label: null
@@ -47,22 +71,10 @@ fieldLayouts:
             fieldUid: 75f0b770-5006-4359-848f-96415196bfe0 # Date
             instructions: null
             label: null
-            required: false
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            uid: 7279104f-e312-447a-9b12-2a4589a743fa
-            userCondition: null
-            warning: null
-            width: 25
-          -
-            elementCondition: null
-            fieldUid: 4404d713-d76b-4bb1-a9aa-bd88253b11d3 # Post Type
-            instructions: null
-            label: null
             required: true
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 2388aa3c-c38b-4dc1-9edc-2b24df9e01e1
+            uid: 7279104f-e312-447a-9b12-2a4589a743fa
             userCondition: null
             warning: null
             width: 25
@@ -91,7 +103,17 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            elementCondition: null
+            elementCondition:
+              class: craft\elements\conditions\entries\EntryCondition
+              conditionRules:
+                -
+                  class: craft\fields\conditions\TextFieldConditionRule
+                  fieldUid: a8908d20-3e88-452c-86ec-f98a0017bce2 # Press Release ID
+                  operator: empty
+                  uid: 529a691c-3274-4747-9e44-f8bf25aa3a0e
+                  value: ''
+              elementType: craft\elements\Entry
+              fieldContext: global
             fieldUid: c11d26d4-236a-4b06-99f6-3a8f67821ada # News Assets
             instructions: null
             label: null
@@ -103,7 +125,17 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            elementCondition: null
+            elementCondition:
+              class: craft\elements\conditions\entries\EntryCondition
+              conditionRules:
+                -
+                  class: craft\fields\conditions\TextFieldConditionRule
+                  fieldUid: a8908d20-3e88-452c-86ec-f98a0017bce2 # Press Release ID
+                  operator: empty
+                  uid: 8f35ba3c-42c4-46ab-83cf-0e18e064788a
+                  value: ''
+              elementType: craft\elements\Entry
+              fieldContext: global
             fieldUid: 522db817-08b6-4ecf-a423-4aec204ab85d # Content Blocks - News
             instructions: null
             label: null
