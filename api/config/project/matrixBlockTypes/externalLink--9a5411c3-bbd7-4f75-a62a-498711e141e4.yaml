@@ -3,39 +3,46 @@ fieldLayouts:
   908d7981-63ac-461e-81c4-da6c921a1db9:
     tabs:
       -
+        elementCondition: null
         elements:
           -
+            elementCondition: null
             fieldUid: c4060079-e438-4c63-8b06-77cdea857fd9 # Text
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: bc9f5ce5-b278-4fed-9f8c-0da295918493
+            userCondition: null
             warning: null
             width: 100
           -
+            elementCondition: null
             fieldUid: 95b97a67-eccb-4910-b0e8-77f5860058b4 # Link
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: bde1324c-15e6-4fb2-9864-88c4fbfbd415
+            userCondition: null
             warning: null
             width: 100
         name: Content
-        sortOrder: 1
+        uid: 6a3abbf8-8cb1-4e13-aa94-393035d5c84f
+        userCondition: null
 fields:
   95b97a67-eccb-4910-b0e8-77f5860058b4: # Link
     columnSuffix: null
     contentColumnType: string(255)
     fieldGroup: null
     handle: externalLink
-    instructions: ''
+    instructions: null
     name: Link
     searchable: false
     settings:
-      maxLength: '255'
-      placeholder: ''
+      maxLength: 255
       types:
         - url
     translationKeyFormat: null
@@ -46,20 +53,20 @@ fields:
     contentColumnType: text
     fieldGroup: null
     handle: text
-    instructions: ''
+    instructions: null
     name: Text
     searchable: false
     settings:
       byteLimit: null
       charLimit: null
-      code: ''
+      code: false
       columnType: null
-      initialRows: '4'
-      multiline: ''
+      initialRows: 4
+      multiline: false
       placeholder: null
       uiMode: normal
     translationKeyFormat: null
-    translationMethod: none
+    translationMethod: site
     type: craft\fields\PlainText
 handle: externalLink
 name: 'External Link'

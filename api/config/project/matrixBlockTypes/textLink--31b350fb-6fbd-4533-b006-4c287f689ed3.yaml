@@ -3,43 +3,51 @@ fieldLayouts:
   5045d08e-1627-42b2-a2c8-8c0698ccbb44:
     tabs:
       -
+        elementCondition: null
         elements:
           -
+            elementCondition: null
             fieldUid: 0f48338c-1c16-4600-9230-68bacb7c21e3 # Text
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: d691c61a-51ab-4ab0-8050-c6f914eb6a7d
+            userCondition: null
             warning: null
             width: 100
           -
+            elementCondition: null
             fieldUid: f444667c-6ea1-4e0f-89b2-35b059e27bfc # Link
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: 55e34597-27fe-4533-bfbd-7e92422bffd2
+            userCondition: null
             warning: null
             width: 100
         name: Content
-        sortOrder: 1
+        uid: e7f2a1e3-5c6a-401a-9fb7-5243c93f699d
+        userCondition: null
 fields:
   0f48338c-1c16-4600-9230-68bacb7c21e3: # Text
     columnSuffix: null
     contentColumnType: text
     fieldGroup: null
     handle: text
-    instructions: ''
+    instructions: null
     name: Text
     searchable: false
     settings:
       byteLimit: null
       charLimit: null
-      code: ''
+      code: false
       columnType: null
-      initialRows: '4'
-      multiline: ''
+      initialRows: 4
+      multiline: false
       placeholder: null
       uiMode: normal
     translationKeyFormat: null
@@ -50,30 +58,45 @@ fields:
     contentColumnType: string
     fieldGroup: null
     handle: textLink
-    instructions: ''
+    instructions: null
     name: Link
     searchable: false
     settings:
       allowSelfRelations: false
+      allowSubfolders: false
       allowUploads: true
       allowedKinds: null
+      branchLimit: null
       defaultUploadLocationSource: 'volume:18a75c63-648f-4145-9cc3-386e7c8a0106' # General
-      defaultUploadLocationSubpath: ''
-      limit: '1'
+      defaultUploadLocationSubpath: null
       localizeRelations: false
+      maintainHierarchy: false
+      maxRelations: 1
+      minRelations: null
       previewMode: full
-      restrictFiles: ''
+      restrictFiles: false
+      restrictLocation: false
+      restrictedDefaultUploadSubpath: null
+      restrictedLocationSource: 'volume:8e9ec71e-2cf0-4f6a-b856-8976de0ce100' # Heroes
+      restrictedLocationSubpath: null
+      selectionCondition:
+        __assoc__:
+          -
+            - elementType
+            - craft\elements\Asset
+          -
+            - fieldContext
+            - global
+          -
+            - class
+            - craft\elements\conditions\assets\AssetCondition
       selectionLabel: 'Select an asset'
       showSiteMenu: false
       showUnpermittedFiles: false
       showUnpermittedVolumes: false
-      singleUploadLocationSource: 'volume:8e9ec71e-2cf0-4f6a-b856-8976de0ce100' # Heroes
-      singleUploadLocationSubpath: ''
-      source: null
       sources:
         - 'volume:18a75c63-648f-4145-9cc3-386e7c8a0106' # General
       targetSiteId: null
-      useSingleFolder: false
       validateRelatedElements: false
       viewMode: list
     translationKeyFormat: null

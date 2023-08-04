@@ -3,18 +3,23 @@ fieldLayouts:
   735b7a3e-8f34-47ba-8b65-d9c1571564ca:
     tabs:
       -
+        elementCondition: null
         elements:
           -
+            elementCondition: null
             fieldUid: 1e0c12ac-5dd7-4ed2-8cda-3801130b11e1 # Gallery Item
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: ada53167-9429-4221-b8a1-88df19c9a454
+            userCondition: null
             warning: null
             width: 100
         name: Content
-        sortOrder: 1
+        uid: 03453140-e624-4a6e-9869-e6a4d5c9f2b8
+        userCondition: null
 fields:
   1e0c12ac-5dd7-4ed2-8cda-3801130b11e1: # Gallery Item
     columnSuffix: null
@@ -26,11 +31,24 @@ fields:
     searchable: false
     settings:
       allowSelfRelations: false
-      limit: '1'
+      branchLimit: null
       localizeRelations: false
+      maintainHierarchy: false
+      maxRelations: 1
+      minRelations: null
+      selectionCondition:
+        __assoc__:
+          -
+            - elementType
+            - craft\elements\Entry
+          -
+            - fieldContext
+            - global
+          -
+            - class
+            - craft\elements\conditions\entries\EntryCondition
       selectionLabel: 'Select a gallery item'
       showSiteMenu: false
-      source: null
       sources:
         - 'section:3a8b9653-cdd3-46ce-84b2-d73b5dc4de63' # Gallery
       targetSiteId: null

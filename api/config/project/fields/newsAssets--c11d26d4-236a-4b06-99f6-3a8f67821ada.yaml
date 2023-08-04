@@ -7,8 +7,8 @@ name: 'News Assets'
 searchable: false
 settings:
   contentTable: '{{%matrixcontent_newsassets}}'
-  maxBlocks: ''
-  minBlocks: ''
+  maxBlocks: null
+  minBlocks: null
   propagationKeyFormat: null
   propagationMethod: all
 translationKeyFormat: null
