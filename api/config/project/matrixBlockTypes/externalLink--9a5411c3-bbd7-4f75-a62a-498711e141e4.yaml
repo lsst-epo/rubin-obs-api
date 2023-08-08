@@ -3,63 +3,70 @@ fieldLayouts:
   908d7981-63ac-461e-81c4-da6c921a1db9:
     tabs:
       -
+        elementCondition: null
         elements:
           -
+            elementCondition: null
             fieldUid: c4060079-e438-4c63-8b06-77cdea857fd9 # Text
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: 0ef5bcd0-dedc-49a0-a6a5-270375c631da
+            userCondition: null
             warning: null
             width: 100
           -
+            elementCondition: null
             fieldUid: 95b97a67-eccb-4910-b0e8-77f5860058b4 # Link
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: 0507c8c2-bc3e-478b-9e05-cff2ee9cd829
+            userCondition: null
             warning: null
             width: 100
         name: Content
-        sortOrder: 1
+        uid: 8ee31f08-b7f0-4d3c-92da-a89f023a66db
+        userCondition: null
 fields:
   95b97a67-eccb-4910-b0e8-77f5860058b4: # Link
     columnSuffix: null
     contentColumnType: string(255)
     fieldGroup: null
     handle: externalLink
-    instructions: ''
+    instructions: null
     name: Link
     searchable: false
     settings:
-      maxLength: '255'
-      placeholder: ''
+      maxLength: 255
       types:
         - url
     translationKeyFormat: null
-    translationMethod: none
+    translationMethod: site
     type: craft\fields\Url
   c4060079-e438-4c63-8b06-77cdea857fd9: # Text
     columnSuffix: null
     contentColumnType: text
     fieldGroup: null
     handle: text
-    instructions: ''
+    instructions: null
     name: Text
     searchable: false
     settings:
       byteLimit: null
       charLimit: null
-      code: ''
+      code: false
       columnType: null
-      initialRows: '4'
-      multiline: ''
+      initialRows: 4
+      multiline: false
       placeholder: null
       uiMode: normal
     translationKeyFormat: null
-    translationMethod: none
+    translationMethod: site
     type: craft\fields\PlainText
 handle: externalLink
 name: 'External Link'
