@@ -23,7 +23,6 @@ scope:
   - 'entrytypes.39558c70-8baf-4748-9f12-49e78a04eed5:read' # Job
   - 'sections.11be7603-f576-4af8-93a6-e285e4ff42c4:read' # News
   - 'entrytypes.4729ad5e-485e-4f98-995d-79fa5254cd42:read' # News Post
-  - 'entrytypes.29f8c567-661d-42f5-a1f0-f49613c49751:read'
   - 'sections.f1b8c943-bc12-4001-9e2a-d531379f1aaf:read' # Pages
   - 'entrytypes.23eda090-7e8e-401d-ab49-ee4becc34935:read' # Pages
   - 'entrytypes.9d045432-a0fb-4fcd-8bca-3bc93b1f7056:read' # Educator Pages
@@ -49,6 +48,7 @@ scope:
   - 'globalsets.994d5664-f056-4969-b2cc-c62660f069af:read' # Root Page Information
   - 'globalsets.b8393df9-fb81-4d70-9ccb-6d030c818580:read' # Gallery Item Defaults
   - 'globalsets.5cf3400b-e67c-4fe1-8f5c-d07510de42a8:read' # Contact Form
+  - 'globalsets.c5791919-c6c2-4cca-b60a-117efd8f926b:read' # Canto Gallery Items
   - 'usergroups.everyone:read'
   - 'usergroups.01b89d98-9aa4-46d5-a9a0-60a0c07fd815:read' # Editors
   - 'usergroups.58efa872-9485-42e3-a1e3-a5435def5392:read' # Educators

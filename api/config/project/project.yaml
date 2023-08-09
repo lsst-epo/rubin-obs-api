@@ -1,4 +1,4 @@
-dateModified: 1691512708
+dateModified: 1691601354
 email:
   fromEmail: $EMAIL_FROM_ADDRESS
   fromName: $EMAIL_SENDER_NAME
@@ -188,6 +188,7 @@ meta:
     46db7366-f372-41c2-9f6a-dc30bcd7a946: 'Callout - News' # Callout - News
     48ba11bd-90a5-4239-a24c-d44d01affbcf: 'Image - quote' # Image - quote
     51d86fa7-e37a-4926-97c8-3112fd6f2fbe: 'Canto DAM' # Canto DAM
+    56cd70a1-8e2a-45e2-be93-bb783452bf7f: 'Canto Asset' # Canto Asset
     56f60368-4386-4395-92b6-31b15c7663cc: Contact # Contact
     58aa24c3-97e4-43e7-a812-7374e5650180: 'Focal Point X' # Focal Point X
     58efa872-9485-42e3-a1e3-a5435def5392: Educators # Educators
@@ -330,6 +331,7 @@ meta:
     c832d3ee-de91-4412-87d7-f4a7fd8251eb: Topic # Topic
     c2617270-9a88-4699-a7e0-6f6975b11e5a: 'Canto DAM' # Canto DAM
     c4060079-e438-4c63-8b06-77cdea857fd9: Text # Text
+    c5791919-c6c2-4cca-b60a-117efd8f926b: 'Canto Gallery Items' # Canto Gallery Items
     cac693b8-f2db-41f9-84e5-a6f16ee8dcbb: 'Flexible Cell Width' # Flexible Cell Width
     cb6a7cee-4f9e-4191-8c6d-33ccdd921fec: Text # Text
     cbded379-b002-491f-8558-81620a1a672c: Image # Image
@@ -398,6 +400,15 @@ meta:
     fcfd6cca-d4db-49ea-a864-b6582b85fbcf: 'End Date' # End Date
     fea30fc7-fc92-4268-961f-d514c1b903b8: 'Supporters'' Logos Alt' # Supporters' Logos Alt
 plugins:
+  _canto-dam-assets:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+    settings:
+      appId: 52ff8ed9d6874d48a3bef9621bc1af26
+      authEndpoint: 'https://oauth.canto.com/oauth/api/oauth2/token?app_id={appId}&app_secret={secretKey}&grant_type=client_credentials&refresh_token='
+      retrieveAssetMetadataEndpoint: 'https://rubin.canto.com/api/v1/image/'
+      secretKey: 1d12371b7dee4a7d87c6886d777056095642d672cacf4138b848b7b01173f019
   asset-metadata:
     edition: standard
     enabled: true

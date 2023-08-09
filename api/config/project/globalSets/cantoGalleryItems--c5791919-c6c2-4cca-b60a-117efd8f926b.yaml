@@ -1,0 +1,24 @@
+fieldLayouts:
+  79f9be71-1d48-4e3d-9139-a419db307693:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 56cd70a1-8e2a-45e2-be93-bb783452bf7f # Canto Asset
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: b81b45c3-fac5-47ee-8bda-cab31ace30ab
+            userCondition: null
+            warning: null
+            width: 100
+        name: Stuff
+        uid: 74a630ee-6cd4-40c2-be6b-e5037ce5fb11
+        userCondition: null
+handle: cantoGalleryItems
+name: 'Canto Gallery Items'
+sortOrder: 2

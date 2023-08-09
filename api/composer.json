@@ -16,7 +16,8 @@
         "venveo/craft-bulkedit": "4.0.1",
         "verbb/super-table": "3.0.9",
         "vlucas/phpdotenv": "^3.4.0",
-        "wrav/oembed": "^2.2.2"
+        "wrav/oembed": "^2.2.2",
+        "lsst-epo/canto-dam-assets": "^1.0@beta"
     },
     "repositories": [
         {
@@ -26,6 +27,10 @@
         {
             "type": "path",
             "url": "plugins/nextbuilds"
+        },
+        {
+            "type": "path",
+            "url": "plugins/canto-dam-assets"
         }
     ],
     "require-dev": {

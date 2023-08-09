@@ -1,0 +1,3 @@
+[submodule "api/plugins/canto-dam-assets"]
+	path = api/plugins/canto-dam-assets
+	url = https://github.com/lsst-epo/canto-dam-assets.git

@@ -1,0 +1,14 @@
+columnSuffix: wyyqjfbv
+contentColumnType:
+  - 'cantoId:string'
+  - 'cantoAlbumId:string'
+  - 'cantoAssetData:text'
+  - 'cantoAlbumData:string'
+fieldGroup: 9940892d-32f4-4399-acac-ab559ce1c82b # Common
+handle: cantoAsset
+instructions: null
+name: 'Canto Asset'
+searchable: false
+translationKeyFormat: null
+translationMethod: site
+type: lsst\cantodamassets\fields\CantoDamAsset
