@@ -65,7 +65,19 @@ fieldLayouts:
             uid: 3855f60e-a753-427f-9244-8979083a7f3b
             userCondition: null
             warning: null
-            width: 100
+            width: 50
+          -
+            elementCondition: null
+            fieldUid: 61b9d842-7365-4bbf-883c-1b6433dc15f4 # Caption - rich text
+            instructions: null
+            label: 'Hero Caption'
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 6b1526fd-da23-4704-a956-01ff8ed74f8b
+            userCondition: null
+            warning: null
+            width: 50
           -
             elementCondition: null
             fieldUid: 75f0b770-5006-4359-848f-96415196bfe0 # Date
