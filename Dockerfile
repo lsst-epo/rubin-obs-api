@@ -1,7 +1,9 @@
 ARG BASE_TAG=latest
-LABEL maintainer="eric.rosas@noirlab.edu"
 # Composer dependencies
 FROM composer:2 as vendor
+
+LABEL maintainer="eric.rosas@noirlab.edu"
+
 COPY api/composer.json composer.json
 COPY api/composer.lock composer.lock
 COPY api/plugins ./plugins
