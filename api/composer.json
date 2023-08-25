@@ -9,6 +9,7 @@
         "craftcms/google-cloud": "^2.0.0",
         "craftcms/redactor": "3.0.4",
         "jamesedmonston/graphql-authentication": "2.4.0",
+        "lsst-epo/canto-dam-assets": "^1.0",
         "lsst/canto-dam-integrator": "dev-EPO-7854#v0.3.2",
         "rynpsc/craft-phone-number": "^2.1.0",
         "sebastianlenz/linkfield": "^2.1.4",
@@ -22,6 +23,10 @@
         {
             "type": "vcs",
             "url": "https://github.com/lsst-epo/craft-canto-dam-integrator.git"
+        },
+        {
+            "type": "path",
+            "url": "plugins/canto-dam-assets"
         },
         {
             "type": "path",
