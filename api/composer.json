@@ -7,8 +7,9 @@
         "craftcms/contact-form-honeypot": "^2.0.0",
         "craftcms/google-cloud": "^2.0.0",
         "craftcms/redactor": "3.0.4",
-        "jamesedmonston/graphql-authentication": "2.5.0",
-        "lsst-epo/canto-dam-assets": "4.0.9",
+        "jamesedmonston/graphql-authentication": "2.4.0",
+        "lsst-epo/canto-dam-assets": "^1.0",
+        "lsst/canto-dam-integrator": "dev-EPO-7854#v0.3.2",
         "rynpsc/craft-phone-number": "^2.1.0",
         "sebastianlenz/linkfield": "^2.1.4",
         "spicyweb/craft-neo": "3.8.6",
@@ -26,6 +27,10 @@
         {
             "type": "vcs",
             "url": "https://github.com/lsst-epo/canto-dam-assets.git"
+        },
+        {
+            "type": "path",
+            "url": "plugins/canto-dam-assets"
         },
         {
             "type": "path",

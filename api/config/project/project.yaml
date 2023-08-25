@@ -1,4 +1,4 @@
-dateModified: 1691608933
+dateModified: 1692903024
 email:
   fromEmail: $EMAIL_FROM_ADDRESS
   fromName: $EMAIL_SENDER_NAME
@@ -206,6 +206,7 @@ meta:
     635a4a93-f10b-4d3c-bd44-2ea1474ad4cb: 'Vertical Alignment' # Vertical Alignment
     644c6b87-ac0c-4cdf-88be-744a5ee684bb: Description # Description
     657b9edd-b6d3-4b7f-af89-36117c5d98a8: 'Rich Text Description' # Rich Text Description
+    676da0d6-dc63-48fd-a5cd-7253c956974c: 'Canto DAM Asset' # Canto DAM Asset
     753b10b6-e9e6-44f5-a9d9-4a07788733e1: 'Content Ratio' # Content Ratio
     824d9ca2-e755-4e41-8f6a-18e573fec8e4: 'News Posts' # News Posts
     831db889-442e-4553-9076-fc3bc2843c8c: 'Hide title' # Hide title
