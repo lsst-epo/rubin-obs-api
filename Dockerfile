@@ -1,5 +1,4 @@
 ARG BASE_TAG=latest
-LABEL maintainer="eric.rosas@noirlab.edu"
 # Composer dependencies
 FROM composer:2 as vendor
 

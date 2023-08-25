@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "660f7a89822d3e91e2bef2f80c31d344",
+    "content-hash": "e5025817109384bfb93e07c48ca23c07",
     "packages": [
         {
             "name": "abraham/twitteroauth",
@@ -3673,11 +3673,17 @@
         },
         {
             "name": "lsst-epo/canto-dam-assets",
-            "version": "1.0.0",
-            "dist": {
-                "type": "path",
-                "url": "plugins/canto-dam-assets",
+            "version": "dev-develop-v4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/lsst-epo/canto-dam-assets.git",
                 "reference": "a7351e63f1b5ab1937ca79c0f59a66c9848f0d84"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/lsst-epo/canto-dam-assets/zipball/a7351e63f1b5ab1937ca79c0f59a66c9848f0d84",
+                "reference": "a7351e63f1b5ab1937ca79c0f59a66c9848f0d84",
+                "shasum": ""
             },
             "require": {
                 "craftcms/cms": "^4.4.0",
@@ -3688,6 +3694,7 @@
                 "craftcms/ecs": "dev-main",
                 "craftcms/phpstan": "dev-main"
             },
+            "default-branch": true,
             "type": "craft-plugin",
             "extra": {
                 "handle": "_canto-dam-assets",
@@ -3724,9 +3731,7 @@
                 "issues": "https://github.com/lsst-epo/canto-dam-assets/issues",
                 "source": "https://github.com/lsst-epo/canto-dam-assets/"
             },
-            "transport-options": {
-                "relative": true
-            }
+            "time": "2023-08-16T14:57:28+00:00"
         },
         {
             "name": "lsst/canto-dam-integrator",
@@ -9686,7 +9691,10 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": [],
+    "stability-flags": {
+        "lsst-epo/canto-dam-assets": 20,
+        "lsst/canto-dam-integrator": 20
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": [],
