@@ -3,7 +3,8 @@ name: build-and-push
 on:
   push:
     branches:
-       - '*'
+       - 'develop'
+       - 'master'
     tags:
       - 'v.*'
   pull_request:
