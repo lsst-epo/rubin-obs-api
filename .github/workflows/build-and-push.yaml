@@ -21,7 +21,7 @@ jobs:
         with:
           # list of Docker images to use as base name for tags
           images: |
-            gcr.io/skyviewer/rubinobs-api-k8s,enable=${{ github.ref != 'master' && github.ref_type != "tag" }}
+            gcr.io/skyviewer/rubinobs-api-k8s,enable=${{ github.ref != 'master' && github.ref_type != 'tag' }}
             gcr.io/edc-int-6c5e/rubinobs-api-k8s,enable=${{ github.ref == 'master'}}
             gcr.io/edc-prod-eef0/rubinobs-api-k8s,enable=${{ github.ref_type == 'tag'}}
           # generate Docker tags based on the following events/attributes
@@ -42,7 +42,7 @@ jobs:
       - 
         name: Login to GCP Dev
         uses: google-github-actions/setup-gcloud@v0
-        if: ${{ github.ref == "develop" }}
+        if: ${{ github.ref == 'develop' }}
         with:
           service_account_key: ${{ secrets.DEV_SA_KEY }}
           project_id: skyviewer
@@ -50,7 +50,7 @@ jobs:
       - 
         name: Login to GCP Int
         uses: google-github-actions/setup-gcloud@v0
-        if: ${{ github.ref == "master" }}
+        if: ${{ github.ref == 'master' }}
         with:
           service_account_key: ${{ secrets.SKYVIEWER_INT_SERVICE_ACCOUNT }}
           project_id: edc-int-6c5e
@@ -58,7 +58,7 @@ jobs:
       - 
         name: Login to GCP Prod
         uses: google-github-actions/setup-gcloud@v0
-        if: ${{ github.ref_type == "tag" }}
+        if: ${{ github.ref_type == 'tag' }}
         with:
           service_account_key: ${{ secrets.PIPELINE_EPO_PROD_PROJECT  }}
           project_id: edc-prod-eef0
