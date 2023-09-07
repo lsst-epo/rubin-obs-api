@@ -42,7 +42,7 @@ jobs:
       - 
         name: Login to GCP Dev
         uses: google-github-actions/setup-gcloud@v0
-        if: ${{ github.ref == 'develop' }}
+        if: ${{ github.ref != 'master' && github.ref_type != 'tag' }}
         with:
           service_account_key: ${{ secrets.DEV_SA_KEY }}
           project_id: skyviewer
