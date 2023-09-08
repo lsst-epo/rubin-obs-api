@@ -85,5 +85,9 @@ jobs:
           push: true
           tags: ${{ steps.meta.outputs.tags }}
           labels: ${{ steps.meta.outputs.labels }}
+          cache-to: |
+            type=gha
+          cache-from: |
+            type=gha
           build-args: |
             BASE_TAG=k8s
