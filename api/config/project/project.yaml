@@ -1,4 +1,4 @@
-dateModified: 1692903024
+dateModified: 1694461991
 email:
   fromEmail: $EMAIL_FROM_ADDRESS
   fromName: $EMAIL_SENDER_NAME
@@ -399,6 +399,10 @@ meta:
     fcfd6cca-d4db-49ea-a864-b6582b85fbcf: 'End Date' # End Date
     fea30fc7-fc92-4268-961f-d514c1b903b8: 'Supporters'' Logos Alt' # Supporters' Logos Alt
 plugins:
+  _canto-dam-assets:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
   asset-metadata:
     edition: standard
     enabled: true
@@ -2367,7 +2371,7 @@ plugins:
     schemaVersion: 2.0.0
   universal-dam-integrator:
     edition: standard
-    enabled: true
+    enabled: false
     schemaVersion: 1.0.0
     settings:
       appId: $CANTO_APP_ID
