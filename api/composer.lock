@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e5025817109384bfb93e07c48ca23c07",
+    "content-hash": "0534410b4cdb1daac520d0d609c460c4",
     "packages": [
         {
             "name": "abraham/twitteroauth",
@@ -3431,16 +3431,16 @@
         },
         {
             "name": "lsst-epo/canto-dam-assets",
-            "version": "dev-develop-v4",
+            "version": "4.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/lsst-epo/canto-dam-assets.git",
-                "reference": "a7351e63f1b5ab1937ca79c0f59a66c9848f0d84"
+                "reference": "b8cb1b9bb59eac97cd1c2d6ab1bc043e8447d6f3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/lsst-epo/canto-dam-assets/zipball/a7351e63f1b5ab1937ca79c0f59a66c9848f0d84",
-                "reference": "a7351e63f1b5ab1937ca79c0f59a66c9848f0d84",
+                "url": "https://api.github.com/repos/lsst-epo/canto-dam-assets/zipball/b8cb1b9bb59eac97cd1c2d6ab1bc043e8447d6f3",
+                "reference": "b8cb1b9bb59eac97cd1c2d6ab1bc043e8447d6f3",
                 "shasum": ""
             },
             "require": {
@@ -3452,7 +3452,6 @@
                 "craftcms/ecs": "dev-main",
                 "craftcms/phpstan": "dev-main"
             },
-            "default-branch": true,
             "type": "craft-plugin",
             "extra": {
                 "handle": "_canto-dam-assets",
@@ -3477,6 +3476,9 @@
                     "phpstan --memory-limit=1G"
                 ]
             },
+            "license": [
+                "MIT"
+            ],
             "authors": [
                 {
                     "name": "nystudio107",
@@ -3489,7 +3491,7 @@
                 "issues": "https://github.com/lsst-epo/canto-dam-assets/issues",
                 "source": "https://github.com/lsst-epo/canto-dam-assets/"
             },
-            "time": "2023-08-16T14:57:28+00:00"
+            "time": "2023-09-11T16:58:42+00:00"
         },
         {
             "name": "lsst/canto-dam-integrator",
@@ -7899,7 +7901,6 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "lsst-epo/canto-dam-assets": 20,
         "lsst/canto-dam-integrator": 20
     },
     "prefer-stable": true,
