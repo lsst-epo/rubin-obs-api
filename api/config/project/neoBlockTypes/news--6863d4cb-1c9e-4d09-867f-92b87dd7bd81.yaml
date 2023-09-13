@@ -1,7 +1,7 @@
 childBlocks:
   - newsItem
 conditions: null
-description: ''
+description: null
 enabled: true
 field: 72e5075a-9b06-4674-b040-615f4a6f7b70 # Content Blocks - Pages
 fieldLayouts:
@@ -73,5 +73,5 @@ minBlocks: 0
 minChildBlocks: 0
 minSiblingBlocks: 0
 name: News
-sortOrder: 15
+sortOrder: 17
 topLevel: true

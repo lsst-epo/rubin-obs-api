@@ -1,4 +1,4 @@
-dateModified: 1692903024
+dateModified: 1694562108
 email:
   fromEmail: $EMAIL_FROM_ADDRESS
   fromName: $EMAIL_SENDER_NAME
@@ -354,6 +354,7 @@ meta:
     d838c93b-46c2-4338-bb73-32cee25ab26f: 'Ancestors and Root' # Ancestors and Root
     d4696dbe-019e-4c97-a95d-07bfaf9dbd03: 'Entry - Staff Profile' # Entry - Staff Profile
     d6898b26-bfa2-41d3-9e26-0092b2021762: 'Student Schema' # Student Schema
+    d68978ab-2942-46c8-8da7-6a50bd47cce5: 'Image Grid Item' # Image Grid Item
     d889713c-632a-4323-bb10-4b2bc53545ad: Asset # Asset
     da3fa24e-0cac-4206-a401-1c4f5791c198: 'Investigation CTA' # Investigation CTA
     dc44e79d-b126-413d-bc02-0776d6ace2d1: 'Float Direction' # Float Direction
@@ -381,6 +382,7 @@ meta:
     ecf9a160-a134-43b6-9d4f-8bd547ad101e: 'Landing Navigation' # Landing Navigation
     edef3ef4-2dfd-4dc1-92a9-2643d43cef04: Image # Image
     ef5793ab-b4f7-45c7-be68-338184b3d385: 'Full Width' # Full Width
+    f00a12dc-93a3-4782-8d0a-3672c0107c02: 'Image Grid' # Image Grid
     f0603433-ef74-4883-8aec-03e31f8dc34e: 'Complex Table' # Complex Table
     f1b8c943-bc12-4001-9e2a-d531379f1aaf: Pages # Pages
     f8ed5c4f-7af4-40f7-939d-b7caf9b4b501: 'News Item' # News Item
