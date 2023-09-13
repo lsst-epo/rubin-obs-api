@@ -4,7 +4,7 @@ description: null
 enabled: true
 field: 72e5075a-9b06-4674-b040-615f4a6f7b70 # Content Blocks - Pages
 fieldLayouts:
-  7ea8d42a-0d28-422c-ada3-fdafdfe9ce8c:
+  7d0dc083-d723-4d6c-a1a2-f58d5860dcff:
     tabs:
       -
         elementCondition: null
@@ -13,44 +13,32 @@ fieldLayouts:
             elementCondition: null
             fieldUid: fb052686-4537-4fe5-9ce2-ff3fd4a341a2 # Content Image
             instructions: null
-            label: null
-            required: false
+            label: Image
+            required: true
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: a59bf8ea-2084-48f0-8357-5faacc3d5ad4
+            uid: 509dcefb-3fc5-4e95-ac4e-448eee4f87d6
             userCondition: null
             warning: null
             width: 100
           -
             elementCondition: null
-            fieldUid: 10118ebf-e3bf-4b1b-bbb8-4b57ab3753c8 # Caption
+            fieldUid: b0ce3829-20c1-44ef-a7c7-499800645afc # Header
             instructions: null
-            label: null
+            label: 'Image Label'
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 760f62c7-ede6-4816-aca4-87b2710f62e4
+            uid: 9c2861e1-29ab-4ec5-96c1-b5c01bb79f79
             userCondition: null
             warning: null
             width: 100
-          -
-            elementCondition: null
-            fieldUid: dc44e79d-b126-413d-bc02-0776d6ace2d1 # Float Direction
-            instructions: null
-            label: null
-            required: false
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            uid: fcba0a8c-8d3d-48e7-a909-373c1a5b5591
-            userCondition: null
-            warning: null
-            width: 100
-        name: 'Tab 1'
-        uid: 33f24b42-817c-4588-979c-20ebfe22bbe5
+        name: Tab
+        uid: 5e79d3cb-bb24-4e39-99ce-701a2b28d66a
         userCondition: null
 group: null
 groupChildBlockTypes: true
-handle: image
+handle: imageGridItem
 icon: null
 ignorePermissions: true
 maxBlocks: 0
@@ -59,6 +47,6 @@ maxSiblingBlocks: 0
 minBlocks: 0
 minChildBlocks: 0
 minSiblingBlocks: 0
-name: Image
-sortOrder: 2
-topLevel: true
+name: 'Image Grid Item'
+sortOrder: 10
+topLevel: false
