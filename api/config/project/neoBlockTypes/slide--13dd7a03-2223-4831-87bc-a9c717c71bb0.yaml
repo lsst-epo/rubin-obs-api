@@ -1,10 +1,10 @@
 childBlocks: null
 conditions: null
-description: ''
+description: null
 enabled: true
 field: 72e5075a-9b06-4674-b040-615f4a6f7b70 # Content Blocks - Pages
 fieldLayouts:
-  756e8454-fa42-4a48-b89b-7b6e4a39b0b7:
+  4c08cff0-15fb-4f03-8f7c-9ed4051c724e:
     tabs:
       -
         elementCondition: null
@@ -48,5 +48,5 @@ minBlocks: 0
 minChildBlocks: 0
 minSiblingBlocks: 0
 name: Slide
-sortOrder: 11
+sortOrder: 12
 topLevel: false
