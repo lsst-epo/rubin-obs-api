@@ -3,7 +3,7 @@
         "carlcs/craft-assetmetadata": "^4.0",
         "castiron/next-builds": "^1.0",
         "craftcms/aws-s3": "2.0.3",
-        "craftcms/cms": "4.5.4",
+        "craftcms/cms": "4.4.15",
         "craftcms/contact-form": "3.0.1",
         "craftcms/contact-form-honeypot": "^2.0.0",
         "craftcms/google-cloud": "^2.0.0",
