@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "57c9a98b188d83a3af382978e7ff8634",
+    "content-hash": "26bd6b56db3003673680ee2b394febbd",
     "packages": [
         {
             "name": "abraham/twitteroauth",
@@ -3976,13 +3976,13 @@
             "version": "dev-EPO-7854",
             "source": {
                 "type": "git",
-                "url": "https://github.com/lsst-epo/craft3-universal-dam-integrator.git",
-                "reference": "4714d8aaaa6112e69ecfc39e7efc3c1eeee72243"
+                "url": "https://github.com/lsst-epo/craft-canto-dam-integrator.git",
+                "reference": "3ddd7eb9b0f2de0fbf551ae45e14aca0e577274e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/lsst-epo/craft3-universal-dam-integrator/zipball/4714d8aaaa6112e69ecfc39e7efc3c1eeee72243",
-                "reference": "4714d8aaaa6112e69ecfc39e7efc3c1eeee72243",
+                "url": "https://api.github.com/repos/lsst-epo/craft-canto-dam-integrator/zipball/3ddd7eb9b0f2de0fbf551ae45e14aca0e577274e",
+                "reference": "3ddd7eb9b0f2de0fbf551ae45e14aca0e577274e",
                 "shasum": ""
             },
             "require": {
@@ -4028,7 +4028,7 @@
                 "source": "https://github.com/lsst-epo/craft3-universal-dam-integrator",
                 "docs": "https://github.com/lsst-epo/craft3-universal-dam-integrator/blob/main/README.md"
             },
-            "time": "2023-03-30T21:03:03+00:00"
+            "time": "2023-10-03T22:20:08+00:00"
         },
         {
             "name": "mikehaertl/php-shellcommand",
