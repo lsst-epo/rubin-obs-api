@@ -32,7 +32,7 @@ jobs:
           # list of Docker images to use as base name for tags
           images: |
             gcr.io/skyviewer/rubinobs-api,enable=${{ github.ref != 'master' && github.ref_type != 'tag' }}
-            gcr.io/edc-int-6c5e/rubinobs-api,enable=${{ github.ref == 'master'}}
+            gcr.io/edc-int-6c5e/rubinobs-api,enable=${{ github.ref == 'master' || github.ref == 'k8s-build-updates' }}
             gcr.io/edc-prod-eef0/rubinobs-api,enable=${{ github.ref_type == 'tag'}}
           flavor: |
             latest=true
