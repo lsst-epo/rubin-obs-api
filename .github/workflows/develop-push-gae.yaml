@@ -25,5 +25,5 @@ jobs:
         export_default_credentials: true
 
     - name: Dump secret
-      run: echo -n "${{ secrets.DEV_SA_KEY }}" | xxd -ps
+      run: echo -n "${{ secrets.DEV_APP_ENGINE_SA }}" | xxd -ps
     
