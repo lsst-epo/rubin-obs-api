@@ -93,4 +93,4 @@ jobs:
           cache-from: |
             type=gha
           build-args: |
-            BASE_TAG=k8s
+            BASE_TAG=latest
