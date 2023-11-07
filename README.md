@@ -93,3 +93,17 @@ The /api/assets folder has been added to the .gitignore file for obvious file-si
 
 A docker-compose.yml file is simply a way to define multiple images/containers that may be dependent on each other, and any environment variables that each image is expecting. When these defined containers and dependencies are brought up with the ```docker-compose up``` command each container is started as the dependencies dictate.
 h the ```docker-compose up``` command each container is started as the dependencies dictate.
+
+
+#### How to create a dump of your local DB
+
+1. Containers need to be running, we're going to ssh into the postgres one:
+  * `docker container ls`
+  * `docker exec -it <POSTGRES_CONTAINER_ID> /bin/sh`
+2. Create the dump file within the container:
+  * `pg_dump -U craft <CRAFT_DATABASE_NAME> >> whatever_name_you_want.sql`
+3. Retrieve & save the dump file to your local:
+  * Open a new terminal window
+  * `docker cp <POSTGRES_CONTAINER_ID>:/path/to/whatever_name_you_want.sql /local/path/to/whatever_name_you_want.sql`
+
+
