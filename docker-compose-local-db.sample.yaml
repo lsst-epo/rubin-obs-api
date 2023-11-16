@@ -47,11 +47,6 @@ services:
       CANTO_AUTH_ENDPOINT: https://oauth.canto.com/oauth/api/oauth2/token?app_id={appId}&app_secret={secretKey}&grant_type=client_credentials&refresh_token=
       CANTO_ASSET_ENDPOINT: <RUBIN CANTO API ENTRYPOINT>
       CANTO_ASSET_BASEURL: <RUBIN CANTO ASSET BASE URL>
-      AWS_ASSET_KEY_ID: <AWS APP ID>
-      AWS_ASSET_SECRET_KEY: <AWS APP SECRET>
-      AWS_ASSET_S3_BUCKET: <AWS S3 BUCKET>
-      AWS_ASSET_S3_REGION: <AWS S3 REGION>
-      AWS_ASSET_S3_ASSET_VARIANT_SUBFOLDER: <AWS S3 BUCKET SUBFOLDER>
       FACEBOOK_APP_ID: <FACEBOOK APP ID>
       FACEBOOK_APP_SECRET: <FACEBOOK APP SECRET>
       FACEBOOK_APP_REDIRECT_URL: <CLIENT URL>/sso-redirect?sso=true&facebook=true

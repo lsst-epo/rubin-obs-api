@@ -10,7 +10,6 @@
 
 use craft\helpers\App;
 
-$s3BucketPathFormat = 'https://s3.%s.amazonaws.com/%s/';
 $gcsBucketPathFormat = 'https://storage.googleapis.com/%s/';
 
 return [
@@ -35,11 +34,6 @@ return [
         'aliases' => [
             '@webroot' => dirname(__DIR__) . '/web',
             '@previewUrlFormat' => App::env('ALIAS_PREVIEW_URL_FORMAT'),
-            '@assetsAssetVariantBaseURL' => sprintf(
-                $s3BucketPathFormat,
-                App::env('AWS_ASSET_S3_REGION'),
-                App::env('AWS_ASSET_S3_BUCKET')
-            ),
             '@assetsGeneralBaseURL' => sprintf(
                 $gcsBucketPathFormat,
                 App::env('GCS_GENERAL_BUCKET')
@@ -59,6 +53,10 @@ return [
             '@assetsStaffBaseURL' => sprintf(
                 $gcsBucketPathFormat,
                 App::env('GCS_STAFF_BUCKET')
+            ),
+            '@assetsVariantsBaseURL' => sprintf(
+                $gcsBucketPathFormat,
+                App::env('GCS_ASSET_VARIANTS_BUCKET')
             ),
             '@webBaseUrl' => App::env('WEB_BASE_URL')
         ],
