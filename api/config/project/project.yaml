@@ -1,4 +1,4 @@
-dateModified: 1694647778
+dateModified: 1700092915
 email:
   fromEmail: $EMAIL_FROM_ADDRESS
   fromName: $EMAIL_SENDER_NAME
@@ -18,20 +18,14 @@ fs:
     hasUrls: true
     name: 'Asset Variants'
     settings:
-      addSubfolderToRootUrl: '1'
-      autoFocalPoint: ''
-      bucket: $AWS_ASSET_S3_BUCKET
+      bucket: $GCS_ASSET_VARIANTS_BUCKET
       bucketSelectionMode: manual
-      cfDistributionId: ''
-      cfPrefix: ''
       expires: ''
-      keyId: $AWS_ASSET_KEY_ID
-      makeUploadsPublic: '1'
-      region: $AWS_ASSET_S3_REGION
-      secret: $AWS_ASSET_SECRET_KEY
-      subfolder: $AWS_ASSET_S3_ASSET_VARIANT_SUBFOLDER
-    type: craft\awss3\Fs
-    url: '@assetsAssetVariantBaseURL'
+      keyFileContents: ''
+      projectId: $GCP_PROJECT_ID
+      subfolder: ''
+    type: craft\googlecloud\Fs
+    url: '@assetsVariantsBaseURL'
   cantoDam:
     hasUrls: true
     name: 'Canto DAM'
@@ -405,10 +399,6 @@ plugins:
     edition: standard
     enabled: true
     schemaVersion: 3.0.0
-  aws-s3:
-    edition: standard
-    enabled: true
-    schemaVersion: '2.0'
   contact-form:
     edition: standard
     enabled: true
