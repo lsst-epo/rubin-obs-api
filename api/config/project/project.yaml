@@ -1,4 +1,4 @@
-dateModified: 1700092915
+dateModified: 1700605589
 email:
   fromEmail: $EMAIL_FROM_ADDRESS
   fromName: $EMAIL_SENDER_NAME
@@ -26,13 +26,6 @@ fs:
       subfolder: ''
     type: craft\googlecloud\Fs
     url: '@assetsVariantsBaseURL'
-  cantoDam:
-    hasUrls: true
-    name: 'Canto DAM'
-    settings:
-      dummySetting: ''
-    type: rosas\dam\volumes\DAMVolume
-    url: 'https://rubin.canto.com/direct/'
   contentImages:
     hasUrls: true
     name: 'Content Images'
@@ -116,6 +109,7 @@ meta:
     4a55a5d1-655b-4e30-8466-c84b6d8558dd: 'End Time' # End Time
     04a48967-eac4-449f-b164-c8ecbb7036d6: 'Search Results' # Search Results
     4b94ba3d-060c-4a09-b2dc-c519a4c83709: 'Cell Content' # Cell Content
+    4b6329ee-1231-466b-94e6-24b8f46ea9d6: 'Single Canto Asset' # Single Canto Asset
     4c977b75-9ee1-4cdb-9d2a-203639f4af84: Links # Links
     4d3b7f4d-258a-4d7b-b41e-29398e23ae3f: 'Staff Tags' # Staff Tags
     4ead9327-61fc-4b46-810c-5f490c2c45ad: 'Gallery Types' # Gallery Types
@@ -181,7 +175,6 @@ meta:
     46d17af4-896a-4fc5-90bf-ac826090d9bc: Credit # Credit
     46db7366-f372-41c2-9f6a-dc30bcd7a946: 'Callout - News' # Callout - News
     48ba11bd-90a5-4239-a24c-d44d01affbcf: 'Image - quote' # Image - quote
-    51d86fa7-e37a-4926-97c8-3112fd6f2fbe: 'Canto DAM' # Canto DAM
     56f60368-4386-4395-92b6-31b15c7663cc: Contact # Contact
     58aa24c3-97e4-43e7-a812-7374e5650180: 'Focal Point X' # Focal Point X
     58efa872-9485-42e3-a1e3-a5435def5392: Educators # Educators
@@ -204,7 +197,6 @@ meta:
     125d214d-7831-4150-b5bc-1a100bc3149d: School # School
     229f2975-93d3-4c6a-9996-dfa1de3004ef: 'Search Results' # Search Results
     380c1cbe-884e-421b-9e31-1f0dfc81e15f: 'Cell Width' # Cell Width
-    496e755e-78ab-4e3f-8c3a-9b320023b8ec: Image # Image
     522bc2d7-fcc3-4817-a986-5c860e53351c: 'Internal Entry' # Internal Entry
     522db817-08b6-4ecf-a423-4aec204ab85d: 'Content Blocks - News' # Content Blocks - News
     534d275e-b6e9-4064-9965-07e804e0fcc1: 'User Profile Page' # User Profile Page
@@ -214,7 +206,6 @@ meta:
     635a4a93-f10b-4d3c-bd44-2ea1474ad4cb: 'Vertical Alignment' # Vertical Alignment
     644c6b87-ac0c-4cdf-88be-744a5ee684bb: Description # Description
     657b9edd-b6d3-4b7f-af89-36117c5d98a8: 'Rich Text Description' # Rich Text Description
-    676da0d6-dc63-48fd-a5cd-7253c956974c: 'Canto DAM Asset' # Canto DAM Asset
     753b10b6-e9e6-44f5-a9d9-4a07788733e1: 'Content Ratio' # Content Ratio
     824d9ca2-e755-4e41-8f6a-18e573fec8e4: 'News Posts' # News Posts
     831db889-442e-4553-9076-fc3bc2843c8c: 'Hide title' # Hide title
@@ -395,6 +386,15 @@ meta:
     fcfd6cca-d4db-49ea-a864-b6582b85fbcf: 'End Date' # End Date
     fea30fc7-fc92-4268-961f-d514c1b903b8: 'Supporters'' Logos Alt' # Supporters' Logos Alt
 plugins:
+  _canto-dam-assets:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.1
+    settings:
+      appId: $CANTO_APP_ID
+      authEndpoint: $CANTO_AUTH_ENDPOINT
+      retrieveAssetMetadataEndpoint: $CANTO_ASSET_ENDPOINT
+      secretKey: $CANTO_SECRET_KEY
   asset-metadata:
     edition: standard
     enabled: true
@@ -2357,16 +2357,6 @@ plugins:
     edition: standard
     enabled: true
     schemaVersion: 2.0.0
-  universal-dam-integrator:
-    edition: standard
-    enabled: true
-    schemaVersion: 1.0.0
-    settings:
-      appId: $CANTO_APP_ID
-      authEndpoint: $CANTO_AUTH_ENDPOINT
-      damVolume: cantoDam
-      retrieveAssetMetadataEndpoint: $CANTO_ASSET_ENDPOINT
-      secretKey: $CANTO_SECRET_KEY
   venveo-bulk-edit:
     edition: standard
     enabled: true
