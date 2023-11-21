@@ -2,6 +2,7 @@ fieldLayouts:
   a8cd2eac-2f6d-4d2d-8c0b-bb3f624542dd:
     tabs:
       -
+        elementCondition: null
         elements:
           -
             autocapitalize: true
@@ -9,8 +10,9 @@ fieldLayouts:
             autocorrect: true
             class: null
             disabled: false
+            elementCondition: null
             id: null
-            instructions: ''
+            instructions: null
             label: Term
             max: null
             min: null
@@ -24,41 +26,56 @@ fieldLayouts:
             tip: null
             title: null
             type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 61797a36-b6db-4e54-b435-9d30a9043649
+            userCondition: null
             warning: null
             width: 25
           -
+            elementCondition: null
             fieldUid: 7db205b7-a548-42f1-8c26-416ec51cf3fa # Text
-            instructions: ''
-            label: Definition
-            required: ''
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            warning: null
-            width: 75
-          -
-            fieldUid: 496e755e-78ab-4e3f-8c3a-9b320023b8ec # Image
             instructions: null
-            label: null
+            label: Definition
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: dcac119b-35dc-4555-a406-219f617fd5d0
+            userCondition: null
             warning: null
-            width: 50
+            width: 75
           -
+            elementCondition: null
+            fieldUid: 4b6329ee-1231-466b-94e6-24b8f46ea9d6 # Single Canto Asset
+            instructions: null
+            label: Image
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: ba971e2c-8b89-486c-a27e-2e56e56919c3
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
             fieldUid: 10118ebf-e3bf-4b1b-bbb8-4b57ab3753c8 # Caption
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: 6d31eb58-08cf-4344-95cb-f6f14762309b
+            userCondition: null
             warning: null
             width: 50
         name: Content
-        sortOrder: 1
+        uid: fb49671a-9e05-461d-8b26-435d46b1c279
+        userCondition: null
 handle: glossaryTerm
 hasTitleField: true
 name: 'Glossary Term'
 section: 4ffeb743-f02d-42af-8656-a6f9c1363e79 # Glossary Terms
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
 sortOrder: 1
 titleFormat: null
 titleTranslationKeyFormat: null
