@@ -92,13 +92,13 @@ fieldLayouts:
             width: 25
           -
             elementCondition: null
-            fieldUid: 496e755e-78ab-4e3f-8c3a-9b320023b8ec # Image
+            fieldUid: 4b6329ee-1231-466b-94e6-24b8f46ea9d6 # Single Canto Asset
             instructions: null
-            label: null
+            label: Image
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 990498d5-4a5b-4fdc-834a-1604b6532ab5
+            uid: 6162960a-1489-401c-a8d9-5ae457fa3561
             userCondition: null
             warning: null
             width: 100
@@ -109,6 +109,9 @@ handle: investigation
 hasTitleField: true
 name: Investigation
 section: 546e0c6d-dd32-4997-8487-cc4c2fcc9480 # Investigations
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
 sortOrder: 1
 titleFormat: null
 titleTranslationKeyFormat: null
