@@ -1,4 +1,4 @@
-dateModified: 1700605589
+dateModified: 1701284966
 email:
   fromEmail: $EMAIL_FROM_ADDRESS
   fromName: $EMAIL_SENDER_NAME
@@ -30,8 +30,8 @@ fs:
     hasUrls: true
     name: 'Content Images'
     settings:
-      bucket: rubin-obs-api_assets_content
-      bucketSelectionMode: choose
+      bucket: $GCS_CONTENT_BUCKET
+      bucketSelectionMode: manual
       expires: '5 minutes'
       keyFileContents: ''
       projectId: $GCP_PROJECT_ID
@@ -42,8 +42,8 @@ fs:
     hasUrls: true
     name: General
     settings:
-      bucket: rubin-obs-api_assets_general
-      bucketSelectionMode: choose
+      bucket: $GCS_GENERAL_BUCKET
+      bucketSelectionMode: manual
       expires: '5 minutes'
       keyFileContents: ''
       projectId: $GCP_PROJECT_ID
@@ -54,8 +54,8 @@ fs:
     hasUrls: true
     name: Heroes
     settings:
-      bucket: rubin-obs-api_assets_heroes
-      bucketSelectionMode: choose
+      bucket: $GCS_HEROES_BUCKET
+      bucketSelectionMode: manual
       expires: '5 minutes'
       keyFileContents: ''
       projectId: $GCP_PROJECT_ID
@@ -66,8 +66,8 @@ fs:
     hasUrls: true
     name: 'Staff Profiles'
     settings:
-      bucket: rubin-obs-api_assets_staff_profiles
-      bucketSelectionMode: choose
+      bucket: $GCS_STAFF_BUCKET
+      bucketSelectionMode: manual
       expires: '5 minutes'
       keyFileContents: ''
       projectId: $GCP_PROJECT_ID
