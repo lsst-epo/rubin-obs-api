@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "57c9a98b188d83a3af382978e7ff8634",
+    "content-hash": "60ef3417ee155e314e4721aa96f83c8d",
     "packages": [
         {
             "name": "abraham/twitteroauth",
@@ -774,70 +774,6 @@
                 }
             ],
             "time": "2022-02-25T21:32:43+00:00"
-        },
-        {
-            "name": "craftcms/cms",
-            "version": "4.5.4",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/craftcms/cms.git",
-                "reference": "bf4756f4079d883852ce50343e4d9668558dfb1c"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/craftcms/aws-s3/zipball/a04ee659490d53da879e302e660ba3807532a926",
-                "reference": "a04ee659490d53da879e302e660ba3807532a926",
-                "shasum": ""
-            },
-            "require": {
-                "craftcms/cms": "^4.0.0-beta.1",
-                "craftcms/flysystem": "^1.0.0-beta.2",
-                "league/flysystem-aws-s3-v3": "^3.0.0",
-                "php": "^8.0.2"
-            },
-            "require-dev": {
-                "craftcms/ecs": "dev-main",
-                "craftcms/phpstan": "dev-main",
-                "craftcms/rector": "dev-main"
-            },
-            "type": "craft-plugin",
-            "extra": {
-                "name": "Amazon S3",
-                "handle": "aws-s3",
-                "documentationUrl": "https://github.com/craftcms/aws-s3/blob/master/README.md"
-            },
-            "autoload": {
-                "psr-4": {
-                    "craft\\awss3\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Pixel & Tonic",
-                    "homepage": "https://pixelandtonic.com/"
-                }
-            ],
-            "description": "Amazon S3 integration for Craft CMS",
-            "keywords": [
-                "Flysystem",
-                "aws",
-                "cms",
-                "craftcms",
-                "s3",
-                "yii2"
-            ],
-            "support": {
-                "docs": "https://github.com/craftcms/aws-s3/blob/master/README.md",
-                "email": "support@craftcms.com",
-                "issues": "https://github.com/craftcms/aws-s3/issues?state=open",
-                "rss": "https://github.com/craftcms/aws-s3/commits/master.atom",
-                "source": "https://github.com/craftcms/aws-s3"
-            },
-            "time": "2023-03-16T22:49:16+00:00"
         },
         {
             "name": "craftcms/cms",
@@ -3489,20 +3425,21 @@
         },
         {
             "name": "lsst-epo/canto-dam-assets",
-            "version": "dev-develop-v4",
+            "version": "4.0.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/lsst-epo/canto-dam-assets.git",
-                "reference": "a7351e63f1b5ab1937ca79c0f59a66c9848f0d84"
+                "reference": "23b37e676db58fc84171b78ad2f2089b90696247"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/lsst-epo/canto-dam-assets/zipball/a7351e63f1b5ab1937ca79c0f59a66c9848f0d84",
-                "reference": "a7351e63f1b5ab1937ca79c0f59a66c9848f0d84",
+                "url": "https://api.github.com/repos/lsst-epo/canto-dam-assets/zipball/23b37e676db58fc84171b78ad2f2089b90696247",
+                "reference": "23b37e676db58fc84171b78ad2f2089b90696247",
                 "shasum": ""
             },
             "require": {
                 "craftcms/cms": "^4.4.0",
+                "daccess1/yii2-json-query-helper": "^1.0.0",
                 "nystudio107/craft-plugin-vite": "^4.0.0",
                 "php": ">=8.0.2"
             },
@@ -3510,7 +3447,6 @@
                 "craftcms/ecs": "dev-main",
                 "craftcms/phpstan": "dev-main"
             },
-            "default-branch": true,
             "type": "craft-plugin",
             "extra": {
                 "handle": "_canto-dam-assets",
@@ -3841,58 +3777,6 @@
                 }
             ],
             "time": "2023-02-06T13:44:46+00:00"
-        },
-        {
-            "name": "nystudio107/craft-plugin-vite",
-            "version": "4.0.8",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/nystudio107/craft-plugin-vite.git",
-                "reference": "eb05b1cc7dc9eeecbdfe8cd3cd3d119e83c62619"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/nystudio107/craft-plugin-vite/zipball/eb05b1cc7dc9eeecbdfe8cd3cd3d119e83c62619",
-                "reference": "eb05b1cc7dc9eeecbdfe8cd3cd3d119e83c62619",
-                "shasum": ""
-            },
-            "require": {
-                "craftcms/cms": "^4.0.0"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "nystudio107\\pluginvite\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "nystudio107",
-                    "homepage": "https://nystudio107.com"
-                }
-            ],
-            "description": "Plugin Vite is the conduit between Craft CMS plugins and Vite, with manifest.json & HMR support",
-            "keywords": [
-                "craftcms",
-                "plugin",
-                "vite"
-            ],
-            "support": {
-                "docs": "https://github.com/nystudio107/craft-plugin-vite/blob/v1/README.md",
-                "issues": "https://github.com/nystudio107/craft-plugin-vite/issues",
-                "source": "https://github.com/nystudio107/craft-plugin-vite/tree/4.0.8"
-            },
-            "funding": [
-                {
-                    "url": "https://github.com/khalwat",
-                    "type": "github"
-                }
-            ],
-            "time": "2023-01-25T21:09:10+00:00"
         },
         {
             "name": "nystudio107/craft-plugin-vite",
@@ -8956,10 +8840,7 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": {
-        "lsst-epo/canto-dam-assets": 20,
-        "lsst/canto-dam-integrator": 20
-    },
+    "stability-flags": [],
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": [],
@@ -8967,5 +8848,5 @@
     "platform-overrides": {
         "php": "8.1.10"
     },
-    "plugin-api-version": "2.2.0"
+    "plugin-api-version": "2.3.0"
 }
