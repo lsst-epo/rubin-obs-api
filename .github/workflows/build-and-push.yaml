@@ -53,28 +53,25 @@ jobs:
         uses: docker/setup-buildx-action@v2
       - 
         name: Login to GCP Dev
-        uses: google-github-actions/setup-gcloud@v0
+        uses: 'google-github-actions/auth@v2'
         if: ${{ (github.ref != 'master' && github.ref_type != 'tag') || github.base_ref == 'develop' }}
         with:
-          service_account_key: ${{ secrets.DEV_SA_KEY }}
-          project_id: skyviewer
-          export_default_credentials: true
+          credentials_json: ${{ secrets.DEV_SA_KEY }}
       - 
         name: Login to GCP Int
-        uses: google-github-actions/setup-gcloud@v0
+        uses: 'google-github-actions/auth@v2'
         if: ${{ github.ref == 'master' || github.base_ref == 'master'}}
         with:
-          service_account_key: ${{ secrets.SKYVIEWER_INT_SERVICE_ACCOUNT }}
-          project_id: edc-int-6c5e
-          export_default_credentials: true
+          credentials_json: ${{ secrets.SKYVIEWER_INT_SERVICE_ACCOUNT }}
       - 
         name: Login to GCP Prod
-        uses: google-github-actions/setup-gcloud@v0
+        uses: 'google-github-actions/auth@v2'
         if: ${{ github.ref_type == 'tag' }}
         with:
-          service_account_key: ${{ secrets.PIPELINE_EPO_PROD_PROJECT  }}
-          project_id: edc-prod-eef0
-          export_default_credentials: true
+          credentials_json: ${{ secrets.PIPELINE_EPO_PROD_PROJECT  }}
+      - 
+        name: 'Set up Cloud SDK'
+        uses: 'google-github-actions/setup-gcloud@v2'
       - 
         run: gcloud --quiet auth configure-docker
       -
