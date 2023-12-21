@@ -1,0 +1,89 @@
+name: Deploy to GKE
+
+on:
+  workflow_dispatch:
+    inputs:
+      production:
+        description: A boolean indicating if this is a prod deployment
+        type: boolean
+        required: false
+        default: false
+      image_tag:
+        description: The API image tag to deploy
+        type: string
+        required: false
+        default: latest
+
+concurrency: ${{ inputs.environment }}-deploy
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - 
+        name: Login to GCP Int
+        uses: 'google-github-actions/auth@v2'
+        if: ${{ !inputs.production }}
+        with:
+          credentials_json: ${{ secrets.SKYVIEWER_INT_SERVICE_ACCOUNT }}
+
+      - 
+        name: Login to GCP Prod
+        uses: 'google-github-actions/auth@v2'
+        if: ${{ inputs.production }}
+        with:
+          credentials_json: ${{ secrets.PIPELINE_EPO_PROD_PROJECT  }}
+
+      - 
+        name: 'Set up Cloud SDK'
+        uses: 'google-github-actions/setup-gcloud@v2'
+
+      - 
+        name: Get Int Cluster Credentials
+        uses: 'google-github-actions/get-gke-credentials@v2'
+        if: ${{ inputs.production }}
+        with:
+          cluster_name: gke-ap-edc-int
+          location: us-central1
+
+      - 
+        name: Get Prod Cluster Credentials
+        uses: 'google-github-actions/get-gke-credentials@v2'
+        if: ${{ inputs.production }}
+        with:
+          cluster_name: gke-ap-edc-prod
+          location: us-central1
+      
+      -
+        name: Get Application/Deployment name
+        run: |
+          echo deployment_name=$(kubectl get deployment -n rubinobs -l app.kubernetes.io=api -o name) >> $GITHUB_ENV
+
+      -
+        name: Update ArgoCD Application/Deployment
+        if: ${{ inputs.production }}
+        run : |
+          cat <<-EOF | kubectl apply -f-
+            apiVersion: argoproj.io/v1alpha1
+            kind: Application
+            metadata:
+              name: edc-prod-rubinobs-site
+              namespace: argocd
+            spec:
+              source:
+                helm:
+                  parameters:
+                    - name: api.image.tag
+                      value: latest
+            operation:
+              initiatedBy:
+                username: ${{ github.actor }}
+              sync:
+                syncStrategy:
+                  hook: {}
+          EOF
+      
+      -
+        name: Restart Deployment
+        if: ${{ !inputs.production && image_tag == 'latest' }}
+        run: kubectl rollout restart -n rubinobs $deployment_name

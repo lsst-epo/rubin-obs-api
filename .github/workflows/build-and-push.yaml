@@ -88,3 +88,19 @@ jobs:
             type=gha
           build-args: |
             BASE_TAG=k8s
+
+  deploy-prod:
+    needs: docker
+    uses: ./.github/workflows/deploy-gke.yaml
+    if: ${{ github.ref_type == 'tag' }}
+    with:
+      production: true
+      image_tag: ${{ github.ref }}
+  
+  deploy-int:
+    needs: docker
+    uses: ./.github/workflows/deploy-gke.yaml
+    if: ${{ github.ref == 'master' }}
+    with:
+      production: false
+      image_tag: ${{ steps.meta.outputs.version }}
