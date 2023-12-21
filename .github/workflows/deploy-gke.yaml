@@ -1,7 +1,7 @@
 name: Deploy to GKE
 
 on:
-  workflow_dispatch:
+  workflow_call:
     inputs:
       production:
         description: A boolean indicating if this is a prod deployment
