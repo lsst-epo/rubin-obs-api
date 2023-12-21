@@ -85,5 +85,5 @@ jobs:
       
       -
         name: Restart Deployment
-        if: ${{ !inputs.production && image_tag == 'latest' }}
+        if: ${{ !inputs.production && inputs.image_tag == 'latest' }}
         run: kubectl rollout restart -n rubinobs $deployment_name
