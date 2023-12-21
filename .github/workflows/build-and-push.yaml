@@ -103,4 +103,4 @@ jobs:
     if: ${{ github.ref == 'master' }}
     with:
       production: false
-      image_tag: ${{ steps.meta.outputs.version }}
+      image_tag: latest
