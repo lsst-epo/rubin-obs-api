@@ -2163,9 +2163,6 @@ plugins:
                       -
                         - assetVariants
                         - ''
-                      -
-                        - cantoDam
-                        - ''
           -
             - group-11
             -
@@ -2231,9 +2228,6 @@ plugins:
                         - ''
                       -
                         - assetVariants
-                        - ''
-                      -
-                        - cantoDam
                         - ''
       invalidEmailAddress: 'Invalid email address'
       invalidHeader: 'Invalid Authorization Header'
