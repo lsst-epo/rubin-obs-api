@@ -53,10 +53,8 @@ jobs:
         id: deploy-tag
         run: |
           tag=''
-          for tag in ${{ fromJSON(steps.meta.outputs.json).tags }}
-          do
-            if [[ $tag =~ ":(sha-|v.[0-9.]{3})"]]
-            then
+          for tag in ${{ fromJSON(steps.meta.outputs.json).tags }}; do
+            if [[ $tag =~ /:(sha-|v.[0-9.]{3})/ ]]; then
               tag=$tag
             fi
           done
