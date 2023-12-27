@@ -54,9 +54,9 @@ jobs:
         env:
           DOCKER_METADATA: ${{ steps.meta.outputs.json }}
         run: |
-          tag=$(echo "$DOCKER_METADATA" | jq -r '.tags[]')
-          echo $tag
-          echo tag=$tag >> "$GITHUB_OUTPUT"
+          tag=$(echo "$DOCKER_METADATA" | jq -r 'select(.tags[], ":sha-|:v.")')
+          echo cut -f1 -d: $tag
+          echo tag=$(cut -f1 -d: $tag) >> "$GITHUB_OUTPUT"
 
       -
         name: Set up QEMU
