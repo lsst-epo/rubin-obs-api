@@ -22,12 +22,13 @@ concurrency: ${{ inputs.environment }}-deploy
 
 env:
   APPLICATION_NAME: rubinobs-site
-  MANIFEST_FILENAME: ${{ env.APPLICATION_NAME }}-${{inputs.environment}}-${{ github.job }}.yaml
 
 jobs:
   generate-manifest:
     name: Generate Application Manifest
     runs-on: ubuntu-latest
+    env:
+      MANIFEST_FILENAME: ${{ env.APPLICATION_NAME }}-${{inputs.environment}}-${{ github.job }}.yaml
     steps:
       -
         run: |
