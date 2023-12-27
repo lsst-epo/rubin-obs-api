@@ -17,20 +17,22 @@ on:
         type: boolean
         required: false
         default: false
+      application_name:
+        description: The name of the application to deploy (e.g. 'rubinobs-site')
+        type: string
+        required: false
+        default: rubinobs-site
 
 concurrency: ${{ inputs.environment }}-deploy
 
 env:
-  MANIFEST_FILENAME: rubinobs-site-${{inputs.environment}}-${{ github.job }}.yaml
+  MANIFEST_FILENAME: ${{ inputs.application_name }}-${{inputs.environment}}-${{ github.sha }}.yaml
 
 jobs:
   generate-manifest:
     name: Generate Application Manifest
     runs-on: ubuntu-latest
     steps:
-      -
-        run: |
-          echo "Image tag: ${{inputs.timage_tag}}"
       -
         name: Write Manifest
         if: ${{ !inputs.preview }}
@@ -39,7 +41,7 @@ jobs:
               apiVersion: argoproj.io/v1alpha1
               kind: Application
               metadata:
-                name: edc-${{ inputs.environment }}-rubinobs-site
+                name: edc-${{ inputs.environment }}-${{ inputs.application_name }}
                 namespace: argocd
               spec:
                 source:
@@ -63,7 +65,7 @@ jobs:
       #         apiVersion: argoproj.io/v1alpha1
       #         kind: Application
       #         metadata:
-      #           name: edc-${{ inputs.environment }}-rubinobs-api-preview-${{ github.ref }}
+      #           name: edc-${{ inputs.environment }}-${{ inputs.application_name }}-preview-${{ github.ref }}
       #           namespace: argocd
       #         spec:
       #           source:
