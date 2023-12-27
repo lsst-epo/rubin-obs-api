@@ -22,7 +22,7 @@ jobs:
     name: Build Container Image
     runs-on: ubuntu-latest
     outputs:
-      deploy_tag: ${{ fromJSON(steps.meta.outputs.json).tags[0] }}
+      deploy_tag: ${{ steps.deploy-tag.outputs.tag }}
     steps:
       -
         name: Checkout
@@ -48,6 +48,20 @@ jobs:
             type=semver,pattern={{major}}.{{minor}}
             type=semver,pattern={{major}}
             type=sha
+      -
+        name: Parse deployment tag
+        id: deploy-tag
+        run: |
+          tag=''
+          for tag in ${{ fromJSON(steps.meta.outputs.json).tags }}
+          do
+            if [[ $tag =~ ":(sha-|v.[0-9.]{3})"]]
+            then
+              tag=$tag
+            fi
+          done
+          echo "tag=$tag" >> "$GITHUB_OUTPUT"
+
       -
         name: Set up QEMU
         uses: docker/setup-qemu-action@v2
