@@ -138,4 +138,4 @@ jobs:
 
       -
         name: Apply Application Manifest
-        run: kubectl apply -f ${{ steps.download.outpus.download-path }}/${{ env.MANIFEST_FILENAME }}
+        run: kubectl apply -f ${{ steps.download.outputs.download-path }}/${{ env.MANIFEST_FILENAME }}
