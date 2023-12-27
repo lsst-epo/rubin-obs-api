@@ -22,7 +22,7 @@ jobs:
     name: Build Container Image
     runs-on: ubuntu-latest
     outputs:
-      tags: ${{ steps.meta.outputs.tags }}
+      deploy_tag: ${{ fromJSON(steps.meta.outputs.json).tags[0] }}
     steps:
       -
         name: Checkout
@@ -100,7 +100,7 @@ jobs:
     if: ${{ github.ref_type == 'tag' }}
     with:
       environment: prod
-      image_tag: ${{ needs.docker.outputs.tags }}
+      image_tag: ${{ needs.docker.outputs.deploy_tag }}
   
   deploy-int:
     name: Deploy Int
@@ -110,4 +110,4 @@ jobs:
     if: ${{ github.ref == 'master' || (github.base_ref == 'master') }}
     with:
       environment: int
-      image_tag: ${{ needs.docker.outputs.tags }}
+      image_tag: ${{ needs.docker.outputs.deploy_tag }}
