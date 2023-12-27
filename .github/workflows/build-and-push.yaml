@@ -99,7 +99,7 @@ jobs:
     if: ${{ github.ref_type == 'tag' }}
     with:
       environment: prod
-      image_tag: ${{ fromJSON(needs.docker.outputs.tags)[0] }}
+      image_tag: ${{ needs.docker.outputs.tags }}
   
   deploy-int:
     name: Deploy Int
@@ -108,4 +108,4 @@ jobs:
     if: ${{ github.ref == 'master' || (github.base_ref == 'master') }}
     with:
       environment: int
-      image_tag: ${{ fromJSON(needs.docker.outputs.tags)[0] }}
+      image_tag: ${{ needs.docker.outputs.tags }}
