@@ -116,7 +116,7 @@ jobs:
       - 
         name: Get Int Cluster Credentials
         uses: 'google-github-actions/get-gke-credentials@v2'
-        if: ${{ inputs.enviornment == 'int' }}
+        if: ${{ inputs.environment == 'int' }}
         with:
           cluster_name: gke-ap-edc-int
           location: us-central1
