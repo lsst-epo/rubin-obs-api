@@ -3,34 +3,107 @@ name: Deploy to GKE
 on:
   workflow_call:
     inputs:
-      production:
-        description: A boolean indicating if this is a prod deployment
-        type: boolean
-        required: false
-        default: false
+      environment:
+        description: The environment to deploy to (prod, int, or dev)
+        type: string
+        required: true
       image_tag:
         description: The API image tag to deploy
         type: string
         required: false
         default: latest
+      preview:
+        description: A boolean indicating if this is a preview deployment
+        type: boolean
+        required: false
+        default: false
 
 concurrency: ${{ inputs.environment }}-deploy
 
+env:
+  APPLICATION_NAME: rubinobs-site
+  MANIFEST_FILENAME: ${{ env.APPLICATION_NAME }}-${{inputs.environment}}-${{ github.job }}.yaml
+
 jobs:
+  generate-manifest:
+    name: Generate Application Manifest
+    runs-on: ubuntu-latest
+    steps:
+      -
+        run: |
+          echo "Image tag: ${{inputs.timage_tag}}"
+      -
+        name: Write Manifest
+        if: ${{ !inputs.preview }}
+        run: |
+          cat <<-EOF > ${{ env.MANIFEST_FILENAME }}
+              apiVersion: argoproj.io/v1alpha1
+              kind: Application
+              metadata:
+                name: edc-${{ inputs.environment }}-rubinobs-site
+                namespace: argocd
+              spec:
+                source:
+                  helm:
+                    parameters:
+                      - name: api.image.tag
+                        value: ${{ inputs.image_tag }}
+              operation:
+                initiatedBy:
+                  username: ${{ github.actor }}
+                sync:
+                  syncStrategy:
+                    hook: {}
+            EOF
+      
+      # -
+      #   name: Write Preview Version Manifest
+      #   if: ${{ inputs.preview }}
+      #   run: |
+      #     cat <<-EOF > ${{ env.MANIFEST_FILENAME }}
+      #         apiVersion: argoproj.io/v1alpha1
+      #         kind: Application
+      #         metadata:
+      #           name: edc-${{ inputs.environment }}-rubinobs-api-preview-${{ github.ref }}
+      #           namespace: argocd
+      #         spec:
+      #           source:
+      #             repoURL: 'git@github.com:lsst-epo/edc-deploy.git'
+      #             path: environment/applications/epo-site/charts/epo-api
+      #             targetRevision: master
+      #             helm:
+      #               parameters:
+      #                 - name: test
+      #                   value: test
+      #           destination:
+      #             server: 'https://kubernetes.default.svc'
+      #             namespace: rubinobs
+      #         operation:
+      #           initiatedBy:
+      #             username: ${{ github.actor }}
+      #           sync:
+      #             syncStrategy:
+      #               hook: {}
+      #       EOF
+
+      -
+        uses: actions/upload-artifact@v4
+        with:
+          path: ${{ env.MANIFEST_FILENAME }}
   deploy:
     runs-on: ubuntu-latest
     steps:
       - 
         name: Login to GCP Int
         uses: 'google-github-actions/auth@v2'
-        if: ${{ !inputs.production }}
+        if: ${{ inputs.environment == 'int'}}
         with:
           credentials_json: ${{ secrets.SKYVIEWER_INT_SERVICE_ACCOUNT }}
 
       - 
         name: Login to GCP Prod
         uses: 'google-github-actions/auth@v2'
-        if: ${{ inputs.production }}
+        if: ${{ inputs.environment == 'prod'}}
         with:
           credentials_json: ${{ secrets.PIPELINE_EPO_PROD_PROJECT  }}
 
@@ -41,7 +114,7 @@ jobs:
       - 
         name: Get Int Cluster Credentials
         uses: 'google-github-actions/get-gke-credentials@v2'
-        if: ${{ inputs.production }}
+        if: ${{ inputs.enviornment == 'int' }}
         with:
           cluster_name: gke-ap-edc-int
           location: us-central1
@@ -49,41 +122,15 @@ jobs:
       - 
         name: Get Prod Cluster Credentials
         uses: 'google-github-actions/get-gke-credentials@v2'
-        if: ${{ inputs.production }}
+        if: ${{ inputs.environment == 'prod' }}
         with:
           cluster_name: gke-ap-edc-prod
           location: us-central1
       
       -
-        name: Get Application/Deployment name
-        run: |
-          echo deployment_name=$(kubectl get deployment -n rubinobs -l app.kubernetes.io=api -o name) >> $GITHUB_ENV
+        name: Download Manifest
+        uses: actions/download-artifact@v4
 
       -
-        name: Update ArgoCD Application/Deployment
-        if: ${{ inputs.production }}
-        run : |
-          cat <<-EOF | kubectl apply -f-
-            apiVersion: argoproj.io/v1alpha1
-            kind: Application
-            metadata:
-              name: edc-prod-rubinobs-site
-              namespace: argocd
-            spec:
-              source:
-                helm:
-                  parameters:
-                    - name: api.image.tag
-                      value: latest
-            operation:
-              initiatedBy:
-                username: ${{ github.actor }}
-              sync:
-                syncStrategy:
-                  hook: {}
-          EOF
-      
-      -
-        name: Restart Deployment
-        if: ${{ !inputs.production && inputs.image_tag == 'latest' }}
-        run: kubectl rollout restart -n rubinobs $deployment_name
+        name: Apply Application Manifest
+        run: kubectl apply -f ${{ env.MANIFEST_FILENAME }}

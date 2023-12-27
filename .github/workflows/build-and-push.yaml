@@ -1,4 +1,4 @@
-name: build-and-push
+name: Build, Push, and Deploy
 
 on:
   push:
@@ -19,7 +19,10 @@ on:
 
 jobs:
   docker:
+    name: Build Container Image
     runs-on: ubuntu-latest
+    outputs:
+      tags: ${{ steps.meta.outputs.tags }}
     steps:
       -
         name: Checkout
@@ -90,17 +93,19 @@ jobs:
             BASE_TAG=k8s
 
   deploy-prod:
+    name: Deploy Prod
     needs: docker
     uses: ./.github/workflows/deploy-gke.yaml
     if: ${{ github.ref_type == 'tag' }}
     with:
-      production: true
-      image_tag: ${{ github.ref }}
+      environment: prod
+      image_tag: ${{ fromJSON(needs.docker.outputs.tags)[0] }}
   
   deploy-int:
+    name: Deploy Int
     needs: docker
     uses: ./.github/workflows/deploy-gke.yaml
-    if: ${{ github.ref == 'master' }}
+    if: ${{ github.ref == 'master' || (github.base_ref == 'master' && contains(github.event.issue.labels.*.name, 'preview')) }}
     with:
-      production: false
-      image_tag: latest
+      environment: int
+      image_tag: ${{ fromJSON(needs.docker.outputs.tags)[0] }}
