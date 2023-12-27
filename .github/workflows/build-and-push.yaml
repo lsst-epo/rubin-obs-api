@@ -105,7 +105,7 @@ jobs:
     name: Deploy Int
     needs: docker
     uses: ./.github/workflows/deploy-gke.yaml
-    if: ${{ github.ref == 'master' || (github.base_ref == 'master' && contains(github.event.issue.labels.*.name, 'preview')) }}
+    if: ${{ github.ref == 'master' || (github.base_ref == 'master') }}
     with:
       environment: int
       image_tag: ${{ fromJSON(needs.docker.outputs.tags)[0] }}
