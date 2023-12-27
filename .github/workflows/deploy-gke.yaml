@@ -91,6 +91,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           path: ${{ env.MANIFEST_FILENAME }}
+          name: deployment-manifest
   deploy:
     runs-on: ubuntu-latest
     steps:
@@ -130,8 +131,11 @@ jobs:
       
       -
         name: Download Manifest
+        id: download
         uses: actions/download-artifact@v4
+        with:
+          name: deployment-manifest
 
       -
         name: Apply Application Manifest
-        run: kubectl apply -f ${{ env.MANIFEST_FILENAME }}
+        run: kubectl apply -f ${{ steps.download.outpus.download-path }}/${{ env.MANIFEST_FILENAME }}
