@@ -52,7 +52,7 @@ jobs:
         name: Parse deployment tag
         id: deploy-tag
         run: |
-          tag=$(echo ${{ steps.meta.outputs.json }} | jq -r '.tags')
+          tag=$(echo ${{ steps.meta.outputs.json }} | jq -r '.')
           echo $tag
           echo tag=$tag >> "$GITHUB_OUTPUT"
 
