@@ -52,14 +52,9 @@ jobs:
         name: Parse deployment tag
         id: deploy-tag
         run: |
-          tag=''
-          for tag in ${{ fromJSON(steps.meta.outputs.json).tags }}; do
-            echo $tag
-            if [[ $tag =~ /:(sha-|v.[0-9.]{3})/ ]]; then
-              tag=$tag
-            fi
-          done
-          echo "tag=$tag" >> "$GITHUB_OUTPUT"
+          tag=$(jq -r '.tags[] | select(. | test("sha-")) ${{ steps.meta.outputs.json }})')
+          echo $tag
+          echo tag=$tag >> "$GITHUB_OUTPUT"
 
       -
         name: Set up QEMU
