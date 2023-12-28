@@ -34,11 +34,11 @@ env:
 
 jobs:
   generate-manifest:
-    name: Generate Application Manifest
+    name: Make App Manifest
     runs-on: ubuntu-latest
     steps:
       -
-        name: Write Manifest
+        name: Make Sync Manifest
         if: ${{ !inputs.preview }}
         run: |
           cat <<-EOF > ${{ env.MANIFEST_FILENAME }}
@@ -59,15 +59,15 @@ jobs:
                 initiatedBy:
                   username: ${{ github.actor }}
                 sync:
+                  resources:
+                    - kind: Deployment
+                      name: edc-${{ inputs.environment }}-${{ inputs.application_name }}-api
                   syncStrategy:
-                    resources:
-                      - kind: Deployment
-                        name: edc-${{ inputs.environment }}-${{ inputs.application_name }}-api
                     hook: {}
             EOF
       
       # -
-      #   name: Write Preview Version Manifest
+      #   name: Make Preview Version Manifest
       #   if: ${{ inputs.preview }}
       #   run: |
       #     cat <<-EOF > ${{ env.MANIFEST_FILENAME }}
