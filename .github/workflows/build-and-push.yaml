@@ -133,25 +133,37 @@ jobs:
           DATA="{
             \"event_type\": \"app_update_values\",
             \"client_payload\": {
+              \"run_id\": \"${{ github.repository}}/${{github.ref }}/${{ github.sha }}"
               \"app_name\": \"rubinobs-site\",
               \"environment_name\": \"${{ needs.build.outputs.environment_name }}\",
               \"parameters\": $(jq -c -n '$ARGS.positional' --args ${PARAMETERS[@]})
             }
           }"
           echo "data=$(echo $DATA | jq -rc '.')" >> "$GITHUB_OUTPUT"
-      - name: Call Deployment Webhook
-        env:
-          WEBHOOK_URL: https://api.github.com/repos/lsst-epo/edc-deploy/dispatches
-        run: |-
-            curl -L --fail \
-            -X POST \
-            $WEBHOOK_URL \
-            -H 'Content-Type: application/json' \
-            -H "Accept: application/vnd.github+json" \
-            -H 'Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}' \
-            -d "${{ toJson(fromJson(steps.payload.outputs.data)) }}"
-            cat <<-EOT >> "$GITHUB_STEP_SUMMARY"
-              # Deployment Workflow Triggered
+      # - name: Call Dispatch Webhook
+      #   env:
+      #     WEBHOOK_URL: https://api.github.com/repos/lsst-epo/edc-deploy/dispatches
+      #   run: |-
+      #       curl -L --fail \
+      #       -X POST \
+      #       $WEBHOOK_URL \
+      #       -H 'Content-Type: application/json' \
+      #       -H "Accept: application/vnd.github+json" \
+      #       -H 'Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}' \
+      #       -d "${{ toJson(fromJson(steps.payload.outputs.data)) }}"
+      #       cat <<-EOT >> "$GITHUB_STEP_SUMMARY"
+      #         # Deployment Workflow Triggered
 
-              Access the deployment workflow at <https://github.com/lsst-epo/edc-deploy/actions/workflows/app-update-values.yaml>
-            EOT
+      #         Access the deployment workflow at <https://github.com/lsst-epo/edc-deploy/actions/workflows/app-update-values.yaml>
+      #       EOT
+      - uses: lasith-kg/dispatch-workflow@v1.7.0
+        id: dispatch
+        name: Trigger Deployment and Wait
+        with:
+          dispatch-method: repository_dispatch
+          repo: edc-deploy
+          owner: lsst-epo
+          event-type: app_update_values 
+          token: ${{ secrets.GITHUB_TOKEN }} 
+          workflow-inputs: ${{ toJson(steps.payload.outputs.data) }}
+          discover: true
