@@ -134,7 +134,7 @@ jobs:
               \"parameters\": $(echo $PARAMETERS | jq -Rn '[inputs]')
             }
           }"
-          echo "data=$(echo $DATA | jq -r '.')" >> "$GITHUB_OUTPUT"
+          echo "data=$(echo $DATA | jq -rc '.')" >> "$GITHUB_OUTPUT"
       - name: Call Deployment Webhook
         env:
           WEBHOOK_URL: https://api.github.com/repos/lsst-epo/edc-deploy/dispatches
@@ -143,4 +143,4 @@ jobs:
             curl -X POST $WEBHOOK_URL \
             -H 'Content-Type: application/json' \
             -H 'Authorization: ${{ github.token }}'
-            -d "$DATA"
+            -d "${{ fromJSON(steps.payload.outputs.data) }}"
