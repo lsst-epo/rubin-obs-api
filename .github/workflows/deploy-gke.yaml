@@ -38,15 +38,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       -
-        name: Make Sync Manifest
+        name: Make Sync Patch File
         if: ${{ !inputs.preview }}
         run: |
           cat <<-EOF > ${{ env.MANIFEST_FILENAME }}
-              apiVersion: argoproj.io/v1alpha1
-              kind: Application
-              metadata:
-                name: edc-${{ inputs.environment }}-${{ inputs.application_name }}
-                namespace: argocd
               spec:
                 source:
                   helm:
@@ -156,4 +151,6 @@ jobs:
 
       -
         name: Apply Application Manifest
-        run: kubectl apply -f ${{ steps.download.outputs.download-path }}/${{ env.MANIFEST_FILENAME }}
+        run: |
+          kubectl patch -n argocd app edc-${{ inputs.environment }}-${{ inputs.application_name }} \
+            --patch-file ${{ steps.download.outputs.download-path }}/${{ env.MANIFEST_FILENAME }}
