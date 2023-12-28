@@ -18,7 +18,7 @@ on:
       - 'master'
 
 jobs:
-  docker:
+  build:
     name: Build Container Image
     runs-on: ubuntu-latest
     outputs:
@@ -108,24 +108,33 @@ jobs:
             type=gha
           build-args: |
             BASE_TAG=k8s
+      - 
+        name: Summary
+        run: |
+          cat <<-EOT >> "$GITHUB_STEP_SUMMARY"
+            # Container Build Completed
+
+            ## Tags
+            ${{ steps.meta.outputs.tags }}
+          EOT
   
   deploy:
-    name: Trigger deploy to ${{ needs.docker.outputs.environment_name }}
-    needs: docker
+    name: Trigger deploy to ${{ needs.build.outputs.environment_name }}
+    needs: build
     runs-on: ubuntu-latest
     steps:
       - name: Generate Webhook Payload
         id: payload
         run: |-
           PARAMETERS=(
-            api.image.tag=${{ needs.docker.outputs.image_tag }}
-            api.image.repository=${{ needs.docker.outputs.image_name }}
+            api.image.tag=${{ needs.build.outputs.image_tag }}
+            api.image.repository=${{ needs.build.outputs.image_name }}
           )
           DATA="{
             \"event_type\": \"app_update_values\",
             \"client_payload\": {
               \"app_name\": \"rubinobs-site\",
-              \"environment_name\": \"${{ needs.docker.outputs.environment_name }}\",
+              \"environment_name\": \"${{ needs.build.outputs.environment_name }}\",
               \"parameters\": $(jq -c -n '$ARGS.positional' --args ${PARAMETERS[@]})
             }
           }"
@@ -141,3 +150,8 @@ jobs:
             -H "Accept: application/vnd.github+json" \
             -H 'Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}' \
             -d "${{ toJson(fromJson(steps.payload.outputs.data)) }}"
+            cat <<-EOT >> "$GITHUB_STEP_SUMMARY"
+              # Deployment Workflow Triggered
+
+              Access the deployment workflow at <https://github.com/lsst-epo/edc-deploy/actions/workflows/app-update-values.yaml>
+            EOT
