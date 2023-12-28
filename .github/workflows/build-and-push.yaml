@@ -117,16 +117,16 @@ jobs:
       - name: Generate Webhook Payload
         id: payload
         run: |-
-          export PARAMETERS="[
-            \"api.image.tag=${{ needs.docker.outputs.image_tag }}\",
-            \"api.image.repository=${{ needs.docker.outputs.image_name }}\"
-          ]"
-          export DATA="{
+          PARAMETERS=(
+            api.image.tag=${{ needs.docker.outputs.image_tag }}
+            api.image.repository=${{ needs.docker.outputs.image_name }}
+          )
+          DATA="{
             \"event_type\": \"app_update_values\",
             \"client_payload\": {
               \"app_name\": \"rubinobs-site\",
               \"environment_name\": \"${{ needs.docker.outputs.environment_name }}\",
-              \"parameters\": $(echo $PARAMETERS | jq -Rn '[inputs]')
+              \"parameters\": $(jq -c -n '$ARGS.positional' --args ${PARAMETERS[@]})
             }
           }"
           echo "data=$(echo $DATA | jq -rc '.')" >> "$GITHUB_OUTPUT"
