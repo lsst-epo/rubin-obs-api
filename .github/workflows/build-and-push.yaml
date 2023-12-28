@@ -133,7 +133,7 @@ jobs:
           DATA="{
             \"event_type\": \"app_update_values\",
             \"client_payload\": {
-              \"run_id\": \"${{ github.repository}}/${{github.ref }}/${{ github.sha }}"
+              \"run_id\": \"${{ github.repository}}/${{github.ref }}/${{ github.sha }}",
               \"app_name\": \"rubinobs-site\",
               \"environment_name\": \"${{ needs.build.outputs.environment_name }}\",
               \"parameters\": $(jq -c -n '$ARGS.positional' --args ${PARAMETERS[@]})
