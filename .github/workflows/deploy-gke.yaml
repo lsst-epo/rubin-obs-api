@@ -54,7 +54,7 @@ jobs:
                       - name: api.image.tag
                         value: ${{ inputs.image_tag }}
                       - name: api.image.name
-                        value: $${{ inputs.image_name }}
+                        value: ${{ inputs.image_name }}
               operation:
                 initiatedBy:
                   username: ${{ github.actor }}
