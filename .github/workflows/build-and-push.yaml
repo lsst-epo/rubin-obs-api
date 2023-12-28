@@ -54,7 +54,7 @@ jobs:
         id: deploy-tag
         run: |
           full_tag=$(echo "$DOCKER_METADATA_OUTPUT_JSON" | jq -r '.tags[] | select(. | test(":sha-|:v."))')
-          echo $full_tag | cut -f2 -d:
+          echo "$full_tag"
           echo deploy_tag=$(echo "$full_tag" | cut -f2 -d:) >> "$GITHUB_OUTPUT"
           echo image_name=$(echo "$full_tag" | cut -f1 -d:) >> "$GITHUB_OUTPUT"
 
