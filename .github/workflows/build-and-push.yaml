@@ -89,7 +89,6 @@ jobs:
         uses: 'google-github-actions/auth@v2'
         with:
           credentials_json: ${{ steps.deploy-info.outputs.credentials_json }}
-          export_environment_variables: true
       - 
         name: 'Set up Cloud SDK'
         uses: 'google-github-actions/setup-gcloud@v2'
@@ -111,15 +110,17 @@ jobs:
             BASE_TAG=k8s
   
   deploy:
-    name: Deploy to ${{ needs.docker.outputs.environment_name }}
+    name: Trigger deploy to ${{ needs.docker.outputs.environment_name }}
     needs: docker
     runs-on: ubuntu-latest
     steps:
       - name: Generate Webhook Payload
         id: payload
         run: |-
-          export PARAMETERS="api.image.tag=${{ needs.docker.outputs.image_tag }}
-          api.image.repository=${{ needs.docker.outputs.image_name }}"
+          export PARAMETERS="[
+            \"api.image.tag=${{ needs.docker.outputs.image_tag }}\",
+            \"api.image.repository=${{ needs.docker.outputs.image_name }}\"
+          ]"
           export DATA="{
             \"event_type\": \"app_update_values\",
             \"client_payload\": {
