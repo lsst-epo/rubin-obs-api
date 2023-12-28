@@ -42,33 +42,33 @@ jobs:
         if: ${{ !inputs.preview }}
         run: |
           cat <<-EOF > ${{ env.MANIFEST_FILENAME }}
-              spec:
-                source:
-                  helm:
-                    parameters:
-                      - name: api.image.tag
-                        value: ${{ inputs.image_tag }}
-                      - name: api.image.repository
-                        value: ${{ inputs.image_name }}
-                info: 
-                  - name: api-repo-url
-                    value: ${{ github.repositoryUrl }}
-                  - name: api-commit
-                    value: ${{ github.sha }}
-                  - name: api-ref
-                    value: ${{ github.ref }}
-              operation:
-                initiatedBy:
-                  username: ${{ github.actor }}
-                sync:
-                  resources:
-                    - kind: Deployment
-                      group: apps
-                      name: edc-${{ inputs.environment }}-${{ inputs.application_name }}-api
-                      namespace: rubinobs
-                  syncStrategy:
-                    hook: {}
-            EOF
+            spec:
+              source:
+                helm:
+                  parameters:
+                    - name: api.image.tag
+                      value: ${{ inputs.image_tag }}
+                    - name: api.image.repository
+                      value: ${{ inputs.image_name }}
+              info: 
+                - name: api-repo-url
+                  value: ${{ github.repositoryUrl }}
+                - name: api-commit
+                  value: ${{ github.sha }}
+                - name: api-ref
+                  value: ${{ github.ref }}
+            operation:
+              initiatedBy:
+                username: ${{ github.actor }}
+              sync:
+                resources:
+                  - kind: Deployment
+                    group: apps
+                    name: edc-${{ inputs.environment }}-${{ inputs.application_name }}-api
+                    namespace: rubinobs
+                syncStrategy:
+                  hook: {}
+          EOF
       
       # -
       #   name: Make Preview Version Manifest
