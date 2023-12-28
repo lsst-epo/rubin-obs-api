@@ -22,7 +22,8 @@ jobs:
     name: Build Container Image
     runs-on: ubuntu-latest
     outputs:
-      deploy_tag: ${{ steps.deploy-tag.outputs.tag }}
+      deploy_tag: ${{ steps.deploy-tag.outputs.deploy_tag }}
+      image_name: ${{ steps.deploy-tag.outputs.image_name }}
     steps:
       -
         name: Checkout
@@ -52,9 +53,10 @@ jobs:
         name: Parse deployment tag
         id: deploy-tag
         run: |
-          tag=$(echo "$DOCKER_METADATA_OUTPUT_JSON" | jq -r '.tags[] | select(. | test(":sha-|:v."))')
-          echo $tag | cut -f2 -d:
-          echo tag=$(echo $tag | cut -f2 -d:) >> "$GITHUB_OUTPUT"
+          full_tag=$(echo "$DOCKER_METADATA_OUTPUT_JSON" | jq -r '.tags[] | select(. | test(":sha-|:v."))')
+          echo $full_tag | cut -f2 -d:
+          echo deploy_tag=$(echo $full_tag | cut -f2 -d:) >> "$GITHUB_OUTPUT"
+          echo image_name=$(echo $full_tag | cut -f2 -d:) >> "$GITHUB_OUTPUT"
 
       -
         name: Set up QEMU
@@ -109,6 +111,7 @@ jobs:
     with:
       environment: prod
       image_tag: ${{ needs.docker.outputs.deploy_tag }}
+      image_name: ${{ needs.docker.outputs.image_name }}
   
   deploy-int:
     name: Deploy Int
@@ -119,3 +122,4 @@ jobs:
     with:
       environment: int
       image_tag: ${{ needs.docker.outputs.deploy_tag }}
+      image_name: ${{ needs.docker.outputs.image_name }}
