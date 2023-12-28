@@ -60,8 +60,7 @@ jobs:
                   username: ${{ github.actor }}
                 sync:
                   resources:
-                    - kind: Deployment
-                      name: edc-${{ inputs.environment }}-${{ inputs.application_name }}-api
+                    - name: edc-${{ inputs.environment }}-${{ inputs.application_name }}-api
                   syncStrategy:
                     hook: {}
             EOF
