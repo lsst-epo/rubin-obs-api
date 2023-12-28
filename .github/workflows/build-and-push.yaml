@@ -51,12 +51,10 @@ jobs:
       -
         name: Parse deployment tag
         id: deploy-tag
-        env:
-          DOCKER_METADATA: ${{ steps.meta.outputs.json }}
         run: |
-          tag=$(echo "$DOCKER_METADATA" | jq -r '.tags[] | select(. | test(":sha-|:v."))')
-          echo cut -f1 -d: $tag
-          echo tag=$(cut -f1 -d: $tag) >> "$GITHUB_OUTPUT"
+          tag=$(echo "$DOCKER_METADATA_OUTPUT_JSON" | jq -r '.tags[] | select(. | test(":sha-|:v."))')
+          echo $tag | cut -f1 -d:
+          echo tag=$(echo $tag | cut -f1 -d:) >> "$GITHUB_OUTPUT"
 
       -
         name: Set up QEMU
