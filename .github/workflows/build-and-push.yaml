@@ -117,7 +117,7 @@ jobs:
   deploy-int:
     name: Deploy Int
     needs: docker
-    uses: lsst-epo/edc-deploy/.workflows/app-update-values.yaml
+    uses: lsst-epo/edc-deploy/.workflows/app-update-values.yaml@master
     # uses: ./.github/workflows/deploy-gke.yaml
     if: ${{ github.ref == 'master' || (github.base_ref == 'master') }}
     with:
