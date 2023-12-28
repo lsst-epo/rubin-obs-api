@@ -138,7 +138,6 @@ jobs:
       - name: Call Deployment Webhook
         env:
           WEBHOOK_URL: https://api.github.com/repos/lsst-epo/edc-deploy/dispatches
-          DATA: ${{ fromJSON(steps.payload.outputs.data) }}
         run: |-
             curl -L \
             -X POST \
@@ -146,4 +145,4 @@ jobs:
             -H 'Content-Type: application/json' \
             -H "Accept: application/vnd.github+json" \
             -H 'Authorization: token ${{ github.token }}' \
-            -d "$DATA"
+            -d "${{ fromJson(steps.payload.outputs.data) }}"
