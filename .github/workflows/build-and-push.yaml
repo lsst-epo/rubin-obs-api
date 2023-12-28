@@ -53,6 +53,7 @@ jobs:
         name: Parse deployment tag
         id: deploy-tag
         run: |
+          python -c 'import yaml;f=open("docker-compose.yml");y=yaml.safe_load(f)'
           full_tag=$(echo "$DOCKER_METADATA_OUTPUT_JSON" | jq -r '.tags[] | select(. | test(":sha-|:v."))')
           echo "$full_tag"
           echo deploy_tag=$(echo "$full_tag" | cut -f2 -d:) >> "$GITHUB_OUTPUT"
@@ -116,10 +117,14 @@ jobs:
   deploy-int:
     name: Deploy Int
     needs: docker
-    uses: ./.github/workflows/deploy-gke.yaml
-    secrets: inherit
+    uses: lsst-epo/edc-deploy/.workflows/app-update-values.yaml
+    # uses: ./.github/workflows/deploy-gke.yaml
     if: ${{ github.ref == 'master' || (github.base_ref == 'master') }}
     with:
-      environment: int
-      image_tag: ${{ needs.docker.outputs.deploy_tag }}
-      image_name: ${{ needs.docker.outputs.image_name }}
+      environment_name: int
+      app_name: rubinobs-site
+      parameters: |
+        api.image.tag=${{ needs.docker.outputs.deploy_tag }}
+        api.image.repository=${{ needs.docker.outputs.image_name }}
+    secrets:
+      gcp_credentials: ${{ secrets.SKYVIEWER_INT_SERVICE_ACCOUNT }}
