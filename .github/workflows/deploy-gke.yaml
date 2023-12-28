@@ -68,7 +68,7 @@ jobs:
                     namespace: rubinobs
                 syncStrategy:
                   hook: {}
-            EOF
+          EOF
       
       # -
       #   name: Make Preview Version Manifest
