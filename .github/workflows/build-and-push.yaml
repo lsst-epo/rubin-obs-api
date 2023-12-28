@@ -22,8 +22,9 @@ jobs:
     name: Build Container Image
     runs-on: ubuntu-latest
     outputs:
-      deploy_tag: ${{ steps.deploy-tag.outputs.deploy_tag }}
-      image_name: ${{ steps.deploy-tag.outputs.image_name }}
+      image_tag: ${{ steps.deploy-info.outputs.image_tag }}
+      image_name: ${{ steps.deploy-info.outputs.image_name }}
+      environment_name: ${{ steps.deploy-info.outputs.environment_name }}
     steps:
       -
         name: Checkout
@@ -50,14 +51,32 @@ jobs:
             type=semver,pattern={{major}}
             type=sha
       -
-        name: Parse deployment tag
-        id: deploy-tag
+        name: Parse deployment info
+        id: deploy-info
         run: |
-          python -c 'import yaml;f=open("docker-compose.yml");y=yaml.safe_load(f)'
-          full_tag=$(echo "$DOCKER_METADATA_OUTPUT_JSON" | jq -r '.tags[] | select(. | test(":sha-|:v."))')
-          echo "$full_tag"
-          echo deploy_tag=$(echo "$full_tag" | cut -f2 -d:) >> "$GITHUB_OUTPUT"
+          # Determine environment to deploy to
+          if [ ${{ github.ref != 'master' && github.ref_type != 'tag' && github.base_ref == 'develop' }} ]; then
+            environment_name="dev"
+            credentials_json="${{ secrets.DEV_SA_KEY }}"
+          elif [ ${{ github.ref == 'master' || github.base_ref == 'master'}} ]; then
+            environment_name="int"
+            credentials_json="${{ secrets.SKYVIEWER_INT_SERVICE_ACCOUNT }}"
+          elif [ ${{ github.ref_type == 'tag'}} ]; then
+            environment_name="prod"
+            credentials_json="${{ secrets.PIPELINE_EPO_PROD_PROJECT  }}"
+          else
+            environment_name=""
+            credentials_json=""
+          fi
+          echo environment_name=$environment_name >> "$GITHUB_OUTPUT"
+          echo credentials_json=$credentials_json >> "$GITHUB_OUTPUT"
+
+          # Parse container image tag to deploy
+          full_tag=$(echo "$DOCKER_METADATA_OUTPUT_JSON" | jq -r '.tags[] | limit(1, select(. | test(":sha-|:v.")))')
+          echo "Will use tag \"$full_tag\" for deployment."
+          echo image_tag=$(echo "$full_tag" | cut -f2 -d:) >> "$GITHUB_OUTPUT"
           echo image_name=$(echo "$full_tag" | cut -f1 -d:) >> "$GITHUB_OUTPUT"
+          echo full_tag=$full_tag >> "$GITHUB_OUTPUT"
 
       -
         name: Set up QEMU
@@ -66,23 +85,10 @@ jobs:
         name: Set up Docker Buildx
         uses: docker/setup-buildx-action@v2
       - 
-        name: Login to GCP Dev
+        name: Login to ${{ steps.deploy-info.outputs.environment_name }} GCP
         uses: 'google-github-actions/auth@v2'
-        if: ${{ github.ref != 'master' && github.ref_type != 'tag' && github.base_ref == 'develop' }}
         with:
-          credentials_json: ${{ secrets.DEV_SA_KEY }}
-      - 
-        name: Login to GCP Int
-        uses: 'google-github-actions/auth@v2'
-        if: ${{ github.ref == 'master' || github.base_ref == 'master'}}
-        with:
-          credentials_json: ${{ secrets.SKYVIEWER_INT_SERVICE_ACCOUNT }}
-      - 
-        name: Login to GCP Prod
-        uses: 'google-github-actions/auth@v2'
-        if: ${{ github.ref_type == 'tag' }}
-        with:
-          credentials_json: ${{ secrets.PIPELINE_EPO_PROD_PROJECT  }}
+          credentials_json: ${{ steps.deploy-info.outputs.credentials_json}}
       - 
         name: 'Set up Cloud SDK'
         uses: 'google-github-actions/setup-gcloud@v2'
@@ -102,35 +108,22 @@ jobs:
             type=gha
           build-args: |
             BASE_TAG=k8s
-
-  deploy-prod:
-    name: Deploy Prod
-    needs: docker
-    uses: ./.github/workflows/deploy-gke.yaml
-    secrets: inherit
-    if: ${{ github.ref_type == 'tag' }}
-    with:
-      environment: prod
-      image_tag: ${{ needs.docker.outputs.deploy_tag }}
-      image_name: ${{ needs.docker.outputs.image_name }}
   
-  deploy-int:
-    name: Deploy Int
+  deploy:
+    name: Deploy to ${{ needs.docker.outputs.environment_name }}
     needs: docker
     runs-on: ubuntu-latest
-    # uses: ./.github/workflows/deploy-gke.yaml
-    if: ${{ github.ref == 'master' || (github.base_ref == 'master') }}
     steps:
       - name: Generate Webhook Payload
         id: payload
         run: |-
-          export PARAMETERS="api.image.tag=${{ needs.docker.outputs.deploy_tag }}
+          export PARAMETERS="api.image.tag=${{ needs.docker.outputs.image_tag }}
           api.image.repository=${{ needs.docker.outputs.image_name }}"
           export DATA="{
             \"event_type\": \"app_update_values\",
             \"client_payload\": {
               \"app_name\": \"rubinobs-site\",
-              \"environment_name\": \"int\",
+              \"environment_name\": \"${{ needs.docker.outputs.environment_name }}\",
               \"parameters\": $(echo $PARAMETERS | jq -Rn '[inputs]')
             }
           }"
@@ -145,4 +138,4 @@ jobs:
             -H 'Content-Type: application/json' \
             -H "Accept: application/vnd.github+json" \
             -H 'Authorization: Bearer ${{ github.token }}' \
-            -d "${{ fromJson(steps.payload.outputs.data) }}"
+            -d "${{ toJson(fromJson(steps.payload.outputs.data)) }}"
