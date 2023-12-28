@@ -144,5 +144,5 @@ jobs:
             $WEBHOOK_URL \
             -H 'Content-Type: application/json' \
             -H "Accept: application/vnd.github+json" \
-            -H 'Authorization: token ${{ github.token }}' \
+            -H 'Authorization: Bearer ${{ github.token }}' \
             -d "${{ fromJson(steps.payload.outputs.data) }}"
