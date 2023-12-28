@@ -134,7 +134,7 @@ jobs:
         env:
           WEBHOOK_URL: https://api.github.com/repos/lsst-epo/edc-deploy/dispatches
         run: |-
-            curl -L \
+            curl -L --fail \
             -X POST \
             $WEBHOOK_URL \
             -H 'Content-Type: application/json' \
