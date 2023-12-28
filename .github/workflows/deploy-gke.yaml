@@ -53,7 +53,7 @@ jobs:
                     parameters:
                       - name: api.image.tag
                         value: ${{ inputs.image_tag }}
-                      - name: api.image.name
+                      - name: api.image.repository
                         value: ${{ inputs.image_name }}
               operation:
                 initiatedBy:
