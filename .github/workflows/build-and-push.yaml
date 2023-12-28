@@ -126,17 +126,19 @@ jobs:
         run: |
           export PARAMETERS="api.image.tag=${{ needs.docker.outputs.deploy_tag }}
           api.image.repository=${{ needs.docker.outputs.image_name }}"
-          echo "DATA={
+          export DATA="{
             \"event_type\": \"app_update_values\",
             \"client_payload\": {
               \"app_name\": \"rubinobs-site\",
               \"environment_name\": \"int\",
               \"parameters\": \"$PARAMETERS\"
             }
-          }" >> "$GITHUB_OUTPUT"
+          }"
+          echo "data=$DATA" >> "$GITHUB_OUTPUT"
       - name: Call Deployment Webhook
         env:
           WEBHOOK_URL: https://api.github.com/repos/lsst-epo/edc-deploy/dispatches
+          DATA: ${{ steps.payload.outputs.data }}
         run: |
             curl -X POST $WEBHOOK_URL \
             -H 'Content-Type: application/json' \
