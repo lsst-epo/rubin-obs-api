@@ -117,14 +117,26 @@ jobs:
   deploy-int:
     name: Deploy Int
     needs: docker
-    uses: lsst-epo/edc-deploy/.github/workflows/app-update-values.yaml@master
+    runs-on: ubuntu-latest
     # uses: ./.github/workflows/deploy-gke.yaml
     if: ${{ github.ref == 'master' || (github.base_ref == 'master') }}
-    with:
-      environment_name: int
-      app_name: rubinobs-site
-      parameters: |
-        api.image.tag=${{ needs.docker.outputs.deploy_tag }}
-        api.image.repository=${{ needs.docker.outputs.image_name }}
-    secrets:
-      gcp_credentials: ${{ secrets.SKYVIEWER_INT_SERVICE_ACCOUNT }}
+    steps:
+      - name: Generate Webhook Payload
+        id: payload
+        run: |
+          export PARAMETERS="api.image.tag=${{ needs.docker.outputs.deploy_tag }}
+          api.image.repository=${{ needs.docker.outputs.image_name }}"
+          echo "DATA={
+            \"event_type\": \"app_update_values\",
+            \"client_payload\": {
+              \"app_name\": \"rubinobs-site\",
+              \"environment_name\": \"int\",
+              \"parameters\": \"$PARAMETERS\"
+            }
+          }" >> "$GITHUB_OUTPUT"
+      - name: Call Deployment Webhook
+        run: |
+            curl -X POST $WEBHOOK_URL \
+            -H 'Content-Type: application/json' \
+            -H 'Authorization: ${{ github.token }}'
+            -d "$DATA"
