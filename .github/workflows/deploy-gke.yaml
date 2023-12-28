@@ -56,11 +56,13 @@ jobs:
                       - name: api.image.repository
                         value: ${{ inputs.image_name }}
               operation:
+                info: 
+                  - ${{ github.sha }}
                 initiatedBy:
                   username: ${{ github.actor }}
                 sync:
                   resources:
-                    - kind: Deployment
+                    - kind: apps/Deployment
                       name: edc-${{ inputs.environment }}-${{ inputs.application_name }}-api
                       namespace: rubinobs
                   syncStrategy:
