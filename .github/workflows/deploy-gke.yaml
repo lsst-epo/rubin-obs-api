@@ -55,10 +55,14 @@ jobs:
                         value: ${{ inputs.image_tag }}
                       - name: api.image.repository
                         value: ${{ inputs.image_name }}
-              operation:
                 info: 
-                  - name: commit
+                  - name: api-repo-url
+                    value: ${{ github.repositoryUrl }}
+                  - name: api-commit
                     value: ${{ github.sha }}
+                  - name: api-ref
+                    value: ${{ github.ref }}
+              operation:
                 initiatedBy:
                   username: ${{ github.actor }}
                 sync:
