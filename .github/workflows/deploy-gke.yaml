@@ -57,7 +57,7 @@ jobs:
                         value: ${{ inputs.image_name }}
               operation:
                 info: 
-                  - ${{ github.sha }}
+                  commit: ${{ github.sha }}
                 initiatedBy:
                   username: ${{ github.actor }}
                 sync:
