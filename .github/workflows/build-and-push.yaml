@@ -135,6 +135,8 @@ jobs:
             }
           }" >> "$GITHUB_OUTPUT"
       - name: Call Deployment Webhook
+        env:
+          WEBHOOK_URL: https://api.github.com/repos/lsst-epo/edc-deploy/dispatches
         run: |
             curl -X POST $WEBHOOK_URL \
             -H 'Content-Type: application/json' \
