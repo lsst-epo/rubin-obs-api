@@ -55,13 +55,13 @@ jobs:
         id: deploy-info
         run: |
           # Determine environment to deploy to
-          if [ ${{ github.ref != 'master' && github.ref_type != 'tag' && github.base_ref == 'develop' }} ]; then
+          if ${{ github.ref != 'master' && github.ref_type != 'tag' && github.base_ref == 'develop' }}; then
             environment_name="dev"
             credentials_json='${{ secrets.DEV_SA_KEY }}'
-          elif [ ${{ github.ref == 'master' || github.base_ref == 'master'}} ]; then
+          elif ${{ github.ref == 'master' || github.base_ref == 'master'}}; then
             environment_name="int"
             credentials_json='${{ secrets.SKYVIEWER_INT_SERVICE_ACCOUNT }}'
-          elif [ ${{ github.ref_type == 'tag'}} ]; then
+          elif ${{ github.ref_type == 'tag'}}; then
             environment_name="prod"
             credentials_json='${{ secrets.PIPELINE_EPO_PROD_PROJECT }}'
           else
