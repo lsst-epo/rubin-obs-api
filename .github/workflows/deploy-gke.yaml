@@ -60,7 +60,9 @@ jobs:
                   username: ${{ github.actor }}
                 sync:
                   resources:
-                    - name: edc-${{ inputs.environment }}-${{ inputs.application_name }}-api
+                    - kind: Deployment
+                      name: edc-${{ inputs.environment }}-${{ inputs.application_name }}-api
+                      namespace: rubinobs
                   syncStrategy:
                     hook: {}
             EOF
