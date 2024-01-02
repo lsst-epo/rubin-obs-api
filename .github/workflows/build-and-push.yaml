@@ -170,3 +170,4 @@ jobs:
           repo: edc-deploy
           owner: lsst-epo
           run_id: ${{ steps.dispatch.outputs.run-id }}
+          run_timeout_seconds: 1500
