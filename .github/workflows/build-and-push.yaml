@@ -163,6 +163,6 @@ jobs:
           repo: edc-deploy
           owner: lsst-epo
           event-type: app_update_values 
-          token: ${{ secrets.GITHUB_TOKEN }} 
+          token: ${{ secrets.EDC_DEPLOY_GITHUB_TOKEN_FOR_REST_API }} 
           workflow-inputs: ${{ toJson(steps.payload.outputs.data) }}
           discover: true
