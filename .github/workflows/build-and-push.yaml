@@ -149,7 +149,7 @@ jobs:
             -H 'Content-Type: application/json' \
             -H "Accept: application/vnd.github+json" \
             -H 'Authorization: Bearer ${{  secrets.EDC_DEPLOY_GITHUB_TOKEN_FOR_REST_API }}' \
-            -d "${{ toJson(fromJson(steps.payload.outputs.data)) }}"
+            -d '${{ toJson(fromJson(steps.payload.outputs.data)) }}'
             cat <<-EOT >> "$GITHUB_STEP_SUMMARY"
               # Deployment Workflow Triggered
 
