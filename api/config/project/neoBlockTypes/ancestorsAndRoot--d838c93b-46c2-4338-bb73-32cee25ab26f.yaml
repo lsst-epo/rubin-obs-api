@@ -30,5 +30,4 @@ maxBlocks: 0
 maxChildBlocks: 0
 maxSiblingBlocks: 0
 name: 'Ancestors and Root'
-sortOrder: 1
 topLevel: true
