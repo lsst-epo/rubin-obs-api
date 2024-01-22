@@ -1,8 +1,5 @@
 {
   "scripts": {
-    "dev": "docker-compose -f docker-compose-local-db.yml up --build",
-    "clean": "docker system prune -f && docker volume prune -f",
-    "clean-images": "docker images prune -f",
     "test": "CYPRESS_BASE_URL=http://localhost:8080/admin cypress run --e2e --headless",
     "cypress": "CYPRESS_BASE_URL=http://localhost:8080/admin cypress open",
     "lint": "prettier --check \"**/*.{js,jsx,ts,tsx}\" & eslint -c .eslintrc.js \"**/*.{js,jsx,ts,tsx}\"",
