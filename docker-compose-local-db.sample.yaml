@@ -45,8 +45,7 @@ services:
       CANTO_APP_ID: <CANTO APP ID>
       CANTO_SECRET_KEY: <CANTO APP SECRET>
       CANTO_AUTH_ENDPOINT: https://oauth.canto.com/oauth/api/oauth2/token?app_id={appId}&app_secret={secretKey}&grant_type=client_credentials&refresh_token=
-      CANTO_ASSET_ENDPOINT: <RUBIN CANTO API ENTRYPOINT>
-      CANTO_ASSET_BASEURL: <RUBIN CANTO ASSET BASE URL>
+      CANTO_HOSTNAME: <RUBIN CANTO ASSET BASE URL>
       FACEBOOK_APP_ID: <FACEBOOK APP ID>
       FACEBOOK_APP_SECRET: <FACEBOOK APP SECRET>
       FACEBOOK_APP_REDIRECT_URL: <CLIENT URL>/sso-redirect?sso=true&facebook=true
