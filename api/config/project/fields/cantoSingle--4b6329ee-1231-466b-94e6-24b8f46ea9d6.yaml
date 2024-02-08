@@ -1,0 +1,16 @@
+columnSuffix: gvphitkg
+contentColumnType:
+  - 'cantoId:string'
+  - 'cantoAlbumId:string'
+  - 'cantoAssetData:json'
+  - 'cantoAlbumData:json'
+fieldGroup: 9940892d-32f4-4399-acac-ab559ce1c82b # Common
+handle: cantoSingle
+instructions: null
+name: 'Single Canto Asset'
+searchable: false
+settings:
+  cantoAssetPickerType: singleImagePicker
+translationKeyFormat: null
+translationMethod: site
+type: lsst\cantodamassets\fields\CantoDamAsset

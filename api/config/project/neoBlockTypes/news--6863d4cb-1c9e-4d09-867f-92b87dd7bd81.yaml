@@ -1,7 +1,7 @@
 childBlocks:
   - newsItem
 conditions: null
-description: null
+description: ''
 enabled: true
 field: 72e5075a-9b06-4674-b040-615f4a6f7b70 # Content Blocks - Pages
 fieldLayouts:
@@ -65,6 +65,7 @@ group: null
 groupChildBlockTypes: true
 handle: news
 icon: null
+iconFilename: ''
 ignorePermissions: true
 maxBlocks: 0
 maxChildBlocks: 0
