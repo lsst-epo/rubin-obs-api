@@ -193,9 +193,11 @@ meta:
     75f0b770-5006-4359-848f-96415196bfe0: Date # Date
     77dc755a-bb96-4422-b00f-c7d74e45d400: 'Educator Schema' # Educator Schema
     80e0f53f-96b3-43d4-b166-453ac4ac0147: Header # Header
+    090fa9de-c280-42b5-a9e5-0ada9a16c86b: Gallery # Gallery
     95b97a67-eccb-4910-b0e8-77f5860058b4: Link # Link
     99f4a28a-48c3-49ca-bb4a-7acbb49fde30: Pages # Pages
     125d214d-7831-4150-b5bc-1a100bc3149d: School # School
+    131aa2a4-f25c-440b-846a-296d1c24f130: Gallery # Gallery
     229f2975-93d3-4c6a-9996-dfa1de3004ef: 'Search Results' # Search Results
     380c1cbe-884e-421b-9e31-1f0dfc81e15f: 'Cell Width' # Cell Width
     522bc2d7-fcc3-4817-a986-5c860e53351c: 'Internal Entry' # Internal Entry
@@ -211,6 +213,7 @@ meta:
     824d9ca2-e755-4e41-8f6a-18e573fec8e4: 'News Posts' # News Posts
     831db889-442e-4553-9076-fc3bc2843c8c: 'Hide title' # Hide title
     832b4964-87a5-45f0-940d-9f01b6bae4fe: 'Summit Status' # Summit Status
+    845e16d6-1131-4c4a-9b6b-ff99d9055384: Gallery # Gallery
     922a7383-2cc6-4a2a-b347-3a41389d7119: 'Preferred Language' # Preferred Language
     0928ff1a-513d-41e0-acc1-606d93988618: 'Search Filters' # Search Filters
     942c9e60-2760-42ed-b03b-9e5eb133751b: Callout # Callout
@@ -304,6 +307,7 @@ meta:
     bb77d190-487e-45c5-a1d2-0208510a7d88: Events # Events
     bbf936fb-1787-437b-8ebd-a6e79409896e: 'Glossary Term' # Glossary Term
     bc12b31b-5681-4d9c-bbc1-80042dca1a82: YouTube # YouTube
+    bdac3bbe-6b7c-4af9-9d92-38f0aa2565c7: 'Multiple Canto Assets' # Multiple Canto Assets
     be9edc91-a7d0-4838-9565-20381695cbcb: 'Staff Profiles' # Staff Profiles
     c2eab1e2-8dc7-4ea8-a1c2-5572ff82212b: 'Linked Asset' # Linked Asset
     c3d1c243-1703-4117-abc7-88487a1f8f24: 'Staff Profiles' # Staff Profiles
@@ -329,6 +333,7 @@ meta:
     cd801712-4ba3-4a9c-8fab-0d3e2a58b4eb: Description # Description
     ce5de347-f24d-4cc2-b80f-7db689345533: metadata # metadata
     cee5c2f8-2801-42c2-a56c-4fe40c85b6f3: 'Site Information' # Site Information
+    cfd7afc7-3dc3-47a3-ae23-a8f8d6d6abc0: 'Canto Album' # Canto Album
     d0cb4533-5478-47d5-9473-dd6c3821cf7a: Slide # Slide
     d019727b-a6d5-43d9-a688-f10df985a87e: Link # Link
     d2f34652-827a-42b2-9ed2-e7d400f07dcd: 'Focal Point Y' # Focal Point Y

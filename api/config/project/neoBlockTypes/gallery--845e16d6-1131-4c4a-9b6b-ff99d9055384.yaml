@@ -1,0 +1,40 @@
+childBlocks: null
+conditions: null
+description: ''
+enabled: true
+field: 72e5075a-9b06-4674-b040-615f4a6f7b70 # Content Blocks - Pages
+fieldLayouts:
+  b0341292-44be-4aac-aaed-03e5c9ad8ef8:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: e98e0ffd-73fa-4e57-808c-dcb9873209ca # Entry - Gallery
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 45aa3262-884a-4ae5-a24b-ed99d7730d25
+            userCondition: null
+            warning: null
+            width: 100
+        name: '1'
+        uid: c87cbe7d-fb6e-439e-96e6-379ecc67dee1
+        userCondition: null
+group: null
+groupChildBlockTypes: true
+handle: gallery
+icon: null
+iconFilename: ''
+ignorePermissions: true
+maxBlocks: 0
+maxChildBlocks: 0
+maxSiblingBlocks: 0
+minBlocks: 0
+minChildBlocks: 0
+minSiblingBlocks: 0
+name: Gallery
+topLevel: true
