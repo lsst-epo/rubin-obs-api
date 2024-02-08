@@ -1,12 +1,13 @@
 childBlocks: null
 conditions: null
-description: null
+description: ''
 enabled: true
 field: 72e5075a-9b06-4674-b040-615f4a6f7b70 # Content Blocks - Pages
 group: null
 groupChildBlockTypes: true
 handle: share
 icon: null
+iconFilename: ''
 ignorePermissions: true
 maxBlocks: 0
 maxChildBlocks: 0
@@ -15,5 +16,4 @@ minBlocks: 0
 minChildBlocks: 0
 minSiblingBlocks: 0
 name: Share
-sortOrder: 16
 topLevel: true
