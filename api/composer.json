@@ -2,20 +2,20 @@
     "require": {
         "carlcs/craft-assetmetadata": "^4.0",
         "castiron/next-builds": "^1.0",
-        "craftcms/cms": "4.5.4",
+        "craftcms/cms": "4.7.2.1",
         "craftcms/contact-form": "3.0.1",
         "craftcms/contact-form-honeypot": "^2.0.0",
         "craftcms/google-cloud": "^2.0.0",
         "craftcms/redactor": "3.0.4",
         "jamesedmonston/graphql-authentication": "2.5.0",
         "lsst-epo/canto-dam-assets": "4.0.9",
-        "rynpsc/craft-phone-number": "^2.1.0",
+        "rynpsc/craft-phone-number": "2.2.0",
         "sebastianlenz/linkfield": "^2.1.4",
-        "spicyweb/craft-neo": "3.8.6",
+        "spicyweb/craft-neo": "4.0.3",
         "venveo/craft-bulkedit": "4.0.1",
-        "verbb/super-table": "3.0.9",
+        "verbb/super-table": "3.0.12",
         "vlucas/phpdotenv": "^3.4.0",
-        "wrav/oembed": "^2.2.2"
+        "wrav/oembed": "3.0.7"
     },
     "repositories": [
         {
