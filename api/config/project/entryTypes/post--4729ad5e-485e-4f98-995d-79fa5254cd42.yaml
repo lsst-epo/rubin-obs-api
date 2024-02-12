@@ -12,6 +12,7 @@ fieldLayouts:
             disabled: false
             elementCondition: null
             id: null
+            inputType: null
             instructions: null
             label: null
             max: null
@@ -51,6 +52,18 @@ fieldLayouts:
             tip: null
             type: craft\fieldlayoutelements\CustomField
             uid: 47161763-862c-4fb4-a777-ec41c7d427d6
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 3c9eb8f7-9f84-4c22-84d5-531be77aa6b6 # Featured Image
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 4a4685f0-9946-47e1-8b1d-83e431f8f721
             userCondition: null
             warning: null
             width: 100
@@ -165,6 +178,9 @@ handle: post
 hasTitleField: true
 name: 'News Post'
 section: 11be7603-f576-4af8-93a6-e285e4ff42c4 # News
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
 sortOrder: 1
 titleFormat: null
 titleTranslationKeyFormat: null
