@@ -79,17 +79,6 @@ fields:
       restrictedDefaultUploadSubpath: null
       restrictedLocationSource: 'volume:8e9ec71e-2cf0-4f6a-b856-8976de0ce100' # Heroes
       restrictedLocationSubpath: null
-      selectionCondition:
-        __assoc__:
-          -
-            - elementType
-            - craft\elements\Asset
-          -
-            - fieldContext
-            - global
-          -
-            - class
-            - craft\elements\conditions\assets\AssetCondition
       selectionLabel: 'Select an asset'
       showSiteMenu: false
       showUnpermittedFiles: false
