@@ -10,10 +10,22 @@ fieldLayouts:
             fieldUid: a5bb0742-012f-4683-a471-874944bf3280 # Image
             instructions: null
             label: null
-            required: false
+            required: true
             tip: null
             type: craft\fieldlayoutelements\CustomField
             uid: 57d7b379-1687-469d-9b2b-389b467efab5
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: b6c0126f-2168-4538-9442-815075d48224 # Caption
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 758e1527-1d89-4577-ba64-39a4812ecd75
             userCondition: null
             warning: null
             width: 100
@@ -26,7 +38,7 @@ fields:
     contentColumnType: string
     fieldGroup: null
     handle: image
-    instructions: 'For a thumbnail and link to an image'
+    instructions: 'This image will appear alongside any auto-added Image or Video Content Blocks in the "Media" section of the News Assets.  '
     name: Image
     searchable: false
     settings:
@@ -48,17 +60,6 @@ fields:
       restrictedDefaultUploadSubpath: null
       restrictedLocationSource: 'volume:8e9ec71e-2cf0-4f6a-b856-8976de0ce100' # Heroes
       restrictedLocationSubpath: null
-      selectionCondition:
-        __assoc__:
-          -
-            - elementType
-            - craft\elements\Asset
-          -
-            - fieldContext
-            - global
-          -
-            - class
-            - craft\elements\conditions\assets\AssetCondition
       selectionLabel: 'Select an image'
       showSiteMenu: false
       showUnpermittedFiles: false
@@ -70,6 +71,34 @@ fields:
     translationKeyFormat: null
     translationMethod: site
     type: craft\fields\Assets
+  b6c0126f-2168-4538-9442-815075d48224: # Caption
+    columnSuffix: jzfebkjr
+    contentColumnType: text
+    fieldGroup: null
+    handle: caption
+    instructions: null
+    name: Caption
+    searchable: false
+    settings:
+      availableTransforms: ''
+      availableVolumes: ''
+      columnType: text
+      configSelectionMode: choose
+      defaultTransform: ''
+      manualConfig: ''
+      purifierConfig: null
+      purifyHtml: true
+      redactorConfig: Simple.json
+      removeEmptyTags: false
+      removeInlineStyles: false
+      removeNbsp: false
+      showHtmlButtonForNonAdmins: false
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\redactor\Field
 handle: image
 name: Image
 sortOrder: 4
