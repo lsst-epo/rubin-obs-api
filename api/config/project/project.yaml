@@ -2275,7 +2275,7 @@ plugins:
     edition: standard
     enabled: true
     licenseKey: ZKF1B0S7W0NR4OSH4WIXAK30
-    schemaVersion: 3.6.2
+    schemaVersion: 4.0.0
   next-builds:
     edition: standard
     enabled: true

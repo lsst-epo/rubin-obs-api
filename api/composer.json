@@ -11,7 +11,7 @@
         "lsst-epo/canto-dam-assets": "4.0.12",
         "rynpsc/craft-phone-number": "^2.1.0",
         "sebastianlenz/linkfield": "^2.1.4",
-        "spicyweb/craft-neo": "3.8.6",
+        "spicyweb/craft-neo": "4.0.5",
         "venveo/craft-bulkedit": "4.0.1",
         "verbb/super-table": "3.0.9",
         "vlucas/phpdotenv": "^3.4.0",

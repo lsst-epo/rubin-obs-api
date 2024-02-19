@@ -37,5 +37,4 @@ minBlocks: 0
 minChildBlocks: 0
 minSiblingBlocks: 0
 name: 'Accordion Group'
-sortOrder: 5
 topLevel: true
