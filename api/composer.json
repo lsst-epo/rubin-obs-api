@@ -9,13 +9,13 @@
         "craftcms/redactor": "3.0.4",
         "jamesedmonston/graphql-authentication": "2.5.0",
         "lsst-epo/canto-dam-assets": "4.0.12",
-        "rynpsc/craft-phone-number": "^2.1.0",
+        "rynpsc/craft-phone-number": "2.2.0",
         "sebastianlenz/linkfield": "^2.1.4",
         "spicyweb/craft-neo": "4.0.5",
         "venveo/craft-bulkedit": "4.0.1",
-        "verbb/super-table": "3.0.9",
+        "verbb/super-table": "3.0.12",
         "vlucas/phpdotenv": "^3.4.0",
-        "wrav/oembed": "^2.2.2"
+        "wrav/oembed": "3.0.7"
     },
     "repositories": [
         {
