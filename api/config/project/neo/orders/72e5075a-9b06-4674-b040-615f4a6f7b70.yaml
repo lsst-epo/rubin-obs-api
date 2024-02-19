@@ -1,0 +1,32 @@
+- 'blockType:a1e725cc-a026-42a1-b75f-3f577f0369bb' # Text
+- 'blockType:edef3ef4-2dfd-4dc1-92a9-2643d43cef04' # Image
+- 'blockType:f98e0a8a-8a90-4402-9cd5-3cfddd38bff3' # Link
+- 'blockType:b5838ae4-3163-4eaf-baf1-cc575176352e' # Callout
+- 'blockType:90295d5c-0b35-40ca-bb95-c7fc81969b14' # Accordion Group
+- 'blockType:6509f949-86bc-4542-ab9f-9593ae7153be' # Accordion
+- 'blockType:7d2c6533-5e40-446d-8c2d-4d3998d1d193' # CTA Grid
+- 'blockType:a0a0fcfb-cbb1-4e1b-a600-91f1c57faf41' # CTA
+- 'blockType:f00a12dc-93a3-4782-8d0a-3672c0107c02' # Image Grid
+- 'blockType:d68978ab-2942-46c8-8da7-6a50bd47cce5' # Image Grid Item
+- 'blockType:22728b4f-f1bb-4399-8525-53e3163f0594' # Slide Block
+- 'blockType:13dd7a03-2223-4831-87bc-a9c717c71bb0' # Slide
+- 'blockType:ec9fe774-aa9b-42b0-9f80-3a1ac7f2a979' # Investigation Grid
+- 'blockType:da3fa24e-0cac-4206-a401-1c4f5791c198' # Investigation CTA
+- 'blockType:56f60368-4386-4395-92b6-31b15c7663cc' # Contact
+- 'blockType:41a9c595-2a38-40b5-b87c-ada8076913e1' # Share
+- 'blockType:6863d4cb-1c9e-4d09-867f-92b87dd7bd81' # News
+- 'blockType:f8ed5c4f-7af4-40f7-939d-b7caf9b4b501' # News Item
+- 'blockType:be9edc91-a7d0-4838-9565-20381695cbcb' # Staff Profiles
+- 'blockType:1ed98018-4e61-4580-bee8-961ceab2bb2c' # Staff Item
+- 'blockType:e566bfcd-b44b-40b4-9998-5175bcf91df9' # Related Content
+- 'blockType:9361ad43-d848-48eb-8d07-089842600d9b' # Related Item
+- 'blockType:23b188bc-f349-445e-9df7-f3a7d1c6fe9e' # Schedule
+- 'blockType:c5c5037a-57bf-4aff-85ca-62e14c8c1cea' # Schedule Row
+- 'blockType:accc0b97-12f3-43ce-941a-068ab8deb620' # Video
+- 'blockType:fb3d440b-3313-476c-8ce6-9c91ba637a56' # Download List
+- 'blockType:aa678753-53d0-4175-a20c-a8a49f07821b' # Simple Table
+- 'blockType:4f027acf-6672-4fd7-a178-2366dfea422a' # Complex Table
+- 'blockType:2c121c9e-10e1-4a79-a17f-a6c7ef7965f3' # Table Group
+- 'blockType:9655a59a-0418-465e-993c-3d1586d59ef9' # iFrame
+- 'blockType:ae600481-08ff-4746-915e-4ba49a4c8337' # Game
+- 'blockType:832b4964-87a5-45f0-940d-9f01b6bae4fe' # Summit Status
