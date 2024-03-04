@@ -30,27 +30,6 @@ jobs:
         name: Checkout
         uses: actions/checkout@v3
       -
-        name: Docker meta
-        id: meta
-        uses: docker/metadata-action@v4
-        with:
-          # list of Docker images to use as base name for tags
-          images: |
-            gcr.io/skyviewer/rubinobs-api,enable=${{ github.ref != 'master' && github.ref_type != 'tag' && github.base_ref == 'develop' }}
-            gcr.io/edc-int-6c5e/rubinobs-api,enable=${{ github.ref == 'master' || github.base_ref == 'master'}}
-            gcr.io/edc-prod-eef0/rubinobs-api,enable=${{ github.ref_type == 'tag'}}
-          flavor: |
-            latest=${{ github.event_name == 'push'}}
-          # generate Docker tags based on the following events/attributes
-          tags: |
-            type=schedule
-            type=ref,event=branch
-            type=ref,event=pr
-            type=semver,pattern={{version}}
-            type=semver,pattern={{major}}.{{minor}}
-            type=semver,pattern={{major}}
-            type=sha
-      -
         name: Parse deployment info
         id: deploy-info
         run: |
@@ -65,8 +44,8 @@ jobs:
             environment_name="prod"
             credentials_json='${{ secrets.PIPELINE_EPO_PROD_PROJECT }}'
           else
-            environment_name=""
-            credentials_json=""
+            environment_name="dev"
+            credentials_json='${{ secrets.DEV_SA_KEY }}'
           fi
           echo environment_name=$environment_name >> "$GITHUB_OUTPUT"
           echo credentials_json=$credentials_json >> "$GITHUB_OUTPUT"
@@ -77,7 +56,27 @@ jobs:
           echo image_tag=$(echo "$full_tag" | cut -f2 -d:) >> "$GITHUB_OUTPUT"
           echo image_name=$(echo "$full_tag" | cut -f1 -d:) >> "$GITHUB_OUTPUT"
           echo full_tag=$full_tag >> "$GITHUB_OUTPUT"
-
+      -
+        name: Docker meta
+        id: meta
+        uses: docker/metadata-action@v4
+        with:
+          # list of Docker images to use as base name for tags
+          images: |
+            gcr.io/skyviewer/rubinobs-api,enable=${{ steps.deploy-info.outputs.environment_name == 'dev' }}
+            gcr.io/edc-int-6c5e/rubinobs-api,enable=${{ steps.deploy-info.outputs.environment_name == 'int' }}
+            gcr.io/edc-prod-eef0/rubinobs-api,enable=${{ steps.deploy-info.outputs.environment_name == 'prod' }}
+          flavor: |
+            latest=${{ github.event_name == 'push'}}
+          # generate Docker tags based on the following events/attributes
+          tags: |
+            type=schedule
+            type=ref,event=branch
+            type=ref,event=pr
+            type=semver,pattern={{version}}
+            type=semver,pattern={{major}}.{{minor}}
+            type=semver,pattern={{major}}
+            type=sha
       -
         name: Set up QEMU
         uses: docker/setup-qemu-action@v2
