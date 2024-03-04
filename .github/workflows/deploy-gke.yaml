@@ -1,0 +1,156 @@
+name: Deploy to GKE
+
+on:
+  workflow_call:
+    inputs:
+      environment:
+        description: The environment to deploy to (prod, int, or dev)
+        type: string
+        required: true
+      image_tag:
+        description: The container image tag to deploy
+        type: string
+        required: false
+        default: latest
+      image_name:
+        description: The repo URL (minus the tag) of the container image to deploy
+        type: string
+        required: true
+      preview:
+        description: A boolean indicating if this is a preview deployment
+        type: boolean
+        required: false
+        default: false
+      application_name:
+        description: The name of the application to deploy (e.g. 'rubinobs-site')
+        type: string
+        required: false
+        default: rubinobs-site
+
+concurrency: ${{ inputs.environment }}-deploy
+
+env:
+  MANIFEST_FILENAME: ${{ inputs.application_name }}-${{inputs.environment}}-${{ github.sha }}.yaml
+
+jobs:
+  generate-manifest:
+    name: Make App Manifest
+    runs-on: ubuntu-latest
+    steps:
+      -
+        name: Make Sync Patch File
+        if: ${{ !inputs.preview }}
+        run: |
+          cat <<-EOF > ${{ env.MANIFEST_FILENAME }}
+            spec:
+              source:
+                helm:
+                  parameters:
+                    - name: api.image.tag
+                      value: ${{ inputs.image_tag }}
+                    - name: api.image.repository
+                      value: ${{ inputs.image_name }}
+              info: 
+                - name: api-repo-url
+                  value: ${{ github.repositoryUrl }}
+                - name: api-commit
+                  value: ${{ github.sha }}
+                - name: api-ref
+                  value: ${{ github.ref }}
+            operation:
+              initiatedBy:
+                username: ${{ github.actor }}
+              sync:
+                resources:
+                  - kind: Deployment
+                    group: apps
+                    name: edc-${{ inputs.environment }}-${{ inputs.application_name }}-api
+                    namespace: rubinobs
+                syncStrategy:
+                  hook: {}
+          EOF
+      
+      # -
+      #   name: Make Preview Version Manifest
+      #   if: ${{ inputs.preview }}
+      #   run: |
+      #     cat <<-EOF > ${{ env.MANIFEST_FILENAME }}
+      #         apiVersion: argoproj.io/v1alpha1
+      #         kind: Application
+      #         metadata:
+      #           name: edc-${{ inputs.environment }}-${{ inputs.application_name }}-preview-${{ github.ref }}
+      #           namespace: argocd
+      #         spec:
+      #           source:
+      #             repoURL: 'git@github.com:lsst-epo/edc-deploy.git'
+      #             path: environment/applications/epo-site/charts/epo-api
+      #             targetRevision: master
+      #             helm:
+      #               parameters:
+      #                 - name: test
+      #                   value: test
+      #           destination:
+      #             server: 'https://kubernetes.default.svc'
+      #             namespace: rubinobs
+      #         operation:
+      #           initiatedBy:
+      #             username: ${{ github.actor }}
+      #           sync:
+      #             syncStrategy:
+      #               hook: {}
+      #       EOF
+
+      -
+        uses: actions/upload-artifact@v4
+        with:
+          path: ${{ env.MANIFEST_FILENAME }}
+          name: deployment-manifest
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - 
+        name: Login to GCP Int
+        uses: 'google-github-actions/auth@v2'
+        if: ${{ inputs.environment == 'int'}}
+        with:
+          credentials_json: ${{ secrets.SKYVIEWER_INT_SERVICE_ACCOUNT }}
+
+      - 
+        name: Login to GCP Prod
+        uses: 'google-github-actions/auth@v2'
+        if: ${{ inputs.environment == 'prod'}}
+        with:
+          credentials_json: ${{ secrets.PIPELINE_EPO_PROD_PROJECT  }}
+
+      - 
+        name: 'Set up Cloud SDK'
+        uses: 'google-github-actions/setup-gcloud@v2'
+
+      - 
+        name: Get Int Cluster Credentials
+        uses: 'google-github-actions/get-gke-credentials@v2'
+        if: ${{ inputs.environment == 'int' }}
+        with:
+          cluster_name: gke-ap-edc-int
+          location: us-central1
+
+      - 
+        name: Get Prod Cluster Credentials
+        uses: 'google-github-actions/get-gke-credentials@v2'
+        if: ${{ inputs.environment == 'prod' }}
+        with:
+          cluster_name: gke-ap-edc-prod
+          location: us-central1
+      
+      -
+        name: Download Manifest
+        id: download
+        uses: actions/download-artifact@v4
+        with:
+          name: deployment-manifest
+
+      -
+        name: Apply Application Manifest
+        run: |
+          kubectl patch -n argocd app edc-${{ inputs.environment }}-${{ inputs.application_name }} \
+            --patch-file ${{ steps.download.outputs.download-path }}/${{ env.MANIFEST_FILENAME }}
