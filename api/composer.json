@@ -2,7 +2,7 @@
     "require": {
         "carlcs/craft-assetmetadata": "^4.0",
         "castiron/next-builds": "^1.0",
-        "craftcms/cms": "4.7.3",
+        "craftcms/cms": "4.8.1",
         "craftcms/contact-form": "3.0.1",
         "craftcms/contact-form-honeypot": "^2.0.0",
         "craftcms/google-cloud": "^2.0.0",
@@ -11,11 +11,11 @@
         "lsst-epo/canto-dam-assets": "4.0.12",
         "rynpsc/craft-phone-number": "2.2.0",
         "sebastianlenz/linkfield": "^2.1.4",
-        "spicyweb/craft-neo": "4.0.5",
+        "spicyweb/craft-neo": "4.0.6",
         "venveo/craft-bulkedit": "4.0.1",
         "verbb/super-table": "3.0.12",
         "vlucas/phpdotenv": "^3.4.0",
-        "wrav/oembed": "3.0.7",
+        "wrav/oembed": "3.0.8",
         "yiisoft/yii2-redis": "^2.0"
     },
     "repositories": [
