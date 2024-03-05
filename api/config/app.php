@@ -48,7 +48,17 @@ return [
             ];
             
             return Craft::createObject($config);
-        }
+        },
+        'assetManager' => function() {
+            # Get default config:
+            $config = craft\helpers\App::assetManagerConfig();
+
+            # Set custom property:
+            $config['cacheSourcePaths'] = false;
+
+            # Create + return component:
+            return Craft::createObject($config);
+        },
     ],
     'bootstrap' => ['user-registration-module'],
 ];
