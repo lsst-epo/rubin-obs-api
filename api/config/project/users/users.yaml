@@ -1,6 +1,6 @@
 allowPublicRegistration: true
 deactivateByDefault: false
-defaultGroup: ''
+defaultGroup: 58efa872-9485-42e3-a1e3-a5435def5392 # Educators
 photoSubpath: null
 photoVolumeUid: 8e9ec71e-2cf0-4f6a-b856-8976de0ce100 # Heroes
 requireEmailVerification: true
