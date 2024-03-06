@@ -1,4 +1,4 @@
-dateModified: 1709077683
+dateModified: 1709685753
 email:
   fromEmail: $EMAIL_FROM_ADDRESS
   fromName: $EMAIL_SENDER_NAME
@@ -432,6 +432,7 @@ plugins:
       activationEmailSent: 'You will receive an email if it matches an account in our system'
       allowMagicAuthentication: null
       allowRegistration: '1'
+      allowTwoFactorAuthentication: false
       allowedFacebookDomains: null
       allowedGoogleDomains: null
       allowedMicrosoftDomains: null
@@ -648,9 +649,6 @@ plugins:
                   - hideTitle
                   - queryMutate
                 -
-                  - damAsset
-                  - queryMutate
-                -
                   - siteImage
                   - queryMutate
                 -
@@ -775,6 +773,9 @@ plugins:
                   - queryMutate
                 -
                   - simpleTable
+                  - queryMutate
+                -
+                  - cantoAssetSingle
                   - queryMutate
                 -
                   - sites
@@ -1054,9 +1055,6 @@ plugins:
                   - hideTitle
                   - queryMutate
                 -
-                  - damAsset
-                  - queryMutate
-                -
                   - siteImage
                   - queryMutate
                 -
@@ -1181,6 +1179,9 @@ plugins:
                   - queryMutate
                 -
                   - simpleTable
+                  - queryMutate
+                -
+                  - cantoAssetSingle
                   - queryMutate
                 -
                   - sites
@@ -1460,9 +1461,6 @@ plugins:
                   - hideTitle
                   - queryMutate
                 -
-                  - damAsset
-                  - queryMutate
-                -
                   - siteImage
                   - queryMutate
                 -
@@ -1587,6 +1585,9 @@ plugins:
                   - queryMutate
                 -
                   - simpleTable
+                  - queryMutate
+                -
+                  - cantoAssetSingle
                   - queryMutate
                 -
                   - sites
@@ -1866,9 +1867,6 @@ plugins:
                   - hideTitle
                   - queryMutate
                 -
-                  - damAsset
-                  - queryMutate
-                -
                   - siteImage
                   - queryMutate
                 -
@@ -1993,6 +1991,9 @@ plugins:
                   - queryMutate
                 -
                   - simpleTable
+                  - queryMutate
+                -
+                  - cantoAssetSingle
                   - queryMutate
                 -
                   - sites
@@ -2259,7 +2260,7 @@ plugins:
       schemaId: null
       schemaName: null
       siteId: null
-      skipActivatedCheck: ''
+      skipActivatedCheck: null
       skipSocialActivation: null
       tokenNotFound: 'We couldn''t find any matching tokens'
       twitterApiKey: null
