@@ -1,4 +1,4 @@
-dateModified: 1709685753
+dateModified: 1709746311
 email:
   fromEmail: $EMAIL_FROM_ADDRESS
   fromName: $EMAIL_SENDER_NAME
@@ -394,8 +394,9 @@ plugins:
     settings:
       appId: $CANTO_APP_ID
       authEndpoint: $CANTO_AUTH_ENDPOINT
-      retrieveAssetMetadataEndpoint: $CANTO_ASSET_ENDPOINT
       secretKey: $CANTO_SECRET_KEY
+      tenantHostName: $CANTO_HOSTNAME
+      webhookSecureToken: $CANTO_WEBHOOK_TOKEN
   asset-metadata:
     edition: standard
     enabled: true
