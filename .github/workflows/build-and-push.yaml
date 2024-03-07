@@ -33,8 +33,8 @@ jobs:
         name: Parse deployment info
         id: deploy-info
         run: |
-          echo "$(github.ref_name)"
-          echo "$(github.base_ref)"
+          echo "${{github.ref_name}}"
+          echo "${{github.base_ref}}"
           # Determine environment to deploy to
           # if ${{ github.ref_name == 'master' || github.base_ref == 'master'}}; then
           #   environment_name="int"
