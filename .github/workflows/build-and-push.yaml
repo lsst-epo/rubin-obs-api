@@ -34,7 +34,7 @@ jobs:
         id: deploy-info
         run: |
           # Determine environment to deploy to
-          if ${{ github.ref == 'master' || github.base_ref == 'master'}}; then
+          if ${{ github.ref_name == 'master' || github.base_ref == 'master'}}; then
             environment_name="int"
             credentials_json='${{ secrets.SKYVIEWER_INT_SERVICE_ACCOUNT }}'
           elif ${{ github.ref_type == 'tag'}}; then
