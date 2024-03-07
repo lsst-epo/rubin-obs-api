@@ -36,18 +36,10 @@ jobs:
           # Determine environment to deploy to
           if ${{ github.ref_name == 'master' || github.base_ref == 'master'}}; then
             echo "int"
-            # environment_name="int"
-            # credentials_json='${{ secrets.SKYVIEWER_INT_SERVICE_ACCOUNT }}'
           elif ${{ github.ref_type == 'tag'}}; then
             echo "prod"
-            # environment_name="prod"
-            # credentials_json='${{ secrets.PIPELINE_EPO_PROD_PROJECT }}'
           else
             echo "dev"
-            # environment_name="dev"
-            # credentials_json='${{ secrets.DEV_SA_KEY }}'
           fi
-          # echo environment_name=$environment_name >> "$GITHUB_OUTPUT"
-          # echo credentials_json=$credentials_json >> "$GITHUB_OUTPUT"
       
 
