@@ -54,7 +54,7 @@ return [
             $config = craft\helpers\App::assetManagerConfig();
 
             # Set custom property:
-            $config['cacheSourcePaths'] = false;
+            $config['cacheSourcePaths'] = (bool)App::env('DISABLE_SOURCE_PATHS') ?: true;
 
             # Create + return component:
             return Craft::createObject($config);
