@@ -6,7 +6,7 @@ on:
        - 'develop'
        - 'master'
     tags:
-      - 'v.*'
+      - 'v*'
   pull_request:
     types:
       - 'opened'
@@ -22,8 +22,8 @@ jobs:
     name: Build Container Image
     runs-on: ubuntu-latest
     outputs:
-      image_tag: ${{ steps.deploy-info.outputs.image_tag }}
-      image_name: ${{ steps.deploy-info.outputs.image_name }}
+      image_tag: ${{ steps.deploy-tag.outputs.image_tag }}
+      image_name: ${{ steps.deploy-tag.outputs.image_name }}
       environment_name: ${{ steps.deploy-info.outputs.environment_name }}
     steps:
       -
@@ -34,10 +34,7 @@ jobs:
         id: deploy-info
         run: |
           # Determine environment to deploy to
-          if ${{ github.ref != 'master' && github.ref_type != 'tag' && github.base_ref == 'develop' }}; then
-            environment_name="dev"
-            credentials_json='${{ secrets.DEV_SA_KEY }}'
-          elif ${{ github.ref == 'master' || github.base_ref == 'master'}}; then
+          if ${{ github.ref_name == 'master' || github.base_ref == 'master'}}; then
             environment_name="int"
             credentials_json='${{ secrets.SKYVIEWER_INT_SERVICE_ACCOUNT }}'
           elif ${{ github.ref_type == 'tag'}}; then
@@ -49,13 +46,6 @@ jobs:
           fi
           echo environment_name=$environment_name >> "$GITHUB_OUTPUT"
           echo credentials_json=$credentials_json >> "$GITHUB_OUTPUT"
-
-          # Parse container image tag to deploy
-          full_tag=$(echo "$DOCKER_METADATA_OUTPUT_JSON" | jq -r '.tags[] | limit(1; select(. | test(":sha-|:v.")))')
-          echo "Will use tag \"$full_tag\" for deployment."
-          echo image_tag=$(echo "$full_tag" | cut -f2 -d:) >> "$GITHUB_OUTPUT"
-          echo image_name=$(echo "$full_tag" | cut -f1 -d:) >> "$GITHUB_OUTPUT"
-          echo full_tag=$full_tag >> "$GITHUB_OUTPUT"
       -
         name: Docker meta
         id: meta
@@ -77,6 +67,16 @@ jobs:
             type=semver,pattern={{major}}.{{minor}}
             type=semver,pattern={{major}}
             type=sha
+      -
+        name: Parse deploy tag
+        id: deploy-tag
+        run: |
+          # Parse container image tag to deploy
+          full_tag=$(echo "$DOCKER_METADATA_OUTPUT_JSON" | jq -r '.tags[] | limit(1; select(. | test(":sha-|:v.")))')
+          echo "Will use tag \"$full_tag\" for deployment."
+          echo image_tag=$(echo "$full_tag" | cut -f2 -d:) >> "$GITHUB_OUTPUT"
+          echo image_name=$(echo "$full_tag" | cut -f1 -d:) >> "$GITHUB_OUTPUT"
+          echo full_tag=$full_tag >> "$GITHUB_OUTPUT"
       -
         name: Set up QEMU
         uses: docker/setup-qemu-action@v2
