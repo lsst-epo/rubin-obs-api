@@ -40,7 +40,7 @@ return [
                 ]
             ]
         ],
-        'cache' => function() {
+        'cache' => static function() {
             $config = [
                 'class' => yii\redis\Cache::class,
                 'keyPrefix' => Craft::$app->id,
@@ -49,12 +49,14 @@ return [
             
             return Craft::createObject($config);
         },
-        'assetManager' => function() {
+        'assetManager' => static function() {
             # Get default config:
             $config = craft\helpers\App::assetManagerConfig();
 
             # Set custom property:
-            $config['cacheSourcePaths'] = (bool)App::env('DISABLE_SOURCE_PATHS') ?: true;
+            $config['cacheSourcePaths'] = App::parseBooleanEnv('$CACHE_SOURCE_PATHS') ?? true;
+            # Log for verification
+            Craft::info("cacheSourcePaths == {$config['cacheSourcePaths']}", "CRAFT_CUSTOM_CONFIG");
 
             # Create + return component:
             return Craft::createObject($config);
