@@ -2,10 +2,10 @@
     "require": {
         "carlcs/craft-assetmetadata": "^4.0",
         "castiron/next-builds": "^1.0",
-        "craftcms/cms": "4.8.3",
+        "craftcms/cms": "4.8.4",
         "craftcms/contact-form": "3.1.0",
-        "craftcms/contact-form-honeypot": "^2.0.0",
-        "craftcms/google-cloud": "^2.0.0",
+        "craftcms/contact-form-honeypot": "2.1.0",
+        "craftcms/google-cloud": "2.1.0",
         "craftcms/redactor": "3.0.4",
         "jamesedmonston/graphql-authentication": "2.5.0",
         "lsst-epo/canto-dam-assets": "4.0.12",
