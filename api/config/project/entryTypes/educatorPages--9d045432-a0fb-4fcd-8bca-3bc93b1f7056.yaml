@@ -2,6 +2,7 @@ fieldLayouts:
   b2f278fa-9b21-477c-9134-f052bc39ba23:
     tabs:
       -
+        elementCondition: null
         elements:
           -
             autocapitalize: true
@@ -9,7 +10,9 @@ fieldLayouts:
             autocorrect: true
             class: null
             disabled: false
+            elementCondition: null
             id: null
+            inputType: null
             instructions: null
             label: null
             max: null
@@ -24,117 +27,192 @@ fieldLayouts:
             tip: null
             title: null
             type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 753f39f5-1cbb-4ad6-8d9c-5f640ab01497
+            userCondition: null
             warning: null
             width: 75
           -
+            elementCondition: null
             fieldUid: 831db889-442e-4553-9076-fc3bc2843c8c # Hide title
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: ba7755b4-7149-4355-84f8-69da88c07e57
+            userCondition: null
             warning: null
             width: 25
           -
+            elementCondition: null
             fieldUid: cd801712-4ba3-4a9c-8fab-0d3e2a58b4eb # Description
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: 6ac2fa26-ad6f-4632-832e-9423337bb8b6
+            userCondition: null
             warning: null
             width: 100
           -
+            elementCondition: null
             fieldUid: 3c9eb8f7-9f84-4c22-84d5-531be77aa6b6 # Featured Image
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: 8e33d524-b839-4f8f-ad76-391ef465985f
+            userCondition: null
             warning: null
             width: 100
           -
+            elementCondition: null
+            type: craft\fieldlayoutelements\LineBreak
+            uid: 396483aa-5d6b-4c1b-b86f-2cb416682b35
+            userCondition: null
+          -
+            elementCondition: null
             fieldUid: 05eead62-7bf9-43e4-a7e8-bcd8f9f77323 # Hero
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: 5e213d64-abcc-4e30-9599-9945ce84be85
+            userCondition: null
             warning: null
-            width: 75
+            width: 25
           -
+            elementCondition: null
+            fieldUid: 58aa24c3-97e4-43e7-a812-7374e5650180 # Focal Point X
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 68737ba6-c201-4e19-b01e-34d1f490b033
+            userCondition: null
+            warning: null
+            width: 25
+          -
+            elementCondition: null
+            fieldUid: 0073b1d1-a221-431d-aab9-bf4e193adf4f # Focal Point Y
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: e5d0fc03-0776-4530-b43e-6eeab57fae5a
+            userCondition: null
+            warning: null
+            width: 25
+          -
+            elementCondition: null
             fieldUid: 00f1f9f6-c710-431d-bf34-22e3a62d5172 # Overlap Hero
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: cf38625b-b55d-4c90-af1d-4518f0ccf809
+            userCondition: null
             warning: null
             width: 25
           -
+            elementCondition: null
+            type: craft\fieldlayoutelements\HorizontalRule
+            uid: 94fad7dc-e382-4d6e-8309-721fb7e300b0
+            userCondition: null
+          -
+            elementCondition: null
             fieldUid: 72e5075a-9b06-4674-b040-615f4a6f7b70 # Content Blocks - Pages
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: e34e459d-4d9b-408c-86e2-6a39c205b01a
+            userCondition: null
             warning: null
             width: 100
           -
+            elementCondition: null
             fieldUid: 8b5bcbee-1883-48ca-8c9a-6c506b9abb99 # Page Type
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: d258aaf7-4b5d-46a8-b6ab-a826da657caa
+            userCondition: null
             warning: null
             width: 100
           -
+            elementCondition: null
             fieldUid: fa690eba-6d46-4a5e-9dcd-0845f5b56c1b # Dynamic Component
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: db608cc9-d7b2-4b2b-bcfd-8538624fbb50
+            userCondition: null
             warning: null
             width: 100
         name: Pages
-        sortOrder: 1
+        uid: bd26848c-7c34-4180-b7ce-99052eb13544
+        userCondition: null
       -
+        elementCondition: null
         elements:
           -
+            elementCondition: null
             fieldUid: 7970cd65-7a96-418a-8581-d6df4e039e6d # Plain Text
-            instructions: ''
+            instructions: null
             label: 'Sub Hero Header'
-            required: ''
+            required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: c6e5f95b-8978-4fb3-a1cb-5d7c9723b82c
+            userCondition: null
             warning: null
             width: 100
           -
+            elementCondition: null
             fieldUid: 24f23fec-fc66-46f8-86e1-396d01315ad2 # Sub Hero Text
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: 0d864b0f-05c4-4bf5-be35-ae77e8c028b5
+            userCondition: null
             warning: null
             width: 100
           -
+            elementCondition: null
             fieldUid: 6e888efc-ab7a-4c15-9ec5-5954b52984ca # Show Sibling Nav
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: c317ae86-227e-463a-ba2d-5d8ab93f0626
+            userCondition: null
             warning: null
             width: 100
         name: 'Sub Hero Content'
-        sortOrder: 2
+        uid: 8f815180-3462-4046-985b-971c80bad2f3
+        userCondition: null
 handle: educatorPages
 hasTitleField: true
 name: 'Educator Pages'
 section: f1b8c943-bc12-4001-9e2a-d531379f1aaf # Pages
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
 sortOrder: 2
 titleFormat: null
 titleTranslationKeyFormat: null

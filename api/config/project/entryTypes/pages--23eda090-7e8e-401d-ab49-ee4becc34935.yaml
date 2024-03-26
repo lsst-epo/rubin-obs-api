@@ -5,18 +5,6 @@ fieldLayouts:
         elementCondition: null
         elements:
           -
-            elementCondition: null
-            fieldUid: fd2b2124-15e6-4d4c-ae80-2df159c56102
-            instructions: null
-            label: null
-            required: false
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            uid: 96a04f89-11d0-4826-93ac-c78b998fd6ce
-            userCondition: null
-            warning: null
-            width: 100
-          -
             autocapitalize: true
             autocomplete: false
             autocorrect: true
@@ -81,8 +69,13 @@ fieldLayouts:
             width: 100
           -
             elementCondition: null
+            type: craft\fieldlayoutelements\HorizontalRule
+            uid: 2096696c-f795-466c-a689-10995f759ee6
+            userCondition: null
+          -
+            elementCondition: null
             fieldUid: 05eead62-7bf9-43e4-a7e8-bcd8f9f77323 # Hero
-            instructions: null
+            instructions: 'Hero is never used for pages that are direct children of Investigation Landing Pages'
             label: null
             required: false
             tip: null
@@ -90,7 +83,31 @@ fieldLayouts:
             uid: 19686067-1981-4b39-a69e-b02ad1615184
             userCondition: null
             warning: null
-            width: 75
+            width: 25
+          -
+            elementCondition: null
+            fieldUid: 58aa24c3-97e4-43e7-a812-7374e5650180 # Focal Point X
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: adb1fe63-bfd6-46df-82aa-7338b143c8d8
+            userCondition: null
+            warning: null
+            width: 25
+          -
+            elementCondition: null
+            fieldUid: 0073b1d1-a221-431d-aab9-bf4e193adf4f # Focal Point Y
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 62f8b1a1-1249-4155-b12d-6ee652e38c00
+            userCondition: null
+            warning: null
+            width: 25
           -
             elementCondition: null
             fieldUid: 00f1f9f6-c710-431d-bf34-22e3a62d5172 # Overlap Hero
@@ -103,6 +120,11 @@ fieldLayouts:
             userCondition: null
             warning: null
             width: 25
+          -
+            elementCondition: null
+            type: craft\fieldlayoutelements\HorizontalRule
+            uid: c64ee912-ac37-41c2-bb30-b29a700e71b5
+            userCondition: null
           -
             elementCondition: null
             fieldUid: 72e5075a-9b06-4674-b040-615f4a6f7b70 # Content Blocks - Pages

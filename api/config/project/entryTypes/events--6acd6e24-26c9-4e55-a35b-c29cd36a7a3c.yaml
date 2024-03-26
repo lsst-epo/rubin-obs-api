@@ -45,6 +45,11 @@ fieldLayouts:
             width: 100
           -
             elementCondition: null
+            type: craft\fieldlayoutelements\LineBreak
+            uid: 14690be6-edaf-42d4-ae6f-404337769095
+            userCondition: null
+          -
+            elementCondition: null
             fieldUid: 05eead62-7bf9-43e4-a7e8-bcd8f9f77323 # Hero
             instructions: null
             label: null
@@ -54,7 +59,36 @@ fieldLayouts:
             uid: f695fd1f-55a0-4d97-aedb-e6a5fa421b29
             userCondition: null
             warning: null
-            width: 100
+            width: 50
+          -
+            elementCondition: null
+            fieldUid: 58aa24c3-97e4-43e7-a812-7374e5650180 # Focal Point X
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: ee26249c-2aaf-4877-a460-5b79a0786bc6
+            userCondition: null
+            warning: null
+            width: 25
+          -
+            elementCondition: null
+            fieldUid: 0073b1d1-a221-431d-aab9-bf4e193adf4f # Focal Point Y
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: c7229d94-f93b-4fa2-a0f2-aaa5a6ece9c9
+            userCondition: null
+            warning: null
+            width: 25
+          -
+            elementCondition: null
+            type: craft\fieldlayoutelements\LineBreak
+            uid: f8f6199a-e90c-4063-a167-b251fe631ab2
+            userCondition: null
           -
             elementCondition: null
             fieldUid: 3146b06e-af03-43e7-b278-3a65c81f610e # Address
