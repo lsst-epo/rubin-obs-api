@@ -3,54 +3,95 @@ fieldLayouts:
   9318c35e-328a-4ee7-b7c4-06e6beb9a5fb:
     tabs:
       -
+        elementCondition: null
         elements:
           -
+            elementCondition: null
             fieldUid: 5ca18cb3-5a7b-4764-9e18-fc24b4cecc14 # Flag
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: e3394cc4-0f14-4ab3-97b2-74058aab4d02
+            userCondition: null
             warning: null
             width: 100
           -
+            elementCondition: null
             fieldUid: 5548b745-642b-4b15-8f17-4ce7457689a8 # Header
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: 384fb6ba-3456-4690-895e-693d8dbb6d30
+            userCondition: null
             warning: null
             width: 100
           -
+            elementCondition: null
             fieldUid: 9c14ac7e-c466-4c2d-a2fd-e19a68fc706d # Teaser
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: 8ce21b43-6ff5-4352-9e63-9c0183d7e176
+            userCondition: null
             warning: null
             width: 100
           -
+            elementCondition: null
             fieldUid: e338eebb-6488-4f58-a07e-db43f28ff56b # Image
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: b22c2da4-8a5f-4003-9790-1ff4734409bf
+            userCondition: null
             warning: null
-            width: 100
+            width: 50
           -
+            elementCondition: null
+            fieldUid: 8da1c506-3359-4a1b-b440-119d4d0b58ee # Focal Point X
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 614fb255-8eba-48b0-aa88-e9ba1b214033
+            userCondition: null
+            warning: null
+            width: 25
+          -
+            elementCondition: null
+            fieldUid: d2f34652-827a-42b2-9ed2-e7d400f07dcd # Focal Point Y
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 77318176-289b-4b6b-b623-4ad8b24b9e24
+            userCondition: null
+            warning: null
+            width: 25
+          -
+            elementCondition: null
             fieldUid: 2755abe1-7dd5-428c-a6bb-30d2bd59a362 # Link
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: a423c195-e8fa-4926-a751-fcdb6c46df6c
+            userCondition: null
             warning: null
             width: 100
         name: Content
-        sortOrder: 1
+        uid: ed95d4f8-accb-494d-88c7-37f53923ec2f
+        userCondition: null
 fields:
   5ca18cb3-5a7b-4764-9e18-fc24b4cecc14: # Flag
     columnSuffix: null
@@ -63,30 +104,51 @@ fields:
     settings:
       byteLimit: null
       charLimit: 20
-      code: ''
+      code: false
       columnType: null
-      initialRows: '4'
-      multiline: ''
+      initialRows: 4
+      multiline: false
       placeholder: null
       uiMode: normal
     translationKeyFormat: null
     translationMethod: site
     type: craft\fields\PlainText
+  8da1c506-3359-4a1b-b440-119d4d0b58ee: # Focal Point X
+    columnSuffix: kxlerkkl
+    contentColumnType: smallint(3)
+    fieldGroup: null
+    handle: focalPointX
+    instructions: null
+    name: 'Focal Point X'
+    searchable: false
+    settings:
+      decimals: 0
+      defaultValue: 50
+      max: 100
+      min: 0
+      prefix: null
+      previewCurrency: null
+      previewFormat: decimal
+      size: null
+      suffix: '%'
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Number
   9c14ac7e-c466-4c2d-a2fd-e19a68fc706d: # Teaser
     columnSuffix: null
     contentColumnType: string(1020)
     fieldGroup: null
     handle: teaser
-    instructions: ''
+    instructions: null
     name: Teaser
     searchable: false
     settings:
       byteLimit: null
       charLimit: 255
-      code: ''
+      code: false
       columnType: null
-      initialRows: '4'
-      multiline: ''
+      initialRows: 4
+      multiline: false
       placeholder: null
       uiMode: normal
     translationKeyFormat: null
@@ -97,7 +159,7 @@ fields:
     contentColumnType: string
     fieldGroup: null
     handle: mixedLink
-    instructions: ''
+    instructions: null
     name: Link
     searchable: false
     settings:
@@ -160,51 +222,76 @@ fields:
     contentColumnType: text
     fieldGroup: null
     handle: header
-    instructions: ''
+    instructions: null
     name: Header
     searchable: false
     settings:
       byteLimit: null
       charLimit: null
-      code: ''
+      code: false
       columnType: null
-      initialRows: '4'
-      multiline: ''
+      initialRows: 4
+      multiline: false
       placeholder: null
       uiMode: normal
     translationKeyFormat: null
     translationMethod: site
     type: craft\fields\PlainText
+  d2f34652-827a-42b2-9ed2-e7d400f07dcd: # Focal Point Y
+    columnSuffix: moxwxziu
+    contentColumnType: smallint(3)
+    fieldGroup: null
+    handle: focalPointY
+    instructions: null
+    name: 'Focal Point Y'
+    searchable: false
+    settings:
+      decimals: 0
+      defaultValue: 50
+      max: 100
+      min: 0
+      prefix: null
+      previewCurrency: null
+      previewFormat: decimal
+      size: null
+      suffix: '%'
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Number
   e338eebb-6488-4f58-a07e-db43f28ff56b: # Image
     columnSuffix: null
     contentColumnType: string
     fieldGroup: null
     handle: image
-    instructions: ''
+    instructions: null
     name: Image
     searchable: false
     settings:
       allowSelfRelations: false
+      allowSubfolders: false
       allowUploads: true
       allowedKinds:
         - image
+      branchLimit: null
       defaultUploadLocationSource: 'volume:8e9ec71e-2cf0-4f6a-b856-8976de0ce100' # Heroes
-      defaultUploadLocationSubpath: ''
-      limit: '1'
+      defaultUploadLocationSubpath: null
       localizeRelations: false
+      maintainHierarchy: false
+      maxRelations: 1
+      minRelations: null
       previewMode: full
-      restrictFiles: '1'
+      restrictFiles: true
+      restrictLocation: false
+      restrictedDefaultUploadSubpath: null
+      restrictedLocationSource: 'volume:8e9ec71e-2cf0-4f6a-b856-8976de0ce100' # Heroes
+      restrictedLocationSubpath: null
       selectionLabel: 'Add hero image'
       showSiteMenu: false
       showUnpermittedFiles: false
       showUnpermittedVolumes: false
-      singleUploadLocationSource: 'volume:8e9ec71e-2cf0-4f6a-b856-8976de0ce100' # Heroes
-      singleUploadLocationSubpath: ''
-      source: null
       sources:
         - 'volume:8e9ec71e-2cf0-4f6a-b856-8976de0ce100' # Heroes
       targetSiteId: null
-      useSingleFolder: false
       validateRelatedElements: false
       viewMode: large
     translationKeyFormat: null

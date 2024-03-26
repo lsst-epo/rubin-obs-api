@@ -69,6 +69,11 @@ fieldLayouts:
             width: 100
           -
             elementCondition: null
+            type: craft\fieldlayoutelements\HorizontalRule
+            uid: d2c844e8-f6e6-4bd5-9ebe-805a26517180
+            userCondition: null
+          -
+            elementCondition: null
             fieldUid: 05eead62-7bf9-43e4-a7e8-bcd8f9f77323 # Hero
             instructions: null
             label: null
@@ -81,6 +86,30 @@ fieldLayouts:
             width: 50
           -
             elementCondition: null
+            fieldUid: 58aa24c3-97e4-43e7-a812-7374e5650180 # Focal Point X
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 0ea434e7-81ea-4ffb-89f5-df0a2440cf46
+            userCondition: null
+            warning: null
+            width: 25
+          -
+            elementCondition: null
+            fieldUid: 0073b1d1-a221-431d-aab9-bf4e193adf4f # Focal Point Y
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 0fc37ccd-2a0f-41d1-8360-68c075b2b20e
+            userCondition: null
+            warning: null
+            width: 25
+          -
+            elementCondition: null
             fieldUid: 61b9d842-7365-4bbf-883c-1b6433dc15f4 # Caption - rich text
             instructions: null
             label: 'Hero Caption'
@@ -90,7 +119,12 @@ fieldLayouts:
             uid: 6b1526fd-da23-4704-a956-01ff8ed74f8b
             userCondition: null
             warning: null
-            width: 50
+            width: 100
+          -
+            elementCondition: null
+            type: craft\fieldlayoutelements\LineBreak
+            uid: e1190d7a-b499-411b-979b-ede8823a062d
+            userCondition: null
           -
             elementCondition: null
             fieldUid: 75f0b770-5006-4359-848f-96415196bfe0 # Date
@@ -149,6 +183,11 @@ fieldLayouts:
             userCondition: null
             warning: null
             width: 100
+          -
+            elementCondition: null
+            type: craft\fieldlayoutelements\HorizontalRule
+            uid: 6ab15eab-27f3-496b-9022-2b3faf0d15ad
+            userCondition: null
           -
             elementCondition:
               class: craft\elements\conditions\entries\EntryCondition

@@ -1,4 +1,4 @@
-dateModified: 1710958366
+dateModified: 1711477535
 email:
   fromEmail: $EMAIL_FROM_ADDRESS
   fromName: $EMAIL_SENDER_NAME
@@ -140,6 +140,7 @@ meta:
     8b8ed305-e6e6-4754-925f-bb07427b2060: 'Background Color' # Background Color
     8bfcc6b7-ec2f-4759-bce9-c62bc12aecd4: 'Representative Asset Variant' # Representative Asset Variant
     8ccd6c1c-8e9b-44e8-93a9-f62589fb4819: 'Site Information' # Site Information
+    8da1c506-3359-4a1b-b440-119d4d0b58ee: 'Focal Point X' # Focal Point X
     8e9ec71e-2cf0-4f6a-b856-8976de0ce100: Heroes # Heroes
     8ea5a0da-b111-4714-a1c6-2af9cf0a7070: 'Summit Status Layout' # Summit Status Layout
     8fff3c50-28ba-4af7-8166-e3d82a23ae26: Title # Title
@@ -330,6 +331,7 @@ meta:
     cee5c2f8-2801-42c2-a56c-4fe40c85b6f3: 'Site Information' # Site Information
     d0cb4533-5478-47d5-9473-dd6c3821cf7a: Slide # Slide
     d019727b-a6d5-43d9-a688-f10df985a87e: Link # Link
+    d2f34652-827a-42b2-9ed2-e7d400f07dcd: 'Focal Point Y' # Focal Point Y
     d7bdf364-6905-4919-b4b1-08f0010d7a08: 'Contact Info' # Contact Info
     d7fc5f39-2426-421b-bd0b-10aadae80ae3: 'Color Scheme' # Color Scheme
     d12b2ae4-6d10-41ef-8e22-778f54b2f2d0: Attribution # Attribution
