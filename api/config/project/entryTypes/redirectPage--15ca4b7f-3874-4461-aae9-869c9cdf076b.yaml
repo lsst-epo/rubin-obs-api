@@ -2,6 +2,7 @@ fieldLayouts:
   2ebb4fd2-b408-4790-a30f-f251e28c995b:
     tabs:
       -
+        elementCondition: null
         elements:
           -
             autocapitalize: true
@@ -9,7 +10,9 @@ fieldLayouts:
             autocorrect: true
             class: null
             disabled: false
+            elementCondition: null
             id: null
+            inputType: null
             instructions: null
             label: null
             max: null
@@ -24,32 +27,56 @@ fieldLayouts:
             tip: null
             title: null
             type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: b28e9611-d044-4958-9001-1343875d2156
+            userCondition: null
             warning: null
             width: 75
           -
+            elementCondition: null
             fieldUid: 831db889-442e-4553-9076-fc3bc2843c8c # Hide title
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: 8d683bca-11d9-4804-95e6-b5d1dfbbc2df
+            userCondition: null
             warning: null
             width: 25
           -
+            elementCondition: null
+            fieldUid: 51322eaa-f9c8-4ade-a6e6-b877bbdc494e # Show Page in the Header Navigation
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: f16e2df2-c178-4772-a6ec-b87979d85d40
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
             fieldUid: 110434a5-98f0-4679-9f3c-20869a785eee # Link To
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: 44eba26d-6129-4256-9776-66aef6bb3f5c
+            userCondition: null
             warning: null
             width: 100
         name: Content
-        sortOrder: 1
+        uid: e18b346b-89cc-4818-a182-8688a2bdadc4
+        userCondition: null
 handle: redirectPage
 hasTitleField: true
 name: 'Redirect Page'
 section: f1b8c943-bc12-4001-9e2a-d531379f1aaf # Pages
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
 sortOrder: 5
 titleFormat: null
 titleTranslationKeyFormat: null
