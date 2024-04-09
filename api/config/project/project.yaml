@@ -1,4 +1,4 @@
-dateModified: 1711477535
+dateModified: 1712092981
 email:
   fromEmail: $EMAIL_FROM_ADDRESS
   fromName: $EMAIL_SENDER_NAME
@@ -244,6 +244,7 @@ meta:
     10118ebf-e3bf-4b1b-bbb8-4b57ab3753c8: Caption # Caption
     22728b4f-f1bb-4399-8525-53e3163f0594: 'Slide Block' # Slide Block
     39558c70-8baf-4748-9f12-49e78a04eed5: Job # Job
+    51322eaa-f9c8-4ade-a6e6-b877bbdc494e: 'Show Page in the Header Navigation' # Show Page in the Header Navigation
     51414e74-22c3-4134-9ccb-34f524920c2c: 'Metadata Version' # Metadata Version
     0059967d-f567-4066-a676-02f7c932b843: 'Start Time' # Start Time
     83885be8-333d-42b1-964f-fd89666907ff: 'Embed Title' # Embed Title

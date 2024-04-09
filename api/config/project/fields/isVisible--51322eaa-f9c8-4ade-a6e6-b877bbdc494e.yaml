@@ -1,0 +1,14 @@
+columnSuffix: xlrruvzj
+contentColumnType: boolean
+fieldGroup: 99f4a28a-48c3-49ca-bb4a-7acbb49fde30 # Pages
+handle: isVisible
+instructions: null
+name: 'Show Page in the Header Navigation'
+searchable: false
+settings:
+  default: true
+  offLabel: Hide
+  onLabel: Show
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Lightswitch
