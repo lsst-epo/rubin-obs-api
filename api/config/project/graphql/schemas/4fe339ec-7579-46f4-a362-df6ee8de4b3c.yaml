@@ -30,6 +30,7 @@ scope:
   - 'entrytypes.26ca2777-e4c8-41b4-ac93-aa28d09117dd:read' # Student Pages
   - 'entrytypes.b55b0827-5ceb-45e1-bd3c-a35dc4638886:read' # Investigation Landing Page
   - 'entrytypes.15ca4b7f-3874-4461-aae9-869c9cdf076b:read' # Redirect Page
+  - 'entrytypes.f3bcea87-c25d-410a-816c-5ad57988b381:read' # Gallery Pages
   - 'sections.04a48967-eac4-449f-b164-c8ecbb7036d6:read' # Search Results
   - 'entrytypes.229f2975-93d3-4c6a-9996-dfa1de3004ef:read' # Search Results
   - 'sections.fb3283a6-7286-4b2b-a77a-010783dcee7e:read' # Slideshows

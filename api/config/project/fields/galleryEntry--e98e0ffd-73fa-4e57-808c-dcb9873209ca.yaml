@@ -2,16 +2,47 @@ columnSuffix: null
 contentColumnType: string
 fieldGroup: 9940892d-32f4-4399-acac-ab559ce1c82b # Common
 handle: galleryEntry
-instructions: ''
+instructions: null
 name: 'Entry - Gallery'
 searchable: true
 settings:
   allowSelfRelations: false
-  limit: ''
+  branchLimit: null
   localizeRelations: false
+  maintainHierarchy: false
+  maxRelations: null
+  minRelations: null
+  selectionCondition:
+    __assoc__:
+      -
+        - elementType
+        - craft\elements\Entry
+      -
+        - fieldContext
+        - global
+      -
+        - class
+        - craft\elements\conditions\entries\EntryCondition
+      -
+        - conditionRules
+        -
+          -
+            __assoc__:
+              -
+                - class
+                - craft\elements\conditions\entries\TypeConditionRule
+              -
+                - uid
+                - 3082cdf4-0138-4374-bea7-7590101999cb
+              -
+                - operator
+                - in
+              -
+                - values
+                -
+                  - 131aa2a4-f25c-440b-846a-296d1c24f130 # Gallery
   selectionLabel: 'Select a Gallery'
   showSiteMenu: false
-  source: null
   sources:
     - 'section:3a8b9653-cdd3-46ce-84b2-d73b5dc4de63' # Gallery
   targetSiteId: null
