@@ -1,0 +1,24 @@
+fieldLayouts:
+  c36fcabb-71cd-410a-b3bf-4d9a80b9b53b:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: e98e0ffd-73fa-4e57-808c-dcb9873209ca # Entry - Gallery
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: ea73eff0-6379-4760-adbf-5c4c4a172ec4
+            userCondition: null
+            warning: null
+            width: 100
+        name: '1'
+        uid: 9d89e9b2-9256-49b5-b671-79294e0c1014
+        userCondition: null
+handle: gallery
+name: Gallery
+sortOrder: 2
