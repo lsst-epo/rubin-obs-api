@@ -6,7 +6,6 @@
 
 [![Deployed to Development](https://github.com/lsst-epo/rubin-obs-api/actions/workflows/develop-push-gae.yaml/badge.svg)](https://github.com/lsst-epo/rubin-obs-api/actions/workflows/develop-push-gae.yaml)
 
-
 Headless Craft CMS backend for the Rubin Observatory operational website with Docker support.
 
 This project was created with Docker version 20.10.5.
@@ -65,6 +64,7 @@ To export a `prod` database to the `gs://release_db_sql_files/rubinobs/` bucket:
 * The argument `dbname` is required and should be one of the databases listed from `make cloud-db-list`
 * You will need to go into the `prod` GCP project in the Google Cloud Storage resource to find the DB dump file
 * Once you download the DB dump file, move it to the `./db/` folder
+
 ---
 To provision a new local database, first bring up the postgres container if it's not already up:
 
@@ -76,7 +76,8 @@ Ensure that the dump file is located within `./db/`, then run:
 
 * The argument `dbname` is required and will be the name of the newly created database
 * The argument `dbfile` is required and should be the name of the DB file to recreate, this file _must_ be in the `./db/` folder
---- 
+
+---
 
 <br>
 <br>
@@ -99,9 +100,11 @@ docker-compose -f docker-compose-local-db.yml up --build
 ```
 
 7. Subsequent bringing up of containers you've already built:
+
 ```shell
 docker-compose -f docker-compose-local-db.yml up
 ```
+
 8. Go to <http://localhost:8080/admin> to administer the site
 
 #### Useful docker commands for local development
@@ -109,13 +112,12 @@ docker-compose -f docker-compose-local-db.yml up
 1. Cleaning house: `docker volume prune` `docker system prune`
 2. Spin stuff down politely: `docker-compose -f docker-compose-local-db.yml down`
 3. Peek inside your running docker containers:
-  * `docker container ls`
-  * `docker exec -it <CONTAINER-ID> /bin/sh`
-  * and then, for instance, to look at DB `psql -d craft -U craft`
+
+* `docker container ls`
+* `docker exec -it <CONTAINER-ID> /bin/sh`
+* and then, for instance, to look at DB `psql -d craft -U craft`
+
 4. To rebuild images and bring up the containers: `docker-compose -f docker-compose-local-db.yml up --build`
 5. When you need to do composer stuff: `docker run -v ${PWD}/api:/app composer <blah>`
 6. After ssh-ing into a live GAE instance, by way of the GCP console interface, you can ssh into a running container: `docker exec -ti gaeapp sh`
 7. When working locally, in order to ensure the latest docker `craft-base-image` is used: `docker pull us-central1-docker.pkg.dev/skyviewer/public-images/craft-base-image`
-
-
-
