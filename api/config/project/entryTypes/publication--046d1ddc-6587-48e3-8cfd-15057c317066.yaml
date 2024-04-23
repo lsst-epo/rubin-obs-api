@@ -1,0 +1,95 @@
+fieldLayouts:
+  3c62ecc2-4885-469d-9174-ba6934b0ecfd:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            inputType: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 70df1cf8-e58c-4993-89c1-0c25bb944713
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 74f926d6-9e57-4019-b084-be1dc5960a7a # Author
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 824bcb71-e4f5-4d27-b82c-f83ee15b9afc
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: c1f8c36c-fe3e-4e51-a602-b8c751ca45d4 # Other Authors / Credit
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 1b946647-aafa-4670-b014-b5fc9be291a2
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 75f0b770-5006-4359-848f-96415196bfe0 # Date
+            instructions: null
+            label: 'Publication Date'
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: ef2af710-e520-408e-99e0-ee12e35a6cb5
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: a71f443d-14a3-402b-90ba-524dcce806d2 # External URL
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: be332602-e45d-4b5d-9dcc-593da2b70c5f
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: b656638c-0f11-4f5a-9314-65858efa2583
+        userCondition: null
+handle: publication
+hasTitleField: true
+name: Publication
+section: 572f9558-2330-400a-900d-d7f11a4b1e2b # Publications
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+sortOrder: 1
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

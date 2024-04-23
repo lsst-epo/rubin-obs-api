@@ -1,10 +1,14 @@
 isPublic: false
 name: 'Educator Schema'
 scope:
+  - 'sites.547128fa-4529-4483-9968-66425996b69f:read' # EN
+  - 'sites.2c2e1c6a-eb4d-44f1-9a43-8d79b326f354:read' # ES
   - 'sections.7cad6f4e-cc7b-45cf-ac7b-6f383e77bc1b:read' # Callouts
+  - 'entrytypes.fa15bb4c-adb8-4393-82c3-15c2b830867c:read' # Callout - quote
   - 'entrytypes.942c9e60-2760-42ed-b03b-9e5eb133751b:read' # Callout
   - 'entrytypes.34f61e7c-358c-48b8-8439-42bc05ed255c:read' # Callout - two-tone
-  - 'entrytypes.fa15bb4c-adb8-4393-82c3-15c2b830867c:read' # Callout - quote
+  - 'entrytypes.e74470ea-c559-482e-9e3d-2241517a95a7:read' # Callout - Event
+  - 'entrytypes.46db7366-f372-41c2-9f6a-dc30bcd7a946:read' # Callout - News
   - 'sections.4305f2e2-40b8-47b2-8b62-135b8b57be7f:read' # Events
   - 'entrytypes.6acd6e24-26c9-4e55-a35b-c29cd36a7a3c:read' # Events
   - 'sections.3a8b9653-cdd3-46ce-84b2-d73b5dc4de63:read' # Gallery
@@ -21,10 +25,12 @@ scope:
   - 'entrytypes.4729ad5e-485e-4f98-995d-79fa5254cd42:read' # News Post
   - 'sections.f1b8c943-bc12-4001-9e2a-d531379f1aaf:read' # Pages
   - 'entrytypes.23eda090-7e8e-401d-ab49-ee4becc34935:read' # Pages
-  - 'entrytypes.b55b0827-5ceb-45e1-bd3c-a35dc4638886:read' # Investigation Landing Page
-  - 'entrytypes.26ca2777-e4c8-41b4-ac93-aa28d09117dd:read' # Student Pages
-  - 'entrytypes.15ca4b7f-3874-4461-aae9-869c9cdf076b:read' # Redirect Page
   - 'entrytypes.9d045432-a0fb-4fcd-8bca-3bc93b1f7056:read' # Educator Pages
+  - 'entrytypes.26ca2777-e4c8-41b4-ac93-aa28d09117dd:read' # Student Pages
+  - 'entrytypes.b55b0827-5ceb-45e1-bd3c-a35dc4638886:read' # Investigation Landing Page
+  - 'entrytypes.15ca4b7f-3874-4461-aae9-869c9cdf076b:read' # Redirect Page
+  - 'sections.572f9558-2330-400a-900d-d7f11a4b1e2b:read' # Publications
+  - 'entrytypes.046d1ddc-6587-48e3-8cfd-15057c317066:read' # Publication
   - 'sections.04a48967-eac4-449f-b164-c8ecbb7036d6:read' # Search Results
   - 'entrytypes.229f2975-93d3-4c6a-9996-dfa1de3004ef:read' # Search Results
   - 'sections.fb3283a6-7286-4b2b-a77a-010783dcee7e:read' # Slideshows
@@ -38,11 +44,10 @@ scope:
   - 'volumes.18a75c63-648f-4145-9cc3-386e7c8a0106:read' # General
   - 'volumes.c3d1c243-1703-4117-abc7-88487a1f8f24:read' # Staff Profiles
   - 'volumes.d41cc960-99a4-41a8-a7a6-7891a22e4a93:read' # Asset Variants
-  - 'volumes.51d86fa7-e37a-4926-97c8-3112fd6f2fbe:read'
-  - 'globalsets.b8393df9-fb81-4d70-9ccb-6d030c818580:read' # Gallery Item Defaults
-  - 'globalsets.994d5664-f056-4969-b2cc-c62660f069af:read' # Root Page Information
-  - 'globalsets.8ccd6c1c-8e9b-44e8-93a9-f62589fb4819:read' # Site Information
   - 'globalsets.1a2ba41a-3949-4982-9cb3-f8b03863bcfd:read' # Footer Content
+  - 'globalsets.8ccd6c1c-8e9b-44e8-93a9-f62589fb4819:read' # Site Information
+  - 'globalsets.994d5664-f056-4969-b2cc-c62660f069af:read' # Root Page Information
+  - 'globalsets.b8393df9-fb81-4d70-9ccb-6d030c818580:read' # Gallery Item Defaults
   - 'usergroups.everyone:read'
   - 'usergroups.01b89d98-9aa4-46d5-a9a0-60a0c07fd815:read' # Editors
   - 'usergroups.58efa872-9485-42e3-a1e3-a5435def5392:read' # Educators
@@ -58,5 +63,3 @@ scope:
   - 'taggroups.c30bad12-1372-49fe-ab6c-a9c33b2860bb:read' # Gallery Item Tags
   - 'taggroups.0d02fdfb-053c-4d46-a5f8-0abf2542a5d2:read' # News Tags
   - 'taggroups.5d162b5e-8723-4b74-a229-f8a52bd30b1c:read' # Staff Tags
-  - 'sites.2c2e1c6a-eb4d-44f1-9a43-8d79b326f354:read' # ES
-  - 'sites.547128fa-4529-4483-9968-66425996b69f:read' # EN
