@@ -11,6 +11,7 @@ permissions:
   - 'createentries:4305f2e2-40b8-47b2-8b62-135b8b57be7f' # Events
   - 'createentries:4ffeb743-f02d-42af-8656-a6f9c1363e79' # Glossary Terms
   - 'createentries:546e0c6d-dd32-4997-8487-cc4c2fcc9480' # Investigations
+  - 'createentries:572f9558-2330-400a-900d-d7f11a4b1e2b' # Publications
   - 'createentries:59fb5a9e-74f4-4618-adba-601791f42c92' # Jobs
   - 'createentries:78410791-6edc-46c9-a17b-4358dcd545ec' # Staff Profiles
   - 'createentries:7cad6f4e-cc7b-45cf-ac7b-6f383e77bc1b' # Callouts
@@ -39,6 +40,7 @@ permissions:
   - 'deleteentries:4305f2e2-40b8-47b2-8b62-135b8b57be7f' # Events
   - 'deleteentries:4ffeb743-f02d-42af-8656-a6f9c1363e79' # Glossary Terms
   - 'deleteentries:546e0c6d-dd32-4997-8487-cc4c2fcc9480' # Investigations
+  - 'deleteentries:572f9558-2330-400a-900d-d7f11a4b1e2b' # Publications
   - 'deleteentries:59fb5a9e-74f4-4618-adba-601791f42c92' # Jobs
   - 'deleteentries:78410791-6edc-46c9-a17b-4358dcd545ec' # Staff Profiles
   - 'deleteentries:7cad6f4e-cc7b-45cf-ac7b-6f383e77bc1b' # Callouts
@@ -62,6 +64,7 @@ permissions:
   - 'deletepeerentries:4305f2e2-40b8-47b2-8b62-135b8b57be7f' # Events
   - 'deletepeerentries:4ffeb743-f02d-42af-8656-a6f9c1363e79' # Glossary Terms
   - 'deletepeerentries:546e0c6d-dd32-4997-8487-cc4c2fcc9480' # Investigations
+  - 'deletepeerentries:572f9558-2330-400a-900d-d7f11a4b1e2b' # Publications
   - 'deletepeerentries:59fb5a9e-74f4-4618-adba-601791f42c92' # Jobs
   - 'deletepeerentries:78410791-6edc-46c9-a17b-4358dcd545ec' # Staff Profiles
   - 'deletepeerentries:7cad6f4e-cc7b-45cf-ac7b-6f383e77bc1b' # Callouts
@@ -73,6 +76,7 @@ permissions:
   - 'deletepeerentrydrafts:4305f2e2-40b8-47b2-8b62-135b8b57be7f' # Events
   - 'deletepeerentrydrafts:4ffeb743-f02d-42af-8656-a6f9c1363e79' # Glossary Terms
   - 'deletepeerentrydrafts:546e0c6d-dd32-4997-8487-cc4c2fcc9480' # Investigations
+  - 'deletepeerentrydrafts:572f9558-2330-400a-900d-d7f11a4b1e2b' # Publications
   - 'deletepeerentrydrafts:59fb5a9e-74f4-4618-adba-601791f42c92' # Jobs
   - 'deletepeerentrydrafts:78410791-6edc-46c9-a17b-4358dcd545ec' # Staff Profiles
   - 'deletepeerentrydrafts:7cad6f4e-cc7b-45cf-ac7b-6f383e77bc1b' # Callouts
@@ -97,6 +101,7 @@ permissions:
   - 'editsite:547128fa-4529-4483-9968-66425996b69f' # EN
   - 'neo-createblocks:0b85955a-f0b4-47ae-adef-deb0694891af' # Related Content
   - 'neo-createblocks:13dd7a03-2223-4831-87bc-a9c717c71bb0' # Slide
+  - 'neo-createblocks:1ac7decf-dc96-4769-b73f-e147f00798fd' # Publications List
   - 'neo-createblocks:1ed98018-4e61-4580-bee8-961ceab2bb2c' # Staff Item
   - 'neo-createblocks:22728b4f-f1bb-4399-8525-53e3163f0594' # Slide Block
   - 'neo-createblocks:23b188bc-f349-445e-9df7-f3a7d1c6fe9e' # Schedule
@@ -139,6 +144,7 @@ permissions:
   - 'neo-createblocks:fb3d440b-3313-476c-8ce6-9c91ba637a56' # Download List
   - 'neo-deleteblocks:0b85955a-f0b4-47ae-adef-deb0694891af' # Related Content
   - 'neo-deleteblocks:13dd7a03-2223-4831-87bc-a9c717c71bb0' # Slide
+  - 'neo-deleteblocks:1ac7decf-dc96-4769-b73f-e147f00798fd' # Publications List
   - 'neo-deleteblocks:1ed98018-4e61-4580-bee8-961ceab2bb2c' # Staff Item
   - 'neo-deleteblocks:22728b4f-f1bb-4399-8525-53e3163f0594' # Slide Block
   - 'neo-deleteblocks:23b188bc-f349-445e-9df7-f3a7d1c6fe9e' # Schedule
@@ -181,6 +187,7 @@ permissions:
   - 'neo-deleteblocks:fb3d440b-3313-476c-8ce6-9c91ba637a56' # Download List
   - 'neo-editblocks:0b85955a-f0b4-47ae-adef-deb0694891af' # Related Content
   - 'neo-editblocks:13dd7a03-2223-4831-87bc-a9c717c71bb0' # Slide
+  - 'neo-editblocks:1ac7decf-dc96-4769-b73f-e147f00798fd' # Publications List
   - 'neo-editblocks:1ed98018-4e61-4580-bee8-961ceab2bb2c' # Staff Item
   - 'neo-editblocks:22728b4f-f1bb-4399-8525-53e3163f0594' # Slide Block
   - 'neo-editblocks:23b188bc-f349-445e-9df7-f3a7d1c6fe9e' # Schedule
@@ -253,6 +260,7 @@ permissions:
   - 'saveentries:4305f2e2-40b8-47b2-8b62-135b8b57be7f' # Events
   - 'saveentries:4ffeb743-f02d-42af-8656-a6f9c1363e79' # Glossary Terms
   - 'saveentries:546e0c6d-dd32-4997-8487-cc4c2fcc9480' # Investigations
+  - 'saveentries:572f9558-2330-400a-900d-d7f11a4b1e2b' # Publications
   - 'saveentries:59fb5a9e-74f4-4618-adba-601791f42c92' # Jobs
   - 'saveentries:78410791-6edc-46c9-a17b-4358dcd545ec' # Staff Profiles
   - 'saveentries:7cad6f4e-cc7b-45cf-ac7b-6f383e77bc1b' # Callouts
@@ -276,6 +284,7 @@ permissions:
   - 'savepeerentries:4305f2e2-40b8-47b2-8b62-135b8b57be7f' # Events
   - 'savepeerentries:4ffeb743-f02d-42af-8656-a6f9c1363e79' # Glossary Terms
   - 'savepeerentries:546e0c6d-dd32-4997-8487-cc4c2fcc9480' # Investigations
+  - 'savepeerentries:572f9558-2330-400a-900d-d7f11a4b1e2b' # Publications
   - 'savepeerentries:59fb5a9e-74f4-4618-adba-601791f42c92' # Jobs
   - 'savepeerentries:78410791-6edc-46c9-a17b-4358dcd545ec' # Staff Profiles
   - 'savepeerentries:7cad6f4e-cc7b-45cf-ac7b-6f383e77bc1b' # Callouts
@@ -287,6 +296,7 @@ permissions:
   - 'savepeerentrydrafts:4305f2e2-40b8-47b2-8b62-135b8b57be7f' # Events
   - 'savepeerentrydrafts:4ffeb743-f02d-42af-8656-a6f9c1363e79' # Glossary Terms
   - 'savepeerentrydrafts:546e0c6d-dd32-4997-8487-cc4c2fcc9480' # Investigations
+  - 'savepeerentrydrafts:572f9558-2330-400a-900d-d7f11a4b1e2b' # Publications
   - 'savepeerentrydrafts:59fb5a9e-74f4-4618-adba-601791f42c92' # Jobs
   - 'savepeerentrydrafts:78410791-6edc-46c9-a17b-4358dcd545ec' # Staff Profiles
   - 'savepeerentrydrafts:7cad6f4e-cc7b-45cf-ac7b-6f383e77bc1b' # Callouts
@@ -311,6 +321,7 @@ permissions:
   - 'viewentries:4305f2e2-40b8-47b2-8b62-135b8b57be7f' # Events
   - 'viewentries:4ffeb743-f02d-42af-8656-a6f9c1363e79' # Glossary Terms
   - 'viewentries:546e0c6d-dd32-4997-8487-cc4c2fcc9480' # Investigations
+  - 'viewentries:572f9558-2330-400a-900d-d7f11a4b1e2b' # Publications
   - 'viewentries:59fb5a9e-74f4-4618-adba-601791f42c92' # Jobs
   - 'viewentries:78410791-6edc-46c9-a17b-4358dcd545ec' # Staff Profiles
   - 'viewentries:7cad6f4e-cc7b-45cf-ac7b-6f383e77bc1b' # Callouts
@@ -334,6 +345,7 @@ permissions:
   - 'viewpeerentries:4305f2e2-40b8-47b2-8b62-135b8b57be7f' # Events
   - 'viewpeerentries:4ffeb743-f02d-42af-8656-a6f9c1363e79' # Glossary Terms
   - 'viewpeerentries:546e0c6d-dd32-4997-8487-cc4c2fcc9480' # Investigations
+  - 'viewpeerentries:572f9558-2330-400a-900d-d7f11a4b1e2b' # Publications
   - 'viewpeerentries:59fb5a9e-74f4-4618-adba-601791f42c92' # Jobs
   - 'viewpeerentries:78410791-6edc-46c9-a17b-4358dcd545ec' # Staff Profiles
   - 'viewpeerentries:7cad6f4e-cc7b-45cf-ac7b-6f383e77bc1b' # Callouts
@@ -345,6 +357,7 @@ permissions:
   - 'viewpeerentrydrafts:4305f2e2-40b8-47b2-8b62-135b8b57be7f' # Events
   - 'viewpeerentrydrafts:4ffeb743-f02d-42af-8656-a6f9c1363e79' # Glossary Terms
   - 'viewpeerentrydrafts:546e0c6d-dd32-4997-8487-cc4c2fcc9480' # Investigations
+  - 'viewpeerentrydrafts:572f9558-2330-400a-900d-d7f11a4b1e2b' # Publications
   - 'viewpeerentrydrafts:59fb5a9e-74f4-4618-adba-601791f42c92' # Jobs
   - 'viewpeerentrydrafts:78410791-6edc-46c9-a17b-4358dcd545ec' # Staff Profiles
   - 'viewpeerentrydrafts:7cad6f4e-cc7b-45cf-ac7b-6f383e77bc1b' # Callouts

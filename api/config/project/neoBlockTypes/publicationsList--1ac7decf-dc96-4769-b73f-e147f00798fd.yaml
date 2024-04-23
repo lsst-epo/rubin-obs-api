@@ -1,0 +1,65 @@
+childBlocks:
+  - publication
+conditions: null
+description: ''
+enabled: true
+field: 72e5075a-9b06-4674-b040-615f4a6f7b70 # Content Blocks - Pages
+fieldLayouts:
+  aa0a507f-39c2-4f9f-8b6b-9aca294af15a:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: b0ce3829-20c1-44ef-a7c7-499800645afc # Header
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 9a5c4944-3ce8-4b33-bcc4-9d263cd53137
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: d019727b-a6d5-43d9-a688-f10df985a87e # Link
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 414651d7-7a87-4fca-8c7a-9c82221b92aa
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 02a18f72-78b7-4215-9703-ad2b98202547 # Publication
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 65f236fd-7dcb-48ca-9969-cd3c88d3da1a
+            userCondition: null
+            warning: null
+            width: 100
+        name: '1'
+        uid: d00bd084-fcbe-4ba4-8151-fdaa9f1dcd4e
+        userCondition: null
+group: null
+groupChildBlockTypes: true
+handle: publicationsList
+icon: null
+iconFilename: ''
+ignorePermissions: true
+maxBlocks: 0
+maxChildBlocks: 0
+maxSiblingBlocks: 0
+minBlocks: 0
+minChildBlocks: 0
+minSiblingBlocks: 0
+name: 'Publications List'
+topLevel: true

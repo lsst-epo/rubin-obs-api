@@ -1,4 +1,4 @@
-dateModified: 1712092981
+dateModified: 1713830802
 email:
   fromEmail: $EMAIL_FROM_ADDRESS
   fromName: $EMAIL_SENDER_NAME
@@ -85,6 +85,7 @@ meta:
     0f48338c-1c16-4600-9230-68bacb7c21e3: Text # Text
     1a2ba41a-3949-4982-9cb3-f8b03863bcfd: 'Footer Content' # Footer Content
     1a35bfab-6a39-4c03-b273-2d5e3151c335: 'Rubin Telescope Education and Public Outreach' # Rubin Telescope Education and Public Outreach
+    1ac7decf-dc96-4769-b73f-e147f00798fd: 'Publications List' # Publications List
     01b89d98-9aa4-46d5-a9a0-60a0c07fd815: Editors # Editors
     1ba9911b-93b6-43f2-b9be-ba99c3461865: 'External Url (Translatable)' # External Url (Translatable)
     1c0e3777-36ee-449d-948e-01f6fbde3ee6: Sites # Sites
@@ -95,6 +96,7 @@ meta:
     1ed98018-4e61-4580-bee8-961ceab2bb2c: 'Staff Item' # Staff Item
     1ee32484-2cca-457e-ac23-b3cb13e652d3: 'User Profile Page' # User Profile Page
     1f7ad44a-de72-4538-9628-acdbc79e32f6: 'Staff Trading Card' # Staff Trading Card
+    02a18f72-78b7-4215-9703-ad2b98202547: Publication # Publication
     2c2e1c6a-eb4d-44f1-9a43-8d79b326f354: ES # ES
     2c121c9e-10e1-4a79-a17f-a6c7ef7965f3: 'Table Group' # Table Group
     3a3af2ab-b037-455a-ba95-bc3be89efdb0: 'Event Filters' # Event Filters
@@ -173,6 +175,7 @@ meta:
     40b120c8-203c-4787-b78c-7bfd9c56fe2f: 'Sub Location' # Sub Location
     40ee52fe-bbe1-4b44-97ea-ef987105496b: Email # Email
     41a9c595-2a38-40b5-b87c-ada8076913e1: Share # Share
+    046d1ddc-6587-48e3-8cfd-15057c317066: Publication # Publication
     46d17af4-896a-4fc5-90bf-ac826090d9bc: Credit # Credit
     46db7366-f372-41c2-9f6a-dc30bcd7a946: 'Callout - News' # Callout - News
     48ba11bd-90a5-4239-a24c-d44d01affbcf: 'Image - quote' # Image - quote
@@ -190,6 +193,7 @@ meta:
     72a74d52-7fcc-4c4e-8db1-1528c7ae5ee3: 'Event Type' # Event Type
     72e5075a-9b06-4674-b040-615f4a6f7b70: 'Content Blocks - Pages' # Content Blocks - Pages
     0073b1d1-a221-431d-aab9-bf4e193adf4f: 'Focal Point Y' # Focal Point Y
+    74f926d6-9e57-4019-b084-be1dc5960a7a: Author # Author
     75f0b770-5006-4359-848f-96415196bfe0: Date # Date
     77dc755a-bb96-4422-b00f-c7d74e45d400: 'Educator Schema' # Educator Schema
     80e0f53f-96b3-43d4-b166-453ac4ac0147: Header # Header
@@ -203,6 +207,7 @@ meta:
     534d275e-b6e9-4064-9965-07e804e0fcc1: 'User Profile Page' # User Profile Page
     545ad3bb-62d3-448e-8a57-5ec434539d05: 'Use External Link' # Use External Link
     546e0c6d-dd32-4997-8487-cc4c2fcc9480: Investigations # Investigations
+    572f9558-2330-400a-900d-d7f11a4b1e2b: Publications # Publications
     612eabbe-059a-4916-abcf-c82132da4cfc: Asset # Asset
     635a4a93-f10b-4d3c-bd44-2ea1474ad4cb: 'Vertical Alignment' # Vertical Alignment
     644c6b87-ac0c-4cdf-88be-744a5ee684bb: Description # Description
@@ -261,6 +266,7 @@ meta:
     838028d1-bb13-49aa-a2ee-b0b2e7e6a4fa: 'Simple Table' # Simple Table
     960543c0-3ba6-466b-aa9e-9182279dd49a: 'Start Date' # Start Date
     04000104-ec26-4d82-959a-729454e7f1cc: Country # Country
+    6637068b-5ee0-4019-a89a-58af8e373b60: Publications # Publications
     7187131b-681b-45de-a1ea-87a8d070c05a: 'Gallery Item' # Gallery Item
     7619020e-9b6f-4526-9359-d6cfb47b33a5: 'Entry - Event' # Entry - Event
     9940892d-32f4-4399-acac-ab559ce1c82b: Common # Common
@@ -306,6 +312,7 @@ meta:
     bbf936fb-1787-437b-8ebd-a6e79409896e: 'Glossary Term' # Glossary Term
     bc12b31b-5681-4d9c-bbc1-80042dca1a82: YouTube # YouTube
     be9edc91-a7d0-4838-9565-20381695cbcb: 'Staff Profiles' # Staff Profiles
+    c1f8c36c-fe3e-4e51-a602-b8c751ca45d4: 'Other Authors / Credit' # Other Authors / Credit
     c2eab1e2-8dc7-4ea8-a1c2-5572ff82212b: 'Linked Asset' # Linked Asset
     c3d1c243-1703-4117-abc7-88487a1f8f24: 'Staff Profiles' # Staff Profiles
     c5c5037a-57bf-4aff-85ca-62e14c8c1cea: 'Schedule Row' # Schedule Row
@@ -2297,7 +2304,7 @@ plugins:
             - '1'
           -
             - galleryItems
-            - ''
+            - '1'
           -
             - glossaryTerms
             - '1'
@@ -2306,15 +2313,18 @@ plugins:
             - '1'
           -
             - investigations
-            - ''
+            - '1'
           -
             - jobs
-            - ''
+            - '1'
           -
             - news
             - '1'
           -
             - pages
+            - '1'
+          -
+            - publications
             - '1'
           -
             - searchResults
