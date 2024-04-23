@@ -23,13 +23,14 @@ scope:
   - 'entrytypes.39558c70-8baf-4748-9f12-49e78a04eed5:read' # Job
   - 'sections.11be7603-f576-4af8-93a6-e285e4ff42c4:read' # News
   - 'entrytypes.4729ad5e-485e-4f98-995d-79fa5254cd42:read' # News Post
-  - 'entrytypes.29f8c567-661d-42f5-a1f0-f49613c49751:read'
   - 'sections.f1b8c943-bc12-4001-9e2a-d531379f1aaf:read' # Pages
   - 'entrytypes.23eda090-7e8e-401d-ab49-ee4becc34935:read' # Pages
   - 'entrytypes.9d045432-a0fb-4fcd-8bca-3bc93b1f7056:read' # Educator Pages
   - 'entrytypes.26ca2777-e4c8-41b4-ac93-aa28d09117dd:read' # Student Pages
   - 'entrytypes.b55b0827-5ceb-45e1-bd3c-a35dc4638886:read' # Investigation Landing Page
   - 'entrytypes.15ca4b7f-3874-4461-aae9-869c9cdf076b:read' # Redirect Page
+  - 'sections.572f9558-2330-400a-900d-d7f11a4b1e2b:read' # Publications
+  - 'entrytypes.046d1ddc-6587-48e3-8cfd-15057c317066:read' # Publication
   - 'sections.04a48967-eac4-449f-b164-c8ecbb7036d6:read' # Search Results
   - 'entrytypes.229f2975-93d3-4c6a-9996-dfa1de3004ef:read' # Search Results
   - 'sections.fb3283a6-7286-4b2b-a77a-010783dcee7e:read' # Slideshows
@@ -43,7 +44,6 @@ scope:
   - 'volumes.18a75c63-648f-4145-9cc3-386e7c8a0106:read' # General
   - 'volumes.c3d1c243-1703-4117-abc7-88487a1f8f24:read' # Staff Profiles
   - 'volumes.d41cc960-99a4-41a8-a7a6-7891a22e4a93:read' # Asset Variants
-  - 'volumes.51d86fa7-e37a-4926-97c8-3112fd6f2fbe:read'
   - 'globalsets.1a2ba41a-3949-4982-9cb3-f8b03863bcfd:read' # Footer Content
   - 'globalsets.8ccd6c1c-8e9b-44e8-93a9-f62589fb4819:read' # Site Information
   - 'globalsets.994d5664-f056-4969-b2cc-c62660f069af:read' # Root Page Information
