@@ -1,0 +1,24 @@
+columnSuffix: null
+contentColumnType: string
+fieldGroup: 40914d25-1cae-448f-aeea-2d7d779d620d # People
+handle: people
+instructions: null
+name: People
+searchable: false
+settings:
+  allowSelfRelations: false
+  branchLimit: null
+  localizeRelations: false
+  maintainHierarchy: false
+  maxRelations: null
+  minRelations: null
+  selectionLabel: null
+  showSiteMenu: false
+  sources:
+    - 'section:7b6ae5d5-7819-48b3-b2ab-7f7109c3ebfa' # People
+  targetSiteId: null
+  validateRelatedElements: false
+  viewMode: null
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Entries
