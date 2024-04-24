@@ -1,0 +1,35 @@
+columnSuffix: ojfokyyb
+contentColumnType: string(4)
+fieldGroup: 40914d25-1cae-448f-aeea-2d7d779d620d # People
+handle: peopleLayout
+instructions: null
+name: 'Grid or List'
+searchable: false
+settings:
+  columnType: null
+  options:
+    -
+      __assoc__:
+        -
+          - label
+          - List
+        -
+          - value
+          - list
+        -
+          - default
+          - '1'
+    -
+      __assoc__:
+        -
+          - label
+          - Grid
+        -
+          - value
+          - grid
+        -
+          - default
+          - ''
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\RadioButtons
