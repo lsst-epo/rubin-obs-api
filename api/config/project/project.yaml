@@ -1,4 +1,4 @@
-dateModified: 1713830802
+dateModified: 1713998649
 email:
   fromEmail: $EMAIL_FROM_ADDRESS
   fromName: $EMAIL_SENDER_NAME
@@ -131,6 +131,7 @@ meta:
     6e888efc-ab7a-4c15-9ec5-5954b52984ca: 'Show Sibling Nav' # Show Sibling Nav
     6ed14c66-fec8-4bca-8f29-02cbd1620d12: Teaser # Teaser
     6f86b4dc-dab0-46fa-860d-81f6ebe6b541: Bold # Bold
+    7b6ae5d5-7819-48b3-b2ab-7f7109c3ebfa: People # People
     7beb32e3-0674-4b9c-9878-022862950868: Type # Type
     7cad6f4e-cc7b-45cf-ac7b-6f383e77bc1b: Callouts # Callouts
     7cb3bc06-c4c4-4017-8c0c-fa6aad7cbd8e: 'News Filters' # News Filters
@@ -154,6 +155,7 @@ meta:
     9c14ac7e-c466-4c2d-a2fd-e19a68fc706d: Teaser # Teaser
     9c34fc8b-8bc3-4f8a-bbc8-ea58a018719a: 'Custom Breadcrumb Sets' # Custom Breadcrumb Sets
     9d045432-a0fb-4fcd-8bca-3bc93b1f7056: 'Educator Pages' # Educator Pages
+    9d7c57a1-0518-46c5-9c44-0fe5757e5b88: 'People Block' # People Block
     9f05163b-ea00-46ad-bed5-b3c6b5e5a365: Game # Game
     10e8304e-93be-4c77-b1e9-7d9058c4aa92: Status # Status
     11be7603-f576-4af8-93a6-e285e4ff42c4: News # News
@@ -180,12 +182,14 @@ meta:
     46db7366-f372-41c2-9f6a-dc30bcd7a946: 'Callout - News' # Callout - News
     48ba11bd-90a5-4239-a24c-d44d01affbcf: 'Image - quote' # Image - quote
     56f60368-4386-4395-92b6-31b15c7663cc: Contact # Contact
+    57dcbdae-db2b-4f63-8d0e-26bdfb80c7db: 'Grid or List' # Grid or List
     58aa24c3-97e4-43e7-a812-7374e5650180: 'Focal Point X' # Focal Point X
     58efa872-9485-42e3-a1e3-a5435def5392: Educators # Educators
     58f1a805-f9c5-46ce-81dd-e17a3ea99353: PublisherId # PublisherId
     59fb5a9e-74f4-4618-adba-601791f42c92: Jobs # Jobs
     61b9d842-7365-4bbf-883c-1b6433dc15f4: 'Caption - rich text' # Caption - rich text
     61e2311c-55a3-4219-9afe-606f0f422e3f: 'Usage Terms' # Usage Terms
+    66cc7887-85b3-4299-abf5-f92cbae50a8b: People # People
     68ce46bb-bb2f-4e55-8009-fe56a7d4493b: Header # Header
     70d00340-3577-4a61-a2be-6e6fd986b5a7: 'Open Date' # Open Date
     70e42474-2ece-4a5a-9746-0cb2dd60a1a9: Mail # Mail
@@ -235,6 +239,7 @@ meta:
     5075e912-4aa1-4ce4-96b2-8868358b51e3: Header # Header
     5205b271-dfd8-4938-84bb-61d9d6ab4889: 'End Time' # End Time
     5548b745-642b-4b15-8f17-4ce7457689a8: Header # Header
+    5884a9c8-b8b4-48b4-872e-ba06c7fd7bd9: Person # Person
     6509f949-86bc-4542-ab9f-9593ae7153be: Accordion # Accordion
     6863d4cb-1c9e-4d09-867f-92b87dd7bd81: News # News
     6908c928-e76b-4692-ae6f-e3d8c994d0ce: Row # Row
@@ -249,6 +254,7 @@ meta:
     10118ebf-e3bf-4b1b-bbb8-4b57ab3753c8: Caption # Caption
     22728b4f-f1bb-4399-8525-53e3163f0594: 'Slide Block' # Slide Block
     39558c70-8baf-4748-9f12-49e78a04eed5: Job # Job
+    40914d25-1cae-448f-aeea-2d7d779d620d: People # People
     51322eaa-f9c8-4ade-a6e6-b877bbdc494e: 'Show Page in the Header Navigation' # Show Page in the Header Navigation
     51414e74-22c3-4134-9ccb-34f524920c2c: 'Metadata Version' # Metadata Version
     0059967d-f567-4066-a676-02f7c932b843: 'Start Time' # Start Time
@@ -361,6 +367,7 @@ meta:
     dfd8564d-5db6-4167-99db-29867a64bc2c: 'Content Order' # Content Order
     dff2a767-333e-4c9d-880c-143e1ca2aaa3: 'Row Content' # Row Content
     e0be58f6-fc1b-4a02-816c-0a37b0fcd602: Students # Students
+    e6e1a190-5824-49c2-8242-ee637519925d: Affiliation # Affiliation
     e6f15692-eb5b-4a33-ad48-7f2b05a7c527: 'Request Deletion' # Request Deletion
     e46ce1e1-606c-4043-acea-5ddab0358221: Image # Image
     e48cbecf-107a-43c6-b099-9d6f3d7cadd8: Credit # Credit
@@ -2322,6 +2329,9 @@ plugins:
             - '1'
           -
             - pages
+            - '1'
+          -
+            - people
             - '1'
           -
             - publications
