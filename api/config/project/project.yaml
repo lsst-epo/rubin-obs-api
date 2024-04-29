@@ -1,4 +1,4 @@
-dateModified: 1713998649
+dateModified: 1714433513
 email:
   fromEmail: $EMAIL_FROM_ADDRESS
   fromName: $EMAIL_SENDER_NAME
@@ -151,7 +151,6 @@ meta:
     9ad13bcd-637a-4757-9968-cdcc02cfd478: 'Table Row' # Table Row
     9b9ff039-061b-4efd-988e-553f811623b2: Users # Users
     9b45a4e3-4461-43d1-881a-ef72029ba2ad: Image # Image
-    9c6d529b-4199-4be2-8284-fafc8063250c: 'Embed url' # Embed url
     9c14ac7e-c466-4c2d-a2fd-e19a68fc706d: Teaser # Teaser
     9c34fc8b-8bc3-4f8a-bbc8-ea58a018719a: 'Custom Breadcrumb Sets' # Custom Breadcrumb Sets
     9d045432-a0fb-4fcd-8bca-3bc93b1f7056: 'Educator Pages' # Educator Pages
@@ -264,6 +263,7 @@ meta:
     90295d5c-0b35-40ca-bb95-c7fc81969b14: 'Accordion Group' # Accordion Group
     110434a5-98f0-4679-9f3c-20869a785eee: 'Link To' # Link To
     271253b0-e9b7-4bf1-be32-ce31d71b48b1: Quote # Quote
+    272199e3-bb52-4f48-a734-86e150009c76: 'Embed Code' # Embed Code
     312197d8-1241-4fac-8422-febdf44e5e9a: 'Entry - Slideshow' # Entry - Slideshow
     418392d0-2ad4-48a1-8eb3-7cdf5437d498: Investigation # Investigation
     547128fa-4529-4483-9968-66425996b69f: EN # EN
@@ -2350,17 +2350,6 @@ plugins:
             - ''
       nextApiBaseUrl: $NEXT_API_BASE_URL
       nextSecretToken: $NEXT_REVALIDATE_SECRET_TOKEN
-  oembed:
-    edition: standard
-    enabled: true
-    schemaVersion: 1.0.1
-    settings:
-      enableCache: '1'
-      enableGdpr: ''
-      enableNotifications: ''
-      facebookKey: ''
-      notificationEmail: ''
-      previewHidden: ''
   phone-number:
     edition: standard
     enabled: true
