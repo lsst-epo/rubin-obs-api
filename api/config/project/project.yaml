@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 dateModified: 1718918670
+=======
+dateModified: 1714433513
+>>>>>>> 54e3afa7 ([F] Embed Content Block can have url or html)
 email:
   fromEmail: $EMAIL_FROM_ADDRESS
   fromName: $EMAIL_SENDER_NAME
