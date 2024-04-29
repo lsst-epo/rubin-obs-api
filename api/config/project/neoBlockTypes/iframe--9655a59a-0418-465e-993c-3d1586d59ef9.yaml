@@ -20,7 +20,7 @@ fieldLayouts:
             uid: 4241793a-3d7f-4841-ba74-b37d306ca3ca
             userCondition: null
             warning: null
-            width: 100
+            width: 50
           -
             elementCondition: null
             fieldUid: ef5793ab-b4f7-45c7-be68-338184b3d385 # Full Width
@@ -32,16 +32,28 @@ fieldLayouts:
             uid: 447fc355-486d-4ff1-a2e8-e838d39fa048
             userCondition: null
             warning: null
+            width: 50
+          -
+            elementCondition: null
+            fieldUid: a71f443d-14a3-402b-90ba-524dcce806d2 # External URL
+            instructions: "URL to be used in the src attribute of an iframe.\r\nNote: \"Embed Code\" overrides the \"Embed URL\""
+            label: 'Embed URL'
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: bffef2e0-131c-44bd-a183-68259cd3472a
+            userCondition: null
+            warning: null
             width: 100
           -
             elementCondition: null
-            fieldUid: 9c6d529b-4199-4be2-8284-fafc8063250c # Embed url
-            instructions: null
+            fieldUid: 272199e3-bb52-4f48-a734-86e150009c76 # Embed Code
+            instructions: "HTML to inject directly into the DOM.  Should be an iframe.\r\nNote: \"Embed Code\" overrides the \"Embed URL\""
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 2b81d882-85b1-4e29-919e-0b258dd19f91
+            uid: 5c773b00-c40a-4866-96b7-bc800c4c6c3e
             userCondition: null
             warning: null
             width: 100

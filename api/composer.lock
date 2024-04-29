@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "5a2435c31f56d55f90899c0367e79c73",
+    "content-hash": "b1db5dec8a751ceaf85c9655c8daca57",
     "packages": [
         {
             "name": "abraham/twitteroauth",
@@ -1454,62 +1454,6 @@
                 "php-emoji"
             ],
             "time": "2022-10-28T02:32:19+00:00"
-        },
-        {
-            "name": "embed/embed",
-            "version": "v4.4.10",
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/oscarotero/Embed/zipball/8ac21505d048e8796c6cb9172ec5e81e5d0e0408",
-                "reference": "8ac21505d048e8796c6cb9172ec5e81e5d0e0408",
-                "shasum": ""
-            },
-            "require": {
-                "composer/ca-bundle": "^1.0",
-                "ext-curl": "*",
-                "ext-dom": "*",
-                "ext-json": "*",
-                "ext-mbstring": "*",
-                "ml/json-ld": "^1.1",
-                "oscarotero/html-parser": "^0.1.4",
-                "php": "^7.4|^8",
-                "psr/http-client": "^1.0",
-                "psr/http-factory": "^1.0",
-                "psr/http-message": "^1.0|^2.0"
-            },
-            "suggest": {
-                "symfony/css-selector": "If you want to get elements using css selectors"
-            },
-            "type": "library",
-            "autoload": {
-                "files": [
-                    "src/functions.php"
-                ],
-                "psr-4": {
-                    "Embed\\": "src"
-                }
-            },
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Oscar Otero",
-                    "email": "oom@oscarotero.com",
-                    "homepage": "http://oscarotero.com",
-                    "role": "Developer"
-                }
-            ],
-            "description": "PHP library to retrieve page info using oembed, opengraph, etc",
-            "homepage": "https://github.com/oscarotero/Embed",
-            "keywords": [
-                "embed",
-                "embedly",
-                "oembed",
-                "opengraph",
-                "twitter cards"
-            ],
-            "time": "2023-12-10T12:30:47+00:00"
         },
         {
             "name": "enshrined/svg-sanitize",
@@ -3119,86 +3063,6 @@
             "time": "2023-04-19T08:25:22+00:00"
         },
         {
-            "name": "ml/iri",
-            "version": "1.1.4",
-            "target-dir": "ML/IRI",
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/lanthaler/IRI/zipball/cbd44fa913e00ea624241b38cefaa99da8d71341",
-                "reference": "cbd44fa913e00ea624241b38cefaa99da8d71341",
-                "shasum": ""
-            },
-            "require": {
-                "lib-pcre": ">=4.0",
-                "php": ">=5.3.0"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-0": {
-                    "ML\\IRI": ""
-                }
-            },
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Markus Lanthaler",
-                    "email": "mail@markus-lanthaler.com",
-                    "homepage": "http://www.markus-lanthaler.com",
-                    "role": "Developer"
-                }
-            ],
-            "description": "IRI handling for PHP",
-            "homepage": "http://www.markus-lanthaler.com",
-            "keywords": [
-                "URN",
-                "iri",
-                "uri",
-                "url"
-            ],
-            "time": "2014-01-21T13:43:39+00:00"
-        },
-        {
-            "name": "ml/json-ld",
-            "version": "1.2.1",
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/lanthaler/JsonLD/zipball/537e68e87a6bce23e57c575cd5dcac1f67ce25d8",
-                "reference": "537e68e87a6bce23e57c575cd5dcac1f67ce25d8",
-                "shasum": ""
-            },
-            "require": {
-                "ext-json": "*",
-                "ml/iri": "^1.1.1",
-                "php": ">=5.3.0"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "ML\\JsonLD\\": ""
-                }
-            },
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Markus Lanthaler",
-                    "email": "mail@markus-lanthaler.com",
-                    "homepage": "http://www.markus-lanthaler.com",
-                    "role": "Developer"
-                }
-            ],
-            "description": "JSON-LD Processor for PHP",
-            "homepage": "http://www.markus-lanthaler.com",
-            "keywords": [
-                "JSON-LD",
-                "jsonld"
-            ],
-            "time": "2022-09-29T08:45:17+00:00"
-        },
-        {
             "name": "moneyphp/money",
             "version": "v4.5.0",
             "dist": {
@@ -3358,44 +3222,6 @@
                 "issues": "https://github.com/nystudio107/craft-plugin-vite/issues"
             },
             "time": "2024-03-02T05:06:52+00:00"
-        },
-        {
-            "name": "oscarotero/html-parser",
-            "version": "v0.1.8",
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/oscarotero/html-parser/zipball/10f3219267a365d9433f2f7d1694209c9d436c8d",
-                "reference": "10f3219267a365d9433f2f7d1694209c9d436c8d",
-                "shasum": ""
-            },
-            "require": {
-                "php": "^7.2 || ^8"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "HtmlParser\\": "src"
-                }
-            },
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Oscar Otero",
-                    "email": "oom@oscarotero.com",
-                    "homepage": "http://oscarotero.com",
-                    "role": "Developer"
-                }
-            ],
-            "description": "Parse html strings to DOMDocument",
-            "homepage": "https://github.com/oscarotero/html-parser",
-            "keywords": [
-                "dom",
-                "html",
-                "parser"
-            ],
-            "time": "2023-11-29T20:28:41+00:00"
         },
         {
             "name": "paragonie/constant_time_encoding",
@@ -6870,69 +6696,6 @@
                 "graphql"
             ],
             "time": "2023-07-05T14:23:37+00:00"
-        },
-        {
-            "name": "wrav/oembed",
-            "version": "3.0.8",
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/wrav/oembed/zipball/a1df39b6c03ba6a215476e12cfbf35519d128f78",
-                "reference": "a1df39b6c03ba6a215476e12cfbf35519d128f78",
-                "shasum": ""
-            },
-            "require": {
-                "craftcms/cms": "^4.0 | ^5.0",
-                "embed/embed": "^v4.4",
-                "ext-dom": "*"
-            },
-            "type": "craft-plugin",
-            "extra": {
-                "name": "oEmbed",
-                "handle": "oembed",
-                "schemaVersion": "1.0.1",
-                "hasCpSettings": true,
-                "hasCpSection": false,
-                "changelogUrl": "https://raw.githubusercontent.com/wrav/oembed/master/CHANGELOG.md",
-                "components": {
-                    "oembedService": "wrav\\oembed\\services\\OembedService"
-                },
-                "class": "wrav\\oembed\\Oembed"
-            },
-            "autoload": {
-                "psr-4": {
-                    "wrav\\oembed\\": "src/"
-                }
-            },
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "reganlawton",
-                    "homepage": "https://github.com/reganlawton"
-                }
-            ],
-            "description": "A simple plugin to extract media information from websites, like youtube videos, twitter statuses or blog articles.",
-            "keywords": [
-                "cms",
-                "craft",
-                "craft-plugin",
-                "craftcms",
-                "facebook",
-                "gdpr",
-                "graphql",
-                "iframe",
-                "instagram",
-                "oembed",
-                "twitter",
-                "vimeo",
-                "youtube"
-            ],
-            "support": {
-                "docs": "https://github.com/wrav/oembed/blob/master/README.md",
-                "issues": "https://github.com/wrav/oembed/issues"
-            },
-            "time": "2024-02-26T00:30:02+00:00"
         },
         {
             "name": "yiisoft/yii2",
