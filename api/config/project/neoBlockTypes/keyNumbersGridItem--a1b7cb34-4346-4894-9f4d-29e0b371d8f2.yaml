@@ -1,0 +1,76 @@
+childBlocks: null
+conditions: null
+description: ''
+enabled: true
+field: 72e5075a-9b06-4674-b040-615f4a6f7b70 # Content Blocks - Pages
+fieldLayouts:
+  71ce7ee1-ccc2-47e3-99a7-4eb306bb624f:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: b0ce3829-20c1-44ef-a7c7-499800645afc # Header
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 2a3543d0-1dd0-4f35-9a5a-5b01307d076a
+            userCondition: null
+            warning: null
+            width: 50
+          -
+            elementCondition: null
+            fieldUid: 41ba0290-259f-4160-9342-1e7f4d422079 # Postscript
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 26bac875-bdc3-4617-8087-432a03639bdc
+            userCondition: null
+            warning: null
+            width: 50
+          -
+            elementCondition: null
+            fieldUid: 6fc4a8a9-3670-421b-bfc5-dc1e34d621f2 # Subheading
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 3df70d4e-7799-4035-9294-0c28049ff296
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 08126293-8df9-4de8-abf5-aa99cca69492 # Footer
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 728601b0-03d9-44c5-b35c-02264e26b60f
+            userCondition: null
+            warning: null
+            width: 100
+        name: '1'
+        uid: 59e0325b-e295-46af-ae7b-9df006249aeb
+        userCondition: null
+group: null
+groupChildBlockTypes: true
+handle: keyNumbersGridItem
+icon: null
+iconFilename: ''
+ignorePermissions: true
+maxBlocks: 0
+maxChildBlocks: 0
+maxSiblingBlocks: 0
+minBlocks: 0
+minChildBlocks: 0
+minSiblingBlocks: 0
+name: 'Key Numbers Grid Item'
+topLevel: false
