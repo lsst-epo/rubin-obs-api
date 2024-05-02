@@ -1,4 +1,4 @@
-dateModified: 1714433513
+dateModified: 1714683886
 email:
   fromEmail: $EMAIL_FROM_ADDRESS
   fromName: $EMAIL_SENDER_NAME
@@ -131,6 +131,7 @@ meta:
     6e888efc-ab7a-4c15-9ec5-5954b52984ca: 'Show Sibling Nav' # Show Sibling Nav
     6ed14c66-fec8-4bca-8f29-02cbd1620d12: Teaser # Teaser
     6f86b4dc-dab0-46fa-860d-81f6ebe6b541: Bold # Bold
+    6fc4a8a9-3670-421b-bfc5-dc1e34d621f2: Subheading # Subheading
     7b6ae5d5-7819-48b3-b2ab-7f7109c3ebfa: People # People
     7beb32e3-0674-4b9c-9878-022862950868: Type # Type
     7cad6f4e-cc7b-45cf-ac7b-6f383e77bc1b: Callouts # Callouts
@@ -176,6 +177,7 @@ meta:
     40b120c8-203c-4787-b78c-7bfd9c56fe2f: 'Sub Location' # Sub Location
     40ee52fe-bbe1-4b44-97ea-ef987105496b: Email # Email
     41a9c595-2a38-40b5-b87c-ada8076913e1: Share # Share
+    41ba0290-259f-4160-9342-1e7f4d422079: Postscript # Postscript
     046d1ddc-6587-48e3-8cfd-15057c317066: Publication # Publication
     46d17af4-896a-4fc5-90bf-ac826090d9bc: Credit # Credit
     46db7366-f372-41c2-9f6a-dc30bcd7a946: 'Callout - News' # Callout - News
@@ -275,6 +277,7 @@ meta:
     6637068b-5ee0-4019-a89a-58af8e373b60: Publications # Publications
     7187131b-681b-45de-a1ea-87a8d070c05a: 'Gallery Item' # Gallery Item
     7619020e-9b6f-4526-9359-d6cfb47b33a5: 'Entry - Event' # Entry - Event
+    08126293-8df9-4de8-abf5-aa99cca69492: Footer # Footer
     9940892d-32f4-4399-acac-ab559ce1c82b: Common # Common
     30885296-ea6f-4481-8e0f-e9d17e37c7c5: PublisherId # PublisherId
     36247100-a0f8-4eb9-b190-898131bf97b3: Width # Width
@@ -282,6 +285,7 @@ meta:
     74319755-d24f-4991-a84a-0c1c031cb21e: 'Asset Link' # Asset Link
     78410791-6edc-46c9-a17b-4358dcd545ec: 'Staff Profiles' # Staff Profiles
     a0a0fcfb-cbb1-4e1b-a600-91f1c57faf41: CTA # CTA
+    a1b7cb34-4346-4894-9f4d-29e0b371d8f2: 'Key Numbers Grid Item' # Key Numbers Grid Item
     a1e725cc-a026-42a1-b75f-3f577f0369bb: Text # Text
     a5b8e4fe-87da-48fc-8156-2a2a973b29e5: URL # URL
     a5bb0742-012f-4683-a471-874944bf3280: Image # Image
@@ -396,6 +400,7 @@ meta:
     f444667c-6ea1-4e0f-89b2-35b059e27bfc: Link # Link
     fa15bb4c-adb8-4393-82c3-15c2b830867c: 'Callout - quote' # Callout - quote
     fa690eba-6d46-4a5e-9dcd-0845f5b56c1b: 'Dynamic Component' # Dynamic Component
+    fa7678ee-7b00-4ff1-ae99-464c68f65238: 'Key Numbers Grid' # Key Numbers Grid
     fb052686-4537-4fe5-9ce2-ff3fd4a341a2: 'Content Image' # Content Image
     fb3d440b-3313-476c-8ce6-9c91ba637a56: 'Download List' # Download List
     fb3283a6-7286-4b2b-a77a-010783dcee7e: Slideshows # Slideshows
