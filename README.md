@@ -66,7 +66,7 @@ To export a `prod` database to the `gs://release_db_sql_files/rubinobs/` bucket:
 * You will need to go into the `prod` GCP project in the Google Cloud Storage resource to find the DB dump file
 * Once you download the DB dump file, move it to the `./db/` folder
 ---
-To list the local databases for this project, first bring up the postgres container if it's not already up:
+To provision a new local database, first bring up the postgres container if it's not already up:
 
 `docker-compose -f docker-compose-local-db.yml up --build postgres`
 
