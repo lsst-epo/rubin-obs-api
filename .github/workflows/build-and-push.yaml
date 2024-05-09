@@ -9,16 +9,14 @@ on:
       - 'v*'
   pull_request:
     types:
-      - 'opened'
-      - 'synchronize'
-      - 'reopened'
-      # - 'closed'
+      - labeled
     branches:
       - 'develop'
       - 'master'
 
 jobs:
   build:
+    if: ${{ github.event_name == 'push' || github.event.label.name == 'preview' }}
     name: Build Container Image
     runs-on: ubuntu-latest
     outputs:
