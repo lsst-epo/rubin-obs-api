@@ -45,6 +45,7 @@ class Request extends Component
 			'secret' => $this->getSettingsData($settings->nextSecretToken)
 		];
 		$requestUrl = $endpoint . '?' . http_build_query($params);
+        Craft::debug("Request URL: " .$requestUrl, "REVALIDATE_STATUS");
 
 		try {
 			$client->request('GET', $requestUrl, []);
@@ -53,6 +54,7 @@ class Request extends Component
 				Craft::$app->session->setNotice('Requesting revalidation: ' . $entry->uri);
 			}
 		} catch (\Exception $exception) {
+            Craft::error($exception->getMessage(), "REVALIDATE_STATUS");
 			$isConsoleRequest = Craft::$app->getRequest()->getIsConsoleRequest();
 			if (!$isConsoleRequest) {
 				Craft::$app->session->setError('Incremental rebuild failed. Frontend will update after next revalidation interval.');
