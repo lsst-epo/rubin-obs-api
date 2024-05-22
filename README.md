@@ -49,11 +49,14 @@ To list the local databases for this project, first bring up the postgres contai
 `docker-compose -f docker-compose-local-db.yml up --build postgres`
 
 Then, list your local databases:
+=======
+To list your local DBs:
 
 `make db-list`
 
 ---
 To list the databases sitting around in the `prod` environment so that you can know which `dbname` to supply in `make cloud-db-export dbname=(which db you want to export)`:
+=======
 
 `make cloud-db-list`
 
@@ -71,6 +74,10 @@ To provision a new local database, first bring up the postgres container if it's
 `docker-compose -f docker-compose-local-db.yml up --build postgres`
 
 Ensure that the dump file is located within `./db/`, then run:
+=======
+* Once you download the DB dump file, move it to the `./db/` folder
+---
+To recreate a local DB from a dump file located within `./db/`:
 
 `make local-db dbname=my_new_local_db dbfile=prod.sql`
 
@@ -84,6 +91,8 @@ Ensure that the dump file is located within `./db/`, then run:
 <br>
 <br>
 
+=======
+---
 #### Deprecated workflow
 
 0. Uncomment the `COPY` line in `./db/Dockerfile`
