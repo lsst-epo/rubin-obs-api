@@ -1,4 +1,6 @@
 {
   "buttons": ["bold", "italic", "sub", "sup"],
-  "toolbarFixed": true
+  "toolbarFixed": true,
+  "breakline": true,
+  "enterKey": false
 }
