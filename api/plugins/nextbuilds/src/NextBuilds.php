@@ -113,7 +113,6 @@ class NextBuilds extends Plugin
                     !ElementHelper::rootElement($entry)->isProvisionalDraft &&
                     !$entry->resaving
                 ) {
-                    Craft::info("About to call buildPagesFromEntry!", "next-builds");
                     $this->request->buildPagesFromEntry($entry);
                 }
 		    }
