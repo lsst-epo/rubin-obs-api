@@ -112,7 +112,7 @@ jobs:
         name: Preview prep
         if: ${{ github.event_name == 'pull_request' }}
         run: |-
-          CLIENT_IMAGE=$(≈echo ${{ steps.deploy-tag.outputs.full_tag }} | sed -i 's/-api/-client/g')
+          CLIENT_IMAGE=$(echo "${{ steps.deploy-tag.outputs.full_tag }}" | sed -i 's/-api/-client/g')
           if ! gcloud artifacts docker images list ${CLIENT_IMAGE}; then
             gcloud artifacts docker images add-tag ${CLIENT_IMAGE} $(sed -i 's/:latest/:${{ steps.deploy-tag.outputs.image_tag }}/g')
           fi
