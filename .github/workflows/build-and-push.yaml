@@ -116,8 +116,8 @@ jobs:
         if: ${{ github.event_name == 'pull_request' }}
         run: |-
           CLIENT_IMAGE=$(echo "${{ steps.deploy-tag.outputs.full_tag }}" | sed 's/-api/-client/g')
-          if ! gcloud artifacts docker images list ${CLIENT_IMAGE}; then
-            gcloud artifacts docker tags add ${CLIENT_IMAGE} $(echo ${CLIENT_IMAGE} | sed 's/:latest/:${{ steps.deploy-tag.outputs.image_tag }}/g')
+          if ! crane ls ${CLIENT_IMAGE}; then
+            crane tag ${CLIENT_IMAGE} $(echo ${CLIENT_IMAGE} | sed 's/:latest/:${{ steps.deploy-tag.outputs.image_tag }}/g')
           fi
       - 
         name: Summary
