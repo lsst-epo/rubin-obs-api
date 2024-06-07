@@ -19,7 +19,7 @@ on:
 
 jobs:
   build:
-    # if: ${{ github.event_name == 'push' || contains(github.event.pull_request.labels, 'preview') || github.event.label.name == 'preview' }}
+    if: ${{ github.event_name == 'push' || contains(github.event.pull_request.labels.*.name, 'preview') || github.event.label.name == 'preview' }}
     name: Build Container Image
     runs-on: ubuntu-latest
     outputs:
@@ -27,8 +27,6 @@ jobs:
       image_name: ${{ steps.deploy-tag.outputs.image_name }}
       environment_name: ${{ steps.deploy-info.outputs.environment_name }}
     steps:
-      -
-        run: echo "${{ toJson(github.event) }}"
       -
         name: Checkout
         uses: actions/checkout@v3
