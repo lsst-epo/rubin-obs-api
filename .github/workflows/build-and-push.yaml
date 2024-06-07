@@ -10,6 +10,9 @@ on:
   pull_request:
     types:
       - labeled
+      - 'opened'
+      - 'synchronize'
+      - 'reopened'
     branches:
       - 'develop'
       - 'master'
@@ -105,6 +108,14 @@ jobs:
             type=gha
           build-args: |
             BASE_TAG=k8s
+      -
+        name: Preview prep
+        if: ${{ github.event_name == 'pull_request' }}
+        run: |-
+          CLIENT_IMAGE=$(≈echo ${{ steps.deploy-tag.outputs.full_tag }} | sed -i 's/-api/-client/g')
+          if ! gcloud artifacts docker images list ${CLIENT_IMAGE}; then
+            gcloud artifacts docker images add-tag ${CLIENT_IMAGE} $(sed -i 's/:latest/:${{ steps.deploy-tag.outputs.image_tag }}/g')
+          fi
       - 
         name: Summary
         run: |
@@ -114,6 +125,13 @@ jobs:
             ## Tags
             ${{ steps.meta.outputs.tags }}
           EOT
+
+  preview-prep:
+    name: Prepare preview environment
+    needs: build
+    runs-on: ubuntu-latest
+    if: ${{ github.event_name == 'pull_request'}}
+    
   
   deploy:
     name: Trigger deploy to ${{ needs.build.outputs.environment_name }}
@@ -153,3 +171,4 @@ jobs:
           owner: lsst-epo
           run_id: ${{ steps.dispatch.outputs.run-id }}
           run_timeout_seconds: 1500
+
