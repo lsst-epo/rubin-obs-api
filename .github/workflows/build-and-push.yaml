@@ -109,6 +109,9 @@ jobs:
           build-args: |
             BASE_TAG=k8s
       -
+        uses: imjasonh/setup-crane@v0.1
+        if: ${{ github.event_name == 'pull_request' }}
+      -
         name: Preview prep
         if: ${{ github.event_name == 'pull_request' }}
         run: |-
