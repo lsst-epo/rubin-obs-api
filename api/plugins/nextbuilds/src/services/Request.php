@@ -45,7 +45,7 @@ class Request extends Component
 			'secret' => $this->getSettingsData($settings->nextSecretToken)
 		];
 		$requestUrl = $endpoint . '?' . http_build_query($params);
-        Craft::debug("Request URL: " .$requestUrl, "REVALIDATE_STATUS");
+        Craft::info("Request URL: " .$requestUrl, "REVALIDATE_STATUS");
 
 		try {
 			$client->request('GET', $requestUrl, []);
