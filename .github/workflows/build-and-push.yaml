@@ -114,7 +114,7 @@ jobs:
         run: |-
           CLIENT_IMAGE=$(echo "${{ steps.deploy-tag.outputs.full_tag }}" | sed 's/-api/-client/g')
           if ! gcloud artifacts docker images list ${CLIENT_IMAGE}; then
-            gcloud artifacts docker images add-tag ${CLIENT_IMAGE} $(echo ${CLIENT_IMAGE} | sed 's/:latest/:${{ steps.deploy-tag.outputs.image_tag }}/g')
+            gcloud artifacts docker tags add ${CLIENT_IMAGE} $(echo ${CLIENT_IMAGE} | sed 's/:latest/:${{ steps.deploy-tag.outputs.image_tag }}/g')
           fi
       - 
         name: Summary
