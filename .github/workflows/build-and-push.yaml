@@ -124,14 +124,7 @@ jobs:
 
             ## Tags
             ${{ steps.meta.outputs.tags }}
-          EOT
-
-  preview-prep:
-    name: Prepare preview environment
-    needs: build
-    runs-on: ubuntu-latest
-    if: ${{ github.event_name == 'pull_request'}}
-    
+          EOT    
   
   deploy:
     name: Trigger deploy to ${{ needs.build.outputs.environment_name }}
