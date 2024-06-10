@@ -110,7 +110,6 @@ class NextBuilds extends Plugin
                     $this->settings->activeSections[$entry->section->handle] &&
                     !ElementHelper::isDraftOrRevision($entry) &&
                     !($entry->duplicateOf && $entry->getIsCanonical() && !$entry->updatingFromDerivative) &&
-                    ($entry->enabled && $entry->getEnabledForSite()) &&
                     !ElementHelper::rootElement($entry)->isProvisionalDraft &&
                     !$entry->resaving
                 ) {
@@ -155,6 +154,7 @@ class NextBuilds extends Plugin
             Entry::class,
             Entry::EVENT_AFTER_RESTORE,
             function (Event $event) {
+                $entry = $event->sender;
                 if (
                     $this->settings->activeSections[$entry->section->handle] &&
                     !ElementHelper::isDraftOrRevision($entry) &&
