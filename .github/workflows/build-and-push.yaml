@@ -117,7 +117,7 @@ jobs:
         run: |-
           CLIENT_IMAGE=$(echo "${{ steps.deploy-tag.outputs.image_name }}" | sed -e 's/-api/-client/g')
           if ! crane config ${CLIENT_IMAGE}:${{ steps.deploy-tag.outputs.image_tag }}; then
-            crane tag ${CLIENT_IMAGE}:latest ${CLIENT_IMAGE}:${{ steps.deploy-tag.outputs.image_tag }}
+            crane tag ${CLIENT_IMAGE}:latest ${{ steps.deploy-tag.outputs.image_tag }}
           fi
       - 
         name: Summary
