@@ -115,8 +115,8 @@ jobs:
         name: Preview prep
         if: ${{ github.event_name == 'pull_request' }}
         run: |-
-          CLIENT_IMAGE=$(echo "${{ steps.deploy-tag.outputs.full_tag }}" | sed 's/-api/-client/g')
-          if ! crane ls ${CLIENT_IMAGE}; then
+          CLIENT_IMAGE=$(echo "${{ steps.deploy-tag.outputs.full_tag }}" | sed -e 's/-api/-client/g' -e '/:.*$/:latest')
+          if ! crane config ${CLIENT_IMAGE}; then
             crane tag ${CLIENT_IMAGE} $(echo ${CLIENT_IMAGE} | sed 's/:latest/:${{ steps.deploy-tag.outputs.image_tag }}/g')
           fi
       - 
