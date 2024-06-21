@@ -2,20 +2,19 @@ columnSuffix: null
 contentColumnType: string
 fieldGroup: bb77d190-487e-45c5-a1d2-0208510a7d88 # Events
 handle: eventType
-instructions: ''
+instructions: null
 name: 'Event Type'
 searchable: false
 settings:
-  allowLimit: false
-  allowMultipleSources: false
   allowSelfRelations: false
-  branchLimit: '1'
-  limit: null
+  branchLimit: null
   localizeRelations: false
+  maintainHierarchy: true
+  maxRelations: null
+  minRelations: null
   selectionLabel: 'Add an event type'
   showSiteMenu: true
   source: 'group:3a3af2ab-b037-455a-ba95-bc3be89efdb0' # Event Filters
-  sources: '*'
   targetSiteId: null
   validateRelatedElements: false
   viewMode: null
