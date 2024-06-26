@@ -1,0 +1,19 @@
+columnSuffix: tfrzjewz
+contentColumnType: text
+fieldGroup: 9940892d-32f4-4399-acac-ab559ce1c82b # Common
+handle: postscript
+instructions: null
+name: Postscript
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: false
+  columnType: null
+  initialRows: 4
+  multiline: false
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\PlainText

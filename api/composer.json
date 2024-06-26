@@ -15,7 +15,6 @@
         "venveo/craft-bulkedit": "4.0.1",
         "verbb/super-table": "3.0.12",
         "vlucas/phpdotenv": "^3.4.0",
-        "wrav/oembed": "3.0.8",
         "yiisoft/yii2-redis": "^2.0"
     },
     "repositories": [

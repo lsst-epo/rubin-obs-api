@@ -172,7 +172,30 @@ fieldLayouts:
             uid: e22ea8f3-dab3-477b-be8f-ab108bbb198c
             userCondition: null
             warning: null
-            width: 100
+            width: 50
+          -
+            elementCondition:
+              class: craft\elements\conditions\entries\EntryCondition
+              conditionRules:
+                -
+                  class: craft\fields\conditions\OptionsFieldConditionRule
+                  fieldUid: fa690eba-6d46-4a5e-9dcd-0845f5b56c1b # Dynamic Component
+                  operator: in
+                  uid: b03dddda-e867-49cb-a5ac-78ba434d3a7d
+                  values:
+                    - events
+              elementType: craft\elements\Entry
+              fieldContext: global
+            fieldUid: 72a74d52-7fcc-4c4e-8db1-1528c7ae5ee3 # Event Type
+            instructions: 'Select event types to show on this page. If empty, all will be shown.'
+            label: 'Show Event Types'
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 14532224-46e4-47a7-9b12-d29b956d5d81
+            userCondition: null
+            warning: null
+            width: 50
         name: Pages
         uid: 66f942b9-81ec-4903-a8e1-e1643e3dd326
         userCondition: null

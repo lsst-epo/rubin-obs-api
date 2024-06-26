@@ -1,0 +1,19 @@
+columnSuffix: rnuyvwmf
+contentColumnType: text
+fieldGroup: 40914d25-1cae-448f-aeea-2d7d779d620d # People
+handle: personAffiliation
+instructions: null
+name: Affiliation
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: false
+  columnType: null
+  initialRows: 4
+  multiline: false
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

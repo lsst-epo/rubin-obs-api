@@ -1,23 +1,24 @@
 columnSuffix: null
 contentColumnType: string
-fieldGroup: bb77d190-487e-45c5-a1d2-0208510a7d88 # Events
-handle: eventType
+fieldGroup: 40914d25-1cae-448f-aeea-2d7d779d620d # People
+handle: people
 instructions: null
-name: 'Event Type'
+name: People
 searchable: false
 settings:
   allowSelfRelations: false
   branchLimit: null
   localizeRelations: false
-  maintainHierarchy: true
+  maintainHierarchy: false
   maxRelations: null
   minRelations: null
-  selectionLabel: 'Add an event type'
-  showSiteMenu: true
-  source: 'group:3a3af2ab-b037-455a-ba95-bc3be89efdb0' # Event Filters
+  selectionLabel: null
+  showSiteMenu: false
+  sources:
+    - 'section:7b6ae5d5-7819-48b3-b2ab-7f7109c3ebfa' # People
   targetSiteId: null
   validateRelatedElements: false
   viewMode: null
 translationKeyFormat: null
 translationMethod: site
-type: craft\fields\Categories
+type: craft\fields\Entries

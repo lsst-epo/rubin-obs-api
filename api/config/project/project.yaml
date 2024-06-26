@@ -1,4 +1,4 @@
-dateModified: 1712092981
+dateModified: 1718918670
 email:
   fromEmail: $EMAIL_FROM_ADDRESS
   fromName: $EMAIL_SENDER_NAME
@@ -85,6 +85,7 @@ meta:
     0f48338c-1c16-4600-9230-68bacb7c21e3: Text # Text
     1a2ba41a-3949-4982-9cb3-f8b03863bcfd: 'Footer Content' # Footer Content
     1a35bfab-6a39-4c03-b273-2d5e3151c335: 'Rubin Telescope Education and Public Outreach' # Rubin Telescope Education and Public Outreach
+    1ac7decf-dc96-4769-b73f-e147f00798fd: 'Publications List' # Publications List
     01b89d98-9aa4-46d5-a9a0-60a0c07fd815: Editors # Editors
     1ba9911b-93b6-43f2-b9be-ba99c3461865: 'External Url (Translatable)' # External Url (Translatable)
     1c0e3777-36ee-449d-948e-01f6fbde3ee6: Sites # Sites
@@ -95,6 +96,7 @@ meta:
     1ed98018-4e61-4580-bee8-961ceab2bb2c: 'Staff Item' # Staff Item
     1ee32484-2cca-457e-ac23-b3cb13e652d3: 'User Profile Page' # User Profile Page
     1f7ad44a-de72-4538-9628-acdbc79e32f6: 'Staff Trading Card' # Staff Trading Card
+    02a18f72-78b7-4215-9703-ad2b98202547: Publication # Publication
     2c2e1c6a-eb4d-44f1-9a43-8d79b326f354: ES # ES
     2c121c9e-10e1-4a79-a17f-a6c7ef7965f3: 'Table Group' # Table Group
     3a3af2ab-b037-455a-ba95-bc3be89efdb0: 'Event Filters' # Event Filters
@@ -129,6 +131,8 @@ meta:
     6e888efc-ab7a-4c15-9ec5-5954b52984ca: 'Show Sibling Nav' # Show Sibling Nav
     6ed14c66-fec8-4bca-8f29-02cbd1620d12: Teaser # Teaser
     6f86b4dc-dab0-46fa-860d-81f6ebe6b541: Bold # Bold
+    6fc4a8a9-3670-421b-bfc5-dc1e34d621f2: Subheading # Subheading
+    7b6ae5d5-7819-48b3-b2ab-7f7109c3ebfa: People # People
     7beb32e3-0674-4b9c-9878-022862950868: Type # Type
     7cad6f4e-cc7b-45cf-ac7b-6f383e77bc1b: Callouts # Callouts
     7cb3bc06-c4c4-4017-8c0c-fa6aad7cbd8e: 'News Filters' # News Filters
@@ -148,10 +152,10 @@ meta:
     9ad13bcd-637a-4757-9968-cdcc02cfd478: 'Table Row' # Table Row
     9b9ff039-061b-4efd-988e-553f811623b2: Users # Users
     9b45a4e3-4461-43d1-881a-ef72029ba2ad: Image # Image
-    9c6d529b-4199-4be2-8284-fafc8063250c: 'Embed url' # Embed url
     9c14ac7e-c466-4c2d-a2fd-e19a68fc706d: Teaser # Teaser
     9c34fc8b-8bc3-4f8a-bbc8-ea58a018719a: 'Custom Breadcrumb Sets' # Custom Breadcrumb Sets
     9d045432-a0fb-4fcd-8bca-3bc93b1f7056: 'Educator Pages' # Educator Pages
+    9d7c57a1-0518-46c5-9c44-0fe5757e5b88: 'People Block' # People Block
     9f05163b-ea00-46ad-bed5-b3c6b5e5a365: Game # Game
     10e8304e-93be-4c77-b1e9-7d9058c4aa92: Status # Status
     11be7603-f576-4af8-93a6-e285e4ff42c4: News # News
@@ -173,16 +177,20 @@ meta:
     40b120c8-203c-4787-b78c-7bfd9c56fe2f: 'Sub Location' # Sub Location
     40ee52fe-bbe1-4b44-97ea-ef987105496b: Email # Email
     41a9c595-2a38-40b5-b87c-ada8076913e1: Share # Share
+    41ba0290-259f-4160-9342-1e7f4d422079: Postscript # Postscript
+    046d1ddc-6587-48e3-8cfd-15057c317066: Publication # Publication
     46d17af4-896a-4fc5-90bf-ac826090d9bc: Credit # Credit
     46db7366-f372-41c2-9f6a-dc30bcd7a946: 'Callout - News' # Callout - News
     48ba11bd-90a5-4239-a24c-d44d01affbcf: 'Image - quote' # Image - quote
     56f60368-4386-4395-92b6-31b15c7663cc: Contact # Contact
+    57dcbdae-db2b-4f63-8d0e-26bdfb80c7db: 'Grid or List' # Grid or List
     58aa24c3-97e4-43e7-a812-7374e5650180: 'Focal Point X' # Focal Point X
     58efa872-9485-42e3-a1e3-a5435def5392: Educators # Educators
     58f1a805-f9c5-46ce-81dd-e17a3ea99353: PublisherId # PublisherId
     59fb5a9e-74f4-4618-adba-601791f42c92: Jobs # Jobs
     61b9d842-7365-4bbf-883c-1b6433dc15f4: 'Caption - rich text' # Caption - rich text
     61e2311c-55a3-4219-9afe-606f0f422e3f: 'Usage Terms' # Usage Terms
+    66cc7887-85b3-4299-abf5-f92cbae50a8b: People # People
     68ce46bb-bb2f-4e55-8009-fe56a7d4493b: Header # Header
     70d00340-3577-4a61-a2be-6e6fd986b5a7: 'Open Date' # Open Date
     70e42474-2ece-4a5a-9746-0cb2dd60a1a9: Mail # Mail
@@ -190,6 +198,7 @@ meta:
     72a74d52-7fcc-4c4e-8db1-1528c7ae5ee3: 'Event Type' # Event Type
     72e5075a-9b06-4674-b040-615f4a6f7b70: 'Content Blocks - Pages' # Content Blocks - Pages
     0073b1d1-a221-431d-aab9-bf4e193adf4f: 'Focal Point Y' # Focal Point Y
+    74f926d6-9e57-4019-b084-be1dc5960a7a: Author # Author
     75f0b770-5006-4359-848f-96415196bfe0: Date # Date
     77dc755a-bb96-4422-b00f-c7d74e45d400: 'Educator Schema' # Educator Schema
     80e0f53f-96b3-43d4-b166-453ac4ac0147: Header # Header
@@ -203,6 +212,7 @@ meta:
     534d275e-b6e9-4064-9965-07e804e0fcc1: 'User Profile Page' # User Profile Page
     545ad3bb-62d3-448e-8a57-5ec434539d05: 'Use External Link' # Use External Link
     546e0c6d-dd32-4997-8487-cc4c2fcc9480: Investigations # Investigations
+    572f9558-2330-400a-900d-d7f11a4b1e2b: Publications # Publications
     612eabbe-059a-4916-abcf-c82132da4cfc: Asset # Asset
     635a4a93-f10b-4d3c-bd44-2ea1474ad4cb: 'Vertical Alignment' # Vertical Alignment
     644c6b87-ac0c-4cdf-88be-744a5ee684bb: Description # Description
@@ -230,6 +240,7 @@ meta:
     5075e912-4aa1-4ce4-96b2-8868358b51e3: Header # Header
     5205b271-dfd8-4938-84bb-61d9d6ab4889: 'End Time' # End Time
     5548b745-642b-4b15-8f17-4ce7457689a8: Header # Header
+    5884a9c8-b8b4-48b4-872e-ba06c7fd7bd9: Person # Person
     6509f949-86bc-4542-ab9f-9593ae7153be: Accordion # Accordion
     6863d4cb-1c9e-4d09-867f-92b87dd7bd81: News # News
     6908c928-e76b-4692-ae6f-e3d8c994d0ce: Row # Row
@@ -244,6 +255,7 @@ meta:
     10118ebf-e3bf-4b1b-bbb8-4b57ab3753c8: Caption # Caption
     22728b4f-f1bb-4399-8525-53e3163f0594: 'Slide Block' # Slide Block
     39558c70-8baf-4748-9f12-49e78a04eed5: Job # Job
+    40914d25-1cae-448f-aeea-2d7d779d620d: People # People
     51322eaa-f9c8-4ade-a6e6-b877bbdc494e: 'Show Page in the Header Navigation' # Show Page in the Header Navigation
     51414e74-22c3-4134-9ccb-34f524920c2c: 'Metadata Version' # Metadata Version
     0059967d-f567-4066-a676-02f7c932b843: 'Start Time' # Start Time
@@ -253,6 +265,7 @@ meta:
     90295d5c-0b35-40ca-bb95-c7fc81969b14: 'Accordion Group' # Accordion Group
     110434a5-98f0-4679-9f3c-20869a785eee: 'Link To' # Link To
     271253b0-e9b7-4bf1-be32-ce31d71b48b1: Quote # Quote
+    272199e3-bb52-4f48-a734-86e150009c76: 'Embed Code' # Embed Code
     312197d8-1241-4fac-8422-febdf44e5e9a: 'Entry - Slideshow' # Entry - Slideshow
     418392d0-2ad4-48a1-8eb3-7cdf5437d498: Investigation # Investigation
     547128fa-4529-4483-9968-66425996b69f: EN # EN
@@ -261,8 +274,10 @@ meta:
     838028d1-bb13-49aa-a2ee-b0b2e7e6a4fa: 'Simple Table' # Simple Table
     960543c0-3ba6-466b-aa9e-9182279dd49a: 'Start Date' # Start Date
     04000104-ec26-4d82-959a-729454e7f1cc: Country # Country
+    6637068b-5ee0-4019-a89a-58af8e373b60: Publications # Publications
     7187131b-681b-45de-a1ea-87a8d070c05a: 'Gallery Item' # Gallery Item
     7619020e-9b6f-4526-9359-d6cfb47b33a5: 'Entry - Event' # Entry - Event
+    08126293-8df9-4de8-abf5-aa99cca69492: Footer # Footer
     9940892d-32f4-4399-acac-ab559ce1c82b: Common # Common
     30885296-ea6f-4481-8e0f-e9d17e37c7c5: PublisherId # PublisherId
     36247100-a0f8-4eb9-b190-898131bf97b3: Width # Width
@@ -270,6 +285,7 @@ meta:
     74319755-d24f-4991-a84a-0c1c031cb21e: 'Asset Link' # Asset Link
     78410791-6edc-46c9-a17b-4358dcd545ec: 'Staff Profiles' # Staff Profiles
     a0a0fcfb-cbb1-4e1b-a600-91f1c57faf41: CTA # CTA
+    a1b7cb34-4346-4894-9f4d-29e0b371d8f2: 'Key Numbers Grid Item' # Key Numbers Grid Item
     a1e725cc-a026-42a1-b75f-3f577f0369bb: Text # Text
     a5b8e4fe-87da-48fc-8156-2a2a973b29e5: URL # URL
     a5bb0742-012f-4683-a471-874944bf3280: Image # Image
@@ -306,6 +322,7 @@ meta:
     bbf936fb-1787-437b-8ebd-a6e79409896e: 'Glossary Term' # Glossary Term
     bc12b31b-5681-4d9c-bbc1-80042dca1a82: YouTube # YouTube
     be9edc91-a7d0-4838-9565-20381695cbcb: 'Staff Profiles' # Staff Profiles
+    c1f8c36c-fe3e-4e51-a602-b8c751ca45d4: 'Other Authors / Credit' # Other Authors / Credit
     c2eab1e2-8dc7-4ea8-a1c2-5572ff82212b: 'Linked Asset' # Linked Asset
     c3d1c243-1703-4117-abc7-88487a1f8f24: 'Staff Profiles' # Staff Profiles
     c5c5037a-57bf-4aff-85ca-62e14c8c1cea: 'Schedule Row' # Schedule Row
@@ -354,6 +371,7 @@ meta:
     dfd8564d-5db6-4167-99db-29867a64bc2c: 'Content Order' # Content Order
     dff2a767-333e-4c9d-880c-143e1ca2aaa3: 'Row Content' # Row Content
     e0be58f6-fc1b-4a02-816c-0a37b0fcd602: Students # Students
+    e6e1a190-5824-49c2-8242-ee637519925d: Affiliation # Affiliation
     e6f15692-eb5b-4a33-ad48-7f2b05a7c527: 'Request Deletion' # Request Deletion
     e46ce1e1-606c-4043-acea-5ddab0358221: Image # Image
     e48cbecf-107a-43c6-b099-9d6f3d7cadd8: Credit # Credit
@@ -382,6 +400,7 @@ meta:
     f444667c-6ea1-4e0f-89b2-35b059e27bfc: Link # Link
     fa15bb4c-adb8-4393-82c3-15c2b830867c: 'Callout - quote' # Callout - quote
     fa690eba-6d46-4a5e-9dcd-0845f5b56c1b: 'Dynamic Component' # Dynamic Component
+    fa7678ee-7b00-4ff1-ae99-464c68f65238: 'Key Numbers Grid' # Key Numbers Grid
     fb052686-4537-4fe5-9ce2-ff3fd4a341a2: 'Content Image' # Content Image
     fb3d440b-3313-476c-8ce6-9c91ba637a56: 'Download List' # Download List
     fb3283a6-7286-4b2b-a77a-010783dcee7e: Slideshows # Slideshows
@@ -2297,7 +2316,7 @@ plugins:
             - '1'
           -
             - galleryItems
-            - ''
+            - '1'
           -
             - glossaryTerms
             - '1'
@@ -2306,15 +2325,21 @@ plugins:
             - '1'
           -
             - investigations
-            - ''
+            - '1'
           -
             - jobs
-            - ''
+            - '1'
           -
             - news
             - '1'
           -
             - pages
+            - '1'
+          -
+            - people
+            - '1'
+          -
+            - publications
             - '1'
           -
             - searchResults
@@ -2330,17 +2355,6 @@ plugins:
             - ''
       nextApiBaseUrl: $NEXT_API_BASE_URL
       nextSecretToken: $NEXT_REVALIDATE_SECRET_TOKEN
-  oembed:
-    edition: standard
-    enabled: true
-    schemaVersion: 1.0.1
-    settings:
-      enableCache: '1'
-      enableGdpr: ''
-      enableNotifications: ''
-      facebookKey: ''
-      notificationEmail: ''
-      previewHidden: ''
   phone-number:
     edition: standard
     enabled: true

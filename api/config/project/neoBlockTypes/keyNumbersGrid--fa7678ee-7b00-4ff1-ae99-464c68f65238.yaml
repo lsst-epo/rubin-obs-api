@@ -1,0 +1,53 @@
+childBlocks:
+  - keyNumbersGridItem
+conditions: null
+description: ''
+enabled: true
+field: 72e5075a-9b06-4674-b040-615f4a6f7b70 # Content Blocks - Pages
+fieldLayouts:
+  3b87a1f5-bd8f-4cd5-866a-0955063c5593:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: b0ce3829-20c1-44ef-a7c7-499800645afc # Header
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: eaa0e6f0-0d38-4359-88d7-001202bf8928
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: d019727b-a6d5-43d9-a688-f10df985a87e # Link
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 92f77cd9-3d88-4223-80b1-4f0d3edf1be1
+            userCondition: null
+            warning: null
+            width: 100
+        name: '1'
+        uid: 79f919fe-fde3-453d-bef6-156f776ae529
+        userCondition: null
+group: null
+groupChildBlockTypes: true
+handle: keyNumbersGrid
+icon: null
+iconFilename: ''
+ignorePermissions: true
+maxBlocks: 0
+maxChildBlocks: 0
+maxSiblingBlocks: 0
+minBlocks: 0
+minChildBlocks: 0
+minSiblingBlocks: 0
+name: 'Key Numbers Grid'
+topLevel: true

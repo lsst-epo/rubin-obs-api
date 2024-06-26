@@ -1,0 +1,6 @@
+{
+  "buttons": ["bold", "italic", "sub", "sup"],
+  "toolbarFixed": true,
+  "breakline": true,
+  "enterKey": false
+}

@@ -1,0 +1,19 @@
+columnSuffix: gzytzvuw
+contentColumnType: text
+fieldGroup: 6637068b-5ee0-4019-a89a-58af8e373b60 # Publications
+handle: authorPub
+instructions: null
+name: Author
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: false
+  columnType: null
+  initialRows: 4
+  multiline: false
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

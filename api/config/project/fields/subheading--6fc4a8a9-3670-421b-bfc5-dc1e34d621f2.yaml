@@ -1,0 +1,27 @@
+columnSuffix: hbdnzxqo
+contentColumnType: text
+fieldGroup: 9940892d-32f4-4399-acac-ab559ce1c82b # Common
+handle: subheading
+instructions: null
+name: Subheading
+searchable: false
+settings:
+  availableTransforms: ''
+  availableVolumes: ''
+  columnType: text
+  configSelectionMode: choose
+  defaultTransform: ''
+  manualConfig: ''
+  purifierConfig: null
+  purifyHtml: true
+  redactorConfig: KeyNumbers.json
+  removeEmptyTags: false
+  removeInlineStyles: false
+  removeNbsp: false
+  showHtmlButtonForNonAdmins: false
+  showUnpermittedFiles: false
+  showUnpermittedVolumes: false
+  uiMode: enlarged
+translationKeyFormat: null
+translationMethod: site
+type: craft\redactor\Field
