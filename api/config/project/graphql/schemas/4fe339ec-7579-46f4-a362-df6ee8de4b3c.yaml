@@ -7,8 +7,10 @@ scope:
   - 'entrytypes.fa15bb4c-adb8-4393-82c3-15c2b830867c:read' # Callout - quote
   - 'entrytypes.942c9e60-2760-42ed-b03b-9e5eb133751b:read' # Callout
   - 'entrytypes.34f61e7c-358c-48b8-8439-42bc05ed255c:read' # Callout - two-tone
-  - 'entrytypes.e74470ea-c559-482e-9e3d-2241517a95a7:read' # Callout - Event
   - 'entrytypes.46db7366-f372-41c2-9f6a-dc30bcd7a946:read' # Callout - News
+  - 'entrytypes.e74470ea-c559-482e-9e3d-2241517a95a7:read' # Callout - Event
+  - 'sections.62e0ff8c-8f41-49ff-abc6-ce550e47f70b:read' # Data Products
+  - 'entrytypes.0bcfefd9-d36f-4fa2-bce3-53dbb423379b:read' # Data Product
   - 'sections.4305f2e2-40b8-47b2-8b62-135b8b57be7f:read' # Events
   - 'entrytypes.6acd6e24-26c9-4e55-a35b-c29cd36a7a3c:read' # Events
   - 'sections.3a8b9653-cdd3-46ce-84b2-d73b5dc4de63:read' # Gallery
