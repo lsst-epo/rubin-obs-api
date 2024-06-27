@@ -113,7 +113,9 @@ class NextBuilds extends Plugin
                     !ElementHelper::rootElement($entry)->isProvisionalDraft &&
                     !$entry->resaving
                 ) {
-                    $this->request->buildPagesFromEntry($entry);
+                    Craft::$app->onAfterRequest(function() use ($entry) {
+                        $this->request->buildPagesFromEntry($entry);
+                    });
                 }
 		    }
 	    );
@@ -129,7 +131,9 @@ class NextBuilds extends Plugin
                     !($entry->duplicateOf && $entry->getIsCanonical() && !$entry->updatingFromDerivative) &&
                     !ElementHelper::rootElement($entry)->isProvisionalDraft
                 ) {
-                    $this->request->buildPagesFromEntry($entry);
+                    Craft::$app->onAfterRequest(function() use ($entry) {
+                        $this->request->buildPagesFromEntry($entry);
+                    });
                 }
             }
         );
@@ -145,7 +149,9 @@ class NextBuilds extends Plugin
                     !($entry->duplicateOf && $entry->getIsCanonical() && !$entry->updatingFromDerivative) &&
                     !ElementHelper::rootElement($entry)->isProvisionalDraft
                 ) {
-                    $this->request->buildPagesFromEntry($entry);
+                    Craft::$app->onAfterRequest(function() use ($entry) {
+                        $this->request->buildPagesFromEntry($entry);
+                    });
                 }
             }
         );
@@ -161,7 +167,9 @@ class NextBuilds extends Plugin
                     !($entry->duplicateOf && $entry->getIsCanonical() && !$entry->updatingFromDerivative) &&
                     !ElementHelper::rootElement($entry)->isProvisionalDraft
                 ) {
-                    $this->request->buildPagesFromEntry($entry);
+                    Craft::$app->onAfterRequest(function() use ($entry) {
+                        $this->request->buildPagesFromEntry($entry);
+                    });
                 }
             }
         );
