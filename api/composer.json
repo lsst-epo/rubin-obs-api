@@ -2,7 +2,7 @@
     "require": {
         "carlcs/craft-assetmetadata": "^4.0",
         "castiron/next-builds": "^1.1",
-        "craftcms/cms": "4.8.4",
+        "craftcms/cms": "4.10.2",
         "craftcms/contact-form": "3.1.0",
         "craftcms/contact-form-honeypot": "2.1.0",
         "craftcms/google-cloud": "2.1.0",
