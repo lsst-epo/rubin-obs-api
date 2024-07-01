@@ -134,8 +134,9 @@ class NextBuilds extends Plugin
                     !($entry->duplicateOf && $entry->getIsCanonical() && !$entry->updatingFromDerivative) &&
                     !ElementHelper::rootElement($entry)->isProvisionalDraft
                 ) {
-                    Craft::$app->onAfterRequest(function() use ($entry) {
-                        $this->request->buildPagesFromEntry($entry);
+                    $revalidateMenu = ($entry->type->handle == "pages");
+                    Craft::$app->onAfterRequest(function() use ($entry, $revalidateMenu) {
+                        $this->request->buildPagesFromEntry($entry, $revalidateMenu);
                     });
                 }
             }
