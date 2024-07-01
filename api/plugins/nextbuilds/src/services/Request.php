@@ -34,16 +34,19 @@ class Request extends Component
 	 * @return void
 	 * @throws \GuzzleHttp\Exception\GuzzleException
 	 */
-	public function buildPagesFromEntry(Entry $entry)
+	public function buildPagesFromEntry(Entry $entry, string $revalidateMenu)
 	{
 		$settings = NextBuilds::getInstance()->getSettings();
 		$client = new Client();
 
-		$endpoint = $this->getSettingsData($settings->nextApiBaseUrl) . self::NEXT_ENDPOINT_REVALIDATE;
+        $endpoint = $this->getSettingsData($settings->nextApiBaseUrl) . self::NEXT_ENDPOINT_REVALIDATE;
 		$params = [
 			'uri' => $entry->uri,
 			'secret' => $this->getSettingsData($settings->nextSecretToken)
 		];
+        if ($revalidateMenu) {
+            $params["tags"] = ["navigation"];
+        }
 		$requestUrl = $endpoint . '?' . http_build_query($params);
         Craft::info("Request URL: " .$requestUrl, "REVALIDATE_STATUS");
 

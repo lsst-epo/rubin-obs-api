@@ -106,6 +106,7 @@ class NextBuilds extends Plugin
 		    Entry::EVENT_AFTER_SAVE,
 		    function (ModelEvent $event) {
 			    $entry = $event->sender;
+
                 if (
                     $this->settings->activeSections[$entry->section->handle] &&
                     !ElementHelper::isDraftOrRevision($entry) &&
@@ -113,8 +114,9 @@ class NextBuilds extends Plugin
                     !ElementHelper::rootElement($entry)->isProvisionalDraft &&
                     !$entry->resaving
                 ) {
-                    Craft::$app->onAfterRequest(function() use ($entry) {
-                        $this->request->buildPagesFromEntry($entry);
+                    $revalidateMenu = ($entry->type->handle == "pages");
+                    Craft::$app->onAfterRequest(function() use ($entry, $revalidateMenu) {
+                        $this->request->buildPagesFromEntry($entry, $revalidateMenu);
                     });
                 }
 		    }
@@ -143,6 +145,7 @@ class NextBuilds extends Plugin
             Entry::EVENT_AFTER_MOVE_IN_STRUCTURE,
             function (ElementStructureEvent $event) {
                 $entry = $event->sender;
+
                 if (
                     $this->settings->activeSections[$entry->section->handle] &&
                     !ElementHelper::isDraftOrRevision($entry) &&
