@@ -2,7 +2,7 @@
     "name": "castiron/next-builds",
     "description": "Start Next.js page builds from Craft.",
     "type": "craft-plugin",
-    "version": "1.1.1",
+    "version": "1.1.2",
     "keywords": [
         "craft",
         "cms",

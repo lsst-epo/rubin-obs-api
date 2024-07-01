@@ -145,11 +145,11 @@
         },
         {
             "name": "castiron/next-builds",
-            "version": "1.1.1",
+            "version": "1.1.2",
             "dist": {
                 "type": "path",
                 "url": "plugins/nextbuilds",
-                "reference": "aee9a25507ccc0e1bfb61a07176ecc3d585dcc40"
+                "reference": "eb9b4bc2be5537134036dbdf3ca84ad2e5cbeb77"
             },
             "require": {
                 "craftcms/cms": "^4.0.0"
@@ -7478,5 +7478,5 @@
     "platform-overrides": {
         "php": "8.1.10"
     },
-    "plugin-api-version": "2.6.0"
+    "plugin-api-version": "2.1.0"
 }
