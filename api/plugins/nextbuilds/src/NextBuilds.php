@@ -17,12 +17,13 @@ use Craft;
 use craft\base\Plugin;
 use craft\elements\Entry;
 use craft\events\ModelEvent;
-use craft\events\ElementStructureEvent;
+use craft\events\MoveElementEvent;
 use craft\helpers\ElementHelper;
 use craft\services\Plugins;
 use craft\events\PluginEvent;
 use castiron\nextbuilds\services\Request as NextRequestService;
 
+use craft\services\Structures;
 use yii\base\Event;
 
 /**
@@ -106,6 +107,7 @@ class NextBuilds extends Plugin
 		    Entry::EVENT_AFTER_SAVE,
 		    function (ModelEvent $event) {
 			    $entry = $event->sender;
+
                 if (
                     $this->settings->activeSections[$entry->section->handle] &&
                     !ElementHelper::isDraftOrRevision($entry) &&
@@ -113,8 +115,9 @@ class NextBuilds extends Plugin
                     !ElementHelper::rootElement($entry)->isProvisionalDraft &&
                     !$entry->resaving
                 ) {
-                    Craft::$app->onAfterRequest(function() use ($entry) {
-                        $this->request->buildPagesFromEntry($entry);
+                    $revalidateMenu = ($entry->type->handle == "pages");
+                    Craft::$app->onAfterRequest(function() use ($entry, $revalidateMenu) {
+                        $this->request->buildPagesFromEntry($entry, $revalidateMenu);
                     });
                 }
 		    }
@@ -131,18 +134,20 @@ class NextBuilds extends Plugin
                     !($entry->duplicateOf && $entry->getIsCanonical() && !$entry->updatingFromDerivative) &&
                     !ElementHelper::rootElement($entry)->isProvisionalDraft
                 ) {
-                    Craft::$app->onAfterRequest(function() use ($entry) {
-                        $this->request->buildPagesFromEntry($entry);
+                    $revalidateMenu = ($entry->type->handle == "pages");
+                    Craft::$app->onAfterRequest(function() use ($entry, $revalidateMenu) {
+                        $this->request->buildPagesFromEntry($entry, $revalidateMenu);
                     });
                 }
             }
         );
 
         Event::on(
-            Entry::class,
-            Entry::EVENT_AFTER_MOVE_IN_STRUCTURE,
-            function (ElementStructureEvent $event) {
+            Structures::class,
+            Structures::EVENT_AFTER_INSERT_ELEMENT,
+            function (MoveElementEvent $event) {
                 $entry = $event->sender;
+
                 if (
                     $this->settings->activeSections[$entry->section->handle] &&
                     !ElementHelper::isDraftOrRevision($entry) &&
