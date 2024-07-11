@@ -139,6 +139,39 @@ fieldLayouts:
             userCondition: null
           -
             elementCondition: null
+            fieldUid: 13801435-9919-4b01-9430-5616bf4f6119 # Show Sidebar
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: ae718662-abb6-4d7e-a54a-fd51c4f78931
+            userCondition: null
+            warning: null
+            width: 25
+          -
+            elementCondition:
+              class: craft\elements\conditions\entries\EntryCondition
+              conditionRules:
+                -
+                  class: craft\fields\conditions\LightswitchFieldConditionRule
+                  fieldUid: 13801435-9919-4b01-9430-5616bf4f6119 # Show Sidebar
+                  uid: 3b279df4-8166-444e-862e-8e11099338d5
+                  value: true
+              elementType: craft\elements\Entry
+              fieldContext: global
+            fieldUid: c11d26d4-236a-4b06-99f6-3a8f67821ada # Sidebar Assets
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 01e5504c-7bbf-4de8-867d-e17743cc1500
+            userCondition: null
+            warning: null
+            width: 75
+          -
+            elementCondition: null
             fieldUid: 72e5075a-9b06-4674-b040-615f4a6f7b70 # Content Blocks - Pages
             instructions: null
             label: null
