@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-dateModified: 1718918670
-=======
-dateModified: 1714433513
->>>>>>> 54e3afa7 ([F] Embed Content Block can have url or html)
+dateModified: 1720725851
 email:
   fromEmail: $EMAIL_FROM_ADDRESS
   fromName: $EMAIL_SENDER_NAME
@@ -283,6 +279,7 @@ meta:
     7619020e-9b6f-4526-9359-d6cfb47b33a5: 'Entry - Event' # Entry - Event
     08126293-8df9-4de8-abf5-aa99cca69492: Footer # Footer
     9940892d-32f4-4399-acac-ab559ce1c82b: Common # Common
+    13801435-9919-4b01-9430-5616bf4f6119: 'Show Sidebar' # Show Sidebar
     30885296-ea6f-4481-8e0f-e9d17e37c7c5: PublisherId # PublisherId
     36247100-a0f8-4eb9-b190-898131bf97b3: Width # Width
     67348234-547f-437f-8356-934347dddb5a: 'Phone Number' # Phone Number
