@@ -1,4 +1,4 @@
-dateModified: 1720725851
+dateModified: 1720732625
 email:
   fromEmail: $EMAIL_FROM_ADDRESS
   fromName: $EMAIL_SENDER_NAME
@@ -207,6 +207,7 @@ meta:
     125d214d-7831-4150-b5bc-1a100bc3149d: School # School
     229f2975-93d3-4c6a-9996-dfa1de3004ef: 'Search Results' # Search Results
     380c1cbe-884e-421b-9e31-1f0dfc81e15f: 'Cell Width' # Cell Width
+    465ab8a5-3594-4309-941c-30dbeadee580: 'CST Editor' # CST Editor
     522bc2d7-fcc3-4817-a986-5c860e53351c: 'Internal Entry' # Internal Entry
     522db817-08b6-4ecf-a423-4aec204ab85d: 'Content Blocks - News' # Content Blocks - News
     534d275e-b6e9-4064-9965-07e804e0fcc1: 'User Profile Page' # User Profile Page
