@@ -16,14 +16,13 @@ use castiron\nextbuilds\models\Settings;
 use Craft;
 use craft\base\Plugin;
 use craft\elements\Entry;
+use craft\events\ElementStructureEvent;
 use craft\events\ModelEvent;
-use craft\events\MoveElementEvent;
 use craft\helpers\ElementHelper;
 use craft\services\Plugins;
 use craft\events\PluginEvent;
 use castiron\nextbuilds\services\Request as NextRequestService;
 
-use craft\services\Structures;
 use yii\base\Event;
 
 /**
@@ -143,9 +142,9 @@ class NextBuilds extends Plugin
         );
 
         Event::on(
-            Structures::class,
-            Structures::EVENT_AFTER_INSERT_ELEMENT,
-            function (MoveElementEvent $event) {
+            Entry::class,
+            Entry::EVENT_AFTER_MOVE_IN_STRUCTURE,
+            function (ElementStructureEvent $event) {
                 $entry = $event->sender;
 
                 if (
