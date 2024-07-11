@@ -1,0 +1,14 @@
+columnSuffix: xybvmazq
+contentColumnType: boolean
+fieldGroup: 99f4a28a-48c3-49ca-bb4a-7acbb49fde30 # Pages
+handle: showSidebar
+instructions: null
+name: 'Show Sidebar'
+searchable: false
+settings:
+  default: false
+  offLabel: Hide
+  onLabel: Show
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Lightswitch
