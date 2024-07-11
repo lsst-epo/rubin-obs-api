@@ -20,10 +20,10 @@ siteSettings:
     enabledByDefault: true
     hasUrls: true
     template: null
-    uriFormat: 'es/for-scientists/data-products/{slug}'
+    uriFormat: 'es/data-and-simulations/{slug}'
   547128fa-4529-4483-9968-66425996b69f: # EN
     enabledByDefault: true
     hasUrls: true
     template: null
-    uriFormat: 'for-scientists/data-products/{slug}'
+    uriFormat: 'data-and-simulations/{slug}'
 type: channel
