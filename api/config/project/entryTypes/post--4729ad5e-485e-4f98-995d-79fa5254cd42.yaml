@@ -173,7 +173,7 @@ fieldLayouts:
                   value: ''
               elementType: craft\elements\Entry
               fieldContext: global
-            fieldUid: c11d26d4-236a-4b06-99f6-3a8f67821ada # Sidebar Assets
+            fieldUid: c11d26d4-236a-4b06-99f6-3a8f67821ada # News Assets
             instructions: null
             label: null
             required: false
