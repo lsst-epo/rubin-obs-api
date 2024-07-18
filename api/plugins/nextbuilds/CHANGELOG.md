@@ -4,6 +4,10 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](http://keepachangelog.com/) and this project adheres to [Semantic Versioning](http://semver.org/).
 
+## 1.1.3 - 2024-7-18
+### Fixed
+- Deprecated class swap now works correctly by traversing the event target object with the underlying element and in the case of it being a NeoBlock, it's owner (parent)
+
 ## 1.1.2 - 2024-6-28
 ### Fixed
 - When a page is updated (enabled, disabled, deleted) the appropriate query param is sent to revalidate the navigation menu in the client
