@@ -16,14 +16,15 @@ use castiron\nextbuilds\models\Settings;
 use Craft;
 use craft\base\Plugin;
 use craft\elements\Entry;
-use craft\events\ElementStructureEvent;
+use craft\events\MoveElementEvent;
 use craft\events\ModelEvent;
 use craft\helpers\ElementHelper;
 use craft\services\Plugins;
 use craft\events\PluginEvent;
 use castiron\nextbuilds\services\Request as NextRequestService;
-
+use craft\services\Structures;
 use yii\base\Event;
+use benf\neo\elements\Block;
 
 /**
  * Class NextBuilds
@@ -142,19 +143,31 @@ class NextBuilds extends Plugin
         );
 
         Event::on(
-            Entry::class,
-            Entry::EVENT_AFTER_MOVE_IN_STRUCTURE,
-            function (ElementStructureEvent $event) {
-                $entry = $event->sender;
+            Structures::class,
+            Structures::EVENT_AFTER_INSERT_ELEMENT,
+            function (MoveElementEvent $event) {
+                $entry = $event->element;
+                $handle = null;
+
+                if($entry instanceof Block) {
+                    if (($owner = $entry->getOwner()) !== null) {
+                        $handle = $owner->section->handle;
+                        $entry = $entry->getOwner();
+                    }
+                } else if(property_exists($entry, "handle")) {
+                    $handle = $entry->handle;
+                }
 
                 if (
-                    $this->settings->activeSections[$entry->section->handle] &&
+                    $handle != null &&
+                    $this->settings->activeSections[$handle] &&
                     !ElementHelper::isDraftOrRevision($entry) &&
                     !($entry->duplicateOf && $entry->getIsCanonical() && !$entry->updatingFromDerivative) &&
                     !ElementHelper::rootElement($entry)->isProvisionalDraft
                 ) {
-                    Craft::$app->onAfterRequest(function() use ($entry) {
-                        $this->request->buildPagesFromEntry($entry);
+                    $revalidateMenu = ($handle == "pages");
+                    Craft::$app->onAfterRequest(function() use ($entry, $revalidateMenu) {
+                        $this->request->buildPagesFromEntry($entry, $revalidateMenu);
                     });
                 }
             }
@@ -171,8 +184,9 @@ class NextBuilds extends Plugin
                     !($entry->duplicateOf && $entry->getIsCanonical() && !$entry->updatingFromDerivative) &&
                     !ElementHelper::rootElement($entry)->isProvisionalDraft
                 ) {
-                    Craft::$app->onAfterRequest(function() use ($entry) {
-                        $this->request->buildPagesFromEntry($entry);
+                    $revalidateMenu = ($entry->type->handle == "pages");
+                    Craft::$app->onAfterRequest(function() use ($entry, $revalidateMenu) {
+                        $this->request->buildPagesFromEntry($entry, $revalidateMenu);
                     });
                 }
             }
