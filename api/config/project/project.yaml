@@ -1,4 +1,4 @@
-dateModified: 1721332633
+dateModified: 1721334173
 email:
   fromEmail: $EMAIL_FROM_ADDRESS
   fromName: $EMAIL_SENDER_NAME
@@ -331,7 +331,7 @@ meta:
     c5f150d4-fc85-4a5f-a3a7-4d4a1d655861: 'Entry - News' # Entry - News
     c9bce017-1c1c-4949-ad3b-a5c0b991a83a: 'Metadata Version' # Metadata Version
     c9e9db12-fcdb-4b82-a8c8-eef21b3543af: 'Cell Background' # Cell Background
-    c11d26d4-236a-4b06-99f6-3a8f67821ada: 'News Assets' # News Assets
+    c11d26d4-236a-4b06-99f6-3a8f67821ada: 'Sidebar Assets' # Sidebar Assets
     c30bad12-1372-49fe-ab6c-a9c33b2860bb: 'Gallery Item Tags' # Gallery Item Tags
     c41c3f9f-056c-4b0b-8003-2ba5395a615f: Text # Text
     c44a71b5-f4c8-4209-8433-9878aece9aa5: Text # Text
