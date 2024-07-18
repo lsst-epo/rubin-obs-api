@@ -7,9 +7,8 @@ scope:
   - 'entrytypes.fa15bb4c-adb8-4393-82c3-15c2b830867c:read' # Callout - quote
   - 'entrytypes.942c9e60-2760-42ed-b03b-9e5eb133751b:read' # Callout
   - 'entrytypes.34f61e7c-358c-48b8-8439-42bc05ed255c:read' # Callout - two-tone
+  - 'entrytypes.46db7366-f372-41c2-9f6a-dc30bcd7a946:read' # Callout - News
   - 'entrytypes.e74470ea-c559-482e-9e3d-2241517a95a7:read' # Callout - Event
-  - 'sections.62e0ff8c-8f41-49ff-abc6-ce550e47f70b:read'
-  - 'entrytypes.0bcfefd9-d36f-4fa2-bce3-53dbb423379b:read'
   - 'sections.4305f2e2-40b8-47b2-8b62-135b8b57be7f:read' # Events
   - 'entrytypes.6acd6e24-26c9-4e55-a35b-c29cd36a7a3c:read' # Events
   - 'sections.3a8b9653-cdd3-46ce-84b2-d73b5dc4de63:read' # Gallery
@@ -47,12 +46,13 @@ scope:
   - 'volumes.18a75c63-648f-4145-9cc3-386e7c8a0106:read' # General
   - 'volumes.c3d1c243-1703-4117-abc7-88487a1f8f24:read' # Staff Profiles
   - 'volumes.d41cc960-99a4-41a8-a7a6-7891a22e4a93:read' # Asset Variants
+  - 'globalsets.b8393df9-fb81-4d70-9ccb-6d030c818580:read' # Gallery Item Defaults
+  - 'globalsets.994d5664-f056-4969-b2cc-c62660f069af:read' # Root Page Information
   - 'globalsets.1a2ba41a-3949-4982-9cb3-f8b03863bcfd:read' # Footer Content
   - 'globalsets.8ccd6c1c-8e9b-44e8-93a9-f62589fb4819:read' # Site Information
-  - 'globalsets.994d5664-f056-4969-b2cc-c62660f069af:read' # Root Page Information
-  - 'globalsets.b8393df9-fb81-4d70-9ccb-6d030c818580:read' # Gallery Item Defaults
   - 'globalsets.5cf3400b-e67c-4fe1-8f5c-d07510de42a8:read' # Contact Form
   - 'usergroups.everyone:read'
+  - 'usergroups.465ab8a5-3594-4309-941c-30dbeadee580:read' # CST Editor
   - 'usergroups.01b89d98-9aa4-46d5-a9a0-60a0c07fd815:read' # Editors
   - 'usergroups.58efa872-9485-42e3-a1e3-a5435def5392:read' # Educators
   - 'usergroups.e0be58f6-fc1b-4a02-816c-0a37b0fcd602:read' # Students
