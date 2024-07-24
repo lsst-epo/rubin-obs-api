@@ -1,7 +1,6 @@
 {
     "require": {
         "carlcs/craft-assetmetadata": "^4.0",
-        "castiron/next-builds": "^1.1",
         "craftcms/cms": "4.10.2",
         "craftcms/contact-form": "3.1.0",
         "craftcms/contact-form-honeypot": "2.1.0",
@@ -9,6 +8,7 @@
         "craftcms/redactor": "3.0.4",
         "jamesedmonston/graphql-authentication": "2.5.0",
         "lsst-epo/canto-dam-assets": "^4.3",
+        "lsst-epo/craft-next-js-builds": "^1.2",
         "rynpsc/craft-phone-number": "2.2.0",
         "sebastianlenz/linkfield": "^2.1.4",
         "spicyweb/craft-neo": "4.0.7",
@@ -20,15 +20,11 @@
     "repositories": [
         {
             "type": "vcs",
-            "url": "https://github.com/lsst-epo/craft-canto-dam-integrator.git"
-        },
-        {
-            "type": "vcs",
             "url": "https://github.com/lsst-epo/canto-dam-assets.git"
         },
         {
-            "type": "path",
-            "url": "plugins/nextbuilds"
+            "type": "vcs",
+            "url": "https://github.com/lsst-epo/craft-next-js-builds.git"
         },
         {
             "type": "composer",
