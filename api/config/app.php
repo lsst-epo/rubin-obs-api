@@ -61,6 +61,9 @@ return [
             # Create + return component:
             return Craft::createObject($config);
         },
+        'queue' => [
+            'ttr' => 900,     // 15 minutes
+        ],
     ],
     'bootstrap' => ['user-registration-module'],
 ];
