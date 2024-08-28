@@ -31,7 +31,7 @@ return [
         },
         'queue' => [
             'class' => craft\queue\Queue::class,
-            'ttr' => null,     // no timeout
+            'ttr' => 3600,     // one hour
         ],
     ],
 ];
