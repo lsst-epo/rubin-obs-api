@@ -31,7 +31,7 @@ return [
         },
         'queue' => [
             'class' => craft\queue\Queue::class,
-            'ttr' => 900,     // 15 minutes
+            'ttr' => 3600,     // one hour
         ],
     ],
 ];

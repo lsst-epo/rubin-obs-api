@@ -46,7 +46,7 @@ return [
                 'keyPrefix' => Craft::$app->id,
                 'defaultDuration' => Craft::$app->config->general->cacheDuration,
             ];
-            
+
             return Craft::createObject($config);
         },
         'assetManager' => static function() {
@@ -63,7 +63,7 @@ return [
         },
         'queue' => [
             'class' => craft\queue\Queue::class,
-            'ttr' => 900,     // 15 minutes
+            'ttr' => 3600,     // one hour
         ],
     ],
     'bootstrap' => ['user-registration-module'],
