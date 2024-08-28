@@ -62,6 +62,7 @@ return [
             return Craft::createObject($config);
         },
         'queue' => [
+            'class' => craft\queue\Queue::class,
             'ttr' => 900,     // 15 minutes
         ],
     ],
