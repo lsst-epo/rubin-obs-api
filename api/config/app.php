@@ -63,7 +63,7 @@ return [
         },
         'queue' => [
             'class' => craft\queue\Queue::class,
-            'ttr' => 3600,     // one hour
+            'ttr' => App::env('QUEUE_TTR'),
         ],
     ],
     'bootstrap' => ['user-registration-module'],
