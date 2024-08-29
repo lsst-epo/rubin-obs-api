@@ -28,7 +28,11 @@ return [
 
             // Return the initialized component:
             return Craft::createObject($config);
-        }
+        },
+        'queue' => [
+            'class' => craft\queue\Queue::class,
+            'ttr' => 3600,     // one hour
+        ],
     ],
 ];
 
