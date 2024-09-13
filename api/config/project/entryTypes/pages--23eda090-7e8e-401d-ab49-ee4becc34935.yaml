@@ -69,18 +69,6 @@ fieldLayouts:
             width: 100
           -
             elementCondition: null
-            fieldUid: 3c9eb8f7-9f84-4c22-84d5-531be77aa6b6 # Featured Image
-            instructions: null
-            label: null
-            required: false
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            uid: c8d5a76f-2593-450a-9ba0-ff762c6faa1b
-            userCondition: null
-            warning: null
-            width: 100
-          -
-            elementCondition: null
             type: craft\fieldlayoutelements\HorizontalRule
             uid: 2096696c-f795-466c-a689-10995f759ee6
             userCondition: null
