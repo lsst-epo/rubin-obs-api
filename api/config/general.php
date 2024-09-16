@@ -33,7 +33,7 @@ return [
 
         'aliases' => [
             '@webroot' => dirname(__DIR__) . '/web',
-            '@previewUrlFormat' => App::env('ALIAS_PREVIEW_URL_FORMAT'),
+            '@previewUrlFormat' => App::env('ALIAS_PREVIEW_URL_FORMAT') . '&secret=' . App::env('NEXT_SECRET_TOKEN'),
             '@assetsGeneralBaseURL' => sprintf(
                 $gcsBucketPathFormat,
                 App::env('GCS_GENERAL_BUCKET')
