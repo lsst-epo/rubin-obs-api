@@ -24,7 +24,7 @@ services:
       DB_PORT: 5432
       PRIMARY_SITE_URL: <CRAFT CMS URL>
       WEB_BASE_URL: <CLIENT URL>
-      ALIAS_PREVIEW_URL_FORMAT: <CLIENT URL>/api/preview?site={site}&entryUid={sourceUid}
+      ALIAS_PREVIEW_URL_FORMAT: <CLIENT URL>/api/preview?site={site}&uri={uri}
       VERIFY_EMAIL_PATH: <CLIENT URL>/?activate=true
       SET_PASSWORD_PATH: <CLIENT URL>/?set_password=true
       ENABLE_MEMCACHED: "true"
@@ -59,6 +59,7 @@ services:
       EMAIL_SMTP_USERNAME: <SMTP USERNAME>
       EMAIL_SMTP_PASSWORD: <SMTP PASSWORD>
       CONTACT_FORM_NOTIFY_EMAIL: <CONTACT EMAIL>
+      NEXT_SECRET_TOKEN: <NEXT PREVIEW SECRET>
     ports:
       - "8080:8080"
     depends_on:
