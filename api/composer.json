@@ -11,7 +11,7 @@
         "lsst-epo/craft-next-js-builds": "^1.2",
         "rynpsc/craft-phone-number": "2.2.0",
         "sebastianlenz/linkfield": "^2.1.4",
-        "spicyweb/craft-neo": "4.0.7",
+        "spicyweb/craft-neo": "4.2.15",
         "venveo/craft-bulkedit": "4.0.1",
         "verbb/super-table": "3.0.12",
         "vlucas/phpdotenv": "^3.4.0",
