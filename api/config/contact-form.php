@@ -13,16 +13,16 @@ if (!$request->getIsConsoleRequest()) {
     if($topic != null) {
         switch($topic) {
             case "website_feedback":
-                $to_list = "eric.rosas@noirlab.edu;ericdrosas@gmail.com";
+                $to_list = "eric.rosas@noirlab.edu,ericdrosas@gmail.com";
                 break;
             case "general":
-                $to_list = "erosas@lsst.org;ericdrosas@gmail.com";
+                $to_list = "erosas@lsst.org,ericdrosas@gmail.com";
                 break;
             case "education":
-                $to_list = "agoff@lsst.org;ericdrosas@gmail.com";
+                $to_list = "agoff@lsst.org,ericdrosas@gmail.com";
                 break;
             case "media":
-                $to_list = "alexandra.goff@noirlab.edu;ericdrosas@gmail.com";
+                $to_list = "alexandra.goff@noirlab.edu,ericdrosas@gmail.com";
                 break;
             case "site_visit":
                 $to_list = "ericdrosas@gmail.com";
