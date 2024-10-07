@@ -1,10 +1,9 @@
 <?php
 
 use Craft;
+use craft\helpers\App;
 
 $request = Craft::$app->request;
-
-//    'toEmail'             => 'bond@007.com', // override this one with env vars
 
 if (!$request->getIsConsoleRequest()) {
     $topic = $request->getBodyParam("topic");
@@ -13,22 +12,21 @@ if (!$request->getIsConsoleRequest()) {
     if($topic != null) {
         switch($topic) {
             case "website_feedback":
-                $to_list = "eric.rosas@noirlab.edu,ericdrosas@gmail.com";
+                $to_list = App::env('CONTACT_FORM_TO_ADDRESSES_FOR_FEEDBACK');
                 break;
             case "general":
-                $to_list = "erosas@lsst.org,ericdrosas@gmail.com";
+                $to_list = App::env('CONTACT_FORM_TO_ADDRESSES_FOR_GENERAL');
                 break;
             case "education":
-                $to_list = "agoff@lsst.org,ericdrosas@gmail.com";
+                $to_list = App::env('CONTACT_FORM_TO_ADDRESSES_FOR_EDUCATION');
                 break;
             case "media":
-                $to_list = "alexandra.goff@noirlab.edu,ericdrosas@gmail.com";
+                $to_list = App::env('CONTACT_FORM_TO_ADDRESSES_FOR_MEDIA');
                 break;
             case "site_visit":
-                $to_list = "ericdrosas@gmail.com";
+                $to_list = App::env('CONTACT_FORM_TO_ADDRESSES_FOR_VISITS');
                 break;
             default:
-                $to_list = "ericdrosas@gmail.com";
                 break;
         }
 
