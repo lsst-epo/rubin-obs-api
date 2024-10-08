@@ -29,8 +29,7 @@ if (!$request->getIsConsoleRequest()) {
             default:
                 break;
         }
-
-        Craft::info("to_list : $to_list", "Maddie");
+        
         return [
             'toEmail'             => $to_list
         ];
