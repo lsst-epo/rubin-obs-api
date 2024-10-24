@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "1b29d0bef73735589ced521050895199",
+    "content-hash": "dd45520b984e7d4a2214a78aa493e4cc",
     "packages": [
         {
             "name": "abraham/twitteroauth",
@@ -2947,16 +2947,16 @@
         },
         {
             "name": "lsst-epo/craft-next-js-builds",
-            "version": "1.2.4",
+            "version": "2.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/lsst-epo/craft-next-js-builds.git",
-                "reference": "78892c1421617760b17ec7248cd3832cad06e682"
+                "reference": "e510cf9b2adbd268680f8ea8f73f2a1bf0da032b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/lsst-epo/craft-next-js-builds/zipball/78892c1421617760b17ec7248cd3832cad06e682",
-                "reference": "78892c1421617760b17ec7248cd3832cad06e682",
+                "url": "https://api.github.com/repos/lsst-epo/craft-next-js-builds/zipball/e510cf9b2adbd268680f8ea8f73f2a1bf0da032b",
+                "reference": "e510cf9b2adbd268680f8ea8f73f2a1bf0da032b",
                 "shasum": ""
             },
             "require": {
@@ -3002,9 +3002,9 @@
             "support": {
                 "docs": "???",
                 "issues": "???",
-                "source": "https://github.com/lsst-epo/craft-next-js-builds/tree/1.2.4"
+                "source": "https://github.com/lsst-epo/craft-next-js-builds/tree/2.0.0"
             },
-            "time": "2024-10-16T15:49:28+00:00"
+            "time": "2024-10-24T16:55:43+00:00"
         },
         {
             "name": "mikehaertl/php-shellcommand",
