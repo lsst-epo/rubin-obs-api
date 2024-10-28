@@ -2,13 +2,13 @@ columnSuffix: bpfdxbpt
 contentColumnType: text
 fieldGroup: 824d9ca2-e755-4e41-8f6a-18e573fec8e4 # News Posts
 handle: pressReleaseId
-instructions: 'If you are looking at a NOIRLab New Item in the browser, this is the "Release No." is listed in the "About Release" section of the right-hand sidebar.  Or, given a New Item URL like: https://noirlab.edu/public/news/noirlab2317/, this is the last part of the URL (noirlab2317).'
+instructions: 'If you are looking at a NOIRLab news post in the browser, this is the ID listed in the "About Release" section of the right-hand sidebar. For a press release this will be prefixed with "noirlab" and for announcements, it will be prefixed with "ann"'
 name: 'Press Release ID'
 searchable: false
 settings:
   byteLimit: null
   charLimit: null
-  code: false
+  code: true
   columnType: null
   initialRows: 4
   multiline: false
