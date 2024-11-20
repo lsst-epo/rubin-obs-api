@@ -45,6 +45,11 @@ fieldLayouts:
             width: 100
           -
             elementCondition: null
+            type: craft\fieldlayoutelements\HorizontalRule
+            uid: c769325b-9ac9-446d-a8b0-c04ccc7663fb
+            userCondition: null
+          -
+            elementCondition: null
             fieldUid: 05eead62-7bf9-43e4-a7e8-bcd8f9f77323 # Hero
             instructions: 'Default homepage hero (when no breaking news).'
             label: null
@@ -52,6 +57,18 @@ fieldLayouts:
             tip: null
             type: craft\fieldlayoutelements\CustomField
             uid: e8acbcbe-f9ef-4ec1-a506-3991c2004953
+            userCondition: null
+            warning: null
+            width: 50
+          -
+            elementCondition: null
+            fieldUid: 5fb43003-dbc2-4228-8d35-1eec1ab14096 # Canto Hero
+            instructions: 'The hero image for this page. Will override asset field.'
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 81f42c17-81be-4498-abbb-c440defcf489
             userCondition: null
             warning: null
             width: 50
@@ -79,6 +96,11 @@ fieldLayouts:
             userCondition: null
             warning: null
             width: 25
+          -
+            elementCondition: null
+            type: craft\fieldlayoutelements\HorizontalRule
+            uid: 42a568dc-9d39-4c6b-9866-90cb8f4dff6a
+            userCondition: null
           -
             elementCondition: null
             fieldUid: c5f150d4-fc85-4a5f-a3a7-4d4a1d655861 # Entry - News
