@@ -1,0 +1,16 @@
+columnSuffix: gsxgzdgr
+contentColumnType:
+  - 'cantoId:string'
+  - 'cantoAlbumId:string'
+  - 'cantoAssetData:json'
+  - 'cantoAlbumData:json'
+fieldGroup: cee5c2f8-2801-42c2-a56c-4fe40c85b6f3 # Site Information
+handle: logoLarge
+instructions: 'The logo that will be used for larger devices'
+name: 'Logo - Large'
+searchable: false
+settings:
+  cantoAssetPickerType: singleImagePicker
+translationKeyFormat: null
+translationMethod: none
+type: lsst\cantodamassets\fields\CantoDamAsset

@@ -1,4 +1,4 @@
-dateModified: 1730147351
+dateModified: 1733770215
 email:
   fromEmail: $EMAIL_FROM_ADDRESS
   fromName: $EMAIL_SENDER_NAME
@@ -202,6 +202,7 @@ meta:
     75f0b770-5006-4359-848f-96415196bfe0: Date # Date
     77dc755a-bb96-4422-b00f-c7d74e45d400: 'Educator Schema' # Educator Schema
     80e0f53f-96b3-43d4-b166-453ac4ac0147: Header # Header
+    92a53b2d-879a-4353-a009-d926ead4a2db: 'Logo - Small' # Logo - Small
     95b97a67-eccb-4910-b0e8-77f5860058b4: Link # Link
     99f4a28a-48c3-49ca-bb4a-7acbb49fde30: Pages # Pages
     125d214d-7831-4150-b5bc-1a100bc3149d: School # School
@@ -291,6 +292,7 @@ meta:
     a1e725cc-a026-42a1-b75f-3f577f0369bb: Text # Text
     a5b8e4fe-87da-48fc-8156-2a2a973b29e5: URL # URL
     a5bb0742-012f-4683-a471-874944bf3280: Image # Image
+    a5f6734f-3e3d-4273-9d1f-2ed243b788e4: 'Logo - Large' # Logo - Large
     a8ba2de3-ff22-4a96-9a53-00b6dec31def: City # City
     a8fbf209-7591-40fa-88d4-b5944f4d27d8: 'Landing Page' # Landing Page
     a50ca6cb-f8ed-41c0-9ea1-b3a5c1ed721e: Label # Label
