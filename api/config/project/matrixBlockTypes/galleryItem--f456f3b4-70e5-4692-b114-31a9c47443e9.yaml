@@ -39,7 +39,7 @@ fields:
       selectionLabel: 'Select a gallery item'
       showSiteMenu: false
       sources:
-        - 'section:3a8b9653-cdd3-46ce-84b2-d73b5dc4de63' # Gallery
+        - 'section:3a8b9653-cdd3-46ce-84b2-d73b5dc4de63' # Galleries
       targetSiteId: null
       validateRelatedElements: false
       viewMode: null

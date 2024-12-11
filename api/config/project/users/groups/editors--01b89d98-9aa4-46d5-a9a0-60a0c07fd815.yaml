@@ -7,7 +7,7 @@ permissions:
   - accessplugin-_canto-dam-assets
   - accesssitewhensystemisoff
   - 'createentries:11be7603-f576-4af8-93a6-e285e4ff42c4' # News
-  - 'createentries:3a8b9653-cdd3-46ce-84b2-d73b5dc4de63' # Gallery
+  - 'createentries:3a8b9653-cdd3-46ce-84b2-d73b5dc4de63' # Galleries
   - 'createentries:4305f2e2-40b8-47b2-8b62-135b8b57be7f' # Events
   - 'createentries:4ffeb743-f02d-42af-8656-a6f9c1363e79' # Glossary Terms
   - 'createentries:546e0c6d-dd32-4997-8487-cc4c2fcc9480' # Investigations
@@ -37,7 +37,7 @@ permissions:
   - 'deletecategories:cc8c47f0-3dec-44db-a47f-7ca6c984864a' # Job Types
   - 'deletecategories:df7f4ec2-58b2-4c3a-afff-b07f4764fa4b' # Location
   - 'deleteentries:11be7603-f576-4af8-93a6-e285e4ff42c4' # News
-  - 'deleteentries:3a8b9653-cdd3-46ce-84b2-d73b5dc4de63' # Gallery
+  - 'deleteentries:3a8b9653-cdd3-46ce-84b2-d73b5dc4de63' # Galleries
   - 'deleteentries:4305f2e2-40b8-47b2-8b62-135b8b57be7f' # Events
   - 'deleteentries:4ffeb743-f02d-42af-8656-a6f9c1363e79' # Glossary Terms
   - 'deleteentries:546e0c6d-dd32-4997-8487-cc4c2fcc9480' # Investigations
@@ -62,7 +62,7 @@ permissions:
   - 'deletepeercategorydrafts:cc8c47f0-3dec-44db-a47f-7ca6c984864a' # Job Types
   - 'deletepeercategorydrafts:df7f4ec2-58b2-4c3a-afff-b07f4764fa4b' # Location
   - 'deletepeerentries:11be7603-f576-4af8-93a6-e285e4ff42c4' # News
-  - 'deletepeerentries:3a8b9653-cdd3-46ce-84b2-d73b5dc4de63' # Gallery
+  - 'deletepeerentries:3a8b9653-cdd3-46ce-84b2-d73b5dc4de63' # Galleries
   - 'deletepeerentries:4305f2e2-40b8-47b2-8b62-135b8b57be7f' # Events
   - 'deletepeerentries:4ffeb743-f02d-42af-8656-a6f9c1363e79' # Glossary Terms
   - 'deletepeerentries:546e0c6d-dd32-4997-8487-cc4c2fcc9480' # Investigations
@@ -74,7 +74,7 @@ permissions:
   - 'deletepeerentries:f1b8c943-bc12-4001-9e2a-d531379f1aaf' # Pages
   - 'deletepeerentries:fb3283a6-7286-4b2b-a77a-010783dcee7e' # Slideshows
   - 'deletepeerentrydrafts:11be7603-f576-4af8-93a6-e285e4ff42c4' # News
-  - 'deletepeerentrydrafts:3a8b9653-cdd3-46ce-84b2-d73b5dc4de63' # Gallery
+  - 'deletepeerentrydrafts:3a8b9653-cdd3-46ce-84b2-d73b5dc4de63' # Galleries
   - 'deletepeerentrydrafts:3e10dcca-4dd1-4578-8add-708cd9740881' # Homepage
   - 'deletepeerentrydrafts:4305f2e2-40b8-47b2-8b62-135b8b57be7f' # Events
   - 'deletepeerentrydrafts:4ffeb743-f02d-42af-8656-a6f9c1363e79' # Glossary Terms
@@ -90,7 +90,7 @@ permissions:
   - 'editglobalset:5cf3400b-e67c-4fe1-8f5c-d07510de42a8' # Contact Form
   - 'editglobalset:8ccd6c1c-8e9b-44e8-93a9-f62589fb4819' # Site Information
   - 'editglobalset:994d5664-f056-4969-b2cc-c62660f069af' # Root Page Information
-  - 'editglobalset:b8393df9-fb81-4d70-9ccb-6d030c818580' # Gallery Item Defaults
+  - 'editglobalset:b8393df9-fb81-4d70-9ccb-6d030c818580'
   - 'editimages:18a75c63-648f-4145-9cc3-386e7c8a0106' # General
   - 'editimages:8e9ec71e-2cf0-4f6a-b856-8976de0ce100' # Heroes
   - 'editimages:c3d1c243-1703-4117-abc7-88487a1f8f24' # Staff Profiles
@@ -268,7 +268,7 @@ permissions:
   - 'savecategories:cc8c47f0-3dec-44db-a47f-7ca6c984864a' # Job Types
   - 'savecategories:df7f4ec2-58b2-4c3a-afff-b07f4764fa4b' # Location
   - 'saveentries:11be7603-f576-4af8-93a6-e285e4ff42c4' # News
-  - 'saveentries:3a8b9653-cdd3-46ce-84b2-d73b5dc4de63' # Gallery
+  - 'saveentries:3a8b9653-cdd3-46ce-84b2-d73b5dc4de63' # Galleries
   - 'saveentries:3e10dcca-4dd1-4578-8add-708cd9740881' # Homepage
   - 'saveentries:4305f2e2-40b8-47b2-8b62-135b8b57be7f' # Events
   - 'saveentries:4ffeb743-f02d-42af-8656-a6f9c1363e79' # Glossary Terms
@@ -294,7 +294,7 @@ permissions:
   - 'savepeercategorydrafts:cc8c47f0-3dec-44db-a47f-7ca6c984864a' # Job Types
   - 'savepeercategorydrafts:df7f4ec2-58b2-4c3a-afff-b07f4764fa4b' # Location
   - 'savepeerentries:11be7603-f576-4af8-93a6-e285e4ff42c4' # News
-  - 'savepeerentries:3a8b9653-cdd3-46ce-84b2-d73b5dc4de63' # Gallery
+  - 'savepeerentries:3a8b9653-cdd3-46ce-84b2-d73b5dc4de63' # Galleries
   - 'savepeerentries:4305f2e2-40b8-47b2-8b62-135b8b57be7f' # Events
   - 'savepeerentries:4ffeb743-f02d-42af-8656-a6f9c1363e79' # Glossary Terms
   - 'savepeerentries:546e0c6d-dd32-4997-8487-cc4c2fcc9480' # Investigations
@@ -306,7 +306,7 @@ permissions:
   - 'savepeerentries:f1b8c943-bc12-4001-9e2a-d531379f1aaf' # Pages
   - 'savepeerentries:fb3283a6-7286-4b2b-a77a-010783dcee7e' # Slideshows
   - 'savepeerentrydrafts:11be7603-f576-4af8-93a6-e285e4ff42c4' # News
-  - 'savepeerentrydrafts:3a8b9653-cdd3-46ce-84b2-d73b5dc4de63' # Gallery
+  - 'savepeerentrydrafts:3a8b9653-cdd3-46ce-84b2-d73b5dc4de63' # Galleries
   - 'savepeerentrydrafts:3e10dcca-4dd1-4578-8add-708cd9740881' # Homepage
   - 'savepeerentrydrafts:4305f2e2-40b8-47b2-8b62-135b8b57be7f' # Events
   - 'savepeerentrydrafts:4ffeb743-f02d-42af-8656-a6f9c1363e79' # Glossary Terms
@@ -332,7 +332,7 @@ permissions:
   - 'viewcategories:cc8c47f0-3dec-44db-a47f-7ca6c984864a' # Job Types
   - 'viewcategories:df7f4ec2-58b2-4c3a-afff-b07f4764fa4b' # Location
   - 'viewentries:11be7603-f576-4af8-93a6-e285e4ff42c4' # News
-  - 'viewentries:3a8b9653-cdd3-46ce-84b2-d73b5dc4de63' # Gallery
+  - 'viewentries:3a8b9653-cdd3-46ce-84b2-d73b5dc4de63' # Galleries
   - 'viewentries:3e10dcca-4dd1-4578-8add-708cd9740881' # Homepage
   - 'viewentries:4305f2e2-40b8-47b2-8b62-135b8b57be7f' # Events
   - 'viewentries:4ffeb743-f02d-42af-8656-a6f9c1363e79' # Glossary Terms
@@ -358,7 +358,7 @@ permissions:
   - 'viewpeercategorydrafts:cc8c47f0-3dec-44db-a47f-7ca6c984864a' # Job Types
   - 'viewpeercategorydrafts:df7f4ec2-58b2-4c3a-afff-b07f4764fa4b' # Location
   - 'viewpeerentries:11be7603-f576-4af8-93a6-e285e4ff42c4' # News
-  - 'viewpeerentries:3a8b9653-cdd3-46ce-84b2-d73b5dc4de63' # Gallery
+  - 'viewpeerentries:3a8b9653-cdd3-46ce-84b2-d73b5dc4de63' # Galleries
   - 'viewpeerentries:4305f2e2-40b8-47b2-8b62-135b8b57be7f' # Events
   - 'viewpeerentries:4ffeb743-f02d-42af-8656-a6f9c1363e79' # Glossary Terms
   - 'viewpeerentries:546e0c6d-dd32-4997-8487-cc4c2fcc9480' # Investigations
@@ -370,7 +370,7 @@ permissions:
   - 'viewpeerentries:f1b8c943-bc12-4001-9e2a-d531379f1aaf' # Pages
   - 'viewpeerentries:fb3283a6-7286-4b2b-a77a-010783dcee7e' # Slideshows
   - 'viewpeerentrydrafts:11be7603-f576-4af8-93a6-e285e4ff42c4' # News
-  - 'viewpeerentrydrafts:3a8b9653-cdd3-46ce-84b2-d73b5dc4de63' # Gallery
+  - 'viewpeerentrydrafts:3a8b9653-cdd3-46ce-84b2-d73b5dc4de63' # Galleries
   - 'viewpeerentrydrafts:3e10dcca-4dd1-4578-8add-708cd9740881' # Homepage
   - 'viewpeerentrydrafts:4305f2e2-40b8-47b2-8b62-135b8b57be7f' # Events
   - 'viewpeerentrydrafts:4ffeb743-f02d-42af-8656-a6f9c1363e79' # Glossary Terms
