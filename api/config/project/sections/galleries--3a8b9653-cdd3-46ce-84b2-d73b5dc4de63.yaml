@@ -1,7 +1,7 @@
 defaultPlacement: end
 enableVersioning: false
-handle: galleryItems
-name: Gallery
+handle: galleries
+name: Galleries
 previewTargets:
   -
     __assoc__:

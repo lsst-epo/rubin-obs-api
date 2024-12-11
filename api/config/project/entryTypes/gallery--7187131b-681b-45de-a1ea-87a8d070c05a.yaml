@@ -1,0 +1,83 @@
+fieldLayouts:
+  a1e7507c-8f05-496a-bcf1-7f0c660a18b3:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            inputType: null
+            instructions: null
+            label: Title
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 29d9720a-624f-4316-8226-4359e0472ad6
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: cd801712-4ba3-4a9c-8fab-0d3e2a58b4eb # Description
+            instructions: 'Used in page metadata for search engines and social media previews'
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 0e4974eb-9512-4738-ac70-c82d7bb4a252
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: c7dc492b-dae5-48de-a39a-7d83af57e704 # Asset Album
+            instructions: null
+            label: 'Gallery Album'
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: a27d818b-40d3-4717-8df1-5140233804cc
+            userCondition: null
+            warning: null
+            width: 50
+          -
+            elementCondition: null
+            fieldUid: 4b6329ee-1231-466b-94e6-24b8f46ea9d6 # Single Canto Asset
+            instructions: null
+            label: 'Featured Asset'
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: c04d8b0e-9b52-4887-ad18-bbc9847597f1
+            userCondition: null
+            warning: null
+            width: 50
+        name: 'Gallery Assets'
+        uid: 9371270a-26f3-4db3-b690-aea58c0eff11
+        userCondition: null
+handle: gallery
+hasTitleField: true
+name: Gallery
+section: 3a8b9653-cdd3-46ce-84b2-d73b5dc4de63 # Galleries
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: none
+sortOrder: 1
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

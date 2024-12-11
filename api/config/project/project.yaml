@@ -1,4 +1,4 @@
-dateModified: 1733770215
+dateModified: 1735588368
 email:
   fromEmail: $EMAIL_FROM_ADDRESS
   fromName: $EMAIL_SENDER_NAME
@@ -100,11 +100,10 @@ meta:
     2c2e1c6a-eb4d-44f1-9a43-8d79b326f354: ES # ES
     2c121c9e-10e1-4a79-a17f-a6c7ef7965f3: 'Table Group' # Table Group
     3a3af2ab-b037-455a-ba95-bc3be89efdb0: 'Event Filters' # Event Filters
-    3a8b9653-cdd3-46ce-84b2-d73b5dc4de63: Gallery # Gallery
+    3a8b9653-cdd3-46ce-84b2-d73b5dc4de63: Galleries # Galleries
     3b3c8424-8556-438d-97b9-8efb277417a6: Timezone # Timezone
     003be281-0e3f-49e2-a932-359cebdf07f9: Link # Link
     3c9eb8f7-9f84-4c22-84d5-531be77aa6b6: 'Featured Image' # Featured Image
-    03d7331c-b357-4eed-a6b0-3c5a403cae73: Publisher # Publisher
     3df02181-c6a1-4e72-98fb-f91def384206: Entry # Entry
     3e10dcca-4dd1-4578-8add-708cd9740881: Homepage # Homepage
     3eefd793-f1fb-4692-ba0e-ff68f354543b: Investigations # Investigations
@@ -118,9 +117,7 @@ meta:
     4f027acf-6672-4fd7-a178-2366dfea422a: 'Complex Table' # Complex Table
     4fe339ec-7579-46f4-a362-df6ee8de4b3c: 'Public Schema' # Public Schema
     4ffeb743-f02d-42af-8656-a6f9c1363e79: 'Glossary Terms' # Glossary Terms
-    5a6d7b10-920d-464d-85ea-fc3881082fd7: 'Date Created' # Date Created
     5b0d5d69-4003-4a56-8940-b9cbc2d691e8: Twitter # Twitter
-    5b70de37-9d5f-4c8f-87c7-9f2225761f54: 'Gallery Item Tags' # Gallery Item Tags
     5ca18cb3-5a7b-4764-9e18-fc24b4cecc14: Flag # Flag
     5ca378e1-cfb5-4db9-ad3c-1d6ef36536b7: 'Supporters’ Logos' # Supporters’ Logos
     5cf3400b-e67c-4fe1-8f5c-d07510de42a8: 'Contact Form' # Contact Form
@@ -173,7 +170,6 @@ meta:
     34f61e7c-358c-48b8-8439-42bc05ed255c: 'Callout - two-tone' # Callout - two-tone
     36eb6d5c-23a9-43c9-bf13-4ca926869004: 'Start Time' # Start Time
     39af5de5-d299-4bc5-965a-af2d128c7f1a: 'Alternative Text' # Alternative Text
-    39e18ee6-2a14-4d32-94b9-867cbba8380b: Publisher # Publisher
     40b120c8-203c-4787-b78c-7bfd9c56fe2f: 'Sub Location' # Sub Location
     40ee52fe-bbe1-4b44-97ea-ef987105496b: Email # Email
     41a9c595-2a38-40b5-b87c-ada8076913e1: Share # Share
@@ -186,10 +182,8 @@ meta:
     57dcbdae-db2b-4f63-8d0e-26bdfb80c7db: 'Grid or List' # Grid or List
     58aa24c3-97e4-43e7-a812-7374e5650180: 'Focal Point X' # Focal Point X
     58efa872-9485-42e3-a1e3-a5435def5392: Educators # Educators
-    58f1a805-f9c5-46ce-81dd-e17a3ea99353: PublisherId # PublisherId
     59fb5a9e-74f4-4618-adba-601791f42c92: Jobs # Jobs
     61b9d842-7365-4bbf-883c-1b6433dc15f4: 'Caption - rich text' # Caption - rich text
-    61e2311c-55a3-4219-9afe-606f0f422e3f: 'Usage Terms' # Usage Terms
     66cc7887-85b3-4299-abf5-f92cbae50a8b: People # People
     68ce46bb-bb2f-4e55-8009-fe56a7d4493b: Header # Header
     70d00340-3577-4a61-a2be-6e6fd986b5a7: 'Open Date' # Open Date
@@ -227,7 +221,6 @@ meta:
     0928ff1a-513d-41e0-acc1-606d93988618: 'Search Filters' # Search Filters
     942c9e60-2760-42ed-b03b-9e5eb133751b: Callout # Callout
     966a6b65-ca53-48a8-89dc-74983cd624ef: Title # Title
-    983dcb96-8eb2-4138-9c79-603b779fe2bb: 'Metadata Date' # Metadata Date
     991c5031-3b97-45d8-8829-c8e0c79537a9: 'Row Title' # Row Title
     994d5664-f056-4969-b2cc-c62660f069af: 'Root Page Information' # Root Page Information
     2755abe1-7dd5-428c-a6bb-30d2bd59a362: Link # Link
@@ -259,7 +252,6 @@ meta:
     39558c70-8baf-4748-9f12-49e78a04eed5: Job # Job
     40914d25-1cae-448f-aeea-2d7d779d620d: People # People
     51322eaa-f9c8-4ade-a6e6-b877bbdc494e: 'Show Page in the Header Navigation' # Show Page in the Header Navigation
-    51414e74-22c3-4134-9ccb-34f524920c2c: 'Metadata Version' # Metadata Version
     0059967d-f567-4066-a676-02f7c932b843: 'Start Time' # Start Time
     83885be8-333d-42b1-964f-fd89666907ff: 'Embed Title' # Embed Title
     84116f7d-7a26-41d7-bd7f-79761f9b50a9: 'Close Date' # Close Date
@@ -277,12 +269,11 @@ meta:
     960543c0-3ba6-466b-aa9e-9182279dd49a: 'Start Date' # Start Date
     04000104-ec26-4d82-959a-729454e7f1cc: Country # Country
     6637068b-5ee0-4019-a89a-58af8e373b60: Publications # Publications
-    7187131b-681b-45de-a1ea-87a8d070c05a: 'Gallery Item' # Gallery Item
+    7187131b-681b-45de-a1ea-87a8d070c05a: Gallery # Gallery
     7619020e-9b6f-4526-9359-d6cfb47b33a5: 'Entry - Event' # Entry - Event
     08126293-8df9-4de8-abf5-aa99cca69492: Footer # Footer
     9940892d-32f4-4399-acac-ab559ce1c82b: Common # Common
     13801435-9919-4b01-9430-5616bf4f6119: 'Show Sidebar' # Show Sidebar
-    30885296-ea6f-4481-8e0f-e9d17e37c7c5: PublisherId # PublisherId
     36247100-a0f8-4eb9-b190-898131bf97b3: Width # Width
     67348234-547f-437f-8356-934347dddb5a: 'Phone Number' # Phone Number
     74319755-d24f-4991-a84a-0c1c031cb21e: 'Asset Link' # Asset Link
@@ -320,7 +311,6 @@ meta:
     b144a695-58be-4586-81cf-0ae9030280ce: Bio # Bio
     b882fa04-8a43-4715-a55d-b3344db891bf: 'Table Title' # Table Title
     b5838ae4-3163-4eaf-baf1-cc575176352e: Callout # Callout
-    b8393df9-fb81-4d70-9ccb-6d030c818580: 'Gallery Item Defaults' # Gallery Item Defaults
     b4139639-fe83-4dd3-acf6-581a798190b5: 'Slideshow Items' # Slideshow Items
     bb77d190-487e-45c5-a1d2-0208510a7d88: Events # Events
     bbf936fb-1787-437b-8ebd-a6e79409896e: 'Glossary Term' # Glossary Term
@@ -331,7 +321,7 @@ meta:
     c3d1c243-1703-4117-abc7-88487a1f8f24: 'Staff Profiles' # Staff Profiles
     c5c5037a-57bf-4aff-85ca-62e14c8c1cea: 'Schedule Row' # Schedule Row
     c5f150d4-fc85-4a5f-a3a7-4d4a1d655861: 'Entry - News' # Entry - News
-    c9bce017-1c1c-4949-ad3b-a5c0b991a83a: 'Metadata Version' # Metadata Version
+    c7dc492b-dae5-48de-a39a-7d83af57e704: 'Asset Album' # Asset Album
     c9e9db12-fcdb-4b82-a8c8-eef21b3543af: 'Cell Background' # Cell Background
     c11d26d4-236a-4b06-99f6-3a8f67821ada: 'Sidebar Assets' # Sidebar Assets
     c30bad12-1372-49fe-ab6c-a9c33b2860bb: 'Gallery Item Tags' # Gallery Item Tags
@@ -349,7 +339,6 @@ meta:
     cc694df6-ebfe-4e0c-b4fe-713761f100df: Text # Text
     cd6f2275-4f9b-4ba4-aa4c-7c7468366172: 'Content Images' # Content Images
     cd801712-4ba3-4a9c-8fab-0d3e2a58b4eb: Description # Description
-    ce5de347-f24d-4cc2-b80f-7db689345533: metadata # metadata
     cee5c2f8-2801-42c2-a56c-4fe40c85b6f3: 'Site Information' # Site Information
     d0cb4533-5478-47d5-9473-dd6c3821cf7a: Slide # Slide
     d019727b-a6d5-43d9-a688-f10df985a87e: Link # Link
@@ -378,7 +367,6 @@ meta:
     e6e1a190-5824-49c2-8242-ee637519925d: Affiliation # Affiliation
     e6f15692-eb5b-4a33-ad48-7f2b05a7c527: 'Request Deletion' # Request Deletion
     e46ce1e1-606c-4043-acea-5ddab0358221: Image # Image
-    e48cbecf-107a-43c6-b099-9d6f3d7cadd8: Credit # Credit
     e95d3769-cc6d-4366-85a1-a39780d0bc0e: Item # Item
     e98e0ffd-73fa-4e57-808c-dcb9873209ca: 'Entry - Gallery' # Entry - Gallery
     e338eebb-6488-4f58-a07e-db43f28ff56b: Image # Image
@@ -409,7 +397,6 @@ meta:
     fb3d440b-3313-476c-8ce6-9c91ba637a56: 'Download List' # Download List
     fb3283a6-7286-4b2b-a77a-010783dcee7e: Slideshows # Slideshows
     fba2e6e2-54d4-47e5-94de-b140c01cbed6: LinkedIn # LinkedIn
-    fbebfdbb-a4ca-48dd-8627-37fc2ffff0a3: 'Usage Terms' # Usage Terms
     fcfd6cca-d4db-49ea-a864-b6582b85fbcf: 'End Date' # End Date
     fea30fc7-fc92-4268-961f-d514c1b903b8: 'Supporters'' Logos Alt' # Supporters' Logos Alt
 plugins:
@@ -2319,7 +2306,7 @@ plugins:
             - events
             - '1'
           -
-            - galleryItems
+            - galleries
             - '1'
           -
             - glossaryTerms
