@@ -1,0 +1,16 @@
+columnSuffix: gvhkkuqb
+contentColumnType:
+  - 'cantoId:string'
+  - 'cantoAlbumId:string'
+  - 'cantoAssetData:json'
+  - 'cantoAlbumData:json'
+fieldGroup: 3754ce62-7e5c-46da-8738-2f15f70f00a4 # Gallery Area
+handle: assetAlbum
+instructions: null
+name: 'Asset Album'
+searchable: false
+settings:
+  cantoAssetPickerType: wholeAlbumPicker
+translationKeyFormat: null
+translationMethod: none
+type: lsst\cantodamassets\fields\CantoDamAsset
