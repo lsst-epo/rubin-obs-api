@@ -29,6 +29,7 @@ scope:
   - 'entrytypes.26ca2777-e4c8-41b4-ac93-aa28d09117dd:read' # Student Pages
   - 'entrytypes.b55b0827-5ceb-45e1-bd3c-a35dc4638886:read' # Investigation Landing Page
   - 'entrytypes.15ca4b7f-3874-4461-aae9-869c9cdf076b:read' # Redirect Page
+  - 'entrytypes.fb38d00d-7c62-4c9f-a496-76d9f10a2a57:read' # Gallery Landing Page
   - 'sections.7b6ae5d5-7819-48b3-b2ab-7f7109c3ebfa:read' # People
   - 'entrytypes.5884a9c8-b8b4-48b4-872e-ba06c7fd7bd9:read' # Person
   - 'sections.572f9558-2330-400a-900d-d7f11a4b1e2b:read' # Publications
@@ -46,10 +47,9 @@ scope:
   - 'volumes.18a75c63-648f-4145-9cc3-386e7c8a0106:read' # General
   - 'volumes.c3d1c243-1703-4117-abc7-88487a1f8f24:read' # Staff Profiles
   - 'volumes.d41cc960-99a4-41a8-a7a6-7891a22e4a93:read' # Asset Variants
-  - 'globalsets.b8393df9-fb81-4d70-9ccb-6d030c818580:read'
-  - 'globalsets.994d5664-f056-4969-b2cc-c62660f069af:read' # Root Page Information
   - 'globalsets.1a2ba41a-3949-4982-9cb3-f8b03863bcfd:read' # Footer Content
   - 'globalsets.8ccd6c1c-8e9b-44e8-93a9-f62589fb4819:read' # Site Information
+  - 'globalsets.994d5664-f056-4969-b2cc-c62660f069af:read' # Root Page Information
   - 'usergroups.everyone:read'
   - 'usergroups.465ab8a5-3594-4309-941c-30dbeadee580:read' # CST Editor
   - 'usergroups.01b89d98-9aa4-46d5-a9a0-60a0c07fd815:read' # Editors

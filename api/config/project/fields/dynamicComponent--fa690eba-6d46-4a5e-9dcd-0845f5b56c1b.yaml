@@ -6,7 +6,7 @@ instructions: 'For dynamic pages and blocks.'
 name: 'Dynamic Component'
 searchable: true
 settings:
-  optgroups: true
+  columnType: string
   options:
     -
       __assoc__:
@@ -60,39 +60,6 @@ settings:
         -
           - value
           - staffProfiles
-        -
-          - default
-          - ''
-    -
-      __assoc__:
-        -
-          - label
-          - 'Gallery Items'
-        -
-          - value
-          - galleryItems
-        -
-          - default
-          - ''
-    -
-      __assoc__:
-        -
-          - label
-          - 'Image Gallery Items'
-        -
-          - value
-          - imageGalleryItems
-        -
-          - default
-          - ''
-    -
-      __assoc__:
-        -
-          - label
-          - 'Video Gallery Items'
-        -
-          - value
-          - videoGalleryItems
         -
           - default
           - ''
