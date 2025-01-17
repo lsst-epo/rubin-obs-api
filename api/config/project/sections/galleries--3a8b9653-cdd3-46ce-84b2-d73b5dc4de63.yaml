@@ -20,10 +20,10 @@ siteSettings:
     enabledByDefault: true
     hasUrls: true
     template: null
-    uriFormat: 'gallery/{slug}'
+    uriFormat: 'gallery/collections/{slug}'
   547128fa-4529-4483-9968-66425996b69f: # EN
     enabledByDefault: true
     hasUrls: true
     template: null
-    uriFormat: 'gallery/{slug}'
+    uriFormat: 'gallery/collections/{slug}'
 type: channel
