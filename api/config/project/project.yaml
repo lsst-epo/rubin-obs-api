@@ -1,4 +1,4 @@
-dateModified: 1735588368
+dateModified: 1737659629
 email:
   fromEmail: $EMAIL_FROM_ADDRESS
   fromName: $EMAIL_SENDER_NAME
@@ -395,6 +395,7 @@ meta:
     fa7678ee-7b00-4ff1-ae99-464c68f65238: 'Key Numbers Grid' # Key Numbers Grid
     fb052686-4537-4fe5-9ce2-ff3fd4a341a2: 'Content Image' # Content Image
     fb3d440b-3313-476c-8ce6-9c91ba637a56: 'Download List' # Download List
+    fb38d00d-7c62-4c9f-a496-76d9f10a2a57: 'Gallery Landing Page' # Gallery Landing Page
     fb3283a6-7286-4b2b-a77a-010783dcee7e: Slideshows # Slideshows
     fba2e6e2-54d4-47e5-94de-b140c01cbed6: LinkedIn # LinkedIn
     fcfd6cca-d4db-49ea-a864-b6582b85fbcf: 'End Date' # End Date

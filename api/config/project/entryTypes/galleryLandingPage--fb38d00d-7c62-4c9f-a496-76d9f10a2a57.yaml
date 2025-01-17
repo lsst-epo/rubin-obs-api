@@ -1,5 +1,5 @@
 fieldLayouts:
-  a1e7507c-8f05-496a-bcf1-7f0c660a18b3:
+  987298c1-14f3-4ded-99b9-f1659ebe1ccb:
     tabs:
       -
         elementCondition: null
@@ -14,7 +14,7 @@ fieldLayouts:
             id: null
             inputType: null
             instructions: null
-            label: Title
+            label: null
             max: null
             min: null
             name: null
@@ -27,22 +27,22 @@ fieldLayouts:
             tip: null
             title: null
             type: craft\fieldlayoutelements\entries\EntryTitleField
-            uid: 29d9720a-624f-4316-8226-4359e0472ad6
+            uid: 110120e7-0d29-4fba-8f70-ee328c3dbc73
             userCondition: null
             warning: null
             width: 100
           -
             elementCondition: null
-            fieldUid: cd801712-4ba3-4a9c-8fab-0d3e2a58b4eb # Description
-            instructions: 'Used in page metadata for search engines and social media previews'
+            fieldUid: 312197d8-1241-4fac-8422-febdf44e5e9a # Entry - Slideshow
+            instructions: null
             label: null
-            required: true
+            required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 0e4974eb-9512-4738-ac70-c82d7bb4a252
+            uid: 4ca42979-3264-43d7-99da-b1cc85702291
             userCondition: null
             warning: null
-            width: 75
+            width: 50
           -
             elementCondition: null
             fieldUid: 51322eaa-f9c8-4ade-a6e6-b877bbdc494e # Show Page in the Header Navigation
@@ -51,45 +51,33 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: cc9af4af-d0d1-4a85-8647-65c0ffa339e2
+            uid: 92469ac9-ba0c-42a2-ade9-5b72d0c1a505
             userCondition: null
             warning: null
             width: 25
           -
             elementCondition: null
-            fieldUid: c7dc492b-dae5-48de-a39a-7d83af57e704 # Asset Album
+            fieldUid: e98e0ffd-73fa-4e57-808c-dcb9873209ca # Entry - Gallery
             instructions: null
-            label: 'Gallery Album'
+            label: null
             required: true
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: a27d818b-40d3-4717-8df1-5140233804cc
+            uid: 0f55386e-6a13-475d-9543-e7abaf6c4e15
             userCondition: null
             warning: null
-            width: 50
-          -
-            elementCondition: null
-            fieldUid: 4b6329ee-1231-466b-94e6-24b8f46ea9d6 # Single Canto Asset
-            instructions: null
-            label: 'Featured Asset'
-            required: false
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            uid: c04d8b0e-9b52-4887-ad18-bbc9847597f1
-            userCondition: null
-            warning: null
-            width: 50
-        name: 'Gallery Assets'
-        uid: 9371270a-26f3-4db3-b690-aea58c0eff11
+            width: 100
+        name: Content
+        uid: 6ed88f8a-78eb-4fab-ad7c-893364676377
         userCondition: null
-handle: gallery
+handle: galleryLandingPage
 hasTitleField: true
-name: Gallery
-section: 3a8b9653-cdd3-46ce-84b2-d73b5dc4de63 # Galleries
+name: 'Gallery Landing Page'
+section: f1b8c943-bc12-4001-9e2a-d531379f1aaf # Pages
 showStatusField: true
 slugTranslationKeyFormat: null
 slugTranslationMethod: none
-sortOrder: 1
+sortOrder: 6
 titleFormat: null
 titleTranslationKeyFormat: null
 titleTranslationMethod: site
