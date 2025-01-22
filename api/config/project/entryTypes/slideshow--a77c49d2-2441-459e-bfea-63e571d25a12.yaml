@@ -2,6 +2,7 @@ fieldLayouts:
   7173d363-4be4-4b08-b42c-f8d184b33399:
     tabs:
       -
+        elementCondition: null
         elements:
           -
             autocapitalize: true
@@ -9,7 +10,9 @@ fieldLayouts:
             autocorrect: true
             class: null
             disabled: false
+            elementCondition: null
             id: null
+            inputType: null
             instructions: null
             label: null
             max: null
@@ -24,41 +27,56 @@ fieldLayouts:
             tip: null
             title: null
             type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: cdee751a-6c4a-47f9-a8c4-6f95558ec9ea
+            userCondition: null
             warning: null
             width: 100
           -
+            elementCondition: null
             fieldUid: 657b9edd-b6d3-4b7f-af89-36117c5d98a8 # Rich Text Description
             instructions: 'Teaser for the slideshow as a whole'
             label: Description
-            required: ''
+            required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: 3bb79f56-fa3b-460e-af6c-3ce54f9eaddb
+            userCondition: null
             warning: null
             width: 100
           -
+            elementCondition: null
             fieldUid: 8bfcc6b7-ec2f-4759-bce9-c62bc12aecd4 # Representative Asset Variant
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: 62ddd745-3c06-4010-b52e-9840619111b7
+            userCondition: null
             warning: null
             width: 100
           -
+            elementCondition: null
             fieldUid: b4139639-fe83-4dd3-acf6-581a798190b5 # Slideshow Items
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: bf17bfc6-a111-448a-bf3f-4c7d6eb0a0da
+            userCondition: null
             warning: null
             width: 100
         name: Content
-        sortOrder: 1
+        uid: f8a5c612-f540-4327-b9ac-65cf65b9968d
+        userCondition: null
 handle: slideshow
 hasTitleField: true
 name: Slideshow
 section: fb3283a6-7286-4b2b-a77a-010783dcee7e # Slideshows
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: none
 sortOrder: 1
 titleFormat: null
 titleTranslationKeyFormat: null

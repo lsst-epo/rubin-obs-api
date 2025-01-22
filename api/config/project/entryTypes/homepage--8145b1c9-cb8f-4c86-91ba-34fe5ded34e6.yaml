@@ -146,7 +146,7 @@ name: Homepage
 section: 3e10dcca-4dd1-4578-8add-708cd9740881 # Homepage
 showStatusField: true
 slugTranslationKeyFormat: null
-slugTranslationMethod: site
+slugTranslationMethod: none
 sortOrder: 1
 titleFormat: '{section.name|raw}'
 titleTranslationKeyFormat: null
