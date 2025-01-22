@@ -2,6 +2,7 @@ fieldLayouts:
   638ddd76-0ab8-4760-bd20-3008020611f2:
     tabs:
       -
+        elementCondition: null
         elements:
           -
             autocapitalize: true
@@ -9,7 +10,9 @@ fieldLayouts:
             autocorrect: true
             class: null
             disabled: false
+            elementCondition: null
             id: null
+            inputType: null
             instructions: null
             label: null
             max: null
@@ -24,81 +27,110 @@ fieldLayouts:
             tip: null
             title: null
             type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 1f63468e-d82d-405f-8e9d-6535dd13ca27
+            userCondition: null
             warning: null
             width: 100
           -
+            elementCondition: null
             fieldUid: d7fc5f39-2426-421b-bd0b-10aadae80ae3 # Color Scheme
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: 3e3caabe-ca5d-4805-969a-492bfadf976c
+            userCondition: null
             warning: null
             width: 100
           -
+            elementCondition: null
             fieldUid: b0ce3829-20c1-44ef-a7c7-499800645afc # Header
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: d940d043-be46-4a5e-9776-55537605c426
+            userCondition: null
             warning: null
             width: 100
           -
+            elementCondition: null
             fieldUid: 7db205b7-a548-42f1-8c26-416ec51cf3fa # Text
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: 97c96053-8a47-47fd-80b4-45055b7c5a39
+            userCondition: null
             warning: null
             width: 100
           -
+            elementCondition: null
             fieldUid: 4c977b75-9ee1-4cdb-9d2a-203639f4af84 # Links
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: 1f25251d-ee85-4e77-a97a-1f3fd831f57f
+            userCondition: null
             warning: null
             width: 100
         name: Content
-        sortOrder: 1
+        uid: dd3873ce-d304-4bf4-8489-69fc4b9ae440
+        userCondition: null
       -
+        elementCondition: null
         elements:
           -
+            elementCondition: null
             fieldUid: 271253b0-e9b7-4bf1-be32-ce31d71b48b1 # Quote
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: a3628d6a-ba04-41ca-b8b9-05d6196dd91e
+            userCondition: null
             warning: null
             width: 100
           -
+            elementCondition: null
             fieldUid: d12b2ae4-6d10-41ef-8e22-778f54b2f2d0 # Attribution
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: 58660e09-9a36-45f8-8ec8-03c81195b8b0
+            userCondition: null
             warning: null
             width: 50
           -
+            elementCondition: null
             fieldUid: 48ba11bd-90a5-4239-a24c-d44d01affbcf # Image - quote
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: 9b9ebf8c-7225-4f54-a13c-a65b29163932
+            userCondition: null
             warning: null
             width: 50
         name: Quote
-        sortOrder: 2
+        uid: 91e0ccf2-4b15-4509-9d52-2970f21c0e74
+        userCondition: null
 handle: calloutQuote
 hasTitleField: true
 name: 'Callout - quote'
 section: 7cad6f4e-cc7b-45cf-ac7b-6f383e77bc1b # Callouts
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: none
 sortOrder: 3
 titleFormat: null
 titleTranslationKeyFormat: null
