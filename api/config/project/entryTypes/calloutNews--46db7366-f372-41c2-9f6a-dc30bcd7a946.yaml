@@ -70,7 +70,7 @@ name: 'Callout - News'
 section: 7cad6f4e-cc7b-45cf-ac7b-6f383e77bc1b # Callouts
 showStatusField: true
 slugTranslationKeyFormat: null
-slugTranslationMethod: site
+slugTranslationMethod: none
 sortOrder: 4
 titleFormat: '{{newsEntry|first.title ?? "News Callout #{id} has Pending News Post"}}'
 titleTranslationKeyFormat: null

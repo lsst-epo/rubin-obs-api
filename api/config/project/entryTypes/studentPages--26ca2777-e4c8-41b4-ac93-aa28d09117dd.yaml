@@ -212,7 +212,7 @@ name: 'Student Pages'
 section: f1b8c943-bc12-4001-9e2a-d531379f1aaf # Pages
 showStatusField: true
 slugTranslationKeyFormat: null
-slugTranslationMethod: site
+slugTranslationMethod: none
 sortOrder: 3
 titleFormat: null
 titleTranslationKeyFormat: null

@@ -88,7 +88,7 @@ name: Publication
 section: 572f9558-2330-400a-900d-d7f11a4b1e2b # Publications
 showStatusField: true
 slugTranslationKeyFormat: null
-slugTranslationMethod: site
+slugTranslationMethod: none
 sortOrder: 1
 titleFormat: null
 titleTranslationKeyFormat: null

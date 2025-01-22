@@ -207,7 +207,7 @@ name: 'News Post'
 section: 11be7603-f576-4af8-93a6-e285e4ff42c4 # News
 showStatusField: true
 slugTranslationKeyFormat: null
-slugTranslationMethod: site
+slugTranslationMethod: none
 sortOrder: 1
 titleFormat: null
 titleTranslationKeyFormat: null
