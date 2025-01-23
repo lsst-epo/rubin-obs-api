@@ -274,7 +274,7 @@ name: Events
 section: 4305f2e2-40b8-47b2-8b62-135b8b57be7f # Events
 showStatusField: true
 slugTranslationKeyFormat: null
-slugTranslationMethod: site
+slugTranslationMethod: none
 sortOrder: 1
 titleFormat: null
 titleTranslationKeyFormat: null

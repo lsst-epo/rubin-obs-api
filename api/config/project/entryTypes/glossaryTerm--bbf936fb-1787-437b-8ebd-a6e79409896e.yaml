@@ -76,7 +76,7 @@ name: 'Glossary Term'
 section: 4ffeb743-f02d-42af-8656-a6f9c1363e79 # Glossary Terms
 showStatusField: true
 slugTranslationKeyFormat: null
-slugTranslationMethod: site
+slugTranslationMethod: none
 sortOrder: 1
 titleFormat: null
 titleTranslationKeyFormat: null
