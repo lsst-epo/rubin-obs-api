@@ -26,4 +26,7 @@ siteSettings:
     hasUrls: true
     template: null
     uriFormat: 'gallery/collections/{slug}'
-type: channel
+structure:
+  maxLevels: 1
+  uid: da9228b6-3236-4ba3-913e-416859ec059b
+type: structure
