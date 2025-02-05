@@ -7,7 +7,7 @@ fieldLayouts:
         elements:
           -
             elementCondition: null
-            fieldUid: 1e0c12ac-5dd7-4ed2-8cda-3801130b11e1 # Gallery Item
+            fieldUid: 1e0c12ac-5dd7-4ed2-8cda-3801130b11e1 # Canto Asset
             instructions: null
             label: null
             required: false
@@ -21,31 +21,23 @@ fieldLayouts:
         uid: 356fb460-95a0-4f65-b622-1acfc19c1d4d
         userCondition: null
 fields:
-  1e0c12ac-5dd7-4ed2-8cda-3801130b11e1: # Gallery Item
-    columnSuffix: null
-    contentColumnType: string
+  1e0c12ac-5dd7-4ed2-8cda-3801130b11e1: # Canto Asset
+    columnSuffix: hnkbhkow
+    contentColumnType:
+      - 'cantoId:string'
+      - 'cantoAlbumId:string'
+      - 'cantoAssetData:json'
+      - 'cantoAlbumData:json'
     fieldGroup: null
-    handle: galleryItem
+    handle: asset
     instructions: 'For a thumbnail and link to full gallery item'
-    name: 'Gallery Item'
+    name: 'Canto Asset'
     searchable: false
     settings:
-      allowSelfRelations: false
-      branchLimit: null
-      localizeRelations: false
-      maintainHierarchy: false
-      maxRelations: 1
-      minRelations: null
-      selectionLabel: 'Select a gallery item'
-      showSiteMenu: false
-      sources:
-        - 'section:3a8b9653-cdd3-46ce-84b2-d73b5dc4de63' # Galleries
-      targetSiteId: null
-      validateRelatedElements: false
-      viewMode: null
+      cantoAssetPickerType: singleImagePicker
     translationKeyFormat: null
-    translationMethod: site
-    type: craft\fields\Entries
-handle: galleryItem
-name: 'Gallery Item'
+    translationMethod: none
+    type: lsst\cantodamassets\fields\CantoDamAsset
+handle: associatedAsset
+name: 'Associated Asset'
 sortOrder: 5
