@@ -43,9 +43,8 @@
 
 ### To connect to the dev Cloud SQL DB Instance
 
-1. Install [Docker](https://docs.docker.com/get-docker/) and the [Google Cloud SDK](https://cloud.google.com/sdk/docs/install)
-2. Clone this repository
-3. Set the database password in the `DB_PASSWORD` environment variable locally, and set the site's security key to the `SECURITY_KEY` env var.
+1. Connect to the `dev` Cloud SQL proxy: `gcloud compute ssh db-client-1 --project=skyviewer --zone=us-central1-a -- -L 127.0.0.1:5432:10.109.178.3:5432`
+3. Set the database password in the `DB_PASSWORD` environment variable locally, and set the site's security key to the `SECURITY_KEY` env var, and any other environment variables that need to be.
 4. Bring the Docker compose file up:
 
     ```shell
@@ -58,9 +57,8 @@
 
 ### To connect to the integration Cloud SQL DB Instance
 
-1. Install [Docker](https://docs.docker.com/get-docker/) and the [Google Cloud SDK](https://cloud.google.com/sdk/docs/install)
-2. Clone this repository
-3. Set the database password in the `DB_PASSWORD` environment variable locally, and set the site's security key to the `SECURITY_KEY` env var.
+1. Connect to the `int` Cloud SQL proxy: `gcloud compute ssh sql-proxy-1 --project=edc-int-6c5e --zone=us-central1-a -- -t -L 0.0.0.0:5432:10.22.151.12:5432`
+3. Set the database password in the `DB_PASSWORD` environment variable locally, and set the site's security key to the `SECURITY_KEY` env var, and any other environment variables that need to be.
 4. Bring the Docker compose file up:
 
     ```shell
