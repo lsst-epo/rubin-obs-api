@@ -1,17 +1,17 @@
 columnSuffix: null
-contentColumnType: text
+contentColumnType: string(720)
 fieldGroup: 99f4a28a-48c3-49ca-bb4a-7acbb49fde30 # Pages
 handle: description
-instructions: ''
+instructions: "Good descriptions play a crucial role in search engine rankings and are among the first things people see in a search or link preview.\r\n\r\nWrite a unique description related to the page’s content between 120-160 characters, use active language, and include a call to action where possible (e.g. “Explore...“, “Read about…“, “Learn…“)."
 name: Description
 searchable: true
 settings:
   byteLimit: null
-  charLimit: null
-  code: ''
+  charLimit: 180
+  code: false
   columnType: null
-  initialRows: '4'
-  multiline: ''
+  initialRows: 4
+  multiline: false
   placeholder: null
   uiMode: normal
 translationKeyFormat: null
