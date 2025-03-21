@@ -1,17 +1,17 @@
 columnSuffix: null
-contentColumnType: text
+contentColumnType: string(720)
 fieldGroup: cee5c2f8-2801-42c2-a56c-4fe40c85b6f3 # Site Information
 handle: siteDescription
-instructions: ''
+instructions: 'A sitewide description that will be applied to the homepage and any pages that do not have their own description set. Write a description that encompasses Rubin using active voice. '
 name: Description
 searchable: false
 settings:
   byteLimit: null
-  charLimit: null
-  code: ''
+  charLimit: 180
+  code: false
   columnType: null
-  initialRows: '4'
-  multiline: ''
+  initialRows: 4
+  multiline: false
   placeholder: null
   uiMode: normal
 translationKeyFormat: null
