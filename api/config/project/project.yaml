@@ -1,4 +1,4 @@
-dateModified: 1742581637
+dateModified: 1743107707
 email:
   fromEmail: $EMAIL_FROM_ADDRESS
   fromName: $EMAIL_SENDER_NAME
@@ -141,6 +141,7 @@ meta:
     8b8ed305-e6e6-4754-925f-bb07427b2060: 'Background Color' # Background Color
     8bfcc6b7-ec2f-4759-bce9-c62bc12aecd4: 'Representative Asset Variant' # Representative Asset Variant
     8ccd6c1c-8e9b-44e8-93a9-f62589fb4819: 'Site Information' # Site Information
+    8d48c504-475d-4b1c-a505-baa863ed5bc0: Skyviewer # Skyviewer
     8da1c506-3359-4a1b-b440-119d4d0b58ee: 'Focal Point X' # Focal Point X
     8e9ec71e-2cf0-4f6a-b856-8976de0ce100: Heroes # Heroes
     8ea5a0da-b111-4714-a1c6-2af9cf0a7070: 'Summit Status Layout' # Summit Status Layout
@@ -184,6 +185,7 @@ meta:
     58efa872-9485-42e3-a1e3-a5435def5392: Educators # Educators
     59fb5a9e-74f4-4618-adba-601791f42c92: Jobs # Jobs
     61b9d842-7365-4bbf-883c-1b6433dc15f4: 'Caption - rich text' # Caption - rich text
+    63ad82eb-8dc4-4d06-b1af-013f2d503a42: Skyviewer # Skyviewer
     66cc7887-85b3-4299-abf5-f92cbae50a8b: People # People
     68ce46bb-bb2f-4e55-8009-fe56a7d4493b: Header # Header
     70d00340-3577-4a61-a2be-6e6fd986b5a7: 'Open Date' # Open Date
@@ -287,6 +289,7 @@ meta:
     a8ba2de3-ff22-4a96-9a53-00b6dec31def: City # City
     a8fbf209-7591-40fa-88d4-b5944f4d27d8: 'Landing Page' # Landing Page
     a50ca6cb-f8ed-41c0-9ea1-b3a5c1ed721e: Label # Label
+    a50f3dd9-3fa6-4c3d-ad02-39d184c9157a: RA # RA
     a71f443d-14a3-402b-90ba-524dcce806d2: 'External URL' # External URL
     a77c49d2-2441-459e-bfea-63e571d25a12: Slideshow # Slideshow
     a7447c0c-7c32-465a-b00b-36ee15bd028a: 'Pull Quote' # Pull Quote
@@ -316,6 +319,7 @@ meta:
     bbf936fb-1787-437b-8ebd-a6e79409896e: 'Glossary Term' # Glossary Term
     bc12b31b-5681-4d9c-bbc1-80042dca1a82: YouTube # YouTube
     be9edc91-a7d0-4838-9565-20381695cbcb: 'Staff Profiles' # Staff Profiles
+    bf666178-3a27-4de2-acb9-be62f6112aef: Skyviewer # Skyviewer
     c1f8c36c-fe3e-4e51-a602-b8c751ca45d4: 'Other Authors / Credit' # Other Authors / Credit
     c2eab1e2-8dc7-4ea8-a1c2-5572ff82212b: 'Linked Asset' # Linked Asset
     c3d1c243-1703-4117-abc7-88487a1f8f24: 'Staff Profiles' # Staff Profiles
@@ -364,6 +368,7 @@ meta:
     dfd8564d-5db6-4167-99db-29867a64bc2c: 'Content Order' # Content Order
     dff2a767-333e-4c9d-880c-143e1ca2aaa3: 'Row Content' # Row Content
     e0be58f6-fc1b-4a02-816c-0a37b0fcd602: Students # Students
+    e3a73d20-b541-4915-8254-a4bee79065f9: 'Field of View (FOV)' # Field of View (FOV)
     e6e1a190-5824-49c2-8242-ee637519925d: Affiliation # Affiliation
     e6f15692-eb5b-4a33-ad48-7f2b05a7c527: 'Request Deletion' # Request Deletion
     e46ce1e1-606c-4043-acea-5ddab0358221: Image # Image
@@ -385,6 +390,7 @@ meta:
     f0603433-ef74-4883-8aec-03e31f8dc34e: 'Complex Table' # Complex Table
     f1b8c943-bc12-4001-9e2a-d531379f1aaf: Pages # Pages
     f8ed5c4f-7af4-40f7-939d-b7caf9b4b501: 'News Item' # News Item
+    f43fc0f3-e225-4501-b975-0fd061f0ff5b: dec # dec
     f69fbef5-6f67-486f-9e62-7be537bea803: 'Contact Form Topics' # Contact Form Topics
     f98e0a8a-8a90-4402-9cd5-3cfddd38bff3: Link # Link
     f282d5ff-8da0-4ebb-a160-e5446c02193d: 'Job Position' # Job Position

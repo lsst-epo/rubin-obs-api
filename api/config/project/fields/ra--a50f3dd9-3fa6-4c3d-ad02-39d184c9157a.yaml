@@ -1,0 +1,20 @@
+columnSuffix: mizeaqlt
+contentColumnType: 'decimal(9,6)'
+fieldGroup: 63ad82eb-8dc4-4d06-b1af-013f2d503a42 # Skyviewer
+handle: ra
+instructions: 'Right Ascension'
+name: RA
+searchable: false
+settings:
+  decimals: 6
+  defaultValue: null
+  max: 360
+  min: 0
+  prefix: null
+  previewCurrency: null
+  previewFormat: decimal
+  size: null
+  suffix: °
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Number

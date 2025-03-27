@@ -1,0 +1,20 @@
+columnSuffix: hlnappei
+contentColumnType: 'decimal(8,6)'
+fieldGroup: 63ad82eb-8dc4-4d06-b1af-013f2d503a42 # Skyviewer
+handle: dec
+instructions: Declination
+name: dec
+searchable: false
+settings:
+  decimals: 6
+  defaultValue: null
+  max: 90
+  min: -90
+  prefix: null
+  previewCurrency: null
+  previewFormat: decimal
+  size: null
+  suffix: ' °'
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Number
