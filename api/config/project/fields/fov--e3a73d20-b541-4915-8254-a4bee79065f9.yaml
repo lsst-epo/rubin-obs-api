@@ -1,0 +1,20 @@
+columnSuffix: bcuqcogo
+contentColumnType: 'decimal(15,5)'
+fieldGroup: 63ad82eb-8dc4-4d06-b1af-013f2d503a42 # Skyviewer
+handle: fov
+instructions: 'A number indicating the initial zoom level'
+name: 'Field of View (FOV)'
+searchable: false
+settings:
+  decimals: 5
+  defaultValue: null
+  max: null
+  min: 0
+  prefix: null
+  previewCurrency: null
+  previewFormat: decimal
+  size: null
+  suffix: °
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Number

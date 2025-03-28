@@ -1,0 +1,126 @@
+childBlocks: null
+conditions: null
+description: 'An embedded view of the Skyviewer'
+enabled: true
+field: 522db817-08b6-4ecf-a423-4aec204ab85d # Content Blocks - News
+fieldLayouts:
+  d14aa16e-4654-4083-984f-773b87a6016f:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 83885be8-333d-42b1-964f-fd89666907ff # Embed Title
+            instructions: 'The title''s value should concisely describe the embedded content, screenreaders will read this so users can decide if they want to enter the frame or continue.'
+            label: Title
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: a9a14881-f44f-4821-a8cf-dc712581b69f
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: a50f3dd9-3fa6-4c3d-ad02-39d184c9157a # RA
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 15f1ee9f-2339-4587-b7b2-b79bf3a365a3
+            userCondition: null
+            warning: null
+            width: 25
+          -
+            elementCondition: null
+            fieldUid: f43fc0f3-e225-4501-b975-0fd061f0ff5b # dec
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 58436f73-5757-4829-8fe7-5629a32eec00
+            userCondition: null
+            warning: null
+            width: 25
+          -
+            elementCondition: null
+            fieldUid: e3a73d20-b541-4915-8254-a4bee79065f9 # Field of View (FOV)
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 109cd5fe-1556-4a69-99d5-5f2a29e23207
+            userCondition: null
+            warning: null
+            width: 25
+          -
+            elementCondition: null
+            type: craft\fieldlayoutelements\HorizontalRule
+            uid: df5b0335-cc52-4f24-b33e-365747e1e118
+            userCondition: null
+          -
+            elementCondition: null
+            fieldUid: ef5793ab-b4f7-45c7-be68-338184b3d385 # Full Width
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: ba03979d-b39f-4797-a28a-d135c7593100
+            userCondition: null
+            warning: null
+            width: 50
+          -
+            elementCondition:
+              class: benf\neo\elements\conditions\BlockCondition
+              conditionRules:
+                -
+                  class: craft\fields\conditions\LightswitchFieldConditionRule
+                  fieldUid: ef5793ab-b4f7-45c7-be68-338184b3d385 # Full Width
+                  uid: 0310a272-2e6d-4b57-95de-e86bd6f1289b
+                  value: true
+              elementType: benf\neo\elements\Block
+              fieldContext: global
+            fieldUid: 8b8ed305-e6e6-4754-925f-bb07427b2060 # Background Color
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 8d6b4ccf-e55a-4399-8565-d42233c491ad
+            userCondition: null
+            warning: null
+            width: 50
+          -
+            elementCondition: null
+            fieldUid: 61b9d842-7365-4bbf-883c-1b6433dc15f4 # Caption - rich text
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 211b6a32-c095-4f36-bcbb-1f12f588cafb
+            userCondition: null
+            warning: null
+            width: 100
+        name: Configuration
+        uid: 3ad3ea50-039b-4a85-9e00-8a7efe783357
+        userCondition: null
+group: null
+groupChildBlockTypes: true
+handle: skyviewer
+icon: null
+iconFilename: ''
+ignorePermissions: true
+maxBlocks: 0
+maxChildBlocks: 0
+maxSiblingBlocks: 0
+minBlocks: 0
+minChildBlocks: 0
+minSiblingBlocks: 0
+name: Skyviewer
+topLevel: true
