@@ -3,6 +3,73 @@ conditions: null
 description: ''
 enabled: true
 field: 72e5075a-9b06-4674-b040-615f4a6f7b70 # Content Blocks - Pages
+fieldLayouts:
+  d6e9a5a4-6bd2-4929-86e6-1de13bedec0d:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 3889bdbd-d5c9-4fc7-a313-92a2cd9d6818 # Share Variant
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 800edb24-a576-4718-b074-b592ef2b1be4
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition:
+              class: benf\neo\elements\conditions\BlockCondition
+              conditionRules:
+                -
+                  class: craft\fields\conditions\OptionsFieldConditionRule
+                  fieldUid: 3889bdbd-d5c9-4fc7-a313-92a2cd9d6818 # Share Variant
+                  operator: in
+                  uid: 2f74e9a9-8e4d-4548-8ff6-dbac9fd6fbc2
+                  values:
+                    - large
+              elementType: benf\neo\elements\Block
+              fieldContext: global
+            fieldUid: 7db205b7-a548-42f1-8c26-416ec51cf3fa # Text
+            instructions: 'Will override default sharing text'
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 09bdd26c-b3d2-4ee1-87f7-f8526630ddaa
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition:
+              class: benf\neo\elements\conditions\BlockCondition
+              conditionRules:
+                -
+                  class: craft\fields\conditions\OptionsFieldConditionRule
+                  fieldUid: 3889bdbd-d5c9-4fc7-a313-92a2cd9d6818 # Share Variant
+                  operator: in
+                  uid: a4714b1f-4f2d-4d97-a8e0-97b1c7f14dd0
+                  values:
+                    - large
+              elementType: benf\neo\elements\Block
+              fieldContext: global
+            fieldUid: 8b8ed305-e6e6-4754-925f-bb07427b2060 # Background Color
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: d04f5552-f004-4880-a899-4a89b34e0a31
+            userCondition: null
+            warning: null
+            width: 100
+        name: Configuration
+        uid: 5e423de1-086c-4641-887a-f7deb6bdf8e2
+        userCondition: null
 group: null
 groupChildBlockTypes: true
 handle: share

@@ -1,4 +1,4 @@
-dateModified: 1743107707
+dateModified: 1744225011
 email:
   fromEmail: $EMAIL_FROM_ADDRESS
   fromName: $EMAIL_SENDER_NAME
@@ -228,6 +228,7 @@ meta:
     2755abe1-7dd5-428c-a6bb-30d2bd59a362: Link # Link
     3146b06e-af03-43e7-b278-3a65c81f610e: Address # Address
     3754ce62-7e5c-46da-8738-2f15f70f00a4: 'Gallery Area' # Gallery Area
+    3889bdbd-d5c9-4fc7-a313-92a2cd9d6818: 'Share Variant' # Share Variant
     4221ca8a-a3fc-49d7-91e1-f00f21e8ecd3: 'Staff Contact' # Staff Contact
     4229ebb8-c1ab-45b0-b1ef-3f7d6fc43bab: 'Custom Homepage Hero' # Custom Homepage Hero
     4294fb85-8029-437c-a2e5-76bcd1a79ef1: Asset # Asset
