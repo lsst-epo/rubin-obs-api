@@ -6,6 +6,7 @@ instructions: 'Defines the background color of the callout.'
 name: 'Background Color'
 searchable: true
 settings:
+  columnType: string
   options:
     -
       __assoc__:
@@ -36,7 +37,7 @@ settings:
           - Black
         -
           - value
-          - black
+          - color-background-page-invert
         -
           - default
           - ''
