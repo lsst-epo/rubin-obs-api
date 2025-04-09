@@ -1,0 +1,35 @@
+columnSuffix: dyysghfm
+contentColumnType: string(5)
+fieldGroup: 99f4a28a-48c3-49ca-bb4a-7acbb49fde30 # Pages
+handle: shareVariant
+instructions: null
+name: 'Share Variant'
+searchable: false
+settings:
+  columnType: null
+  options:
+    -
+      __assoc__:
+        -
+          - label
+          - Small
+        -
+          - value
+          - small
+        -
+          - default
+          - '1'
+    -
+      __assoc__:
+        -
+          - label
+          - Large
+        -
+          - value
+          - large
+        -
+          - default
+          - ''
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Dropdown
