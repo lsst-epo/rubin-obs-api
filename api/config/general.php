@@ -75,7 +75,7 @@ return [
         // requests (eg, the contact form), so we went with this 
         // approach.
         'allowedGraphqlOrigins' => false,
-        'enableGraphqlCaching' => false,
+        'enableGraphqlCaching' => App::env('ENABLE_GQL_CACHING'),
     ],
 
     // Dev environment settings
