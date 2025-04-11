@@ -1,0 +1,16 @@
+columnSuffix: null
+contentColumnType: string
+fieldGroup: 9940892d-32f4-4399-acac-ab559ce1c82b # Common
+handle: linkedImageList
+instructions: 'A list of links, each with an accompanying image'
+name: 'Linked Image List'
+searchable: false
+settings:
+  contentTable: '{{%matrixcontent_linkedimagelist}}'
+  maxBlocks: 4
+  minBlocks: 1
+  propagationKeyFormat: null
+  propagationMethod: all
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix

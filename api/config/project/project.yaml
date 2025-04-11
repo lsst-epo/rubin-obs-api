@@ -1,4 +1,4 @@
-dateModified: 1744225011
+dateModified: 1744305734
 email:
   fromEmail: $EMAIL_FROM_ADDRESS
   fromName: $EMAIL_SENDER_NAME
@@ -99,6 +99,7 @@ meta:
     02a18f72-78b7-4215-9703-ad2b98202547: Publication # Publication
     2c2e1c6a-eb4d-44f1-9a43-8d79b326f354: ES # ES
     2c121c9e-10e1-4a79-a17f-a6c7ef7965f3: 'Table Group' # Table Group
+    2ffb7428-f960-45f9-b212-ad26b159ae3f: Link # Link
     3a3af2ab-b037-455a-ba95-bc3be89efdb0: 'Event Filters' # Event Filters
     3a8b9653-cdd3-46ce-84b2-d73b5dc4de63: Galleries # Galleries
     3b3c8424-8556-438d-97b9-8efb277417a6: Timezone # Timezone
@@ -124,6 +125,7 @@ meta:
     5d162b5e-8723-4b74-a229-f8a52bd30b1c: 'Staff Tags' # Staff Tags
     05eead62-7bf9-43e4-a7e8-bcd8f9f77323: Hero # Hero
     5f0325e0-cdba-4181-a634-bd8ebf451723: 'Entry - Page' # Entry - Page
+    5fbdc1b8-2968-429d-8f22-e3a9f61e4204: 'Linked Image List' # Linked Image List
     6acd6e24-26c9-4e55-a35b-c29cd36a7a3c: Events # Events
     6e888efc-ab7a-4c15-9ec5-5954b52984ca: 'Show Sibling Nav' # Show Sibling Nav
     6ed14c66-fec8-4bca-8f29-02cbd1620d12: Teaser # Teaser
@@ -201,6 +203,7 @@ meta:
     92a53b2d-879a-4353-a009-d926ead4a2db: 'Logo - Small' # Logo - Small
     95b97a67-eccb-4910-b0e8-77f5860058b4: Link # Link
     99f4a28a-48c3-49ca-bb4a-7acbb49fde30: Pages # Pages
+    119c4fba-fa5a-4ff3-b30e-695dfb510298: 'Linked Image List' # Linked Image List
     125d214d-7831-4150-b5bc-1a100bc3149d: School # School
     229f2975-93d3-4c6a-9996-dfa1de3004ef: 'Search Results' # Search Results
     380c1cbe-884e-421b-9e31-1f0dfc81e15f: 'Cell Width' # Cell Width
@@ -235,6 +238,7 @@ meta:
     4305f2e2-40b8-47b2-8b62-135b8b57be7f: Events # Events
     4404d713-d76b-4bb1-a9aa-bd88253b11d3: 'Post Type' # Post Type
     4729ad5e-485e-4f98-995d-79fa5254cd42: 'News Post' # News Post
+    4785e5ad-d948-4c3d-a89c-5e006b4c88b2: 'Linked Image' # Linked Image
     5075e912-4aa1-4ce4-96b2-8868358b51e3: Header # Header
     5205b271-dfd8-4938-84bb-61d9d6ab4889: 'End Time' # End Time
     5548b745-642b-4b15-8f17-4ce7457689a8: Header # Header
@@ -293,6 +297,7 @@ meta:
     a50f3dd9-3fa6-4c3d-ad02-39d184c9157a: RA # RA
     a71f443d-14a3-402b-90ba-524dcce806d2: 'External URL' # External URL
     a77c49d2-2441-459e-bfea-63e571d25a12: Slideshow # Slideshow
+    a130d930-17c1-4bb0-ab02-5b357fbc717c: Image # Image
     a7447c0c-7c32-465a-b00b-36ee15bd028a: 'Pull Quote' # Pull Quote
     a8908d20-3e88-452c-86ec-f98a0017bce2: 'Press Release ID' # Press Release ID
     a61323db-26ac-4898-873c-a6c6b66fcb86: Header # Header

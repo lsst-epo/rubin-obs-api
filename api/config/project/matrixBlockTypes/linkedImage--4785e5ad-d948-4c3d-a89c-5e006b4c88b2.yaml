@@ -1,0 +1,118 @@
+field: 5fbdc1b8-2968-429d-8f22-e3a9f61e4204 # Linked Image List
+fieldLayouts:
+  a818dd60-98e7-4db5-8c2a-904dd9edfd4a:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 2ffb7428-f960-45f9-b212-ad26b159ae3f # Link
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: ac8659f3-0664-4983-8456-4da8f93ec2e9
+            userCondition: null
+            warning: null
+            width: 75
+          -
+            elementCondition: null
+            fieldUid: a130d930-17c1-4bb0-ab02-5b357fbc717c # Image
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 7c6db61d-8e7d-4777-99e4-1a0f2c2355ed
+            userCondition: null
+            warning: null
+            width: 25
+        name: Content
+        uid: dce4b388-25dd-4639-bce4-6f4021262c90
+        userCondition: null
+fields:
+  2ffb7428-f960-45f9-b212-ad26b159ae3f: # Link
+    columnSuffix: null
+    contentColumnType: string
+    fieldGroup: null
+    handle: imageLink
+    instructions: null
+    name: Link
+    searchable: false
+    settings:
+      allowCustomText: true
+      allowTarget: true
+      autoNoReferrer: true
+      customTextMaxLength: 0
+      customTextRequired: false
+      defaultLinkName: entry
+      defaultText: ''
+      enableAllLinkTypes: false
+      enableAriaLabel: false
+      enableElementCache: false
+      enableTitle: false
+      typeSettings:
+        asset:
+          allowCrossSiteLink: false
+          allowCustomQuery: false
+          enabled: false
+          sources: '*'
+        category:
+          allowCrossSiteLink: false
+          allowCustomQuery: false
+          enabled: false
+          sources: '*'
+        custom:
+          allowAliases: false
+          disableValidation: false
+          enabled: false
+        email:
+          allowAliases: false
+          disableValidation: false
+          enabled: true
+        entry:
+          allowCrossSiteLink: false
+          allowCustomQuery: false
+          enabled: true
+          sources: '*'
+        site:
+          enabled: false
+          sites: '*'
+        tel:
+          allowAliases: false
+          disableValidation: false
+          enabled: true
+        url:
+          allowAliases: false
+          disableValidation: false
+          enabled: true
+        user:
+          allowCrossSiteLink: false
+          allowCustomQuery: false
+          enabled: false
+          sources: '*'
+    translationKeyFormat: null
+    translationMethod: site
+    type: lenz\linkfield\fields\LinkField
+  a130d930-17c1-4bb0-ab02-5b357fbc717c: # Image
+    columnSuffix: nkjrkjim
+    contentColumnType:
+      - 'cantoId:string'
+      - 'cantoAlbumId:string'
+      - 'cantoAssetData:json'
+      - 'cantoAlbumData:json'
+    fieldGroup: null
+    handle: image
+    instructions: null
+    name: Image
+    searchable: false
+    settings:
+      cantoAssetPickerType: singleImagePicker
+    translationKeyFormat: null
+    translationMethod: site
+    type: lsst\cantodamassets\fields\CantoDamAsset
+handle: linkedImage
+name: 'Linked Image'
+sortOrder: 1
