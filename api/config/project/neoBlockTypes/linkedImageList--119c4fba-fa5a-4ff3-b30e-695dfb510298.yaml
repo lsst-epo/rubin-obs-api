@@ -1,0 +1,64 @@
+childBlocks: null
+conditions: null
+description: ''
+enabled: true
+field: 72e5075a-9b06-4674-b040-615f4a6f7b70 # Content Blocks - Pages
+fieldLayouts:
+  8d3f021e-103e-4d19-899b-550c34158bfc:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: b0ce3829-20c1-44ef-a7c7-499800645afc # Header
+            instructions: 'If the header or description is set, they will display above the linked images'
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 1861e52e-8076-4c30-be25-2100ba8359af
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: cd801712-4ba3-4a9c-8fab-0d3e2a58b4eb # Description
+            instructions: 'If a description is set, it will be shown beneath the header in an overlay'
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 2ade4e20-ccbc-445b-a5c2-bc7f857db2b1
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 5fbdc1b8-2968-429d-8f22-e3a9f61e4204 # Linked Image List
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: a6dfc375-cf35-4551-a215-293dd37cc86b
+            userCondition: null
+            warning: null
+            width: 100
+        name: Configuration
+        uid: cc87129f-9e3c-41ad-b1fd-2d557cbd135b
+        userCondition: null
+group: null
+groupChildBlockTypes: true
+handle: linkedImageList
+icon: null
+iconFilename: ''
+ignorePermissions: true
+maxBlocks: 0
+maxChildBlocks: 0
+maxSiblingBlocks: 0
+minBlocks: 0
+minChildBlocks: 0
+minSiblingBlocks: 0
+name: 'Linked Image List'
+topLevel: true
