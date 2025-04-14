@@ -1,4 +1,4 @@
-dateModified: 1744305734
+dateModified: 1744653621
 email:
   fromEmail: $EMAIL_FROM_ADDRESS
   fromName: $EMAIL_SENDER_NAME
@@ -286,6 +286,7 @@ meta:
     74319755-d24f-4991-a84a-0c1c031cb21e: 'Asset Link' # Asset Link
     78410791-6edc-46c9-a17b-4358dcd545ec: 'Staff Profiles' # Staff Profiles
     a0a0fcfb-cbb1-4e1b-a600-91f1c57faf41: CTA # CTA
+    a00d20a2-8f20-4ef7-8c09-69988774294f: 'Linked Image List Variant' # Linked Image List Variant
     a1b7cb34-4346-4894-9f4d-29e0b371d8f2: 'Key Numbers Grid Item' # Key Numbers Grid Item
     a1e725cc-a026-42a1-b75f-3f577f0369bb: Text # Text
     a5b8e4fe-87da-48fc-8156-2a2a973b29e5: URL # URL

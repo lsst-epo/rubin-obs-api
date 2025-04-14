@@ -1,0 +1,35 @@
+columnSuffix: oumxtyft
+contentColumnType: string(8)
+fieldGroup: 99f4a28a-48c3-49ca-bb4a-7acbb49fde30 # Pages
+handle: linkedImageListVariant
+instructions: null
+name: 'Linked Image List Variant'
+searchable: false
+settings:
+  columnType: null
+  options:
+    -
+      __assoc__:
+        -
+          - label
+          - Flexible
+        -
+          - value
+          - flexible
+        -
+          - default
+          - '1'
+    -
+      __assoc__:
+        -
+          - label
+          - Static
+        -
+          - value
+          - static
+        -
+          - default
+          - ''
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\RadioButtons
