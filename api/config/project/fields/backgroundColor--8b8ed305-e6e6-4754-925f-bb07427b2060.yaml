@@ -1,8 +1,8 @@
 columnSuffix: null
 contentColumnType: string
-fieldGroup: df8c8d8a-c7d1-45bf-b551-ef790a5b59ad # Callouts
+fieldGroup: 9940892d-32f4-4399-acac-ab559ce1c82b # Common
 handle: backgroundColor
-instructions: 'Defines the background color of the callout.'
+instructions: 'Defines the background color of the block.'
 name: 'Background Color'
 searchable: true
 settings:
@@ -82,6 +82,17 @@ settings:
         -
           - value
           - orange20
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - None
+        -
+          - value
+          - transparent
         -
           - default
           - ''
