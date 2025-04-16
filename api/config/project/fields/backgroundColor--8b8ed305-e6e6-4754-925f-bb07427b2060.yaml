@@ -1,6 +1,6 @@
 columnSuffix: null
 contentColumnType: string
-fieldGroup: 9940892d-32f4-4399-acac-ab559ce1c82b # Common
+fieldGroup: df8c8d8a-c7d1-45bf-b551-ef790a5b59ad # Callouts
 handle: backgroundColor
 instructions: 'Defines the background color of the block.'
 name: 'Background Color'
