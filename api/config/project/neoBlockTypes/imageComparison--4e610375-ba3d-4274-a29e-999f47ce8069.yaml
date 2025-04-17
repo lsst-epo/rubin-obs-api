@@ -33,6 +33,12 @@ fieldLayouts:
             userCondition: null
             warning: null
             width: 100
+        name: Configuration
+        uid: 39a805f4-88fb-4960-80cb-402877f0aa46
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
           -
             elementCondition: null
             fieldUid: 8b8ed305-e6e6-4754-925f-bb07427b2060 # Background Color
@@ -45,8 +51,8 @@ fieldLayouts:
             userCondition: null
             warning: null
             width: 100
-        name: Configuration
-        uid: 39a805f4-88fb-4960-80cb-402877f0aa46
+        name: Style
+        uid: 466be18e-65c4-49b8-9795-76e8877b1b06
         userCondition: null
 group: null
 groupChildBlockTypes: true

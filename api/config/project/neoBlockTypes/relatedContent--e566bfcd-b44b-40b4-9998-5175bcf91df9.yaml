@@ -49,6 +49,24 @@ fieldLayouts:
         name: Content
         uid: 5ffeb20f-91cc-4bc9-a17e-2137eb266821
         userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 8b8ed305-e6e6-4754-925f-bb07427b2060 # Background Color
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 9a1770d2-5ca2-4aad-bc1b-0f37a83953a9
+            userCondition: null
+            warning: null
+            width: 100
+        name: Style
+        uid: 03e69451-7fdd-484a-8237-a530525402f7
+        userCondition: null
 group: null
 groupChildBlockTypes: true
 handle: relatedContent

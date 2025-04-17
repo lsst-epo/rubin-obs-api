@@ -33,6 +33,12 @@ fieldLayouts:
             userCondition: null
             warning: null
             width: 100
+        name: Content
+        uid: 33f24b42-817c-4588-979c-20ebfe22bbe5
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
           -
             elementCondition: null
             fieldUid: dc44e79d-b126-413d-bc02-0776d6ace2d1 # Float Direction
@@ -45,8 +51,20 @@ fieldLayouts:
             userCondition: null
             warning: null
             width: 100
-        name: 'Tab 1'
-        uid: 33f24b42-817c-4588-979c-20ebfe22bbe5
+          -
+            elementCondition: null
+            fieldUid: 8b8ed305-e6e6-4754-925f-bb07427b2060 # Background Color
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: a47a5d16-498e-4492-ac02-32f59a004720
+            userCondition: null
+            warning: null
+            width: 100
+        name: Style
+        uid: b8ffd272-05c2-40c0-ac8a-f5a01fb54b9a
         userCondition: null
 group: null
 groupChildBlockTypes: true
