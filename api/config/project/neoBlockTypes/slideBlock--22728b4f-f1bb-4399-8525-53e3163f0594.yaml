@@ -61,6 +61,24 @@ fieldLayouts:
         name: Content
         uid: 1d7d37fe-1529-4e78-8264-3ba6aff544fe
         userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 8b8ed305-e6e6-4754-925f-bb07427b2060 # Background Color
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 1ef65424-21c5-4c17-a79f-5ee4bd8cb4fb
+            userCondition: null
+            warning: null
+            width: 100
+        name: Style
+        uid: deab4288-b357-4cdc-93fa-ceb7ca5a2fee
+        userCondition: null
 group: null
 groupChildBlockTypes: true
 handle: slideBlock

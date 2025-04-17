@@ -18,7 +18,7 @@ settings:
           - neutral10
         -
           - default
-          - '1'
+          - ''
     -
       __assoc__:
         -
@@ -95,7 +95,7 @@ settings:
           - transparent
         -
           - default
-          - ''
+          - '1'
 translationKeyFormat: null
 translationMethod: none
 type: craft\fields\RadioButtons
