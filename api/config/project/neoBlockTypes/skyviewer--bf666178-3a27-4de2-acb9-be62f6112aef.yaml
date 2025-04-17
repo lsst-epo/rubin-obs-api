@@ -64,6 +64,24 @@ fieldLayouts:
             userCondition: null
           -
             elementCondition: null
+            fieldUid: 61b9d842-7365-4bbf-883c-1b6433dc15f4 # Caption - rich text
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: bd194768-9724-4e98-bcbc-3043339fbe3a
+            userCondition: null
+            warning: null
+            width: 100
+        name: Configuration
+        uid: 264d6161-94c6-4ba9-9a42-a01f13e04c99
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
             fieldUid: ef5793ab-b4f7-45c7-be68-338184b3d385 # Full Width
             instructions: null
             label: null
@@ -95,20 +113,8 @@ fieldLayouts:
             userCondition: null
             warning: null
             width: 50
-          -
-            elementCondition: null
-            fieldUid: 61b9d842-7365-4bbf-883c-1b6433dc15f4 # Caption - rich text
-            instructions: null
-            label: null
-            required: false
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            uid: bd194768-9724-4e98-bcbc-3043339fbe3a
-            userCondition: null
-            warning: null
-            width: 100
-        name: Configuration
-        uid: 264d6161-94c6-4ba9-9a42-a01f13e04c99
+        name: Style
+        uid: 4e43c71b-7d3d-4144-bce3-ae20170cbcfc
         userCondition: null
 group: null
 groupChildBlockTypes: true

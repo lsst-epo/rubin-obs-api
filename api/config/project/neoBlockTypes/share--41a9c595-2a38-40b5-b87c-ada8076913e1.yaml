@@ -44,6 +44,12 @@ fieldLayouts:
             userCondition: null
             warning: null
             width: 100
+        name: Content
+        uid: 5e423de1-086c-4641-887a-f7deb6bdf8e2
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
           -
             elementCondition:
               class: benf\neo\elements\conditions\BlockCondition
@@ -67,8 +73,8 @@ fieldLayouts:
             userCondition: null
             warning: null
             width: 100
-        name: Configuration
-        uid: 5e423de1-086c-4641-887a-f7deb6bdf8e2
+        name: Style
+        uid: f4c6b14d-8635-4fd4-b312-0555b0ddbd53
         userCondition: null
 group: null
 groupChildBlockTypes: true
