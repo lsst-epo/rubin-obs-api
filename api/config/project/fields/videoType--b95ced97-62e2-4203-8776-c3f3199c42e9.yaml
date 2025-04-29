@@ -1,0 +1,14 @@
+columnSuffix: kzmiifzx
+contentColumnType: boolean
+fieldGroup: 99f4a28a-48c3-49ca-bb4a-7acbb49fde30 # Pages
+handle: videoType
+instructions: null
+name: 'Video Type'
+searchable: false
+settings:
+  default: false
+  offLabel: External
+  onLabel: Canto
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Lightswitch

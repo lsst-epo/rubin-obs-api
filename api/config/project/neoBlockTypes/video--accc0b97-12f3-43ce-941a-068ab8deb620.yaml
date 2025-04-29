@@ -11,6 +11,27 @@ fieldLayouts:
         elements:
           -
             elementCondition: null
+            fieldUid: b95ced97-62e2-4203-8776-c3f3199c42e9 # Video Type
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 9e358f9a-069e-4c57-af01-f0351e97f6da
+            userCondition: null
+            warning: null
+            width: 50
+          -
+            elementCondition:
+              class: benf\neo\elements\conditions\BlockCondition
+              conditionRules:
+                -
+                  class: craft\fields\conditions\LightswitchFieldConditionRule
+                  fieldUid: b95ced97-62e2-4203-8776-c3f3199c42e9 # Video Type
+                  uid: 6ac06207-4dbc-48d2-bf50-fd2e1716d5cc
+                  value: false
+              elementType: benf\neo\elements\Block
+              fieldContext: global
             fieldUid: 1ba9911b-93b6-43f2-b9be-ba99c3461865 # External Url (Translatable)
             instructions: null
             label: 'Video URL'
@@ -20,7 +41,28 @@ fieldLayouts:
             uid: c5e40db1-2d8b-4d15-9d81-ae5403f59f6a
             userCondition: null
             warning: null
-            width: 100
+            width: 50
+          -
+            elementCondition:
+              class: benf\neo\elements\conditions\BlockCondition
+              conditionRules:
+                -
+                  class: craft\fields\conditions\LightswitchFieldConditionRule
+                  fieldUid: b95ced97-62e2-4203-8776-c3f3199c42e9 # Video Type
+                  uid: 7b0ebd3f-2524-4238-af92-b5acfddff3e5
+                  value: true
+              elementType: benf\neo\elements\Block
+              fieldContext: global
+            fieldUid: f33e3817-e293-4f55-bbd7-bff898cb45fc # Responsive Assets
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 3b9f0d7d-37b3-4927-8080-2d4cd9fd2559
+            userCondition: null
+            warning: null
+            width: 50
           -
             elementCondition: null
             fieldUid: 10118ebf-e3bf-4b1b-bbb8-4b57ab3753c8 # Caption
@@ -39,6 +81,28 @@ fieldLayouts:
       -
         elementCondition: null
         elements:
+          -
+            elementCondition:
+              class: benf\neo\elements\conditions\BlockCondition
+              conditionRules:
+                -
+                  class: craft\fields\conditions\TextFieldConditionRule
+                  fieldUid: 1ba9911b-93b6-43f2-b9be-ba99c3461865 # External Url (Translatable)
+                  operator: empty
+                  uid: e1dde6af-5cbf-4ab6-84ba-2651ab2cb455
+                  value: ''
+              elementType: benf\neo\elements\Block
+              fieldContext: global
+            fieldUid: 5a6ebda4-d9d0-46d5-9a4b-8d3be2d5de0f # Fullscreen Video
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 39d8ba6c-d338-465d-bfb0-8d7416e790b2
+            userCondition: null
+            warning: null
+            width: 100
           -
             elementCondition: null
             fieldUid: 8b8ed305-e6e6-4754-925f-bb07427b2060 # Background Color

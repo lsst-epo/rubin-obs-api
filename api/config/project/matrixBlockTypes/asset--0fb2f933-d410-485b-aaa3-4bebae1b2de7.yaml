@@ -1,0 +1,91 @@
+field: f33e3817-e293-4f55-bbd7-bff898cb45fc # Responsive Assets
+fieldLayouts:
+  17a5dc6c-cebf-4dc2-86d4-3f6c2144b9bc:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: b7460529-a885-4b47-b9b8-3e8a39080621 # Asset
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 45266841-2f67-4716-8135-dc624c3f74df
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 1dc4cfbc-2ae4-4e82-b5a8-26d4da1a1540 # Orientation
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 5b93f276-18d2-4c3f-96a1-dda3959bc9bc
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: adf24ef7-d12f-443c-9ae8-33339a10b3da
+        userCondition: null
+fields:
+  1dc4cfbc-2ae4-4e82-b5a8-26d4da1a1540: # Orientation
+    columnSuffix: yiidflfa
+    contentColumnType: string(9)
+    fieldGroup: null
+    handle: orientation
+    instructions: null
+    name: Orientation
+    searchable: false
+    settings:
+      columnType: null
+      options:
+        -
+          __assoc__:
+            -
+              - label
+              - Landscape
+            -
+              - value
+              - landscape
+            -
+              - default
+              - '1'
+        -
+          __assoc__:
+            -
+              - label
+              - Portrait
+            -
+              - value
+              - portrait
+            -
+              - default
+              - ''
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\RadioButtons
+  b7460529-a885-4b47-b9b8-3e8a39080621: # Asset
+    columnSuffix: ejqkqaic
+    contentColumnType:
+      - 'cantoId:string'
+      - 'cantoAlbumId:string'
+      - 'cantoAssetData:json'
+      - 'cantoAlbumData:json'
+    fieldGroup: null
+    handle: asset
+    instructions: null
+    name: Asset
+    searchable: false
+    settings:
+      cantoAssetPickerType: singleImagePicker
+    translationKeyFormat: null
+    translationMethod: site
+    type: lsst\cantodamassets\fields\CantoDamAsset
+handle: asset
+name: Asset
+sortOrder: 1
