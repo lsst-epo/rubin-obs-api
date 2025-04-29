@@ -1,4 +1,4 @@
-dateModified: 1744912026
+dateModified: 1745331656
 email:
   fromEmail: $EMAIL_FROM_ADDRESS
   fromName: $EMAIL_SENDER_NAME
@@ -83,6 +83,7 @@ meta:
     0e0c24d9-900c-4e44-9087-756675a01096: Game # Game
     00f1f9f6-c710-431d-bf34-22e3a62d5172: 'Overlap Hero' # Overlap Hero
     0f48338c-1c16-4600-9230-68bacb7c21e3: Text # Text
+    0fb2f933-d410-485b-aaa3-4bebae1b2de7: Asset # Asset
     1a2ba41a-3949-4982-9cb3-f8b03863bcfd: 'Footer Content' # Footer Content
     1a35bfab-6a39-4c03-b273-2d5e3151c335: 'Rubin Telescope Education and Public Outreach' # Rubin Telescope Education and Public Outreach
     1ac7decf-dc96-4769-b73f-e147f00798fd: 'Publications List' # Publications List
@@ -91,6 +92,7 @@ meta:
     1c0e3777-36ee-449d-948e-01f6fbde3ee6: Sites # Sites
     1c065033-f41d-4566-9863-d34a4bf24836: 'Table Cell' # Table Cell
     1d7324d5-d322-4b06-9eb5-52a6c2f856f3: Location # Location
+    1dc4cfbc-2ae4-4e82-b5a8-26d4da1a1540: Orientation # Orientation
     1e0c12ac-5dd7-4ed2-8cda-3801130b11e1: 'Canto Asset' # Canto Asset
     1ed94e58-7078-46fb-b590-0692fbdf9c20: 'Common Name' # Common Name
     1ed98018-4e61-4580-bee8-961ceab2bb2c: 'Staff Item' # Staff Item
@@ -119,6 +121,7 @@ meta:
     4f027acf-6672-4fd7-a178-2366dfea422a: 'Complex Table' # Complex Table
     4fe339ec-7579-46f4-a362-df6ee8de4b3c: 'Public Schema' # Public Schema
     4ffeb743-f02d-42af-8656-a6f9c1363e79: 'Glossary Terms' # Glossary Terms
+    5a6ebda4-d9d0-46d5-9a4b-8d3be2d5de0f: 'Fullscreen Video' # Fullscreen Video
     5b0d5d69-4003-4a56-8940-b9cbc2d691e8: Twitter # Twitter
     5ca18cb3-5a7b-4764-9e18-fc24b4cecc14: Flag # Flag
     5ca378e1-cfb5-4db9-ad3c-1d6ef36536b7: 'Supporters’ Logos' # Supporters’ Logos
@@ -319,10 +322,12 @@ meta:
     b7f0b94c-62d8-4339-b04e-2c6be77ec1cd: 'Nav Item' # Nav Item
     b55b0827-5ceb-45e1-bd3c-a35dc4638886: 'Investigation Landing Page' # Investigation Landing Page
     b93cb5a6-f862-4912-9d41-4dcb4fd9e105: 'Staff Profiles' # Staff Profiles
+    b95ced97-62e2-4203-8776-c3f3199c42e9: 'Video Type' # Video Type
     b144a695-58be-4586-81cf-0ae9030280ce: Bio # Bio
     b882fa04-8a43-4715-a55d-b3344db891bf: 'Table Title' # Table Title
     b5838ae4-3163-4eaf-baf1-cc575176352e: Callout # Callout
     b4139639-fe83-4dd3-acf6-581a798190b5: 'Slideshow Items' # Slideshow Items
+    b7460529-a885-4b47-b9b8-3e8a39080621: Asset # Asset
     bb77d190-487e-45c5-a1d2-0208510a7d88: Events # Events
     bbf936fb-1787-437b-8ebd-a6e79409896e: 'Glossary Term' # Glossary Term
     bc12b31b-5681-4d9c-bbc1-80042dca1a82: YouTube # YouTube
@@ -398,6 +403,7 @@ meta:
     f0603433-ef74-4883-8aec-03e31f8dc34e: 'Complex Table' # Complex Table
     f1b8c943-bc12-4001-9e2a-d531379f1aaf: Pages # Pages
     f8ed5c4f-7af4-40f7-939d-b7caf9b4b501: 'News Item' # News Item
+    f33e3817-e293-4f55-bbd7-bff898cb45fc: 'Responsive Assets' # Responsive Assets
     f43fc0f3-e225-4501-b975-0fd061f0ff5b: dec # dec
     f69fbef5-6f67-486f-9e62-7be537bea803: 'Contact Form Topics' # Contact Form Topics
     f98e0a8a-8a90-4402-9cd5-3cfddd38bff3: Link # Link
