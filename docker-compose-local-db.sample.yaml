@@ -10,6 +10,7 @@ services:
       - postgres
     volumes:
       - ./api:/var/www/html
+      - ./config/docker-php-ext-xdebug.ini:/usr/local/etc/php/conf.d/docker-php-ext-xdebug.ini
     environment:
       CRAFT_ENVIRONMENT: dev
       SECURITY_KEY: <CRAFT SECURITY KEY>
