@@ -16,6 +16,6 @@ There are many ways to set this up, but here we just describe one:
   - or choose any of the other options XDebug provides in the toolbar.
 
 ## Additional References
-If you want to further customize XDebug to your needs, here are :
+If you want to further customize XDebug to your needs, here are:
 - [all XDebug 3 settings](https://xdebug.org/docs/all_settings).
 - [all PHP Debug settings](https://marketplace.visualstudio.com/items/?itemName=xdebug.php-debug&ssr=false#user-content-supported-launch.json-settings%3A)
