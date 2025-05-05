@@ -20,7 +20,19 @@ fieldLayouts:
             uid: a59bf8ea-2084-48f0-8357-5faacc3d5ad4
             userCondition: null
             warning: null
-            width: 100
+            width: 50
+          -
+            elementCondition: null
+            fieldUid: 4b6329ee-1231-466b-94e6-24b8f46ea9d6 # Single Canto Asset
+            instructions: 'Will take priority if set'
+            label: 'Canto Asset'
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: b7f53487-da86-4839-91f9-607fd27f1362
+            userCondition: null
+            warning: null
+            width: 50
           -
             elementCondition: null
             fieldUid: 10118ebf-e3bf-4b1b-bbb8-4b57ab3753c8 # Caption
