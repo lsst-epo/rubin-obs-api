@@ -20,7 +20,19 @@ fieldLayouts:
             uid: 8823bcaa-7bf3-4b50-a18e-06c826f7c38d
             userCondition: null
             warning: null
-            width: 100
+            width: 50
+          -
+            elementCondition: null
+            fieldUid: 4b6329ee-1231-466b-94e6-24b8f46ea9d6 # Single Canto Asset
+            instructions: 'Will take priority if set'
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 64b8f591-d186-4dae-bd87-361dd3dc6bbf
+            userCondition: null
+            warning: null
+            width: 50
           -
             elementCondition: null
             fieldUid: 10118ebf-e3bf-4b1b-bbb8-4b57ab3753c8 # Caption
@@ -33,6 +45,12 @@ fieldLayouts:
             userCondition: null
             warning: null
             width: 100
+        name: 'Tab 1'
+        uid: 9f002ad7-f1f4-4a23-9977-99036ffa5bf0
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
           -
             elementCondition: null
             fieldUid: dc44e79d-b126-413d-bc02-0776d6ace2d1 # Float Direction
@@ -45,8 +63,8 @@ fieldLayouts:
             userCondition: null
             warning: null
             width: 100
-        name: 'Tab 1'
-        uid: 9f002ad7-f1f4-4a23-9977-99036ffa5bf0
+        name: Style
+        uid: 808ccbbf-b904-464e-b452-382e82bf5451
         userCondition: null
 group: null
 groupChildBlockTypes: true
