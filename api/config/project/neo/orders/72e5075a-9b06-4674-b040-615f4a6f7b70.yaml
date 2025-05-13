@@ -34,6 +34,8 @@
 - 'blockType:9d7c57a1-0518-46c5-9c44-0fe5757e5b88' # People Block
 - 'blockType:fa7678ee-7b00-4ff1-ae99-464c68f65238' # Key Numbers Grid
 - 'blockType:a1b7cb34-4346-4894-9f4d-29e0b371d8f2' # Key Numbers Grid Item
+- 'blockTypeGroup:625ce07d-ea32-46f1-bd9a-2f4570d773f2' # First Look
+- 'blockType:9c9115a9-2f23-4baf-be6b-f172e24884ee' # First Look Widgets
 - 'blockType:bf666178-3a27-4de2-acb9-be62f6112aef' # Skyviewer
 - 'blockType:119c4fba-fa5a-4ff3-b30e-695dfb510298' # Linked Image List
 - 'blockType:4e610375-ba3d-4274-a29e-999f47ce8069' # Image Comparison
