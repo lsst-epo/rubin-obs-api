@@ -1,4 +1,4 @@
-dateModified: 1745331656
+dateModified: 1747148456
 email:
   fromEmail: $EMAIL_FROM_ADDRESS
   fromName: $EMAIL_SENDER_NAME
@@ -158,6 +158,7 @@ meta:
     9b45a4e3-4461-43d1-881a-ef72029ba2ad: Image # Image
     9c14ac7e-c466-4c2d-a2fd-e19a68fc706d: Teaser # Teaser
     9c34fc8b-8bc3-4f8a-bbc8-ea58a018719a: 'Custom Breadcrumb Sets' # Custom Breadcrumb Sets
+    9c9115a9-2f23-4baf-be6b-f172e24884ee: 'First Look Widgets' # First Look Widgets
     9d045432-a0fb-4fcd-8bca-3bc93b1f7056: 'Educator Pages' # Educator Pages
     9d7c57a1-0518-46c5-9c44-0fe5757e5b88: 'People Block' # People Block
     9f05163b-ea00-46ad-bed5-b3c6b5e5a365: Game # Game
@@ -218,7 +219,9 @@ meta:
     545ad3bb-62d3-448e-8a57-5ec434539d05: 'Use External Link' # Use External Link
     546e0c6d-dd32-4997-8487-cc4c2fcc9480: Investigations # Investigations
     572f9558-2330-400a-900d-d7f11a4b1e2b: Publications # Publications
+    598d9078-3aa7-4037-a973-f2990c160000: 'First Look Widget' # First Look Widget
     612eabbe-059a-4916-abcf-c82132da4cfc: Asset # Asset
+    625ce07d-ea32-46f1-bd9a-2f4570d773f2: 'First Look' # First Look
     635a4a93-f10b-4d3c-bd44-2ea1474ad4cb: 'Vertical Alignment' # Vertical Alignment
     644c6b87-ac0c-4cdf-88be-744a5ee684bb: Description # Description
     657b9edd-b6d3-4b7f-af89-36117c5d98a8: 'Rich Text Description' # Rich Text Description
@@ -246,6 +249,7 @@ meta:
     5075e912-4aa1-4ce4-96b2-8868358b51e3: Header # Header
     5205b271-dfd8-4938-84bb-61d9d6ab4889: 'End Time' # End Time
     5548b745-642b-4b15-8f17-4ce7457689a8: Header # Header
+    5577ac86-a21a-41a2-a735-78e7e979d6ee: Text # Text
     5884a9c8-b8b4-48b4-872e-ba06c7fd7bd9: Person # Person
     6509f949-86bc-4542-ab9f-9593ae7153be: Accordion # Accordion
     6863d4cb-1c9e-4d09-867f-92b87dd7bd81: News # News
@@ -260,10 +264,12 @@ meta:
     9655a59a-0418-465e-993c-3d1586d59ef9: iFrame # iFrame
     10118ebf-e3bf-4b1b-bbb8-4b57ab3753c8: Caption # Caption
     22728b4f-f1bb-4399-8525-53e3163f0594: 'Slide Block' # Slide Block
+    34830abd-0d5f-462c-97f6-52daf64016b0: Share # Share
     39558c70-8baf-4748-9f12-49e78a04eed5: Job # Job
     40914d25-1cae-448f-aeea-2d7d779d620d: People # People
     51322eaa-f9c8-4ade-a6e6-b877bbdc494e: 'Show Page in the Header Navigation' # Show Page in the Header Navigation
     0059967d-f567-4066-a676-02f7c932b843: 'Start Time' # Start Time
+    60404ae2-01a4-4c64-815a-74b15e56e895: 'Film reel' # Film reel
     83885be8-333d-42b1-964f-fd89666907ff: 'Embed Title' # Embed Title
     84116f7d-7a26-41d7-bd7f-79761f9b50a9: 'Close Date' # Close Date
     87362cd0-662a-4068-9482-5ff62fe472c4: State/Province # State/Province
@@ -359,6 +365,7 @@ meta:
     cee5c2f8-2801-42c2-a56c-4fe40c85b6f3: 'Site Information' # Site Information
     d0cb4533-5478-47d5-9473-dd6c3821cf7a: Slide # Slide
     d019727b-a6d5-43d9-a688-f10df985a87e: Link # Link
+    d03a15f4-ddab-4d3f-88e3-933e2e960cdb: Item # Item
     d2f34652-827a-42b2-9ed2-e7d400f07dcd: 'Focal Point Y' # Focal Point Y
     d7bdf364-6905-4919-b4b1-08f0010d7a08: 'Contact Info' # Contact Info
     d7fc5f39-2426-421b-bd0b-10aadae80ae3: 'Color Scheme' # Color Scheme

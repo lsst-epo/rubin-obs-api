@@ -4,37 +4,48 @@ description: ''
 enabled: true
 field: 72e5075a-9b06-4674-b040-615f4a6f7b70 # Content Blocks - Pages
 fieldLayouts:
-  d5a4024e-1463-4ba7-be06-b43e69d342a8:
+  1a0d755e-59de-4dad-babc-ed1e89b37403:
     tabs:
       -
         elementCondition: null
         elements:
           -
             elementCondition: null
-            fieldUid: f829968c-d876-46fb-90ca-c8758c0c2b61 # Multiple Images
-            instructions: 'Select two images for the comparison, additional images will be ignored.'
+            fieldUid: 598d9078-3aa7-4037-a973-f2990c160000 # First Look Widget
+            instructions: null
             label: null
             required: true
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 9b246018-d2ae-4c26-969f-4c2b3376b772
+            uid: 07c8f8d8-e66f-401c-be75-6cce871f2c4a
             userCondition: null
             warning: null
             width: 100
           -
-            elementCondition: null
-            fieldUid: 61b9d842-7365-4bbf-883c-1b6433dc15f4 # Caption - rich text
+            elementCondition:
+              class: benf\neo\elements\conditions\BlockCondition
+              conditionRules:
+                -
+                  class: craft\fields\conditions\OptionsFieldConditionRule
+                  fieldUid: 598d9078-3aa7-4037-a973-f2990c160000 # First Look Widget
+                  operator: in
+                  uid: 5c9d285a-8d4b-43da-8d48-9b8edb74fb70
+                  values:
+                    - filmReel
+              elementType: benf\neo\elements\Block
+              fieldContext: global
+            fieldUid: 60404ae2-01a4-4c64-815a-74b15e56e895 # Film reel
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 91bf5268-5a27-48c0-b741-be3e37e7a7d7
+            uid: 7c23190e-0fae-41db-93cf-0cb5d3706a7b
             userCondition: null
             warning: null
             width: 100
-        name: Configuration
-        uid: 39a805f4-88fb-4960-80cb-402877f0aa46
+        name: Content
+        uid: 987ec202-c5da-40b1-a2c7-40024fa5ea02
         userCondition: null
       -
         elementCondition: null
@@ -47,16 +58,16 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: bcd63d4b-2696-48a4-bd24-a78e63a7556c
+            uid: 6fb5f135-3571-4289-b2e3-5cc59d8f272a
             userCondition: null
             warning: null
             width: 100
         name: Style
-        uid: 466be18e-65c4-49b8-9795-76e8877b1b06
+        uid: e57b4aa8-2e16-4819-8fd2-3ae3803804d7
         userCondition: null
 group: 625ce07d-ea32-46f1-bd9a-2f4570d773f2 # First Look
 groupChildBlockTypes: true
-handle: imageComparison
+handle: firstLookWidgets
 icon: null
 iconFilename: ''
 ignorePermissions: true
@@ -66,5 +77,5 @@ maxSiblingBlocks: 0
 minBlocks: 0
 minChildBlocks: 0
 minSiblingBlocks: 0
-name: 'Image Comparison'
+name: 'First Look Widgets'
 topLevel: true

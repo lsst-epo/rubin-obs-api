@@ -1,0 +1,81 @@
+field: 60404ae2-01a4-4c64-815a-74b15e56e895 # Film reel
+fieldLayouts:
+  897a33b1-2d22-44a1-b17e-5464c72051fb:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 5577ac86-a21a-41a2-a735-78e7e979d6ee # Text
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: a04949e8-9c78-4a42-9cd9-2dcbd7ac5cf8
+            userCondition: null
+            warning: null
+            width: 75
+          -
+            elementCondition: null
+            fieldUid: 34830abd-0d5f-462c-97f6-52daf64016b0 # Share
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: a0036ec1-e0a4-4747-833b-d98af100170d
+            userCondition: null
+            warning: null
+            width: 25
+        name: Content
+        uid: d7151cf1-9325-47ea-824f-79f6dd77c9fe
+        userCondition: null
+fields:
+  5577ac86-a21a-41a2-a735-78e7e979d6ee: # Text
+    columnSuffix: unoskmzz
+    contentColumnType: text
+    fieldGroup: null
+    handle: text
+    instructions: null
+    name: Text
+    searchable: false
+    settings:
+      availableTransforms: ''
+      availableVolumes: '*'
+      columnType: text
+      configSelectionMode: choose
+      defaultTransform: ''
+      manualConfig: ''
+      purifierConfig: null
+      purifyHtml: true
+      redactorConfig: Basic.json
+      removeEmptyTags: false
+      removeInlineStyles: false
+      removeNbsp: false
+      showHtmlButtonForNonAdmins: false
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\redactor\Field
+  34830abd-0d5f-462c-97f6-52daf64016b0: # Share
+    columnSuffix: blvexsrv
+    contentColumnType: boolean
+    fieldGroup: null
+    handle: share
+    instructions: null
+    name: Share
+    searchable: false
+    settings:
+      default: false
+      offLabel: null
+      onLabel: null
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Lightswitch
+handle: item
+name: Item
+sortOrder: 1
