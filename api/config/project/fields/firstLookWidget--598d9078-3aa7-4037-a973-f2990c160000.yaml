@@ -1,0 +1,57 @@
+columnSuffix: egrqiqfh
+contentColumnType: string(19)
+fieldGroup: 9940892d-32f4-4399-acac-ab559ce1c82b # Common
+handle: firstLookWidget
+instructions: null
+name: 'First Look Widget'
+searchable: false
+settings:
+  columnType: null
+  options:
+    -
+      __assoc__:
+        -
+          - label
+          - 'Film reel'
+        -
+          - value
+          - filmReel
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - 'Image size comparison'
+        -
+          - value
+          - imageSizeComparison
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - Icons
+        -
+          - value
+          - icons
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - 'Color distance'
+        -
+          - value
+          - colorDistance
+        -
+          - default
+          - ''
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Dropdown

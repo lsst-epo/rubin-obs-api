@@ -82,7 +82,7 @@ fieldLayouts:
         name: Configuration
         uid: cc87129f-9e3c-41ad-b1fd-2d557cbd135b
         userCondition: null
-group: null
+group: 625ce07d-ea32-46f1-bd9a-2f4570d773f2 # First Look
 groupChildBlockTypes: true
 handle: linkedImageList
 icon: null
