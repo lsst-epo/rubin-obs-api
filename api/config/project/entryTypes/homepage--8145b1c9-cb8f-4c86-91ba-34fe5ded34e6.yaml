@@ -48,7 +48,7 @@ fieldLayouts:
             fieldUid: 05eead62-7bf9-43e4-a7e8-bcd8f9f77323 # Hero
             instructions: 'Default homepage hero (when no breaking news).'
             label: null
-            required: true
+            required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
             uid: e8acbcbe-f9ef-4ec1-a506-3991c2004953
