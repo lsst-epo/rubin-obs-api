@@ -1,4 +1,4 @@
-dateModified: 1747671257
+dateModified: 1747837145
 email:
   fromEmail: $EMAIL_FROM_ADDRESS
   fromName: $EMAIL_SENDER_NAME
@@ -332,6 +332,7 @@ meta:
     b144a695-58be-4586-81cf-0ae9030280ce: Bio # Bio
     b882fa04-8a43-4715-a55d-b3344db891bf: 'Table Title' # Table Title
     b5838ae4-3163-4eaf-baf1-cc575176352e: Callout # Callout
+    b82101e3-08b7-45ad-a2de-4f9fa011ca2a: 'Share Title' # Share Title
     b4139639-fe83-4dd3-acf6-581a798190b5: 'Slideshow Items' # Slideshow Items
     b7460529-a885-4b47-b9b8-3e8a39080621: Asset # Asset
     bb77d190-487e-45c5-a1d2-0208510a7d88: Events # Events
