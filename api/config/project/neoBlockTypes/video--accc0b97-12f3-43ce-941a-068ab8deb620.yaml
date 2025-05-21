@@ -104,7 +104,37 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            elementCondition: null
+            elementCondition:
+              class: benf\neo\elements\conditions\BlockCondition
+              conditionRules:
+                -
+                  class: craft\fields\conditions\LightswitchFieldConditionRule
+                  fieldUid: 5a6ebda4-d9d0-46d5-9a4b-8d3be2d5de0f # Fullscreen Video
+                  uid: 33579f84-42de-4a31-b162-0557ec06983f
+                  value: false
+              elementType: benf\neo\elements\Block
+              fieldContext: global
+            fieldUid: ef5793ab-b4f7-45c7-be68-338184b3d385 # Full Width
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 16a726a0-4801-47fc-9fd1-7b5355646c17
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition:
+              class: benf\neo\elements\conditions\BlockCondition
+              conditionRules:
+                -
+                  class: craft\fields\conditions\LightswitchFieldConditionRule
+                  fieldUid: 5a6ebda4-d9d0-46d5-9a4b-8d3be2d5de0f # Fullscreen Video
+                  uid: 76590dc4-b761-4ddf-a557-1d11ce1807e1
+                  value: false
+              elementType: benf\neo\elements\Block
+              fieldContext: global
             fieldUid: 8b8ed305-e6e6-4754-925f-bb07427b2060 # Background Color
             instructions: null
             label: null
