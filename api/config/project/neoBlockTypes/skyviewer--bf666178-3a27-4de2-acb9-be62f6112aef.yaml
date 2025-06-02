@@ -93,16 +93,7 @@ fieldLayouts:
             warning: null
             width: 50
           -
-            elementCondition:
-              class: benf\neo\elements\conditions\BlockCondition
-              conditionRules:
-                -
-                  class: craft\fields\conditions\LightswitchFieldConditionRule
-                  fieldUid: ef5793ab-b4f7-45c7-be68-338184b3d385 # Full Width
-                  uid: 09f387eb-621f-42b1-b567-894a2d1b80f6
-                  value: true
-              elementType: benf\neo\elements\Block
-              fieldContext: global
+            elementCondition: null
             fieldUid: 8b8ed305-e6e6-4754-925f-bb07427b2060 # Background Color
             instructions: 'Defines the background color of the content block'
             label: null
