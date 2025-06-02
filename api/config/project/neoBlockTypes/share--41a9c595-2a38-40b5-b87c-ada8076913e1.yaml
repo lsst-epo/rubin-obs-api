@@ -22,18 +22,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            elementCondition:
-              class: benf\neo\elements\conditions\BlockCondition
-              conditionRules:
-                -
-                  class: craft\fields\conditions\OptionsFieldConditionRule
-                  fieldUid: 3889bdbd-d5c9-4fc7-a313-92a2cd9d6818 # Share Variant
-                  operator: in
-                  uid: 174810af-f7db-4427-af46-764bdd69283c
-                  values:
-                    - large
-              elementType: benf\neo\elements\Block
-              fieldContext: global
+            elementCondition: null
             fieldUid: b82101e3-08b7-45ad-a2de-4f9fa011ca2a # Share Title
             instructions: null
             label: null
@@ -74,18 +63,7 @@ fieldLayouts:
         elementCondition: null
         elements:
           -
-            elementCondition:
-              class: benf\neo\elements\conditions\BlockCondition
-              conditionRules:
-                -
-                  class: craft\fields\conditions\OptionsFieldConditionRule
-                  fieldUid: 3889bdbd-d5c9-4fc7-a313-92a2cd9d6818 # Share Variant
-                  operator: in
-                  uid: a4714b1f-4f2d-4d97-a8e0-97b1c7f14dd0
-                  values:
-                    - large
-              elementType: benf\neo\elements\Block
-              fieldContext: global
+            elementCondition: null
             fieldUid: 8b8ed305-e6e6-4754-925f-bb07427b2060 # Background Color
             instructions: null
             label: null
