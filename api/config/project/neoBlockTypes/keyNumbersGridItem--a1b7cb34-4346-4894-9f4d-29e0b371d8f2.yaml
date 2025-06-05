@@ -60,7 +60,7 @@ fieldLayouts:
         name: '1'
         uid: 59e0325b-e295-46af-ae7b-9df006249aeb
         userCondition: null
-group: null
+group: e4847233-e724-4a5b-a19f-321e15cb149e # Grids
 groupChildBlockTypes: true
 handle: keyNumbersGridItem
 icon: null

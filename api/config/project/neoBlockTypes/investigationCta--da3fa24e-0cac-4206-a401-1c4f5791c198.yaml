@@ -36,7 +36,7 @@ fieldLayouts:
         name: Content
         uid: 2d8f306d-a3c1-46ed-b36c-2fd90bd27d46
         userCondition: null
-group: null
+group: e4847233-e724-4a5b-a19f-321e15cb149e # Grids
 groupChildBlockTypes: true
 handle: investigationCta
 icon: null
