@@ -37,7 +37,7 @@ fieldLayouts:
         name: Tab
         uid: f7d48f56-107b-478a-b26e-b1097312283e
         userCondition: null
-group: null
+group: e4847233-e724-4a5b-a19f-321e15cb149e # Grids
 groupChildBlockTypes: true
 handle: imageGrid
 icon: null

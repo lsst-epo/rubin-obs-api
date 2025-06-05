@@ -37,7 +37,37 @@ fieldLayouts:
         name: Content
         uid: ebc183c5-ed5f-4f41-bc52-143570eab8fb
         userCondition: null
-group: null
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: ef5793ab-b4f7-45c7-be68-338184b3d385 # Full Width
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: bf3667c7-8c44-4739-9d54-ad32885208a6
+            userCondition: null
+            warning: null
+            width: 50
+          -
+            elementCondition: null
+            fieldUid: 8b8ed305-e6e6-4754-925f-bb07427b2060 # Background Color
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 874f2843-dae1-42ee-ae2f-07dd57870269
+            userCondition: null
+            warning: null
+            width: 50
+        name: Style
+        uid: 60637da0-aaa0-4c69-baa6-cbf60a2e12ef
+        userCondition: null
+group: e4847233-e724-4a5b-a19f-321e15cb149e # Grids
 groupChildBlockTypes: true
 handle: ctaGrid
 icon: null
