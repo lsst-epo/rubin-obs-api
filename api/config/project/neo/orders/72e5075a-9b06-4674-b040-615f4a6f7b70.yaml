@@ -4,14 +4,8 @@
 - 'blockType:b5838ae4-3163-4eaf-baf1-cc575176352e' # Callout
 - 'blockType:90295d5c-0b35-40ca-bb95-c7fc81969b14' # Accordion Group
 - 'blockType:6509f949-86bc-4542-ab9f-9593ae7153be' # Accordion
-- 'blockType:7d2c6533-5e40-446d-8c2d-4d3998d1d193' # CTA Grid
-- 'blockType:a0a0fcfb-cbb1-4e1b-a600-91f1c57faf41' # CTA
-- 'blockType:f00a12dc-93a3-4782-8d0a-3672c0107c02' # Image Grid
-- 'blockType:d68978ab-2942-46c8-8da7-6a50bd47cce5' # Image Grid Item
 - 'blockType:22728b4f-f1bb-4399-8525-53e3163f0594' # Slide Block
 - 'blockType:13dd7a03-2223-4831-87bc-a9c717c71bb0' # Slide
-- 'blockType:ec9fe774-aa9b-42b0-9f80-3a1ac7f2a979' # Investigation Grid
-- 'blockType:da3fa24e-0cac-4206-a401-1c4f5791c198' # Investigation CTA
 - 'blockType:56f60368-4386-4395-92b6-31b15c7663cc' # Contact
 - 'blockType:41a9c595-2a38-40b5-b87c-ada8076913e1' # Share
 - 'blockType:6863d4cb-1c9e-4d09-867f-92b87dd7bd81' # News
@@ -32,6 +26,13 @@
 - 'blockType:832b4964-87a5-45f0-940d-9f01b6bae4fe' # Summit Status
 - 'blockType:1ac7decf-dc96-4769-b73f-e147f00798fd' # Publications List
 - 'blockType:9d7c57a1-0518-46c5-9c44-0fe5757e5b88' # People Block
+- 'blockTypeGroup:e4847233-e724-4a5b-a19f-321e15cb149e' # Grids
+- 'blockType:f00a12dc-93a3-4782-8d0a-3672c0107c02' # Image Grid
+- 'blockType:d68978ab-2942-46c8-8da7-6a50bd47cce5' # Image Grid Item
+- 'blockType:7d2c6533-5e40-446d-8c2d-4d3998d1d193' # CTA Grid
+- 'blockType:a0a0fcfb-cbb1-4e1b-a600-91f1c57faf41' # CTA
+- 'blockType:ec9fe774-aa9b-42b0-9f80-3a1ac7f2a979' # Investigation Grid
+- 'blockType:da3fa24e-0cac-4206-a401-1c4f5791c198' # Investigation CTA
 - 'blockType:fa7678ee-7b00-4ff1-ae99-464c68f65238' # Key Numbers Grid
 - 'blockType:a1b7cb34-4346-4894-9f4d-29e0b371d8f2' # Key Numbers Grid Item
 - 'blockTypeGroup:625ce07d-ea32-46f1-bd9a-2f4570d773f2' # First Look
