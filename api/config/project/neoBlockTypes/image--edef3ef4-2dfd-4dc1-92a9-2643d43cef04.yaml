@@ -75,6 +75,18 @@ fieldLayouts:
             userCondition: null
             warning: null
             width: 100
+          -
+            elementCondition: null
+            fieldUid: ef5793ab-b4f7-45c7-be68-338184b3d385 # Full Width
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: a7138a8b-a952-4e1e-af9a-e892ccdd1c75
+            userCondition: null
+            warning: null
+            width: 100
         name: Style
         uid: b8ffd272-05c2-40c0-ac8a-f5a01fb54b9a
         userCondition: null
