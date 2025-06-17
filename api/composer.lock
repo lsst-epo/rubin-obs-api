@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "500ad8109aa19a865f8c4b42dbe9fd2c",
+    "content-hash": "36d53347e7e619b0ec8a338a9b55a5ff",
     "packages": [
         {
             "name": "abraham/twitteroauth",
@@ -3467,16 +3467,16 @@
         },
         {
             "name": "lsst-epo/canto-dam-assets",
-            "version": "4.5.3",
+            "version": "4.5.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/lsst-epo/canto-dam-assets.git",
-                "reference": "2bd6f2192859f8791ecbc6ddc383bc89601129ba"
+                "reference": "567db82c0441be5f97fd0f9f63fe5b2c8b767431"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/lsst-epo/canto-dam-assets/zipball/2bd6f2192859f8791ecbc6ddc383bc89601129ba",
-                "reference": "2bd6f2192859f8791ecbc6ddc383bc89601129ba",
+                "url": "https://api.github.com/repos/lsst-epo/canto-dam-assets/zipball/567db82c0441be5f97fd0f9f63fe5b2c8b767431",
+                "reference": "567db82c0441be5f97fd0f9f63fe5b2c8b767431",
                 "shasum": ""
             },
             "require": {
@@ -3504,14 +3504,14 @@
                 }
             },
             "scripts": {
+                "phpstan": [
+                    "vendor/bin/phpstan --ansi --memory-limit=1G"
+                ],
                 "check-cs": [
                     "ecs check --ansi"
                 ],
                 "fix-cs": [
-                    "ecs check --ansi --fix"
-                ],
-                "phpstan": [
-                    "phpstan --memory-limit=1G"
+                    "ecs check --fix --ansi"
                 ]
             },
             "license": [
@@ -3529,7 +3529,7 @@
                 "issues": "https://github.com/lsst-epo/canto-dam-assets/issues",
                 "source": "https://github.com/lsst-epo/canto-dam-assets/"
             },
-            "time": "2025-03-28T20:01:33+00:00"
+            "time": "2025-06-16T22:54:12+00:00"
         },
         {
             "name": "lsst-epo/craft-next-js-builds",
