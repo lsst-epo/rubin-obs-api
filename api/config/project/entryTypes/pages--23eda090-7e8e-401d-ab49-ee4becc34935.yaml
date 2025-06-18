@@ -57,18 +57,6 @@ fieldLayouts:
             width: 25
           -
             elementCondition: null
-            fieldUid: efd8178d-3f21-4af1-b38c-7230da89c301
-            instructions: null
-            label: null
-            required: false
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            uid: c37ff114-13e6-4af7-8931-c93d8700b7dd
-            userCondition: null
-            warning: null
-            width: 25
-          -
-            elementCondition: null
             fieldUid: cd801712-4ba3-4a9c-8fab-0d3e2a58b4eb # Description
             instructions: null
             label: null
@@ -76,6 +64,18 @@ fieldLayouts:
             tip: null
             type: craft\fieldlayoutelements\CustomField
             uid: 7efc90f5-a48d-4b0d-8a0a-a244dd0e5122
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 4b6329ee-1231-466b-94e6-24b8f46ea9d6 # Single Canto Asset
+            instructions: 'Image that will be used in page previews including social media'
+            label: 'Featured Image'
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: cb7d56c5-0fdc-41a4-8eb7-0d8ee198d122
             userCondition: null
             warning: null
             width: 100
