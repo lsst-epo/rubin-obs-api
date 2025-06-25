@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "36d53347e7e619b0ec8a338a9b55a5ff",
+    "content-hash": "9e10d9d488461a08705dc9b932d6b953",
     "packages": [
         {
             "name": "abraham/twitteroauth",
@@ -2027,6 +2027,56 @@
             "time": "2025-04-15T21:47:20+00:00"
         },
         {
+            "name": "google/cloud-compute",
+            "version": "v1.30.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/googleapis/google-cloud-php-compute.git",
+                "reference": "fe280daa1884ffbf2b33ba97dfd4379153498613"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/googleapis/google-cloud-php-compute/zipball/fe280daa1884ffbf2b33ba97dfd4379153498613",
+                "reference": "fe280daa1884ffbf2b33ba97dfd4379153498613",
+                "shasum": ""
+            },
+            "require": {
+                "google/gax": "^1.36.0",
+                "php": "^8.0"
+            },
+            "require-dev": {
+                "google/cloud-core": "^1.52.7",
+                "phpunit/phpunit": "^9.0"
+            },
+            "suggest": {
+                "ext-protobuf": "Provides a significant increase in throughput over the pure PHP protobuf implementation. See https://cloud.google.com/php/grpc for installation instructions."
+            },
+            "type": "library",
+            "extra": {
+                "component": {
+                    "id": "cloud-compute",
+                    "path": "Compute",
+                    "entry": null,
+                    "target": "googleapis/google-cloud-php-compute.git"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Google\\Cloud\\Compute\\": "src",
+                    "GPBMetadata\\Google\\Cloud\\Compute\\": "metadata"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "description": "Compute Client for PHP",
+            "support": {
+                "source": "https://github.com/googleapis/google-cloud-php-compute/tree/v1.30.0"
+            },
+            "time": "2025-04-18T20:49:28+00:00"
+        },
+        {
             "name": "google/cloud-core",
             "version": "v1.62.1",
             "source": {
@@ -3533,20 +3583,21 @@
         },
         {
             "name": "lsst-epo/craft-next-js-builds",
-            "version": "2.0.2",
+            "version": "dev-10-cloud-cdn-invalidation-on-save",
             "source": {
                 "type": "git",
                 "url": "https://github.com/lsst-epo/craft-next-js-builds.git",
-                "reference": "021a5b97dca3ecafb21f6edb667610dde4dac249"
+                "reference": "1e81c212cfa7ff7e1e562a90733812137ce4e36b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/lsst-epo/craft-next-js-builds/zipball/021a5b97dca3ecafb21f6edb667610dde4dac249",
-                "reference": "021a5b97dca3ecafb21f6edb667610dde4dac249",
+                "url": "https://api.github.com/repos/lsst-epo/craft-next-js-builds/zipball/1e81c212cfa7ff7e1e562a90733812137ce4e36b",
+                "reference": "1e81c212cfa7ff7e1e562a90733812137ce4e36b",
                 "shasum": ""
             },
             "require": {
-                "craftcms/cms": "^4.0.0"
+                "craftcms/cms": "^4.0.0",
+                "google/cloud-compute": "^1.30.0"
             },
             "type": "craft-plugin",
             "extra": {
@@ -3588,9 +3639,9 @@
             "support": {
                 "docs": "???",
                 "issues": "???",
-                "source": "https://github.com/lsst-epo/craft-next-js-builds/tree/2.0.2"
+                "source": "https://github.com/lsst-epo/craft-next-js-builds/tree/10-cloud-cdn-invalidation-on-save"
             },
-            "time": "2025-04-15T18:00:42+00:00"
+            "time": "2025-06-25T19:13:07+00:00"
         },
         {
             "name": "marc-mabe/php-enum",
@@ -8318,13 +8369,15 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": [],
+    "stability-flags": {
+        "lsst-epo/craft-next-js-builds": 20
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
-    "platform": [],
-    "platform-dev": [],
+    "platform": {},
+    "platform-dev": {},
     "platform-overrides": {
         "php": "8.1.10"
     },
-    "plugin-api-version": "2.1.0"
+    "plugin-api-version": "2.6.0"
 }
