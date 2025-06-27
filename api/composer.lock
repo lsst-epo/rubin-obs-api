@@ -3587,12 +3587,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/lsst-epo/craft-next-js-builds.git",
-                "reference": "75d0815a8880683f912c051650ff95858c477065"
+                "reference": "6a0d5260c289f3c184de267d2687bb590cae5744"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/lsst-epo/craft-next-js-builds/zipball/75d0815a8880683f912c051650ff95858c477065",
-                "reference": "75d0815a8880683f912c051650ff95858c477065",
+                "url": "https://api.github.com/repos/lsst-epo/craft-next-js-builds/zipball/6a0d5260c289f3c184de267d2687bb590cae5744",
+                "reference": "6a0d5260c289f3c184de267d2687bb590cae5744",
                 "shasum": ""
             },
             "require": {
@@ -3641,7 +3641,7 @@
                 "issues": "???",
                 "source": "https://github.com/lsst-epo/craft-next-js-builds/tree/10-cloud-cdn-invalidation-on-save"
             },
-            "time": "2025-06-26T23:08:08+00:00"
+            "time": "2025-06-27T19:01:37+00:00"
         },
         {
             "name": "marc-mabe/php-enum",
