@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "9e10d9d488461a08705dc9b932d6b953",
+    "content-hash": "f81da060e429d56192ae4ba0e535b0fa",
     "packages": [
         {
             "name": "abraham/twitteroauth",
@@ -3583,16 +3583,16 @@
         },
         {
             "name": "lsst-epo/craft-next-js-builds",
-            "version": "dev-10-cloud-cdn-invalidation-on-save",
+            "version": "2.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/lsst-epo/craft-next-js-builds.git",
-                "reference": "75d0815a8880683f912c051650ff95858c477065"
+                "reference": "9ae713e541f012739edf70f2e4a9bd84291c1185"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/lsst-epo/craft-next-js-builds/zipball/75d0815a8880683f912c051650ff95858c477065",
-                "reference": "75d0815a8880683f912c051650ff95858c477065",
+                "url": "https://api.github.com/repos/lsst-epo/craft-next-js-builds/zipball/9ae713e541f012739edf70f2e4a9bd84291c1185",
+                "reference": "9ae713e541f012739edf70f2e4a9bd84291c1185",
                 "shasum": ""
             },
             "require": {
@@ -3639,9 +3639,9 @@
             "support": {
                 "docs": "???",
                 "issues": "???",
-                "source": "https://github.com/lsst-epo/craft-next-js-builds/tree/10-cloud-cdn-invalidation-on-save"
+                "source": "https://github.com/lsst-epo/craft-next-js-builds/tree/2.1.0"
             },
-            "time": "2025-06-26T23:08:08+00:00"
+            "time": "2025-07-17T16:29:28+00:00"
         },
         {
             "name": "marc-mabe/php-enum",
@@ -8369,9 +8369,7 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": {
-        "lsst-epo/craft-next-js-builds": 20
-    },
+    "stability-flags": {},
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {},
