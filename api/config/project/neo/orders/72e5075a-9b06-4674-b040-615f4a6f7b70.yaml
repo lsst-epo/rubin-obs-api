@@ -24,6 +24,7 @@
 - 'blockType:9655a59a-0418-465e-993c-3d1586d59ef9' # iFrame
 - 'blockType:ae600481-08ff-4746-915e-4ba49a4c8337' # Game
 - 'blockType:832b4964-87a5-45f0-940d-9f01b6bae4fe' # Summit Status
+- 'blockType:d45559e5-fe00-4663-8f09-be0dfc6685ea' # Summit Status Compact View
 - 'blockType:1ac7decf-dc96-4769-b73f-e147f00798fd' # Publications List
 - 'blockType:9d7c57a1-0518-46c5-9c44-0fe5757e5b88' # People Block
 - 'blockTypeGroup:e4847233-e724-4a5b-a19f-321e15cb149e' # Grids
