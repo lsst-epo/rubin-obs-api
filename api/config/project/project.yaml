@@ -1,4 +1,4 @@
-dateModified: 1750266156
+dateModified: 1765228092
 email:
   fromEmail: $EMAIL_FROM_ADDRESS
   fromName: $EMAIL_SENDER_NAME
@@ -185,6 +185,7 @@ meta:
     046d1ddc-6587-48e3-8cfd-15057c317066: Publication # Publication
     46d17af4-896a-4fc5-90bf-ac826090d9bc: Credit # Credit
     46db7366-f372-41c2-9f6a-dc30bcd7a946: 'Callout - News' # Callout - News
+    46e5c8d5-e8d4-426f-9763-ddc14f2433ec: 'All Sky Image' # All Sky Image
     48ba11bd-90a5-4239-a24c-d44d01affbcf: 'Image - quote' # Image - quote
     56f60368-4386-4395-92b6-31b15c7663cc: Contact # Contact
     57dcbdae-db2b-4f63-8d0e-26bdfb80c7db: 'Grid or List' # Grid or List
@@ -195,6 +196,7 @@ meta:
     63ad82eb-8dc4-4d06-b1af-013f2d503a42: Skyviewer # Skyviewer
     66cc7887-85b3-4299-abf5-f92cbae50a8b: People # People
     68ce46bb-bb2f-4e55-8009-fe56a7d4493b: Header # Header
+    69ee912e-feef-4fc2-a377-cab897c65c67: 'Exposure Count' # Exposure Count
     70d00340-3577-4a61-a2be-6e6fd986b5a7: 'Open Date' # Open Date
     70e42474-2ece-4a5a-9746-0cb2dd60a1a9: Mail # Mail
     70ff59dd-8280-4bea-bef6-cfdf9ea4f0c2: 'Sort Options' # Sort Options
@@ -205,6 +207,7 @@ meta:
     75f0b770-5006-4359-848f-96415196bfe0: Date # Date
     77dc755a-bb96-4422-b00f-c7d74e45d400: 'Educator Schema' # Educator Schema
     80e0f53f-96b3-43d4-b166-453ac4ac0147: Header # Header
+    84c3def8-eed0-4413-9919-181e94e6f7ef: 'Dome Status' # Dome Status
     92a53b2d-879a-4353-a009-d926ead4a2db: 'Logo - Small' # Logo - Small
     95b97a67-eccb-4910-b0e8-77f5860058b4: Link # Link
     99f4a28a-48c3-49ca-bb4a-7acbb49fde30: Pages # Pages
@@ -319,6 +322,7 @@ meta:
     accc0b97-12f3-43ce-941a-068ab8deb620: Video # Video
     adfcd064-b356-4e9d-843d-4b55e5515a41: Phone # Phone
     ae600481-08ff-4746-915e-4ba49a4c8337: Game # Game
+    aeb0d078-d08a-4ef1-962f-1c58a61a2342: 'Weather Condition' # Weather Condition
     af1b8590-3d8a-4eb1-90e1-60e3d7407a1a: 'Link text' # Link text
     af3e9835-4926-4399-bda9-7f6882cdce5e: 'Assets List' # Assets List
     af22f9e9-9bb5-44eb-a94b-d7893d8cb9f5: Video # Video
@@ -378,6 +382,7 @@ meta:
     d838c93b-46c2-4338-bb73-32cee25ab26f: 'Ancestors and Root' # Ancestors and Root
     d4696dbe-019e-4c97-a95d-07bfaf9dbd03: 'Entry - Staff Profile' # Entry - Staff Profile
     d6898b26-bfa2-41d3-9e26-0092b2021762: 'Student Schema' # Student Schema
+    d45559e5-fe00-4663-8f09-be0dfc6685ea: 'Summit Status Compact View' # Summit Status Compact View
     d68978ab-2942-46c8-8da7-6a50bd47cce5: 'Image Grid Item' # Image Grid Item
     d889713c-632a-4323-bb10-4b2bc53545ad: Asset # Asset
     da3fa24e-0cac-4206-a401-1c4f5791c198: 'Investigation CTA' # Investigation CTA
@@ -391,6 +396,7 @@ meta:
     e0be58f6-fc1b-4a02-816c-0a37b0fcd602: Students # Students
     e3a73d20-b541-4915-8254-a4bee79065f9: 'Field of View (FOV)' # Field of View (FOV)
     e6e1a190-5824-49c2-8242-ee637519925d: Affiliation # Affiliation
+    e6f6d4e6-ed1b-4c94-8c35-1cfe89e83020: 'Survey Progress' # Survey Progress
     e6f15692-eb5b-4a33-ad48-7f2b05a7c527: 'Request Deletion' # Request Deletion
     e46ce1e1-606c-4043-acea-5ddab0358221: Image # Image
     e95d3769-cc6d-4366-85a1-a39780d0bc0e: Item # Item
@@ -411,6 +417,7 @@ meta:
     f00a12dc-93a3-4782-8d0a-3672c0107c02: 'Image Grid' # Image Grid
     f0603433-ef74-4883-8aec-03e31f8dc34e: 'Complex Table' # Complex Table
     f1b8c943-bc12-4001-9e2a-d531379f1aaf: Pages # Pages
+    f5a2f5ec-d5f0-43cf-a6e0-9769e4325264: 'Alert Count' # Alert Count
     f8ed5c4f-7af4-40f7-939d-b7caf9b4b501: 'News Item' # News Item
     f33e3817-e293-4f55-bbd7-bff898cb45fc: 'Responsive Assets' # Responsive Assets
     f43fc0f3-e225-4501-b975-0fd061f0ff5b: dec # dec

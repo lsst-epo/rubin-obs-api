@@ -1,0 +1,100 @@
+childBlocks: null
+conditions: null
+description: ''
+enabled: true
+field: 72e5075a-9b06-4674-b040-615f4a6f7b70 # Content Blocks - Pages
+fieldLayouts:
+  633432e0-3145-402c-81e5-67f006bff634:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 84c3def8-eed0-4413-9919-181e94e6f7ef # Dome Status
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 5fcc78b7-0c31-47d5-a8ab-ebed7c55e6d9
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: aeb0d078-d08a-4ef1-962f-1c58a61a2342 # Weather Condition
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 768da371-1d77-45dc-9200-1fa05d477d90
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 46e5c8d5-e8d4-426f-9763-ddc14f2433ec # All Sky Image
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: c1524b93-53be-4f2a-b2a3-bd680c72742c
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 69ee912e-feef-4fc2-a377-cab897c65c67 # Exposure Count
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 607c39ca-3b10-4ee5-b184-c7ac824b4c46
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: f5a2f5ec-d5f0-43cf-a6e0-9769e4325264 # Alert Count
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 82b4d575-f9a2-441b-8509-c116de6c3ca2
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: e6f6d4e6-ed1b-4c94-8c35-1cfe89e83020 # Survey Progress
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 48158915-06a7-4c2c-9fc9-c3cabe5a4527
+            userCondition: null
+            warning: null
+            width: 100
+        name: 'Summit Status Compact View'
+        uid: e327c170-fc83-40bf-847d-81df1d383ef7
+        userCondition: null
+group: null
+groupChildBlockTypes: true
+handle: summitStatusCompactView
+icon: null
+iconFilename: ''
+ignorePermissions: true
+maxBlocks: 0
+maxChildBlocks: 0
+maxSiblingBlocks: 0
+minBlocks: 0
+minChildBlocks: 0
+minSiblingBlocks: 0
+name: 'Summit Status Compact View'
+topLevel: true
