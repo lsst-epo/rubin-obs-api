@@ -1,0 +1,158 @@
+fieldLayouts:
+  cbab8a79-03b1-4409-9615-739734422653:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            inputType: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: d4c9c282-41dc-42cf-b82d-20428ec24f71
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            type: craft\fieldlayoutelements\HorizontalRule
+            uid: a36bbdf3-0d53-40de-b244-6fc8a025e8ab
+            userCondition: null
+          -
+            elementCondition: null
+            fieldUid: d49be42e-1e68-4688-ac3a-d8c7f7181965 # Tags
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 25165605-a041-4966-9de3-4f8e9db188a9
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 05eead62-7bf9-43e4-a7e8-bcd8f9f77323 # Hero
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 4c981365-ed7f-4870-ace2-1e07ebd53f6f
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 58aa24c3-97e4-43e7-a812-7374e5650180 # Focal Point X
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 65caf833-e7e2-4b45-aaf0-4009505789d5
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 0073b1d1-a221-431d-aab9-bf4e193adf4f # Focal Point Y
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 7bb4a6b6-0e03-4a50-a4cc-31a11a993af9
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 61b9d842-7365-4bbf-883c-1b6433dc15f4 # Caption - rich text
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 05bf904c-94a9-41aa-8aec-5e8871eb8444
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            type: craft\fieldlayoutelements\HorizontalRule
+            uid: cae2303c-7aa1-420a-9aa7-a93d7ac66d9b
+            userCondition: null
+          -
+            elementCondition: null
+            fieldUid: 6ed14c66-fec8-4bca-8f29-02cbd1620d12 # Teaser
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: d17913fe-bc87-4db8-a8d6-703f6d6c9d11
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: c11d26d4-236a-4b06-99f6-3a8f67821ada # Sidebar Assets
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: d85f82d6-6b44-431f-8c58-e1fa14cf3b20
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            type: craft\fieldlayoutelements\HorizontalRule
+            uid: d8f0ddfc-2e5e-4dd1-8257-e5734e64324d
+            userCondition: null
+          -
+            elementCondition: null
+            fieldUid: 522db817-08b6-4ecf-a423-4aec204ab85d # Content Blocks - News
+            instructions: null
+            label: 'Content Block - Rubin Basics'
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 8338c13b-18b7-4a94-ad26-900646eb2df3
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 39e88424-c1a7-4fec-adb0-14c4cabc66aa
+        userCondition: null
+handle: post
+hasTitleField: true
+name: 'Rubin Basics Post'
+section: a67f9315-62e4-462e-8002-381aad705d64 # Rubin Basics
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: none
+sortOrder: 1
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site
