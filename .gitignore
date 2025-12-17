@@ -18,3 +18,6 @@ cypress/videos/
 cypress/downloads/
 cypress/screenshots/
 yarn-error.log
+
+api/gcs-local-dev.json
+api/plugins
