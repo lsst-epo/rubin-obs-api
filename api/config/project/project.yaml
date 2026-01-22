@@ -1,4 +1,4 @@
-dateModified: 1766004608
+dateModified: 1769118384
 email:
   fromEmail: $EMAIL_FROM_ADDRESS
   fromName: $EMAIL_SENDER_NAME
@@ -174,6 +174,7 @@ meta:
     26ca2777-e4c8-41b4-ac93-aa28d09117dd: 'Student Pages' # Student Pages
     31b350fb-6fbd-4533-b006-4c287f689ed3: 'Text Link' # Text Link
     31bdcba6-2552-4cc2-8e02-e4a057a0edf0: Instagram # Instagram
+    32d5861f-010d-4b44-b0f4-56d9392d2c4a: 'Dome Status Tooltip Text' # Dome Status Tooltip Text
     033c2694-fbf5-48d0-aa4f-7d14e86f0aa8: Facebook # Facebook
     34f61e7c-358c-48b8-8439-42bc05ed255c: 'Callout - two-tone' # Callout - two-tone
     36eb6d5c-23a9-43c9-bf13-4ca926869004: 'Start Time' # Start Time
@@ -208,6 +209,7 @@ meta:
     77dc755a-bb96-4422-b00f-c7d74e45d400: 'Educator Schema' # Educator Schema
     80e0f53f-96b3-43d4-b166-453ac4ac0147: Header # Header
     84c3def8-eed0-4413-9919-181e94e6f7ef: 'Dome Status' # Dome Status
+    88a68ef9-4136-487b-953b-315fd6db9767: 'Alert Count Tooltip Text' # Alert Count Tooltip Text
     92a53b2d-879a-4353-a009-d926ead4a2db: 'Logo - Small' # Logo - Small
     95b97a67-eccb-4910-b0e8-77f5860058b4: Link # Link
     99f4a28a-48c3-49ca-bb4a-7acbb49fde30: Pages # Pages
@@ -260,6 +262,7 @@ meta:
     7445fb64-f649-42e7-9751-28d742d27a85: 'Email Subscription' # Email Subscription
     7742b942-2b47-4222-9105-40dd3da899ac: 'Related Item' # Related Item
     7765d04f-ce45-4e80-9484-21a76389e6f3: Value # Value
+    7938c94e-7e2b-4c2c-905a-2854be2bf200: 'All Sky Image Tooltip Text' # All Sky Image Tooltip Text
     7970cd65-7a96-418a-8581-d6df4e039e6d: 'Plain Text' # Plain Text
     8096dc6c-f1bd-4d24-8add-7df7f190a17c: Jobs # Jobs
     8145b1c9-cb8f-4c86-91ba-34fe5ded34e6: Homepage # Homepage
@@ -409,6 +412,7 @@ meta:
     e4847233-e724-4a5b-a19f-321e15cb149e: Grids # Grids
     e7913600-c914-4ab1-a9bb-abd2bdcbfb94: 'Custom Name' # Custom Name
     e9726196-f241-49d4-9b6b-9e8d419e6669: 'Link Text' # Link Text
+    ea6a0e56-5627-45be-9b17-1ab4ec953f40: 'Weather Condition Tooltip Text' # Weather Condition Tooltip Text
     ec9fe774-aa9b-42b0-9f80-3a1ac7f2a979: 'Investigation Grid' # Investigation Grid
     ec78e400-20a8-42cc-a320-8fc84edd364c: 'Custom Hero' # Custom Hero
     ecf9a160-a134-43b6-9d4f-8bd547ad101e: 'Landing Navigation' # Landing Navigation
@@ -417,7 +421,9 @@ meta:
     f00a12dc-93a3-4782-8d0a-3672c0107c02: 'Image Grid' # Image Grid
     f0603433-ef74-4883-8aec-03e31f8dc34e: 'Complex Table' # Complex Table
     f1b8c943-bc12-4001-9e2a-d531379f1aaf: Pages # Pages
+    f2b0758a-64c9-435f-baf1-16ed234f39a8: 'Survey Progress Tooltip Text' # Survey Progress Tooltip Text
     f5a2f5ec-d5f0-43cf-a6e0-9769e4325264: 'Alert Count' # Alert Count
+    f5b6f513-183c-45dd-a2b6-c38f5c311399: 'Exposure Count Tooltip Text' # Exposure Count Tooltip Text
     f8ed5c4f-7af4-40f7-939d-b7caf9b4b501: 'News Item' # News Item
     f33e3817-e293-4f55-bbd7-bff898cb45fc: 'Responsive Assets' # Responsive Assets
     f43fc0f3-e225-4501-b975-0fd061f0ff5b: dec # dec
