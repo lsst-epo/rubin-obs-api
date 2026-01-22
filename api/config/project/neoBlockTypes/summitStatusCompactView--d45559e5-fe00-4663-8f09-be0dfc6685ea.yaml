@@ -23,6 +23,18 @@ fieldLayouts:
             width: 100
           -
             elementCondition: null
+            fieldUid: 32d5861f-010d-4b44-b0f4-56d9392d2c4a # Dome Status Tooltip Text
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 9037b1d6-f19a-440a-8566-73a72fb8e04a
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
             fieldUid: aeb0d078-d08a-4ef1-962f-1c58a61a2342 # Weather Condition
             instructions: null
             label: null
@@ -30,6 +42,18 @@ fieldLayouts:
             tip: null
             type: craft\fieldlayoutelements\CustomField
             uid: 768da371-1d77-45dc-9200-1fa05d477d90
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: ea6a0e56-5627-45be-9b17-1ab4ec953f40 # Weather Condition Tooltip Text
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 03d92048-caa2-4184-a014-858bc50cb5cd
             userCondition: null
             warning: null
             width: 100
@@ -47,6 +71,18 @@ fieldLayouts:
             width: 100
           -
             elementCondition: null
+            fieldUid: 7938c94e-7e2b-4c2c-905a-2854be2bf200 # All Sky Image Tooltip Text
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 2c4b82a2-40b4-408f-8b28-baf40a31977a
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
             fieldUid: 69ee912e-feef-4fc2-a377-cab897c65c67 # Exposure Count
             instructions: null
             label: null
@@ -54,6 +90,18 @@ fieldLayouts:
             tip: null
             type: craft\fieldlayoutelements\CustomField
             uid: 607c39ca-3b10-4ee5-b184-c7ac824b4c46
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: f5b6f513-183c-45dd-a2b6-c38f5c311399 # Exposure Count Tooltip Text
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 9245fa80-c8b8-42a9-80e5-9ce5fea699c4
             userCondition: null
             warning: null
             width: 100
@@ -71,6 +119,18 @@ fieldLayouts:
             width: 100
           -
             elementCondition: null
+            fieldUid: 88a68ef9-4136-487b-953b-315fd6db9767 # Alert Count Tooltip Text
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 94fbe50b-bea6-4d3a-a727-c5a074b37282
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
             fieldUid: e6f6d4e6-ed1b-4c94-8c35-1cfe89e83020 # Survey Progress
             instructions: null
             label: null
@@ -78,6 +138,18 @@ fieldLayouts:
             tip: null
             type: craft\fieldlayoutelements\CustomField
             uid: 48158915-06a7-4c2c-9fc9-c3cabe5a4527
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: f2b0758a-64c9-435f-baf1-16ed234f39a8 # Survey Progress Tooltip Text
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 2b536557-9e07-4380-ad8f-33ea70fd09fe
             userCondition: null
             warning: null
             width: 100

@@ -1,0 +1,19 @@
+columnSuffix: gkjzpfvn
+contentColumnType: string(800)
+fieldGroup: 99f4a28a-48c3-49ca-bb4a-7acbb49fde30 # Pages
+handle: allSkyImageTooltipText
+instructions: null
+name: 'All Sky Image Tooltip Text'
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: 200
+  code: false
+  columnType: null
+  initialRows: 4
+  multiline: false
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\PlainText
