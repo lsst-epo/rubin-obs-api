@@ -63,6 +63,7 @@ scope:
   - 'categorygroups.cc8c47f0-3dec-44db-a47f-7ca6c984864a:read' # Job Types
   - 'categorygroups.df7f4ec2-58b2-4c3a-afff-b07f4764fa4b:read' # Location
   - 'categorygroups.7cb3bc06-c4c4-4017-8c0c-fa6aad7cbd8e:read' # News Filters
+  - 'categorygroups.9cf1bbd0-bf09-43bc-a258-3908889e6a6e:read'
   - 'categorygroups.0928ff1a-513d-41e0-acc1-606d93988618:read' # Search Filters
   - 'categorygroups.70ff59dd-8280-4bea-bef6-cfdf9ea4f0c2:read' # Sort Options
   - 'categorygroups.aa60fd40-45d4-48bb-8b81-8ec736456687:read' # Staff Filters
