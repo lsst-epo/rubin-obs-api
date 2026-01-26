@@ -35,30 +35,6 @@ fieldLayouts:
             width: 100
           -
             elementCondition: null
-            fieldUid: aeb0d078-d08a-4ef1-962f-1c58a61a2342 # Weather Condition
-            instructions: null
-            label: null
-            required: false
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            uid: 768da371-1d77-45dc-9200-1fa05d477d90
-            userCondition: null
-            warning: null
-            width: 100
-          -
-            elementCondition: null
-            fieldUid: ea6a0e56-5627-45be-9b17-1ab4ec953f40 # Weather Condition Tooltip Text
-            instructions: null
-            label: null
-            required: false
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            uid: 03d92048-caa2-4184-a014-858bc50cb5cd
-            userCondition: null
-            warning: null
-            width: 100
-          -
-            elementCondition: null
             fieldUid: 46e5c8d5-e8d4-426f-9763-ddc14f2433ec # All Sky Image
             instructions: null
             label: null
@@ -150,6 +126,18 @@ fieldLayouts:
             tip: null
             type: craft\fieldlayoutelements\CustomField
             uid: 2b536557-9e07-4380-ad8f-33ea70fd09fe
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: aeb0d078-d08a-4ef1-962f-1c58a61a2342 # Weather Condition
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 768da371-1d77-45dc-9200-1fa05d477d90
             userCondition: null
             warning: null
             width: 100
