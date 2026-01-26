@@ -1,4 +1,4 @@
-dateModified: 1769118384
+dateModified: 1769466075
 email:
   fromEmail: $EMAIL_FROM_ADDRESS
   fromName: $EMAIL_SENDER_NAME
@@ -346,6 +346,7 @@ meta:
     bbf936fb-1787-437b-8ebd-a6e79409896e: 'Glossary Term' # Glossary Term
     bc12b31b-5681-4d9c-bbc1-80042dca1a82: YouTube # YouTube
     be9edc91-a7d0-4838-9565-20381695cbcb: 'Staff Profiles' # Staff Profiles
+    bf90cb02-4359-4659-94a8-0e43cab45695: 'Rubin Basics Post' # Rubin Basics Post
     bf666178-3a27-4de2-acb9-be62f6112aef: Skyviewer # Skyviewer
     c1f8c36c-fe3e-4e51-a602-b8c751ca45d4: 'Other Authors / Credit' # Other Authors / Credit
     c2eab1e2-8dc7-4ea8-a1c2-5572ff82212b: 'Linked Asset' # Linked Asset

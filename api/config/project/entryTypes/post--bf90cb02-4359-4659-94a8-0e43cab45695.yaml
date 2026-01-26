@@ -62,6 +62,18 @@ fieldLayouts:
             width: 100
           -
             elementCondition: null
+            fieldUid: 00f1f9f6-c710-431d-bf34-22e3a62d5172 # Overlap Hero
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: fc7dbb1d-d7cd-4fe9-b3c7-59b12771b493
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
             fieldUid: 58aa24c3-97e4-43e7-a812-7374e5650180 # Focal Point X
             instructions: null
             label: null
