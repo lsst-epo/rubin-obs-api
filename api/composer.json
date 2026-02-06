@@ -7,7 +7,7 @@
         "craftcms/google-cloud": "2.1.0",
         "craftcms/redactor": "3.0.4",
         "jamesedmonston/graphql-authentication": "2.5.0",
-        "lsst-epo/canto-dam-assets": "4.5.4",
+        "lsst-epo/canto-dam-assets": "4.5.10",
         "lsst-epo/craft-next-js-builds": "2.1.0",
         "rynpsc/craft-phone-number": "2.2.0",
         "sebastianlenz/linkfield": "^2.1.4",
