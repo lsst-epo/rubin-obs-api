@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f81da060e429d56192ae4ba0e535b0fa",
+    "content-hash": "e1aa7380e71973d5536774851a07185b",
     "packages": [
         {
             "name": "abraham/twitteroauth",
@@ -3517,28 +3517,28 @@
         },
         {
             "name": "lsst-epo/canto-dam-assets",
-            "version": "4.5.4",
+            "version": "4.5.11",
             "source": {
                 "type": "git",
                 "url": "https://github.com/lsst-epo/canto-dam-assets.git",
-                "reference": "567db82c0441be5f97fd0f9f63fe5b2c8b767431"
+                "reference": "38a607d706cade877adeb0e60c3018fc180eddac"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/lsst-epo/canto-dam-assets/zipball/567db82c0441be5f97fd0f9f63fe5b2c8b767431",
-                "reference": "567db82c0441be5f97fd0f9f63fe5b2c8b767431",
+                "url": "https://api.github.com/repos/lsst-epo/canto-dam-assets/zipball/38a607d706cade877adeb0e60c3018fc180eddac",
+                "reference": "38a607d706cade877adeb0e60c3018fc180eddac",
                 "shasum": ""
             },
             "require": {
                 "craftcms/cms": "^4.6.0",
-                "nystudio107/craft-plugin-vite": "^4.0.0",
+                "nystudio107/craft-plugin-vite": ">=4.0.0",
                 "php": ">=8.0.2"
             },
             "require-dev": {
                 "craftcms/ecs": "dev-main",
                 "craftcms/phpstan": "dev-main",
                 "craftcms/rector": "dev-main",
-                "verbb/super-table": "^3.0.0"
+                "verbb/super-table": ">=3.0.0"
             },
             "type": "craft-plugin",
             "extra": {
@@ -3579,7 +3579,7 @@
                 "issues": "https://github.com/lsst-epo/canto-dam-assets/issues",
                 "source": "https://github.com/lsst-epo/canto-dam-assets/"
             },
-            "time": "2025-06-16T22:54:12+00:00"
+            "time": "2026-02-11T20:40:12+00:00"
         },
         {
             "name": "lsst-epo/craft-next-js-builds",
