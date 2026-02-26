@@ -11,25 +11,25 @@ fieldLayouts:
         elements:
           -
             elementCondition: null
-            fieldUid: 84c3def8-eed0-4413-9919-181e94e6f7ef # Dome Status
+            fieldUid: aeb0d078-d08a-4ef1-962f-1c58a61a2342 # Weather Condition
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 5fcc78b7-0c31-47d5-a8ab-ebed7c55e6d9
+            uid: 768da371-1d77-45dc-9200-1fa05d477d90
             userCondition: null
             warning: null
             width: 100
           -
             elementCondition: null
-            fieldUid: 32d5861f-010d-4b44-b0f4-56d9392d2c4a # Dome Status Tooltip Text
+            fieldUid: 3129863a-64d6-4e56-8de7-53d2b9826b0e # Weather Condition Tooltip Text
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 9037b1d6-f19a-440a-8566-73a72fb8e04a
+            uid: 0b59e98a-e760-4247-91aa-d5da37d6dfb5
             userCondition: null
             warning: null
             width: 100
@@ -54,6 +54,30 @@ fieldLayouts:
             tip: null
             type: craft\fieldlayoutelements\CustomField
             uid: 2c4b82a2-40b4-408f-8b28-baf40a31977a
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 84c3def8-eed0-4413-9919-181e94e6f7ef # Dome Status
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 5fcc78b7-0c31-47d5-a8ab-ebed7c55e6d9
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 32d5861f-010d-4b44-b0f4-56d9392d2c4a # Dome Status Tooltip Text
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 9037b1d6-f19a-440a-8566-73a72fb8e04a
             userCondition: null
             warning: null
             width: 100
@@ -131,13 +155,13 @@ fieldLayouts:
             width: 100
           -
             elementCondition: null
-            fieldUid: aeb0d078-d08a-4ef1-962f-1c58a61a2342 # Weather Condition
+            fieldUid: 7970cd65-7a96-418a-8581-d6df4e039e6d # Plain Text
             instructions: null
-            label: null
+            label: 'Summit Status Dashboard Caption'
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 768da371-1d77-45dc-9200-1fa05d477d90
+            uid: dc6f1e98-85ec-4d69-9887-5bc11bfe234a
             userCondition: null
             warning: null
             width: 100
