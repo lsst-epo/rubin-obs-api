@@ -1,4 +1,4 @@
-dateModified: 1769466608
+dateModified: 1772130506
 email:
   fromEmail: $EMAIL_FROM_ADDRESS
   fromName: $EMAIL_SENDER_NAME
@@ -290,6 +290,7 @@ meta:
     660361f1-3ecb-4c5e-9274-76e54f1f291f: 'Number of items' # Number of items
     838028d1-bb13-49aa-a2ee-b0b2e7e6a4fa: 'Simple Table' # Simple Table
     960543c0-3ba6-466b-aa9e-9182279dd49a: 'Start Date' # Start Date
+    3129863a-64d6-4e56-8de7-53d2b9826b0e: 'Weather Condition Tooltip Text' # Weather Condition Tooltip Text
     04000104-ec26-4d82-959a-729454e7f1cc: Country # Country
     6637068b-5ee0-4019-a89a-58af8e373b60: Publications # Publications
     7187131b-681b-45de-a1ea-87a8d070c05a: Gallery # Gallery
@@ -312,6 +313,7 @@ meta:
     a8fbf209-7591-40fa-88d4-b5944f4d27d8: 'Landing Page' # Landing Page
     a50ca6cb-f8ed-41c0-9ea1-b3a5c1ed721e: Label # Label
     a50f3dd9-3fa6-4c3d-ad02-39d184c9157a: RA # RA
+    a67f9315-62e4-462e-8002-381aad705d64: 'Rubin Basics' # Rubin Basics
     a71f443d-14a3-402b-90ba-524dcce806d2: 'External URL' # External URL
     a77c49d2-2441-459e-bfea-63e571d25a12: Slideshow # Slideshow
     a130d930-17c1-4bb0-ab02-5b357fbc717c: Image # Image
@@ -360,6 +362,7 @@ meta:
     c41c3f9f-056c-4b0b-8003-2ba5395a615f: Text # Text
     c44a71b5-f4c8-4209-8433-9878aece9aa5: Text # Text
     c832d3ee-de91-4412-87d7-f4a7fd8251eb: Topic # Topic
+    c26595c6-27bb-4c7f-a02a-f05e9e76d116: 'Rubin Basics' # Rubin Basics
     c2617270-9a88-4699-a7e0-6f6975b11e5a: 'Canto DAM' # Canto DAM
     c4060079-e438-4c63-8b06-77cdea857fd9: Text # Text
     cac693b8-f2db-41f9-84e5-a6f16ee8dcbb: 'Flexible Cell Width' # Flexible Cell Width
