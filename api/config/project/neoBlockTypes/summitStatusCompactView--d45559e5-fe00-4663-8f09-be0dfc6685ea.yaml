@@ -155,13 +155,13 @@ fieldLayouts:
             width: 100
           -
             elementCondition: null
-            fieldUid: 7970cd65-7a96-418a-8581-d6df4e039e6d # Plain Text
+            fieldUid: cf32ef76-4cb9-474f-96b6-d7e82d5078e8
             instructions: null
-            label: 'Summit Status Dashboard Caption'
+            label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: dc6f1e98-85ec-4d69-9887-5bc11bfe234a
+            uid: 20d64408-027e-4133-a031-68e263ebafb0
             userCondition: null
             warning: null
             width: 100
