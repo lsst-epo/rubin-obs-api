@@ -1,4 +1,4 @@
-dateModified: 1773855419
+dateModified: 1774302828
 email:
   fromEmail: $EMAIL_FROM_ADDRESS
   fromName: $EMAIL_SENDER_NAME
@@ -375,6 +375,7 @@ meta:
     cd6f2275-4f9b-4ba4-aa4c-7c7468366172: 'Content Images' # Content Images
     cd801712-4ba3-4a9c-8fab-0d3e2a58b4eb: Description # Description
     cee5c2f8-2801-42c2-a56c-4fe40c85b6f3: 'Site Information' # Site Information
+    cf32ef76-4cb9-474f-96b6-d7e82d5078e8: 'Summit Status Dashboard Caption' # Summit Status Dashboard Caption
     d0cb4533-5478-47d5-9473-dd6c3821cf7a: Slide # Slide
     d019727b-a6d5-43d9-a688-f10df985a87e: Link # Link
     d03a15f4-ddab-4d3f-88e3-933e2e960cdb: Item # Item
