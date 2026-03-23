@@ -1,19 +1,73 @@
 columnSuffix: szflcspv
-contentColumnType: text
+contentColumnType: string
 fieldGroup: 99f4a28a-48c3-49ca-bb4a-7acbb49fde30 # Pages
 handle: summitStatusDashboardCaption
 instructions: null
 name: 'Summit Status Dashboard Caption'
 searchable: false
 settings:
-  byteLimit: null
-  charLimit: null
-  code: false
-  columnType: null
-  initialRows: 4
-  multiline: false
-  placeholder: null
-  uiMode: normal
+  allowCustomText: true
+  allowTarget: false
+  autoNoReferrer: false
+  customTextMaxLength: 0
+  customTextRequired: false
+  defaultLinkName: asset
+  defaultText: ''
+  enableAllLinkTypes: false
+  enableAriaLabel: false
+  enableElementCache: false
+  enableTitle: false
+  typeSettings:
+    asset:
+      allowCrossSiteLink: false
+      allowCustomQuery: false
+      enabled: false
+      sources: '*'
+    category:
+      allowCrossSiteLink: false
+      allowCustomQuery: false
+      enabled: false
+      sources: '*'
+    custom:
+      allowAliases: false
+      disableValidation: false
+      enabled: false
+    email:
+      allowAliases: false
+      disableValidation: false
+      enabled: false
+    entry:
+      allowCrossSiteLink: false
+      allowCustomQuery: false
+      enabled: true
+      sources:
+        - singles
+        - 'section:4305f2e2-40b8-47b2-8b62-135b8b57be7f' # Events
+        - 'section:546e0c6d-dd32-4997-8487-cc4c2fcc9480' # Investigations
+        - 'section:59fb5a9e-74f4-4618-adba-601791f42c92' # Jobs
+        - 'section:11be7603-f576-4af8-93a6-e285e4ff42c4' # News
+        - 'section:7b6ae5d5-7819-48b3-b2ab-7f7109c3ebfa' # People
+        - 'section:572f9558-2330-400a-900d-d7f11a4b1e2b' # Publications
+        - 'section:a67f9315-62e4-462e-8002-381aad705d64' # Rubin Basics
+        - 'section:78410791-6edc-46c9-a17b-4358dcd545ec' # Staff Profiles
+        - 'section:3a8b9653-cdd3-46ce-84b2-d73b5dc4de63' # Galleries
+        - 'section:f1b8c943-bc12-4001-9e2a-d531379f1aaf' # Pages
+    site:
+      enabled: false
+      sites: '*'
+    tel:
+      allowAliases: false
+      disableValidation: false
+      enabled: false
+    url:
+      allowAliases: false
+      disableValidation: false
+      enabled: true
+    user:
+      allowCrossSiteLink: false
+      allowCustomQuery: false
+      enabled: false
+      sources: '*'
 translationKeyFormat: null
-translationMethod: none
-type: craft\fields\PlainText
+translationMethod: site
+type: lenz\linkfield\fields\LinkField
