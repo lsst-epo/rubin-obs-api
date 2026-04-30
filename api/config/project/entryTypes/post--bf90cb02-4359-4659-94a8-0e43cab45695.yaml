@@ -160,7 +160,7 @@ fieldLayouts:
 handle: post
 hasTitleField: true
 name: 'Rubin Basics Post'
-section: a67f9315-62e4-462e-8002-381aad705d64
+section: a67f9315-62e4-462e-8002-381aad705d64 # Rubin Basics
 showStatusField: true
 slugTranslationKeyFormat: null
 slugTranslationMethod: none
