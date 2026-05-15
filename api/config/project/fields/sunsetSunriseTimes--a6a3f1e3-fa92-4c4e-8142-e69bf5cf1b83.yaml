@@ -1,0 +1,14 @@
+columnSuffix: fvomfsgw
+contentColumnType: boolean
+fieldGroup: 99f4a28a-48c3-49ca-bb4a-7acbb49fde30 # Pages
+handle: sunsetSunriseTimes
+instructions: null
+name: 'Sunset Sunrise Times'
+searchable: false
+settings:
+  default: false
+  offLabel: null
+  onLabel: null
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Lightswitch
