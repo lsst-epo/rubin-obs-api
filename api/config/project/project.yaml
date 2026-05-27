@@ -1,4 +1,4 @@
-dateModified: 1778690338
+dateModified: 1779888637
 email:
   fromEmail: $EMAIL_FROM_ADDRESS
   fromName: $EMAIL_SENDER_NAME
@@ -186,18 +186,19 @@ meta:
     046d1ddc-6587-48e3-8cfd-15057c317066: Publication # Publication
     46d17af4-896a-4fc5-90bf-ac826090d9bc: Credit # Credit
     46db7366-f372-41c2-9f6a-dc30bcd7a946: 'Callout - News' # Callout - News
-    46e5c8d5-e8d4-426f-9763-ddc14f2433ec: 'All Sky Image' # All Sky Image
+    46e5c8d5-e8d4-426f-9763-ddc14f2433ec: 'Show All Sky Image' # Show All Sky Image
     48ba11bd-90a5-4239-a24c-d44d01affbcf: 'Image - quote' # Image - quote
     56f60368-4386-4395-92b6-31b15c7663cc: Contact # Contact
     57dcbdae-db2b-4f63-8d0e-26bdfb80c7db: 'Grid or List' # Grid or List
     58aa24c3-97e4-43e7-a812-7374e5650180: 'Focal Point X' # Focal Point X
     58efa872-9485-42e3-a1e3-a5435def5392: Educators # Educators
+    59b05c2a-b8ee-4dbe-a6ef-c221621b16dd: 'Wildlife Gallery Spotlight Tooltip Text' # Wildlife Gallery Spotlight Tooltip Text
     59fb5a9e-74f4-4618-adba-601791f42c92: Jobs # Jobs
     61b9d842-7365-4bbf-883c-1b6433dc15f4: 'Caption - rich text' # Caption - rich text
     63ad82eb-8dc4-4d06-b1af-013f2d503a42: Skyviewer # Skyviewer
     66cc7887-85b3-4299-abf5-f92cbae50a8b: People # People
     68ce46bb-bb2f-4e55-8009-fe56a7d4493b: Header # Header
-    69ee912e-feef-4fc2-a377-cab897c65c67: 'Exposure Count' # Exposure Count
+    69ee912e-feef-4fc2-a377-cab897c65c67: 'Show Exposure Count' # Show Exposure Count
     70d00340-3577-4a61-a2be-6e6fd986b5a7: 'Open Date' # Open Date
     70e42474-2ece-4a5a-9746-0cb2dd60a1a9: Mail # Mail
     70ff59dd-8280-4bea-bef6-cfdf9ea4f0c2: 'Sort Options' # Sort Options
@@ -208,7 +209,7 @@ meta:
     75f0b770-5006-4359-848f-96415196bfe0: Date # Date
     77dc755a-bb96-4422-b00f-c7d74e45d400: 'Educator Schema' # Educator Schema
     80e0f53f-96b3-43d4-b166-453ac4ac0147: Header # Header
-    84c3def8-eed0-4413-9919-181e94e6f7ef: 'Dome Status' # Dome Status
+    84c3def8-eed0-4413-9919-181e94e6f7ef: 'Show Dome Status' # Show Dome Status
     88a68ef9-4136-487b-953b-315fd6db9767: 'Alert Count Tooltip Text' # Alert Count Tooltip Text
     92a53b2d-879a-4353-a009-d926ead4a2db: 'Logo - Small' # Logo - Small
     95b97a67-eccb-4910-b0e8-77f5860058b4: Link # Link
@@ -310,7 +311,7 @@ meta:
     a5b8e4fe-87da-48fc-8156-2a2a973b29e5: URL # URL
     a5bb0742-012f-4683-a471-874944bf3280: Image # Image
     a5f6734f-3e3d-4273-9d1f-2ed243b788e4: 'Logo - Large' # Logo - Large
-    a6a3f1e3-fa92-4c4e-8142-e69bf5cf1b83: 'Sunset Sunrise Times' # Sunset Sunrise Times
+    a6a3f1e3-fa92-4c4e-8142-e69bf5cf1b83: 'Show Sunset Sunrise Times' # Show Sunset Sunrise Times
     a8ba2de3-ff22-4a96-9a53-00b6dec31def: City # City
     a8fbf209-7591-40fa-88d4-b5944f4d27d8: 'Landing Page' # Landing Page
     a50ca6cb-f8ed-41c0-9ea1-b3a5c1ed721e: Label # Label
@@ -318,6 +319,7 @@ meta:
     a67f9315-62e4-462e-8002-381aad705d64: 'Rubin Basics' # Rubin Basics
     a71f443d-14a3-402b-90ba-524dcce806d2: 'External URL' # External URL
     a77c49d2-2441-459e-bfea-63e571d25a12: Slideshow # Slideshow
+    a87f8bd6-d04d-4a53-8313-22a7282a6169: 'Wildlife Gallery' # Wildlife Gallery
     a130d930-17c1-4bb0-ab02-5b357fbc717c: Image # Image
     a7447c0c-7c32-465a-b00b-36ee15bd028a: 'Pull Quote' # Pull Quote
     a8908d20-3e88-452c-86ec-f98a0017bce2: 'Press Release ID' # Press Release ID
@@ -329,7 +331,7 @@ meta:
     accc0b97-12f3-43ce-941a-068ab8deb620: Video # Video
     adfcd064-b356-4e9d-843d-4b55e5515a41: Phone # Phone
     ae600481-08ff-4746-915e-4ba49a4c8337: Game # Game
-    aeb0d078-d08a-4ef1-962f-1c58a61a2342: 'Weather Condition' # Weather Condition
+    aeb0d078-d08a-4ef1-962f-1c58a61a2342: 'Show Weather Condition' # Show Weather Condition
     af1b8590-3d8a-4eb1-90e1-60e3d7407a1a: 'Link text' # Link text
     af3e9835-4926-4399-bda9-7f6882cdce5e: 'Assets List' # Assets List
     af22f9e9-9bb5-44eb-a94b-d7893d8cb9f5: Video # Video
@@ -406,7 +408,7 @@ meta:
     e0be58f6-fc1b-4a02-816c-0a37b0fcd602: Students # Students
     e3a73d20-b541-4915-8254-a4bee79065f9: 'Field of View (FOV)' # Field of View (FOV)
     e6e1a190-5824-49c2-8242-ee637519925d: Affiliation # Affiliation
-    e6f6d4e6-ed1b-4c94-8c35-1cfe89e83020: 'Survey Progress' # Survey Progress
+    e6f6d4e6-ed1b-4c94-8c35-1cfe89e83020: 'Show Survey Progress' # Show Survey Progress
     e6f15692-eb5b-4a33-ad48-7f2b05a7c527: 'Request Deletion' # Request Deletion
     e46ce1e1-606c-4043-acea-5ddab0358221: Image # Image
     e95d3769-cc6d-4366-85a1-a39780d0bc0e: Item # Item
@@ -428,9 +430,10 @@ meta:
     f0603433-ef74-4883-8aec-03e31f8dc34e: 'Complex Table' # Complex Table
     f1b8c943-bc12-4001-9e2a-d531379f1aaf: Pages # Pages
     f2b0758a-64c9-435f-baf1-16ed234f39a8: 'Survey Progress Tooltip Text' # Survey Progress Tooltip Text
-    f5a2f5ec-d5f0-43cf-a6e0-9769e4325264: 'Alert Count' # Alert Count
+    f5a2f5ec-d5f0-43cf-a6e0-9769e4325264: 'Show Alert Count' # Show Alert Count
     f5b6f513-183c-45dd-a2b6-c38f5c311399: 'Exposure Count Tooltip Text' # Exposure Count Tooltip Text
     f8ed5c4f-7af4-40f7-939d-b7caf9b4b501: 'News Item' # News Item
+    f27d7f0e-2c56-4134-8a9d-03b462397f31: 'Show Wildlife Gallery Spotlight' # Show Wildlife Gallery Spotlight
     f33e3817-e293-4f55-bbd7-bff898cb45fc: 'Responsive Assets' # Responsive Assets
     f43fc0f3-e225-4501-b975-0fd061f0ff5b: dec # dec
     f69fbef5-6f67-486f-9e62-7be537bea803: 'Contact Form Topics' # Contact Form Topics

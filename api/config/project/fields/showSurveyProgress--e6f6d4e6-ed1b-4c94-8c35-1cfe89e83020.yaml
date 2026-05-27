@@ -1,9 +1,9 @@
-columnSuffix: gyjyqgzl
+columnSuffix: niqnpqqb
 contentColumnType: boolean
 fieldGroup: 99f4a28a-48c3-49ca-bb4a-7acbb49fde30 # Pages
-handle: alertCount
+handle: showSurveyProgress
 instructions: null
-name: 'Alert Count'
+name: 'Show Survey Progress'
 searchable: false
 settings:
   default: false

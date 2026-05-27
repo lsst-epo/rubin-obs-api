@@ -1,9 +1,9 @@
-columnSuffix: fvomfsgw
+columnSuffix: wjpuqxra
 contentColumnType: boolean
 fieldGroup: 99f4a28a-48c3-49ca-bb4a-7acbb49fde30 # Pages
-handle: sunsetSunriseTimes
+handle: showWeatherCondition
 instructions: null
-name: 'Sunset Sunrise Times'
+name: 'Show Weather Condition'
 searchable: false
 settings:
   default: false
