@@ -1,0 +1,53 @@
+columnSuffix: null
+contentColumnType: string
+fieldGroup: 99f4a28a-48c3-49ca-bb4a-7acbb49fde30 # Pages
+handle: wildlifeGallery
+instructions: null
+name: 'Wildlife Gallery'
+searchable: false
+settings:
+  allowSelfRelations: false
+  branchLimit: null
+  localizeRelations: false
+  maintainHierarchy: false
+  maxRelations: null
+  minRelations: null
+  selectionCondition:
+    __assoc__:
+      -
+        - elementType
+        - craft\elements\Entry
+      -
+        - fieldContext
+        - global
+      -
+        - class
+        - craft\elements\conditions\entries\EntryCondition
+      -
+        - conditionRules
+        -
+          -
+            __assoc__:
+              -
+                - class
+                - craft\elements\conditions\entries\TypeConditionRule
+              -
+                - uid
+                - 588b4ba4-1fb4-4540-995e-9f6c380c40bd
+              -
+                - operator
+                - in
+              -
+                - values
+                -
+                  - 7187131b-681b-45de-a1ea-87a8d070c05a # Gallery
+  selectionLabel: null
+  showSiteMenu: false
+  sources:
+    - 'section:3a8b9653-cdd3-46ce-84b2-d73b5dc4de63' # Galleries
+  targetSiteId: null
+  validateRelatedElements: false
+  viewMode: null
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Entries

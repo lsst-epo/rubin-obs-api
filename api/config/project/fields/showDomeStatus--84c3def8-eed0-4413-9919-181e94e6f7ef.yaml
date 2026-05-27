@@ -1,9 +1,9 @@
 columnSuffix: veruzkxg
 contentColumnType: boolean
 fieldGroup: 99f4a28a-48c3-49ca-bb4a-7acbb49fde30 # Pages
-handle: domeStatus
+handle: showDomeStatus
 instructions: null
-name: 'Dome Status'
+name: 'Show Dome Status'
 searchable: false
 settings:
   default: false

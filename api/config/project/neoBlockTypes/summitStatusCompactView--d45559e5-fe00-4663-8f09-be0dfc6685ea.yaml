@@ -11,7 +11,7 @@ fieldLayouts:
         elements:
           -
             elementCondition: null
-            fieldUid: aeb0d078-d08a-4ef1-962f-1c58a61a2342 # Weather Condition
+            fieldUid: aeb0d078-d08a-4ef1-962f-1c58a61a2342 # Show Weather Condition
             instructions: null
             label: null
             required: false
@@ -35,7 +35,7 @@ fieldLayouts:
             width: 100
           -
             elementCondition: null
-            fieldUid: 46e5c8d5-e8d4-426f-9763-ddc14f2433ec # All Sky Image
+            fieldUid: 46e5c8d5-e8d4-426f-9763-ddc14f2433ec # Show All Sky Image
             instructions: null
             label: null
             required: false
@@ -59,7 +59,7 @@ fieldLayouts:
             width: 100
           -
             elementCondition: null
-            fieldUid: 84c3def8-eed0-4413-9919-181e94e6f7ef # Dome Status
+            fieldUid: 84c3def8-eed0-4413-9919-181e94e6f7ef # Show Dome Status
             instructions: null
             label: null
             required: false
@@ -83,7 +83,7 @@ fieldLayouts:
             width: 100
           -
             elementCondition: null
-            fieldUid: 69ee912e-feef-4fc2-a377-cab897c65c67 # Exposure Count
+            fieldUid: 69ee912e-feef-4fc2-a377-cab897c65c67 # Show Exposure Count
             instructions: null
             label: null
             required: false
@@ -107,7 +107,7 @@ fieldLayouts:
             width: 100
           -
             elementCondition: null
-            fieldUid: f5a2f5ec-d5f0-43cf-a6e0-9769e4325264 # Alert Count
+            fieldUid: f5a2f5ec-d5f0-43cf-a6e0-9769e4325264 # Show Alert Count
             instructions: null
             label: null
             required: false
@@ -131,7 +131,7 @@ fieldLayouts:
             width: 100
           -
             elementCondition: null
-            fieldUid: e6f6d4e6-ed1b-4c94-8c35-1cfe89e83020 # Survey Progress
+            fieldUid: e6f6d4e6-ed1b-4c94-8c35-1cfe89e83020 # Show Survey Progress
             instructions: null
             label: null
             required: false
@@ -155,7 +155,7 @@ fieldLayouts:
             width: 100
           -
             elementCondition: null
-            fieldUid: a6a3f1e3-fa92-4c4e-8142-e69bf5cf1b83 # Sunset Sunrise Times
+            fieldUid: a6a3f1e3-fa92-4c4e-8142-e69bf5cf1b83 # Show Sunset Sunrise Times
             instructions: null
             label: null
             required: false
@@ -174,6 +174,42 @@ fieldLayouts:
             tip: null
             type: craft\fieldlayoutelements\CustomField
             uid: 7f1b6ad0-553f-4068-9664-e47edc954d55
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: f27d7f0e-2c56-4134-8a9d-03b462397f31 # Show Wildlife Gallery Spotlight
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 21683999-909f-48a0-80a8-5426ea3975d6
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: a87f8bd6-d04d-4a53-8313-22a7282a6169 # Wildlife Gallery
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: fd72d988-5ff4-4ee1-9df6-ee939d229490
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 59b05c2a-b8ee-4dbe-a6ef-c221621b16dd # Wildlife Gallery Spotlight Tooltip Text
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 28ac1b67-5b56-4818-b21e-67205c5e7a47
             userCondition: null
             warning: null
             width: 100

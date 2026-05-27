@@ -1,9 +1,9 @@
-columnSuffix: ephuomth
+columnSuffix: ervknfui
 contentColumnType: boolean
 fieldGroup: 99f4a28a-48c3-49ca-bb4a-7acbb49fde30 # Pages
-handle: allSkyImage
+handle: showWildlifeGallerySpotlight
 instructions: null
-name: 'All Sky Image'
+name: 'Show Wildlife Gallery Spotlight'
 searchable: false
 settings:
   default: false
