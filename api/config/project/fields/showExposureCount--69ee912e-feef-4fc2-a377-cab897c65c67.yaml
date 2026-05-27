@@ -1,9 +1,9 @@
 columnSuffix: sxrmuiuc
 contentColumnType: boolean
 fieldGroup: 99f4a28a-48c3-49ca-bb4a-7acbb49fde30 # Pages
-handle: exposureCount
+handle: showExposureCount
 instructions: null
-name: 'Exposure Count'
+name: 'Show Exposure Count'
 searchable: false
 settings:
   default: false
