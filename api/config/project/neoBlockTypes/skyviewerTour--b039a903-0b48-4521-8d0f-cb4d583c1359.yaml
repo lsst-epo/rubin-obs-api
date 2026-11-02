@@ -1,0 +1,70 @@
+childBlocks: null
+conditions: null
+description: 'An embedded view of a Skyviewer tour'
+enabled: true
+field: 522db817-08b6-4ecf-a423-4aec204ab85d # Content Blocks - News
+fieldLayouts:
+  8dcac7a0-4ea7-4019-b1a2-850e1b7ac140:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 1e2ccef2-6cbd-4045-95ae-b7e24fd6ae5c # Tour URL
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 9e735c75-607c-48f0-a37e-a84464faa0d4
+            userCondition: null
+            warning: null
+            width: 100
+        name: 'Tour Details'
+        uid: f9abfec4-b66c-4e82-a144-1a062c674f15
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: ef5793ab-b4f7-45c7-be68-338184b3d385 # Full Width
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 0cd85d36-21d9-4e88-89d7-96ca7e54a9c5
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 8b8ed305-e6e6-4754-925f-bb07427b2060 # Background Color
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 5edfa851-112d-4b11-af31-0c5cae446771
+            userCondition: null
+            warning: null
+            width: 100
+        name: Style
+        uid: 9f19df31-7780-4208-9a5f-dc43f3eaa0a4
+        userCondition: null
+group: null
+groupChildBlockTypes: true
+handle: skyviewerTour
+icon: null
+iconFilename: ''
+ignorePermissions: true
+maxBlocks: 0
+maxChildBlocks: 0
+maxSiblingBlocks: 0
+minBlocks: 0
+minChildBlocks: 0
+minSiblingBlocks: 0
+name: 'Skyviewer Tour'
+topLevel: true

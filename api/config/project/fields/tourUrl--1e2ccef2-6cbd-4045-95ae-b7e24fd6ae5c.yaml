@@ -1,0 +1,14 @@
+columnSuffix: zfovaxpd
+contentColumnType: string(255)
+fieldGroup: 63ad82eb-8dc4-4d06-b1af-013f2d503a42 # Skyviewer
+handle: tourUrl
+instructions: 'The URL to the landing page of a Skyviewer tour'
+name: 'Tour URL'
+searchable: false
+settings:
+  maxLength: 255
+  types:
+    - url
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Url
