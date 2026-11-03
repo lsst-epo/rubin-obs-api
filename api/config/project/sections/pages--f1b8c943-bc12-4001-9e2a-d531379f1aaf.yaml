@@ -21,6 +21,11 @@ siteSettings:
     hasUrls: true
     template: null
     uriFormat: '{parent.uri}/{slug}'
+  176b2cb3-4493-4c9c-9cea-c4c89b87077e: # PT
+    enabledByDefault: false
+    hasUrls: true
+    template: null
+    uriFormat: '{parent.uri}/{slug}'
   547128fa-4529-4483-9968-66425996b69f: # EN
     enabledByDefault: true
     hasUrls: true
