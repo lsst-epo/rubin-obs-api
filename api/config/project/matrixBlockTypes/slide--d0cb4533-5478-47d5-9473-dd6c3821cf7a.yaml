@@ -3,52 +3,103 @@ fieldLayouts:
   bbf3925e-2c0c-40c1-ba0e-1a171d19acb0:
     tabs:
       -
+        elementCondition: null
         elements:
           -
+            elementCondition: null
             fieldUid: 966a6b65-ca53-48a8-89dc-74983cd624ef # Title
             instructions: null
             label: null
             required: true
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: c35115fd-a9bf-4d6f-9aac-5673cf31b381
+            userCondition: null
             warning: null
             width: 100
           -
-            fieldUid: ddf8dce2-4fa1-43d1-b306-b34d9d97a91b # Content
+            elementCondition: null
+            fieldUid: 88e1efbe-c110-4b62-a1ed-ec17026bc690 # Preview Content
             instructions: null
             label: null
             required: true
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: c6834e33-4134-48ab-98c7-d1a726c3ad73
+            userCondition: null
             warning: null
             width: 100
           -
+            elementCondition: null
+            fieldUid: ddf8dce2-4fa1-43d1-b306-b34d9d97a91b # Primary Content
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 3a696bb0-2bb7-45b4-a1e5-9e88be52be5b
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
             fieldUid: 4294fb85-8029-437c-a2e5-76bcd1a79ef1 # Asset
             instructions: null
             label: null
             required: true
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: 9cf6baf5-970d-4d2b-a986-5df89f85b1fa
+            userCondition: null
             warning: null
             width: 100
         name: Content
-        sortOrder: 1
+        uid: bdeef83b-6095-4f62-9846-6c09ea7ba1d9
+        userCondition: null
 fields:
+  88e1efbe-c110-4b62-a1ed-ec17026bc690: # Preview Content
+    columnSuffix: rtaxmfmi
+    contentColumnType: text
+    fieldGroup: null
+    handle: slidePreviewContent
+    instructions: 'Shows above the "Read more" button'
+    name: 'Preview Content'
+    searchable: false
+    settings:
+      availableTransforms: ''
+      availableVolumes: '*'
+      columnType: text
+      configSelectionMode: choose
+      defaultTransform: ''
+      manualConfig: ''
+      purifierConfig: null
+      purifyHtml: true
+      redactorConfig: Basic.json
+      removeEmptyTags: false
+      removeInlineStyles: false
+      removeNbsp: false
+      showHtmlButtonForNonAdmins: false
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+      uiMode: enlarged
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\redactor\Field
   966a6b65-ca53-48a8-89dc-74983cd624ef: # Title
     columnSuffix: null
     contentColumnType: text
     fieldGroup: null
     handle: slideTitle
-    instructions: ''
+    instructions: null
     name: Title
     searchable: true
     settings:
       byteLimit: null
       charLimit: null
-      code: ''
+      code: false
       columnType: null
-      initialRows: '4'
-      multiline: ''
+      initialRows: 4
+      multiline: false
       placeholder: null
       uiMode: enlarged
     translationKeyFormat: null
@@ -59,58 +110,62 @@ fields:
     contentColumnType: string
     fieldGroup: null
     handle: slideAsset
-    instructions: ''
+    instructions: null
     name: Asset
     searchable: false
     settings:
       allowSelfRelations: false
+      allowSubfolders: false
       allowUploads: true
       allowedKinds:
         - image
+      branchLimit: null
       defaultUploadLocationSource: 'volume:d41cc960-99a4-41a8-a7a6-7891a22e4a93' # Asset Variants
-      defaultUploadLocationSubpath: ''
-      limit: '1'
+      defaultUploadLocationSubpath: null
       localizeRelations: true
+      maintainHierarchy: false
+      maxRelations: 1
+      minRelations: null
       previewMode: full
-      restrictFiles: '1'
+      restrictFiles: true
+      restrictLocation: false
+      restrictedDefaultUploadSubpath: null
+      restrictedLocationSource: 'volume:8e9ec71e-2cf0-4f6a-b856-8976de0ce100' # Heroes
+      restrictedLocationSubpath: null
       selectionLabel: 'Select image'
       showSiteMenu: true
       showUnpermittedFiles: false
       showUnpermittedVolumes: false
-      singleUploadLocationSource: 'volume:8e9ec71e-2cf0-4f6a-b856-8976de0ce100' # Heroes
-      singleUploadLocationSubpath: ''
-      source: null
       sources:
         - 'volume:d41cc960-99a4-41a8-a7a6-7891a22e4a93' # Asset Variants
       targetSiteId: null
-      useSingleFolder: false
       validateRelatedElements: false
       viewMode: large
     translationKeyFormat: null
     translationMethod: site
     type: craft\fields\Assets
-  ddf8dce2-4fa1-43d1-b306-b34d9d97a91b: # Content
+  ddf8dce2-4fa1-43d1-b306-b34d9d97a91b: # Primary Content
     columnSuffix: null
     contentColumnType: text
     fieldGroup: null
     handle: slideContent
-    instructions: ''
-    name: Content
+    instructions: null
+    name: 'Primary Content'
     searchable: true
     settings:
-      availableTransforms: '*'
+      availableTransforms: ''
       availableVolumes: ''
       columnType: text
       configSelectionMode: choose
       defaultTransform: ''
       manualConfig: ''
-      purifierConfig: ''
-      purifyHtml: '1'
-      redactorConfig: Simple.json
-      removeEmptyTags: '1'
-      removeInlineStyles: '1'
-      removeNbsp: '1'
-      showHtmlButtonForNonAdmins: ''
+      purifierConfig: null
+      purifyHtml: true
+      redactorConfig: Basic.json
+      removeEmptyTags: true
+      removeInlineStyles: true
+      removeNbsp: true
+      showHtmlButtonForNonAdmins: false
       showUnpermittedFiles: false
       showUnpermittedVolumes: false
       uiMode: enlarged
