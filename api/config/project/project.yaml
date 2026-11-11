@@ -1,4 +1,4 @@
-dateModified: 1794346402
+dateModified: 1794952361
 email:
   fromEmail: $EMAIL_FROM_ADDRESS
   fromName: $EMAIL_SENDER_NAME
@@ -212,6 +212,7 @@ meta:
     80e0f53f-96b3-43d4-b166-453ac4ac0147: Header # Header
     84c3def8-eed0-4413-9919-181e94e6f7ef: 'Show Dome Status' # Show Dome Status
     88a68ef9-4136-487b-953b-315fd6db9767: 'Alert Count Tooltip Text' # Alert Count Tooltip Text
+    88e1efbe-c110-4b62-a1ed-ec17026bc690: 'Preview Content' # Preview Content
     92a53b2d-879a-4353-a009-d926ead4a2db: 'Logo - Small' # Logo - Small
     95b97a67-eccb-4910-b0e8-77f5860058b4: Link # Link
     99f4a28a-48c3-49ca-bb4a-7acbb49fde30: Pages # Pages
@@ -403,7 +404,7 @@ meta:
     dc44e79d-b126-413d-bc02-0776d6ace2d1: 'Float Direction' # Float Direction
     ddb3efd5-1bce-43e1-9fb9-399ada8a8126: 'Registration Open Date' # Registration Open Date
     ddd08931-8e24-45ce-9944-74b51943cc35: 'Skyviewer Tour' # Skyviewer Tour
-    ddf8dce2-4fa1-43d1-b306-b34d9d97a91b: Content # Content
+    ddf8dce2-4fa1-43d1-b306-b34d9d97a91b: 'Primary Content' # Primary Content
     df7f4ec2-58b2-4c3a-afff-b07f4764fa4b: Location # Location
     df8c8d8a-c7d1-45bf-b551-ef790a5b59ad: Callouts # Callouts
     dfd8564d-5db6-4167-99db-29867a64bc2c: 'Content Order' # Content Order
