@@ -40,6 +40,10 @@ siteSettings:
     hasUrls: true
     template: null
     uriFormat: 'sort-options/{slug}'
+  f07c0c06-b050-40c2-9b75-4ad8eede0117: # PT
+    hasUrls: true
+    template: null
+    uriFormat: 'sort-options/{slug}'
 structure:
   maxLevels: null
   uid: d4c428f8-5094-4d5c-a6b5-5f3a58a35787

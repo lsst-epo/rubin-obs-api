@@ -76,6 +76,10 @@ siteSettings:
     hasUrls: true
     template: null
     uriFormat: 'location/{slug}'
+  f07c0c06-b050-40c2-9b75-4ad8eede0117: # PT
+    hasUrls: true
+    template: null
+    uriFormat: 'location/{slug}'
 structure:
   maxLevels: null
   uid: 649d0ae6-df70-418d-8b61-d74777deb5ee

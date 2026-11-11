@@ -40,6 +40,10 @@ siteSettings:
     hasUrls: true
     template: null
     uriFormat: 'gallery-types/{slug}'
+  f07c0c06-b050-40c2-9b75-4ad8eede0117: # PT
+    hasUrls: true
+    template: null
+    uriFormat: 'gallery-types/{slug}'
 structure:
   maxLevels: 1
   uid: 9f7ba5c0-a9d9-4da3-9418-4b1effe213a5

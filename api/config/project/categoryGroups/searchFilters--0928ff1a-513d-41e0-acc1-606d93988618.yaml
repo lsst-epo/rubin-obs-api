@@ -40,6 +40,10 @@ siteSettings:
     hasUrls: false
     template: null
     uriFormat: null
+  f07c0c06-b050-40c2-9b75-4ad8eede0117: # PT
+    hasUrls: false
+    template: null
+    uriFormat: null
 structure:
   maxLevels: 1
   uid: 6499aa74-c14b-4510-b512-8c1eedf7a594

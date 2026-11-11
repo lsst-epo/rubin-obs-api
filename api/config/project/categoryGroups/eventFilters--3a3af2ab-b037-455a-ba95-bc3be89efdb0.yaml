@@ -40,6 +40,10 @@ siteSettings:
     hasUrls: true
     template: null
     uriFormat: 'event-filters/{slug}'
+  f07c0c06-b050-40c2-9b75-4ad8eede0117: # PT
+    hasUrls: true
+    template: null
+    uriFormat: 'event-filters/{slug}'
 structure:
   maxLevels: 1
   uid: bbf2c1a1-7b33-4b69-926e-2c94ae2116e7

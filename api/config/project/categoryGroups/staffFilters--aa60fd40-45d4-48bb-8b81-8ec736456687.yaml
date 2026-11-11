@@ -40,6 +40,10 @@ siteSettings:
     hasUrls: true
     template: null
     uriFormat: 'staff-filters/{slug}'
+  f07c0c06-b050-40c2-9b75-4ad8eede0117: # PT
+    hasUrls: true
+    template: null
+    uriFormat: 'staff-filters/{slug}'
 structure:
   maxLevels: 1
   uid: 8b634ea7-ae09-4f56-a3f3-19f21864776a
