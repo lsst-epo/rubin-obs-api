@@ -36,6 +36,10 @@ siteSettings:
     hasUrls: true
     template: null
     uriFormat: 'event-filters/{slug}'
+  49bb89c7-fe53-4753-bc65-bca6ba609714: # PT
+    hasUrls: true
+    template: null
+    uriFormat: 'event-filters/{slug}'
   547128fa-4529-4483-9968-66425996b69f: # EN
     hasUrls: true
     template: null
