@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e1aa7380e71973d5536774851a07185b",
+    "content-hash": "edc887b4eb595040f7023d544b70afba",
     "packages": [
         {
             "name": "abraham/twitteroauth",
@@ -2027,56 +2027,6 @@
             "time": "2025-04-15T21:47:20+00:00"
         },
         {
-            "name": "google/cloud-compute",
-            "version": "v1.30.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/googleapis/google-cloud-php-compute.git",
-                "reference": "fe280daa1884ffbf2b33ba97dfd4379153498613"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/googleapis/google-cloud-php-compute/zipball/fe280daa1884ffbf2b33ba97dfd4379153498613",
-                "reference": "fe280daa1884ffbf2b33ba97dfd4379153498613",
-                "shasum": ""
-            },
-            "require": {
-                "google/gax": "^1.36.0",
-                "php": "^8.0"
-            },
-            "require-dev": {
-                "google/cloud-core": "^1.52.7",
-                "phpunit/phpunit": "^9.0"
-            },
-            "suggest": {
-                "ext-protobuf": "Provides a significant increase in throughput over the pure PHP protobuf implementation. See https://cloud.google.com/php/grpc for installation instructions."
-            },
-            "type": "library",
-            "extra": {
-                "component": {
-                    "id": "cloud-compute",
-                    "path": "Compute",
-                    "entry": null,
-                    "target": "googleapis/google-cloud-php-compute.git"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Google\\Cloud\\Compute\\": "src",
-                    "GPBMetadata\\Google\\Cloud\\Compute\\": "metadata"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "Apache-2.0"
-            ],
-            "description": "Compute Client for PHP",
-            "support": {
-                "source": "https://github.com/googleapis/google-cloud-php-compute/tree/v1.30.0"
-            },
-            "time": "2025-04-18T20:49:28+00:00"
-        },
-        {
             "name": "google/cloud-core",
             "version": "v1.62.1",
             "source": {
@@ -3580,68 +3530,6 @@
                 "source": "https://github.com/lsst-epo/canto-dam-assets/"
             },
             "time": "2026-02-11T20:40:12+00:00"
-        },
-        {
-            "name": "lsst-epo/craft-next-js-builds",
-            "version": "2.1.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/lsst-epo/craft-next-js-builds.git",
-                "reference": "9ae713e541f012739edf70f2e4a9bd84291c1185"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/lsst-epo/craft-next-js-builds/zipball/9ae713e541f012739edf70f2e4a9bd84291c1185",
-                "reference": "9ae713e541f012739edf70f2e4a9bd84291c1185",
-                "shasum": ""
-            },
-            "require": {
-                "craftcms/cms": "^4.0.0",
-                "google/cloud-compute": "^1.30.0"
-            },
-            "type": "craft-plugin",
-            "extra": {
-                "name": "Craft Next.js Builds",
-                "handle": "next-builds",
-                "documentationUrl": "???",
-                "changelogUrl": "???",
-                "components": {
-                    "request": "lsst\\nextbuilds\\services\\Request"
-                },
-                "class": "lsst\\nextbuilds\\NextBuilds"
-            },
-            "autoload": {
-                "psr-4": {
-                    "lsst\\nextbuilds\\": "src/"
-                }
-            },
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "LSST EPO",
-                    "homepage": "https://github.com/lsst-epo"
-                },
-                {
-                    "name": "Cast Iron Coding",
-                    "homepage": "https://castironcoding.com/"
-                }
-            ],
-            "description": "Invoke Next.js page builds from Craft.",
-            "keywords": [
-                "cms",
-                "craft",
-                "craft-plugin",
-                "craftcms",
-                "next builds"
-            ],
-            "support": {
-                "docs": "???",
-                "issues": "???",
-                "source": "https://github.com/lsst-epo/craft-next-js-builds/tree/2.1.0"
-            },
-            "time": "2025-07-17T16:29:28+00:00"
         },
         {
             "name": "marc-mabe/php-enum",
