@@ -1,4 +1,4 @@
-dateModified: 1794952361
+dateModified: 1795204791
 email:
   fromEmail: $EMAIL_FROM_ADDRESS
   fromName: $EMAIL_SENDER_NAME
@@ -128,6 +128,7 @@ meta:
     5ca378e1-cfb5-4db9-ad3c-1d6ef36536b7: 'Supporters’ Logos' # Supporters’ Logos
     5cf3400b-e67c-4fe1-8f5c-d07510de42a8: 'Contact Form' # Contact Form
     5d162b5e-8723-4b74-a229-f8a52bd30b1c: 'Staff Tags' # Staff Tags
+    5e5080e0-5f7e-44dc-9fcc-e8304afd8176: 'Inline Slideshow' # Inline Slideshow
     05eead62-7bf9-43e4-a7e8-bcd8f9f77323: Hero # Hero
     5f0325e0-cdba-4181-a634-bd8ebf451723: 'Entry - Page' # Entry - Page
     5fbdc1b8-2968-429d-8f22-e3a9f61e4204: 'Linked Image List' # Linked Image List

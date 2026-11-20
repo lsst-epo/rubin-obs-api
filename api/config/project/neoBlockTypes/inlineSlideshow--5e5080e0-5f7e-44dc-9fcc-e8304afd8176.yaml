@@ -1,0 +1,52 @@
+childBlocks: null
+conditions: null
+description: ''
+enabled: true
+field: 72e5075a-9b06-4674-b040-615f4a6f7b70 # Content Blocks - Pages
+fieldLayouts:
+  fe75c37c-485a-4734-89c1-c70c80209d3e:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 8b8ed305-e6e6-4754-925f-bb07427b2060 # Background Color
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: c48f09a3-1312-4d1d-9c1a-d01c572e2197
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 312197d8-1241-4fac-8422-febdf44e5e9a # Entry - Slideshow
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 264c78d2-2556-477e-a3b5-4e30f571717b
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 1ae00291-50c2-41ae-b6ab-8929e3f517bf
+        userCondition: null
+group: null
+groupChildBlockTypes: true
+handle: inlineSlideshow
+icon: null
+iconFilename: ''
+ignorePermissions: true
+maxBlocks: 0
+maxChildBlocks: 0
+maxSiblingBlocks: 0
+minBlocks: 0
+minChildBlocks: 0
+minSiblingBlocks: 0
+name: 'Inline Slideshow'
+topLevel: true
